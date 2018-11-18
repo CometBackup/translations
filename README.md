@@ -28,15 +28,15 @@ We will include your translation in the next available version of Comet.
 
 *Table last regenerated 2018-11-19*
 
-|Code    |Language            |Total phrases |Translated phrases |Translation percent
-|--------|--------------------|--------------|-------------------|--------------------
-|`-`     |English             |1403          |1403               |100
-|`de_DE` |German              |1403          |698                |49.75
-|`es_ES` |Spanish             |1403          |1231               |87.74
-|`fr_FR` |French              |1403          |1231               |87.74
-|`he_IL` |Hebrew              |1403          |1271               |90.59
-|`hr_HR` |Croatian            |1403          |1233               |87.88
-|`it_IT` |Italian             |1403          |1231               |87.74
-|`nl_NL` |Dutch               |1403          |1231               |87.74
-|`pt_BR` |Portuguese (Brazil) |1403          |1231               |87.74
-|`ru_RU` |Russian             |1403          |701                |49.96
+|Code    |Language              |Words   |Phrases |Translation percent
+|--------|----------------------|--------|--------|---------
+|`-`     |English               |    5340|    1403|     100
+|`de_DE` |German                |    2334|     698|   49.75
+|`es_ES` |Spanish               |    5659|    1231|   87.74
+|`fr_FR` |French                |    5600|    1231|   87.74
+|`he_IL` |Hebrew                |    4812|    1271|   90.59
+|`hr_HR` |Croatian              |    4366|    1233|   87.88
+|`it_IT` |Italian               |    5096|    1231|   87.74
+|`nl_NL` |Dutch                 |    1780|     508|   36.21
+|`pt_BR` |Brazilian Portuguese  |    5332|    1231|   87.74
+|`ru_RU` |Russian               |    2312|     701|   49.96

@@ -14,7 +14,7 @@ Hence we turn to our third option: our customers. You know the industry; you kno
 
 ## How to help
 
-Comet uses the industry-standard Gettext (`.po`) file format for translations. You can edit these files with a free tool like [PoEdit](https://poedit.net/) or even a plain-text editor like Notepad or Vim.
+Comet uses the industry-standard Gettext (`.po`) file format for translations. You can [download the files](https://github.com/CometBackup/translations/archive/master.zip) and edit them with a free tool like [PoEdit](https://poedit.net/) or even a plain-text editor like Notepad or Vim.
 
 You can modify the existing translation for a file (such as `comet.nl_NL.po` for Dutch) or, create a new language translation from the `.pot` file.
 

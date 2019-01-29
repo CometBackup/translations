@@ -26,7 +26,7 @@ We will include your translation in the next available version of Comet.
 
 ## Current translation coverage
 
-*Table last regenerated 2019-01-08*
+*Table last regenerated 2019-01-29*
 
 |Code    |Language              |Words   |Phrases |Translation percent
 |--------|----------------------|--------|--------|---------

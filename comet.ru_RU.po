@@ -68,6 +68,14 @@ msgstr "%d байт"
 msgid "%d byte(s) per second"
 msgstr ""
 
+# . / TRANSLATORS: Email subject (e.g. Success - Cleanup, or Failed - Software Update). 1=status 2=type
+msgid "%[1]s - %[2]s"
+msgstr ""
+
+# . / TRANSLATORS: Email subject (e.g. Success - Backup of "My Data", or Failed - Restore of "My Data"). 1=status 2=type 3=description
+msgid "%[1]s - %[2]s of \"%[3]s\""
+msgstr ""
+
 msgid "&Sign in"
 msgstr "&Войти"
 
@@ -75,6 +83,9 @@ msgid "&Signing in..."
 msgstr "&Авторизация..."
 
 msgid "'Allow administrator to reset password' setting on user accounts"
+msgstr ""
+
+msgid "'Allow administrator to view file names' setting on devices"
 msgstr ""
 
 msgid "'Skip if already running' setting on backup schedules"
@@ -109,6 +120,9 @@ msgstr "При загрузке этой резервной копии возн�
 
 msgid "A warning occurred while loading this Exchange backup."
 msgstr "При загрузке этой резервной копии Exchange возникло предупреждение."
+
+msgid "A warning occurred while loading this MySQL backup."
+msgstr ""
 
 msgid "Abandoned"
 msgstr ""
@@ -340,6 +354,10 @@ msgstr "Все компоненты записывателя"
 
 #, qt-format
 msgid "Allow %1 to reset my password"
+msgstr ""
+
+#, qt-format
+msgid "Allow %1 to view file names"
 msgstr ""
 
 msgid "Allow administrator to reset password"
@@ -1073,6 +1091,9 @@ msgstr "Не удалось найти совместимые продукты �
 msgid "Couldn't find any of the selected directories/files"
 msgstr ""
 
+msgid "Couldn't find any snapshots in the selected Storage Vault"
+msgstr ""
+
 msgid "Couldn't find application component!"
 msgstr "Не удалось найти компонент приложения!"
 
@@ -1204,6 +1225,9 @@ msgid "Couldn't uninstall previous software version."
 msgstr ""
 
 msgid "CPU"
+msgstr ""
+
+msgid "Crashed! Please submit the following report to your support representative."
 msgstr ""
 
 msgid "Create a News Entry"
@@ -1809,6 +1833,9 @@ msgstr ""
 msgid "File"
 msgstr ""
 
+msgid "Filename access"
+msgstr ""
+
 msgid "Files"
 msgstr "Файлы"
 
@@ -1825,6 +1852,9 @@ msgid "Filtering by retention policy..."
 msgstr "Фильтрование по политике хранения..."
 
 msgid "Find bucket users"
+msgstr ""
+
+msgid "Finding available devices..."
 msgstr ""
 
 msgid "Finding backup job(s) in Storage Vault..."
@@ -2021,10 +2051,10 @@ msgstr "Если отличается от домена пользователя
 msgid "If the bucket does not exist, it will be automatically created in the \"US East (N. Virginia)\" region."
 msgstr "Если корзина не существует, она автоматически будет создана в регионе \"US East (N. Virginia)\"."
 
-msgid "If this is your first time configuring Comet Server, please read all the prompts carefully."
+msgid "If the setting is ever disabled, the end-user will need to manually re-enable it inside the app."
 msgstr ""
 
-msgid "If this setting was already disabled by the end-user, the necessary cryptographic material will remain unavailable until the end-user manually re-enables the setting."
+msgid "If this is your first time configuring Comet Server, please read all the prompts carefully."
 msgstr ""
 
 msgid "Image"
@@ -2178,6 +2208,9 @@ msgstr ""
 msgid "IP Whitelist"
 msgstr ""
 
+msgid "Isolation"
+msgstr ""
+
 msgid "Item"
 msgstr "Элемент"
 
@@ -2259,7 +2292,7 @@ msgstr "Последние"
 msgid "Last 24 hours"
 msgstr ""
 
-msgid "Last job"
+msgid "Last backup job"
 msgstr ""
 
 msgid "Last scan"
@@ -2270,6 +2303,9 @@ msgstr "Резервные копии за последние […]"
 
 msgid "Latest"
 msgstr "Самые последние"
+
+msgid "Leave blank to restore the latest backup snapshot"
+msgstr ""
 
 msgid "Limit backup to use only 1 disk thread"
 msgstr ""
@@ -2319,6 +2355,9 @@ msgid "Localization"
 msgstr "Локализация"
 
 msgid "Locations"
+msgstr ""
+
+msgid "Lock tables (InnoDB, MyISAM)"
 msgstr ""
 
 msgid "Lock..."
@@ -2628,13 +2667,22 @@ msgstr ""
 msgid "No files selected for backup."
 msgstr "Для резервного копирования не выбраны файлы."
 
+msgid "No files selected for restore"
+msgstr ""
+
 msgid "no GUI"
+msgstr ""
+
+msgid "No isolation"
 msgstr ""
 
 msgid "No jobs"
 msgstr ""
 
 msgid "No jobs ran on this day"
+msgstr ""
+
+msgid "No live-connected devices are available to browse this job"
 msgstr ""
 
 msgid "No matching records found"
@@ -2686,6 +2734,9 @@ msgid "Not configured"
 msgstr ""
 
 msgid "Not logged in"
+msgstr ""
+
+msgid "Not permitted"
 msgstr ""
 
 msgid "Not ready to perform the specified action."
@@ -2885,6 +2936,9 @@ msgid "Perform a %s to refresh the result data."
 msgstr ""
 
 msgid "Performing a deep verification of Vault content may cause the client to download a lot of data from the Storage Vault."
+msgstr ""
+
+msgid "Permitted"
 msgstr ""
 
 msgid "Persisting Storage Vault status..."
@@ -3446,6 +3500,9 @@ msgstr ""
 
 msgid "Select a custom mysqldump binary..."
 msgstr "Выбрать пользовательскую библиотеку mysqldump..."
+
+msgid "Select a live-connected device to use to retrieve the information:"
+msgstr ""
 
 msgid "Select a Protected Item"
 msgstr "Выбрать Защищенный Элемент"
@@ -4157,6 +4214,9 @@ msgstr ""
 msgid "TOTP"
 msgstr "TOTP"
 
+msgid "Transaction (InnoDB)"
+msgstr ""
+
 msgid "Transfer:"
 msgstr ""
 
@@ -4223,6 +4283,9 @@ msgstr "неизвестно"
 msgid "unknown error"
 msgstr ""
 
+msgid "Unknown MySQL isolation mode"
+msgstr ""
+
 msgid "Unlimited"
 msgstr ""
 
@@ -4242,6 +4305,9 @@ msgstr ""
 #, qt-format
 msgid "Unrecognised source type '%1'"
 msgstr "Неопознанный исходный тип '%1'"
+
+msgid "Unsupported"
+msgstr ""
 
 msgid "Unsupported browser"
 msgstr ""
@@ -4296,6 +4362,9 @@ msgid "Usage"
 msgstr "Использование"
 
 msgid "Use to identify macOS and Android packages in the app store."
+msgstr ""
+
+msgid "Use V2 signing"
 msgstr ""
 
 msgid "Used"

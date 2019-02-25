@@ -68,6 +68,14 @@ msgstr "%d byte(s)"
 msgid "%d byte(s) per second"
 msgstr "%d byte(s) por segundo"
 
+# . / TRANSLATORS: Email subject (e.g. Success - Cleanup, or Failed - Software Update). 1=status 2=type
+msgid "%[1]s - %[2]s"
+msgstr ""
+
+# . / TRANSLATORS: Email subject (e.g. Success - Backup of "My Data", or Failed - Restore of "My Data"). 1=status 2=type 3=description
+msgid "%[1]s - %[2]s of \"%[3]s\""
+msgstr ""
+
 msgid "&Sign in"
 msgstr "&Entrar"
 
@@ -75,6 +83,9 @@ msgid "&Signing in..."
 msgstr "&Entrando..."
 
 msgid "'Allow administrator to reset password' setting on user accounts"
+msgstr ""
+
+msgid "'Allow administrator to view file names' setting on devices"
 msgstr ""
 
 msgid "'Skip if already running' setting on backup schedules"
@@ -109,6 +120,9 @@ msgstr "Aviso gerado ao carregar backup."
 
 msgid "A warning occurred while loading this Exchange backup."
 msgstr "Aviso gerado durante o backup do Exchange."
+
+msgid "A warning occurred while loading this MySQL backup."
+msgstr ""
 
 msgid "Abandoned"
 msgstr "Abandonado"
@@ -341,6 +355,10 @@ msgstr "Todos os componentes do escritor"
 #, qt-format
 msgid "Allow %1 to reset my password"
 msgstr "Permitir que %1 redefina a minha senha"
+
+#, qt-format
+msgid "Allow %1 to view file names"
+msgstr ""
 
 msgid "Allow administrator to reset password"
 msgstr "Permitir que o administrador redefina minha senha"
@@ -1073,6 +1091,9 @@ msgstr "Impossivel encontrar qualquer produto de backup compatível para importa
 msgid "Couldn't find any of the selected directories/files"
 msgstr "Não foi possível encontrar nenhum dos diretórios/arquivos selecionados"
 
+msgid "Couldn't find any snapshots in the selected Storage Vault"
+msgstr ""
+
 msgid "Couldn't find application component!"
 msgstr "Não foi possível encontrar componente de aplicação!"
 
@@ -1205,6 +1226,9 @@ msgstr "Não foi possível desinstalar a versão anterior do software."
 
 msgid "CPU"
 msgstr "CPU"
+
+msgid "Crashed! Please submit the following report to your support representative."
+msgstr ""
 
 msgid "Create a News Entry"
 msgstr "Criar uma notícia"
@@ -1809,6 +1833,9 @@ msgstr ""
 msgid "File"
 msgstr "Ficheiro"
 
+msgid "Filename access"
+msgstr ""
+
 msgid "Files"
 msgstr "Ficheiros"
 
@@ -1826,6 +1853,9 @@ msgstr "Filtrando por política de retenção..."
 
 msgid "Find bucket users"
 msgstr "Encontrar utilizadores do bucket"
+
+msgid "Finding available devices..."
+msgstr ""
 
 msgid "Finding backup job(s) in Storage Vault..."
 msgstr "Procurando trabalho(s) de backup na área de armazenamento..."
@@ -2021,11 +2051,11 @@ msgstr "Se diferente do domínio do utilizador"
 msgid "If the bucket does not exist, it will be automatically created in the \"US East (N. Virginia)\" region."
 msgstr "Se o bucket não existir, será automaticamente criado na região \"Leste dos EUA (Norte da Virgínia)\"."
 
+msgid "If the setting is ever disabled, the end-user will need to manually re-enable it inside the app."
+msgstr ""
+
 msgid "If this is your first time configuring Comet Server, please read all the prompts carefully."
 msgstr "Se esta é sua primeira vez que configura o servidor, leia atentamente todas as instruções."
-
-msgid "If this setting was already disabled by the end-user, the necessary cryptographic material will remain unavailable until the end-user manually re-enables the setting."
-msgstr ""
 
 msgid "Image"
 msgstr "Imagem"
@@ -2178,6 +2208,9 @@ msgstr "Endereço de IP"
 msgid "IP Whitelist"
 msgstr "Lista de permissões de IP"
 
+msgid "Isolation"
+msgstr ""
+
 msgid "Item"
 msgstr "Item"
 
@@ -2259,7 +2292,7 @@ msgstr "Último"
 msgid "Last 24 hours"
 msgstr "Últimas 24 horas"
 
-msgid "Last job"
+msgid "Last backup job"
 msgstr ""
 
 msgid "Last scan"
@@ -2270,6 +2303,9 @@ msgstr "Últimos [...] backups"
 
 msgid "Latest"
 msgstr "Mais recente"
+
+msgid "Leave blank to restore the latest backup snapshot"
+msgstr ""
 
 msgid "Limit backup to use only 1 disk thread"
 msgstr "Limite o backup para usar apenas 1 segmento de disco"
@@ -2320,6 +2356,9 @@ msgstr "Localização"
 
 msgid "Locations"
 msgstr "Localizações"
+
+msgid "Lock tables (InnoDB, MyISAM)"
+msgstr ""
 
 msgid "Lock..."
 msgstr "Bloquear"
@@ -2628,13 +2667,22 @@ msgstr "Nenhum EULA durante a instalação"
 msgid "No files selected for backup."
 msgstr "Nenhum arquivo selecionado para backup."
 
+msgid "No files selected for restore"
+msgstr ""
+
 msgid "no GUI"
+msgstr ""
+
+msgid "No isolation"
 msgstr ""
 
 msgid "No jobs"
 msgstr ""
 
 msgid "No jobs ran on this day"
+msgstr ""
+
+msgid "No live-connected devices are available to browse this job"
 msgstr ""
 
 msgid "No matching records found"
@@ -2686,6 +2734,9 @@ msgid "Not configured"
 msgstr "Não configurado"
 
 msgid "Not logged in"
+msgstr ""
+
+msgid "Not permitted"
 msgstr ""
 
 msgid "Not ready to perform the specified action."
@@ -2886,6 +2937,9 @@ msgstr ""
 
 msgid "Performing a deep verification of Vault content may cause the client to download a lot of data from the Storage Vault."
 msgstr "Executar uam verificação profunda do conteúdo do armazenamento poderá ocasionar um grande volume de downloads da area de armazenamento."
+
+msgid "Permitted"
+msgstr ""
 
 msgid "Persisting Storage Vault status..."
 msgstr "Status da área de armazenamento persistente..."
@@ -3446,6 +3500,9 @@ msgstr "Selecionar %1 para executar backup…"
 
 msgid "Select a custom mysqldump binary..."
 msgstr "Selecionar um binário mysqldump personalizado..."
+
+msgid "Select a live-connected device to use to retrieve the information:"
+msgstr ""
 
 msgid "Select a Protected Item"
 msgstr "Selecionar um Backup"
@@ -4159,6 +4216,9 @@ msgstr "Tamanho total"
 msgid "TOTP"
 msgstr "TOTP"
 
+msgid "Transaction (InnoDB)"
+msgstr ""
+
 msgid "Transfer:"
 msgstr "Transferir:"
 
@@ -4225,6 +4285,9 @@ msgstr "desconhecido"
 msgid "unknown error"
 msgstr "erro desconhecido"
 
+msgid "Unknown MySQL isolation mode"
+msgstr ""
+
 msgid "Unlimited"
 msgstr "Ilimitado"
 
@@ -4244,6 +4307,9 @@ msgstr "Tipo de frequência não reconhecida"
 #, qt-format
 msgid "Unrecognised source type '%1'"
 msgstr "Tipo de fonte não reconhecida '%1'"
+
+msgid "Unsupported"
+msgstr ""
 
 msgid "Unsupported browser"
 msgstr "Navegador não suportado"
@@ -4298,6 +4364,9 @@ msgid "Usage"
 msgstr "Uso"
 
 msgid "Use to identify macOS and Android packages in the app store."
+msgstr ""
+
+msgid "Use V2 signing"
 msgstr ""
 
 msgid "Used"

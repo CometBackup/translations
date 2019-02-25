@@ -68,6 +68,14 @@ msgstr "%d bit(s)"
 msgid "%d byte(s) per second"
 msgstr "%d bit(s) por segundo"
 
+# . / TRANSLATORS: Email subject (e.g. Success - Cleanup, or Failed - Software Update). 1=status 2=type
+msgid "%[1]s - %[2]s"
+msgstr ""
+
+# . / TRANSLATORS: Email subject (e.g. Success - Backup of "My Data", or Failed - Restore of "My Data"). 1=status 2=type 3=description
+msgid "%[1]s - %[2]s of \"%[3]s\""
+msgstr ""
+
 msgid "&Sign in"
 msgstr "&Registrarse"
 
@@ -76,6 +84,9 @@ msgstr "&Registrándose"
 
 msgid "'Allow administrator to reset password' setting on user accounts"
 msgstr "Permitir que el administrador restablezca la configuración de contraseña en las cuentas de usuario"
+
+msgid "'Allow administrator to view file names' setting on devices"
+msgstr ""
 
 msgid "'Skip if already running' setting on backup schedules"
 msgstr "Saltar si ya se está ejecutando la configuración en los horarios de las copias de seguridad"
@@ -109,6 +120,9 @@ msgstr "Una advertencia ocurrió cuando cargaba esta copia de seguridad."
 
 msgid "A warning occurred while loading this Exchange backup."
 msgstr "Una advertencia ocurrió cuando cargaba esta copia de seguridad de Exchange."
+
+msgid "A warning occurred while loading this MySQL backup."
+msgstr ""
 
 msgid "Abandoned"
 msgstr "Abandonado"
@@ -341,6 +355,10 @@ msgstr "Todos los componentes de escritor"
 #, qt-format
 msgid "Allow %1 to reset my password"
 msgstr "Permitir a %1 restaurar mi contraseña"
+
+#, qt-format
+msgid "Allow %1 to view file names"
+msgstr ""
 
 msgid "Allow administrator to reset password"
 msgstr "Permitir al administrador restaurar contraseña"
@@ -1073,6 +1091,9 @@ msgstr "No se encontraron productos de copia de seguridad compatibles para impor
 msgid "Couldn't find any of the selected directories/files"
 msgstr "No se pudo encontrar ninguno de los directorios/archivos seleccionados"
 
+msgid "Couldn't find any snapshots in the selected Storage Vault"
+msgstr ""
+
 msgid "Couldn't find application component!"
 msgstr "¡No pudo encontrar el componente de la aplicación!"
 
@@ -1205,6 +1226,9 @@ msgstr "No se pudo desinstalar la versión anterior del software."
 
 msgid "CPU"
 msgstr "CPU"
+
+msgid "Crashed! Please submit the following report to your support representative."
+msgstr ""
 
 msgid "Create a News Entry"
 msgstr "Crear una entrada de noticias"
@@ -1809,6 +1833,9 @@ msgstr "FIDO U2F"
 msgid "File"
 msgstr "Archivo"
 
+msgid "Filename access"
+msgstr ""
+
 msgid "Files"
 msgstr "Archivos"
 
@@ -1826,6 +1853,9 @@ msgstr "Filtrar por política de retención..."
 
 msgid "Find bucket users"
 msgstr "Encontrar usuarios de cubo"
+
+msgid "Finding available devices..."
+msgstr ""
 
 msgid "Finding backup job(s) in Storage Vault..."
 msgstr "Encontrando trabajos de copia de seguridad en la bóveda de almacenamiento..."
@@ -2021,11 +2051,11 @@ msgstr "Si es diferente del dominio del usuario"
 msgid "If the bucket does not exist, it will be automatically created in the \"US East (N. Virginia)\" region."
 msgstr "Si el cubo no existe, se creará automáticamente en la región \"US este (N. Virginia)\"."
 
+msgid "If the setting is ever disabled, the end-user will need to manually re-enable it inside the app."
+msgstr ""
+
 msgid "If this is your first time configuring Comet Server, please read all the prompts carefully."
 msgstr "Si es la primera vez que configura Comet Server, lea atentamente todas las instrucciones."
-
-msgid "If this setting was already disabled by the end-user, the necessary cryptographic material will remain unavailable until the end-user manually re-enables the setting."
-msgstr "Si este ajuste ya fue desactivado por el usuario final, el material criptográfico necesario seguirá sin estar disponible hasta que el usuario final vuelva a activar manualmente el ajuste."
 
 msgid "Image"
 msgstr "Imagen"
@@ -2178,6 +2208,9 @@ msgstr "Dirección IP"
 msgid "IP Whitelist"
 msgstr "Lista blanca IP"
 
+msgid "Isolation"
+msgstr ""
+
 msgid "Item"
 msgstr "Elemento"
 
@@ -2259,8 +2292,8 @@ msgstr "Última"
 msgid "Last 24 hours"
 msgstr "Últimas 24 horas"
 
-msgid "Last job"
-msgstr "Ultimo trabajo"
+msgid "Last backup job"
+msgstr "Ultimo trabajo de copia de seguridad"
 
 msgid "Last scan"
 msgstr "Último escaneo"
@@ -2270,6 +2303,9 @@ msgstr "Últimas [...] copias de seguridad"
 
 msgid "Latest"
 msgstr "Última"
+
+msgid "Leave blank to restore the latest backup snapshot"
+msgstr ""
 
 msgid "Limit backup to use only 1 disk thread"
 msgstr "Limitar la copia de seguridad a utilizar sólo 1 rosca de disco"
@@ -2320,6 +2356,9 @@ msgstr "Localización"
 
 msgid "Locations"
 msgstr "Localizaciones"
+
+msgid "Lock tables (InnoDB, MyISAM)"
+msgstr ""
 
 msgid "Lock..."
 msgstr "Bloquear"
@@ -2628,14 +2667,23 @@ msgstr "Sin CLUF durante la instalación"
 msgid "No files selected for backup."
 msgstr "No se han seleccionado archivos para copia de seguridad."
 
+msgid "No files selected for restore"
+msgstr ""
+
 msgid "no GUI"
 msgstr "no GUI"
+
+msgid "No isolation"
+msgstr ""
 
 msgid "No jobs"
 msgstr "No hay trabajos"
 
 msgid "No jobs ran on this day"
 msgstr "Ningún trabajo se ejecutó en este día"
+
+msgid "No live-connected devices are available to browse this job"
+msgstr ""
 
 msgid "No matching records found"
 msgstr "No se ha encontrado ninguna coincidencia de registros"
@@ -2687,6 +2735,9 @@ msgstr "No configurado"
 
 msgid "Not logged in"
 msgstr "No ha iniciado sesión"
+
+msgid "Not permitted"
+msgstr ""
 
 msgid "Not ready to perform the specified action."
 msgstr "No está listo para realizar la acción especificada."
@@ -2886,6 +2937,9 @@ msgstr "Realice un %s para actualizar los datos del resultado."
 
 msgid "Performing a deep verification of Vault content may cause the client to download a lot of data from the Storage Vault."
 msgstr "Realizar una verificación profunda del contenido de la Bóveda puede hacer que el cliente descargue una gran cantidad de datos de la Bóveda de almacenamiento."
+
+msgid "Permitted"
+msgstr ""
 
 msgid "Persisting Storage Vault status..."
 msgstr "Estado persistente de la bóveda de almacenamiento..."
@@ -3446,6 +3500,9 @@ msgstr "Seleccionar %1 para hacer copia de seguridad..."
 
 msgid "Select a custom mysqldump binary..."
 msgstr "Seleccionar un mysqldump personalizado binario..."
+
+msgid "Select a live-connected device to use to retrieve the information:"
+msgstr ""
 
 msgid "Select a Protected Item"
 msgstr "Seleccionar un elemento protegido"
@@ -4161,6 +4218,9 @@ msgstr "Tamaño total"
 msgid "TOTP"
 msgstr "TOTP"
 
+msgid "Transaction (InnoDB)"
+msgstr ""
+
 msgid "Transfer:"
 msgstr "Transferencia:"
 
@@ -4227,6 +4287,9 @@ msgstr "Desconocido"
 msgid "unknown error"
 msgstr "error desconocido"
 
+msgid "Unknown MySQL isolation mode"
+msgstr ""
+
 msgid "Unlimited"
 msgstr "Ilimitado"
 
@@ -4246,6 +4309,9 @@ msgstr "No reconocido tipo de origen"
 #, qt-format
 msgid "Unrecognised source type '%1'"
 msgstr "No reconocido tipo de origen '%1'"
+
+msgid "Unsupported"
+msgstr ""
 
 msgid "Unsupported browser"
 msgstr "Navegador no reconocido"
@@ -4301,6 +4367,9 @@ msgstr "Uso"
 
 msgid "Use to identify macOS and Android packages in the app store."
 msgstr "Utilícelo para identificar los paquetes macOS y Android en la tienda de aplicaciones."
+
+msgid "Use V2 signing"
+msgstr ""
 
 msgid "Used"
 msgstr "Usado"

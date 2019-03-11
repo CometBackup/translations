@@ -421,6 +421,10 @@ msgid "Another backup job is already running for this same Protected Item and St
 msgstr "Outro trabalho de backup já está sendo executado para este mesmo item protegido e área de armazenamento, pulando..."
 
 #, c-format
+msgid "Another job <%s> is no longer running, but we failed to inform the server: %s"
+msgstr ""
+
+#, c-format
 msgid "Another version of %s is already installed"
 msgstr "Outra versão de %s já está instalada"
 
@@ -752,9 +756,6 @@ msgstr ""
 msgid "Bulk Update"
 msgstr "Atualização em massa"
 
-msgid "bytes"
-msgstr ""
-
 msgid "Calculating size..."
 msgstr "Calculando tamanho..."
 
@@ -860,6 +861,9 @@ msgstr "Escolha os itens..."
 msgid "Choose tables..."
 msgstr "Escolha as tabelas..."
 
+msgid "Choose VMs..."
+msgstr ""
+
 msgid "Choose when the backup job should run"
 msgstr "Escolher quando o trabalho de backup deve ser executado"
 
@@ -959,6 +963,9 @@ msgstr "Componente"
 
 msgid "Compression"
 msgstr "Compressão"
+
+msgid "Configure external authentication sources for administrator accounts:"
+msgstr ""
 
 msgid "Configure how many older backup snapshots to keep"
 msgstr "Configurar quantos backup de snapshots mais antigos devem ser mantidos"
@@ -1268,10 +1275,6 @@ msgstr "Mysqldump personalizado"
 
 msgid "Custom mysqldump path"
 msgstr "Caminho mysqldump personalizado"
-
-#, qt-format
-msgid "Custom mysqldump: '%1'"
-msgstr "Mysqldump personalizado: '%1'"
 
 msgid "Custom path to known_hosts file..."
 msgstr "Caminho personalizado para o arquivo known_hosts…"
@@ -1737,6 +1740,9 @@ msgstr "Organização do Exchange"
 msgid "Exclude"
 msgstr "Excluir"
 
+msgid "Exclude file..."
+msgstr ""
+
 msgid "Exclude regex"
 msgstr "Excluir regex"
 
@@ -1748,6 +1754,18 @@ msgstr "Exportar"
 
 msgid "Export configuration"
 msgstr "Exportar configuração"
+
+msgid "External"
+msgstr ""
+
+msgid "External authentication sources"
+msgstr ""
+
+msgid "External Source"
+msgstr ""
+
+msgid "Externally managed"
+msgstr ""
 
 msgid "Extra data (optional)"
 msgstr "Dados extras (opcional)"
@@ -1771,6 +1789,10 @@ msgstr "Falha ao procurar componentes do VSS."
 
 msgid "Failed to change password."
 msgstr "Falha ao mudar senha."
+
+#, c-format
+msgid "Failed to check for other running jobs locally (%s), deferring to server"
+msgstr ""
 
 msgid "Failed to communicate with selected VSS writer."
 msgstr "Falha na comunicação com o gravador VSS selecionado."
@@ -1961,6 +1983,9 @@ msgstr "Ir para a ID do trabalho..."
 msgid "Google Cloud Storage"
 msgstr "Google Cloud Storage"
 
+msgid "Hashed"
+msgstr ""
+
 msgid "Hashed with %s"
 msgstr ""
 
@@ -2018,7 +2043,16 @@ msgstr "Horas"
 msgid "hours"
 msgstr ""
 
+msgid "HTML"
+msgstr ""
+
+msgid "HTTP"
+msgstr ""
+
 msgid "http://"
+msgstr ""
+
+msgid "HTTPS"
 msgstr ""
 
 msgid "https://"
@@ -2102,7 +2136,8 @@ msgstr "Informação"
 msgid "Initialised"
 msgstr "Inicializado"
 
-msgid "Initialized Storage Vault (%v)"
+#, c-format
+msgid "Initialized Storage Vault (%s)"
 msgstr ""
 
 msgid "Installation log:"
@@ -2117,6 +2152,9 @@ msgstr "Nome da instância"
 
 msgid "Interface"
 msgstr "Interface"
+
+msgid "Internal"
+msgstr ""
 
 #, c-format
 msgid "Interrupting backup job (exceeded Storage Vault quota of %s)"
@@ -2303,6 +2341,24 @@ msgstr "Últimos [...] backups"
 
 msgid "Latest"
 msgstr "Mais recente"
+
+msgid "LDAP"
+msgstr ""
+
+msgid "LDAP Bind password"
+msgstr ""
+
+msgid "LDAP Bind user"
+msgstr ""
+
+msgid "LDAP Search DN"
+msgstr ""
+
+msgid "LDAP Search Filter"
+msgstr ""
+
+msgid "LDAPS"
+msgstr ""
 
 msgid "Leave blank to restore the latest backup snapshot"
 msgstr ""
@@ -2576,6 +2632,9 @@ msgstr "Interface de rede"
 msgid "Network share"
 msgstr ""
 
+msgid "New account permissions"
+msgstr ""
+
 msgid "New Bucket"
 msgstr "Novo bucket"
 
@@ -2841,9 +2900,6 @@ msgstr "Operação concluída (%s)."
 msgid "Operation completed successfully."
 msgstr "Operação concluída com sucesso."
 
-msgid "Option"
-msgstr "Opção"
-
 msgid "Optional"
 msgstr "Opcional"
 
@@ -3051,6 +3107,9 @@ msgstr "Evitar visualizar e editar as configurações do servidor"
 
 msgid "Preventing snapshot re-use"
 msgstr "Evitar a reutilização do snapshot"
+
+msgid "Preview"
+msgstr ""
 
 msgid "Previous"
 msgstr "Anteriores"
@@ -3537,6 +3596,9 @@ msgstr "Selecionar dispositivos"
 msgid "Select Exchange EDB"
 msgstr "Selecionar Exchange EDB"
 
+msgid "Select file..."
+msgstr ""
+
 msgid "Select files and folders to back up:"
 msgstr "Selecionar arquivos e pastas para backup:"
 
@@ -3747,6 +3809,9 @@ msgstr "ordenar coluna ascendente"
 msgid "sort column descending"
 msgstr "ordenar coluna descendente"
 
+msgid "Source"
+msgstr ""
+
 msgid "Source identifier (optional)"
 msgstr "Identificador da fonte (opcional)"
 
@@ -3896,6 +3961,9 @@ msgstr ""
 msgid "Sunday"
 msgstr "Domingo"
 
+msgid "Supported macros:"
+msgstr ""
+
 msgid "Suspend"
 msgstr "Suspender"
 
@@ -3962,6 +4030,12 @@ msgstr "Arquivos de texto (*.txt)"
 #, c-format
 msgid "The %s encountered a problem (%s)"
 msgstr "O %s encontrou um problema (%s)"
+
+msgid "The '%s' feature is not supported by your web browser"
+msgstr ""
+
+msgid "The 'System Writer' is missing. System State backups cannot be performed."
+msgstr ""
 
 msgid "The 'Windows Server Backup' role is not present on this server."
 msgstr "A função 'Backup do Windows Server' não está presente neste servidor."

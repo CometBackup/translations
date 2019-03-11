@@ -421,6 +421,10 @@ msgid "Another backup job is already running for this same Protected Item and St
 msgstr "עוד עבודה גיבוי כבר פועלת עבור אותו פריט מוגן וכספת אחסון, מדלג ..."
 
 #, c-format
+msgid "Another job <%s> is no longer running, but we failed to inform the server: %s"
+msgstr ""
+
+#, c-format
 msgid "Another version of %s is already installed"
 msgstr "גירסה חדשה של %s כבר מותקנת"
 
@@ -750,9 +754,6 @@ msgstr "עדכון גורף"
 msgid "Bulk Update"
 msgstr "עדכון גורף"
 
-msgid "bytes"
-msgstr ""
-
 msgid "Calculating size..."
 msgstr "מחשב גודל..."
 
@@ -858,6 +859,9 @@ msgstr "בחירת פריטים..."
 msgid "Choose tables..."
 msgstr "בחירת טבלאות..."
 
+msgid "Choose VMs..."
+msgstr ""
+
 msgid "Choose when the backup job should run"
 msgstr "בחר מתי יש לבצע את משימת הגיבוי"
 
@@ -957,6 +961,9 @@ msgstr "רכיב"
 
 msgid "Compression"
 msgstr "דְחִיסָה"
+
+msgid "Configure external authentication sources for administrator accounts:"
+msgstr ""
 
 msgid "Configure how many older backup snapshots to keep"
 msgstr "הגדר כמה תמונות גיבוי ישנות יותר לשמור"
@@ -1266,10 +1273,6 @@ msgstr "מותאם אישית mysqldump"
 
 msgid "Custom mysqldump path"
 msgstr "נתיב mysqldump מותאם אישית"
-
-#, qt-format
-msgid "Custom mysqldump: '%1'"
-msgstr "מותאם אישית:  mysqldump: '%1'"
 
 msgid "Custom path to known_hosts file..."
 msgstr "נתיב מותאם לקובץ known_hosts..."
@@ -1733,6 +1736,9 @@ msgstr "ארגון Exchange "
 msgid "Exclude"
 msgstr "אל תכלול"
 
+msgid "Exclude file..."
+msgstr ""
+
 msgid "Exclude regex"
 msgstr "אל תכלול regex"
 
@@ -1744,6 +1750,18 @@ msgstr "יְצוּא"
 
 msgid "Export configuration"
 msgstr "יצא את התצורה"
+
+msgid "External"
+msgstr ""
+
+msgid "External authentication sources"
+msgstr ""
+
+msgid "External Source"
+msgstr ""
+
+msgid "Externally managed"
+msgstr ""
 
 msgid "Extra data (optional)"
 msgstr "מידע נוסף (אופציונלי)"
@@ -1767,6 +1785,10 @@ msgstr "כשלון בדפדוף ברכיבי VSS."
 
 msgid "Failed to change password."
 msgstr "שינוי הסיסמה נכשל."
+
+#, c-format
+msgid "Failed to check for other running jobs locally (%s), deferring to server"
+msgstr ""
 
 msgid "Failed to communicate with selected VSS writer."
 msgstr "כשלון בתקשורת עם כתב VSS הנבחר."
@@ -1957,6 +1979,9 @@ msgstr "עבור אל מזהה עבודה ..."
 msgid "Google Cloud Storage"
 msgstr "אחסון בענן גוגל"
 
+msgid "Hashed"
+msgstr ""
+
 msgid "Hashed with %s"
 msgstr ""
 
@@ -2014,7 +2039,16 @@ msgstr "שעות"
 msgid "hours"
 msgstr ""
 
+msgid "HTML"
+msgstr ""
+
+msgid "HTTP"
+msgstr ""
+
 msgid "http://"
+msgstr ""
+
+msgid "HTTPS"
 msgstr ""
 
 msgid "https://"
@@ -2098,7 +2132,8 @@ msgstr "מידע"
 msgid "Initialised"
 msgstr "אותחל"
 
-msgid "Initialized Storage Vault (%v)"
+#, c-format
+msgid "Initialized Storage Vault (%s)"
 msgstr ""
 
 msgid "Installation log:"
@@ -2113,6 +2148,9 @@ msgstr "שם אינסטנס"
 
 msgid "Interface"
 msgstr "מִמְשָׁק"
+
+msgid "Internal"
+msgstr ""
 
 #, c-format
 msgid "Interrupting backup job (exceeded Storage Vault quota of %s)"
@@ -2299,6 +2337,24 @@ msgstr "גיבויים [...] אחרונים"
 
 msgid "Latest"
 msgstr "אחרון"
+
+msgid "LDAP"
+msgstr ""
+
+msgid "LDAP Bind password"
+msgstr ""
+
+msgid "LDAP Bind user"
+msgstr ""
+
+msgid "LDAP Search DN"
+msgstr ""
+
+msgid "LDAP Search Filter"
+msgstr ""
+
+msgid "LDAPS"
+msgstr ""
 
 msgid "Leave blank to restore the latest backup snapshot"
 msgstr ""
@@ -2572,6 +2628,9 @@ msgstr "ממשק רשת"
 msgid "Network share"
 msgstr ""
 
+msgid "New account permissions"
+msgstr ""
+
 msgid "New Bucket"
 msgstr "דלי חדש"
 
@@ -2837,9 +2896,6 @@ msgstr "פעולה הושלמה (%s)."
 msgid "Operation completed successfully."
 msgstr "פעולה הושלמה בהצלחה."
 
-msgid "Option"
-msgstr "אפשרות"
-
 msgid "Optional"
 msgstr "אופציונלי"
 
@@ -3047,6 +3103,9 @@ msgstr "מנע הצגת הגדרות ועריכת הגדרות של השרת"
 
 msgid "Preventing snapshot re-use"
 msgstr "מניעת שימוש חוזר בצילום"
+
+msgid "Preview"
+msgstr ""
 
 msgid "Previous"
 msgstr "קודם"
@@ -3533,6 +3592,9 @@ msgstr "בחר התקנים"
 msgid "Select Exchange EDB"
 msgstr "בחר Exchange EDB"
 
+msgid "Select file..."
+msgstr ""
+
 msgid "Select files and folders to back up:"
 msgstr "בכירת קבצים ותיקיות לגיבוי:"
 
@@ -3743,6 +3805,9 @@ msgstr "מיון עמודות בעלייה"
 msgid "sort column descending"
 msgstr "מיון עמודות בירידה"
 
+msgid "Source"
+msgstr ""
+
 msgid "Source identifier (optional)"
 msgstr "מזהה מקור (אופציונלי)"
 
@@ -3892,6 +3957,9 @@ msgstr "שמש"
 msgid "Sunday"
 msgstr "יום ראשון"
 
+msgid "Supported macros:"
+msgstr ""
+
 msgid "Suspend"
 msgstr "לְהַשְׁעוֹת"
 
@@ -3958,6 +4026,12 @@ msgstr "קבצי טקסט (txt.*)"
 #, c-format
 msgid "The %s encountered a problem (%s)"
 msgstr "%s נתקל בבעיה ( %s )"
+
+msgid "The '%s' feature is not supported by your web browser"
+msgstr ""
+
+msgid "The 'System Writer' is missing. System State backups cannot be performed."
+msgstr ""
 
 msgid "The 'Windows Server Backup' role is not present on this server."
 msgstr "תפקיד 'Window Server Backup' לא נמצא בשרת זה."

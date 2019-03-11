@@ -421,6 +421,10 @@ msgid "Another backup job is already running for this same Protected Item and St
 msgstr "Drugi backup zadata je već pokrenut za istu Zaštićenu stavku i spremnik pohrane, preskačem..."
 
 #, c-format
+msgid "Another job <%s> is no longer running, but we failed to inform the server: %s"
+msgstr ""
+
+#, c-format
 msgid "Another version of %s is already installed"
 msgstr "Druga verzija %s je već instalirana"
 
@@ -752,9 +756,6 @@ msgstr "Grupni Update"
 msgid "Bulk Update"
 msgstr "Grupni Update"
 
-msgid "bytes"
-msgstr ""
-
 msgid "Calculating size..."
 msgstr "Izračunavam veličinu..."
 
@@ -860,6 +861,9 @@ msgstr "Odaberi stavke..."
 msgid "Choose tables..."
 msgstr "Odaberi tablice..."
 
+msgid "Choose VMs..."
+msgstr ""
+
 msgid "Choose when the backup job should run"
 msgstr "Odaberi kada backup zadatak mora biti pokrenut"
 
@@ -959,6 +963,9 @@ msgstr "Komponenta"
 
 msgid "Compression"
 msgstr "Kompresija"
+
+msgid "Configure external authentication sources for administrator accounts:"
+msgstr ""
 
 msgid "Configure how many older backup snapshots to keep"
 msgstr "Konfiguriraj koliko starih backup snapshota treba čuvati"
@@ -1268,10 +1275,6 @@ msgstr "Prilagođen mysqldump"
 
 msgid "Custom mysqldump path"
 msgstr "Putanja prilagođenog mysqldump-a"
-
-#, qt-format
-msgid "Custom mysqldump: '%1'"
-msgstr "Prilagođen mysqldump: '%1'"
 
 msgid "Custom path to known_hosts file..."
 msgstr "Prilagođena putanja do knwon_hosts datoteke..."
@@ -1737,6 +1740,9 @@ msgstr "Exchange Organizacija"
 msgid "Exclude"
 msgstr "Izostavi"
 
+msgid "Exclude file..."
+msgstr ""
+
 msgid "Exclude regex"
 msgstr "Izostavi regex"
 
@@ -1748,6 +1754,18 @@ msgstr "Izvoz"
 
 msgid "Export configuration"
 msgstr "Izvoz konfiguracije"
+
+msgid "External"
+msgstr ""
+
+msgid "External authentication sources"
+msgstr ""
+
+msgid "External Source"
+msgstr ""
+
+msgid "Externally managed"
+msgstr ""
 
 msgid "Extra data (optional)"
 msgstr "Dodatni podaci (opcionalno)"
@@ -1771,6 +1789,10 @@ msgstr "Neuspješno pretraživanje VSS komponenata."
 
 msgid "Failed to change password."
 msgstr "Neuspješna izmjena lozinke."
+
+#, c-format
+msgid "Failed to check for other running jobs locally (%s), deferring to server"
+msgstr ""
 
 msgid "Failed to communicate with selected VSS writer."
 msgstr "Neuspješno komuniciranje sa odabranim VSS writerom."
@@ -1961,6 +1983,9 @@ msgstr "Idi na zadatak ID..."
 msgid "Google Cloud Storage"
 msgstr "Google Cloud Storage"
 
+msgid "Hashed"
+msgstr ""
+
 msgid "Hashed with %s"
 msgstr ""
 
@@ -2018,7 +2043,16 @@ msgstr "Sati"
 msgid "hours"
 msgstr ""
 
+msgid "HTML"
+msgstr ""
+
+msgid "HTTP"
+msgstr ""
+
 msgid "http://"
+msgstr ""
+
+msgid "HTTPS"
 msgstr ""
 
 msgid "https://"
@@ -2102,7 +2136,8 @@ msgstr "Info"
 msgid "Initialised"
 msgstr "Inicjaliziran"
 
-msgid "Initialized Storage Vault (%v)"
+#, c-format
+msgid "Initialized Storage Vault (%s)"
 msgstr ""
 
 msgid "Installation log:"
@@ -2117,6 +2152,9 @@ msgstr "Naziv instance"
 
 msgid "Interface"
 msgstr "Sučelje"
+
+msgid "Internal"
+msgstr ""
 
 #, c-format
 msgid "Interrupting backup job (exceeded Storage Vault quota of %s)"
@@ -2303,6 +2341,24 @@ msgstr "Posljednji [...] backup"
 
 msgid "Latest"
 msgstr "Najnoviji"
+
+msgid "LDAP"
+msgstr ""
+
+msgid "LDAP Bind password"
+msgstr ""
+
+msgid "LDAP Bind user"
+msgstr ""
+
+msgid "LDAP Search DN"
+msgstr ""
+
+msgid "LDAP Search Filter"
+msgstr ""
+
+msgid "LDAPS"
+msgstr ""
 
 msgid "Leave blank to restore the latest backup snapshot"
 msgstr ""
@@ -2576,6 +2632,9 @@ msgstr "Novo Sučelje"
 msgid "Network share"
 msgstr ""
 
+msgid "New account permissions"
+msgstr ""
+
 msgid "New Bucket"
 msgstr "Novi Bucket"
 
@@ -2841,9 +2900,6 @@ msgstr "Operacija završena (%s)."
 msgid "Operation completed successfully."
 msgstr "Operacija uspješno izvršena."
 
-msgid "Option"
-msgstr "Opcija"
-
 msgid "Optional"
 msgstr "Opcionalno"
 
@@ -3051,6 +3107,9 @@ msgstr "Spriječiti pregled i izmjenu postavki servera"
 
 msgid "Preventing snapshot re-use"
 msgstr "Spriječiti ponovno korištenje snapshota"
+
+msgid "Preview"
+msgstr ""
 
 msgid "Previous"
 msgstr "Prethodni"
@@ -3537,6 +3596,9 @@ msgstr "Odaberi uređaje"
 msgid "Select Exchange EDB"
 msgstr "Odaberi Exchange EDB"
 
+msgid "Select file..."
+msgstr ""
+
 msgid "Select files and folders to back up:"
 msgstr "Odaberi datoteke i mape koje će se backupirati:"
 
@@ -3747,6 +3809,9 @@ msgstr "poredaj kolone uzlazno"
 msgid "sort column descending"
 msgstr "poredaj kolone silazno"
 
+msgid "Source"
+msgstr ""
+
 msgid "Source identifier (optional)"
 msgstr "Identificator izvora (opcionalno)"
 
@@ -3896,6 +3961,9 @@ msgstr ""
 msgid "Sunday"
 msgstr "Nedjelja"
 
+msgid "Supported macros:"
+msgstr ""
+
 msgid "Suspend"
 msgstr "Suspendiraj"
 
@@ -3962,6 +4030,12 @@ msgstr "Tekstualna datoteka (*.txt)"
 #, c-format
 msgid "The %s encountered a problem (%s)"
 msgstr "%s je naišao na problem (%s)"
+
+msgid "The '%s' feature is not supported by your web browser"
+msgstr ""
+
+msgid "The 'System Writer' is missing. System State backups cannot be performed."
+msgstr ""
 
 msgid "The 'Windows Server Backup' role is not present on this server."
 msgstr "Uloga 'Windows Server Backup' nije prisutna na ovom serveru."

@@ -421,6 +421,10 @@ msgid "Another backup job is already running for this same Protected Item and St
 msgstr ""
 
 #, c-format
+msgid "Another job <%s> is no longer running, but we failed to inform the server: %s"
+msgstr ""
+
+#, c-format
 msgid "Another version of %s is already installed"
 msgstr ""
 
@@ -752,9 +756,6 @@ msgstr ""
 msgid "Bulk Update"
 msgstr ""
 
-msgid "bytes"
-msgstr ""
-
 msgid "Calculating size..."
 msgstr "Подсчет размера..."
 
@@ -860,6 +861,9 @@ msgstr "Выбрать элементы..."
 msgid "Choose tables..."
 msgstr "Выбрать таблицы..."
 
+msgid "Choose VMs..."
+msgstr ""
+
 msgid "Choose when the backup job should run"
 msgstr ""
 
@@ -958,6 +962,9 @@ msgid "Component"
 msgstr "Компонент"
 
 msgid "Compression"
+msgstr ""
+
+msgid "Configure external authentication sources for administrator accounts:"
 msgstr ""
 
 msgid "Configure how many older backup snapshots to keep"
@@ -1268,10 +1275,6 @@ msgstr ""
 
 msgid "Custom mysqldump path"
 msgstr ""
-
-#, qt-format
-msgid "Custom mysqldump: '%1'"
-msgstr "Пользовательский mysqldump: '%1'"
 
 msgid "Custom path to known_hosts file..."
 msgstr "Пользовательский путь к файлу known_hosts..."
@@ -1737,6 +1740,9 @@ msgstr "Организация Exchange"
 msgid "Exclude"
 msgstr "Исключить"
 
+msgid "Exclude file..."
+msgstr ""
+
 msgid "Exclude regex"
 msgstr "Исключить регулярное выражение"
 
@@ -1748,6 +1754,18 @@ msgstr ""
 
 msgid "Export configuration"
 msgstr "Конфигурация экспортирования"
+
+msgid "External"
+msgstr ""
+
+msgid "External authentication sources"
+msgstr ""
+
+msgid "External Source"
+msgstr ""
+
+msgid "Externally managed"
+msgstr ""
 
 msgid "Extra data (optional)"
 msgstr "Дополнительные данные (опционально)"
@@ -1770,6 +1788,10 @@ msgid "Failed to browse VSS components."
 msgstr "Не удалось выполнить обзор компонентов VSS."
 
 msgid "Failed to change password."
+msgstr ""
+
+#, c-format
+msgid "Failed to check for other running jobs locally (%s), deferring to server"
 msgstr ""
 
 msgid "Failed to communicate with selected VSS writer."
@@ -1961,6 +1983,9 @@ msgstr ""
 msgid "Google Cloud Storage"
 msgstr "Облачное хранилище Google"
 
+msgid "Hashed"
+msgstr ""
+
 msgid "Hashed with %s"
 msgstr ""
 
@@ -2018,7 +2043,16 @@ msgstr ""
 msgid "hours"
 msgstr ""
 
+msgid "HTML"
+msgstr ""
+
+msgid "HTTP"
+msgstr ""
+
 msgid "http://"
+msgstr ""
+
+msgid "HTTPS"
 msgstr ""
 
 msgid "https://"
@@ -2102,7 +2136,8 @@ msgstr "Информация"
 msgid "Initialised"
 msgstr "Инициализировано"
 
-msgid "Initialized Storage Vault (%v)"
+#, c-format
+msgid "Initialized Storage Vault (%s)"
 msgstr ""
 
 msgid "Installation log:"
@@ -2116,6 +2151,9 @@ msgid "Instance name"
 msgstr "Имя экземпляра"
 
 msgid "Interface"
+msgstr ""
+
+msgid "Internal"
 msgstr ""
 
 #, c-format
@@ -2303,6 +2341,24 @@ msgstr "Резервные копии за последние […]"
 
 msgid "Latest"
 msgstr "Самые последние"
+
+msgid "LDAP"
+msgstr ""
+
+msgid "LDAP Bind password"
+msgstr ""
+
+msgid "LDAP Bind user"
+msgstr ""
+
+msgid "LDAP Search DN"
+msgstr ""
+
+msgid "LDAP Search Filter"
+msgstr ""
+
+msgid "LDAPS"
+msgstr ""
 
 msgid "Leave blank to restore the latest backup snapshot"
 msgstr ""
@@ -2576,6 +2632,9 @@ msgstr ""
 msgid "Network share"
 msgstr ""
 
+msgid "New account permissions"
+msgstr ""
+
 msgid "New Bucket"
 msgstr ""
 
@@ -2841,9 +2900,6 @@ msgstr "Операция завершена (%s)."
 msgid "Operation completed successfully."
 msgstr "Операция завершена успешно."
 
-msgid "Option"
-msgstr "Опция"
-
 msgid "Optional"
 msgstr "Опционально"
 
@@ -3050,6 +3106,9 @@ msgid "Prevent viewing and editing server settings"
 msgstr ""
 
 msgid "Preventing snapshot re-use"
+msgstr ""
+
+msgid "Preview"
 msgstr ""
 
 msgid "Previous"
@@ -3537,6 +3596,9 @@ msgstr ""
 msgid "Select Exchange EDB"
 msgstr ""
 
+msgid "Select file..."
+msgstr ""
+
 msgid "Select files and folders to back up:"
 msgstr "Выбрать файлы и директории для резервного копирования:"
 
@@ -3747,6 +3809,9 @@ msgstr "отсортировать столбцы по возрастанию"
 msgid "sort column descending"
 msgstr "отсортировать столбцы по убыванию"
 
+msgid "Source"
+msgstr ""
+
 msgid "Source identifier (optional)"
 msgstr "Идентификатор источника (опционально)"
 
@@ -3896,6 +3961,9 @@ msgstr ""
 msgid "Sunday"
 msgstr "Воскресенье"
 
+msgid "Supported macros:"
+msgstr ""
+
 msgid "Suspend"
 msgstr ""
 
@@ -3961,6 +4029,12 @@ msgstr "Текстовые файлы (*.txt)"
 
 #, c-format
 msgid "The %s encountered a problem (%s)"
+msgstr ""
+
+msgid "The '%s' feature is not supported by your web browser"
+msgstr ""
+
+msgid "The 'System Writer' is missing. System State backups cannot be performed."
 msgstr ""
 
 msgid "The 'Windows Server Backup' role is not present on this server."

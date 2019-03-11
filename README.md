@@ -26,18 +26,18 @@ We will include your translation in the next available version of Comet.
 
 ## Current translation coverage
 
-*Table last regenerated 2019-02-26*
+*Table last regenerated 2019-03-11*
 
 |Code    |Language              |Words   |Phrases |Translation percent
 |--------|----------------------|--------|--------|---------
-|`-`     |English               |    5749|    1477|     100
-|`de_DE` |Deutsch               |    2312|     683|   46.24
-|`es_ES` |Español               |    7073|    1454|   98.44
-|`fr_FR` |Français              |    5543|    1209|   81.86
-|`he_IL` |עברית‬                 |    4762|    1248|    84.5
-|`hr_HR` |Hrvatski              |    4315|    1211|   81.99
-|`it_IT` |Italiano              |    5039|    1209|   81.86
-|`nl_NL` |Nederlands            |    1766|     497|   33.65
-|`pt_BR` |Português (Brazil)    |    5265|    1207|   81.72
-|`pt_PT` |Português (Europe)    |    5660|    1334|   90.32
-|`ru_RU` |Русский               |    2290|     686|   46.45
+|`-`     |English               |    5839|    1501|     100
+|`de_DE` |Deutsch               |    2308|     681|   45.37
+|`es_ES` |Español               |    7068|    1451|   96.67
+|`fr_FR` |Français              |    5539|    1207|   80.41
+|`he_IL` |עברית‬                 |    4757|    1246|   83.01
+|`hr_HR` |Hrvatski              |    4311|    1209|   80.55
+|`it_IT` |Italiano              |    5035|    1207|   80.41
+|`nl_NL` |Nederlands            |    1762|     495|   32.98
+|`pt_BR` |Português (Brazil)    |    5261|    1205|   80.28
+|`pt_PT` |Português (Europe)    |    5655|    1331|   88.67
+|`ru_RU` |Русский               |    2286|     684|   45.57

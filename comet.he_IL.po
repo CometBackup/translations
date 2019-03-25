@@ -700,9 +700,6 @@ msgstr "לפני"
 msgid "Before task"
 msgstr "לפני משימה"
 
-msgid "Blob prefix"
-msgstr "קידומת"
-
 msgid "Boosters"
 msgstr "תוספות"
 
@@ -1118,7 +1115,7 @@ msgstr "לא היה ניתן להוציא אסימון משימה משרת הג�
 msgid "Couldn't get snapshot path (%s)"
 msgstr "לא ניתן לקבל נתיב צילום ( %s )"
 
-msgid "Couldn't initialise VSS"
+msgid "Couldn't initialize VSS"
 msgstr "לא ניתן היה לאתחל את VSS"
 
 #, c-format
@@ -1128,6 +1125,10 @@ msgstr "לא היה ניתן להפעיל את %s"
 #, c-format
 msgid "Couldn't list databases (%s)"
 msgstr "לא ניתן להציג רשימה של מסדי נתונים ( %s )"
+
+#, c-format
+msgid "Couldn't load component '%s': (%s)"
+msgstr "לא ניתן לטעון את הרכיב '%s': ( %s )"
 
 msgid "Couldn't load news"
 msgstr "לא היה ניתן לטעון חדשות"
@@ -1146,10 +1147,6 @@ msgid "Couldn't load user profile page."
 msgstr "לא ניתן לטעון את דף פרופיל המשתמש."
 
 #, c-format
-msgid "Couldn't load vssutil component (%s)"
-msgstr "לא ניתן לטעון את הרכיב vssutil ( %s )"
-
-#, c-format
 msgid "Couldn't look up account properties (%s)"
 msgstr "לא ניתן לחפש מאפייני חשבון ( %s )"
 
@@ -1165,7 +1162,7 @@ msgid "Couldn't prevent automatic sleep: %s"
 msgstr "לא ניתן למנוע שינה אוטומטית: %s"
 
 #, c-format
-msgid "Couldn't record that the Storage Vault has been initialised (%s)"
+msgid "Couldn't record that the Storage Vault has been initialized (%s)"
 msgstr "לא ניתן לרשום שכרטיס האחסון אותחל ( %s )"
 
 #, c-format
@@ -1292,9 +1289,6 @@ msgstr "יומי"
 msgid "Dashboard"
 msgstr "לוח מידע"
 
-msgid "Data prefix"
-msgstr "קידומת נתונים"
-
 msgid "Database"
 msgstr "מאגר מידע"
 
@@ -1414,7 +1408,7 @@ msgstr "לקוח שולחן העבודה"
 msgid "Destination identifier (optional)"
 msgstr "מזהה יעד (אופציונלי)"
 
-msgid "destination initialiser"
+msgid "destination initializer"
 msgstr "מאתחל יעד"
 
 msgid "Device"
@@ -1730,8 +1724,8 @@ msgstr "אקסל"
 msgid "Exchange backup mode not specified, assuming FULL"
 msgstr "מצב גיבוי Exchange לא צוין, בהנחה FULL"
 
-msgid "Exchange Organisation"
-msgstr "ארגון Exchange "
+msgid "Exchange Organization"
+msgstr "ארגון Exchange"
 
 msgid "Exclude"
 msgstr "אל תכלול"
@@ -2129,7 +2123,7 @@ msgstr "לא זכאי ל"
 msgid "Info"
 msgstr "מידע"
 
-msgid "Initialised"
+msgid "Initialized"
 msgstr "אותחל"
 
 #, c-format
@@ -2710,6 +2704,9 @@ msgstr "אין מאגר מידע זמין בטבלה"
 msgid "No data found"
 msgstr "לא נמצאו נתונים"
 
+msgid "No data is available inside the selected Storage Vault"
+msgstr ""
+
 msgid "No database items were selected for backup."
 msgstr "לא נבחרו פריטי מסד נתונים לגיבוי."
 
@@ -3037,9 +3034,6 @@ msgstr ""
 
 msgid "Preferences"
 msgstr "העדפות"
-
-msgid "Prefix"
-msgstr "קידומת"
 
 msgid "Preparing for backup..."
 msgstr "מתכונן לגיבוי ..."
@@ -4063,7 +4057,7 @@ msgstr "יישום Comet Backup מאפשר למשתמשים לבקש אחסון 
 msgid "The Comet Server will restart to save changes."
 msgstr "שרת השביט יופעל מחדש כדי לשמור שינויים."
 
-msgid "The Constellation Role manages data across multiple Comet Servers. You should have exactly one Constallation Role for all your Comet Servers that are sharing clustered Auth Role and/or Storage Role infrastructure."
+msgid "The Constellation Role manages data across multiple Comet Servers. You should have exactly one Constellation Role for all your Comet Servers that are sharing clustered Auth Role and/or Storage Role infrastructure."
 msgstr "תפקיד קונסטלציה מנהל נתונים על פני מספר שרתי שביט. אתה צריך בדיוק תפקיד אחד Constallation עבור כל השרתים השביט שלך כי שיתוף אשכולות Auth התפקיד ו / או תפקוד אחסון תשתיות."
 
 msgid "The Constellation role should manage data across the following Comet servers:"
@@ -4113,7 +4107,7 @@ msgstr "הרכיב שצוין לא ייוצא על ידי כותב VSS"
 msgid "The Storage Vault has been encrypted for the first time. Data is irrecoverable without the encryption key."
 msgstr ""
 
-msgid "The Storage Vault was already initialised, continuing with backup..."
+msgid "The Storage Vault was already initialized, continuing with backup..."
 msgstr "הכספת לאחסון כבר אותחלה, ממשיכה עם גיבוי ..."
 
 msgid "The subject line is empty."
@@ -4172,7 +4166,7 @@ msgstr "תהליך גיבוי זה יכול לגשת לקבצים מוגנים."
 msgid "This can cause data loss if misconfigured!"
 msgstr "דבר זה יכול לגרום לאיבוד מידע אם לא מוגדר כראוי!"
 
-msgid "This colour will be used in the Windows 10 start menu."
+msgid "This color will be used in the Windows 10 start menu."
 msgstr "צבע זה ישמש בתפריט התחלה של Windows 10."
 
 msgid "This could prevent clients from backing up or restoring from this destination."
@@ -4320,7 +4314,7 @@ msgstr ""
 msgid "Type"
 msgstr "הקלד"
 
-msgid "Unauthorised to make changes."
+msgid "Unauthorized to make changes."
 msgstr "לא רשאי לבצע שינויים."
 
 msgid "Unauthorized."
@@ -4338,7 +4332,7 @@ msgstr "גובה לא צפוי לסוג הפריט המוגן '%s'"
 msgid "Unhandled command type %d"
 msgstr "סוג פקודה בלתי ידועה %d"
 
-msgid "Uninitialised"
+msgid "Uninitialized"
 msgstr "לא מאותחל"
 
 msgid "Unknown"
@@ -4363,14 +4357,14 @@ msgid "Unlock automatically at startup"
 msgstr ""
 
 #, qt-format
-msgid "Unrecognised Exchange backup type '%1', assuming 'FULL'"
+msgid "Unrecognized Exchange backup type '%1', assuming 'FULL'"
 msgstr "סוג גיבוי חליפין '%1' לא מוכר, מניח 'FULL'"
 
-msgid "Unrecognised frequency type"
+msgid "Unrecognized frequency type"
 msgstr "סוג תדר לא מזוהה"
 
 #, qt-format
-msgid "Unrecognised source type '%1'"
+msgid "Unrecognized Protected Item type '%1'"
 msgstr "סוג מקור לא ידוע '%1'"
 
 msgid "Unsupported"
@@ -4674,13 +4668,13 @@ msgid "Yesterday at %1"
 msgstr "אתמול ב%1"
 
 #, c-format
-msgid "You are recieving this email because '%s' is registered as the email contact for the backup account '%s'."
+msgid "You are receiving this email because '%s' is registered as the email contact for the backup account '%s'."
 msgstr "אתה מקבל הודעת אימייל זו מכיוון ש- ' %s ' רשום כאיש הקשר בדואייל עבור חשבון הגיבוי ' %s '."
 
 msgid "You can create buckets automatically via the \"Request\" system; or manually (for instance: during a Seed Load)."
 msgstr ""
 
-msgid "You can customise the appearance and behaviour of the generated client software."
+msgid "You can customize the appearance and behavior of the generated client software."
 msgstr "ניתן להתאים אישית את המראה וההתנהגות של תוכנת הלקוח שנוצר."
 
 msgid "You can enable this feature via the client software."

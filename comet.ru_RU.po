@@ -702,9 +702,6 @@ msgstr "До этого"
 msgid "Before task"
 msgstr "До задачи"
 
-msgid "Blob prefix"
-msgstr "Префикс Blob-объекта"
-
 msgid "Boosters"
 msgstr ""
 
@@ -1120,7 +1117,7 @@ msgstr "Не удалось получить токен задачи от сер
 msgid "Couldn't get snapshot path (%s)"
 msgstr ""
 
-msgid "Couldn't initialise VSS"
+msgid "Couldn't initialize VSS"
 msgstr ""
 
 #, c-format
@@ -1130,6 +1127,10 @@ msgstr "Не удалось запустить %s"
 #, c-format
 msgid "Couldn't list databases (%s)"
 msgstr "Не удалось составить список баз данных (%s)"
+
+#, c-format
+msgid "Couldn't load component '%s': (%s)"
+msgstr ""
 
 msgid "Couldn't load news"
 msgstr "Не удалось загрузить новости"
@@ -1148,10 +1149,6 @@ msgid "Couldn't load user profile page."
 msgstr ""
 
 #, c-format
-msgid "Couldn't load vssutil component (%s)"
-msgstr ""
-
-#, c-format
 msgid "Couldn't look up account properties (%s)"
 msgstr "Не удалось просмотреть свойства учетной записи (%s)"
 
@@ -1167,7 +1164,7 @@ msgid "Couldn't prevent automatic sleep: %s"
 msgstr ""
 
 #, c-format
-msgid "Couldn't record that the Storage Vault has been initialised (%s)"
+msgid "Couldn't record that the Storage Vault has been initialized (%s)"
 msgstr ""
 
 #, c-format
@@ -1294,9 +1291,6 @@ msgstr "Ежедневно"
 msgid "Dashboard"
 msgstr "Панель управления"
 
-msgid "Data prefix"
-msgstr "Префикс данных"
-
 msgid "Database"
 msgstr ""
 
@@ -1416,7 +1410,7 @@ msgstr ""
 msgid "Destination identifier (optional)"
 msgstr "Идентификатор конечной точки (опционально)"
 
-msgid "destination initialiser"
+msgid "destination initializer"
 msgstr "инициализатор конечной точки"
 
 msgid "Device"
@@ -1734,7 +1728,7 @@ msgstr ""
 msgid "Exchange backup mode not specified, assuming FULL"
 msgstr "Режим резервного копирования Exchange не указан, используется FULL"
 
-msgid "Exchange Organisation"
+msgid "Exchange Organization"
 msgstr "Организация Exchange"
 
 msgid "Exclude"
@@ -2133,7 +2127,7 @@ msgstr ""
 msgid "Info"
 msgstr "Информация"
 
-msgid "Initialised"
+msgid "Initialized"
 msgstr "Инициализировано"
 
 #, c-format
@@ -2714,6 +2708,9 @@ msgstr "Нет доступных данных в таблице"
 msgid "No data found"
 msgstr ""
 
+msgid "No data is available inside the selected Storage Vault"
+msgstr ""
+
 msgid "No database items were selected for backup."
 msgstr "Для резервного копирования не выбраны элементы базы данных."
 
@@ -3041,9 +3038,6 @@ msgstr ""
 
 msgid "Preferences"
 msgstr "Параметры"
-
-msgid "Prefix"
-msgstr "Префикс"
 
 msgid "Preparing for backup..."
 msgstr ""
@@ -4067,7 +4061,7 @@ msgstr ""
 msgid "The Comet Server will restart to save changes."
 msgstr ""
 
-msgid "The Constellation Role manages data across multiple Comet Servers. You should have exactly one Constallation Role for all your Comet Servers that are sharing clustered Auth Role and/or Storage Role infrastructure."
+msgid "The Constellation Role manages data across multiple Comet Servers. You should have exactly one Constellation Role for all your Comet Servers that are sharing clustered Auth Role and/or Storage Role infrastructure."
 msgstr ""
 
 msgid "The Constellation role should manage data across the following Comet servers:"
@@ -4117,7 +4111,7 @@ msgstr ""
 msgid "The Storage Vault has been encrypted for the first time. Data is irrecoverable without the encryption key."
 msgstr ""
 
-msgid "The Storage Vault was already initialised, continuing with backup..."
+msgid "The Storage Vault was already initialized, continuing with backup..."
 msgstr ""
 
 msgid "The subject line is empty."
@@ -4176,7 +4170,7 @@ msgstr ""
 msgid "This can cause data loss if misconfigured!"
 msgstr "При неправильной конфигурации это может повлечь за собой потерю данных!"
 
-msgid "This colour will be used in the Windows 10 start menu."
+msgid "This color will be used in the Windows 10 start menu."
 msgstr ""
 
 msgid "This could prevent clients from backing up or restoring from this destination."
@@ -4327,7 +4321,7 @@ msgstr ""
 msgid "Type"
 msgstr "Тип"
 
-msgid "Unauthorised to make changes."
+msgid "Unauthorized to make changes."
 msgstr "Для внесения изменений нужно авторизоваться."
 
 msgid "Unauthorized."
@@ -4345,7 +4339,7 @@ msgstr "Непредвиденный тип Защищенного Элемен�
 msgid "Unhandled command type %d"
 msgstr "Необрабатываемый тип команды %d"
 
-msgid "Uninitialised"
+msgid "Uninitialized"
 msgstr "Неинициализировано"
 
 msgid "Unknown"
@@ -4370,14 +4364,14 @@ msgid "Unlock automatically at startup"
 msgstr ""
 
 #, qt-format
-msgid "Unrecognised Exchange backup type '%1', assuming 'FULL'"
+msgid "Unrecognized Exchange backup type '%1', assuming 'FULL'"
 msgstr "Неопознанный тип резервного копирования Exchange '%1', используется 'FULL'"
 
-msgid "Unrecognised frequency type"
+msgid "Unrecognized frequency type"
 msgstr ""
 
 #, qt-format
-msgid "Unrecognised source type '%1'"
+msgid "Unrecognized Protected Item type '%1'"
 msgstr "Неопознанный исходный тип '%1'"
 
 msgid "Unsupported"
@@ -4681,13 +4675,13 @@ msgid "Yesterday at %1"
 msgstr "Вчера в %1"
 
 #, c-format
-msgid "You are recieving this email because '%s' is registered as the email contact for the backup account '%s'."
+msgid "You are receiving this email because '%s' is registered as the email contact for the backup account '%s'."
 msgstr ""
 
 msgid "You can create buckets automatically via the \"Request\" system; or manually (for instance: during a Seed Load)."
 msgstr ""
 
-msgid "You can customise the appearance and behaviour of the generated client software."
+msgid "You can customize the appearance and behavior of the generated client software."
 msgstr ""
 
 msgid "You can enable this feature via the client software."

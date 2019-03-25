@@ -702,9 +702,6 @@ msgstr "Antes"
 msgid "Before task"
 msgstr "Tarea antes"
 
-msgid "Blob prefix"
-msgstr "Prefijo de gota"
-
 msgid "Boosters"
 msgstr "Boosters"
 
@@ -1120,7 +1117,7 @@ msgstr "No se pudo obtener el token de trabajo del servidor de copia de segurida
 msgid "Couldn't get snapshot path (%s)"
 msgstr "No se pudo obtener la dirección de una instantánea (%s)"
 
-msgid "Couldn't initialise VSS"
+msgid "Couldn't initialize VSS"
 msgstr "No se pudo inicializar VSS"
 
 #, c-format
@@ -1130,6 +1127,10 @@ msgstr "No pudo lanzar %s"
 #, c-format
 msgid "Couldn't list databases (%s)"
 msgstr "No pudo enumerar las bases de datos (%s)"
+
+#, c-format
+msgid "Couldn't load component '%s': (%s)"
+msgstr "No se pudo cargar el componente '%s': (%s)"
 
 msgid "Couldn't load news"
 msgstr "No pudo cargar las noticias"
@@ -1148,10 +1149,6 @@ msgid "Couldn't load user profile page."
 msgstr "No se pudo cargar la página de perfil de usuario."
 
 #, c-format
-msgid "Couldn't load vssutil component (%s)"
-msgstr "No se pudo cargar el componente vssutil (%s)"
-
-#, c-format
 msgid "Couldn't look up account properties (%s)"
 msgstr "No pudo buscar propiedades de la cuenta (%s)"
 
@@ -1167,7 +1164,7 @@ msgid "Couldn't prevent automatic sleep: %s"
 msgstr "No pudo evitar el apagado automático: %s"
 
 #, c-format
-msgid "Couldn't record that the Storage Vault has been initialised (%s)"
+msgid "Couldn't record that the Storage Vault has been initialized (%s)"
 msgstr "No se pudo registrar que la Bóveda de Almacenamiento haya sido inicializada (%s)"
 
 #, c-format
@@ -1294,9 +1291,6 @@ msgstr "Diario"
 msgid "Dashboard"
 msgstr "Tablero"
 
-msgid "Data prefix"
-msgstr "Prefijo de datos"
-
 msgid "Database"
 msgstr "Base de datos"
 
@@ -1416,7 +1410,7 @@ msgstr "Cliente de Escritorio"
 msgid "Destination identifier (optional)"
 msgstr "Identificador de destino (opcional)"
 
-msgid "destination initialiser"
+msgid "destination initializer"
 msgstr "Inicializador de destino"
 
 msgid "Device"
@@ -1734,7 +1728,7 @@ msgstr "Excel"
 msgid "Exchange backup mode not specified, assuming FULL"
 msgstr "Cambiar el modo de copia de seguridad no especificado, asumiendo LLENO"
 
-msgid "Exchange Organisation"
+msgid "Exchange Organization"
 msgstr "Intercambiando Organización"
 
 msgid "Exclude"
@@ -2133,7 +2127,7 @@ msgstr "Inelegible"
 msgid "Info"
 msgstr "Info"
 
-msgid "Initialised"
+msgid "Initialized"
 msgstr "Inicializado"
 
 #, c-format
@@ -2714,6 +2708,9 @@ msgstr "No hay datos disponibles en la tabla"
 msgid "No data found"
 msgstr "Ningún dato encontrado"
 
+msgid "No data is available inside the selected Storage Vault"
+msgstr ""
+
 msgid "No database items were selected for backup."
 msgstr "Ningún elemento de la base de datos fueron seleccionados para copia de seguridad."
 
@@ -3041,9 +3038,6 @@ msgstr "Preferir los archivos temporales en lugar de RAM (más lento)"
 
 msgid "Preferences"
 msgstr "Preferencias"
-
-msgid "Prefix"
-msgstr "Prefijo"
 
 msgid "Preparing for backup..."
 msgstr "Preparando para copia de seguridad..."
@@ -4069,7 +4063,7 @@ msgstr "La aplicación Comet Backup permite a los usuarios solicitar bóvedas de
 msgid "The Comet Server will restart to save changes."
 msgstr "El Comet Server se reiniciará para guardar los cambios."
 
-msgid "The Constellation Role manages data across multiple Comet Servers. You should have exactly one Constallation Role for all your Comet Servers that are sharing clustered Auth Role and/or Storage Role infrastructure."
+msgid "The Constellation Role manages data across multiple Comet Servers. You should have exactly one Constellation Role for all your Comet Servers that are sharing clustered Auth Role and/or Storage Role infrastructure."
 msgstr "La función Constellation Role gestiona los datos de varios servidores de comet. Debe tener exactamente una función de Constellation para todos los servidores Comet que compartan la infraestructura de función de autenticación y/o función de almacenamiento en clúster."
 
 msgid "The Constellation role should manage data across the following Comet servers:"
@@ -4119,7 +4113,7 @@ msgstr "El componente especificado no fue exportado por el escritor VSS"
 msgid "The Storage Vault has been encrypted for the first time. Data is irrecoverable without the encryption key."
 msgstr "La Bóveda de almacenamiento ha sido encriptada por primera vez. Los datos son irrecuperables sin la clave de encriptación."
 
-msgid "The Storage Vault was already initialised, continuing with backup..."
+msgid "The Storage Vault was already initialized, continuing with backup..."
 msgstr "La Bóveda de almacenamiento ya estaba inicializada, continuando con la copia de seguridad..."
 
 msgid "The subject line is empty."
@@ -4178,7 +4172,7 @@ msgstr "Este proceso de copia de seguridad puede acceder a archivos protegidos."
 msgid "This can cause data loss if misconfigured!"
 msgstr "¡Esto puede causar pérdida de datos si está mal configurado!"
 
-msgid "This colour will be used in the Windows 10 start menu."
+msgid "This color will be used in the Windows 10 start menu."
 msgstr "Este color se utilizará en el menú de inicio de Windows 10."
 
 msgid "This could prevent clients from backing up or restoring from this destination."
@@ -4331,7 +4325,7 @@ msgstr "Se requiere autenticación de dos factores"
 msgid "Type"
 msgstr "Tipo"
 
-msgid "Unauthorised to make changes."
+msgid "Unauthorized to make changes."
 msgstr "Desautorizado para hacer cambios."
 
 msgid "Unauthorized."
@@ -4349,7 +4343,7 @@ msgstr "Elevación inesperada para el tipo de elemento de protección '%s'"
 msgid "Unhandled command type %d"
 msgstr "Tipo de comando no controlado %d"
 
-msgid "Uninitialised"
+msgid "Uninitialized"
 msgstr "Uninicializado"
 
 msgid "Unknown"
@@ -4374,14 +4368,14 @@ msgid "Unlock automatically at startup"
 msgstr "Desbloqueo automático al inicio"
 
 #, qt-format
-msgid "Unrecognised Exchange backup type '%1', assuming 'FULL'"
+msgid "Unrecognized Exchange backup type '%1', assuming 'FULL'"
 msgstr "No reconocido tipo de copia de seguridad de Exchange '%1', asumiendo 'FULL'"
 
-msgid "Unrecognised frequency type"
+msgid "Unrecognized frequency type"
 msgstr "No reconocido tipo de origen"
 
 #, qt-format
-msgid "Unrecognised source type '%1'"
+msgid "Unrecognized Protected Item type '%1'"
 msgstr "No reconocido tipo de origen '%1'"
 
 msgid "Unsupported"
@@ -4685,13 +4679,13 @@ msgid "Yesterday at %1"
 msgstr "Ayer a las %1"
 
 #, c-format
-msgid "You are recieving this email because '%s' is registered as the email contact for the backup account '%s'."
+msgid "You are receiving this email because '%s' is registered as the email contact for the backup account '%s'."
 msgstr "Usted está recibiendo este correo electrónico porque '%s' está registrado como el contacto de correo electrónico para la cuenta de copia de seguridad '%s'."
 
 msgid "You can create buckets automatically via the \"Request\" system; or manually (for instance: during a Seed Load)."
 msgstr "Puede crear cubos automáticamente a través del sistema \"Request\" o manualmente (por ejemplo, durante una carga de semillas)."
 
-msgid "You can customise the appearance and behaviour of the generated client software."
+msgid "You can customize the appearance and behavior of the generated client software."
 msgstr "Puede personalizar la apariencia y el comportamiento del software cliente generado"
 
 msgid "You can enable this feature via the client software."

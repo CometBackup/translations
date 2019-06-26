@@ -43,6 +43,10 @@ msgid "%1 snapshot(s)"
 msgstr ""
 
 #, qt-format
+msgid "%1 volume"
+msgstr ""
+
+#, qt-format
 msgid "%1 week(s)"
 msgstr "%1 שבועות"
 
@@ -147,17 +151,17 @@ msgstr "מבטל את הפעולה בכספת האחסון הזו ..."
 msgid "Abandoning task."
 msgstr "נוטש משימה."
 
-msgid "About this cluster"
-msgstr "אודות אשכול זה"
-
 msgid "About this Cluster"
 msgstr "אודות אשכול זה"
 
-msgid "About this server"
-msgstr "אודות על שרת זה"
+msgid "About this cluster"
+msgstr "אודות אשכול זה"
 
 msgid "About this Server"
 msgstr "אודות שרת זה"
+
+msgid "About this server"
+msgstr "אודות על שרת זה"
 
 msgid "Accept invalid SSL certificate from the remote SMTP server"
 msgstr "קבל אישור SSL לא חוקי משרת ה- SMTP המרוחק"
@@ -325,6 +329,10 @@ msgstr ""
 msgid "All devices"
 msgstr "כל המכשירים"
 
+#, qt-format
+msgid "All disks (%1)"
+msgstr ""
+
 msgid "All done! Click \"Save\" to save changes."
 msgstr "הכל בוצע! לחץ על \"שמור\" כדי לשמור שינויים."
 
@@ -405,9 +413,6 @@ msgstr "אירעה שגיאה בעת העתקה ללוח."
 msgid "An imminent failure indicates either bad privileges or WOW64."
 msgstr "כשל  מציין הרשאות לא תקינות או WOW64."
 
-msgid "An unexpected error occurred"
-msgstr ""
-
 msgid "An unknown exception occurred."
 msgstr "אירע חריג לא ידוע."
 
@@ -469,9 +474,6 @@ msgstr "מפתח API"
 
 msgid "Application key"
 msgstr "מפתח יישום"
-
-msgid "Application key ID"
-msgstr ""
 
 msgid "Application-Aware Writer"
 msgstr "יישום- Aware Writer"
@@ -594,6 +596,12 @@ msgstr "אימות מאושר"
 
 msgid "Authentication Role"
 msgstr "תפקיד אימות"
+
+msgid "Authenticode"
+msgstr ""
+
+msgid "Authenticode EV"
+msgstr ""
 
 msgid "Auto refresh"
 msgstr "ריענון אוטומטי"
@@ -745,11 +753,14 @@ msgstr "בונה מטמון ..."
 msgid "Bulk replace addresses"
 msgstr "החלף כתובות בכמות גדולה"
 
+msgid "Bulk Update"
+msgstr "עדכון גורף"
+
 msgid "Bulk update"
 msgstr "עדכון גורף"
 
-msgid "Bulk Update"
-msgstr "עדכון גורף"
+msgid "Calculating"
+msgstr ""
 
 msgid "Calculating size..."
 msgstr "מחשב גודל..."
@@ -813,9 +824,6 @@ msgstr "בוטל"
 msgid "Cancelling..."
 msgstr "מבטל..."
 
-msgid "Cannot proceed - another task has temporary exclusive control over the Storage Vault."
-msgstr ""
-
 msgid "Cannot proceed - another task needs to finish using the Storage Vault first."
 msgstr ""
 
@@ -828,12 +836,6 @@ msgstr "קטגוריה"
 
 msgid "Certificate"
 msgstr "תְעוּדָה"
-
-msgid "Certificate file (*.crt)"
-msgstr "קובץ אישור (* .crt)"
-
-msgid "Certificate key (*.key)"
-msgstr "מפתח אישור (* .key)"
 
 msgid "Change account settings"
 msgstr "שינוי הגדרות משתמש"
@@ -871,9 +873,6 @@ msgstr "רישום מעגלי מופעל, גיבויים מצטבר / דיפרנ
 msgid "Classification"
 msgstr "מִיוּן"
 
-msgid "Cleaning snapshot..."
-msgstr "מנקה תמונה ..."
-
 #, c-format
 msgid "Cleaning up %s snapshot..."
 msgstr "מנקה את התצלום %s..."
@@ -896,10 +895,10 @@ msgstr "לקוח"
 msgid "Client Bulletin"
 msgstr "ידיעון לקוח"
 
-msgid "Client news"
+msgid "Client News"
 msgstr "חדשות לקוח"
 
-msgid "Client News"
+msgid "Client news"
 msgstr "חדשות לקוח"
 
 msgid "Client users"
@@ -913,6 +912,9 @@ msgstr "לוח נוקה"
 
 msgid "Cluster"
 msgstr "אשכול"
+
+msgid "Codesigning"
+msgstr ""
 
 msgid "Color in hex format (e.g. #FFFFFF)"
 msgstr "צבע בפורמט hex (לדוגמה #FFFFFF)"
@@ -983,13 +985,16 @@ msgstr "הגדר אילו משתמשים יכולים להיכנס לממשק ה
 msgid "Configure..."
 msgstr ""
 
+msgid "Connected Device"
+msgstr ""
+
 msgid "Connected Device Actions"
 msgstr "פעולות מכשירים מחוברים"
 
-msgid "Connected devices"
+msgid "Connected Devices"
 msgstr "מכשירים מחוברים"
 
-msgid "Connected Devices"
+msgid "Connected devices"
 msgstr "מכשירים מחוברים"
 
 msgid "Connected since"
@@ -1104,16 +1109,8 @@ msgid "Couldn't find the generated %s snapshot."
 msgstr "לא היה ניתן למצוא את תמונת %s שנוצרה."
 
 #, c-format
-msgid "Couldn't free snapshot (%s)"
-msgstr "לא ניתן היה לשחרר תמונה ( %s )"
-
-#, c-format
 msgid "Couldn't get job token from backup server (%s)"
 msgstr "לא היה ניתן להוציא אסימון משימה משרת הגיבוי (%s)"
-
-#, c-format
-msgid "Couldn't get snapshot path (%s)"
-msgstr "לא ניתן לקבל נתיב צילום ( %s )"
 
 msgid "Couldn't initialize VSS"
 msgstr "לא ניתן היה לאתחל את VSS"
@@ -1125,6 +1122,10 @@ msgstr "לא היה ניתן להפעיל את %s"
 #, c-format
 msgid "Couldn't list databases (%s)"
 msgstr "לא ניתן להציג רשימה של מסדי נתונים ( %s )"
+
+#, c-format
+msgid "Couldn't load <chunk/%s> for subdirectory '%s': %s"
+msgstr ""
 
 #, c-format
 msgid "Couldn't load component '%s': (%s)"
@@ -1139,20 +1140,12 @@ msgstr "לא היה ניתן לטעון כספות אחסון מן השרת."
 msgid "Couldn't load this Protected Item."
 msgstr "לא היה ניתן לטעון פריט מוגן זה."
 
-#, c-format
-msgid "Couldn't load tree '%s' for subdirectory '%s': %s"
-msgstr "לא ניתן לטעון את העץ ' %s ' עבור תיקיית המשנה ' %s ': %s"
-
 msgid "Couldn't load user profile page."
 msgstr "לא ניתן לטעון את דף פרופיל המשתמש."
 
 #, c-format
 msgid "Couldn't look up account properties (%s)"
 msgstr "לא ניתן לחפש מאפייני חשבון ( %s )"
-
-#, c-format
-msgid "Couldn't make snapshot (%s)"
-msgstr "לא ניתן ליצור תצלום ( %s )"
 
 msgid "Couldn't parse GUID."
 msgstr "לא ניתן לנתח את GUID."
@@ -1198,10 +1191,6 @@ msgstr "לא היה ניתן לשמור שינויים."
 msgid "Couldn't save profile to server (%s)"
 msgstr "לא ניתן לשמור פרופיל לשרת ( %s )"
 
-#, c-format
-msgid "Couldn't snapshot volume (%s)"
-msgstr "אין אפשרות לצלם תמונה ( %s )"
-
 msgid "Couldn't start engine"
 msgstr "לא היה ניתן להפעיל את המנוע"
 
@@ -1215,10 +1204,6 @@ msgstr "לא היה ניתן לשלוח תיעוד לשרת (%s) בזמן תיע
 #, c-format
 msgid "Couldn't submit log to server while logging message \"%s\""
 msgstr "לא היה ניתן לשלוח תיעוד לשרת בזמן תיעוד ההודעה \"%s\""
-
-#, c-format
-msgid "Couldn't take filesystem snapshot (%s)"
-msgstr "לא ניתן לצלם תמונת מערכת ( %s )"
 
 msgid "Couldn't take snapshot"
 msgstr "לא ניתן לצלם תמונה"
@@ -1252,6 +1237,9 @@ msgstr "סיסמה נוכחית"
 
 msgid "Current password is incorrect"
 msgstr "הסיסמה הנוכחית שגויה"
+
+msgid "Current status"
+msgstr ""
 
 msgid "custom"
 msgstr "מותאם אישית"
@@ -1450,6 +1438,12 @@ msgstr "הגדרות מתקדמות מושבתות."
 msgid "Disconnect"
 msgstr "לְנַתֵק"
 
+msgid "Disk"
+msgstr ""
+
+msgid "Disk Image"
+msgstr ""
+
 msgid "Dismiss"
 msgstr "דחה"
 
@@ -1483,6 +1477,9 @@ msgstr "הורדה הושלמה (%d בייטים), מעדכן..."
 
 msgid "Download for..."
 msgstr "הורד ל..."
+
+msgid "Download only, do not save"
+msgstr ""
 
 msgid "Downloaded"
 msgstr "הורד"
@@ -1523,6 +1520,9 @@ msgstr ""
 "- C:\\Windows\n"
 "- *.avi\n"
 "- download.r[0-9][0-9]"
+
+msgid "e.g. KEY:SLOT"
+msgstr ""
 
 msgid "EDB and logs, no truncate (\"COPY\")"
 msgstr "EDB ורישומים, לא למחוק (\"COPY\")"
@@ -1645,10 +1645,16 @@ msgstr "נתקל ב- %d שגיאות."
 msgid "Encryption"
 msgstr "הצפנה"
 
+msgid "End time"
+msgstr ""
+
 msgid "Ended"
 msgstr "נגמר"
 
 msgid "Enforce this retention policy for all Storage Vaults"
+msgstr ""
+
+msgid "Engine"
 msgstr ""
 
 #, c-format
@@ -1673,9 +1679,15 @@ msgstr "הכנס מחיצה:"
 msgid "Error"
 msgstr "שגיאה"
 
+msgid "ERROR"
+msgstr "שגיאה"
+
 #, c-format
 msgid "Error for '%s': file truncated (expected %d bytes, got %d)"
 msgstr "שגיאה עבור ' %s ': קובץ חתוך (צפוי %d בתים, יש %d )"
+
+msgid "Error for user '%s' (line %d): %s"
+msgstr ""
 
 #, c-format
 msgid "Error importing backupset '%s': %s"
@@ -1773,6 +1785,9 @@ msgstr "כשלון בהוספת כספת אחסון."
 #, qt-format
 msgid "Failed to browse %1."
 msgstr "החיפוש% 1 נכשל."
+
+msgid "Failed to browse local disks"
+msgstr ""
 
 msgid "Failed to browse VSS components."
 msgstr "כשלון בדפדוף ברכיבי VSS."
@@ -2087,6 +2102,9 @@ msgstr "תמונה"
 msgid "Immediate job notification"
 msgstr ""
 
+msgid "Immediately send an email to all user accounts."
+msgstr ""
+
 msgid "Import"
 msgstr "ייבא"
 
@@ -2101,9 +2119,6 @@ msgstr "ייבוא ​​מדיניות שמירה מתקדמת עדיין לא 
 
 msgid "Importing monthly schedules without a specific date is not yet supported, skipping schedule"
 msgstr "ייבוא ​​לוחות זמנים חודשיים ללא תאריך ספציפי אינו נתמך עדיין, תוך דילוג על לוח הזמנים"
-
-msgid "In progress"
-msgstr "בתהליך"
 
 msgid "Include"
 msgstr "הכלל"
@@ -2143,6 +2158,9 @@ msgstr "שם אינסטנס"
 msgid "Interface"
 msgstr "מִמְשָׁק"
 
+msgid "Intermediate"
+msgstr ""
+
 msgid "Internal"
 msgstr ""
 
@@ -2153,10 +2171,6 @@ msgstr "הפרעה של עבודת הגיבוי (חריגה ממכסת הכספ�
 #, c-format
 msgid "Interrupting backup job (exceeded time limit of %s)"
 msgstr "הפרעה של עבודת הגיבוי (חרגת ממגבלת הזמן של %s )"
-
-#, c-format
-msgid "Invalid backup job '%s' selected (%s)"
-msgstr "נבחרהמשימתהגילויההגדרה %s ( %s )"
 
 msgid "Invalid character in username"
 msgstr "תו לא חוקי בשם המשתמש"
@@ -2261,11 +2275,11 @@ msgstr "עבודה"
 msgid "Job completed."
 msgstr ""
 
-msgid "Job history"
-msgstr "היסטוריית עבודות"
-
 msgid "Job History"
 msgstr "היסטוריית עבודה"
+
+msgid "Job history"
+msgstr "היסטוריית עבודות"
 
 msgid "Job ID"
 msgstr "מזהה משרה"
@@ -2308,6 +2322,9 @@ msgstr "אל תשמור כלום (אזהרה)"
 msgid "Key"
 msgstr "מַפְתֵחַ"
 
+msgid "Key ID"
+msgstr ""
+
 msgid "Known servers"
 msgstr "שרתים ידועים"
 
@@ -2325,6 +2342,9 @@ msgstr ""
 
 msgid "Last scan"
 msgstr "סריקה אחרונה"
+
+msgid "Last wake event"
+msgstr ""
 
 msgid "Last [...] backups"
 msgstr "גיבויים [...] אחרונים"
@@ -2368,15 +2388,15 @@ msgstr "לינוקס"
 msgid "Live progress information was last updated at:"
 msgstr "מידע על התקדמות בזמן אמת עודכן לאחרונה ב:"
 
+msgid "Loading"
+msgstr "טוען"
+
 msgid "Loading network credentials for Storage Vault"
 msgstr ""
 
 #, c-format
 msgid "Loading Storage Vault metadata for deep verification (%d/%d)..."
 msgstr ""
-
-msgid "Loading..."
-msgstr "טוען..."
 
 msgid "Local"
 msgstr ""
@@ -2390,9 +2410,6 @@ msgstr "נתיב מקומי (אופציונלי)"
 #, qt-format
 msgid "Local Path: [%1]"
 msgstr "נתיב מקומי: [%1]"
-
-msgid "Local Storage Buckets"
-msgstr "דלי אחסון מקומיים"
 
 msgid "localhost"
 msgstr "מארח מקומי"
@@ -2465,10 +2482,6 @@ msgstr "חיבור אבד לשירות מקומי."
 
 msgid "macOS"
 msgstr "MacOS"
-
-#, c-format
-msgid "Malformed pattern (%s)"
-msgstr "דפוס שגוי ( %s )"
 
 #, qt-format
 msgid "Malformed property '%1', skipping"
@@ -2559,6 +2572,18 @@ msgstr "חסר בשדה 'Name' עבור רכיב VSS שנבחר"
 msgid "Missing 'Path' field for selected VSS component"
 msgstr "חסר בשדה 'Path' עבור רכיב VSS שנבחר"
 
+msgid "Missing excluded disk"
+msgstr ""
+
+msgid "Missing excluded partition"
+msgstr ""
+
+msgid "Missing selected disk"
+msgstr ""
+
+msgid "Missing selected partition"
+msgstr ""
+
 msgid "Mobile Client"
 msgstr "לקוח נייד"
 
@@ -2567,6 +2592,9 @@ msgstr "מצב"
 
 msgid "Modified"
 msgstr "שונה"
+
+msgid "Module"
+msgstr ""
 
 msgid "Mon"
 msgstr "יום שני"
@@ -2579,6 +2607,15 @@ msgstr "חודשי"
 
 msgid "Months"
 msgstr "חודשים"
+
+msgid "ms"
+msgstr ""
+
+msgid "Multiple"
+msgstr ""
+
+msgid "Multiple commands"
+msgstr ""
 
 msgid "MX Direct"
 msgstr ""
@@ -2683,6 +2720,9 @@ msgstr "הבא"
 msgid "Next %1"
 msgstr "הבא %1"
 
+msgid "Next scheduled email"
+msgstr ""
+
 msgid "No"
 msgstr "לא"
 
@@ -2722,9 +2762,6 @@ msgstr "לא נבחרו קבצים לגיבוי."
 msgid "No files selected for restore"
 msgstr ""
 
-msgid "no GUI"
-msgstr ""
-
 msgid "No isolation"
 msgstr ""
 
@@ -2757,6 +2794,9 @@ msgstr "לא הוגדרו לוחות זמנים"
 
 msgid "No Storage Vaults are available for restore."
 msgstr "אין כספות אחסון הזמינות לשחזור."
+
+msgid "No users found"
+msgstr ""
 
 msgid "No VMs found, or no permission to enumerate VMs"
 msgstr ""
@@ -2800,6 +2840,9 @@ msgstr ""
 msgid "Not seen"
 msgstr "לא נראה"
 
+msgid "Not started"
+msgstr ""
+
 msgid "Not yet run"
 msgstr "עדיין לא הורץ"
 
@@ -2813,6 +2856,9 @@ msgstr "נוֹבֶמבֶּר"
 #, c-format
 msgid "Now running updated software (%s)."
 msgstr "עכשיו מריץ תוכנה מעודכנת (%s)."
+
+msgid "ns"
+msgstr ""
 
 msgid "Number of devices"
 msgstr "מספר המכשירים"
@@ -2893,6 +2939,9 @@ msgstr "פעולה הושלמה (%s)."
 msgid "Operation completed successfully."
 msgstr "פעולה הושלמה בהצלחה."
 
+msgid "Operation interrupted"
+msgstr ""
+
 msgid "Optional"
 msgstr "אופציונלי"
 
@@ -2972,6 +3021,13 @@ msgstr ""
 msgid "Paste"
 msgstr "הדבק"
 
+msgid ""
+"Paste CSV content in the form:\n"
+"\n"
+"AccountName1,Username1,Password1,Email1\n"
+"AccountName2,Username2,Password2,Email2"
+msgstr ""
+
 msgid "Path"
 msgstr "נתיב"
 
@@ -3019,6 +3075,9 @@ msgstr "מדינויות"
 
 msgid "Policy"
 msgstr "מְדִינִיוּת"
+
+msgid "Policy default"
+msgstr ""
 
 msgid "Policy ID"
 msgstr ""
@@ -3110,6 +3169,9 @@ msgstr "מפתח אישי"
 msgid "Process completed"
 msgstr "התהליך הושלם"
 
+msgid "Process multiple files using:"
+msgstr ""
+
 #, c-format
 msgid "Processing backupset '%s'..."
 msgstr "מעבד את הגיבוי ' %s ' ..."
@@ -3127,6 +3189,9 @@ msgstr "פרופיל"
 msgid "Profile maintenance failure: %s"
 msgstr "כשלון בתחזוקת פרופיל: %s"
 
+msgid "Program Input"
+msgstr ""
+
 msgid "Program Output"
 msgstr "פלט תכנית"
 
@@ -3143,6 +3208,9 @@ msgid "Protected Item"
 msgstr "פריט מוגן"
 
 msgid "Protected Item ID"
+msgstr ""
+
+msgid "Protected Item using unsupported setting or feature"
 msgstr ""
 
 msgid "Protected Items"
@@ -3214,26 +3282,20 @@ msgstr "כתובת דומיין"
 msgid "Rebuild indexes"
 msgstr ""
 
-msgid "Rebuild indexes for Storage Vault"
-msgstr ""
-
 msgid "Receive backup reports"
 msgstr "קבלת דוחות גיבוי"
 
 msgid "Receiver"
 msgstr "מַקְלֵט"
 
-msgid "Recent activity"
+msgid "Recent Activity"
 msgstr ""
 
-msgid "Recent Activity"
+msgid "Recent activity"
 msgstr ""
 
 msgid "Recent- and incomplete- jobs"
 msgstr ""
-
-msgid "Recommendation: 90 days"
-msgstr "המלצה: 90 יום"
 
 msgid "Recommendation: Leave this DISABLED until you are satisfied that the configuration is correct."
 msgstr "המלצה: השאר את התכונה מבוטלת עד שתהיה מרוצה מהתצורה הנכונה."
@@ -3316,9 +3378,6 @@ msgstr "להסיר את כל"
 msgid "Remove item"
 msgstr "הסר פריט"
 
-msgid "Remove lockfiles"
-msgstr "הסרת lockfiles"
-
 msgid "Removed expired locks from the Storage Vault."
 msgstr ""
 
@@ -3394,6 +3453,9 @@ msgstr "הפעל מחדש את השרת"
 msgid "Restore"
 msgstr "שחזור"
 
+msgid "Restore as:"
+msgstr ""
+
 msgid "restore engine"
 msgstr "שחזור מנוע"
 
@@ -3441,14 +3503,14 @@ msgstr "הפעל גיבוי כעת"
 msgid "Run at:"
 msgstr "הרצה ב:"
 
-msgid "Run Scheduled Backup"
-msgstr "הרצת גיבוי מתוזמן"
-
-msgid "Run Selected Backup"
-msgstr "הרצת גיבוי נבחר"
+msgid "Run Backup"
+msgstr "הרצת גיבוי"
 
 msgid "Running"
 msgstr "מריץ"
+
+msgid "Running (revived)"
+msgstr ""
 
 msgid "Running custom command..."
 msgstr "מריץ פקודה מותאמת..."
@@ -3464,9 +3526,6 @@ msgstr "יום שבת"
 
 msgid "Save"
 msgstr "להציל"
-
-msgid "Save All"
-msgstr "שמור הכל"
 
 msgid "Save as"
 msgstr "שמור כ"
@@ -3509,10 +3568,16 @@ msgstr "לוח זמנים"
 msgid "Schedule type"
 msgstr "סוג תזמון"
 
+msgid "Scheduled"
+msgstr ""
+
 msgid "Scheduled backups will no longer run in the background."
 msgstr ""
 
 msgid "Scheduled backups will still run in the background."
+msgstr ""
+
+msgid "Scheduled Emails"
 msgstr ""
 
 msgid "Schedules"
@@ -3647,6 +3712,12 @@ msgstr "שלח עלון הלקוח"
 msgid "Send immediately once job has completed"
 msgstr ""
 
+msgid "Sending"
+msgstr ""
+
+msgid "Sent emails at last wake event"
+msgstr ""
+
 msgid "September"
 msgstr "סֶפּטֶמבֶּר"
 
@@ -3671,11 +3742,11 @@ msgstr "השרת שודרג, היכנס שוב."
 msgid "Server history"
 msgstr "היסטוריית שרתים"
 
-msgid "Server logs"
-msgstr "רשומות שרת"
-
 msgid "Server Logs"
 msgstr "יומני שרתים"
+
+msgid "Server logs"
+msgstr "רשומות שרת"
 
 msgid "Server restarted."
 msgstr "השרת הופעל מחדש."
@@ -3740,6 +3811,9 @@ msgstr "כבה את השרת"
 msgid "Sign in"
 msgstr "כניסה"
 
+msgid "Single"
+msgstr ""
+
 msgid "Size"
 msgstr "גודל"
 
@@ -3792,6 +3866,9 @@ msgstr "תפקיד בניית תוכנה"
 
 msgid "Software downloads require authentication. The copied command will include your administrator credentials!"
 msgstr "הורדות תוכנה דורשות אימות. הפקודה שהועתקה תכלול את אישורי מנהל המערכת שלך!"
+
+msgid "Some backup snapshots are non-restorable! Please contact your support agent for more information."
+msgstr ""
 
 msgid "sort column ascending"
 msgstr "מיון עמודות בעלייה"
@@ -3938,10 +4015,6 @@ msgstr "שלח"
 msgid "Success"
 msgstr "הצלחה"
 
-#, c-format
-msgid "Successfully mounted snapshot at [%s]"
-msgstr "תמונה מוצגת בהצלחה ב- [ %s ]"
-
 msgid "Summary table"
 msgstr ""
 
@@ -3980,6 +4053,9 @@ msgstr "קח תצלום מערכת קבצים"
 
 msgid "Taking filesystem snapshot..."
 msgstr "לוקח תצלום מערכת קבצים..."
+
+msgid "Tar stream"
+msgstr ""
 
 msgid "Target Hostname (optional)"
 msgstr "שם מארח המטרה (אופציונלי)"
@@ -4072,6 +4148,12 @@ msgstr "הקונטיינר יווצר אוטומטית אם הוא לא קיים
 msgid "The device has no Protected Items"
 msgstr ""
 
+msgid "The device is offline"
+msgstr ""
+
+msgid "The device is online"
+msgstr ""
+
 msgid "The device was found to be already running a target software version."
 msgstr "ההתקן נמצא כבר פועל גירסת תוכנה היעד."
 
@@ -4135,8 +4217,8 @@ msgstr "אין שום עבודות גיבוי בכספת אחסון זו!"
 msgid "There are no devices registered for this account."
 msgstr "אין שום מכשירים הרשומים על לשבון זה."
 
-msgid "There are no online devices available to perform the restore operation."
-msgstr "אין התקנים מקוונים זמינים לביצוע פעולת השחזור."
+msgid "There are no online devices available to perform the operation."
+msgstr ""
 
 msgid "There is no active bulk update campaign."
 msgstr "אין מסע פרסום פעיל לעדכון כמותי."
@@ -4186,6 +4268,9 @@ msgstr "עבודה זו הפכה לבלתי פעילה, או שהיא חווה �
 
 msgid "This job seems to be no longer running."
 msgstr "נראה כי עבודה זו אינה פועלת עוד."
+
+msgid "This job was thought to have stopped, but it seems to still be running."
+msgstr ""
 
 msgid ""
 "This new device must be registered into your backup account.\n"
@@ -4345,6 +4430,9 @@ msgid "unknown error"
 msgstr "שגיאה לא ידועה"
 
 msgid "Unknown MySQL isolation mode"
+msgstr ""
+
+msgid "Unlabelled partition"
 msgstr ""
 
 msgid "Unlimited"
@@ -4567,11 +4655,17 @@ msgstr "כתב VSS"
 msgid "VSS Writer components"
 msgstr "רכיבי כתב VSS"
 
+msgid "Waiting"
+msgstr ""
+
 msgid "Waiting for full scan to complete"
 msgstr "מחכה לסריקה המלאה להשלים"
 
 msgid "Waiting for installer to complete..."
 msgstr "ממתין שהתקין ..."
+
+msgid "Waiting to finish cleaning up the Storage Vault..."
+msgstr ""
 
 msgid "Waiting to finish logging messages..."
 msgstr "מחכה לסיום הודעות הרישום..."
@@ -4600,6 +4694,9 @@ msgstr "אזהרה: רק שטח דיסק %s זמין"
 msgid "Wasabi"
 msgstr ""
 
+msgid "Web GUI"
+msgstr ""
+
 msgid "Wed"
 msgstr "להתחתן"
 
@@ -4622,9 +4719,6 @@ msgid "When PC starts"
 msgstr ""
 
 msgid "When PC starts, if the last job was Missed"
-msgstr ""
-
-msgid "When using a Master Application Key, enter the Account ID as the Application key ID."
 msgstr ""
 
 msgid "Windows"
@@ -4656,6 +4750,9 @@ msgstr "עבודה, המתן ..."
 
 msgid "Working..."
 msgstr "עובד..."
+
+msgid "Wrong number of CSV columns"
+msgstr ""
 
 msgid "Yes"
 msgstr "כן"
@@ -4702,9 +4799,6 @@ msgstr "אתה תהיה מחובר מתוך ממשק האינטרנט של שר�
 
 msgid "Your TOTP code has been replaced with the code below. Scan the QR code to register it with your authenticator app."
 msgstr "קוד ה- TOTP שלך הוחלף בקוד שלהלן. סרוק את קוד ה- QR כדי לרשום אותו עם יישום המאמת שלך."
-
-msgid "Zero: do not prune old logs"
-msgstr "אפס: לא לגזום יומנים ישנים"
 
 #, qt-format
 msgid "[%1] Item %2 (%3) of %4 (%5)"

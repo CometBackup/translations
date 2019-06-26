@@ -43,6 +43,10 @@ msgid "%1 snapshot(s)"
 msgstr "%1 snapshot(a)"
 
 #, qt-format
+msgid "%1 volume"
+msgstr ""
+
+#, qt-format
 msgid "%1 week(s)"
 msgstr "%1 tjedan(i)"
 
@@ -147,17 +151,17 @@ msgstr "Napuštam operaciju na Spremniku pohrane..."
 msgid "Abandoning task."
 msgstr "Napuštanje zadatka."
 
-msgid "About this cluster"
-msgstr "O ovome Klasteru"
-
 msgid "About this Cluster"
 msgstr "O ovome Klasteru"
 
-msgid "About this server"
-msgstr "O ovome serveru"
+msgid "About this cluster"
+msgstr "O ovome Klasteru"
 
 msgid "About this Server"
 msgstr "O ovom serveru"
+
+msgid "About this server"
+msgstr "O ovome serveru"
 
 msgid "Accept invalid SSL certificate from the remote SMTP server"
 msgstr "Prihvati nevažeči SSL certifikat remote SMTP servera"
@@ -325,6 +329,10 @@ msgstr ""
 msgid "All devices"
 msgstr "Svi uređaju"
 
+#, qt-format
+msgid "All disks (%1)"
+msgstr ""
+
 msgid "All done! Click \"Save\" to save changes."
 msgstr "Sve je izvršeno! Kliknite \"Spremi\" za spremanje izmjena."
 
@@ -405,9 +413,6 @@ msgstr "Došlo je do greške prilikom kopiranja u međuspremnik."
 msgid "An imminent failure indicates either bad privileges or WOW64."
 msgstr "Neposredna greška upućuje na krive privilegije ili WOW64."
 
-msgid "An unexpected error occurred"
-msgstr ""
-
 msgid "An unknown exception occurred."
 msgstr "Nepoznato izuzeće"
 
@@ -469,9 +474,6 @@ msgstr "API Ključ"
 
 msgid "Application key"
 msgstr "Ključ aplikacije"
-
-msgid "Application key ID"
-msgstr ""
 
 msgid "Application-Aware Writer"
 msgstr "Aplikacijski Writer"
@@ -596,6 +598,12 @@ msgstr "Autentifikacija OK"
 
 msgid "Authentication Role"
 msgstr "Autentifikacijska Uloga"
+
+msgid "Authenticode"
+msgstr ""
+
+msgid "Authenticode EV"
+msgstr ""
 
 msgid "Auto refresh"
 msgstr "Automatsko osvježavanje"
@@ -747,11 +755,14 @@ msgstr "Izgradnja cache-a..."
 msgid "Bulk replace addresses"
 msgstr "Skupna izmjena adresa"
 
+msgid "Bulk Update"
+msgstr "Grupni Update"
+
 msgid "Bulk update"
 msgstr "Grupni Update"
 
-msgid "Bulk Update"
-msgstr "Grupni Update"
+msgid "Calculating"
+msgstr ""
 
 msgid "Calculating size..."
 msgstr "Izračunavam veličinu..."
@@ -815,9 +826,6 @@ msgstr "Poništeno"
 msgid "Cancelling..."
 msgstr "Poništavam..."
 
-msgid "Cannot proceed - another task has temporary exclusive control over the Storage Vault."
-msgstr ""
-
 msgid "Cannot proceed - another task needs to finish using the Storage Vault first."
 msgstr ""
 
@@ -830,12 +838,6 @@ msgstr ""
 
 msgid "Certificate"
 msgstr "Certifikat"
-
-msgid "Certificate file (*.crt)"
-msgstr "Datoteka certifikata (*.crt)"
-
-msgid "Certificate key (*.key)"
-msgstr "Ključ certifikata (*.key)"
 
 msgid "Change account settings"
 msgstr "Izmjeni postavke računa"
@@ -873,9 +875,6 @@ msgstr "Cirkularno logiranje je uključen, inkrementalno/diferencijalni backupi 
 msgid "Classification"
 msgstr "Klasifikacija"
 
-msgid "Cleaning snapshot..."
-msgstr "Čistim snapshot..."
-
 #, c-format
 msgid "Cleaning up %s snapshot..."
 msgstr "Čistim %s snapshot..."
@@ -898,11 +897,11 @@ msgstr "Klijent"
 msgid "Client Bulletin"
 msgstr "Bilten klijenta"
 
-msgid "Client news"
-msgstr "Novosti klijenta"
-
 msgid "Client News"
 msgstr "Novosti Klijenta"
+
+msgid "Client news"
+msgstr "Novosti klijenta"
 
 msgid "Client users"
 msgstr "Klijent korisnici"
@@ -915,6 +914,9 @@ msgstr "Međuspremnik očišćen"
 
 msgid "Cluster"
 msgstr "Klaster"
+
+msgid "Codesigning"
+msgstr ""
 
 msgid "Color in hex format (e.g. #FFFFFF)"
 msgstr "Boje u hex formatu (e.g. #FFFFFF)"
@@ -985,14 +987,17 @@ msgstr "Konfiguriraj koji korisnici se smiju logirati u administratorsko sučelj
 msgid "Configure..."
 msgstr ""
 
+msgid "Connected Device"
+msgstr ""
+
 msgid "Connected Device Actions"
 msgstr "Radnje konektiranih Uređaja"
 
-msgid "Connected devices"
-msgstr "Konektirani uređaji"
-
 msgid "Connected Devices"
 msgstr "Konektirani Uređaji"
+
+msgid "Connected devices"
+msgstr "Konektirani uređaji"
 
 msgid "Connected since"
 msgstr ""
@@ -1106,16 +1111,8 @@ msgid "Couldn't find the generated %s snapshot."
 msgstr "Nije moguće pronalaženje generiranog %s snapshot-a."
 
 #, c-format
-msgid "Couldn't free snapshot (%s)"
-msgstr "Nije moguće osloboditi snapshot (%s)"
-
-#, c-format
 msgid "Couldn't get job token from backup server (%s)"
 msgstr "Nije moguće pronalaženje tokena zadatka na backup serveru (%s)"
-
-#, c-format
-msgid "Couldn't get snapshot path (%s)"
-msgstr "Nije moguće utvrditi putanu snapshota (%s)"
 
 msgid "Couldn't initialize VSS"
 msgstr "Nije moguća inicjalizacija VSS-a"
@@ -1127,6 +1124,10 @@ msgstr "Nije moguće pokretanje %s"
 #, c-format
 msgid "Couldn't list databases (%s)"
 msgstr "Nije moguće izlistavanje baza podataka (%s)"
+
+#, c-format
+msgid "Couldn't load <chunk/%s> for subdirectory '%s': %s"
+msgstr ""
 
 #, c-format
 msgid "Couldn't load component '%s': (%s)"
@@ -1141,20 +1142,12 @@ msgstr "Nije moguće učitavanje Spremnika Pohrane sa servera."
 msgid "Couldn't load this Protected Item."
 msgstr "Nije moguće učitavanje ovo Zaštićene stavke."
 
-#, c-format
-msgid "Couldn't load tree '%s' for subdirectory '%s': %s"
-msgstr "Nije moguće učitavanje stabla '%s' za podmapu '%s': %s"
-
 msgid "Couldn't load user profile page."
 msgstr "Nije moguće učitavanje stranice profila."
 
 #, c-format
 msgid "Couldn't look up account properties (%s)"
 msgstr "Nije moguć pregled svojstava računa (%s)"
-
-#, c-format
-msgid "Couldn't make snapshot (%s)"
-msgstr "Nije moguće stvoriti snapshot (%s)"
 
 msgid "Couldn't parse GUID."
 msgstr "Nije moguće parsirati GUID."
@@ -1200,10 +1193,6 @@ msgstr "Nije moguće spremiti izmjene."
 msgid "Couldn't save profile to server (%s)"
 msgstr "Nije moguće spremiti profil na server (%s)."
 
-#, c-format
-msgid "Couldn't snapshot volume (%s)"
-msgstr "Nije moguće stvoriti snapshot voluma (%s)"
-
 msgid "Couldn't start engine"
 msgstr "Nije moguće pokrenuti mehanizam"
 
@@ -1217,10 +1206,6 @@ msgstr "Nije moguće poslati log na server (%s) dok se prikazuje poruka logiranj
 #, c-format
 msgid "Couldn't submit log to server while logging message \"%s\""
 msgstr "Nije moguće poslati log na server dok se prikazuje poruka logiranja \"%s\""
-
-#, c-format
-msgid "Couldn't take filesystem snapshot (%s)"
-msgstr "Nije moguće stvoriti snapshot sistema (%s)"
 
 msgid "Couldn't take snapshot"
 msgstr "Nije moguće stvoriti snapshot"
@@ -1254,6 +1239,9 @@ msgstr "Tekuća lozinka"
 
 msgid "Current password is incorrect"
 msgstr "Tekuća lozinka je neispravna"
+
+msgid "Current status"
+msgstr ""
 
 msgid "custom"
 msgstr "prilagođeno"
@@ -1452,6 +1440,12 @@ msgstr "Onemogućene napredne postavke."
 msgid "Disconnect"
 msgstr ""
 
+msgid "Disk"
+msgstr ""
+
+msgid "Disk Image"
+msgstr ""
+
 msgid "Dismiss"
 msgstr "Obustavi"
 
@@ -1485,6 +1479,9 @@ msgstr "Preuzimanje završeno (%d byte), ažuriram..."
 
 msgid "Download for..."
 msgstr "Preuzmi za..."
+
+msgid "Download only, do not save"
+msgstr ""
 
 msgid "Downloaded"
 msgstr "Preuzeto"
@@ -1527,6 +1524,9 @@ msgstr ""
 "- C:\\Windows\n"
 "- *.avi\n"
 "- download.r[0-9][0-9]"
+
+msgid "e.g. KEY:SLOT"
+msgstr ""
 
 msgid "EDB and logs, no truncate (\"COPY\")"
 msgstr "EDB i logovi, bez skraćivanja (\"COPY\")"
@@ -1649,10 +1649,16 @@ msgstr "Doški je do pogreške %d error(s)."
 msgid "Encryption"
 msgstr "Enkripcija"
 
+msgid "End time"
+msgstr ""
+
 msgid "Ended"
 msgstr "Završeno"
 
 msgid "Enforce this retention policy for all Storage Vaults"
+msgstr ""
+
+msgid "Engine"
 msgstr ""
 
 #, c-format
@@ -1677,8 +1683,14 @@ msgstr "Unesite volume:"
 msgid "Error"
 msgstr "Greška"
 
+msgid "ERROR"
+msgstr ""
+
 #, c-format
 msgid "Error for '%s': file truncated (expected %d bytes, got %d)"
+msgstr ""
+
+msgid "Error for user '%s' (line %d): %s"
 msgstr ""
 
 #, c-format
@@ -1777,6 +1789,9 @@ msgstr "Neuspješno dodavanje Spremnika Pohrane."
 #, qt-format
 msgid "Failed to browse %1."
 msgstr "Neuspješno pretraživanje %1."
+
+msgid "Failed to browse local disks"
+msgstr ""
 
 msgid "Failed to browse VSS components."
 msgstr "Neuspješno pretraživanje VSS komponenata."
@@ -2091,6 +2106,9 @@ msgstr "Slika"
 msgid "Immediate job notification"
 msgstr ""
 
+msgid "Immediately send an email to all user accounts."
+msgstr ""
+
 msgid "Import"
 msgstr "Uvezi"
 
@@ -2105,9 +2123,6 @@ msgstr "Uvoz naprednih pravila retencije još nije podržano; zadržavaju se svi
 
 msgid "Importing monthly schedules without a specific date is not yet supported, skipping schedule"
 msgstr "Uvoz mjesečnih termina bez specifičnog datuma još nije podržano, preskačem raspored"
-
-msgid "In progress"
-msgstr "U tijeku"
 
 msgid "Include"
 msgstr "Uključi"
@@ -2147,6 +2162,9 @@ msgstr "Naziv instance"
 msgid "Interface"
 msgstr "Sučelje"
 
+msgid "Intermediate"
+msgstr ""
+
 msgid "Internal"
 msgstr ""
 
@@ -2157,10 +2175,6 @@ msgstr "Prekidam backup zadatak (dostignuta kvota Spremnika Pohrane %s)"
 #, c-format
 msgid "Interrupting backup job (exceeded time limit of %s)"
 msgstr "Prekidam backup zadatak (dostignut vremenski limit od %s)"
-
-#, c-format
-msgid "Invalid backup job '%s' selected (%s)"
-msgstr "Neispravan backup zadatak %s odabran (%s)"
 
 msgid "Invalid character in username"
 msgstr "Neispravan znak u korisničkom nazivu"
@@ -2265,11 +2279,11 @@ msgstr "Zadatak"
 msgid "Job completed."
 msgstr ""
 
-msgid "Job history"
-msgstr "Povijest zadataka"
-
 msgid "Job History"
 msgstr "Povijest Zadataka"
+
+msgid "Job history"
+msgstr "Povijest zadataka"
 
 msgid "Job ID"
 msgstr "Zadatak ID"
@@ -2312,6 +2326,9 @@ msgstr "Ne zadržavaj ništa (PAŽNJA)"
 msgid "Key"
 msgstr "Ključ"
 
+msgid "Key ID"
+msgstr ""
+
 msgid "Known servers"
 msgstr ""
 
@@ -2329,6 +2346,9 @@ msgstr ""
 
 msgid "Last scan"
 msgstr "Zadnji scan"
+
+msgid "Last wake event"
+msgstr ""
 
 msgid "Last [...] backups"
 msgstr "Posljednji [...] backup"
@@ -2372,15 +2392,15 @@ msgstr "Linux"
 msgid "Live progress information was last updated at:"
 msgstr "Informacija o trenutnom napretku je posljednji put ažurirana:"
 
+msgid "Loading"
+msgstr "Učitavam"
+
 msgid "Loading network credentials for Storage Vault"
 msgstr ""
 
 #, c-format
 msgid "Loading Storage Vault metadata for deep verification (%d/%d)..."
 msgstr ""
-
-msgid "Loading..."
-msgstr "Učitavam..."
 
 msgid "Local"
 msgstr ""
@@ -2394,9 +2414,6 @@ msgstr "Lokalna putanja (opcionalno)"
 #, qt-format
 msgid "Local Path: [%1]"
 msgstr "Lokalna Putanja: [%1]"
-
-msgid "Local Storage Buckets"
-msgstr "Bucket lokalne pohrane"
 
 msgid "localhost"
 msgstr "localhost"
@@ -2469,10 +2486,6 @@ msgstr ""
 
 msgid "macOS"
 msgstr "macOS"
-
-#, c-format
-msgid "Malformed pattern (%s)"
-msgstr "Deformirani uzorak (%s)"
 
 #, qt-format
 msgid "Malformed property '%1', skipping"
@@ -2563,6 +2576,18 @@ msgstr "Nedostaje polje 'Naziv' za odabranu VSS komponentu"
 msgid "Missing 'Path' field for selected VSS component"
 msgstr "Nedostaje polje 'Putanja' za odabranu VSS komponentu"
 
+msgid "Missing excluded disk"
+msgstr ""
+
+msgid "Missing excluded partition"
+msgstr ""
+
+msgid "Missing selected disk"
+msgstr ""
+
+msgid "Missing selected partition"
+msgstr ""
+
 msgid "Mobile Client"
 msgstr "Mobilni Klijent"
 
@@ -2571,6 +2596,9 @@ msgstr "Mod"
 
 msgid "Modified"
 msgstr "Izmjenjen"
+
+msgid "Module"
+msgstr ""
 
 msgid "Mon"
 msgstr ""
@@ -2583,6 +2611,15 @@ msgstr "Mjesečno"
 
 msgid "Months"
 msgstr "Mjeseci"
+
+msgid "ms"
+msgstr ""
+
+msgid "Multiple"
+msgstr ""
+
+msgid "Multiple commands"
+msgstr ""
 
 msgid "MX Direct"
 msgstr ""
@@ -2687,6 +2724,9 @@ msgstr "Slijedeći"
 msgid "Next %1"
 msgstr "Slijedeći %1"
 
+msgid "Next scheduled email"
+msgstr ""
+
 msgid "No"
 msgstr "Ne"
 
@@ -2726,9 +2766,6 @@ msgstr "Nije definirana niti jedna datoteka za backup."
 msgid "No files selected for restore"
 msgstr ""
 
-msgid "no GUI"
-msgstr ""
-
 msgid "No isolation"
 msgstr ""
 
@@ -2761,6 +2798,9 @@ msgstr "Nema definiranih termina"
 
 msgid "No Storage Vaults are available for restore."
 msgstr "Niti jedan Spreminik Pohrane nije raspoloživ za restore."
+
+msgid "No users found"
+msgstr ""
 
 msgid "No VMs found, or no permission to enumerate VMs"
 msgstr ""
@@ -2804,6 +2844,9 @@ msgstr ""
 msgid "Not seen"
 msgstr "Nije pregledano"
 
+msgid "Not started"
+msgstr ""
+
 msgid "Not yet run"
 msgstr "Još nepokrenut"
 
@@ -2817,6 +2860,9 @@ msgstr "Studeni"
 #, c-format
 msgid "Now running updated software (%s)."
 msgstr "Izvršavam ažuriranje aplikacije (%s)."
+
+msgid "ns"
+msgstr ""
 
 msgid "Number of devices"
 msgstr "Broj uređaja"
@@ -2897,6 +2943,9 @@ msgstr "Operacija završena (%s)."
 msgid "Operation completed successfully."
 msgstr "Operacija uspješno izvršena."
 
+msgid "Operation interrupted"
+msgstr ""
+
 msgid "Optional"
 msgstr "Opcionalno"
 
@@ -2976,6 +3025,13 @@ msgstr ""
 msgid "Paste"
 msgstr "Zalijepi"
 
+msgid ""
+"Paste CSV content in the form:\n"
+"\n"
+"AccountName1,Username1,Password1,Email1\n"
+"AccountName2,Username2,Password2,Email2"
+msgstr ""
+
 msgid "Path"
 msgstr "Putanja"
 
@@ -3023,6 +3079,9 @@ msgstr "Pravila"
 
 msgid "Policy"
 msgstr "Pravilo"
+
+msgid "Policy default"
+msgstr ""
 
 msgid "Policy ID"
 msgstr ""
@@ -3114,6 +3173,9 @@ msgstr "Privatni ključ"
 msgid "Process completed"
 msgstr "Proces je završen"
 
+msgid "Process multiple files using:"
+msgstr ""
+
 #, c-format
 msgid "Processing backupset '%s'..."
 msgstr "Procesuiram backupset '%s'..."
@@ -3131,6 +3193,9 @@ msgstr "Profil"
 msgid "Profile maintenance failure: %s"
 msgstr "Neuspjela radnja održavanja profila: %s"
 
+msgid "Program Input"
+msgstr ""
+
 msgid "Program Output"
 msgstr "Output programa"
 
@@ -3147,6 +3212,9 @@ msgid "Protected Item"
 msgstr "Zaštićena Stavka"
 
 msgid "Protected Item ID"
+msgstr ""
+
+msgid "Protected Item using unsupported setting or feature"
 msgstr ""
 
 msgid "Protected Items"
@@ -3218,26 +3286,20 @@ msgstr "Realm adresa"
 msgid "Rebuild indexes"
 msgstr ""
 
-msgid "Rebuild indexes for Storage Vault"
-msgstr ""
-
 msgid "Receive backup reports"
 msgstr "Primaj backup izvještaje"
 
 msgid "Receiver"
 msgstr "Primaoc"
 
-msgid "Recent activity"
+msgid "Recent Activity"
 msgstr ""
 
-msgid "Recent Activity"
+msgid "Recent activity"
 msgstr ""
 
 msgid "Recent- and incomplete- jobs"
 msgstr ""
-
-msgid "Recommendation: 90 days"
-msgstr "Preporuka: 90 dana"
 
 msgid "Recommendation: Leave this DISABLED until you are satisfied that the configuration is correct."
 msgstr "Preporuka: Ostavi na DISABLED dok nisi siguran u ispravnost konfiguracije."
@@ -3320,9 +3382,6 @@ msgstr "Ukloni sve"
 msgid "Remove item"
 msgstr "Ukloni stavku"
 
-msgid "Remove lockfiles"
-msgstr "Isključi lockfile"
-
 msgid "Removed expired locks from the Storage Vault."
 msgstr ""
 
@@ -3398,6 +3457,9 @@ msgstr "Restart servera"
 msgid "Restore"
 msgstr "Restore"
 
+msgid "Restore as:"
+msgstr ""
+
 msgid "restore engine"
 msgstr "mehanizan restora"
 
@@ -3445,14 +3507,14 @@ msgstr "Izvrši backup sada"
 msgid "Run at:"
 msgstr "Izvrši u:"
 
-msgid "Run Scheduled Backup"
-msgstr "Izvrši Backupe prema rasporedu"
-
-msgid "Run Selected Backup"
-msgstr "Izvrši odabrane Backupe"
+msgid "Run Backup"
+msgstr "Izvrši Backupe"
 
 msgid "Running"
 msgstr "Izvršavam"
+
+msgid "Running (revived)"
+msgstr ""
 
 msgid "Running custom command..."
 msgstr "Izvršavam prilagođenu naredbu..."
@@ -3468,9 +3530,6 @@ msgstr "Subota"
 
 msgid "Save"
 msgstr "Spremi"
-
-msgid "Save All"
-msgstr "Spremi Sve"
 
 msgid "Save as"
 msgstr "Spremi kao"
@@ -3513,10 +3572,16 @@ msgstr "Raspored termina"
 msgid "Schedule type"
 msgstr "Tip termina"
 
+msgid "Scheduled"
+msgstr ""
+
 msgid "Scheduled backups will no longer run in the background."
 msgstr ""
 
 msgid "Scheduled backups will still run in the background."
+msgstr ""
+
+msgid "Scheduled Emails"
 msgstr ""
 
 msgid "Schedules"
@@ -3651,6 +3716,12 @@ msgstr "Pošalji bilten klijentu"
 msgid "Send immediately once job has completed"
 msgstr ""
 
+msgid "Sending"
+msgstr ""
+
+msgid "Sent emails at last wake event"
+msgstr ""
+
 msgid "September"
 msgstr "Rujan"
 
@@ -3675,11 +3746,11 @@ msgstr "Server je nadograđen, molimo logirajte se ponovno."
 msgid "Server history"
 msgstr ""
 
-msgid "Server logs"
-msgstr "Logovi servera"
-
 msgid "Server Logs"
 msgstr "Logovi Servera"
+
+msgid "Server logs"
+msgstr "Logovi servera"
 
 msgid "Server restarted."
 msgstr "Server je restartan."
@@ -3744,6 +3815,9 @@ msgstr "Isključi server"
 msgid "Sign in"
 msgstr "Registriraj se"
 
+msgid "Single"
+msgstr ""
+
 msgid "Size"
 msgstr "Veličina"
 
@@ -3796,6 +3870,9 @@ msgstr "Uloga Build-a Aplikacije"
 
 msgid "Software downloads require authentication. The copied command will include your administrator credentials!"
 msgstr "Preuzimanje aplikacije zahtjeva autentifikaciju. Kopirana naredba će uključivati pristupne podatke administratora!"
+
+msgid "Some backup snapshots are non-restorable! Please contact your support agent for more information."
+msgstr ""
 
 msgid "sort column ascending"
 msgstr "poredaj kolone uzlazno"
@@ -3942,10 +4019,6 @@ msgstr "Pošalji"
 msgid "Success"
 msgstr "Uspješno"
 
-#, c-format
-msgid "Successfully mounted snapshot at [%s]"
-msgstr "Uspješno mountan snapshot u [%s]"
-
 msgid "Summary table"
 msgstr ""
 
@@ -3984,6 +4057,9 @@ msgstr "Snapshot datoteka sustava"
 
 msgid "Taking filesystem snapshot..."
 msgstr "Izvršavam snapshot datoteka sustava..."
+
+msgid "Tar stream"
+msgstr ""
 
 msgid "Target Hostname (optional)"
 msgstr "Hostname destinacije (opcionalno)"
@@ -4076,6 +4152,12 @@ msgstr "Kontejner će biti automatski stvoren ako ne postoji."
 msgid "The device has no Protected Items"
 msgstr ""
 
+msgid "The device is offline"
+msgstr ""
+
+msgid "The device is online"
+msgstr ""
+
 msgid "The device was found to be already running a target software version."
 msgstr ""
 
@@ -4139,8 +4221,8 @@ msgstr "Nema backup zadataka u ovom Spremniku Pohrane!"
 msgid "There are no devices registered for this account."
 msgstr "Za ovaj račun nema registriranih uređaja."
 
-msgid "There are no online devices available to perform the restore operation."
-msgstr "Nema raspoloživih online uređaja za izvršiti restore operaciju."
+msgid "There are no online devices available to perform the operation."
+msgstr "Nema raspoloživih online uređaja za izvršiti operaciju."
 
 msgid "There is no active bulk update campaign."
 msgstr "Nema aktivnih grupnih ažuriranja kampanje."
@@ -4190,6 +4272,9 @@ msgstr "Ovaj zadatak je postao neaktivan ili ima problema sa komunikacijom."
 
 msgid "This job seems to be no longer running."
 msgstr "Izgleda da se ovaj zadatak više ne izvršava."
+
+msgid "This job was thought to have stopped, but it seems to still be running."
+msgstr ""
 
 msgid ""
 "This new device must be registered into your backup account.\n"
@@ -4352,6 +4437,9 @@ msgid "unknown error"
 msgstr "nepoznata greška"
 
 msgid "Unknown MySQL isolation mode"
+msgstr ""
+
+msgid "Unlabelled partition"
 msgstr ""
 
 msgid "Unlimited"
@@ -4574,11 +4662,17 @@ msgstr "VSS Writer"
 msgid "VSS Writer components"
 msgstr "VSS Writer komponente"
 
+msgid "Waiting"
+msgstr ""
+
 msgid "Waiting for full scan to complete"
 msgstr "Čekanje na završetak full scana"
 
 msgid "Waiting for installer to complete..."
 msgstr "Čekanje na završetak instalacije..."
+
+msgid "Waiting to finish cleaning up the Storage Vault..."
+msgstr ""
 
 msgid "Waiting to finish logging messages..."
 msgstr "Čekanje na završetak poruke logiranja..."
@@ -4607,6 +4701,9 @@ msgstr "Upozorenje: Samo %s diskovnog prostora je raspoloživo"
 msgid "Wasabi"
 msgstr ""
 
+msgid "Web GUI"
+msgstr ""
+
 msgid "Wed"
 msgstr ""
 
@@ -4629,9 +4726,6 @@ msgid "When PC starts"
 msgstr ""
 
 msgid "When PC starts, if the last job was Missed"
-msgstr ""
-
-msgid "When using a Master Application Key, enter the Account ID as the Application key ID."
 msgstr ""
 
 msgid "Windows"
@@ -4663,6 +4757,9 @@ msgstr "Obrađujem, molimo pričekajte..."
 
 msgid "Working..."
 msgstr "Obrađujem..."
+
+msgid "Wrong number of CSV columns"
+msgstr ""
 
 msgid "Yes"
 msgstr "Da"
@@ -4711,9 +4808,6 @@ msgstr "Biti ćete delogirani iz Comet Server web sučelja."
 
 msgid "Your TOTP code has been replaced with the code below. Scan the QR code to register it with your authenticator app."
 msgstr ""
-
-msgid "Zero: do not prune old logs"
-msgstr "Zero: ne izdvajaj stare logove"
 
 #, qt-format
 msgid "[%1] Item %2 (%3) of %4 (%5)"

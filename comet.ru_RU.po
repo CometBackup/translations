@@ -43,6 +43,10 @@ msgid "%1 snapshot(s)"
 msgstr "%1 снепшот(-а)"
 
 #, qt-format
+msgid "%1 volume"
+msgstr ""
+
+#, qt-format
 msgid "%1 week(s)"
 msgstr "%1 неделя (-ь/-и)"
 
@@ -147,17 +151,17 @@ msgstr ""
 msgid "Abandoning task."
 msgstr "Отмена задачи."
 
-msgid "About this cluster"
-msgstr "Об этом Кластере"
-
 msgid "About this Cluster"
 msgstr "Об этом Кластере"
 
-msgid "About this server"
-msgstr "Об этом сервере"
+msgid "About this cluster"
+msgstr "Об этом Кластере"
 
 msgid "About this Server"
-msgstr ""
+msgstr "Об этом сервере"
+
+msgid "About this server"
+msgstr "Об этом сервере"
 
 msgid "Accept invalid SSL certificate from the remote SMTP server"
 msgstr ""
@@ -325,6 +329,10 @@ msgstr ""
 msgid "All devices"
 msgstr ""
 
+#, qt-format
+msgid "All disks (%1)"
+msgstr ""
+
 msgid "All done! Click \"Save\" to save changes."
 msgstr ""
 
@@ -405,9 +413,6 @@ msgstr ""
 msgid "An imminent failure indicates either bad privileges or WOW64."
 msgstr ""
 
-msgid "An unexpected error occurred"
-msgstr ""
-
 msgid "An unknown exception occurred."
 msgstr ""
 
@@ -469,9 +474,6 @@ msgstr "API-ключ"
 
 msgid "Application key"
 msgstr "Ключ приложения"
-
-msgid "Application key ID"
-msgstr ""
 
 msgid "Application-Aware Writer"
 msgstr ""
@@ -595,6 +597,12 @@ msgid "Authentication OK"
 msgstr "Аутентификация успешна"
 
 msgid "Authentication Role"
+msgstr ""
+
+msgid "Authenticode"
+msgstr ""
+
+msgid "Authenticode EV"
 msgstr ""
 
 msgid "Auto refresh"
@@ -747,10 +755,13 @@ msgstr ""
 msgid "Bulk replace addresses"
 msgstr "Адреса составной замены"
 
+msgid "Bulk Update"
+msgstr ""
+
 msgid "Bulk update"
 msgstr ""
 
-msgid "Bulk Update"
+msgid "Calculating"
 msgstr ""
 
 msgid "Calculating size..."
@@ -815,9 +826,6 @@ msgstr "Отмененный"
 msgid "Cancelling..."
 msgstr "Отмена..."
 
-msgid "Cannot proceed - another task has temporary exclusive control over the Storage Vault."
-msgstr ""
-
 msgid "Cannot proceed - another task needs to finish using the Storage Vault first."
 msgstr ""
 
@@ -829,12 +837,6 @@ msgid "Category"
 msgstr ""
 
 msgid "Certificate"
-msgstr ""
-
-msgid "Certificate file (*.crt)"
-msgstr ""
-
-msgid "Certificate key (*.key)"
 msgstr ""
 
 msgid "Change account settings"
@@ -873,9 +875,6 @@ msgstr "Включена циклическая запись, инкремент
 msgid "Classification"
 msgstr ""
 
-msgid "Cleaning snapshot..."
-msgstr ""
-
 #, c-format
 msgid "Cleaning up %s snapshot..."
 msgstr "Очистка снепшота %s..."
@@ -898,11 +897,11 @@ msgstr "Клиент"
 msgid "Client Bulletin"
 msgstr "Информационный Бюллетень Клиента"
 
-msgid "Client news"
-msgstr "Новости клиента"
-
 msgid "Client News"
 msgstr ""
+
+msgid "Client news"
+msgstr "Новости клиента"
 
 msgid "Client users"
 msgstr ""
@@ -915,6 +914,9 @@ msgstr "Буфер обмена очищен"
 
 msgid "Cluster"
 msgstr "Кластер"
+
+msgid "Codesigning"
+msgstr ""
 
 msgid "Color in hex format (e.g. #FFFFFF)"
 msgstr ""
@@ -985,14 +987,17 @@ msgstr ""
 msgid "Configure..."
 msgstr ""
 
+msgid "Connected Device"
+msgstr "Подключенного Устройства"
+
 msgid "Connected Device Actions"
 msgstr "Действия Подключенного Устройства"
 
-msgid "Connected devices"
-msgstr "Подключенные устройства"
-
 msgid "Connected Devices"
 msgstr "Подключенные Устройства"
+
+msgid "Connected devices"
+msgstr "Подключенные устройства"
 
 msgid "Connected since"
 msgstr ""
@@ -1106,16 +1111,8 @@ msgid "Couldn't find the generated %s snapshot."
 msgstr "Не удалось найти сгенерированный снепшот %s."
 
 #, c-format
-msgid "Couldn't free snapshot (%s)"
-msgstr ""
-
-#, c-format
 msgid "Couldn't get job token from backup server (%s)"
 msgstr "Не удалось получить токен задачи от сервера резервного копирования (%s)."
-
-#, c-format
-msgid "Couldn't get snapshot path (%s)"
-msgstr ""
 
 msgid "Couldn't initialize VSS"
 msgstr ""
@@ -1127,6 +1124,10 @@ msgstr "Не удалось запустить %s"
 #, c-format
 msgid "Couldn't list databases (%s)"
 msgstr "Не удалось составить список баз данных (%s)"
+
+#, c-format
+msgid "Couldn't load <chunk/%s> for subdirectory '%s': %s"
+msgstr ""
 
 #, c-format
 msgid "Couldn't load component '%s': (%s)"
@@ -1141,20 +1142,12 @@ msgstr "Не удалось загрузить Хранилища Данных �
 msgid "Couldn't load this Protected Item."
 msgstr "Не удалось загрузить этот Защищенный Элемент."
 
-#, c-format
-msgid "Couldn't load tree '%s' for subdirectory '%s': %s"
-msgstr ""
-
 msgid "Couldn't load user profile page."
 msgstr ""
 
 #, c-format
 msgid "Couldn't look up account properties (%s)"
 msgstr "Не удалось просмотреть свойства учетной записи (%s)"
-
-#, c-format
-msgid "Couldn't make snapshot (%s)"
-msgstr ""
 
 msgid "Couldn't parse GUID."
 msgstr ""
@@ -1200,10 +1193,6 @@ msgstr "Не удалось сохранить изменения."
 msgid "Couldn't save profile to server (%s)"
 msgstr ""
 
-#, c-format
-msgid "Couldn't snapshot volume (%s)"
-msgstr ""
-
 msgid "Couldn't start engine"
 msgstr "Не удалось запустить механизм"
 
@@ -1217,10 +1206,6 @@ msgstr "Не удалось отправить журнал на сервер (%
 #, c-format
 msgid "Couldn't submit log to server while logging message \"%s\""
 msgstr "Не удалось отправить журнал на сервер во время записи сообщения \"%s\""
-
-#, c-format
-msgid "Couldn't take filesystem snapshot (%s)"
-msgstr ""
 
 msgid "Couldn't take snapshot"
 msgstr ""
@@ -1253,6 +1238,9 @@ msgid "Current password"
 msgstr ""
 
 msgid "Current password is incorrect"
+msgstr ""
+
+msgid "Current status"
 msgstr ""
 
 msgid "custom"
@@ -1452,6 +1440,12 @@ msgstr "Отключенные дополнительные настройки."
 msgid "Disconnect"
 msgstr ""
 
+msgid "Disk"
+msgstr ""
+
+msgid "Disk Image"
+msgstr ""
+
 msgid "Dismiss"
 msgstr "Скрыть"
 
@@ -1485,6 +1479,9 @@ msgstr "Загрузка завершена (%d байт), обновление.
 
 msgid "Download for..."
 msgstr "Скачать для..."
+
+msgid "Download only, do not save"
+msgstr ""
 
 msgid "Downloaded"
 msgstr "Загружено"
@@ -1527,6 +1524,9 @@ msgstr ""
 "- C:\\Windows\n"
 "- *.avi\n"
 "- download.r[0-9][0-9]"
+
+msgid "e.g. KEY:SLOT"
+msgstr ""
 
 msgid "EDB and logs, no truncate (\"COPY\")"
 msgstr "EDB-файл и логи, без усечения (\"COPY\")"
@@ -1649,10 +1649,16 @@ msgstr ""
 msgid "Encryption"
 msgstr "Шифрование"
 
+msgid "End time"
+msgstr ""
+
 msgid "Ended"
 msgstr "Закончено"
 
 msgid "Enforce this retention policy for all Storage Vaults"
+msgstr ""
+
+msgid "Engine"
 msgstr ""
 
 #, c-format
@@ -1677,8 +1683,14 @@ msgstr "Введите том:"
 msgid "Error"
 msgstr "Ошибка"
 
+msgid "ERROR"
+msgstr "ОШИБКА"
+
 #, c-format
 msgid "Error for '%s': file truncated (expected %d bytes, got %d)"
+msgstr ""
+
+msgid "Error for user '%s' (line %d): %s"
 msgstr ""
 
 #, c-format
@@ -1776,6 +1788,9 @@ msgstr "Не удалось добавить Хранилище Данных."
 
 #, qt-format
 msgid "Failed to browse %1."
+msgstr ""
+
+msgid "Failed to browse local disks"
 msgstr ""
 
 msgid "Failed to browse VSS components."
@@ -2091,6 +2106,9 @@ msgstr ""
 msgid "Immediate job notification"
 msgstr ""
 
+msgid "Immediately send an email to all user accounts."
+msgstr ""
+
 msgid "Import"
 msgstr "Импорт"
 
@@ -2104,9 +2122,6 @@ msgid "Importing advanced retention policies is not yet supported; keeping all b
 msgstr ""
 
 msgid "Importing monthly schedules without a specific date is not yet supported, skipping schedule"
-msgstr ""
-
-msgid "In progress"
 msgstr ""
 
 msgid "Include"
@@ -2147,6 +2162,9 @@ msgstr "Имя экземпляра"
 msgid "Interface"
 msgstr ""
 
+msgid "Intermediate"
+msgstr ""
+
 msgid "Internal"
 msgstr ""
 
@@ -2156,10 +2174,6 @@ msgstr ""
 
 #, c-format
 msgid "Interrupting backup job (exceeded time limit of %s)"
-msgstr ""
-
-#, c-format
-msgid "Invalid backup job '%s' selected (%s)"
 msgstr ""
 
 msgid "Invalid character in username"
@@ -2265,11 +2279,11 @@ msgstr ""
 msgid "Job completed."
 msgstr ""
 
-msgid "Job history"
-msgstr "История задач"
-
 msgid "Job History"
 msgstr ""
+
+msgid "Job history"
+msgstr "История задач"
 
 msgid "Job ID"
 msgstr ""
@@ -2312,6 +2326,9 @@ msgstr "Ничего не оставлять (ПРЕДУПРЕЖДЕНИЕ)"
 msgid "Key"
 msgstr "Ключ"
 
+msgid "Key ID"
+msgstr ""
+
 msgid "Known servers"
 msgstr ""
 
@@ -2328,6 +2345,9 @@ msgid "Last backup job"
 msgstr ""
 
 msgid "Last scan"
+msgstr ""
+
+msgid "Last wake event"
 msgstr ""
 
 msgid "Last [...] backups"
@@ -2372,15 +2392,15 @@ msgstr "Linux"
 msgid "Live progress information was last updated at:"
 msgstr ""
 
+msgid "Loading"
+msgstr "Загрузка"
+
 msgid "Loading network credentials for Storage Vault"
 msgstr ""
 
 #, c-format
 msgid "Loading Storage Vault metadata for deep verification (%d/%d)..."
 msgstr ""
-
-msgid "Loading..."
-msgstr "Загрузка..."
 
 msgid "Local"
 msgstr ""
@@ -2394,9 +2414,6 @@ msgstr "Локальный путь (опционально)"
 #, qt-format
 msgid "Local Path: [%1]"
 msgstr "Локальный Путь: [%1]"
-
-msgid "Local Storage Buckets"
-msgstr "Корзины локального хранилиза"
 
 msgid "localhost"
 msgstr "localhost"
@@ -2468,10 +2485,6 @@ msgid "Lost connection to local service."
 msgstr ""
 
 msgid "macOS"
-msgstr ""
-
-#, c-format
-msgid "Malformed pattern (%s)"
 msgstr ""
 
 #, qt-format
@@ -2563,6 +2576,18 @@ msgstr ""
 msgid "Missing 'Path' field for selected VSS component"
 msgstr ""
 
+msgid "Missing excluded disk"
+msgstr ""
+
+msgid "Missing excluded partition"
+msgstr ""
+
+msgid "Missing selected disk"
+msgstr ""
+
+msgid "Missing selected partition"
+msgstr ""
+
 msgid "Mobile Client"
 msgstr ""
 
@@ -2571,6 +2596,9 @@ msgstr "Режим"
 
 msgid "Modified"
 msgstr "Модифицировано"
+
+msgid "Module"
+msgstr ""
 
 msgid "Mon"
 msgstr ""
@@ -2583,6 +2611,15 @@ msgstr "Ежемесячно"
 
 msgid "Months"
 msgstr "Месяцы"
+
+msgid "ms"
+msgstr ""
+
+msgid "Multiple"
+msgstr ""
+
+msgid "Multiple commands"
+msgstr ""
 
 msgid "MX Direct"
 msgstr ""
@@ -2687,6 +2724,9 @@ msgstr "Следующее"
 msgid "Next %1"
 msgstr "Следующее %1"
 
+msgid "Next scheduled email"
+msgstr ""
+
 msgid "No"
 msgstr "Нет"
 
@@ -2726,9 +2766,6 @@ msgstr "Для резервного копирования не выбраны �
 msgid "No files selected for restore"
 msgstr ""
 
-msgid "no GUI"
-msgstr ""
-
 msgid "No isolation"
 msgstr ""
 
@@ -2761,6 +2798,9 @@ msgstr "Расписания не определены"
 
 msgid "No Storage Vaults are available for restore."
 msgstr "Для восстановления нет доступных Хранилищ Данных."
+
+msgid "No users found"
+msgstr ""
 
 msgid "No VMs found, or no permission to enumerate VMs"
 msgstr ""
@@ -2804,6 +2844,9 @@ msgstr ""
 msgid "Not seen"
 msgstr ""
 
+msgid "Not started"
+msgstr ""
+
 msgid "Not yet run"
 msgstr "Еще не запущено"
 
@@ -2817,6 +2860,9 @@ msgstr "ноябрь"
 #, c-format
 msgid "Now running updated software (%s)."
 msgstr "Запущено обновленное ПО (%s)."
+
+msgid "ns"
+msgstr ""
 
 msgid "Number of devices"
 msgstr "Число устройств"
@@ -2897,6 +2943,9 @@ msgstr "Операция завершена (%s)."
 msgid "Operation completed successfully."
 msgstr "Операция завершена успешно."
 
+msgid "Operation interrupted"
+msgstr ""
+
 msgid "Optional"
 msgstr "Опционально"
 
@@ -2976,6 +3025,13 @@ msgstr ""
 msgid "Paste"
 msgstr "Вставить"
 
+msgid ""
+"Paste CSV content in the form:\n"
+"\n"
+"AccountName1,Username1,Password1,Email1\n"
+"AccountName2,Username2,Password2,Email2"
+msgstr ""
+
 msgid "Path"
 msgstr "Путь"
 
@@ -3023,6 +3079,9 @@ msgstr "Политики"
 
 msgid "Policy"
 msgstr "Поитика"
+
+msgid "Policy default"
+msgstr ""
 
 msgid "Policy ID"
 msgstr ""
@@ -3114,6 +3173,9 @@ msgstr "Приватный ключ"
 msgid "Process completed"
 msgstr ""
 
+msgid "Process multiple files using:"
+msgstr ""
+
 #, c-format
 msgid "Processing backupset '%s'..."
 msgstr ""
@@ -3131,6 +3193,9 @@ msgstr "Профиль"
 msgid "Profile maintenance failure: %s"
 msgstr "Ошибка при обслуживании профиля: %s"
 
+msgid "Program Input"
+msgstr ""
+
 msgid "Program Output"
 msgstr "Результаты Программы"
 
@@ -3147,6 +3212,9 @@ msgid "Protected Item"
 msgstr "Защищенный Элемент"
 
 msgid "Protected Item ID"
+msgstr ""
+
+msgid "Protected Item using unsupported setting or feature"
 msgstr ""
 
 msgid "Protected Items"
@@ -3218,25 +3286,19 @@ msgstr "Адрес области действия"
 msgid "Rebuild indexes"
 msgstr ""
 
-msgid "Rebuild indexes for Storage Vault"
-msgstr ""
-
 msgid "Receive backup reports"
 msgstr ""
 
 msgid "Receiver"
 msgstr ""
 
-msgid "Recent activity"
-msgstr ""
-
 msgid "Recent Activity"
 msgstr ""
 
-msgid "Recent- and incomplete- jobs"
+msgid "Recent activity"
 msgstr ""
 
-msgid "Recommendation: 90 days"
+msgid "Recent- and incomplete- jobs"
 msgstr ""
 
 msgid "Recommendation: Leave this DISABLED until you are satisfied that the configuration is correct."
@@ -3320,9 +3382,6 @@ msgstr ""
 msgid "Remove item"
 msgstr ""
 
-msgid "Remove lockfiles"
-msgstr "Удалить файлы блокировки"
-
 msgid "Removed expired locks from the Storage Vault."
 msgstr ""
 
@@ -3398,6 +3457,9 @@ msgstr ""
 msgid "Restore"
 msgstr "Восстановление"
 
+msgid "Restore as:"
+msgstr ""
+
 msgid "restore engine"
 msgstr "восстановление механизма"
 
@@ -3445,14 +3507,14 @@ msgstr ""
 msgid "Run at:"
 msgstr "Запустить в:"
 
-msgid "Run Scheduled Backup"
-msgstr "Запустить Запланированное Резервное Копирование"
-
-msgid "Run Selected Backup"
-msgstr "Запустить Выбранное Резервное Копирование"
+msgid "Run Backup"
+msgstr "Запустить Резервное Копирование"
 
 msgid "Running"
 msgstr "Запуск"
+
+msgid "Running (revived)"
+msgstr ""
 
 msgid "Running custom command..."
 msgstr "Запуск пользовательской команды..."
@@ -3468,9 +3530,6 @@ msgstr "Суббота"
 
 msgid "Save"
 msgstr "Сохранить"
-
-msgid "Save All"
-msgstr ""
 
 msgid "Save as"
 msgstr "Сохранить как"
@@ -3513,10 +3572,16 @@ msgstr "Расписание"
 msgid "Schedule type"
 msgstr ""
 
+msgid "Scheduled"
+msgstr ""
+
 msgid "Scheduled backups will no longer run in the background."
 msgstr ""
 
 msgid "Scheduled backups will still run in the background."
+msgstr ""
+
+msgid "Scheduled Emails"
 msgstr ""
 
 msgid "Schedules"
@@ -3651,6 +3716,12 @@ msgstr ""
 msgid "Send immediately once job has completed"
 msgstr ""
 
+msgid "Sending"
+msgstr ""
+
+msgid "Sent emails at last wake event"
+msgstr ""
+
 msgid "September"
 msgstr "сентябрь"
 
@@ -3675,11 +3746,11 @@ msgstr ""
 msgid "Server history"
 msgstr ""
 
-msgid "Server logs"
-msgstr "Журнал сервера"
-
 msgid "Server Logs"
 msgstr ""
+
+msgid "Server logs"
+msgstr "Журнал сервера"
 
 msgid "Server restarted."
 msgstr ""
@@ -3744,6 +3815,9 @@ msgstr "Отключить сервер"
 msgid "Sign in"
 msgstr "Войти"
 
+msgid "Single"
+msgstr ""
+
 msgid "Size"
 msgstr "Размер"
 
@@ -3795,6 +3869,9 @@ msgid "Software Build Role"
 msgstr ""
 
 msgid "Software downloads require authentication. The copied command will include your administrator credentials!"
+msgstr ""
+
+msgid "Some backup snapshots are non-restorable! Please contact your support agent for more information."
 msgstr ""
 
 msgid "sort column ascending"
@@ -3942,10 +4019,6 @@ msgstr ""
 msgid "Success"
 msgstr "Успех"
 
-#, c-format
-msgid "Successfully mounted snapshot at [%s]"
-msgstr ""
-
 msgid "Summary table"
 msgstr ""
 
@@ -3984,6 +4057,9 @@ msgstr "Сделать снепшот файловой системы"
 
 msgid "Taking filesystem snapshot..."
 msgstr "Делаем снепшот файловой системы..."
+
+msgid "Tar stream"
+msgstr ""
 
 msgid "Target Hostname (optional)"
 msgstr "Целевое Имя Хоста (опционально)"
@@ -4076,6 +4152,12 @@ msgstr "Если контейнер не существует, он будет �
 msgid "The device has no Protected Items"
 msgstr ""
 
+msgid "The device is offline"
+msgstr ""
+
+msgid "The device is online"
+msgstr ""
+
 msgid "The device was found to be already running a target software version."
 msgstr ""
 
@@ -4139,7 +4221,7 @@ msgstr "В этом Хранилище Данных нет задач резер
 msgid "There are no devices registered for this account."
 msgstr "Для этой учетной записи нет зарегистрированных устройств."
 
-msgid "There are no online devices available to perform the restore operation."
+msgid "There are no online devices available to perform the operation."
 msgstr ""
 
 msgid "There is no active bulk update campaign."
@@ -4189,6 +4271,9 @@ msgid "This job has become inactive, or is experiencing communication issues."
 msgstr ""
 
 msgid "This job seems to be no longer running."
+msgstr ""
+
+msgid "This job was thought to have stopped, but it seems to still be running."
 msgstr ""
 
 msgid ""
@@ -4352,6 +4437,9 @@ msgid "unknown error"
 msgstr ""
 
 msgid "Unknown MySQL isolation mode"
+msgstr ""
+
+msgid "Unlabelled partition"
 msgstr ""
 
 msgid "Unlimited"
@@ -4574,10 +4662,16 @@ msgstr "VSS-записыватель"
 msgid "VSS Writer components"
 msgstr "Компоненты VSS-записывателя"
 
+msgid "Waiting"
+msgstr ""
+
 msgid "Waiting for full scan to complete"
 msgstr "Ожидание завершения полного сканирования"
 
 msgid "Waiting for installer to complete..."
+msgstr ""
+
+msgid "Waiting to finish cleaning up the Storage Vault..."
 msgstr ""
 
 msgid "Waiting to finish logging messages..."
@@ -4607,6 +4701,9 @@ msgstr ""
 msgid "Wasabi"
 msgstr ""
 
+msgid "Web GUI"
+msgstr ""
+
 msgid "Wed"
 msgstr ""
 
@@ -4629,9 +4726,6 @@ msgid "When PC starts"
 msgstr ""
 
 msgid "When PC starts, if the last job was Missed"
-msgstr ""
-
-msgid "When using a Master Application Key, enter the Account ID as the Application key ID."
 msgstr ""
 
 msgid "Windows"
@@ -4663,6 +4757,9 @@ msgstr ""
 
 msgid "Working..."
 msgstr "Идет работа..."
+
+msgid "Wrong number of CSV columns"
+msgstr ""
 
 msgid "Yes"
 msgstr "Да"
@@ -4710,9 +4807,6 @@ msgid "You will be logged out of the Comet Server web interface."
 msgstr ""
 
 msgid "Your TOTP code has been replaced with the code below. Scan the QR code to register it with your authenticator app."
-msgstr ""
-
-msgid "Zero: do not prune old logs"
 msgstr ""
 
 #, qt-format

@@ -43,6 +43,10 @@ msgid "%1 snapshot(s)"
 msgstr "%1 instantâneo(s)"
 
 #, qt-format
+msgid "%1 volume"
+msgstr ""
+
+#, qt-format
 msgid "%1 week(s)"
 msgstr "%1 semana(s)"
 
@@ -152,17 +156,17 @@ msgstr "A abandonar a operação nesta área de armazenamento..."
 msgid "Abandoning task."
 msgstr "A abandonar tarefa."
 
-msgid "About this cluster"
-msgstr "Sobre este cluster"
-
 msgid "About this Cluster"
 msgstr "Sobre este Cluster"
 
-msgid "About this server"
-msgstr "Sobre este servidor"
+msgid "About this cluster"
+msgstr "Sobre este cluster"
 
 msgid "About this Server"
 msgstr "Sobre este Servidor"
+
+msgid "About this server"
+msgstr "Sobre este servidor"
 
 msgid "Accept invalid SSL certificate from the remote SMTP server"
 msgstr "Aceitar certificado SSL inválido do servidor SMTP remoto"
@@ -330,6 +334,10 @@ msgstr ""
 msgid "All devices"
 msgstr "Todos os dispositivos"
 
+#, qt-format
+msgid "All disks (%1)"
+msgstr ""
+
 msgid "All done! Click \"Save\" to save changes."
 msgstr "Tudo Pronto! Clique em \"Salvar\" para gravar as alterações."
 
@@ -410,9 +418,6 @@ msgstr "Ocorreu um erro ao copiar para a área de transferência."
 msgid "An imminent failure indicates either bad privileges or WOW64."
 msgstr "Uma falha iminente indica privilégios errados ou WOW64."
 
-msgid "An unexpected error occurred"
-msgstr "Ocorreu um erro inesperado"
-
 msgid "An unknown exception occurred."
 msgstr "Ocorreu uma exceção desconhecida."
 
@@ -474,9 +479,6 @@ msgstr "Chave API"
 
 msgid "Application key"
 msgstr "Chave da aplicação"
-
-msgid "Application key ID"
-msgstr "ID da chave aplicação"
 
 msgid "Application-Aware Writer"
 msgstr "Escritor 'Application-Aware'"
@@ -601,6 +603,12 @@ msgstr "Autenticação OK"
 
 msgid "Authentication Role"
 msgstr "Função da autenticação"
+
+msgid "Authenticode"
+msgstr ""
+
+msgid "Authenticode EV"
+msgstr ""
 
 msgid "Auto refresh"
 msgstr "Atualização automática"
@@ -752,11 +760,14 @@ msgstr "Construindo o cache..."
 msgid "Bulk replace addresses"
 msgstr "Substituir endereços em massa"
 
+msgid "Bulk Update"
+msgstr "Atualização em massa"
+
 msgid "Bulk update"
 msgstr "Atualização em massa"
 
-msgid "Bulk Update"
-msgstr "Atualização em massa"
+msgid "Calculating"
+msgstr ""
 
 msgid "Calculating size..."
 msgstr "Calculando tamanho..."
@@ -820,9 +831,6 @@ msgstr "Cancelado"
 msgid "Cancelling..."
 msgstr "Cancelando..."
 
-msgid "Cannot proceed - another task has temporary exclusive control over the Storage Vault."
-msgstr "Não é possível prosseguir - outra tarefa tem controlo exclusivo temporário sobre o Cofre de Armazenamento."
-
 msgid "Cannot proceed - another task needs to finish using the Storage Vault first."
 msgstr "Não é possível prosseguir - outra tarefa precisa de terminar §§§§§de usar o Cofre de Armazenamento primeiro."
 
@@ -835,12 +843,6 @@ msgstr "Categoria"
 
 msgid "Certificate"
 msgstr "Certificado"
-
-msgid "Certificate file (*.crt)"
-msgstr "Ficheiro de certificado (*.crt)"
-
-msgid "Certificate key (*.key)"
-msgstr "Chave do certificado (*.key)"
 
 msgid "Change account settings"
 msgstr "Alterar configurações de conta"
@@ -878,9 +880,6 @@ msgstr "O login circular está activado, os backups incrementais/diferenciais po
 msgid "Classification"
 msgstr "Classificação"
 
-msgid "Cleaning snapshot..."
-msgstr "Limpando snapshot..."
-
 #, c-format
 msgid "Cleaning up %s snapshot..."
 msgstr "Limpando %s snapshot..."
@@ -903,10 +902,10 @@ msgstr "Cliente"
 msgid "Client Bulletin"
 msgstr "Boletim do cliente"
 
-msgid "Client news"
+msgid "Client News"
 msgstr "Notícias do cliente"
 
-msgid "Client News"
+msgid "Client news"
 msgstr "Notícias do cliente"
 
 msgid "Client users"
@@ -920,6 +919,9 @@ msgstr "Área de transferência apagada"
 
 msgid "Cluster"
 msgstr "Grupo"
+
+msgid "Codesigning"
+msgstr ""
 
 msgid "Color in hex format (e.g. #FFFFFF)"
 msgstr "Cor no formato hexadecimal (p. ex., #FFFFFF)"
@@ -990,14 +992,17 @@ msgstr "Configure que utilizadores podem fazer login na interface da administra�
 msgid "Configure..."
 msgstr "A configurar..."
 
+msgid "Connected Device"
+msgstr "Dispositivo Conectado"
+
 msgid "Connected Device Actions"
 msgstr "Ações do dispositivo conectado"
 
-msgid "Connected devices"
-msgstr "Dispositivos conectados"
-
 msgid "Connected Devices"
 msgstr "Dispositivos Conectados"
+
+msgid "Connected devices"
+msgstr "Dispositivos conectados"
 
 msgid "Connected since"
 msgstr "Ligado desde"
@@ -1113,16 +1118,8 @@ msgid "Couldn't find the generated %s snapshot."
 msgstr "Não foi possível encontrar o snapshot %s gerado."
 
 #, c-format
-msgid "Couldn't free snapshot (%s)"
-msgstr "Não foi possível libertar snapshot (%s)"
-
-#, c-format
 msgid "Couldn't get job token from backup server (%s)"
 msgstr "Não foi possível obter token de serviço do servidor de backup (%s)"
-
-#, c-format
-msgid "Couldn't get snapshot path (%s)"
-msgstr "Não foi possível obter o caminho do snapshot (%s)"
 
 msgid "Couldn't initialize VSS"
 msgstr "Não foi possível inicializar o VSS"
@@ -1134,6 +1131,10 @@ msgstr "Não foi possível iniciar %s"
 #, c-format
 msgid "Couldn't list databases (%s)"
 msgstr "Não foi possível listar bases de dados (%s)"
+
+#, c-format
+msgid "Couldn't load <chunk/%s> for subdirectory '%s': %s"
+msgstr "Não foi possível carregar a <chunk/%s> para o subdiretório '%s': %s"
 
 #, c-format
 msgid "Couldn't load component '%s': (%s)"
@@ -1148,20 +1149,12 @@ msgstr "Não foi possível carregar as áreas de armazenamentos do servidor."
 msgid "Couldn't load this Protected Item."
 msgstr "Não foi possível carregar este Backup."
 
-#, c-format
-msgid "Couldn't load tree '%s' for subdirectory '%s': %s"
-msgstr "Não foi possível carregar a estrutura de '%s' para o subdiretório '%s': %s"
-
 msgid "Couldn't load user profile page."
 msgstr "Não foi possível carregar a página de perfil do utilizador."
 
 #, c-format
 msgid "Couldn't look up account properties (%s)"
 msgstr "Não foi possível verificar as propriedades da conta (%s)"
-
-#, c-format
-msgid "Couldn't make snapshot (%s)"
-msgstr "Não foi possível criar snapshot (%s)"
 
 msgid "Couldn't parse GUID."
 msgstr "Não foi possível analisar GUID."
@@ -1207,10 +1200,6 @@ msgstr "Não foi possível guardar alterações."
 msgid "Couldn't save profile to server (%s)"
 msgstr "Não foi possível guardar perfil no servidor (%s)"
 
-#, c-format
-msgid "Couldn't snapshot volume (%s)"
-msgstr "Não foi possível capturar o volume (%s)"
-
 msgid "Couldn't start engine"
 msgstr "Não foi possível iniciar o mecanismo"
 
@@ -1224,10 +1213,6 @@ msgstr "Não foi possível enviar o log ao servidor (%s) ao registar a mensagem 
 #, c-format
 msgid "Couldn't submit log to server while logging message \"%s\""
 msgstr "Não foi possível enviar log ao servidor ao registar a mensagem \"%s\""
-
-#, c-format
-msgid "Couldn't take filesystem snapshot (%s)"
-msgstr "Não foi possível fazer o snapshot do sistema de ficheiros (%s)"
 
 msgid "Couldn't take snapshot"
 msgstr "Impossivel criar snapshot"
@@ -1261,6 +1246,9 @@ msgstr "Senha atual"
 
 msgid "Current password is incorrect"
 msgstr "Senha atual incorreta"
+
+msgid "Current status"
+msgstr ""
 
 msgid "custom"
 msgstr "personalizar"
@@ -1459,6 +1447,12 @@ msgstr "Desativar configurações avançadas."
 msgid "Disconnect"
 msgstr "Desligar"
 
+msgid "Disk"
+msgstr ""
+
+msgid "Disk Image"
+msgstr ""
+
 msgid "Dismiss"
 msgstr "Dispensar"
 
@@ -1492,6 +1486,9 @@ msgstr "Download concluído (%d bytes), atualizando..."
 
 msgid "Download for..."
 msgstr "Download para..."
+
+msgid "Download only, do not save"
+msgstr ""
 
 msgid "Downloaded"
 msgstr "Guardado"
@@ -1535,6 +1532,9 @@ msgstr ""
 "- C:\\Windows\n"
 "- *.avi\n"
 "- download.r[0-9][0-9]"
+
+msgid "e.g. KEY:SLOT"
+msgstr ""
 
 msgid "EDB and logs, no truncate (\"COPY\")"
 msgstr "EDB e registos, sem truncamento (\"CÓPIA\")"
@@ -1658,11 +1658,17 @@ msgstr "%d erro(s) encontrado(s)."
 msgid "Encryption"
 msgstr "Encriptação"
 
+msgid "End time"
+msgstr ""
+
 msgid "Ended"
 msgstr "Concluído"
 
 msgid "Enforce this retention policy for all Storage Vaults"
 msgstr "Obriga a esta política de retenção para todos os Cofres de Armazenamento"
+
+msgid "Engine"
+msgstr ""
 
 #, c-format
 msgid "Engine failure (%s)"
@@ -1686,9 +1692,15 @@ msgstr "Insira o volume:"
 msgid "Error"
 msgstr "Erro"
 
+msgid "ERROR"
+msgstr "ERRO"
+
 #, c-format
 msgid "Error for '%s': file truncated (expected %d bytes, got %d)"
 msgstr "Erro para '%s': ficheiro truncado ( excepto %d bytes, obteve %d)"
+
+msgid "Error for user '%s' (line %d): %s"
+msgstr ""
 
 #, c-format
 msgid "Error importing backupset '%s': %s"
@@ -1786,6 +1798,9 @@ msgstr "Falha ao adicionar a área de armazenamento."
 #, qt-format
 msgid "Failed to browse %1."
 msgstr "Falha ao procurar %1."
+
+msgid "Failed to browse local disks"
+msgstr ""
 
 msgid "Failed to browse VSS components."
 msgstr "Falha ao procurar componentes do VSS."
@@ -2100,6 +2115,9 @@ msgstr "Imagem"
 msgid "Immediate job notification"
 msgstr "Notificação imediata de Backup"
 
+msgid "Immediately send an email to all user accounts."
+msgstr ""
+
 msgid "Import"
 msgstr "Importar"
 
@@ -2114,9 +2132,6 @@ msgstr "A importação de políticas de retenção avançadas ainda não é supo
 
 msgid "Importing monthly schedules without a specific date is not yet supported, skipping schedule"
 msgstr "A importação de agendamentos mensais sem uma data específica ainda não é suportada, ignorando o cronograma"
-
-msgid "In progress"
-msgstr "Em progresso"
 
 msgid "Include"
 msgstr "Incluir"
@@ -2156,6 +2171,9 @@ msgstr "Nome da instância"
 msgid "Interface"
 msgstr "Interface"
 
+msgid "Intermediate"
+msgstr ""
+
 msgid "Internal"
 msgstr "Interno"
 
@@ -2166,10 +2184,6 @@ msgstr "Cancelando trabalho de backup (excedeu a quota da área de armazenamento
 #, c-format
 msgid "Interrupting backup job (exceeded time limit of %s)"
 msgstr "Cancelando trabalho de backup (limite de tempo excedido em %s)"
-
-#, c-format
-msgid "Invalid backup job '%s' selected (%s)"
-msgstr "Tarefa de backup inválida '%s' selecionada (%s)"
 
 msgid "Invalid character in username"
 msgstr "Caractere inválido no nome de utilizador"
@@ -2274,10 +2288,10 @@ msgstr "Trabalho"
 msgid "Job completed."
 msgstr "Trabalho terminado."
 
-msgid "Job history"
+msgid "Job History"
 msgstr "Histórico do trabalho"
 
-msgid "Job History"
+msgid "Job history"
 msgstr "Histórico do trabalho"
 
 msgid "Job ID"
@@ -2321,6 +2335,9 @@ msgstr "Não manter nada (AVISO)"
 msgid "Key"
 msgstr "Chave"
 
+msgid "Key ID"
+msgstr ""
+
 msgid "Known servers"
 msgstr "Servidores conhecidos"
 
@@ -2338,6 +2355,9 @@ msgstr "Último trabalho de backup"
 
 msgid "Last scan"
 msgstr "Última verificação"
+
+msgid "Last wake event"
+msgstr ""
 
 msgid "Last [...] backups"
 msgstr "Últimos [...] backups"
@@ -2382,15 +2402,15 @@ msgstr "Linux"
 msgid "Live progress information was last updated at:"
 msgstr "Informações de progresso foram atualizadas pela última vez em:"
 
+msgid "Loading"
+msgstr "Carregando"
+
 msgid "Loading network credentials for Storage Vault"
 msgstr "Lendo credenciais de rede para area de armazenamento"
 
 #, c-format
 msgid "Loading Storage Vault metadata for deep verification (%d/%d)..."
 msgstr "Carregando metadata de Cofre de Armazenamento para verificação profunda (%d/%d)..."
-
-msgid "Loading..."
-msgstr "Carregando..."
 
 msgid "Local"
 msgstr "Local"
@@ -2404,9 +2424,6 @@ msgstr "Caminho local (opcional)"
 #, qt-format
 msgid "Local Path: [%1]"
 msgstr "Caminho local: [%1]"
-
-msgid "Local Storage Buckets"
-msgstr "Buckets de armazenamento local"
 
 msgid "localhost"
 msgstr "localhost"
@@ -2479,10 +2496,6 @@ msgstr "Conexão ao serviço local perdida."
 
 msgid "macOS"
 msgstr "macOS"
-
-#, c-format
-msgid "Malformed pattern (%s)"
-msgstr "Padrão incorrecto (%s)"
 
 #, qt-format
 msgid "Malformed property '%1', skipping"
@@ -2573,6 +2586,18 @@ msgstr "Campo \"Nome\" em falta para o componente VSS selecionado"
 msgid "Missing 'Path' field for selected VSS component"
 msgstr "Campo 'Caminho' em falta para o componente VSS selecionado"
 
+msgid "Missing excluded disk"
+msgstr ""
+
+msgid "Missing excluded partition"
+msgstr ""
+
+msgid "Missing selected disk"
+msgstr ""
+
+msgid "Missing selected partition"
+msgstr ""
+
 msgid "Mobile Client"
 msgstr "Cliente móvel"
 
@@ -2581,6 +2606,9 @@ msgstr "Modo"
 
 msgid "Modified"
 msgstr "Modificado"
+
+msgid "Module"
+msgstr ""
 
 msgid "Mon"
 msgstr "Seg"
@@ -2593,6 +2621,15 @@ msgstr "Mensalmente"
 
 msgid "Months"
 msgstr "Meses"
+
+msgid "ms"
+msgstr ""
+
+msgid "Multiple"
+msgstr ""
+
+msgid "Multiple commands"
+msgstr ""
 
 msgid "MX Direct"
 msgstr "MX Direto"
@@ -2697,6 +2734,9 @@ msgstr "Próximo"
 msgid "Next %1"
 msgstr "Próximo %1"
 
+msgid "Next scheduled email"
+msgstr ""
+
 msgid "No"
 msgstr "Não"
 
@@ -2736,9 +2776,6 @@ msgstr "Nenhum ficheiro selecionado para backup."
 msgid "No files selected for restore"
 msgstr "Nenhum ficheiro selecionado para restauro"
 
-msgid "no GUI"
-msgstr "sem GUI"
-
 msgid "No isolation"
 msgstr "Sem isolamento"
 
@@ -2772,6 +2809,9 @@ msgstr "Nenhum horário definido"
 
 msgid "No Storage Vaults are available for restore."
 msgstr "Nenhuma área de armazenamento disponível para restauro."
+
+msgid "No users found"
+msgstr ""
 
 msgid "No VMs found, or no permission to enumerate VMs"
 msgstr "Nenhuma VM encontrada, ou sem permissões para enumerar VMs"
@@ -2815,6 +2855,9 @@ msgstr "Não é necessário"
 msgid "Not seen"
 msgstr "Não visualizado"
 
+msgid "Not started"
+msgstr ""
+
 msgid "Not yet run"
 msgstr "Ainda não executado"
 
@@ -2828,6 +2871,9 @@ msgstr "Novembro"
 #, c-format
 msgid "Now running updated software (%s)."
 msgstr "Executando o software atualizado (%s)."
+
+msgid "ns"
+msgstr ""
 
 msgid "Number of devices"
 msgstr "Número de dispositivos"
@@ -2908,6 +2954,9 @@ msgstr "Operação concluída (%s)."
 msgid "Operation completed successfully."
 msgstr "Operação concluída com sucesso."
 
+msgid "Operation interrupted"
+msgstr ""
+
 msgid "Optional"
 msgstr "Opcional"
 
@@ -2987,6 +3036,13 @@ msgstr "Senhas não coincidem"
 msgid "Paste"
 msgstr "Colar"
 
+msgid ""
+"Paste CSV content in the form:\n"
+"\n"
+"AccountName1,Username1,Password1,Email1\n"
+"AccountName2,Username2,Password2,Email2"
+msgstr ""
+
 msgid "Path"
 msgstr "Caminho"
 
@@ -3035,6 +3091,9 @@ msgstr "Políticas"
 
 msgid "Policy"
 msgstr "Política"
+
+msgid "Policy default"
+msgstr ""
 
 msgid "Policy ID"
 msgstr "ID da política"
@@ -3126,6 +3185,9 @@ msgstr "Chave privada"
 msgid "Process completed"
 msgstr "Processo completo"
 
+msgid "Process multiple files using:"
+msgstr ""
+
 #, c-format
 msgid "Processing backupset '%s'..."
 msgstr "Processando o conjunto de backups '%s'..."
@@ -3142,6 +3204,9 @@ msgstr "Perfil"
 #, c-format
 msgid "Profile maintenance failure: %s"
 msgstr "Falha na manutenção do perfil: %s"
+
+msgid "Program Input"
+msgstr ""
 
 #, fuzzy
 msgid "Program Output"
@@ -3161,6 +3226,9 @@ msgstr "Backup"
 
 msgid "Protected Item ID"
 msgstr "Id do Backup"
+
+msgid "Protected Item using unsupported setting or feature"
+msgstr ""
 
 msgid "Protected Items"
 msgstr "Itens protegidos"
@@ -3231,26 +3299,20 @@ msgstr "Endereço do Realm"
 msgid "Rebuild indexes"
 msgstr "Refazer indices"
 
-msgid "Rebuild indexes for Storage Vault"
-msgstr "Refazer indices para a Area de Armazenamento"
-
 msgid "Receive backup reports"
 msgstr "Receber relatórios de backup"
 
 msgid "Receiver"
 msgstr "Receptor"
 
-msgid "Recent activity"
-msgstr "Atividade recente"
-
 msgid "Recent Activity"
 msgstr "Atividade Recente"
 
+msgid "Recent activity"
+msgstr "Atividade recente"
+
 msgid "Recent- and incomplete- jobs"
 msgstr "Trabalhos recentes e incompletos"
-
-msgid "Recommendation: 90 days"
-msgstr "Recomendação: 90 dias"
 
 msgid "Recommendation: Leave this DISABLED until you are satisfied that the configuration is correct."
 msgstr "Recomendação: deixe esta opção DESABILITADA até que esteja certo de que a configuração está correta."
@@ -3333,9 +3395,6 @@ msgstr "Eliminar tudo"
 msgid "Remove item"
 msgstr "Eliminar item"
 
-msgid "Remove lockfiles"
-msgstr "Eliminar ficheiros de bloqueio"
-
 msgid "Removed expired locks from the Storage Vault."
 msgstr "Bloqueios expirados retirados do Cofre de Armazenamento."
 
@@ -3411,6 +3470,9 @@ msgstr "Reiniciar servidor"
 msgid "Restore"
 msgstr "Restaurar"
 
+msgid "Restore as:"
+msgstr ""
+
 msgid "restore engine"
 msgstr "restaurar mecanismo"
 
@@ -3458,14 +3520,14 @@ msgstr "Executar um backup agora"
 msgid "Run at:"
 msgstr "Executar em:"
 
-msgid "Run Scheduled Backup"
-msgstr "Executar backup agendado"
-
-msgid "Run Selected Backup"
-msgstr "Executar backup selecionado"
+msgid "Run Backup"
+msgstr "Executar backup"
 
 msgid "Running"
 msgstr "A executar"
+
+msgid "Running (revived)"
+msgstr ""
 
 msgid "Running custom command..."
 msgstr "A executar comando personalizado..."
@@ -3481,9 +3543,6 @@ msgstr "Sábado"
 
 msgid "Save"
 msgstr "Gravar"
-
-msgid "Save All"
-msgstr "Gravar tudo"
 
 msgid "Save as"
 msgstr "Gravar como"
@@ -3526,11 +3585,17 @@ msgstr "Agendamento"
 msgid "Schedule type"
 msgstr "Tipo de agendamento"
 
+msgid "Scheduled"
+msgstr ""
+
 msgid "Scheduled backups will no longer run in the background."
 msgstr "Backups agendados deixarão de correr em bastidor."
 
 msgid "Scheduled backups will still run in the background."
 msgstr "Backups agendados continuarão a correr em bastidor."
+
+msgid "Scheduled Emails"
+msgstr ""
 
 msgid "Schedules"
 msgstr "Agendamentos"
@@ -3664,6 +3729,12 @@ msgstr "Enviar boletim do cliente"
 msgid "Send immediately once job has completed"
 msgstr "Enviar imediatamente após trabalho completo"
 
+msgid "Sending"
+msgstr ""
+
+msgid "Sent emails at last wake event"
+msgstr ""
+
 msgid "September"
 msgstr "Setembro"
 
@@ -3688,10 +3759,10 @@ msgstr "O servidor foi atualizado, faça o login novamente."
 msgid "Server history"
 msgstr "Histórico do servidor"
 
-msgid "Server logs"
+msgid "Server Logs"
 msgstr "Logs do servidor"
 
-msgid "Server Logs"
+msgid "Server logs"
 msgstr "Logs do servidor"
 
 msgid "Server restarted."
@@ -3757,6 +3828,9 @@ msgstr "Desligar servidor"
 msgid "Sign in"
 msgstr "Entrar"
 
+msgid "Single"
+msgstr ""
+
 msgid "Size"
 msgstr "Tamanho"
 
@@ -3809,6 +3883,9 @@ msgstr "Função do software build"
 
 msgid "Software downloads require authentication. The copied command will include your administrator credentials!"
 msgstr "Downloads de software exigem autenticação. O comando copiado incluirá as credenciais de administrador!"
+
+msgid "Some backup snapshots are non-restorable! Please contact your support agent for more information."
+msgstr ""
 
 msgid "sort column ascending"
 msgstr "ordenar coluna ascendente"
@@ -3957,10 +4034,6 @@ msgstr "Enviar"
 msgid "Success"
 msgstr "Sucesso"
 
-#, c-format
-msgid "Successfully mounted snapshot at [%s]"
-msgstr "Snapshot montado com sucesso em [%s]"
-
 msgid "Summary table"
 msgstr "Tabela de resumo"
 
@@ -3999,6 +4072,9 @@ msgstr "Executar snapshot do sistema de ficheiros"
 
 msgid "Taking filesystem snapshot..."
 msgstr "Executando snapshot do sistema de ficheiros..."
+
+msgid "Tar stream"
+msgstr ""
 
 msgid "Target Hostname (optional)"
 msgstr "Nome do servidor de destino (opcional)"
@@ -4092,6 +4168,12 @@ msgstr "O recipiente será automaticamente criado caso ainda não exista."
 msgid "The device has no Protected Items"
 msgstr "O dispositivo não contém itens protegidos"
 
+msgid "The device is offline"
+msgstr ""
+
+msgid "The device is online"
+msgstr ""
+
 msgid "The device was found to be already running a target software version."
 msgstr "O dispositivo encontrado já está a correr uma versão do software."
 
@@ -4156,8 +4238,8 @@ msgstr "Não há trabalho de backup nesta área de armazenamento!"
 msgid "There are no devices registered for this account."
 msgstr "Não há dispositivos registados nesta conta."
 
-msgid "There are no online devices available to perform the restore operation."
-msgstr "Não há dispositivos online disponíveis para executar a operação de restauro."
+msgid "There are no online devices available to perform the operation."
+msgstr "Não há dispositivos online disponíveis para executar a operação."
 
 msgid "There is no active bulk update campaign."
 msgstr "Não existe uma campanha de atualização em massa ativa."
@@ -4209,6 +4291,9 @@ msgstr "Este trabalho ficou inativo ou está a ter problemas de comunicação."
 
 msgid "This job seems to be no longer running."
 msgstr "Este trabalho parece já não estar a ser executado."
+
+msgid "This job was thought to have stopped, but it seems to still be running."
+msgstr ""
 
 msgid ""
 "This new device must be registered into your backup account.\n"
@@ -4377,6 +4462,9 @@ msgstr "erro desconhecido"
 
 msgid "Unknown MySQL isolation mode"
 msgstr "Modo de isolamento MySQL desconhecido"
+
+msgid "Unlabelled partition"
+msgstr ""
 
 msgid "Unlimited"
 msgstr "Ilimitado"
@@ -4598,11 +4686,17 @@ msgstr "VSS Writer"
 msgid "VSS Writer components"
 msgstr "Componentes do VSS writer"
 
+msgid "Waiting"
+msgstr ""
+
 msgid "Waiting for full scan to complete"
 msgstr "A aguardar que o scan completo termine"
 
 msgid "Waiting for installer to complete..."
 msgstr "Aguardando o instalador concluir..."
+
+msgid "Waiting to finish cleaning up the Storage Vault..."
+msgstr ""
 
 msgid "Waiting to finish logging messages..."
 msgstr "Aguardando terminar as mensagens de registo..."
@@ -4631,6 +4725,9 @@ msgstr "Aviso: Apenas %s de espaço disponível"
 msgid "Wasabi"
 msgstr "Wasabi"
 
+msgid "Web GUI"
+msgstr ""
+
 msgid "Wed"
 msgstr "Qua"
 
@@ -4654,9 +4751,6 @@ msgstr "Quando o PC inicia"
 
 msgid "When PC starts, if the last job was Missed"
 msgstr "Quando o PC inicia, se o último Backup em falta"
-
-msgid "When using a Master Application Key, enter the Account ID as the Application key ID."
-msgstr "Quando usar uma Chave Principal da Aplicação, digite a ID da Conta como a ID da Chave da Aplicação."
 
 msgid "Windows"
 msgstr "Windows"
@@ -4687,6 +4781,9 @@ msgstr "Trabalhando, aguarde..."
 
 msgid "Working..."
 msgstr "Trabalhando..."
+
+msgid "Wrong number of CSV columns"
+msgstr ""
 
 msgid "Yes"
 msgstr "Sim"
@@ -4736,9 +4833,6 @@ msgstr "Será desconectado da interface web do servidor."
 
 msgid "Your TOTP code has been replaced with the code below. Scan the QR code to register it with your authenticator app."
 msgstr "O seu código TOTP foi alterado para o código seguinte. Faça o scan do QR code para se registar através da sua aplicação de registo."
-
-msgid "Zero: do not prune old logs"
-msgstr "Zero: não suprimir logs antigos"
 
 #, qt-format
 msgid "[%1] Item %2 (%3) of %4 (%5)"

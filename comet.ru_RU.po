@@ -42,8 +42,8 @@ msgstr "%1 месяц(-ев)"
 msgid "%1 snapshot(s)"
 msgstr "%1 снимок(-ов)"
 
-#, qt-format
 # Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+#, qt-format
 msgid "%1 volume"
 msgstr "%1 том"
 
@@ -151,13 +151,13 @@ msgstr "Прекращаем задание резервного копиров�
 msgid "Abandoning backup job (Storage Vault quota exceeded)"
 msgstr "Прекращаем задание резервного копирования (превышен лимит файлового хранилища)"
 
-#, c-format
 # Definition of "Elevator": This terminology is specific to Comet Backup. This is an internal part of our application that can raise the permission level, when needed. The software 'elevates' its permission level using the 'elevator'.
+#, c-format
 msgid "Abandoning elevator client (%s)"
 msgstr "Прекращаем работу клиента Elevator (%s)"
 
-#, c-format
 # Definition of "Elevator": This terminology is specific to Comet Backup. This is an internal part of our application that can raise the permission level, when needed. The software 'elevates' its permission level using the 'elevator'.
+#, c-format
 msgid "Abandoning elevator server (%s)"
 msgstr "Прекращаем работу сервера Elevator (%s)"
 
@@ -180,10 +180,19 @@ msgstr "Про этот сервер"
 msgid "About this server"
 msgstr "Про этот сервер"
 
+# Definition of "FTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/File_Transfer_Protocol
+# Definition of "SSL": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Transport_Layer_Security
+msgid "Accept invalid SSL certificate from the FTP server"
+msgstr ""
+
 # Definition of "SMTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol
 # Definition of "SSL": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Transport_Layer_Security
 msgid "Accept invalid SSL certificate from the remote SMTP server"
 msgstr "Принять недействительный SSL-сертификат от удаленного SMTP-сервера"
+
+# Definition of "SSL": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Transport_Layer_Security
+msgid "Accept invalid SSL certificate."
+msgstr ""
 
 msgid "Accept login details from the website at '%s' ?"
 msgstr "Принять авторизационные данные от сайта в '%s'?"
@@ -204,7 +213,7 @@ msgid "Account name"
 msgstr "Название учетной записи"
 
 msgid "Account suspended"
-msgstr ""
+msgstr "Действие учетной записи приостановлено"
 
 msgid "Accounts"
 msgstr "Учетные записи"
@@ -241,10 +250,10 @@ msgstr "Добавить элемент"
 msgid "Add commands to run before or after the backup job"
 msgstr "Добавить команды для запуска до или после выполнения задания резервного копирования"
 
-# Definition of "MySQL": This is a database server from Oracle, that uses the SQL language. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/MySQL
-# Definition of "mysqldump": This is the name of MySQL's built-in backup program. It should not be translated. https://en.wikipedia.org/wiki/MySQL
-msgid "Add custom mysqldump path..."
-msgstr "Добавить пользовательский путь mysqldump..."
+# Definition of "Mongo": MongoDB is a commercial database program. If an official translation is available, it should be used. https://www.mongodb.com/
+# Definition of "mongodump": This is the name of MongoDB's built-in backup program. It should not be translated. If an official translation is available, it should be used. https://www.mongodb.com/
+msgid "Add custom mongodump path"
+msgstr ""
 
 msgid "Add Email Address..."
 msgstr "Добавить адрес электронной почты..."
@@ -318,6 +327,9 @@ msgstr "Кроме того, не удалось войти в сетевые п
 
 msgid "Address"
 msgstr "Адрес"
+
+msgid "admin"
+msgstr ""
 
 msgid "Admin"
 msgstr "Админ"
@@ -427,8 +439,14 @@ msgstr "Разрешить загрузку программного обесп�
 msgid "Allow generating branded software installers from this server"
 msgstr "Разрешить создание брендовых установщиков ПО этим сервером"
 
+msgid "Allow invalid hostnames"
+msgstr ""
+
 msgid "Allow login via"
 msgstr "Разрешить вход через"
+
+msgid "Allow self-signed certificate"
+msgstr ""
 
 msgid "Allow users to log in to this server"
 msgstr "Разрешить пользователям входить на этот сервер"
@@ -459,7 +477,7 @@ msgid "An imminent failure indicates either bad privileges or WOW64."
 msgstr "Постоянные ошибки указывают либо на проблемы с доступом, либо на WOW64."
 
 msgid "An internal error has occurred"
-msgstr ""
+msgstr "Произошла внутренняя ошибка"
 
 msgid "An unknown exception occurred."
 msgstr "Выполнено неизвестное исключение."
@@ -528,7 +546,7 @@ msgid "API Key"
 msgstr "Ключ API"
 
 msgid "Application Key"
-msgstr ""
+msgstr "Ключ приложения"
 
 msgid "Application key"
 msgstr "Ключ приложения"
@@ -576,16 +594,16 @@ msgstr "Вы уверены, что хотите продолжить?"
 msgid "Are you sure you want to remove all news entries?"
 msgstr "Вы уверены, что хотите удалить все новые записи?"
 
-#, qt-format
 # Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+#, qt-format
 msgid "Are you sure you want to remove the Protected Item \"%1\"?"
 msgstr "Вы уверены, что хотите удалить защищенный элемент «%1»?"
 
 msgid "Are you sure you want to remove the recovery code for this user?"
 msgstr "Вы уверены, что хотите удалить код восстановления у этого пользователя?"
 
-#, qt-format
 # Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, qt-format
 msgid "Are you sure you want to remove the storage vault \"%1\"?"
 msgstr "Вы уверены, что хотите удалить файловое хранилище \"%1\"?"
 
@@ -652,6 +670,9 @@ msgstr "Конечная точка авторизации"
 msgid "Authentication"
 msgstr "Аутентификация"
 
+msgid "Authentication Database"
+msgstr ""
+
 msgid "Authentication error"
 msgstr "Ошибка аутентификации"
 
@@ -708,11 +729,11 @@ msgstr "Идет резервное копирование %d базы(-з) да
 msgid "Backing up %d database(s)..."
 msgstr "Идет резервное копирование %d базы(-з) данных..."
 
-#, c-format
 # Definition of "VSS": This is a feature of Windows to assist in backing up files. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
 # Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+#, c-format
 msgid "Backing up volume [%s] without VSS."
-msgstr "Резервное копирование топа [%s] без VSS."
+msgstr "Резервное копирование тома [%s] без VSS."
 
 msgid "Backup"
 msgstr "Резервная копия"
@@ -746,9 +767,6 @@ msgstr "Опции создания резервной копии"
 msgid "Backup Rule identifier (optional)"
 msgstr "Идентификатор правила создания резервной копии (опционально)"
 
-msgid "Backup Snapshot"
-msgstr "Резервный снимок"
-
 msgid "Backup specified"
 msgstr "Выбранная резервная копия"
 
@@ -767,8 +785,8 @@ msgstr "Идентификатор процесса создания резер�
 msgid "Backups"
 msgstr "Резервные копии"
 
-#, c-format
 # Definition of "Elevator": This terminology is specific to Comet Backup. This is an internal part of our application that can raise the permission level, when needed. The software 'elevates' its permission level using the 'elevator'.
+#, c-format
 msgid "Bad elevator protocol message (%s)"
 msgstr "Протокольное сообщение сервиса Elevator (%s)"
 
@@ -814,7 +832,7 @@ msgid "Bucket Key"
 msgstr "Ключ бакета"
 
 msgid "Bucket Name"
-msgstr ""
+msgstr "Имя бакета"
 
 msgid "Bucket name"
 msgstr "Имя бакета"
@@ -837,6 +855,9 @@ msgstr "Массовое обновление"
 msgid "Bulk update"
 msgstr "Массовое обновление"
 
+msgid "CA file path"
+msgstr ""
+
 msgid "Calculating"
 msgstr "Вычисление"
 
@@ -852,8 +873,8 @@ msgstr "Прогресс кампании\":"
 msgid "Campaign started at:"
 msgstr "Кампания началась:"
 
-#, c-format
 # Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, c-format
 msgid "Can't access Storage Vault: %s"
 msgstr "Не удается получить доступ к файловому хранилищу: %s"
 
@@ -909,8 +930,8 @@ msgstr "Идет отмена..."
 msgid "Cannot proceed - another task needs to finish using the Storage Vault first."
 msgstr "Не удается продолжить — сперва необходимо завершить другую задачу, использующую это хранилище данных."
 
-#, c-format
 # Definition of "VSS": This is a feature of Windows to assist in backing up files. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
+#, c-format
 msgid "Cannot take VSS snapshot of '%s' filesystem (expected NTFS)"
 msgstr "Не удается сделать снимок файловой системы VSS '%s' (ожидается NTFS)"
 
@@ -982,6 +1003,12 @@ msgstr "Клиент"
 msgid "Client Bulletin"
 msgstr "Информационная сводка клиента"
 
+msgid "Client certificate path"
+msgstr ""
+
+msgid "Client key password"
+msgstr ""
+
 msgid "Client News"
 msgstr "Новости клиента"
 
@@ -1005,10 +1032,6 @@ msgstr "Подпись исполняемого кода"
 
 msgid "Color in hex format (e.g. #FFFFFF)"
 msgstr "Цвет в шестнадцатеричном формате (например, #FFFFFF)"
-
-# Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
-msgid "Comet"
-msgstr "Comet"
 
 # Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
 msgid "Comet image logo"
@@ -1151,10 +1174,10 @@ msgstr "Копировать (как wget)"
 msgid "Copy to clipboard"
 msgstr "Скопировать в буфер обмена"
 
-#, c-format
 # Definition of "Elevator": This terminology is specific to Comet Backup. This is an internal part of our application that can raise the permission level, when needed. The software 'elevates' its permission level using the 'elevator'.
+#, c-format
 msgid "Could not submit command to elevator: %s"
-msgstr "Не удалось передать команду в elevator: %s"
+msgstr "Не удалось передать команду в Elevator: %s"
 
 msgid "Couldn't analyze vault content"
 msgstr "Не удалось проанализировать содержимое хранилища"
@@ -1179,8 +1202,8 @@ msgstr "Не удалось расчистить стоп-файлы с исте
 msgid "Couldn't connect to database (%s)"
 msgstr "Не удалось подключиться к базе данных (%s)"
 
-#, c-format
 # Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, c-format
 msgid "Couldn't connect to Storage Vault: %s"
 msgstr "Не удалось подключиться к хранилищу данных (%s)"
 
@@ -1194,10 +1217,10 @@ msgstr "Не удалось создать бакет."
 msgid "Couldn't determine hostname for this device (%s), importing all backupsets without per-computer filter."
 msgstr "Не удалось определить имя хоста для этого устройства (%s), импортируем все наборы резервных копий фильтра на основе данных."
 
-# Definition of "MySQL": This is a database server from Oracle, that uses the SQL language. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/MySQL
-# Definition of "mysqldump": This is the name of MySQL's built-in backup program. It should not be translated. https://en.wikipedia.org/wiki/MySQL
-msgid "Couldn't find 'mysqldump' anywhere."
-msgstr "Не удалось найти 'mysqldump'."
+# Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, c-format
+msgid "Couldn't determine the size of the Storage Vault: %s"
+msgstr ""
 
 msgid "Couldn't find any compatible backup products to import on this device."
 msgstr "Не удалось найти совместимые резервные копии для импорта на это устройство."
@@ -1205,12 +1228,25 @@ msgstr "Не удалось найти совместимые резервные
 msgid "Couldn't find any of the selected directories/files"
 msgstr "Не удалось найти выбранные папки/файлы"
 
-# Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
-msgid "Couldn't find any snapshots in the selected Storage Vault"
-msgstr "Не удалось найти снимки в выбранном хранилище данных"
-
 msgid "Couldn't find application component!"
 msgstr "Не удалось найти компонент приложения!"
+
+# Definition of "Mongo": MongoDB is a commercial database program. If an official translation is available, it should be used. https://www.mongodb.com/
+#, c-format
+msgid "Couldn't find mongo shell binary (%s)"
+msgstr ""
+
+# Definition of "Mongo": MongoDB is a commercial database program. If an official translation is available, it should be used. https://www.mongodb.com/
+# Definition of "mongodump": This is the name of MongoDB's built-in backup program. It should not be translated. If an official translation is available, it should be used. https://www.mongodb.com/
+#, c-format
+msgid "Couldn't find mongodump binary (%s)"
+msgstr ""
+
+# Definition of "MySQL": This is a database server from Oracle, that uses the SQL language. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/MySQL
+# Definition of "mysqldump": This is the name of MySQL's built-in backup program. It should not be translated. https://en.wikipedia.org/wiki/MySQL
+#, c-format
+msgid "Couldn't find mysqldump binary (%s)"
+msgstr ""
 
 #, c-format
 msgid "Couldn't find the generated %s snapshot."
@@ -1233,8 +1269,8 @@ msgid "Couldn't list databases (%s)"
 msgstr "Не удалось перечислить базы данных (%s)"
 
 #, c-format
-msgid "Couldn't load <chunk/%s> for subdirectory '%s': %s"
-msgstr "Не удалось загрузить < chunk/%s> для поддиректории '%s': %s"
+msgid "Couldn't load <%s/%s> for subdirectory '%s': %s"
+msgstr "Не удалось загрузить <%s/%s> для поддиректории '%s': %s"
 
 #, c-format
 msgid "Couldn't load component '%s': (%s)"
@@ -1265,8 +1301,8 @@ msgstr "Не удалось распарсить GUID."
 msgid "Couldn't prevent automatic sleep: %s"
 msgstr "Не удалось предотвратить автоматический переход в фазу сна: %s"
 
-#, c-format
 # Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, c-format
 msgid "Couldn't record that the Storage Vault has been initialized (%s)"
 msgstr "Не удалось запись факт инициализации хранилища данных (%s)"
 
@@ -1367,13 +1403,21 @@ msgstr "Специальный"
 msgid "custom command"
 msgstr "специальная команда"
 
+# Definition of "crt": The file name extension used for SSL certificates in PEM file format. https://en.wikipedia.org/wiki/Privacy-Enhanced_Mail
+msgid "Custom crt & key files"
+msgstr ""
+
 msgid "Custom directory"
 msgstr "Специальная папка"
 
-# Definition of "MySQL": This is a database server from Oracle, that uses the SQL language. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/MySQL
-# Definition of "mysqldump": This is the name of MySQL's built-in backup program. It should not be translated. https://en.wikipedia.org/wiki/MySQL
-msgid "Custom mysqldump"
-msgstr "Специальный mysqldump"
+# Definition of "Mongo": MongoDB is a commercial database program. If an official translation is available, it should be used. https://www.mongodb.com/
+msgid "Custom mongo shell path"
+msgstr ""
+
+# Definition of "Mongo": MongoDB is a commercial database program. If an official translation is available, it should be used. https://www.mongodb.com/
+# Definition of "mongodump": This is the name of MongoDB's built-in backup program. It should not be translated. If an official translation is available, it should be used. https://www.mongodb.com/
+msgid "Custom mongodump path"
+msgstr ""
 
 # Definition of "MySQL": This is a database server from Oracle, that uses the SQL language. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/MySQL
 # Definition of "mysqldump": This is the name of MySQL's built-in backup program. It should not be translated. https://en.wikipedia.org/wiki/MySQL
@@ -1383,6 +1427,10 @@ msgstr "Специальный путь mysqldump"
 # Definition of "known_hosts": This is the name of a file in the OpenSSH program. It should not be translated. https://man.openbsd.org/ssh
 msgid "Custom path to known_hosts file..."
 msgstr "Специальный путь к файлу known_hosts..."
+
+# Definition of "pfx": The file name extension used for SSL certificates in PKCS #12 file format. https://en.wikipedia.org/wiki/PKCS_12
+msgid "Custom pfx file"
+msgstr ""
 
 msgid "Custom Policy"
 msgstr "Специальная политика"
@@ -1398,6 +1446,9 @@ msgstr "Ежедневно"
 
 msgid "Dashboard"
 msgstr "Панель управления"
+
+msgid "database"
+msgstr ""
 
 msgid "Database"
 msgstr "База данных"
@@ -1546,6 +1597,9 @@ msgstr "Диагностическая информация:"
 msgid "Differential increment"
 msgstr "Разностное прибавление"
 
+msgid "Direct Connection"
+msgstr ""
+
 msgid "Directories"
 msgstr "Папки"
 
@@ -1681,10 +1735,10 @@ msgstr "Редактировать команду"
 msgid "Edit item"
 msgstr "Редактировать элемент"
 
-msgid "Edit Policy"
+msgid "Edit policy"
 msgstr "Редактировать политику"
 
-msgid "Edit policy"
+msgid "Edit Policy"
 msgstr "Редактировать политику"
 
 msgid "Edit raw policy"
@@ -1702,10 +1756,10 @@ msgstr "Редактировать политику хранения"
 msgid "Edit Retention Range"
 msgstr "Редактировать интервал хранения"
 
-msgid "Edit Schedule"
+msgid "Edit schedule"
 msgstr "Редактировать график"
 
-msgid "Edit schedule"
+msgid "Edit Schedule"
 msgstr "Редактировать график"
 
 msgid "Edit Scheduled Time"
@@ -1789,6 +1843,9 @@ msgstr "Произошло %d ошибок."
 msgid "Encryption"
 msgstr "Шифрование"
 
+msgid "Encryption key"
+msgstr ""
+
 msgid "End time"
 msgstr "Время завершения"
 
@@ -1848,7 +1905,7 @@ msgid "Error importing backupset '%s': %s"
 msgstr "Ошибка импортирования набора резервных копий '%s': %s"
 
 msgid "Error loading file."
-msgstr ""
+msgstr "Ошибка загрузки файла."
 
 #, c-format
 msgid "Error loading snapshot %s: %s"
@@ -1913,6 +1970,11 @@ msgstr "Исключить регулярное выражение"
 msgid "Exclude specified"
 msgstr "Исключить выбранное"
 
+# Definition of "FTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/File_Transfer_Protocol
+# Definition of "FTPS": The secure version of FTP. https://en.wikipedia.org/wiki/FTPS
+msgid "Explicit FTPS"
+msgstr ""
+
 msgid "Export"
 msgstr "Экспортировать"
 
@@ -1937,8 +1999,8 @@ msgstr "Дополнительные данные (опционально)"
 msgid "Failed"
 msgstr "Не удалось"
 
-#, c-format
 # Definition of "Elevator": This terminology is specific to Comet Backup. This is an internal part of our application that can raise the permission level, when needed. The software 'elevates' its permission level using the 'elevator'.
+#, c-format
 msgid "Failed to accept connection to elevator (%s)"
 msgstr "Не удалось принять подключение к Elevator (%s)"
 
@@ -1969,8 +2031,8 @@ msgstr "Не удалось проверить наличие других вы�
 msgid "Failed to communicate with selected VSS writer."
 msgstr "Не удалось обменяться данными с выбранным модулем записи VSS."
 
-#, c-format
 # Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
+#, c-format
 msgid "Failed to import regex '%s' (%s), skipping"
 msgstr "Не удалось импортировать регулярное выражение '%s' (%s), пропускаем"
 
@@ -2022,10 +2084,10 @@ msgid "False"
 msgstr "Ложь"
 
 msgid "Feature unavailable for your user account"
-msgstr ""
+msgstr "Эта функция недоступна для вашей учетной записи"
 
 msgid "Feature unsupported on this server"
-msgstr ""
+msgstr "Функция не поддерживается на данном сервере"
 
 msgid "February"
 msgstr "Февраль"
@@ -2105,8 +2167,8 @@ msgstr "Найдено %d файлов (%s) в %d папках. Пожалуйс
 msgid "Found %d files (%s) in %d directories. (took %s)"
 msgstr "Найдено %d файлов (%s) в %d папках. Пожалуйста, подождите... (%s)"
 
-#, c-format
 # Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+#, c-format
 msgid "Found %s to back up - backup would exceed Protected Item quota limit (%s remaining)."
 msgstr "Найдено %s для резервного копирования — резервная копия превысит лимит защищенного элемента (%s осталось)."
 
@@ -2126,6 +2188,7 @@ msgstr "Пятница"
 msgid "Friendly name (optional)"
 msgstr "Понятное имя (опционально)"
 
+# Definition of "FTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/File_Transfer_Protocol
 msgid "FTP"
 msgstr "FTP"
 
@@ -2139,7 +2202,7 @@ msgid "Full (copy only)"
 msgstr "Полностью (только копировать)"
 
 msgid "Fullscan not awake!"
-msgstr "Полное сканирование не активно"
+msgstr "Полное сканирование не активно!"
 
 msgid "Further detail is available in the system documentation."
 msgstr "Более подробная информация приведена в системной документации."
@@ -2307,6 +2370,11 @@ msgstr "Немедленное уведомление о задании"
 msgid "Immediately send an email to all user accounts."
 msgstr "Немедленно отправить электронное письмо всем пользователям учетной записи."
 
+# Definition of "FTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/File_Transfer_Protocol
+# Definition of "FTPS": The secure version of FTP. https://en.wikipedia.org/wiki/FTPS
+msgid "Implicit FTPS"
+msgstr ""
+
 msgid "Import"
 msgstr "Импорт"
 
@@ -2343,8 +2411,8 @@ msgstr "Инфо"
 msgid "Initialized"
 msgstr "Инициализировано"
 
-#, c-format
 # Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, c-format
 msgid "Initialized Storage Vault (%s)"
 msgstr "Инициализированное файловое хранилище (%s)"
 
@@ -2368,10 +2436,10 @@ msgid "Internal"
 msgstr "Внутренний"
 
 msgid "Internal error"
-msgstr ""
+msgstr "Внутренняя ошибка"
 
-#, c-format
 # Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, c-format
 msgid "Interrupting backup job (exceeded Storage Vault quota of %s)"
 msgstr "Прерываем задание резервного копирования (превышен лимит файлового хранилища, равный %s)"
 
@@ -2380,7 +2448,7 @@ msgid "Interrupting backup job (exceeded time limit of %s)"
 msgstr "Прерываем задание резервного копирования (превышен временной лимит, равный %s)"
 
 msgid "Invalid authentication"
-msgstr ""
+msgstr "Недопустимая аутентификация"
 
 msgid "Invalid character in username"
 msgstr "Недопустимый символ в имени пользователя"
@@ -2409,8 +2477,8 @@ msgstr "Неверный формат (%s)"
 msgid "Invalid item selected"
 msgstr "Выбран недопустимый элемент"
 
-#, c-format
 # Definition of "Exchange": This is an email server platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Exchange_Server
+#, c-format
 msgid "Invalid mode '%s' for Exchange backup (%s)"
 msgstr "Недопустимый режим '%s' для резервной копии Exchange (%s)"
 
@@ -2446,13 +2514,13 @@ msgstr "Недопустимый выбор."
 msgid "Invalid snapshot selected"
 msgstr "Выбран недопустимый снимок"
 
-#, c-format
 # Definition of "UNC": A 'UNC' path is a path for a file or folder on a network drive. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Path_(computing)#Universal_Naming_Convention
+#, c-format
 msgid "Invalid spool path '%s' (expected drive letter or UNC path)"
 msgstr "Недопустимый путь буферизации '%s' (ожидается буква диска или путь UNC)"
 
-#, c-format
 # Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, c-format
 msgid "Invalid storage vault '%s'"
 msgstr "Недопустимое файловое хранилище '%s'"
 
@@ -2472,7 +2540,7 @@ msgid "IP Address"
 msgstr "IP-адрес"
 
 msgid "IP address not whitelisted"
-msgstr ""
+msgstr "IP-адрес не из белого списка"
 
 msgid "IP Whitelist"
 msgstr "Белый список IP"
@@ -2603,8 +2671,8 @@ msgstr "LDAP Search Filter"
 msgid "LDAPS"
 msgstr "LDAPS"
 
-msgid "Leave blank to restore the latest backup snapshot"
-msgstr "Оставьте пустым, чтобы восстановить последний резервный снимок"
+msgid "Leave this field blank to not encrypt the backup files."
+msgstr ""
 
 #. Used by the search system to create custom searches. "[FILE SIZE] less than [SOMETHING]
 msgid "less"
@@ -2638,13 +2706,16 @@ msgstr "Загрузка"
 msgid "Loading network credentials for Storage Vault"
 msgstr "Загрузка сетевых учетных данных для файлового хранилища"
 
-#, c-format
 # Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, c-format
 msgid "Loading Storage Vault metadata for deep verification (%d/%d)..."
 msgstr "Загрузка метаданных файлового хранилища для глубокой верификации (%d/%d)..."
 
 msgid "Local"
 msgstr "Локальный"
+
+msgid "Local address"
+msgstr ""
 
 msgid "Local Path"
 msgstr "Локальный путь"
@@ -2661,6 +2732,9 @@ msgstr "localhost"
 
 msgid "Localization"
 msgstr "Локализация"
+
+msgid "Location"
+msgstr ""
 
 msgid "Locations"
 msgstr "Локации"
@@ -2706,6 +2780,9 @@ msgstr "Авторизован как %1"
 
 msgid "Login"
 msgstr "Вход"
+
+msgid "Login as user"
+msgstr ""
 
 #, c-format
 msgid "Login to '%s' failed: %s"
@@ -2756,6 +2833,12 @@ msgstr "Исключения обязательных файлов и папок
 msgid "March"
 msgstr "Март"
 
+msgid "Master Application Key"
+msgstr ""
+
+msgid "Master Key ID"
+msgstr ""
+
 msgid "May"
 msgstr "Май"
 
@@ -2768,11 +2851,17 @@ msgstr "МБ/с"
 msgid "Measure"
 msgstr "Измерить"
 
+msgid "Member"
+msgstr ""
+
+msgid "Members"
+msgstr ""
+
 msgid "Message"
 msgstr "Сообщение"
 
 msgid "Message body"
-msgstr ""
+msgstr "Тело сообщения"
 
 # Definition of "Exchange": This is an email server platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Exchange_Server
 msgid "Microsoft Exchange databases"
@@ -2793,6 +2882,9 @@ msgstr "Сервер Microsoft SQL"
 # Definition of "SQL Server": This is a database server from Microsoft, that uses the SQL language. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_SQL_Server
 msgid "Microsoft SQL Server databases"
 msgstr "Базы данных сервера Microsoft SQL"
+
+msgid "minute(s)"
+msgstr ""
 
 msgid "Minutes"
 msgstr "Минут"
@@ -2866,6 +2958,19 @@ msgstr "Пн"
 msgid "Monday"
 msgstr "Понедельник"
 
+# Definition of "Mongo": MongoDB is a commercial database program. If an official translation is available, it should be used. https://www.mongodb.com/
+msgid "MongoDB"
+msgstr ""
+
+# Definition of "Mongo": MongoDB is a commercial database program. If an official translation is available, it should be used. https://www.mongodb.com/
+msgid "MongoDB databases"
+msgstr ""
+
+# Definition of "Mongo": MongoDB is a commercial database program. If an official translation is available, it should be used. https://www.mongodb.com/
+# Definition of "replica set": This is a feature of the MongoDB database. If an official translation is available, it should be used. https://docs.mongodb.com/manual/replication/
+msgid "MongoDB Replica Set Member"
+msgstr ""
+
 msgid "Monthly"
 msgstr "Ежемесячно"
 
@@ -2918,12 +3023,17 @@ msgstr "н/д"
 msgid "Name"
 msgstr "Имя"
 
+# Definition of "SSH": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Secure_Shell
 msgid "Native (external ~/.ssh/config file)"
 msgstr "Native (внешний файл ~/.ssh/config)"
 
 # Definition of "known_hosts": This is the name of a file in the OpenSSH program. It should not be translated. https://man.openbsd.org/ssh
+# Definition of "SSH": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Secure_Shell
 msgid "Native (external ~/.ssh/known_hosts file)"
 msgstr "Native (внешний файл ~/.ssh/known_hosts)"
+
+msgid "Nearest"
+msgstr ""
 
 msgid "Network"
 msgstr "Сеть"
@@ -2956,7 +3066,7 @@ msgid "New Command"
 msgstr "Новая команда"
 
 msgid "New Connection"
-msgstr ""
+msgstr "Новое подключение"
 
 msgid "New Database Item"
 msgstr "Новый элемент базы данных"
@@ -2995,13 +3105,13 @@ msgstr "Новое файловое хранилище"
 
 # Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "New Storage Vault added."
-msgstr ""
+msgstr "Добавлено новое файловое хранилище."
 
 msgid "News"
 msgstr "Новости"
 
 msgid "News content..."
-msgstr ""
+msgstr "Контент новостей..."
 
 msgid "Next"
 msgstr "Далее"
@@ -3180,6 +3290,9 @@ msgstr "Должно быть меньше, чем %d"
 
 msgid "Number of devices"
 msgstr "Количество устройств"
+
+msgid "Number of lines"
+msgstr ""
 
 msgid "October"
 msgstr "Октябрь"
@@ -3377,6 +3490,10 @@ msgstr "Разрешено"
 msgid "Persisting Storage Vault status..."
 msgstr "Текущий статус файлового хранилища..."
 
+# Definition of "PKCS12": This is the file format used for PKCS #12 SSL certificates. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/PKCS_12
+msgid "PKCS12"
+msgstr ""
+
 msgid "Plain"
 msgstr "Простой"
 
@@ -3399,11 +3516,14 @@ msgstr "Пожалуйста, выберите файловое хранилищ
 msgid "Please select an online device to control:"
 msgstr "Пожалуйста, выберите онлайн-устройство для управления:"
 
-msgid "Please specify account type"
+msgid "Please select one snapshot for restore."
 msgstr ""
 
+msgid "Please specify account type"
+msgstr "Пожалуйста, уточните тип учетной записи"
+
 msgid "Please supply two-factor authentication"
-msgstr ""
+msgstr "Пожалуйста, активируйте двухфакторную аутентификацию"
 
 msgid "Policies"
 msgstr "Политики"
@@ -3508,6 +3628,12 @@ msgstr "Предварительный просмотр"
 
 msgid "Previous"
 msgstr "Предыдущий"
+
+msgid "Primary"
+msgstr ""
+
+msgid "Primary Preferred"
+msgstr ""
 
 msgid "Private key"
 msgstr "Приватный ключ"
@@ -3616,6 +3742,9 @@ msgstr "Лимит превышен"
 msgid "Quota exceeded"
 msgstr "Лимит превышен"
 
+msgid "Random"
+msgstr ""
+
 msgid "Range"
 msgstr "Интервал"
 
@@ -3628,6 +3757,9 @@ msgstr "Повторно введенный пароль не совпадает
 # Definition of "stdin": Abbreviation of 'Standard Input', data that is fed into a program. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Standard_streams#Standard_input_(stdin)
 msgid "Read password from stdin (optional)"
 msgstr "Получить пароль из stdin (опционально)"
+
+msgid "Read Preference"
+msgstr ""
 
 msgid "Realm address"
 msgstr "Адрес области"
@@ -3719,6 +3851,9 @@ msgstr "Оставшиееся"
 msgid "Remote"
 msgstr "Удаленный"
 
+msgid "Remote address"
+msgstr ""
+
 msgid "Remote path"
 msgstr "Удаленный путь"
 
@@ -3736,6 +3871,11 @@ msgstr "Удалить все"
 
 msgid "Remove item"
 msgstr "Удалить элемент"
+
+# Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, c-format
+msgid "Removed %d old temporary file(s) from the Storage Vault."
+msgstr ""
 
 # Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Removed expired locks from the Storage Vault."
@@ -3760,6 +3900,10 @@ msgstr "Удаление текущей версии..."
 msgid "Removing job from %s (%s)..."
 msgstr "Удаление задания из %s (%s)..."
 
+#, c-format
+msgid "Removing old temporary files: %s"
+msgstr ""
+
 msgid "Removing unreferenced data..."
 msgstr "Удаляем потерянные данные..."
 
@@ -3769,6 +3913,10 @@ msgstr "Переименовать"
 msgid "Rename device:"
 msgstr "Переименовать устройство:"
 
+# Definition of "replica set": This is a feature of the MongoDB database. If an official translation is available, it should be used. https://docs.mongodb.com/manual/replication/
+msgid "Replica Set"
+msgstr ""
+
 msgid "Replication"
 msgstr "Репликация"
 
@@ -3777,6 +3925,9 @@ msgstr "Отчет"
 
 msgid "Report copied to clipboard."
 msgstr "Отчет скопирован в буфер обмена."
+
+msgid "Report Text Size"
+msgstr ""
 
 msgid "Report took %s to generate."
 msgstr "На создание отчета ушло %s."
@@ -3964,6 +4115,12 @@ msgstr "Поиск завершен (найдено %d/%d потерянных �
 msgid "Searching Storage Vault for excess data no longer referenced by any job..."
 msgstr "Проверка файлового хранилища на предмет избыточных данных, не связанных с каким-либо заданием..."
 
+msgid "Secondary"
+msgstr ""
+
+msgid "Secondary Preferred"
+msgstr ""
+
 msgid "seconds"
 msgstr "секунд"
 
@@ -3980,10 +4137,32 @@ msgstr "Выбрать"
 msgid "Select %1 to back up..."
 msgstr "Выбрать %1 для резервного копирования..."
 
+# Definition of "SSL": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Transport_Layer_Security
+# Definition of "TLS": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Transport_Layer_Security
+# Definition of "pem": The file name extension used for SSL certificates in PEM file format. https://en.wikipedia.org/wiki/Privacy-Enhanced_Mail
+msgid "Select a .pem file that contains both the TLS/SSL certificate and key."
+msgstr ""
+
+msgid "Select a Certificate Authority file..."
+msgstr ""
+
+# Definition of "Mongo": MongoDB is a commercial database program. If an official translation is available, it should be used. https://www.mongodb.com/
+msgid "Select a custom mongo shell binary..."
+msgstr ""
+
+# Definition of "Mongo": MongoDB is a commercial database program. If an official translation is available, it should be used. https://www.mongodb.com/
+# Definition of "mongodump": This is the name of MongoDB's built-in backup program. It should not be translated. If an official translation is available, it should be used. https://www.mongodb.com/
+msgid "Select a custom mongodump binary..."
+msgstr ""
+
 # Definition of "MySQL": This is a database server from Oracle, that uses the SQL language. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/MySQL
 # Definition of "mysqldump": This is the name of MySQL's built-in backup program. It should not be translated. https://en.wikipedia.org/wiki/MySQL
 msgid "Select a custom mysqldump binary..."
 msgstr "Выбрать специальный бинарный файл mysqldump..."
+
+# Definition of "known_hosts": This is the name of a file in the OpenSSH program. It should not be translated. https://man.openbsd.org/ssh
+msgid "Select a custom path to known_hosts file..."
+msgstr ""
 
 msgid "Select a live-connected device to use to retrieve the information:"
 msgstr "Выберите подключенное устройство для восстановления информации:"
@@ -4060,8 +4239,8 @@ msgstr "Выберите версию"
 msgid "Select VSS Writer components for backup..."
 msgstr "Выберите компоненты модуля записи VSS для резервного копирования..."
 
-#, c-format
 # Definition of "EDB": This is the file format used by the Exchange Server email server from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Exchange_Server
+#, c-format
 msgid "Selected %d of %d EDB database(s) on server."
 msgstr "Выбрано %d из %d расширяемых баз данных на сервере."
 
@@ -4069,8 +4248,8 @@ msgstr "Выбрано %d из %d расширяемых баз данных н�
 msgid "Selected %d of %d virtual machine(s)."
 msgstr "Выбрано %d из %d виртуальных машин."
 
-#, c-format
 # Definition of "EDB": This is the file format used by the Exchange Server email server from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Exchange_Server
+#, c-format
 msgid "Selected EDB not found: '%s'"
 msgstr "Выбранная расширяемая база данных не найдена: '%s'"
 
@@ -4135,6 +4314,14 @@ msgstr "Сервер перезапущен."
 msgid "Server Roles"
 msgstr "Роли сервера"
 
+msgid "Server Self-Backup"
+msgstr ""
+
+# Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
+# Definition of "Comet Server": This terminology is specific to Comet Backup. It is the name of our application, and should not be translated.
+msgid "Server Self-Backup makes periodic copies of Comet Server's own database and configuration files, for safe-keeping."
+msgstr ""
+
 msgid "Server started"
 msgstr "Сервер запущен"
 
@@ -4146,6 +4333,9 @@ msgstr "Сервисные сводки всегда активны."
 
 msgid "Session expired, please log in again."
 msgstr "Сессия завершена. Пожалуйста, войдите еще раз."
+
+msgid "Session Options"
+msgstr ""
 
 msgid "Set to zero to use the default connection limit."
 msgstr "Установите значение равным 0, чтобы использовать лимит подключений по умолчанию."
@@ -4242,6 +4432,9 @@ msgstr "SMTP-сервер"
 msgid "SMTP server"
 msgstr "SMTP-сервер"
 
+msgid "Snapshot"
+msgstr ""
+
 msgid "Snapshot identifier (optional)"
 msgstr "Идентификатор снимка (опционально)"
 
@@ -4296,6 +4489,18 @@ msgstr "Буферизировать том"
 msgid "SQL Server"
 msgstr "SQL-сервер"
 
+# Definition of "SSH": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Secure_Shell
+msgid "SSH Server:"
+msgstr ""
+
+# Definition of "SSH": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Secure_Shell
+msgid "SSH Tunnel"
+msgstr ""
+
+# Definition of "SSL": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Transport_Layer_Security
+msgid "SSL"
+msgstr ""
+
 # Definition of "SSL": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Transport_Layer_Security
 msgid "SSL Certificate"
 msgstr "SSL-сертификат"
@@ -4336,6 +4541,9 @@ msgstr "STARTTLS"
 
 msgid "Status"
 msgstr "Статус"
+
+msgid "Stay logged in for"
+msgstr ""
 
 msgid "Stop campaign"
 msgstr "Остановить кампанию"
@@ -4415,7 +4623,7 @@ msgid "Subdirectory"
 msgstr "Поддиректория"
 
 msgid "Subject"
-msgstr ""
+msgstr "Субъект"
 
 msgid "Submit"
 msgstr "Отправить"
@@ -4465,6 +4673,9 @@ msgstr "Делаем снимок файловой системы..."
 
 msgid "Tar stream"
 msgstr "Tar stream"
+
+msgid "Target"
+msgstr ""
 
 msgid "Target Hostname (optional)"
 msgstr "Целевое имя хоста (опционально)"
@@ -4594,17 +4805,20 @@ msgstr "Как выяснилось, на устройстве уже запущ
 msgid "The group is empty"
 msgstr "Группа пуста"
 
-msgid "The new entry will appear immediately in the client backup application."
+msgid "The maximum time to stay logged in is %d hours (%d minutes). The default session timeout is %d minutes."
 msgstr ""
+
+msgid "The new entry will appear immediately in the client backup application."
+msgstr "Новая запись сразу же появится в клиентском приложении для создания резервных копий."
 
 msgid "The news content is empty."
 msgstr "Содержимое новостей отсутствует."
 
 msgid "The news item was added."
-msgstr ""
+msgstr "Добавлена новая новость."
 
 msgid "The news item was removed."
-msgstr ""
+msgstr "Новость была удалена."
 
 #, c-format
 msgid "The other cleanup job is still active, as of %s ago (below warning threshold)."
@@ -4655,6 +4869,9 @@ msgstr "Целевой путь '%s' уже существует — пожал�
 msgid "The task did not complete."
 msgstr "Задание не завершено."
 
+msgid "The timezone is used to calculate schedule times."
+msgstr ""
+
 msgid "The timezone was automatically determined from your web browser."
 msgstr "Часовой пояс автоматически определяется на основе данных вашего веб-браузера."
 
@@ -4663,6 +4880,9 @@ msgstr "Часовой пояс устанавливается автомати�
 
 msgid "The user has no devices"
 msgstr "У пользователя нет устройств"
+
+msgid "The username already exists."
+msgstr ""
 
 msgid "The value is empty"
 msgstr "Не заполненно"
@@ -4679,6 +4899,10 @@ msgstr "Нет подключенных устройств для выполне
 
 msgid "There is no active bulk update campaign."
 msgstr "Нет активных кампаний массового обновления."
+
+# Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "There is no snapshot available for the selected Protected Item."
+msgstr ""
 
 # Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "There's no free quota to run this job. Clean up data from this Storage Vault before retrying."
@@ -4698,8 +4922,8 @@ msgstr "Это действие отключит вас от сервера."
 msgid "This action will lock the app, so that your password is required to open it."
 msgstr "Это действие заблокирует приложение. Чтобы открыть его снова, вам потребуется ввести свой пароль."
 
-#, c-format
 # Definition of "EFS": Encrypting File System (EFS) is an encryption system built into Windows. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Encrypting_File_System
+#, c-format
 msgid "This backup job contained %d unreadable file(s) using EFS encryption. The files were successfully backed up in their encrypted form."
 msgstr "Это задание резервного копирования сохранило %d нечитаемых файлов, зашифрованных с помощью ключа EFS. Эти файлы были успешно сохранены в резервной копии в зашифрованном виде."
 
@@ -4756,8 +4980,8 @@ msgstr "Этот сервер"
 msgid "This server is up-to-date."
 msgstr "Этот сервер обновлен до актуальной версии."
 
-#, c-format
 # Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, c-format
 msgid "This Storage Vault contains %s."
 msgstr "Это файловое хранилище содержит %s."
 
@@ -4878,7 +5102,7 @@ msgid "Type"
 msgstr "Тип"
 
 msgid "Unauthorised"
-msgstr ""
+msgstr "Без разрешения"
 
 msgid "Unauthorized to make changes."
 msgstr "У вас нет разрешения на внесение изменений."
@@ -4890,8 +5114,8 @@ msgstr "Нет разрешения."
 msgid "Under %1"
 msgstr "Под %1"
 
-#, c-format
 # Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+#, c-format
 msgid "Unexpected elevation for Protected Item type '%s'"
 msgstr "Неожиданный подъем для типа '%s' защищенного элемента"
 
@@ -4907,6 +5131,9 @@ msgstr "Неизвестный"
 
 msgid "unknown"
 msgstr "неизвестный"
+
+msgid "Unknown Device"
+msgstr ""
 
 msgid "unknown error"
 msgstr "неизвестная ошибка"
@@ -4927,16 +5154,16 @@ msgstr "Разблокировать"
 msgid "Unlock automatically at startup"
 msgstr "Автоматически разблокировать при запуске"
 
-#, qt-format
 # Definition of "Exchange": This is an email server platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Exchange_Server
+#, qt-format
 msgid "Unrecognized Exchange backup type '%1', assuming 'FULL'"
 msgstr "Нераспознанный тип резервной копии Exchange '%1', предполагаем 'FULL'"
 
 msgid "Unrecognized frequency type"
 msgstr "Нераспознанный тип частоты"
 
-#, qt-format
 # Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+#, qt-format
 msgid "Unrecognized Protected Item type '%1'"
 msgstr "Нераспознанный тип защищенного элемента '%1'"
 
@@ -4994,6 +5221,10 @@ msgstr "Загруженный файл"
 
 msgid "Usage"
 msgstr "Использование"
+
+# Definition of "SSL": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Transport_Layer_Security
+msgid "Use SSL protocol"
+msgstr ""
 
 msgid "Use to identify macOS and Android packages in the app store."
 msgstr "Используйте для идентификации пакетов MacOS и Android в магазине приложений."
@@ -5096,8 +5327,8 @@ msgstr "Просмотреть журнал"
 msgid "Virtual Machine"
 msgstr "Виртуальная машина"
 
-#, qt-format
 # Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#, qt-format
 msgid "VM '%1'"
 msgstr "ВМ '%1'"
 
@@ -5105,8 +5336,8 @@ msgstr "ВМ '%1'"
 msgid "Volume"
 msgstr "Том"
 
-#, qt-format
 # Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+#, qt-format
 msgid "Volume %1"
 msgstr "Том %1"
 

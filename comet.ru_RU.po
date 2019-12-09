@@ -18,6 +18,11 @@ msgstr " МБ/с"
 msgid "%1 (Device \"%2\")"
 msgstr "%1 (устройство \"%2\")"
 
+#. When displaying the time of a past event. [Event happened] at [03:00 PM]
+#, qt-format
+msgid "%1 at %2"
+msgstr ""
+
 #, qt-format
 msgid "%1 backup job(s)"
 msgstr "%1 задание(-й) резервного копирования"
@@ -30,6 +35,13 @@ msgstr "%1 день(-ей)"
 msgid "%1 error(s)"
 msgstr "%1 ошибка(-ок)"
 
+#. When displaying the month of a past event. [Event happened] in [January 2006]
+#. ----------
+#. When displaying the year of a past event. [Event happened] in [2006]
+#, qt-format
+msgid "%1 in %2"
+msgstr ""
+
 #, qt-format
 msgid "%1 minute(s) past the hour"
 msgstr "%1 минута(-т) после часа"
@@ -37,6 +49,11 @@ msgstr "%1 минута(-т) после часа"
 #, qt-format
 msgid "%1 month(s)"
 msgstr "%1 месяц(-ев)"
+
+#. When displaying the day of a past event. [Event happened] on [January 1st]
+#, qt-format
+msgid "%1 on %2"
+msgstr ""
 
 #, qt-format
 msgid "%1 snapshot(s)"
@@ -72,6 +89,19 @@ msgstr "%d байт(-ов)"
 
 msgid "%d byte(s) per second"
 msgstr "%d байт(-ов) в секунду"
+
+#. When displaying the time of a past event. [Event happened] at [03:00 PM]
+msgid "%s at %s"
+msgstr ""
+
+#. When displaying the month of a past event. [Event happened] in [January 2006]
+#. When displaying the year of a past event. [Event happened] in [2006]
+msgid "%s in %s"
+msgstr ""
+
+#. When displaying the day of a past event. [Event happened] on [January 1st]
+msgid "%s on %s"
+msgstr ""
 
 #. A button to download the backup app for a single CPU type. "Only x86_64" or "Only x86_32
 msgid "%s only"
@@ -1300,6 +1330,9 @@ msgstr "Не удалось загрузить этот защищенный э�
 msgid "Couldn't load user profile page."
 msgstr "Не удалось загрузить страницу с пользовательским профилем."
 
+msgid "Couldn't log in."
+msgstr ""
+
 #, c-format
 msgid "Couldn't look up account properties (%s)"
 msgstr "Не удалось найти свойства учетной записи (%s)"
@@ -2020,6 +2053,9 @@ msgstr "Под внешним управлением"
 
 msgid "Extra data (optional)"
 msgstr "Дополнительные данные (опционально)"
+
+msgid "Extra parameters"
+msgstr ""
 
 msgid "Failed"
 msgstr "Не удалось"
@@ -3162,6 +3198,7 @@ msgstr "Контент новостей..."
 msgid "Next"
 msgstr "Далее"
 
+#. The time of a future event. "Next [runtime]: at 03:00 AM
 #, qt-format
 msgid "Next %1"
 msgstr "Далее %1"

@@ -21,7 +21,7 @@ msgstr "%1 (Uređaj \"%2\")"
 #. When displaying the time of a past event. [Event happened] at [03:00 PM]
 #, qt-format
 msgid "%1 at %2"
-msgstr ""
+msgstr "%1 u %2"
 
 #, qt-format
 msgid "%1 backup job(s)"
@@ -40,7 +40,7 @@ msgstr "%1 greška(e)"
 #. When displaying the year of a past event. [Event happened] in [2006]
 #, qt-format
 msgid "%1 in %2"
-msgstr ""
+msgstr "%1 u %2"
 
 #, qt-format
 msgid "%1 minute(s) past the hour"
@@ -84,26 +84,32 @@ msgstr "%1."
 msgid "%1th"
 msgstr "%1."
 
+#, c-format
 msgid "%d byte(s)"
 msgstr "%d byte(ova)"
 
+#, c-format
 msgid "%d byte(s) per second"
 msgstr "%d byte(ova) u sekundi"
 
 #. When displaying the time of a past event. [Event happened] at [03:00 PM]
+#, c-format
 msgid "%s at %s"
-msgstr ""
+msgstr "%s u %s"
 
 #. When displaying the month of a past event. [Event happened] in [January 2006]
 #. When displaying the year of a past event. [Event happened] in [2006]
+#, c-format
 msgid "%s in %s"
-msgstr ""
+msgstr "%s u %s"
 
 #. When displaying the day of a past event. [Event happened] on [January 1st]
+#, c-format
 msgid "%s on %s"
 msgstr "%s u %s"
 
 #. A button to download the backup app for a single CPU type. "Only x86_64" or "Only x86_32
+#, c-format
 msgid "%s only"
 msgstr "samo %s"
 
@@ -136,6 +142,7 @@ msgstr "(Prilagođeno)"
 msgid "(default)"
 msgstr "(zadani)"
 
+#, c-format
 msgid "(filtered from %d total entries)"
 msgstr "(filtrirano od %d ukupno stavaka)"
 
@@ -225,6 +232,7 @@ msgid "Accept invalid SSL certificate."
 msgstr "Prihvati nevažeči SSL certifikat."
 
 #. This text appears in a popup dialog when using single-sign-on (SSO) to log in to the Comet Server web interface from a different website. This popup dialog is to affirm user consent, that can prevent some attack scenarios based on automated SSO.
+#, c-format
 msgid "Accept login details from the website at '%s' ?"
 msgstr "Prihvati login podatke sa websita '%s' ?"
 
@@ -244,7 +252,7 @@ msgid "Account name"
 msgstr "Naziv računa"
 
 msgid "Account requires two-factor authentication, but no methods are available"
-msgstr ""
+msgstr "Račun zahtjeva dvofaktorsku autorizaciju, ali metoda nije dostupna"
 
 msgid "Account suspended"
 msgstr "Račun je suspendiran"
@@ -354,6 +362,9 @@ msgstr "Dodaj korisnika"
 #. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
 msgid "Add Volume"
 msgstr "Dodaj Volume"
+
+msgid "Additional backup jobs have run since this analysis was performed."
+msgstr ""
 
 #. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
 msgid "Additionally, logging in to Windows network shares failed."
@@ -520,7 +531,7 @@ msgid "Analyzing vault content..."
 msgstr "Analiziram sadržaj spremnika..."
 
 msgid "and"
-msgstr ""
+msgstr "i"
 
 msgid "Android"
 msgstr "Android"
@@ -591,6 +602,7 @@ msgstr "Ključ aplikacije"
 msgid "Application-Aware Writer"
 msgstr "Aplikacijski Writer"
 
+#, c-format
 msgid "Applied %d change(s)."
 msgstr "Primjenjeno %d izmjena."
 
@@ -603,6 +615,7 @@ msgstr "Primjeni odmah pravilo retencije"
 msgid "Apply to"
 msgstr "Primjeni na"
 
+#, c-format
 msgid "Applying %d change(s)..."
 msgstr "Primjenjujem %d izmjena..."
 
@@ -644,6 +657,7 @@ msgstr "Jeste li sigurni da želite izbrisati kod za oporavak ovog korisnika?"
 msgid "Are you sure you want to remove the storage vault \"%1\"?"
 msgstr "Jeste li sigurni da želite izbrisati spremnik pohrane \"%1\"?"
 
+#, c-format
 msgid "Are you sure you want to remove the user '%s'?"
 msgstr "Jeste li sigurni da želite izbrisati korisnika '%s'?"
 
@@ -683,6 +697,7 @@ msgstr "Jeste li sigurni da želite pokrenuti izdvajanje starih bucketa?"
 msgid "Are you sure you want to stop the active campaign?"
 msgstr "Jeste li sigurni da želite zaustaviti aktivnu kamapnju?"
 
+#, c-format
 msgid "Are you sure you want to suspend the user '%s'?"
 msgstr "Jeste li sigurni da želite suspendirati korisnika '%s'?"
 
@@ -834,7 +849,7 @@ msgid "begins with"
 msgstr "počinje sa"
 
 msgid "between"
-msgstr ""
+msgstr "između"
 
 msgid "Boosters"
 msgstr "Boosters"
@@ -972,7 +987,7 @@ msgid "Cannot take VSS snapshot of '%s' filesystem (expected NTFS)"
 msgstr "Nije moguće izvršiti VSS snapshot '%s' datoteka sustava (očekivan NTFS)"
 
 msgid "Case Sensitive"
-msgstr ""
+msgstr "Osjetljiv na velika i mala slova"
 
 msgid "Category"
 msgstr "Kategorija"
@@ -997,7 +1012,7 @@ msgid "Checking Storage Vault free space..."
 msgstr "Provjera slobodnog prostora Spremnika Pohrane..."
 
 msgid "Choose databases"
-msgstr ""
+msgstr "Odaberi bazu podataka"
 
 msgid "Choose items..."
 msgstr "Odaberi stavke..."
@@ -1331,7 +1346,7 @@ msgid "Couldn't load user profile page."
 msgstr "Nije moguće učitavanje stranice profila."
 
 msgid "Couldn't log in."
-msgstr ""
+msgstr "Logiranje nije moguće."
 
 #, c-format
 msgid "Couldn't look up account properties (%s)"
@@ -1346,7 +1361,7 @@ msgstr "Nije moguće spriječiti automatski sleep: %s"
 
 #, c-format
 msgid "Couldn't read tree data: %s"
-msgstr ""
+msgstr "Nije moguće očitati stablo podataka: %s"
 
 #, c-format
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
@@ -1493,6 +1508,9 @@ msgstr "Dnevno"
 
 msgid "Dashboard"
 msgstr "Upravljačka ploča"
+
+msgid "Data Size"
+msgstr ""
 
 msgid "database"
 msgstr "baza podataka"
@@ -1659,8 +1677,9 @@ msgstr "Onemogućeno"
 msgid "Disabled advanced settings."
 msgstr "Onemogućene napredne postavke."
 
+#, c-format
 msgid "Disallowed use of port %d with %s protocol."
-msgstr ""
+msgstr "Nedozvoljeno korištenje porta %d sa %s protokolom."
 
 msgid "Disconnect"
 msgstr "Prekini vezu"
@@ -1692,7 +1711,7 @@ msgstr "ne završava sa"
 #. Used by the search system to create custom searches. "[USERNAME] doesn't match regex [PARAMETER]
 #. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
 msgid "doesn't match regex"
-msgstr ""
+msgstr "ne odgovara regex-u"
 
 msgid "Domain name"
 msgstr "Naziv domene"
@@ -1923,7 +1942,7 @@ msgid "Enter a single database table name:"
 msgstr "Unesite naziv tabele baze:"
 
 msgid "Enter an email address to send a test message:"
-msgstr ""
+msgstr "Unesite email adresu za slanje testne poruke:"
 
 msgid "Enter job ID:"
 msgstr "Unesite ID zadatka:"
@@ -1952,6 +1971,7 @@ msgstr "GREŠKA"
 msgid "Error for '%s': file truncated (expected %d bytes, got %d)"
 msgstr "Greška za '%s': datoteka je polovična (očekivano %d byta, primljeno %d)"
 
+#, c-format
 msgid "Error for user '%s' (line %d): %s"
 msgstr "Greška za korisnika '%s' (linija %d): %s"
 
@@ -1960,10 +1980,10 @@ msgid "Error importing backupset '%s': %s"
 msgstr "Greška prilikom uvoza backupset-a '%s': %s"
 
 msgid "Error loading file."
-msgstr "Greška pri učitavanu datoteke"
+msgstr "Greška pri učitavanju datoteke"
 
 msgid "Error loading search results."
-msgstr ""
+msgstr "Greška pri učitavanju rezultata pretrage."
 
 #, c-format
 msgid "Error loading snapshot %s: %s"
@@ -2055,7 +2075,7 @@ msgid "Extra data (optional)"
 msgstr "Dodatni podaci (opcionalno)"
 
 msgid "Extra parameters"
-msgstr ""
+msgstr "Dodatni parametri"
 
 msgid "Failed"
 msgstr "Neuspješno"
@@ -2162,16 +2182,16 @@ msgid "File"
 msgstr "Datoteka"
 
 msgid "File modification time..."
-msgstr ""
+msgstr "Vrijeme izmjene datoteke..."
 
 msgid "File Path"
-msgstr ""
+msgstr "Putanja datoteke"
 
 msgid "File size..."
-msgstr ""
+msgstr "Veličina datoteke..."
 
 msgid "Filename"
-msgstr ""
+msgstr "Naziv datoteke"
 
 msgid "Filename access"
 msgstr "Naziv datoteke pristupa"
@@ -2226,7 +2246,7 @@ msgid "First"
 msgstr "Prvi"
 
 msgid "Forensic mode"
-msgstr ""
+msgstr "Forenzički mod"
 
 msgid "Form"
 msgstr "Forma"
@@ -2316,6 +2336,7 @@ msgstr "veći ili jednak"
 msgid "Hashed"
 msgstr "Hashed"
 
+#, c-format
 msgid "Hashed with %s"
 msgstr "Hashed sa %s"
 
@@ -2465,7 +2486,7 @@ msgstr "Uvoz mjesečnih termina bez specifičnog datuma još nije podržano, pre
 
 #, c-format
 msgid "Importing settings from '%s'..."
-msgstr ""
+msgstr "Uvoz postavki sa '%s'..."
 
 msgid "Include"
 msgstr "Uključi"
@@ -2531,8 +2552,9 @@ msgid "Invalid character in username"
 msgstr "Neispravan znak u korisničkom nazivu"
 
 msgid "Invalid connection selected."
-msgstr ""
+msgstr "Izabrana je nispravna veza."
 
+#, c-format
 msgid "Invalid date format (%s)"
 msgstr "Neispravan format podataka (%s)"
 
@@ -2551,6 +2573,7 @@ msgstr "Naveden je pogrešan enkripcijski ključ"
 msgid "Invalid file type selected"
 msgstr "Odabran je pogrešan tip datoteke"
 
+#, c-format
 msgid "Invalid format (%s)"
 msgstr "Pogrešan forma (%s)"
 
@@ -2647,8 +2670,9 @@ msgstr "Siječanj"
 msgid "Job"
 msgstr "Zadatak"
 
-msgid "Job completed."
-msgstr "Zadatak izvršen."
+#, c-format
+msgid "Job completed (%s)."
+msgstr "Zadatak izvršen (%s)."
 
 msgid "Job History"
 msgstr "Povijest Zadataka"
@@ -2919,7 +2943,7 @@ msgstr "Master ID Ključ"
 #. Used by the search system to create custom searches. "[USERNAME] matches regex [PARAMETER]
 #. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
 msgid "matches regex"
-msgstr ""
+msgstr "podudara se sa regex"
 
 msgid "May"
 msgstr "Svibanj"
@@ -3068,9 +3092,11 @@ msgstr "Višestruko"
 msgid "Multiple commands"
 msgstr "Višestruke naredbe"
 
+#, c-format
 msgid "Must contain at least %d characters"
 msgstr "Mora sadržavati barem %d znakova"
 
+#, c-format
 msgid "Must not contain more than %d characters"
 msgstr "Mora sadržavati više od %d znakova"
 
@@ -3248,7 +3274,7 @@ msgid "No files selected for restore"
 msgstr "Nema odabranih datoteka za restore"
 
 msgid "No files were restored!"
-msgstr ""
+msgstr "Nije izvršen restore niti jedne datoteke!"
 
 msgid "No filter selected"
 msgstr "Nema odabranih filtera"
@@ -3365,12 +3391,15 @@ msgstr "Izvršavam ažuriranje aplikacije (%s)."
 msgid "ns"
 msgstr "ns"
 
+#, c-format
 msgid "Number must be a multiple of %d"
 msgstr "Broj mora biti višekratnik od broja %d"
 
+#, c-format
 msgid "Number must be greater than %d"
 msgstr "Broj mora biti veći od %d"
 
+#, c-format
 msgid "Number must be lower than %d"
 msgstr "Broj mora biti manji od %d"
 
@@ -3532,6 +3561,7 @@ msgstr "Lozinka i TOTP zajedno"
 msgid "Password for this account"
 msgstr "Lozinka ovog računa"
 
+#, c-format
 msgid "Password should contain at least %d characters."
 msgstr "Lozinka mora sadržavati najmanje %d znakova."
 
@@ -3562,6 +3592,7 @@ msgstr "Putanja (Datoteka i Mapa)"
 msgid "Pending"
 msgstr "U tijeku"
 
+#, c-format
 msgid "Perform a %s to refresh the result data."
 msgstr "Izvršite %s osvježavanje rezultata."
 
@@ -3699,7 +3730,7 @@ msgstr "Spriječiti otvaranje sučelja aplikacije"
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "Prevent Protected Items from overriding the Storage Vault retention policy"
-msgstr ""
+msgstr "Spriječiti da Zaštićene stavke nadjačaju pravila retencije Spremnika Pohrane"
 
 msgid "Prevent shutting down and restarting server"
 msgstr "Spriječiti gašenje i restart servera"
@@ -4016,6 +4047,7 @@ msgstr "Izvještaj kopiran u međuspremnik."
 msgid "Report Text Size"
 msgstr "Veličina izvještaja"
 
+#, c-format
 msgid "Report took %s to generate."
 msgstr "Generiranje izvještaja je trajalo %s."
 
@@ -4061,7 +4093,7 @@ msgid "restore engine"
 msgstr "mehanizan restora"
 
 msgid "Restore Selected Files"
-msgstr ""
+msgstr "Izvrši restore odabranih datoteka"
 
 #, c-format
 msgid "Restored %d directories, %d files in %s"
@@ -4234,7 +4266,7 @@ msgid "Select a .pem file that contains both the TLS/SSL certificate and key."
 msgstr "Odaberite .pem datoteku koja sadrži i TLS/SSL certifikat i ključ."
 
 msgid "Select a backup to search."
-msgstr ""
+msgstr "Odaberi backup za pretragu."
 
 msgid "Select a Certificate Authority file..."
 msgstr "Odaberi Certificate Authority datoteku..."
@@ -4447,6 +4479,7 @@ msgstr "Setup Wizard"
 msgid "SFTP"
 msgstr "SFTP"
 
+#, c-format
 msgid "Show %d entries"
 msgstr "Prikaži %d stavaka"
 
@@ -4488,6 +4521,7 @@ msgstr "Veličina"
 msgid "Size measured on:"
 msgstr "Veličina izmjerena na:"
 
+#, c-format
 msgid "Size measurement took %s"
 msgstr "Mjerenje veličine je trajalo %s"
 
@@ -4528,7 +4562,7 @@ msgid "Snapshot identifier (optional)"
 msgstr "Identifikator snapshota (opcionalno)"
 
 msgid "Snapshots"
-msgstr ""
+msgstr "Snapshots"
 
 msgid "Software"
 msgstr "Aplikacija"
@@ -4741,8 +4775,9 @@ msgstr "Suspendiraj"
 msgid "Suspended"
 msgstr "Suspendiran"
 
+#, c-format
 msgid "Syntax error: %s"
-msgstr ""
+msgstr "Sintaksna greška: %s"
 
 msgid "System Backup"
 msgstr "Backup Sustava"
@@ -4806,7 +4841,7 @@ msgid "Terminate process"
 msgstr "Završi proces"
 
 msgid "Test..."
-msgstr ""
+msgstr "Test..."
 
 msgid "Text files (*.txt)"
 msgstr "Tekstualna datoteka (*.txt)"
@@ -4817,8 +4852,9 @@ msgstr "%s je naišao na problem (%s)"
 
 #, c-format
 msgid "The '%s' database does not support %s backups, taking a full backup instead"
-msgstr ""
+msgstr "Baza podataka '%s' ne podržava %s backup, izvršavam puni backup umjesto toga."
 
+#, c-format
 msgid "The '%s' feature is not supported by your web browser"
 msgstr "'%s' opcija nije podržana od vašeg preglednika"
 
@@ -4832,6 +4868,9 @@ msgstr "Uloga 'Windows Server Backup' nije prisutna na ovom serveru."
 
 msgid "The action parameter was invalid (try --help)"
 msgstr "Akcijski parametar je pogrešan (probaj --help)"
+
+msgid "The analysis results might be stale."
+msgstr ""
 
 #. Definition of "VSS": This is a feature of Windows to assist in backing up files. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
 #. Definition of "VSS Writer": This is a type of driver installed in Windows to assist in backing up complex applications. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
@@ -4850,7 +4889,7 @@ msgid "The backup application can be remotely controlled with the following acti
 msgstr "Backup aplikacija može biti kontrolirana sa udaljene lokacija slijedećim radnjama:"
 
 msgid "The backup job did not include any files."
-msgstr ""
+msgstr "Backup zadatak ne uključuje niti jednu datoteku."
 
 msgid "The backup server's URL, with trailing slash"
 msgstr "URL backup servera sa vodećim slash znakovima"
@@ -4888,9 +4927,11 @@ msgstr "Konstelacija će očistiti svaki nekorišteni bucket."
 msgid "The container will be automatically created if it does not exist."
 msgstr "Kontejner će biti automatski stvoren ako ne postoji."
 
+#, c-format
 msgid "The date must be after %s"
 msgstr "Datum mora biti nakon %s"
 
+#, c-format
 msgid "The date must be before %s"
 msgstr "Datum mora biti prije %s"
 
@@ -4910,6 +4951,7 @@ msgstr "Uređaj već koristi ciljanu verziju softvera."
 msgid "The group is empty"
 msgstr "Grupa je prazna"
 
+#, c-format
 msgid "The maximum time to stay logged in is %d hours (%d minutes). The default session timeout is %d minutes."
 msgstr "Maksimalno vrijeme za prijavu je %d sati (%d minuta). Zadano trajanje sesije je %d minuta."
 
@@ -5076,6 +5118,7 @@ msgstr ""
 msgid "This page has been refreshed since performing this search."
 msgstr "Ova stranica je refreshana nakon izvršenja pretrage."
 
+#, c-format
 msgid "This report was generated starting at %s."
 msgstr "Izvještaj je generiran u %s."
 
@@ -5128,6 +5171,8 @@ msgid ""
 "To disable this warning, please ensure you have backed up the EFS encryption keys, and then enable the 'I confirm EFS keys are exported' option in the Protected Item settings.\n"
 ""
 msgstr ""
+"Za onemogućavanje ovog upozorenja, osigurajte se da ste izvršili backup EFS enkripcijskog ključa, te zatim omogućite 'Potvrđujem da su EFS ključevi exportirani' opciju u postavkama Zaštićene stavke.\n"
+""
 
 #, qt-format
 msgid "Today at %1"
@@ -5156,6 +5201,10 @@ msgstr "Ukupno skenova"
 
 msgid "Total Size"
 msgstr "Ukupna veličina"
+
+#, c-format
+msgid "Total size %s (%s in use by current data) measured at %s (took %s)"
+msgstr ""
 
 #. Definition of "TOTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm
 msgid "TOTP"
@@ -5275,7 +5324,7 @@ msgstr "Nepodržano"
 
 #, c-format
 msgid "Unsupported backupset type '%s'"
-msgstr ""
+msgstr "Nepodržani backupset tip '%s'"
 
 msgid "Unsupported browser"
 msgstr "Preglednik nije podržan"
@@ -5348,6 +5397,7 @@ msgstr "Korišten od"
 msgid "User"
 msgstr "Korisnik"
 
+#, c-format
 msgid "User \"%s\" on server \"%s\""
 msgstr "Korisnik \"%s\" na serveru \"%s\""
 
@@ -5369,6 +5419,7 @@ msgstr "Naziv korisnika za ovaj račun"
 msgid "Username mismatch."
 msgstr "Greška pri unosu korisničkog naziva."
 
+#, c-format
 msgid "Username should contain at least %d characters."
 msgstr "Naziv korisnika mora sadržavati najmanje %d znakova."
 
@@ -5382,6 +5433,7 @@ msgstr "Korisnici usjmereni na nepoznate buckete mogu imati problema u radu ili 
 msgid "Using temporary directory: %s"
 msgstr "Korištenje privremene mape: %s"
 
+#, c-format
 msgid "Using the %s release track."
 msgstr "Korištenje %s verzije."
 
@@ -5410,6 +5462,7 @@ msgstr "Verzija"
 msgid "Version %1 \"%2\""
 msgstr "Verzija %1 \"%2\""
 
+#, c-format
 msgid "Version %s is now available!"
 msgstr "Verzija %s je sada dostupna!"
 

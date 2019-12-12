@@ -84,26 +84,32 @@ msgstr "%1ראשון"
 msgid "%1th"
 msgstr "%1"
 
+#, c-format
 msgid "%d byte(s)"
 msgstr "%d בייטים"
 
+#, c-format
 msgid "%d byte(s) per second"
 msgstr "%d בתים לשניה"
 
 #. When displaying the time of a past event. [Event happened] at [03:00 PM]
+#, c-format
 msgid "%s at %s"
 msgstr ""
 
 #. When displaying the month of a past event. [Event happened] in [January 2006]
 #. When displaying the year of a past event. [Event happened] in [2006]
+#, c-format
 msgid "%s in %s"
 msgstr ""
 
 #. When displaying the day of a past event. [Event happened] on [January 1st]
+#, c-format
 msgid "%s on %s"
 msgstr ""
 
 #. A button to download the backup app for a single CPU type. "Only x86_64" or "Only x86_32
+#, c-format
 msgid "%s only"
 msgstr ""
 
@@ -136,6 +142,7 @@ msgstr ""
 msgid "(default)"
 msgstr "(ברירת מחדל)"
 
+#, c-format
 msgid "(filtered from %d total entries)"
 msgstr "(סונן מֹֹ %d סהייכ ערכים)"
 
@@ -225,6 +232,7 @@ msgid "Accept invalid SSL certificate."
 msgstr ""
 
 #. This text appears in a popup dialog when using single-sign-on (SSO) to log in to the Comet Server web interface from a different website. This popup dialog is to affirm user consent, that can prevent some attack scenarios based on automated SSO.
+#, c-format
 msgid "Accept login details from the website at '%s' ?"
 msgstr "קבל פרטי כניסה מהאתר ב ' %s '?"
 
@@ -354,6 +362,9 @@ msgstr "הוסף משתמש"
 #. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
 msgid "Add Volume"
 msgstr "הוסף אמצעי אחסון"
+
+msgid "Additional backup jobs have run since this analysis was performed."
+msgstr ""
 
 #. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
 msgid "Additionally, logging in to Windows network shares failed."
@@ -591,6 +602,7 @@ msgstr "מפתח יישום"
 msgid "Application-Aware Writer"
 msgstr "יישום- Aware Writer"
 
+#, c-format
 msgid "Applied %d change(s)."
 msgstr "%d שינוי(ים) החלו."
 
@@ -603,6 +615,7 @@ msgstr "החל את כללי השמירה כעת"
 msgid "Apply to"
 msgstr ""
 
+#, c-format
 msgid "Applying %d change(s)..."
 msgstr "מחיל %d שינויים"
 
@@ -644,6 +657,7 @@ msgstr "האם אתה בטוח שברצונך להסיר את קוד השחזו�
 msgid "Are you sure you want to remove the storage vault \"%1\"?"
 msgstr "האם אתה בטוח שאתה רוצה למחוק את כספת האחסון \"%1\"?"
 
+#, c-format
 msgid "Are you sure you want to remove the user '%s'?"
 msgstr "האם אתה בטוח שאתה רוצה למחוק את המשתמש '%s'?"
 
@@ -681,6 +695,7 @@ msgstr "האם אתה בטוח שאתה רוצה להתחיל לקצוץ דלי�
 msgid "Are you sure you want to stop the active campaign?"
 msgstr "האם אתה בטוח שברצונך להפסיק את הקמפיין הפעיל?"
 
+#, c-format
 msgid "Are you sure you want to suspend the user '%s'?"
 msgstr "האם אתה בטוח שאתה רוצה להשעות את המשתמש '%s'?"
 
@@ -1492,6 +1507,9 @@ msgstr "יומי"
 msgid "Dashboard"
 msgstr "לוח מידע"
 
+msgid "Data Size"
+msgstr ""
+
 msgid "database"
 msgstr ""
 
@@ -1657,6 +1675,7 @@ msgstr "מושבת"
 msgid "Disabled advanced settings."
 msgstr "הגדרות מתקדמות מושבתות."
 
+#, c-format
 msgid "Disallowed use of port %d with %s protocol."
 msgstr ""
 
@@ -1948,6 +1967,7 @@ msgstr "שגיאה"
 msgid "Error for '%s': file truncated (expected %d bytes, got %d)"
 msgstr "שגיאה עבור ' %s ': קובץ חתוך (צפוי %d בתים, יש %d )"
 
+#, c-format
 msgid "Error for user '%s' (line %d): %s"
 msgstr ""
 
@@ -2312,6 +2332,7 @@ msgstr "גדול או שווה ל"
 msgid "Hashed"
 msgstr ""
 
+#, c-format
 msgid "Hashed with %s"
 msgstr ""
 
@@ -2529,6 +2550,7 @@ msgstr "תו לא חוקי בשם המשתמש"
 msgid "Invalid connection selected."
 msgstr ""
 
+#, c-format
 msgid "Invalid date format (%s)"
 msgstr "פורמט תאריך שגוי (%s)"
 
@@ -2547,6 +2569,7 @@ msgstr ""
 msgid "Invalid file type selected"
 msgstr ""
 
+#, c-format
 msgid "Invalid format (%s)"
 msgstr "המחרוזת בפורמט שגוי (%s)"
 
@@ -2643,7 +2666,8 @@ msgstr "יָנוּאָר"
 msgid "Job"
 msgstr "עבודה"
 
-msgid "Job completed."
+#, c-format
+msgid "Job completed (%s)."
 msgstr ""
 
 msgid "Job History"
@@ -3064,9 +3088,11 @@ msgstr ""
 msgid "Multiple commands"
 msgstr ""
 
+#, c-format
 msgid "Must contain at least %d characters"
 msgstr "המחרוזת חייבת להכיל לפחות %d תווים"
 
+#, c-format
 msgid "Must not contain more than %d characters"
 msgstr "המחרוזת לא יכולה להכיל יותר מ%d תווים"
 
@@ -3361,12 +3387,15 @@ msgstr "עכשיו מריץ תוכנה מעודכנת (%s)."
 msgid "ns"
 msgstr ""
 
+#, c-format
 msgid "Number must be a multiple of %d"
 msgstr "המספר צריך להיות כפולה של %d"
 
+#, c-format
 msgid "Number must be greater than %d"
 msgstr "המספר צריך להיות גדול מ %d"
 
+#, c-format
 msgid "Number must be lower than %d"
 msgstr "המספר צריך להיות קטן מ%d"
 
@@ -3528,6 +3557,7 @@ msgstr ""
 msgid "Password for this account"
 msgstr "סיסמה למשתמש זה"
 
+#, c-format
 msgid "Password should contain at least %d characters."
 msgstr "הסיסמה צריכה להכיל לפחות %d תווים."
 
@@ -3554,6 +3584,7 @@ msgstr "נתיב (קובץ או תיקיה)"
 msgid "Pending"
 msgstr "ממתין ל"
 
+#, c-format
 msgid "Perform a %s to refresh the result data."
 msgstr ""
 
@@ -4008,6 +4039,7 @@ msgstr "הדיווח הועתק ללוח."
 msgid "Report Text Size"
 msgstr ""
 
+#, c-format
 msgid "Report took %s to generate."
 msgstr "דוח לקח %s ליצירת."
 
@@ -4439,6 +4471,7 @@ msgstr "אשף התקנה"
 msgid "SFTP"
 msgstr "SFTP"
 
+#, c-format
 msgid "Show %d entries"
 msgstr "הראה רשומות %d"
 
@@ -4480,6 +4513,7 @@ msgstr "גודל"
 msgid "Size measured on:"
 msgstr "גודל נמדד על:"
 
+#, c-format
 msgid "Size measurement took %s"
 msgstr "מדידת גודל לקחה %s"
 
@@ -4731,6 +4765,7 @@ msgstr "לְהַשְׁעוֹת"
 msgid "Suspended"
 msgstr "מושעה"
 
+#, c-format
 msgid "Syntax error: %s"
 msgstr ""
 
@@ -4809,6 +4844,7 @@ msgstr "%s נתקל בבעיה ( %s )"
 msgid "The '%s' database does not support %s backups, taking a full backup instead"
 msgstr ""
 
+#, c-format
 msgid "The '%s' feature is not supported by your web browser"
 msgstr ""
 
@@ -4822,6 +4858,9 @@ msgstr "תפקיד 'Window Server Backup' לא נמצא בשרת זה."
 
 msgid "The action parameter was invalid (try --help)"
 msgstr "פרמטר הפעולה לא היה תקין (נסה help--)"
+
+msgid "The analysis results might be stale."
+msgstr ""
 
 #. Definition of "VSS": This is a feature of Windows to assist in backing up files. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
 #. Definition of "VSS Writer": This is a type of driver installed in Windows to assist in backing up complex applications. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
@@ -4878,9 +4917,11 @@ msgstr "תפקיד קבוצת הכוכבים ינקה את כל הדליים ש�
 msgid "The container will be automatically created if it does not exist."
 msgstr "הקונטיינר יווצר אוטומטית אם הוא לא קיים."
 
+#, c-format
 msgid "The date must be after %s"
 msgstr "התאריך חייב להיות אחרי %s"
 
+#, c-format
 msgid "The date must be before %s"
 msgstr "התאריך חייב להיות לפני %s"
 
@@ -4900,6 +4941,7 @@ msgstr "ההתקן נמצא כבר פועל גירסת תוכנה היעד."
 msgid "The group is empty"
 msgstr "הקבוצה רירקה"
 
+#, c-format
 msgid "The maximum time to stay logged in is %d hours (%d minutes). The default session timeout is %d minutes."
 msgstr ""
 
@@ -5063,6 +5105,7 @@ msgstr "מכשיר חדש זה חייב להיות רשום בחשבון הגי�
 msgid "This page has been refreshed since performing this search."
 msgstr ""
 
+#, c-format
 msgid "This report was generated starting at %s."
 msgstr "דוח זה נוצר החל מ- %s ."
 
@@ -5143,6 +5186,10 @@ msgstr "סהייכ סריקות"
 
 msgid "Total Size"
 msgstr "גודל כולל"
+
+#, c-format
+msgid "Total size %s (%s in use by current data) measured at %s (took %s)"
+msgstr ""
 
 #. Definition of "TOTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm
 msgid "TOTP"
@@ -5335,6 +5382,7 @@ msgstr "בשימוש עייי"
 msgid "User"
 msgstr "משתמש"
 
+#, c-format
 msgid "User \"%s\" on server \"%s\""
 msgstr "משתמש \"%s\" בשרת \"%s\""
 
@@ -5356,6 +5404,7 @@ msgstr "שם המשתמש לחשבון זה"
 msgid "Username mismatch."
 msgstr "חוסר התאמה בשם המשתמש."
 
+#, c-format
 msgid "Username should contain at least %d characters."
 msgstr "שם המשתמש צריך להכיל לפחות %d תווים."
 
@@ -5369,6 +5418,7 @@ msgstr "משתמשים המצביעים על דליים לא ידועים עשו
 msgid "Using temporary directory: %s"
 msgstr "משתמש במיקום זמני: %s"
 
+#, c-format
 msgid "Using the %s release track."
 msgstr "משתמשים במסלול השחרור %s ."
 
@@ -5397,6 +5447,7 @@ msgstr "גרסא"
 msgid "Version %1 \"%2\""
 msgstr "גרסא %1 \"%2\""
 
+#, c-format
 msgid "Version %s is now available!"
 msgstr "הגרסה %s כרגע זמינה!"
 

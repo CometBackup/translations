@@ -98,26 +98,32 @@ msgstr "%1en"
 msgid "%1th"
 msgstr "%1en"
 
+#, c-format
 msgid "%d byte(s)"
 msgstr "%d Byte(s)"
 
+#, c-format
 msgid "%d byte(s) per second"
 msgstr "%d Byte(s) pro Sekunde"
 
 #. When displaying the time of a past event. [Event happened] at [03:00 PM]
+#, c-format
 msgid "%s at %s"
 msgstr ""
 
 #. When displaying the month of a past event. [Event happened] in [January 2006]
 #. When displaying the year of a past event. [Event happened] in [2006]
+#, c-format
 msgid "%s in %s"
 msgstr ""
 
 #. When displaying the day of a past event. [Event happened] on [January 1st]
+#, c-format
 msgid "%s on %s"
 msgstr ""
 
 #. A button to download the backup app for a single CPU type. "Only x86_64" or "Only x86_32
+#, c-format
 msgid "%s only"
 msgstr "Nur %s"
 
@@ -150,6 +156,7 @@ msgstr ""
 msgid "(default)"
 msgstr "(Standard)"
 
+#, c-format
 msgid "(filtered from %d total entries)"
 msgstr "(Gefiltert aus %d Gesamteinträgen)"
 
@@ -239,6 +246,7 @@ msgid "Accept invalid SSL certificate."
 msgstr "Ungültige SSL-Zertifikate akzeptieren."
 
 #. This text appears in a popup dialog when using single-sign-on (SSO) to log in to the Comet Server web interface from a different website. This popup dialog is to affirm user consent, that can prevent some attack scenarios based on automated SSO.
+#, c-format
 msgid "Accept login details from the website at '%s' ?"
 msgstr ""
 
@@ -368,6 +376,9 @@ msgstr "Benutzer hinzufügen"
 #. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
 msgid "Add Volume"
 msgstr "Volume hinzufügen"
+
+msgid "Additional backup jobs have run since this analysis was performed."
+msgstr ""
 
 #. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
 msgid "Additionally, logging in to Windows network shares failed."
@@ -605,6 +616,7 @@ msgstr "Anwendungs-Schlüssel"
 msgid "Application-Aware Writer"
 msgstr ""
 
+#, c-format
 msgid "Applied %d change(s)."
 msgstr "%d Änderung(en) angewendet."
 
@@ -617,6 +629,7 @@ msgstr "Aufbewahrungsregeln jetzt übernehmen"
 msgid "Apply to"
 msgstr ""
 
+#, c-format
 msgid "Applying %d change(s)..."
 msgstr "%d Änderung(en) werden übernommen..."
 
@@ -658,6 +671,7 @@ msgstr "Sind Sie sicher, dass Sie den \"Recovery Code\" für diesen Benutzer ent
 msgid "Are you sure you want to remove the storage vault \"%1\"?"
 msgstr "Sind Sie sicher, dass Sie den Speicherort \"%1\" entfernen möchten?"
 
+#, c-format
 msgid "Are you sure you want to remove the user '%s'?"
 msgstr "Sind Sie sicher, dass Sie den Benutzer '%s' entfernen möchten?"
 
@@ -697,6 +711,7 @@ msgstr "Sind Sie sicher, dass Sie anfangen wollen, alte Buckets zu reduzieren?"
 msgid "Are you sure you want to stop the active campaign?"
 msgstr "Sind Sie sicher, dass Sie die aktive Kampagne beenden möchten?"
 
+#, c-format
 msgid "Are you sure you want to suspend the user '%s'?"
 msgstr "Sind Sie sicher, dass Sie den Benutzer '%s' sperren möchten?"
 
@@ -1508,6 +1523,9 @@ msgstr "Täglich"
 msgid "Dashboard"
 msgstr "Dashboard"
 
+msgid "Data Size"
+msgstr ""
+
 msgid "database"
 msgstr "Datenbank"
 
@@ -1673,6 +1691,7 @@ msgstr "Deaktiviert"
 msgid "Disabled advanced settings."
 msgstr "Deaktivierte erweiterte Einstellungen."
 
+#, c-format
 msgid "Disallowed use of port %d with %s protocol."
 msgstr ""
 
@@ -1966,6 +1985,7 @@ msgstr "FEHLER"
 msgid "Error for '%s': file truncated (expected %d bytes, got %d)"
 msgstr ""
 
+#, c-format
 msgid "Error for user '%s' (line %d): %s"
 msgstr ""
 
@@ -2330,6 +2350,7 @@ msgstr "grösser oder gleich"
 msgid "Hashed"
 msgstr ""
 
+#, c-format
 msgid "Hashed with %s"
 msgstr ""
 
@@ -2547,6 +2568,7 @@ msgstr "Ungültiges Zeichen im Benutzernamen"
 msgid "Invalid connection selected."
 msgstr ""
 
+#, c-format
 msgid "Invalid date format (%s)"
 msgstr "Ungültiges Datumsformat (%s)"
 
@@ -2565,6 +2587,7 @@ msgstr ""
 msgid "Invalid file type selected"
 msgstr "Ungültiger Dateityp ausgewählt"
 
+#, c-format
 msgid "Invalid format (%s)"
 msgstr "Ungültiges Format (%s)"
 
@@ -2661,7 +2684,8 @@ msgstr "Januar"
 msgid "Job"
 msgstr ""
 
-msgid "Job completed."
+#, c-format
+msgid "Job completed (%s)."
 msgstr ""
 
 msgid "Job History"
@@ -3082,9 +3106,11 @@ msgstr "Mehrfach"
 msgid "Multiple commands"
 msgstr ""
 
+#, c-format
 msgid "Must contain at least %d characters"
 msgstr "Muss mindestens %d Zeichen enthalten"
 
+#, c-format
 msgid "Must not contain more than %d characters"
 msgstr "Darf nicht mehr als %d Zeichen enthalten"
 
@@ -3379,12 +3405,15 @@ msgstr "Aktualisierte Software (%s) wird jetzt ausgeführt."
 msgid "ns"
 msgstr ""
 
+#, c-format
 msgid "Number must be a multiple of %d"
 msgstr "Muss ein Vielfaches von %d sein"
 
+#, c-format
 msgid "Number must be greater than %d"
 msgstr "Muss grösser als %d sein"
 
+#, c-format
 msgid "Number must be lower than %d"
 msgstr "Muss kleiner als %d sein"
 
@@ -3546,6 +3575,7 @@ msgstr "Kennwort und TOTP zusammen"
 msgid "Password for this account"
 msgstr "Kennwort für dieses Benutzerkonto"
 
+#, c-format
 msgid "Password should contain at least %d characters."
 msgstr "Kennwort sollte mindestens %d Zeichen enthalten."
 
@@ -3572,6 +3602,7 @@ msgstr "Pfad (Datei oder Ordner)"
 msgid "Pending"
 msgstr ""
 
+#, c-format
 msgid "Perform a %s to refresh the result data."
 msgstr ""
 
@@ -4026,6 +4057,7 @@ msgstr "Bericht in die Zwischenablage kopiert."
 msgid "Report Text Size"
 msgstr ""
 
+#, c-format
 msgid "Report took %s to generate."
 msgstr ""
 
@@ -4457,6 +4489,7 @@ msgstr "Setup-Assistent"
 msgid "SFTP"
 msgstr "SFTP"
 
+#, c-format
 msgid "Show %d entries"
 msgstr "%d Einträge zeigen"
 
@@ -4498,6 +4531,7 @@ msgstr "Grösse"
 msgid "Size measured on:"
 msgstr "Grösse bestimmt auf:"
 
+#, c-format
 msgid "Size measurement took %s"
 msgstr "Bestimmung der Grösse dauerte %s"
 
@@ -4751,6 +4785,7 @@ msgstr ""
 msgid "Suspended"
 msgstr "Ausgesetzt"
 
+#, c-format
 msgid "Syntax error: %s"
 msgstr ""
 
@@ -4829,6 +4864,7 @@ msgstr ""
 msgid "The '%s' database does not support %s backups, taking a full backup instead"
 msgstr ""
 
+#, c-format
 msgid "The '%s' feature is not supported by your web browser"
 msgstr ""
 
@@ -4842,6 +4878,9 @@ msgstr "Die \"Windows Server Backup\"-Rolle ist auf diesem Server nicht vorhande
 
 msgid "The action parameter was invalid (try --help)"
 msgstr "Der Parameter für die Aktion war ungültig (probieren Sie --help)"
+
+msgid "The analysis results might be stale."
+msgstr ""
 
 #. Definition of "VSS": This is a feature of Windows to assist in backing up files. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
 #. Definition of "VSS Writer": This is a type of driver installed in Windows to assist in backing up complex applications. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
@@ -4898,9 +4937,11 @@ msgstr "Die Konstellations-Rolle wird alle unbenutzten Buckets aufräumen."
 msgid "The container will be automatically created if it does not exist."
 msgstr "Der Container wird falls er nicht existiert, automatisch erstellt."
 
+#, c-format
 msgid "The date must be after %s"
 msgstr "Muss nach dem %s sein"
 
+#, c-format
 msgid "The date must be before %s"
 msgstr "Muss vor dem %s sein"
 
@@ -4920,6 +4961,7 @@ msgstr ""
 msgid "The group is empty"
 msgstr "Die Gruppe ist leer"
 
+#, c-format
 msgid "The maximum time to stay logged in is %d hours (%d minutes). The default session timeout is %d minutes."
 msgstr ""
 
@@ -5086,6 +5128,7 @@ msgstr ""
 msgid "This page has been refreshed since performing this search."
 msgstr "Diese Seite wurde während der Durchfühurng der Suche aktualisiert."
 
+#, c-format
 msgid "This report was generated starting at %s."
 msgstr ""
 
@@ -5166,6 +5209,10 @@ msgstr "Anzahl Scans"
 
 msgid "Total Size"
 msgstr "Gesamtgrösse"
+
+#, c-format
+msgid "Total size %s (%s in use by current data) measured at %s (took %s)"
+msgstr ""
 
 #. Definition of "TOTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm
 msgid "TOTP"
@@ -5358,6 +5405,7 @@ msgstr "Benutzt von"
 msgid "User"
 msgstr "Benutzer"
 
+#, c-format
 msgid "User \"%s\" on server \"%s\""
 msgstr "Benutzer \"%s\" auf dem Server \"%s\""
 
@@ -5379,6 +5427,7 @@ msgstr "Benutzername für dieses Konto"
 msgid "Username mismatch."
 msgstr "Benutzername stimmt nicht überein."
 
+#, c-format
 msgid "Username should contain at least %d characters."
 msgstr "Benutzername sollte mindestens %d Zeichen enthalten."
 
@@ -5392,6 +5441,7 @@ msgstr "Benutzer welche auf unbekannte Bucktes verweisen, weisen auf eine falsch
 msgid "Using temporary directory: %s"
 msgstr "Ein temporäres Verzeichnis wird genutzt: %s"
 
+#, c-format
 msgid "Using the %s release track."
 msgstr "Mit der Versionsfolge %s."
 
@@ -5420,6 +5470,7 @@ msgstr "Version"
 msgid "Version %1 \"%2\""
 msgstr "Version %1 \"%2\""
 
+#, c-format
 msgid "Version %s is now available!"
 msgstr "Version %s ist jetzt verfügbar!"
 

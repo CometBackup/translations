@@ -35,6 +35,10 @@ msgid "%1 day(s)"
 msgstr "%1 dan(i)"
 
 #, qt-format
+msgid "%1 Disk image"
+msgstr ""
+
+#, qt-format
 msgid "%1 error(s)"
 msgstr "%1 greška(e)"
 
@@ -96,6 +100,11 @@ msgid "%d byte(s) per second"
 msgstr "%d byte(ova) u sekundi"
 
 #, c-format
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "%d physical volume(s)"
+msgstr ""
+
+#, c-format
 msgid "%d since server start"
 msgstr ""
 
@@ -138,14 +147,17 @@ msgstr "&Logiraj se"
 msgid "&Signing in..."
 msgstr "&Logiram se..."
 
-msgid "'Allow administrator to reset password' setting on user accounts"
-msgstr "'Dozvoli administratoru da resetira lozinku' postavljenu na korisnički račun"
+#, c-format
+msgid "'%s' setting on backup schedules"
+msgstr "'%s' postavljeno na rasporedu backupa"
 
-msgid "'Allow administrator to view file names' setting on devices"
-msgstr "'Dozvoli administratoru da vidi nazive datoteka' postavljene na uređaje"
+#, c-format
+msgid "'%s' setting on devices"
+msgstr "'%s' postavljene na uređaje"
 
-msgid "'Skip if already running' setting on backup schedules"
-msgstr "'Preskoči ako se već izvršava' postavljeno na rasporedu backupa"
+#, c-format
+msgid "'%s' setting on user accounts"
+msgstr "'%s' postavljenu na korisnički račun"
 
 msgid "(case insensitive)"
 msgstr ""
@@ -165,6 +177,9 @@ msgstr "(nijedan)"
 
 msgid "(Optional)"
 msgstr "(Opcionalno)"
+
+msgid "123456"
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "A Bucket is a possible location for a customer's Storage Vault."
@@ -251,6 +266,9 @@ msgid "Accept login details from the website at '%s' ?"
 msgstr "Prihvati login podatke sa websita '%s' ?"
 
 msgid "Access key"
+msgstr "Pristupni ključ"
+
+msgid "Access Key"
 msgstr "Pristupni ključ"
 
 msgid "Account"
@@ -489,6 +507,9 @@ msgstr "Dozvoli %1 pregled naziva filova"
 msgid "Allow administrator to reset password"
 msgstr "Dozvoli administoru resetiranje lozinke"
 
+msgid "Allow administrator to view file names"
+msgstr ""
+
 msgid "Allow any host key"
 msgstr "Dozvoli svaki host ključ"
 
@@ -528,6 +549,9 @@ msgstr "Uvijek uključeno"
 #. Definition of "UNC": A 'UNC' path is a path for a file or folder on a network drive. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Path_(computing)#Universal_Naming_Convention
 msgid "Always re-scan unchanged files"
 msgstr "Uvijek ponovi scan neizmjenjenih datoteka"
+
+msgid "Always require password to open the application interface"
+msgstr ""
 
 msgid "Amazon S3"
 msgstr "Amazon S3"
@@ -760,12 +784,6 @@ msgstr "Autentifikacija"
 msgid "Authentication Database"
 msgstr "Autentifikacijska baza"
 
-msgid "Authentication error"
-msgstr "Greška autentifikacije"
-
-msgid "Authentication OK"
-msgstr "Autentifikacija OK"
-
 msgid "Authentication Role"
 msgstr "Autentifikacijska Uloga"
 
@@ -892,12 +910,15 @@ msgstr "Boosters"
 msgid "Branding"
 msgstr "Brendiranje"
 
+msgid "Browse"
+msgstr "Pretraži"
+
+msgid "Browse Device for items"
+msgstr ""
+
 #. Definition of "UNC": A 'UNC' path is a path for a file or folder on a network drive. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Path_(computing)#Universal_Naming_Convention
 msgid "Browse UNC path"
 msgstr "Pretraži UNC putanju"
-
-msgid "Browse..."
-msgstr "Pretraži..."
 
 msgid "Bucket"
 msgstr "Bucket"
@@ -989,6 +1010,14 @@ msgid "Can't download update: %s"
 msgstr "Nije moguće downloadati ažuriranja: %s"
 
 #, c-format
+msgid "Can't find root path: %s"
+msgstr ""
+
+#, c-format
+msgid "Can't find the directory/file: %s"
+msgstr ""
+
+#, c-format
 msgid "Can't identify this machine: %s"
 msgstr "Nije moguće identificirati stroj: %s"
 
@@ -1003,6 +1032,10 @@ msgstr "Nije moguće izvršiti restore: greška pri traženju profila (%s)"
 #, c-format
 msgid "Can't run backup: failed to retrieve profile (%s)."
 msgstr "Nije moguće pokrenuti backup: greška pri traženju profila (%s)."
+
+#, c-format
+msgid "Can't run uninstall file: %s"
+msgstr ""
 
 #, c-format
 msgid "Can't run update file: %s"
@@ -1127,14 +1160,14 @@ msgstr "Međuspremnik"
 msgid "Clipboard cleared"
 msgstr "Međuspremnik očišćen"
 
+msgid "Cloud Storage"
+msgstr ""
+
 msgid "Cluster"
 msgstr "Klaster"
 
 msgid "Codesigning"
 msgstr "Codesigning"
-
-msgid "Color in hex format (e.g. #FFFFFF)"
-msgstr "Boje u hex formatu (e.g. #FFFFFF)"
 
 #. Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
 msgid "Comet image logo"
@@ -1672,6 +1705,9 @@ msgstr "Izbriši ovaj snapshot..."
 msgid "Delete time"
 msgstr "Vrijeme brisanja"
 
+msgid "Delete User"
+msgstr ""
+
 msgid "Deleting..."
 msgstr ""
 
@@ -1743,11 +1779,17 @@ msgstr "Prekini vezu"
 msgid "Disk"
 msgstr "Disk"
 
+msgid "Disk image"
+msgstr ""
+
 msgid "Disk Image"
 msgstr "Disk Image"
 
 msgid "Dismiss"
 msgstr "Obustavi"
+
+msgid "Do you also want to uninstall the software from the remote device(s)?"
+msgstr ""
 
 msgid "Do you want to continue?"
 msgstr "Želite li nastaviti?"
@@ -2013,6 +2055,9 @@ msgstr "Unesite putanju:"
 msgid "Enter volume:"
 msgstr "Unesite volume:"
 
+msgid "Enter your six-digit code below"
+msgstr ""
+
 #. Used by the search system to create custom searches. "[USERNAME] equal [SOMETHING]
 msgid "equal"
 msgstr "jednako"
@@ -2222,6 +2267,9 @@ msgstr "Neuspješno pronalaženje informacija o profilu (%s)."
 msgid "Failed to save changes to the server!"
 msgstr "Neuspješno snimanje izmjena na server!"
 
+msgid "Failed to save job report."
+msgstr ""
+
 msgid "Failure"
 msgstr "Neuspješno"
 
@@ -2424,6 +2472,10 @@ msgstr "URL pomoći"
 
 msgid "Hidden"
 msgstr "Sakriven"
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Hide cloud storage branding in Storage Vaults"
+msgstr ""
 
 msgid "Hide the Import feature"
 msgstr "Sakrij opcije uvoza"
@@ -2678,8 +2730,11 @@ msgstr "Neispravan odabir servera."
 msgid "Invalid search term. Please double-check the highlighted area"
 msgstr "Neispravan pojam za pretragu. Molimo provjerite osvjetljeno područje."
 
-msgid "Invalid selection."
-msgstr "Neispravan odabir."
+msgid "Invalid selection"
+msgstr "Neispravan odabir"
+
+msgid "Invalid six-digit code"
+msgstr ""
 
 msgid "Invalid snapshot selected"
 msgstr "Odabran je neispravan snapshot"
@@ -2701,6 +2756,9 @@ msgstr "Odabran je neispravan Spremnik Pohrane"
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Invalid Storage Vault specified"
 msgstr "Neispravan Spremnik pohrane"
+
+msgid "Invalid URL"
+msgstr ""
 
 #, c-format
 msgid "Invalid username: %s"
@@ -3153,6 +3211,10 @@ msgstr "Mjesečno"
 msgid "Months"
 msgstr "Mjeseci"
 
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "Move forward or backwards in the Protected Item editor"
+msgstr ""
+
 msgid "ms"
 msgstr "ms"
 
@@ -3261,6 +3323,10 @@ msgstr "Nova lozinka"
 msgid "New password must be at least 8 characters"
 msgstr "Nova lozinka mora biti najmanje 8 znakova dug"
 
+#, c-format
+msgid "New password should contain at least %d characters."
+msgstr "Nova lozinka mora biti najmanje %d znakova dug"
+
 msgid "New Policy"
 msgstr "Novo Pravilo"
 
@@ -3284,6 +3350,9 @@ msgstr "Novi Spremnik Pohrane"
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "New Storage Vault added."
 msgstr "Dodan je novi spremnik pohrane."
+
+msgid "New URL"
+msgstr ""
 
 msgid "News"
 msgstr "Novosti"
@@ -3501,6 +3570,10 @@ msgstr ""
 msgid "OK"
 msgstr "OK"
 
+#, c-format
+msgid "Old password should contain at least %d characters."
+msgstr ""
+
 msgid "On"
 msgstr "Uključeno"
 
@@ -3614,6 +3687,10 @@ msgstr "Naslov stranice"
 msgid "Page title text"
 msgstr "Text naslova stranice"
 
+#, qt-format
+msgid "Partition #%1"
+msgstr ""
+
 #. Definition of "Elevator": This terminology is specific to Comet Backup. This is an internal part of our application that can raise the permission level, when needed. The software 'elevates' its permission level using the 'elevator'.
 msgid "Pass request to elevator (optional)"
 msgstr "Zahtjev lozinke za elevator (opcionalno)"
@@ -3706,8 +3783,14 @@ msgstr "Platforma"
 msgid "Please contact your support agent for more information."
 msgstr "Molimo vas da konaktirate support radi dodatnih informacija."
 
+msgid "Please enter your 6-digit authenticator code"
+msgstr ""
+
 msgid "Please enter your serial number:"
 msgstr "Molimo unesite vaš serijski broj:"
+
+msgid "Please reset your password"
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Please select a Storage Vault to restore from:"
@@ -3715,6 +3798,9 @@ msgstr "Molimo odaberite Spremnik Pohrane iz kojeg će se izvršiti restore:"
 
 msgid "Please select an online device to control:"
 msgstr "Molimo odaberite online uređaj za kontrolu:"
+
+msgid "Please select one disk or partition for restore."
+msgstr ""
 
 msgid "Please select one snapshot for restore."
 msgstr "Molimo odaberite snapshot za restore."
@@ -4010,10 +4096,6 @@ msgstr "Osvježavanje..."
 msgid "Regenerate report"
 msgstr "Stvori ponovno izvještaj"
 
-#. Definition of "TOTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm
-msgid "Regenerate TOTP code"
-msgstr "Stvori ponovno TOTP kod"
-
 #. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
 msgid "Regex"
 msgstr "Regex"
@@ -4072,6 +4154,9 @@ msgstr "Ukloni"
 
 msgid "Remove all"
 msgstr "Ukloni sve"
+
+msgid "Remove all user settings"
+msgstr ""
 
 msgid "Remove item"
 msgstr "Ukloni stavku"
@@ -4161,6 +4246,9 @@ msgstr "Restart je izvršen"
 msgid "Request Storage Vault"
 msgstr "Zatraži Spremnik pohrane"
 
+msgid "Require user to change password at next login"
+msgstr ""
+
 msgid "Required"
 msgstr "Obavzeni"
 
@@ -4182,8 +4270,14 @@ msgstr "Restore kao:"
 msgid "restore engine"
 msgstr "mehanizan restora"
 
+msgid "Restore from"
+msgstr ""
+
 msgid "Restore Selected Files"
 msgstr "Izvrši restore odabranih datoteka"
+
+msgid "Restore to"
+msgstr ""
 
 #, c-format
 msgid "Restored %d directories, %d files in %s"
@@ -4223,6 +4317,9 @@ msgstr "Vrati na zadane vrijednosti"
 
 msgid "Revoke"
 msgstr "Pozovi ponovno"
+
+msgid "Revoke Device"
+msgstr ""
 
 msgid "Run"
 msgstr "Izvrši"
@@ -4284,6 +4381,9 @@ msgstr "Skeniranje se trenutno izvršava"
 msgid "Scan for other installed products"
 msgstr "Analiziram instalirane proizvode"
 
+msgid "Scan the image with the two-factor authentication app on your phone. After scanning the barcode image, the app will display a six-digit code that you can enter below:"
+msgstr ""
+
 #, c-format
 msgid "Scanning %d path(s), excluding %d path(s)..."
 msgstr "Skeniranje %d putanje(a), izuzimanje %d putanje(a)..."
@@ -4337,6 +4437,9 @@ msgid "seconds"
 msgstr "sekundi"
 
 msgid "Secret key"
+msgstr "Tajni ključ"
+
+msgid "Secret Key"
 msgstr "Tajni ključ"
 
 msgid "Security"
@@ -4408,6 +4511,10 @@ msgstr "Odaberi opciju:"
 msgid "Select an output directory"
 msgstr "Odaberi output mapu"
 
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "Select an output disk volume:"
+msgstr ""
+
 msgid "Select columns..."
 msgstr "Odaberi kolone..."
 
@@ -4433,6 +4540,9 @@ msgstr "Odaberi stavke"
 
 msgid "Select items to be backed up"
 msgstr "Odaberi stavke koje će se backupirati"
+
+msgid "Select items to protect"
+msgstr ""
 
 msgid "Select platform"
 msgstr "Odaberi platformu"
@@ -4473,6 +4583,10 @@ msgstr "Odabrano %d od %d virtualnih stroja(eva)."
 #. Definition of "EDB": This is the file format used by the Exchange Server email server from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Exchange_Server
 msgid "Selected EDB not found: '%s'"
 msgstr "Odabrani EDB nije pronađen: '%s'"
+
+#, qt-format
+msgid "Selected item is %1, but the target size is only %2. Please repartition the disk or select a different target for restore."
+msgstr ""
 
 #, c-format
 msgid "Selected virtual machine not found: '%s'"
@@ -4611,6 +4725,9 @@ msgstr "Registriraj se"
 msgid "Single"
 msgstr "Jednosturi"
 
+msgid "Six-digit code required"
+msgstr ""
+
 msgid "Size"
 msgstr "Veličina"
 
@@ -4679,6 +4796,9 @@ msgstr "poredaj kolone silazno"
 
 msgid "Source"
 msgstr "Izvor"
+
+msgid "Source and destination have mismatched types. Please select both disks or both partitions, not one of each."
+msgstr ""
 
 msgid "Source identifier (optional)"
 msgstr "Identificator izvora (opcionalno)"
@@ -5040,6 +5160,15 @@ msgstr "Datum mora biti nakon %s"
 msgid "The date must be before %s"
 msgstr "Datum mora biti prije %s"
 
+msgid "The destination is a disk, but a child partition was already selected as a restore target."
+msgstr ""
+
+msgid "The destination is a partition, but the parent disk was already selected as a restore target."
+msgstr ""
+
+msgid "The destination was already selected as a restore target."
+msgstr ""
+
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "The device has no Protected Items"
 msgstr "Uređaj nema zaštićenih stavki"
@@ -5122,6 +5251,9 @@ msgstr "Spremnik Pohrane je već inicjaliziran, nastavljam backup..."
 msgid "The subject line is empty."
 msgstr "Podatak naziv je prazan."
 
+msgid "The target device does not support remotely browsing the filesystem."
+msgstr ""
+
 #, c-format
 msgid "The target path '%s' already exists - please safely remove this directory and retry the backup."
 msgstr "Putanja destinacije '%s' već postoji - molimo da pažljivo uklonite ovu mapu i ponovno pokušate backupirati."
@@ -5146,6 +5278,10 @@ msgstr "Korisnički naziv već postoji."
 
 msgid "The value is empty"
 msgstr "Vrijednost je prazna"
+
+#, c-format
+msgid "There are %d device(s) online now"
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "There are no backup jobs in this Storage Vault!"
@@ -5363,6 +5499,9 @@ msgstr "Dvofaktorska autentifikacija"
 msgid "Two-factor authentication required"
 msgstr "Neophodna dvofaktorska autentifikacija"
 
+msgid "Two-factor Authentication Required"
+msgstr "Neophodna dvofaktorska autentifikacija"
+
 msgid "Type"
 msgstr "Tip"
 
@@ -5390,6 +5529,19 @@ msgstr "Neobrađen tip naredbe %d"
 
 msgid "Uninitialized"
 msgstr "Neinicjaliziran"
+
+msgid "Uninstall"
+msgstr ""
+
+msgid "Uninstall Software"
+msgstr ""
+
+#, c-format
+msgid "Uninstall software from the online %s"
+msgstr ""
+
+msgid "Uninstall software from this device"
+msgstr ""
 
 msgid "unknown"
 msgstr "nepoznato"
@@ -5466,6 +5618,9 @@ msgstr "Neimenovani Uređaj"
 
 msgid "Update"
 msgstr "Ažuriranje"
+
+msgid "Update Login URL"
+msgstr ""
 
 msgid "Update software"
 msgstr "Ažuriranje aplikacije"
@@ -5826,9 +5981,8 @@ msgstr ""
 msgid "You will be logged out of the Comet Server web interface."
 msgstr "Biti ćete delogirani iz Comet Server web sučelja."
 
-#. Definition of "TOTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm
-msgid "Your TOTP code has been replaced with the code below. Scan the QR code to register it with your authenticator app."
-msgstr "Vaš TOTP kod je zamjenjen sa kodom ispod. Skenirajte QR kod za registraciju sa autorizacijskom aplikacijom."
+msgid "Zero extent"
+msgstr ""
 
 #, qt-format
 msgid "[%1] Item %2 (%3) of %4 (%5)"

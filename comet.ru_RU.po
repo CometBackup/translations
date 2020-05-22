@@ -35,6 +35,10 @@ msgid "%1 day(s)"
 msgstr "%1 день(-ей)"
 
 #, qt-format
+msgid "%1 Disk image"
+msgstr ""
+
+#, qt-format
 msgid "%1 error(s)"
 msgstr "%1 ошибка(-ок)"
 
@@ -96,6 +100,11 @@ msgid "%d byte(s) per second"
 msgstr "%d байт(-ов) в секунду"
 
 #, c-format
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "%d physical volume(s)"
+msgstr ""
+
+#, c-format
 msgid "%d since server start"
 msgstr ""
 
@@ -138,14 +147,17 @@ msgstr "&Войти"
 msgid "&Signing in..."
 msgstr "&Идет вход..."
 
-msgid "'Allow administrator to reset password' setting on user accounts"
-msgstr "Настройка пользовательских учетных записей «Разрешить администратору сбрасывать пароли»"
+#, c-format
+msgid "'%s' setting on backup schedules"
+msgstr "Настройка графика создания резервных копий «%s»"
 
-msgid "'Allow administrator to view file names' setting on devices"
-msgstr "Настройка устройств «Разрешить администратору просмотр имен файлов»"
+#, c-format
+msgid "'%s' setting on devices"
+msgstr "Настройка устройств «%s»"
 
-msgid "'Skip if already running' setting on backup schedules"
-msgstr "Настройка графика создания резервных копий «Пропускать, если задание уже выполняется»"
+#, c-format
+msgid "'%s' setting on user accounts"
+msgstr "Настройка пользовательских учетных записей «%s»"
 
 msgid "(case insensitive)"
 msgstr ""
@@ -165,6 +177,9 @@ msgstr "(нет)"
 
 msgid "(Optional)"
 msgstr "(Опционально)"
+
+msgid "123456"
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "A Bucket is a possible location for a customer's Storage Vault."
@@ -251,6 +266,9 @@ msgid "Accept login details from the website at '%s' ?"
 msgstr "Принять авторизационные данные от сайта в '%s'?"
 
 msgid "Access key"
+msgstr "Ключ доступа"
+
+msgid "Access Key"
 msgstr "Ключ доступа"
 
 msgid "Account"
@@ -489,6 +507,9 @@ msgstr "Разрешить %1 просматривать имена файлов
 msgid "Allow administrator to reset password"
 msgstr "Разрешить администраторам сбрасывать пароли"
 
+msgid "Allow administrator to view file names"
+msgstr "Разрешить администратору просмотр имен файлов"
+
 msgid "Allow any host key"
 msgstr "Разрешить любые ключи хоста"
 
@@ -528,6 +549,9 @@ msgstr "Всегда включено"
 #. Definition of "UNC": A 'UNC' path is a path for a file or folder on a network drive. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Path_(computing)#Universal_Naming_Convention
 msgid "Always re-scan unchanged files"
 msgstr "Всегда повторно сканировать неизмененные файлы"
+
+msgid "Always require password to open the application interface"
+msgstr ""
 
 msgid "Amazon S3"
 msgstr "Amazon S3"
@@ -760,12 +784,6 @@ msgstr "Аутентификация"
 msgid "Authentication Database"
 msgstr ""
 
-msgid "Authentication error"
-msgstr "Ошибка аутентификации"
-
-msgid "Authentication OK"
-msgstr "Аутентификация ОК"
-
 msgid "Authentication Role"
 msgstr "Роль Authentication"
 
@@ -892,12 +910,15 @@ msgstr "Бустеры"
 msgid "Branding"
 msgstr "Брендинг"
 
+msgid "Browse"
+msgstr "Просмотр"
+
+msgid "Browse Device for items"
+msgstr ""
+
 #. Definition of "UNC": A 'UNC' path is a path for a file or folder on a network drive. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Path_(computing)#Universal_Naming_Convention
 msgid "Browse UNC path"
 msgstr "Выберите путь UNC"
-
-msgid "Browse..."
-msgstr "Просмотр..."
 
 msgid "Bucket"
 msgstr "Бакет"
@@ -989,6 +1010,14 @@ msgid "Can't download update: %s"
 msgstr "Не удается загрузить обновление: %s"
 
 #, c-format
+msgid "Can't find root path: %s"
+msgstr ""
+
+#, c-format
+msgid "Can't find the directory/file: %s"
+msgstr ""
+
+#, c-format
 msgid "Can't identify this machine: %s"
 msgstr "Не удается идентифицировать эту машину: %s"
 
@@ -1003,6 +1032,10 @@ msgstr "Не удается восстановить: не удалось пол
 #, c-format
 msgid "Can't run backup: failed to retrieve profile (%s)."
 msgstr "Не удается запустить процесс резервного копирования: не удалось получить профиль (%s)."
+
+#, c-format
+msgid "Can't run uninstall file: %s"
+msgstr ""
 
 #, c-format
 msgid "Can't run update file: %s"
@@ -1127,14 +1160,14 @@ msgstr "Буфер обмена"
 msgid "Clipboard cleared"
 msgstr "Буфер обмена сброшен"
 
+msgid "Cloud Storage"
+msgstr ""
+
 msgid "Cluster"
 msgstr "Кластер"
 
 msgid "Codesigning"
 msgstr "Подпись исполняемого кода"
-
-msgid "Color in hex format (e.g. #FFFFFF)"
-msgstr "Цвет в шестнадцатеричном формате (например, #FFFFFF)"
 
 #. Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
 msgid "Comet image logo"
@@ -1672,6 +1705,9 @@ msgstr "Удалить этот снимок..."
 msgid "Delete time"
 msgstr "Удалить время"
 
+msgid "Delete User"
+msgstr ""
+
 msgid "Deleting..."
 msgstr ""
 
@@ -1743,11 +1779,17 @@ msgstr "Отключить"
 msgid "Disk"
 msgstr "Диск"
 
+msgid "Disk image"
+msgstr ""
+
 msgid "Disk Image"
 msgstr "Образ диска"
 
 msgid "Dismiss"
 msgstr "Отменить"
+
+msgid "Do you also want to uninstall the software from the remote device(s)?"
+msgstr ""
 
 msgid "Do you want to continue?"
 msgstr "Вы хотите продолжить?"
@@ -2013,6 +2055,9 @@ msgstr "Введите путь:"
 msgid "Enter volume:"
 msgstr "Введите том:"
 
+msgid "Enter your six-digit code below"
+msgstr ""
+
 #. Used by the search system to create custom searches. "[USERNAME] equal [SOMETHING]
 msgid "equal"
 msgstr "равно"
@@ -2222,6 +2267,9 @@ msgstr "Не удалось получить данные профиля (%s)"
 msgid "Failed to save changes to the server!"
 msgstr "Не удалось сохранить изменения на сервер!"
 
+msgid "Failed to save job report."
+msgstr ""
+
 msgid "Failure"
 msgstr "Ошибка"
 
@@ -2424,6 +2472,10 @@ msgstr "URL справки"
 
 msgid "Hidden"
 msgstr "Скрыто"
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Hide cloud storage branding in Storage Vaults"
+msgstr ""
 
 msgid "Hide the Import feature"
 msgstr "Скрыть функцию «Импорт»"
@@ -2678,8 +2730,11 @@ msgstr "Недопустимый ответ от сервера."
 msgid "Invalid search term. Please double-check the highlighted area"
 msgstr "Недопустимый поисковый запрос. Пожалуйста, проверьте выделенную область"
 
-msgid "Invalid selection."
-msgstr "Недопустимый выбор."
+msgid "Invalid selection"
+msgstr "Недопустимый выбор"
+
+msgid "Invalid six-digit code"
+msgstr ""
 
 msgid "Invalid snapshot selected"
 msgstr "Выбран недопустимый снимок"
@@ -2701,6 +2756,9 @@ msgstr "Выбрано недопустимое файловое хранили�
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Invalid Storage Vault specified"
 msgstr "Указано недопустимое файловое хранилище"
+
+msgid "Invalid URL"
+msgstr ""
 
 #, c-format
 msgid "Invalid username: %s"
@@ -3153,6 +3211,10 @@ msgstr "Ежемесячно"
 msgid "Months"
 msgstr "Месяцы"
 
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "Move forward or backwards in the Protected Item editor"
+msgstr ""
+
 msgid "ms"
 msgstr "мс"
 
@@ -3261,6 +3323,10 @@ msgstr "Новый пароль"
 msgid "New password must be at least 8 characters"
 msgstr "Новый пароль должен быть не менее 8 символов в длину"
 
+#, c-format
+msgid "New password should contain at least %d characters."
+msgstr ""
+
 msgid "New Policy"
 msgstr "Новая политика"
 
@@ -3284,6 +3350,9 @@ msgstr "Новое файловое хранилище"
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "New Storage Vault added."
 msgstr "Добавлено новое файловое хранилище."
+
+msgid "New URL"
+msgstr ""
 
 msgid "News"
 msgstr "Новости"
@@ -3501,6 +3570,10 @@ msgstr ""
 msgid "OK"
 msgstr "ОК"
 
+#, c-format
+msgid "Old password should contain at least %d characters."
+msgstr ""
+
 msgid "On"
 msgstr "Вкл"
 
@@ -3614,6 +3687,10 @@ msgstr "Заголовок страницы"
 msgid "Page title text"
 msgstr "Текст заголовка страницы"
 
+#, qt-format
+msgid "Partition #%1"
+msgstr ""
+
 #. Definition of "Elevator": This terminology is specific to Comet Backup. This is an internal part of our application that can raise the permission level, when needed. The software 'elevates' its permission level using the 'elevator'.
 msgid "Pass request to elevator (optional)"
 msgstr "Передать запрос к Elevator (опционально)"
@@ -3706,8 +3783,14 @@ msgstr "Платформа"
 msgid "Please contact your support agent for more information."
 msgstr "Пожалуйста, обратитесь к вашему сотруднику техподдержки за подробностями."
 
+msgid "Please enter your 6-digit authenticator code"
+msgstr ""
+
 msgid "Please enter your serial number:"
 msgstr "Пожалуйста, введите ваш серийный номер:"
+
+msgid "Please reset your password"
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Please select a Storage Vault to restore from:"
@@ -3715,6 +3798,9 @@ msgstr "Пожалуйста, выберите файловое хранилищ
 
 msgid "Please select an online device to control:"
 msgstr "Пожалуйста, выберите онлайн-устройство для управления:"
+
+msgid "Please select one disk or partition for restore."
+msgstr ""
 
 msgid "Please select one snapshot for restore."
 msgstr ""
@@ -4010,10 +4096,6 @@ msgstr "Идет обновление..."
 msgid "Regenerate report"
 msgstr "Воссоздать отчет"
 
-#. Definition of "TOTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm
-msgid "Regenerate TOTP code"
-msgstr "Воссоздать код TOTP"
-
 #. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
 msgid "Regex"
 msgstr "Регулярное выражение"
@@ -4072,6 +4154,9 @@ msgstr "Удалить"
 
 msgid "Remove all"
 msgstr "Удалить все"
+
+msgid "Remove all user settings"
+msgstr ""
 
 msgid "Remove item"
 msgstr "Удалить элемент"
@@ -4161,6 +4246,9 @@ msgstr "Запрос отправлен"
 msgid "Request Storage Vault"
 msgstr "Запрос нового файлового хранилища"
 
+msgid "Require user to change password at next login"
+msgstr ""
+
 msgid "Required"
 msgstr "Требуется"
 
@@ -4182,7 +4270,13 @@ msgstr "Восстановить как:"
 msgid "restore engine"
 msgstr "движок восстановления"
 
+msgid "Restore from"
+msgstr ""
+
 msgid "Restore Selected Files"
+msgstr ""
+
+msgid "Restore to"
 msgstr ""
 
 #, c-format
@@ -4223,6 +4317,9 @@ msgstr "Вернуть к настройкам по умолчанию"
 
 msgid "Revoke"
 msgstr "Отозвать"
+
+msgid "Revoke Device"
+msgstr ""
 
 msgid "Run"
 msgstr "Запустить"
@@ -4284,6 +4381,9 @@ msgstr "Сканирование проводится в настоящий мо
 msgid "Scan for other installed products"
 msgstr "Сканирование других установленных продуктов"
 
+msgid "Scan the image with the two-factor authentication app on your phone. After scanning the barcode image, the app will display a six-digit code that you can enter below:"
+msgstr ""
+
 #, c-format
 msgid "Scanning %d path(s), excluding %d path(s)..."
 msgstr "Сканируем %d путей, исключено %d путей..."
@@ -4337,6 +4437,9 @@ msgid "seconds"
 msgstr "секунд"
 
 msgid "Secret key"
+msgstr "Секретный ключ"
+
+msgid "Secret Key"
 msgstr "Секретный ключ"
 
 msgid "Security"
@@ -4408,6 +4511,10 @@ msgstr "Выберите вариант:"
 msgid "Select an output directory"
 msgstr "Выберите выходной каталог"
 
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "Select an output disk volume:"
+msgstr ""
+
 msgid "Select columns..."
 msgstr "Выберите столбцы..."
 
@@ -4433,6 +4540,9 @@ msgstr "Выберите элементы"
 
 msgid "Select items to be backed up"
 msgstr "Выберите элементы для резервного копирования"
+
+msgid "Select items to protect"
+msgstr ""
 
 msgid "Select platform"
 msgstr "Выберите платформу"
@@ -4473,6 +4583,10 @@ msgstr "Выбрано %d из %d виртуальных машин."
 #. Definition of "EDB": This is the file format used by the Exchange Server email server from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Exchange_Server
 msgid "Selected EDB not found: '%s'"
 msgstr "Выбранная расширяемая база данных не найдена: '%s'"
+
+#, qt-format
+msgid "Selected item is %1, but the target size is only %2. Please repartition the disk or select a different target for restore."
+msgstr ""
 
 #, c-format
 msgid "Selected virtual machine not found: '%s'"
@@ -4611,6 +4725,9 @@ msgstr "Войти"
 msgid "Single"
 msgstr "Один пользователь"
 
+msgid "Six-digit code required"
+msgstr ""
+
 msgid "Size"
 msgstr "Размер"
 
@@ -4679,6 +4796,9 @@ msgstr "сортировать столбец от большего к мень�
 
 msgid "Source"
 msgstr "Источник"
+
+msgid "Source and destination have mismatched types. Please select both disks or both partitions, not one of each."
+msgstr ""
 
 msgid "Source identifier (optional)"
 msgstr "Идентификатор источника (опционально)"
@@ -5040,6 +5160,15 @@ msgstr "Должно быть, после %s"
 msgid "The date must be before %s"
 msgstr "Должно быть, до %s"
 
+msgid "The destination is a disk, but a child partition was already selected as a restore target."
+msgstr ""
+
+msgid "The destination is a partition, but the parent disk was already selected as a restore target."
+msgstr ""
+
+msgid "The destination was already selected as a restore target."
+msgstr ""
+
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "The device has no Protected Items"
 msgstr "У устройства нет защищенных элементов"
@@ -5122,6 +5251,9 @@ msgstr "Файловое хранилище уже инициализирова�
 msgid "The subject line is empty."
 msgstr "Строка темы пуста."
 
+msgid "The target device does not support remotely browsing the filesystem."
+msgstr ""
+
 #, c-format
 msgid "The target path '%s' already exists - please safely remove this directory and retry the backup."
 msgstr "Целевой путь '%s' уже существует — пожалуйста, безопасно удалите эту папку и повторите попытку."
@@ -5146,6 +5278,10 @@ msgstr ""
 
 msgid "The value is empty"
 msgstr "Не заполненно"
+
+#, c-format
+msgid "There are %d device(s) online now"
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "There are no backup jobs in this Storage Vault!"
@@ -5363,6 +5499,9 @@ msgstr "Двухфакторная аутентификация"
 msgid "Two-factor authentication required"
 msgstr "Требуется двухфакторная аутентификация"
 
+msgid "Two-factor Authentication Required"
+msgstr "Требуется двухфакторная аутентификация"
+
 msgid "Type"
 msgstr "Тип"
 
@@ -5390,6 +5529,19 @@ msgstr "Необработанный тип команды %d"
 
 msgid "Uninitialized"
 msgstr "Инициализация отменена"
+
+msgid "Uninstall"
+msgstr ""
+
+msgid "Uninstall Software"
+msgstr ""
+
+#, c-format
+msgid "Uninstall software from the online %s"
+msgstr ""
+
+msgid "Uninstall software from this device"
+msgstr ""
 
 msgid "unknown"
 msgstr "неизвестный"
@@ -5466,6 +5618,9 @@ msgstr "Безымянное устройство"
 
 msgid "Update"
 msgstr "Обновить"
+
+msgid "Update Login URL"
+msgstr ""
 
 msgid "Update software"
 msgstr "Обновить программу"
@@ -5826,9 +5981,8 @@ msgstr ""
 msgid "You will be logged out of the Comet Server web interface."
 msgstr "Вы выйдете из веб-интерфейса Comet Server."
 
-#. Definition of "TOTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm
-msgid "Your TOTP code has been replaced with the code below. Scan the QR code to register it with your authenticator app."
-msgstr "Ваш код TOTP был замещен кодом ниже. Просканируйте QR-код, чтобы зарегистрировать его в приложении-аутентификаторе."
+msgid "Zero extent"
+msgstr ""
 
 #, qt-format
 msgid "[%1] Item %2 (%3) of %4 (%5)"

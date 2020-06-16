@@ -133,6 +133,11 @@ msgstr "Solo %s"
 msgid "%s space remaining (%s used)"
 msgstr "%s spazio rimanente (%s utilizzato)"
 
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+#, c-format
+msgid "%s volume"
+msgstr ""
+
 #. / TRANSLATORS: Email subject (e.g. Success - Cleanup, or Failed - Software Update). 1=status 2=type
 msgid "%[1]s - %[2]s"
 msgstr "%[1]s - %[2]s"
@@ -369,6 +374,9 @@ msgstr "Aggiungi regola"
 msgid "Add schedule"
 msgstr "Aggiungi pianificazione"
 
+msgid "Add selection to queue"
+msgstr ""
+
 msgid "Add single file..."
 msgstr "Aggiungi un file singolo..."
 
@@ -459,12 +467,14 @@ msgstr ""
 msgid "All devices"
 msgstr "Tutti i dispositivi"
 
-#, qt-format
-msgid "All disks (%1)"
-msgstr "Tutti i dischi (%1)"
+msgid "All disks"
+msgstr "Tutti i dischi"
 
 msgid "All done! Click \"Save\" to save changes."
 msgstr "Tutto fatto! Fai clic su \"Salva\" per salvare le modifiche."
+
+msgid "All drives"
+msgstr ""
 
 msgid "All import tasks completed."
 msgstr "Tutte le attività di importazione sono state completate."
@@ -480,6 +490,9 @@ msgstr "Tutti i processi (non filtrati)"
 
 msgid "All of..."
 msgstr "Tutti..."
+
+msgid "All partitions"
+msgstr ""
 
 msgid "All platforms"
 msgstr "Tutte le piattaforme"
@@ -521,6 +534,12 @@ msgstr "Consenti l'archiviazione dei dati su questo server"
 
 msgid "Allow downloading the software for"
 msgstr "Consenti il download del software per"
+
+msgid "Allow editing branding settings"
+msgstr ""
+
+msgid "Allow editing remote storage settings"
+msgstr ""
 
 msgid "Allow generating branded software installers from this server"
 msgstr "Consenti la generazione di programmi di installazione software brandizzati da questo server"
@@ -681,6 +700,9 @@ msgstr "Approssimativamente %1"
 
 msgid "April"
 msgstr "Aprile"
+
+msgid "Are you sure to disable the current user's 2FA setting?"
+msgstr ""
 
 msgid "Are you sure you want all new users to have this policy?"
 msgstr "Sei sicuro di volere che tutti i nuovi utenti abbiano questo criterio?"
@@ -1365,6 +1387,10 @@ msgstr "Impossibile trovare le directory/file selezionati"
 msgid "Couldn't find application component!"
 msgstr "Impossibile trovare il componente dell'applicazione!"
 
+#, c-format
+msgid "Couldn't find custom path '%s': %s"
+msgstr ""
+
 #. Definition of "Mongo": MongoDB is a commercial database program. If an official translation is available, it should be used. https://www.mongodb.com/
 #, c-format
 msgid "Couldn't find mongo shell binary (%s)"
@@ -1720,6 +1746,9 @@ msgstr "Consegna tramite"
 msgid "Description"
 msgstr "Descrizione"
 
+msgid "Desktop"
+msgstr ""
+
 msgid "Desktop Client"
 msgstr "Client Desktop"
 
@@ -1763,6 +1792,14 @@ msgstr "Cartelle"
 msgid "Directory"
 msgstr "Cartella"
 
+#. Definition of "TOTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm
+msgid "Disable 2FA (TOTP)"
+msgstr ""
+
+#. Definition of "TOTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm
+msgid "Disable Two-factor Authentication (TOTP)"
+msgstr ""
+
 msgid "Disabled"
 msgstr "Disabilitato"
 
@@ -1779,8 +1816,16 @@ msgstr "Disconnetti"
 msgid "Disk"
 msgstr "Disco"
 
-msgid "Disk image"
-msgstr "Immagine disco"
+#, c-format
+msgid "Disk '%s'"
+msgstr ""
+
+#, c-format
+msgid "Disk '%s' (partition #%d)"
+msgstr ""
+
+msgid "Disk ID"
+msgstr ""
 
 msgid "Disk Image"
 msgstr "Immagine Disco"
@@ -1793,6 +1838,9 @@ msgstr "Vuoi anche disinstallare il software dai dispositivi remoti?"
 
 msgid "Do you want to continue?"
 msgstr "Vuoi continuare?"
+
+msgid "Documents"
+msgstr ""
 
 #. Used by the search system to create custom searches. "[USERNAME] doesn't begin with [PREFIX]
 msgid "doesn't begin with"
@@ -1849,6 +1897,9 @@ msgstr "Scaricato"
 msgid "Downloading update..."
 msgstr "Scaricando aggiornamento..."
 
+msgid "Downloads"
+msgstr ""
+
 msgid "Drop connection"
 msgstr "Connessione interrotta"
 
@@ -1903,6 +1954,9 @@ msgstr "Modifica comando"
 
 msgid "Edit item"
 msgstr "Modifica elemento"
+
+msgid "Edit physical partitions"
+msgstr ""
 
 msgid "Edit policy"
 msgstr "Modifica criterio"
@@ -2147,8 +2201,8 @@ msgstr "Organizzazione di Exchange"
 msgid "Exclude"
 msgstr "Escludi"
 
-msgid "Exclude file..."
-msgstr "Escludi file..."
+msgid "Exclude file"
+msgstr "Escludi file"
 
 #. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
 msgid "Exclude regex"
@@ -2156,6 +2210,9 @@ msgstr "Escludi espressione regolare"
 
 msgid "Exclude specified"
 msgstr "Escludi specificato"
+
+msgid "Exclude specified Virtual Machine"
+msgstr ""
 
 #. Definition of "FTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/File_Transfer_Protocol
 #. Definition of "FTPS": The secure version of FTP. https://en.wikipedia.org/wiki/FTPS
@@ -2276,6 +2333,9 @@ msgstr "Errore"
 msgid "False"
 msgstr "Falso"
 
+msgid "Favorites"
+msgstr ""
+
 msgid "Feature unavailable for your user account"
 msgstr "Caratteristica non disponibile per il tuo account utente"
 
@@ -2359,6 +2419,9 @@ msgstr "Primo"
 
 msgid "Forensic mode"
 msgstr "Modalità forense"
+
+msgid "Forensic Mode"
+msgstr ""
 
 msgid "Form"
 msgstr "Modulo"
@@ -2613,6 +2676,12 @@ msgstr "Importazione di impostazioni da '%s'..."
 msgid "Include"
 msgstr "Includi"
 
+msgid "Include all Virtual Machines"
+msgstr ""
+
+msgid "Include specified Virtual Machine"
+msgstr ""
+
 msgid "Incomplete"
 msgstr "Incompleto"
 
@@ -2646,6 +2715,9 @@ msgstr "Installazione bloccata (nessun progresso dopo %s)"
 msgid "Instance name"
 msgstr "Nome istanza"
 
+msgid "Instance:"
+msgstr ""
+
 msgid "Interface"
 msgstr "Interfaccia"
 
@@ -2672,6 +2744,10 @@ msgstr "Autenticazione non valida"
 
 msgid "Invalid character in username"
 msgstr "Carattere non valido nel nome utente"
+
+#, c-format
+msgid "Invalid component format (expected one of: %s, or %s, or %s)"
+msgstr ""
 
 msgid "Invalid connection selected."
 msgstr "Selezionata connessione non valida."
@@ -3224,6 +3300,9 @@ msgstr "Multiplo"
 msgid "Multiple commands"
 msgstr "Comandi multipli"
 
+msgid "Music"
+msgstr ""
+
 #, c-format
 msgid "Must contain at least %d characters"
 msgstr "Deve contenere almeno %d caratteri"
@@ -3373,6 +3452,10 @@ msgstr "Email pianificata successiva"
 
 msgid "No"
 msgstr "No"
+
+#, c-format
+msgid "No %s custom path"
+msgstr ""
 
 msgid "No additional detail"
 msgstr "Nessun dettaglio aggiuntivo"
@@ -3551,6 +3634,9 @@ msgstr "Numero di dispositivi"
 msgid "Number of lines"
 msgstr "Numero di righe"
 
+msgid "Number of Users"
+msgstr ""
+
 msgid "October"
 msgstr "Ottobre"
 
@@ -3665,6 +3751,12 @@ msgstr "Altro"
 msgid "Outdated"
 msgstr "Obsoleto"
 
+msgid "Outlook"
+msgstr ""
+
+msgid "Outlook data files were not found on this PC"
+msgstr ""
+
 msgid "output.dat"
 msgstr "output.dat"
 
@@ -3690,6 +3782,9 @@ msgstr "Testo del titolo della pagina"
 #, qt-format
 msgid "Partition #%1"
 msgstr "Partizione #%1"
+
+msgid "Partition ID"
+msgstr ""
 
 #. Definition of "Elevator": This terminology is specific to Comet Backup. This is an internal part of our application that can raise the permission level, when needed. The software 'elevates' its permission level using the 'elevator'.
 msgid "Pass request to elevator (optional)"
@@ -3766,6 +3861,9 @@ msgstr "Consentito"
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Persisting Storage Vault status..."
 msgstr "Stato del Vault di Archiviazione permanente..."
+
+msgid "Pictures"
+msgstr ""
 
 #. Definition of "PKCS12": This is the file format used for PKCS #12 SSL certificates. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/PKCS_12
 msgid "PKCS12"
@@ -3855,6 +3953,9 @@ msgstr "Preparazione del Vault di Archiviazione per il primo utilizzo..."
 
 msgid "Prevent changing email settings"
 msgstr "Impedisci la modifica delle impostazioni email"
+
+msgid "Prevent changing password"
+msgstr ""
 
 msgid "Prevent changing user account name"
 msgstr "Impedisci la modifica del nome dell'account utente"
@@ -4081,6 +4182,9 @@ msgstr "Consiglio: lasciare questa opzione ABILITATA per i server primari e DISA
 msgid "Refresh"
 msgstr "Aggiorna"
 
+msgid "Refresh available physical partitions"
+msgstr ""
+
 msgid "Refresh job list"
 msgstr "Aggiorna elenco processi"
 
@@ -4264,8 +4368,16 @@ msgstr "Riavvia server"
 msgid "Restore"
 msgstr "Ripristina"
 
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Restore as *.vmdk files"
+msgstr ""
+
 msgid "Restore as:"
 msgstr "Ripristina come:"
+
+#, c-format
+msgid "Restore completed in %s"
+msgstr ""
 
 msgid "restore engine"
 msgstr "motore di ripristino"
@@ -4273,11 +4385,18 @@ msgstr "motore di ripristino"
 msgid "Restore from"
 msgstr "Ripristina da"
 
+msgid "Restore Queue:"
+msgstr ""
+
 msgid "Restore Selected Files"
 msgstr "Ripristina file selezionati"
 
 msgid "Restore to"
 msgstr "Ripristina in"
+
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "Restore to physical volumes"
+msgstr ""
 
 #, c-format
 msgid "Restored %d directories, %d files in %s"
@@ -4497,6 +4616,9 @@ msgstr "Seleziona un Oggetto Protetto di cui eseguire il backup"
 msgid "Select a Protected Item to restore:"
 msgstr "Seleziona un Oggetto Protetto da ripristinare:"
 
+msgid "Select a restore method"
+msgstr ""
+
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Select a Storage Vault"
 msgstr "Seleziona un Vault di Archiviazione"
@@ -4523,6 +4645,9 @@ msgstr "Seleziona dispositivo:"
 
 msgid "Select devices"
 msgstr "Seleziona dispositivi"
+
+msgid "Select disk(s)"
+msgstr ""
 
 #. Definition of "EDB": This is the file format used by the Exchange Server email server from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Exchange_Server
 #. Definition of "Exchange": This is an email server platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Exchange_Server
@@ -4552,6 +4677,9 @@ msgstr "Seleziona i server su cui eseguire il mirroring dei dati di backup archi
 
 msgid "Select servers to mirror user profile data:"
 msgstr "Seleziona i server su cui eseguire il mirroring dei dati dei profili utente:"
+
+msgid "Select source disk/partition and a restore target, then click the \"Add selection to queue\" button."
+msgstr ""
 
 msgid "Select task to perform"
 msgstr "Seleziona l'attività da eseguire"
@@ -4805,6 +4933,9 @@ msgstr "L'origine e la destinazione hanno tipi non corrispondenti. Selezionare e
 msgid "Source identifier (optional)"
 msgstr "Identificatore sorgente (facoltativo)"
 
+msgid "Source Quick Selector"
+msgstr ""
+
 msgid "Span Target"
 msgstr "Destinazione Span"
 
@@ -4934,8 +5065,12 @@ msgid "Storage Vault Size"
 msgstr "Dimensioni Vault di archiviazione"
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
-msgid "Storage Vault unlocked.\n"
-msgstr "Vault di Archiviazione sbloccato.\n"
+msgid ""
+"Storage Vault unlocked.\n"
+""
+msgstr ""
+"Vault di Archiviazione sbloccato.\n"
+""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Storage Vaults"
@@ -4964,6 +5099,9 @@ msgstr "Sottocartella"
 
 msgid "Subject"
 msgstr "Oggetto"
+
+msgid "Submatch number error"
+msgstr ""
 
 msgid "Success"
 msgstr "Successo"
@@ -5414,8 +5552,12 @@ msgstr "Fuso orario"
 
 #. Definition of "EFS": Encrypting File System (EFS) is an encryption system built into Windows. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Encrypting_File_System
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
-msgid "To disable this warning, please ensure you have backed up the EFS encryption keys, and then enable the 'I confirm EFS keys are exported' option in the Protected Item settings.\n"
-msgstr "Per disattivare questo avviso, assicurarsi di aver eseguito il backup delle chiavi di crittografia EFS, quindi attivare l'opzione 'Conferma l'esportazione delle chiavi EFS' nelle impostazioni dell'Oggetto Protetto.\n"
+msgid ""
+"To disable this warning, please ensure you have backed up the EFS encryption keys, and then enable the 'I confirm EFS keys are exported' option in the Protected Item settings.\n"
+""
+msgstr ""
+"Per disattivare questo avviso, assicurarsi di aver eseguito il backup delle chiavi di crittografia EFS, quindi attivare l'opzione 'Conferma l'esportazione delle chiavi EFS' nelle impostazioni dell'Oggetto Protetto.\n"
+""
 
 #, qt-format
 msgid "Today at %1"
@@ -5737,6 +5879,9 @@ msgstr "tramite Personalizzazione"
 msgid "via Request"
 msgstr "tramite Richiesta"
 
+msgid "Videos"
+msgstr ""
+
 msgid "View"
 msgstr "Visualizza"
 
@@ -5752,10 +5897,18 @@ msgstr "Visualizza registro"
 msgid "Virtual Machine"
 msgstr "Macchina Virtuale"
 
+msgid "Virtual Machine ID"
+msgstr ""
+
 #. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
 #, qt-format
 msgid "VM '%1'"
 msgstr "VM '%1'"
+
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#, c-format
+msgid "VM '%s'"
+msgstr ""
 
 #. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
 msgid "Volume"
@@ -5889,6 +6042,14 @@ msgid "Windows"
 msgstr "Windows"
 
 #. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
+msgid "Windows Mail"
+msgstr ""
+
+#. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
+msgid "Windows Mail data files were not found on this PC"
+msgstr ""
+
+#. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
 msgid "Windows network authentication"
 msgstr "Autenticazione di rete di Windows"
 
@@ -5970,6 +6131,9 @@ msgstr ""
 "Non hai Oggetti Protetti!\n"
 "Inizia aggiungendo uno"
 
+msgid "You have selected a Disk Image backup for restore."
+msgstr ""
+
 #. Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
 #. Definition of "Comet Server": This terminology is specific to Comet Backup. It is the name of our application, and should not be translated.
 msgid "You will be logged out of the Comet Server web interface."
@@ -5981,3 +6145,5 @@ msgstr "Estensione zero"
 #, qt-format
 msgid "[%1] Item %2 (%3) of %4 (%5)"
 msgstr "[%1] Oggetto %2 (%3) di %4 (%5)"
+
+

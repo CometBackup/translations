@@ -66,8 +66,8 @@ msgstr ""
 msgid "%1 snapshot(s)"
 msgstr "%1 instantané(s)"
 
-#, qt-format
 #. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+#, qt-format
 msgid "%1 volume"
 msgstr ""
 
@@ -99,8 +99,8 @@ msgstr "%d octet(s)"
 msgid "%d byte(s) per second"
 msgstr "%d octet(s) par seconde"
 
-#, c-format
 #. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+#, c-format
 msgid "%d physical volume(s)"
 msgstr ""
 
@@ -131,6 +131,11 @@ msgstr ""
 
 #, c-format
 msgid "%s space remaining (%s used)"
+msgstr ""
+
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+#, c-format
+msgid "%s volume"
 msgstr ""
 
 #. / TRANSLATORS: Email subject (e.g. Success - Cleanup, or Failed - Software Update). 1=status 2=type
@@ -217,13 +222,13 @@ msgstr "Abandon du job de sauvegarde (quota d'élément protégé dépassé)"
 msgid "Abandoning backup job (Storage Vault quota exceeded)"
 msgstr "Abandon du job de sauvegarde (quota de Coffre de Stockage dépassé)"
 
-#, c-format
 #. Definition of "Elevator": This terminology is specific to Comet Backup. This is an internal part of our application that can raise the permission level, when needed. The software 'elevates' its permission level using the 'elevator'.
+#, c-format
 msgid "Abandoning elevator client (%s)"
 msgstr "Abandon du client d'ascenseur (%s)"
 
-#, c-format
 #. Definition of "Elevator": This terminology is specific to Comet Backup. This is an internal part of our application that can raise the permission level, when needed. The software 'elevates' its permission level using the 'elevator'.
+#, c-format
 msgid "Abandoning elevator server (%s)"
 msgstr "Abandon du serveur d'ascenseur (%s)"
 
@@ -369,6 +374,9 @@ msgstr "Ajouter une règle"
 msgid "Add schedule"
 msgstr "Ajouter un horaire"
 
+msgid "Add selection to queue"
+msgstr ""
+
 msgid "Add single file..."
 msgstr "Ajouter un fichier unique..."
 
@@ -459,12 +467,14 @@ msgstr ""
 msgid "All devices"
 msgstr "Tous les appareils"
 
-#, qt-format
-msgid "All disks (%1)"
+msgid "All disks"
 msgstr ""
 
 msgid "All done! Click \"Save\" to save changes."
 msgstr "Terminé! Cliquez sur \"Enregistrer\" pour enregistrer les modifications."
+
+msgid "All drives"
+msgstr ""
 
 msgid "All import tasks completed."
 msgstr "Toutes les tâches d'importation ont été complétées."
@@ -479,6 +489,9 @@ msgid "All jobs (unfiltered)"
 msgstr ""
 
 msgid "All of..."
+msgstr ""
+
+msgid "All partitions"
 msgstr ""
 
 msgid "All platforms"
@@ -521,6 +534,12 @@ msgstr "Autoriser le stockage des données sur ce serveur"
 
 msgid "Allow downloading the software for"
 msgstr "Autoriser le téléchargement du logiciel pour"
+
+msgid "Allow editing branding settings"
+msgstr ""
+
+msgid "Allow editing remote storage settings"
+msgstr ""
 
 msgid "Allow generating branded software installers from this server"
 msgstr "Permet de générer des installateurs de logiciels de marque à partir de ce serveur"
@@ -682,6 +701,9 @@ msgstr "Environ %1"
 msgid "April"
 msgstr "Avril"
 
+msgid "Are you sure to disable the current user's 2FA setting?"
+msgstr ""
+
 msgid "Are you sure you want all new users to have this policy?"
 msgstr ""
 
@@ -700,16 +722,16 @@ msgstr "Etes-vous sûr de vouloir continuer?"
 msgid "Are you sure you want to remove all news entries?"
 msgstr "Etes-vous sûr de bien vouloir supprimer toutes les entrées de nouvelles?"
 
-#, qt-format
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+#, qt-format
 msgid "Are you sure you want to remove the Protected Item \"%1\"?"
 msgstr "Êtes-vous sûr de vouloir supprimer l'Elément Protégé \"%1\"?"
 
 msgid "Are you sure you want to remove the recovery code for this user?"
 msgstr "Êtes-vous sûr de vouloir supprimer le code de récupération de cet utilisateur?"
 
-#, qt-format
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, qt-format
 msgid "Are you sure you want to remove the storage vault \"%1\"?"
 msgstr "Êtes-vous sûr de vouloir supprimer le coffre de stockage \"%1\"?"
 
@@ -830,9 +852,9 @@ msgstr "Logo de fond"
 msgid "Backing up %d database(s) in '%s' mode..."
 msgstr "Sauvegarde de %d base(s) de données en mode '%s'..."
 
-#, c-format
 #. Definition of "VSS": This is a feature of Windows to assist in backing up files. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
 #. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+#, c-format
 msgid "Backing up volume [%s] without VSS."
 msgstr "Sauvegarde du volume [%s] sans VSS."
 
@@ -886,8 +908,8 @@ msgstr "Identifiant du job de sauvegarde (optionnel)"
 msgid "Backups"
 msgstr "Sauvegardes"
 
-#, c-format
 #. Definition of "Elevator": This terminology is specific to Comet Backup. This is an internal part of our application that can raise the permission level, when needed. The software 'elevates' its permission level using the 'elevator'.
+#, c-format
 msgid "Bad elevator protocol message (%s)"
 msgstr "Message de protocole d'ascenseur incorrect (%s)"
 
@@ -980,8 +1002,8 @@ msgstr "Progrès de la campagne:"
 msgid "Campaign started at:"
 msgstr "La campagne a commencé à:"
 
-#, c-format
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, c-format
 msgid "Can't access Storage Vault: %s"
 msgstr "Impossible d'accéder au Coffre de Stockage: %s"
 
@@ -1057,8 +1079,8 @@ msgstr "Annulation..."
 msgid "Cannot proceed - another task needs to finish using the Storage Vault first."
 msgstr ""
 
-#, c-format
 #. Definition of "VSS": This is a feature of Windows to assist in backing up files. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
+#, c-format
 msgid "Cannot take VSS snapshot of '%s' filesystem (expected NTFS)"
 msgstr "Impossible de prendre le snapshpt VSS du système de fichiers '%s' (NTFS attendu)"
 
@@ -1310,8 +1332,8 @@ msgstr "Copier (en tant que wget)"
 msgid "Copy to clipboard"
 msgstr "Copier dans le presse-papier"
 
-#, c-format
 #. Definition of "Elevator": This terminology is specific to Comet Backup. This is an internal part of our application that can raise the permission level, when needed. The software 'elevates' its permission level using the 'elevator'.
+#, c-format
 msgid "Could not submit command to elevator: %s"
 msgstr "Impossible de soumettre la commande à l'ascenseur: %s"
 
@@ -1351,8 +1373,8 @@ msgstr "Impossible de créer un compartiment."
 msgid "Couldn't determine hostname for this device (%s), importing all backupsets without per-computer filter."
 msgstr "Impossible de déterminer le nom d'hôte de ce périphérique (%s), en important toutes les sauvegardes sans filtre par ordinateur."
 
-#, c-format
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, c-format
 msgid "Couldn't determine the size of the Storage Vault: %s"
 msgstr ""
 
@@ -1366,19 +1388,23 @@ msgid "Couldn't find application component!"
 msgstr "Impossible de trouver un composant d'application!"
 
 #, c-format
+msgid "Couldn't find custom path '%s': %s"
+msgstr ""
+
 #. Definition of "Mongo": MongoDB is a commercial database program. If an official translation is available, it should be used. https://www.mongodb.com/
+#, c-format
 msgid "Couldn't find mongo shell binary (%s)"
 msgstr ""
 
-#, c-format
 #. Definition of "Mongo": MongoDB is a commercial database program. If an official translation is available, it should be used. https://www.mongodb.com/
 #. Definition of "mongodump": This is the name of MongoDB's built-in backup program. It should not be translated. If an official translation is available, it should be used. https://www.mongodb.com/
+#, c-format
 msgid "Couldn't find mongodump binary (%s)"
 msgstr ""
 
-#, c-format
 #. Definition of "MySQL": This is a database server from Oracle, that uses the SQL language. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/MySQL
 #. Definition of "mysqldump": This is the name of MySQL's built-in backup program. It should not be translated. https://en.wikipedia.org/wiki/MySQL
+#, c-format
 msgid "Couldn't find mysqldump binary (%s)"
 msgstr ""
 
@@ -1441,8 +1467,8 @@ msgstr "Impossible d'empêcher le sommeil automatique: %s"
 msgid "Couldn't read tree data: %s"
 msgstr ""
 
-#, c-format
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, c-format
 msgid "Couldn't record that the Storage Vault has been initialized (%s)"
 msgstr "Impossible d'enregistrer que le Coffre de Stockage a été initialisé (%s)"
 
@@ -1720,6 +1746,9 @@ msgstr "Livrer via"
 msgid "Description"
 msgstr "Description"
 
+msgid "Desktop"
+msgstr ""
+
 msgid "Desktop Client"
 msgstr "Client de Bureau"
 
@@ -1763,6 +1792,14 @@ msgstr "Dossiers"
 msgid "Directory"
 msgstr "Dossier"
 
+#. Definition of "TOTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm
+msgid "Disable 2FA (TOTP)"
+msgstr ""
+
+#. Definition of "TOTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm
+msgid "Disable Two-factor Authentication (TOTP)"
+msgstr ""
+
 msgid "Disabled"
 msgstr "Désactivé"
 
@@ -1779,7 +1816,15 @@ msgstr ""
 msgid "Disk"
 msgstr ""
 
-msgid "Disk image"
+#, c-format
+msgid "Disk '%s'"
+msgstr ""
+
+#, c-format
+msgid "Disk '%s' (partition #%d)"
+msgstr ""
+
+msgid "Disk ID"
 msgstr ""
 
 msgid "Disk Image"
@@ -1792,6 +1837,9 @@ msgid "Do you also want to uninstall the software from the remote device(s)?"
 msgstr ""
 
 msgid "Do you want to continue?"
+msgstr ""
+
+msgid "Documents"
 msgstr ""
 
 #. Used by the search system to create custom searches. "[USERNAME] doesn't begin with [PREFIX]
@@ -1849,6 +1897,9 @@ msgstr "Téléchargé"
 msgid "Downloading update..."
 msgstr "Téléchargement de la mise à jour..."
 
+msgid "Downloads"
+msgstr ""
+
 msgid "Drop connection"
 msgstr "Supprimer la connexion"
 
@@ -1902,6 +1953,9 @@ msgid "Edit command"
 msgstr "Modifier la commande"
 
 msgid "Edit item"
+msgstr ""
+
+msgid "Edit physical partitions"
 msgstr ""
 
 msgid "Edit policy"
@@ -2147,7 +2201,7 @@ msgstr "Organisation Exchange"
 msgid "Exclude"
 msgstr "Exclure"
 
-msgid "Exclude file..."
+msgid "Exclude file"
 msgstr ""
 
 #. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
@@ -2156,6 +2210,9 @@ msgstr "Exclure regex"
 
 msgid "Exclude specified"
 msgstr "Exclure spécifié"
+
+msgid "Exclude specified Virtual Machine"
+msgstr ""
 
 #. Definition of "FTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/File_Transfer_Protocol
 #. Definition of "FTPS": The secure version of FTP. https://en.wikipedia.org/wiki/FTPS
@@ -2189,8 +2246,8 @@ msgstr ""
 msgid "Failed"
 msgstr "Échec"
 
-#, c-format
 #. Definition of "Elevator": This terminology is specific to Comet Backup. This is an internal part of our application that can raise the permission level, when needed. The software 'elevates' its permission level using the 'elevator'.
+#, c-format
 msgid "Failed to accept connection to elevator (%s)"
 msgstr "Impossible d'accepter la connexion à l'ascenseur (%s)"
 
@@ -2221,8 +2278,8 @@ msgstr ""
 msgid "Failed to communicate with selected VSS writer."
 msgstr "Impossible de communiquer avec le writer VSS sélectionné."
 
-#, c-format
 #. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
+#, c-format
 msgid "Failed to import regex '%s' (%s), skipping"
 msgstr "Impossible d'importer la regex '%s' (%s), poursuite"
 
@@ -2274,6 +2331,9 @@ msgid "Failure"
 msgstr "Échec"
 
 msgid "False"
+msgstr ""
+
+msgid "Favorites"
 msgstr ""
 
 msgid "Feature unavailable for your user account"
@@ -2360,6 +2420,9 @@ msgstr "Premier"
 msgid "Forensic mode"
 msgstr ""
 
+msgid "Forensic Mode"
+msgstr ""
+
 msgid "Form"
 msgstr "Forme"
 
@@ -2375,8 +2438,8 @@ msgstr "%d fichiers (%s) trouvé(s) dans les répertoires %d, veuillez patienter
 msgid "Found %d files (%s) in %d directories. (took %s)"
 msgstr "%d fichiers (%s) Trouvé(s) dans les répertoires %d. (pris %s)"
 
-#, c-format
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+#, c-format
 msgid "Found %s to back up - backup would exceed Protected Item quota limit (%s remaining)."
 msgstr "%s trouvé à sauvegarder - la sauvegarde dépasserait la limite de quota de l'Elément Protégé (%s restant)."
 
@@ -2613,6 +2676,12 @@ msgstr ""
 msgid "Include"
 msgstr "Inclure"
 
+msgid "Include all Virtual Machines"
+msgstr ""
+
+msgid "Include specified Virtual Machine"
+msgstr ""
+
 msgid "Incomplete"
 msgstr "Incomplet"
 
@@ -2631,8 +2700,8 @@ msgstr "Info"
 msgid "Initialized"
 msgstr "Initialisé"
 
-#, c-format
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, c-format
 msgid "Initialized Storage Vault (%s)"
 msgstr ""
 
@@ -2646,6 +2715,9 @@ msgstr "Installation bloquée (pas de progression après %s)"
 msgid "Instance name"
 msgstr "Nom de l'instance"
 
+msgid "Instance:"
+msgstr ""
+
 msgid "Interface"
 msgstr "Interface"
 
@@ -2658,8 +2730,8 @@ msgstr ""
 msgid "Internal error"
 msgstr ""
 
-#, c-format
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, c-format
 msgid "Interrupting backup job (exceeded Storage Vault quota of %s)"
 msgstr "Interruption d'un job de sauvegarde (quota de Coffre de Stockage dépassé de %s)"
 
@@ -2672,6 +2744,10 @@ msgstr ""
 
 msgid "Invalid character in username"
 msgstr "Caractère invalide dans le nom d'utilisateur"
+
+#, c-format
+msgid "Invalid component format (expected one of: %s, or %s, or %s)"
+msgstr ""
 
 msgid "Invalid connection selected."
 msgstr ""
@@ -2699,8 +2775,8 @@ msgstr ""
 msgid "Invalid format (%s)"
 msgstr "Format invalide (%s)"
 
-#, c-format
 #. Definition of "Exchange": This is an email server platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Exchange_Server
+#, c-format
 msgid "Invalid mode '%s' for Exchange backup (%s)"
 msgstr "Mode non valide '%s' pour la sauvegarde Exchange (%s)"
 
@@ -2739,13 +2815,13 @@ msgstr ""
 msgid "Invalid snapshot selected"
 msgstr "Snapshot sélectionné invalide"
 
-#, c-format
 #. Definition of "UNC": A 'UNC' path is a path for a file or folder on a network drive. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Path_(computing)#Universal_Naming_Convention
+#, c-format
 msgid "Invalid spool path '%s' (expected drive letter or UNC path)"
 msgstr ""
 
-#, c-format
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, c-format
 msgid "Invalid storage vault '%s'"
 msgstr "Coffre de Stockage est invalide '%s'"
 
@@ -2935,8 +3011,8 @@ msgstr "Chargement"
 msgid "Loading network credentials for Storage Vault"
 msgstr ""
 
-#, c-format
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, c-format
 msgid "Loading Storage Vault metadata for deep verification (%d/%d)..."
 msgstr ""
 
@@ -3224,6 +3300,9 @@ msgstr ""
 msgid "Multiple commands"
 msgstr ""
 
+msgid "Music"
+msgstr ""
+
 #, c-format
 msgid "Must contain at least %d characters"
 msgstr "Doit contenir au moins %d caractères"
@@ -3373,6 +3452,10 @@ msgstr ""
 
 msgid "No"
 msgstr "Non"
+
+#, c-format
+msgid "No %s custom path"
+msgstr ""
 
 msgid "No additional detail"
 msgstr "Pas de détail supplémentaire"
@@ -3551,6 +3634,9 @@ msgstr "Nombre d'appareils"
 msgid "Number of lines"
 msgstr ""
 
+msgid "Number of Users"
+msgstr ""
+
 msgid "October"
 msgstr "Octobre"
 
@@ -3665,6 +3751,12 @@ msgstr "Autre"
 msgid "Outdated"
 msgstr "Dépassé"
 
+msgid "Outlook"
+msgstr ""
+
+msgid "Outlook data files were not found on this PC"
+msgstr ""
+
 msgid "output.dat"
 msgstr "output.dat"
 
@@ -3689,6 +3781,9 @@ msgstr "Texte du titre de la page"
 
 #, qt-format
 msgid "Partition #%1"
+msgstr ""
+
+msgid "Partition ID"
 msgstr ""
 
 #. Definition of "Elevator": This terminology is specific to Comet Backup. This is an internal part of our application that can raise the permission level, when needed. The software 'elevates' its permission level using the 'elevator'.
@@ -3762,6 +3857,9 @@ msgstr ""
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Persisting Storage Vault status..."
 msgstr "Statut de Coffre de Stockage persistant..."
+
+msgid "Pictures"
+msgstr ""
 
 #. Definition of "PKCS12": This is the file format used for PKCS #12 SSL certificates. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/PKCS_12
 msgid "PKCS12"
@@ -3851,6 +3949,9 @@ msgstr "Préparation du Coffre de Stockage pour la première utilisation..."
 
 msgid "Prevent changing email settings"
 msgstr "Empêcher la modification des paramètres de messagerie"
+
+msgid "Prevent changing password"
+msgstr ""
 
 msgid "Prevent changing user account name"
 msgstr ""
@@ -4077,6 +4178,9 @@ msgstr "Recommandation: laissez cette option ACTIVÉE pour les serveurs principa
 msgid "Refresh"
 msgstr "Actualiser"
 
+msgid "Refresh available physical partitions"
+msgstr ""
+
 msgid "Refresh job list"
 msgstr "Actualiser la liste des jobs"
 
@@ -4157,8 +4261,8 @@ msgstr ""
 msgid "Remove item"
 msgstr "Supprimer l'élément"
 
-#, c-format
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, c-format
 msgid "Removed %d old temporary file(s) from the Storage Vault."
 msgstr ""
 
@@ -4260,7 +4364,15 @@ msgstr "Redémarrer le serveur"
 msgid "Restore"
 msgstr "Restaurer"
 
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Restore as *.vmdk files"
+msgstr ""
+
 msgid "Restore as:"
+msgstr ""
+
+#, c-format
+msgid "Restore completed in %s"
 msgstr ""
 
 msgid "restore engine"
@@ -4269,10 +4381,17 @@ msgstr "restaurer le moteur"
 msgid "Restore from"
 msgstr ""
 
+msgid "Restore Queue:"
+msgstr ""
+
 msgid "Restore Selected Files"
 msgstr ""
 
 msgid "Restore to"
+msgstr ""
+
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "Restore to physical volumes"
 msgstr ""
 
 #, c-format
@@ -4493,6 +4612,9 @@ msgstr "Sélectionner un Elément Protégé à sauvegarder"
 msgid "Select a Protected Item to restore:"
 msgstr "Sélectionner un Elément Protégé à restaurer:"
 
+msgid "Select a restore method"
+msgstr ""
+
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Select a Storage Vault"
 msgstr "Sélectionner un Coffre de Stockage"
@@ -4519,6 +4641,9 @@ msgstr "Sélectionner l'appareil:"
 
 msgid "Select devices"
 msgstr "Sélectionnez les appareils"
+
+msgid "Select disk(s)"
+msgstr ""
 
 #. Definition of "EDB": This is the file format used by the Exchange Server email server from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Exchange_Server
 #. Definition of "Exchange": This is an email server platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Exchange_Server
@@ -4549,6 +4674,9 @@ msgstr "Sélectionnez les serveurs pour mettre en miroir les données de sauvega
 msgid "Select servers to mirror user profile data:"
 msgstr "Sélectionnez les serveurs pour mettre en miroir les données de profil utilisateur:"
 
+msgid "Select source disk/partition and a restore target, then click the \"Add selection to queue\" button."
+msgstr ""
+
 msgid "Select task to perform"
 msgstr "Sélectionner la tâche à exécuter"
 
@@ -4566,8 +4694,8 @@ msgid ""
 "Deletion is irreversible."
 msgstr ""
 
-#, c-format
 #. Definition of "EDB": This is the file format used by the Exchange Server email server from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Exchange_Server
+#, c-format
 msgid "Selected %d of %d EDB database(s) on server."
 msgstr "Sélectionné %d de %d Base de données EDB sur le serveur."
 
@@ -4575,8 +4703,8 @@ msgstr "Sélectionné %d de %d Base de données EDB sur le serveur."
 msgid "Selected %d of %d virtual machine(s)."
 msgstr "%d de %d machine(s) virtuelle(s) sélectionnée(s)."
 
-#, c-format
 #. Definition of "EDB": This is the file format used by the Exchange Server email server from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Exchange_Server
+#, c-format
 msgid "Selected EDB not found: '%s'"
 msgstr "L'EDB sélectionné n'a pas été trouvé: '%s'"
 
@@ -4799,6 +4927,9 @@ msgstr ""
 msgid "Source identifier (optional)"
 msgstr "Identifiant de la source (optionnel)"
 
+msgid "Source Quick Selector"
+msgstr ""
+
 msgid "Span Target"
 msgstr "Span Target"
 
@@ -4961,6 +5092,9 @@ msgstr "Sous-répertoire"
 msgid "Subject"
 msgstr ""
 
+msgid "Submatch number error"
+msgstr ""
+
 msgid "Success"
 msgstr "Succès"
 
@@ -5060,8 +5194,8 @@ msgstr "Fichiers texte (*.txt)"
 msgid "The %s delegate service performs a broad set of tasks, such as running scheduled backup jobs, access control, and remote communication."
 msgstr ""
 
-#, c-format
 #. Definition of "Elevator": This terminology is specific to Comet Backup. This is an internal part of our application that can raise the permission level, when needed. The software 'elevates' its permission level using the 'elevator'.
+#, c-format
 msgid "The %s elevator service performs a limited set of tasks requiring higher permissions, such as software updates."
 msgstr ""
 
@@ -5312,8 +5446,8 @@ msgstr ""
 msgid "This action will lock the app, so that your password is required to open it."
 msgstr ""
 
-#, c-format
 #. Definition of "EFS": Encrypting File System (EFS) is an encryption system built into Windows. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Encrypting_File_System
+#, c-format
 msgid "This backup job contained %d unreadable file(s) using EFS encryption. The files were successfully backed up in their encrypted form."
 msgstr ""
 
@@ -5371,8 +5505,8 @@ msgstr "Ce serveur"
 msgid "This server is up-to-date."
 msgstr "Ce serveur est à jour."
 
-#, c-format
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, c-format
 msgid "This Storage Vault contains %s."
 msgstr "Ce Coffre de Stockage contient %s."
 
@@ -5510,8 +5644,8 @@ msgstr "Non autorisé."
 msgid "Under %1"
 msgstr "Moins de %1"
 
-#, c-format
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+#, c-format
 msgid "Unexpected elevation for Protected Item type '%s'"
 msgstr "Élévation inattendue pour le type d'Elément Protégé '%s'"
 
@@ -5566,16 +5700,16 @@ msgstr "Ouvrir"
 msgid "Unlock automatically at startup"
 msgstr ""
 
-#, qt-format
 #. Definition of "Exchange": This is an email server platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Exchange_Server
+#, qt-format
 msgid "Unrecognized Exchange backup type '%1', assuming 'FULL'"
 msgstr "Type de sauvegarde Exchange non reconnu '%1', supposé 'FULL'"
 
 msgid "Unrecognized frequency type"
 msgstr "Type de fréquence non reconnu"
 
-#, qt-format
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+#, qt-format
 msgid "Unrecognized Protected Item type '%1'"
 msgstr "Type de source non reconnu '%1'"
 
@@ -5735,6 +5869,9 @@ msgstr "via Custom"
 msgid "via Request"
 msgstr "via Demande"
 
+msgid "Videos"
+msgstr ""
+
 msgid "View"
 msgstr ""
 
@@ -5750,17 +5887,25 @@ msgstr ""
 msgid "Virtual Machine"
 msgstr "Machine Virtuelle"
 
-#, qt-format
+msgid "Virtual Machine ID"
+msgstr ""
+
 #. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#, qt-format
 msgid "VM '%1'"
 msgstr "MV '%1'"
+
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#, c-format
+msgid "VM '%s'"
+msgstr ""
 
 #. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
 msgid "Volume"
 msgstr "Volume"
 
-#, qt-format
 #. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+#, qt-format
 msgid "Volume %1"
 msgstr "Volume %1"
 
@@ -5887,6 +6032,14 @@ msgid "Windows"
 msgstr "Windows"
 
 #. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
+msgid "Windows Mail"
+msgstr ""
+
+#. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
+msgid "Windows Mail data files were not found on this PC"
+msgstr ""
+
+#. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
 msgid "Windows network authentication"
 msgstr ""
 
@@ -5967,6 +6120,9 @@ msgid ""
 msgstr ""
 "Vous n'avez pas d'Eléments Protégés!\n"
 "Commencez par en obtenir un"
+
+msgid "You have selected a Disk Image backup for restore."
+msgstr ""
 
 #. Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
 #. Definition of "Comet Server": This terminology is specific to Comet Backup. It is the name of our application, and should not be translated.

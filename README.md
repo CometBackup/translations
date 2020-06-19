@@ -26,18 +26,18 @@ We will include your translation in the next available version of Comet.
 
 ## Current translation coverage
 
-*Table last regenerated 2020-06-16*
+*Table last regenerated 2020-06-19*
 
-|Code    |Language              |Words   |Phrases |Translation percent
-|--------|----------------------|--------|--------|---------
-|`-`     |English               |    7103|    1805|     100
-|`de_DE` |Deutsch               |    3674|    1090|   60.39
-|`es_ES` |Español               |    6887|    1440|   79.78
-|`fr_FR` |Français              |    5490|    1203|   66.65
-|`he_IL` |עברית‬                 |    4640|    1236|   68.48
-|`hr_HR` |Hrvatski              |    6063|    1665|   92.24
-|`it_IT` |Italiano              |    7846|    1757|   97.34
-|`nl_NL` |Nederlands            |    1817|     517|   28.64
-|`pt_BR` |Português (Brasil)    |    5185|    1201|   66.54
-|`pt_PT` |Português (Europa)    |    6290|    1457|   80.72
-|`ru_RU` |Русский               |    6081|    1560|   86.43
+|Code    |Language              |Untranslated (English) words |Translated Words |Translated Phrases |Translation percent
+|--------|----------------------|-----------------------------|-----------------|-------------------|--------------------
+|`-`     |English               |0                            |7103             |1805               |  100.00
+|`de_DE` |Deutsch               |3377                         |3674             |1090               |   60.39
+|`es_ES` |Español               |1581                         |6887             |1440               |   79.78
+|`fr_FR` |Français              |2657                         |5490             |1203               |   66.65
+|`he_IL` |עברית‬                 |2462                         |4640             |1236               |   68.48
+|`hr_HR` |Hrvatski              |733                          |6063             |1665               |   92.24
+|`it_IT` |Italiano              |179                          |7846             |1757               |   97.34
+|`nl_NL` |Nederlands            |5397                         |1817             |517                |   28.64
+|`pt_BR` |Português (Brasil)    |2670                         |5185             |1201               |   66.54
+|`pt_PT` |Português (Europa)    |1515                         |6290             |1457               |   80.72
+|`ru_RU` |Русский               |1136                         |6081             |1560               |   86.43

@@ -26,18 +26,19 @@ We will include your translation in the next available version of Comet.
 
 ## Current translation coverage
 
-*Table last regenerated 2020-08-24*
+*Table last regenerated 2020-08-26*
 
 |Code    |Language              |Untranslated (English) words |Translated Words |Translated Phrases |Translation percent
 |--------|----------------------|-----------------------------|-----------------|-------------------|--------------------
-|`-`     |English               |0                            |7503             |1867               |  100.00
+|`-`     |English               |0                            |7502             |1867               |  100.00
 |`de_DE` |Deutsch               |0                            |7268             |1867               |  100.00
-|`es_ES` |Español               |0                            |9335             |1867               |  100.00
-|`fr_FR` |Français              |0                            |9366             |1867               |  100.00
-|`he_IL` |עברית‬                 |0                            |7419             |1867               |  100.00
-|`hr_HR` |Hrvatski              |0                            |7174             |1867               |  100.00
-|`it_IT` |Italiano              |615                          |7809             |1745               |   93.47
+|`es_ES` |Español               |0                            |9334             |1867               |  100.00
+|`fr_FR` |Français              |0                            |9365             |1867               |  100.00
+|`he_IL` |עברית‬                 |0                            |7418             |1867               |  100.00
+|`hr_HR` |Hrvatski              |0                            |7173             |1867               |  100.00
+|`it_IT` |Italiano              |0                            |8506             |1867               |  100.00
 |`nl_NL` |Nederlands            |0                            |7183             |1867               |  100.00
-|`pt_BR` |Português (Brasil)    |0                            |8388             |1867               |  100.00
-|`pt_PT` |Português (Europa)    |0                            |8458             |1867               |  100.00
-|`ru_RU` |Русский               |0                            |7534             |1867               |  100.00
+|`pt_BR` |Português (Brasil)    |0                            |8387             |1867               |  100.00
+|`pt_PT` |Português (Europa)    |0                            |8457             |1867               |  100.00
+|`ru_RU` |Русский               |0                            |7533             |1867               |  100.00
+

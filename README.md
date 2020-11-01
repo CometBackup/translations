@@ -26,18 +26,18 @@ We will include your translation in the next available version of Comet.
 
 ## Current translation coverage
 
-*Table last regenerated 2020-10-29*
+*Table last regenerated 2020-11-02*
 
 |Code    |Language              |Untranslated (English) words |Translated Words |Translated Phrases |Translation percent
 |--------|----------------------|-----------------------------|-----------------|-------------------|--------------------
-|`-`     |English               |0                            |7707             |1901               |  100.00
-|`de_DE` |Deutsch               |207                          |7266             |1865               |   98.11
-|`es_ES` |Español               |207                          |9335             |1865               |   98.11
-|`fr_FR` |Français              |207                          |9363             |1865               |   98.11
-|`he_IL` |עברית‬                 |210                          |7411             |1864               |   98.05
-|`hr_HR` |Hrvatski              |207                          |7171             |1865               |   98.11
-|`it_IT` |Italiano              |207                          |8504             |1865               |   98.11
-|`nl_NL` |Nederlands            |207                          |7181             |1865               |   98.11
-|`pt_BR` |Português (Brasil)    |207                          |8385             |1865               |   98.11
-|`pt_PT` |Português (Europa)    |207                          |8455             |1865               |   98.11
-|`ru_RU` |Русский               |207                          |7531             |1865               |   98.11
+|`-`     |English               |0                            |7702             |1899               |  100.00
+|`de_DE` |Deutsch               |207                          |7261             |1863               |   98.10
+|`es_ES` |Español               |207                          |9329             |1863               |   98.10
+|`fr_FR` |Français              |207                          |9357             |1863               |   98.10
+|`he_IL` |עברית‬                 |210                          |7406             |1862               |   98.05
+|`hr_HR` |Hrvatski              |207                          |7166             |1863               |   98.10
+|`it_IT` |Italiano              |207                          |8498             |1863               |   98.10
+|`nl_NL` |Nederlands            |207                          |7176             |1863               |   98.10
+|`pt_BR` |Português (Brasil)    |0                            |8885             |1899               |  100.00
+|`pt_PT` |Português (Europa)    |207                          |8448             |1863               |   98.10
+|`ru_RU` |Русский               |207                          |7524             |1863               |   98.10

@@ -168,15 +168,15 @@ msgstr "&Ferramentas"
 
 #, c-format
 msgid "'%s' setting on backup schedules"
-msgstr "'%s' Configuração nos agendamentos de backup"
+msgstr "Configuração nos agendamentos de backup '%s'"
 
 #, c-format
 msgid "'%s' setting on devices"
-msgstr "'%s' Configuração em dispositivos"
+msgstr "Configuração em dispositivos '%s'"
 
 #, c-format
 msgid "'%s' setting on user accounts"
-msgstr "'%s'Configuração em contas de usuário"
+msgstr "Configuração em contas de usuário '%s'"
 
 msgid "(case insensitive)"
 msgstr "(não diferencia maiúsculas de minúsculas)"
@@ -359,6 +359,12 @@ msgstr "Adicionar um item"
 msgid "Add commands to run before or after the backup job"
 msgstr "Adicione comandos para executar antes ou depois do backup"
 
+msgid "Add custom directory"
+msgstr ""
+
+msgid "Add custom file"
+msgstr ""
+
 #. Definition of "Mongo": MongoDB is a commercial database program. If an official translation is available, it should be used. https://www.mongodb.com/
 #. Definition of "mongodump": This is the name of MongoDB's built-in backup program. It should not be translated. If an official translation is available, it should be used. https://www.mongodb.com/
 msgid "Add custom mongodump path"
@@ -370,6 +376,9 @@ msgstr "Adicionar backup padrão..."
 
 msgid "Add default schedule..."
 msgstr "Adicionar agendamento padrão..."
+
+msgid "Add driver"
+msgstr ""
 
 msgid "Add Email Address..."
 msgstr "Adicionar Endereço de E-mail..."
@@ -419,6 +428,9 @@ msgstr "Adicionar pasta única..."
 
 msgid "Add single item by name..."
 msgstr "Adicionar item único por nome..."
+
+msgid "Add startup command"
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Add Storage Vault"
@@ -773,6 +785,12 @@ msgstr "Confirma que deseja excluir essa política?"
 
 msgid "Are you sure you want to proceed?"
 msgstr "Confirma que deseja prosseguir?"
+
+#, qt-format
+msgid ""
+"Are you sure you want to remove %1 backup job(s)?\n"
+"It will no longer be possible to recover data from these job(s)."
+msgstr ""
 
 msgid "Are you sure you want to remove all news entries?"
 msgstr "Confirma que deseja remover todas as novas entradas?"
@@ -1812,6 +1830,10 @@ msgstr "Adiando a remoção do trabalho até que haja mais trabalho a fazer."
 msgid "Delete"
 msgstr "Apagar"
 
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "Delete all snapshots for this Protected Item..."
+msgstr ""
+
 msgid "Delete backup job"
 msgstr "Apagar backup"
 
@@ -1861,7 +1883,7 @@ msgid "Description"
 msgstr "Descrição"
 
 msgid "Desktop"
-msgstr "Ambiente de trabalho"
+msgstr "Área de Trabalho"
 
 msgid "Desktop Client"
 msgstr "Área de trabalho do cliente"
@@ -2208,7 +2230,7 @@ msgstr "termina com"
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Enforce this retention policy for all Storage Vaults"
-msgstr "Aplicar esta política de retenção para todos os cofres de armazenamento"
+msgstr "Aplicar esta política de retenção para todas as Áreas de Armazenamentos"
 
 msgid "Engine"
 msgstr "Motor"
@@ -2216,6 +2238,9 @@ msgstr "Motor"
 #, c-format
 msgid "Engine failure (%s)"
 msgstr "Falha no mecanismo (%s)"
+
+msgid "Enter a custom command"
+msgstr ""
 
 msgid "Enter a single database table name:"
 msgstr "Insira um único nome de tabela de banco de dados:"
@@ -2273,10 +2298,6 @@ msgstr "Erro ao carregar o arquivo."
 
 msgid "Error loading search results."
 msgstr "Erro ao carregar os resultados da pesquisa."
-
-#, c-format
-msgid "Error loading snapshot %s: %s"
-msgstr "Erro ao carregar snapshot %s: %s"
 
 #, c-format
 msgid "Error requesting provider: %s"
@@ -2494,6 +2515,10 @@ msgstr "FIDO U2F"
 msgid "File"
 msgstr "Arquivo"
 
+#, c-format
+msgid "File %s was deleted unexpectedly"
+msgstr ""
+
 msgid "File modification time..."
 msgstr "Hora de modificação do arquivo ..."
 
@@ -2644,6 +2669,9 @@ msgstr "Conta do Gmail"
 msgid "Go to job ID..."
 msgstr "Vá para o ID do trabalho ..."
 
+msgid "Good"
+msgstr ""
+
 #. Definition of "Google Cloud Storage": This is a commercial service for storing files. If an official translation is available, it should be used. https://cloud.google.com/storage/
 msgid "Google Cloud Storage"
 msgstr "Google Cloud Storage"
@@ -2692,7 +2720,7 @@ msgid "Hide the Import feature"
 msgstr "Ocultar o recurso de importação"
 
 msgid "Hide the software version and codename"
-msgstr "Oculte a versão do software e o codinome"
+msgstr "Ocultar a versão do software e o codinome"
 
 msgid "History"
 msgstr "Histórico"
@@ -3464,7 +3492,7 @@ msgid "Multiple commands"
 msgstr "Comandos múltiplos"
 
 msgid "Music"
-msgstr "Música"
+msgstr "Músicas"
 
 #, c-format
 msgid "Must contain at least %d characters"
@@ -3891,6 +3919,9 @@ msgstr "Dispositivos on-line"
 
 msgid "Only keep..."
 msgstr "Manter apenas..."
+
+msgid "Open:"
+msgstr ""
 
 msgid "OpenStack Swift"
 msgstr "OpenStack Swift"
@@ -4869,6 +4900,12 @@ msgstr "Selecione uma Área de Armazenamento"
 msgid "Select a Storage Vault to back up to"
 msgstr "Selecione uma Área de Armazenamento para fazer backup"
 
+msgid "Select an additional directory to include in the USB Recovery Media"
+msgstr ""
+
+msgid "Select an additional file to include in the USB Recovery Media"
+msgstr ""
+
 msgid "Select an option:"
 msgstr "Selecione uma opção:"
 
@@ -5071,6 +5108,9 @@ msgstr "Exibir %d entradas"
 
 msgid "Show advanced options"
 msgstr "Exibir opções avançadas"
+
+msgid "Show all drives"
+msgstr ""
 
 msgid "Show hidden files"
 msgstr "Exibir arquivos ocultos"
@@ -5349,6 +5389,9 @@ msgstr "Armazenando %1 / %2"
 msgid "Storing %1 of %2 allowed"
 msgstr "Armazenando %1 de %2 permitidos"
 
+msgid "Strong"
+msgstr ""
+
 msgid "Subdirectory"
 msgstr "Subdiretório"
 
@@ -5529,6 +5572,10 @@ msgstr "O aplicativo Comet Backup permite aos usuários solicitarem cofres de ar
 msgid "The Comet Server will restart to save changes."
 msgstr "O Server será reiniciado para salvar as alterações."
 
+#. Definition of "Constellation": This terminology is specific to Comet Backup. It is a clustering feature, that looks at multiple servers.
+msgid "The Constellation Role is responsible for coordinating some inter-server cleanup tasks."
+msgstr ""
+
 #. Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
 #. Definition of "Comet Server": This terminology is specific to Comet Backup. It is the name of our application, and should not be translated.
 #. Definition of "Constellation": This terminology is specific to Comet Backup. It is a clustering feature, that looks at multiple servers.
@@ -5543,7 +5590,7 @@ msgstr "A função Constellation deve gerenciar dados nos seguintes servidores C
 
 #. Definition of "Constellation": This terminology is specific to Comet Backup. It is a clustering feature, that looks at multiple servers.
 msgid "The Constellation role will clean up any unused buckets."
-msgstr "A função Constelação limpará todos os baldes não usados."
+msgstr "A função Constelação limpará todos os buckets não usados."
 
 msgid "The container will be automatically created if it does not exist."
 msgstr "O contêiner será criado automaticamente se não existir."
@@ -5650,6 +5697,10 @@ msgstr "O Armazenamento pareceu diminuir de tamanho durante o tarefa de armazena
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "The Storage Vault has been encrypted for the first time. Data is irrecoverable without the encryption key."
 msgstr "A Área de Armazenamento foi criptografada pela primeira vez. Os dados são irrecuperáveis sem a chave de criptografia."
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "The Storage Vault is read-only"
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "The Storage Vault was already initialized, continuing with backup..."
@@ -5915,6 +5966,10 @@ msgstr "Autenticação de dois fatores necessária"
 msgid "Type"
 msgstr "Tipo"
 
+#. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
+msgid "Type the name of a program, folder, document, or Internet resource, and Windows will open it for you."
+msgstr ""
+
 msgid "Unauthorised"
 msgstr "Não autorizado"
 
@@ -6150,6 +6205,12 @@ msgstr "Versão %1 \"%2\""
 msgid "Version %s is now available!"
 msgstr "A versão %s já está disponível!"
 
+msgid "Very strong"
+msgstr ""
+
+msgid "Very weak"
+msgstr ""
+
 msgid "via Custom"
 msgstr "via personalização"
 
@@ -6290,6 +6351,9 @@ msgstr "AVISO: Remover um local de destino do grupo estendido pode impedir que o
 #. Definition of "Wasabi": This is a commercial service for storing files. If an official translation is available, it should be used. https://wasabi.com/
 msgid "Wasabi"
 msgstr "Wasabi"
+
+msgid "Weak"
+msgstr ""
 
 msgid "Web Browser"
 msgstr "Navegador da web"

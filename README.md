@@ -26,19 +26,20 @@ We will include your translation in the next available version of Comet.
 
 ## Current translation coverage
 
-*Table last regenerated 2020-11-16*
+*Table last regenerated 2020-11-24*
 
 |Code    |Language              |Untranslated (English) words |Translated Words |Translated Phrases |Translation percent
 |--------|----------------------|-----------------------------|-----------------|-------------------|--------------------
-|`-`     |English               |0                            |7813             |1918               |  100.00
-|`de_DE` |Deutsch               |323                          |7254             |1862               |   97.08
-|`es_ES` |Español               |323                          |9322             |1862               |   97.08
-|`fr_FR` |Français              |323                          |9348             |1862               |   97.08
-|`he_IL` |עברית‬                 |326                          |7399             |1861               |   97.03
-|`hr_HR` |Hrvatski              |323                          |7160             |1862               |   97.08
-|`it_IT` |Italiano              |323                          |8490             |1862               |   97.08
-|`nl_NL` |Nederlands            |323                          |7170             |1862               |   97.08
-|`pt_BR` |Português (Brasil)    |116                          |8880             |1898               |   98.96
-|`pt_PT` |Português (Europa)    |323                          |8442             |1862               |   97.08
-|`ru_RU` |Русский               |323                          |7519             |1862               |   97.08
+|`-`     |English               |0                            |7817             |1919               |  100.00
+|`de_DE` |Deutsch               |4                            |7538             |1918               |   99.95
+|`es_ES` |Español               |4                            |9696             |1918               |   99.95
+|`fr_FR` |Français              |7                            |9705             |1917               |   99.90
+|`he_IL` |עברית‬                 |4                            |7701             |1918               |   99.95
+|`hr_HR` |Hrvatski              |4                            |7481             |1918               |   99.95
+|`it_IT` |Italiano              |327                          |8490             |1862               |   97.03
+|`nl_NL` |Nederlands            |4                            |7505             |1918               |   99.95
+|`pt_BR` |Português (Brasil)    |4                            |8998             |1918               |   99.95
+|`pt_PT` |Português (Europa)    |4                            |8793             |1918               |   99.95
+|`ru_RU` |Русский               |4                            |7812             |1918               |   99.95
+
 

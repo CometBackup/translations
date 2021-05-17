@@ -1,4 +1,4 @@
-# Copyright (2020) Comet Licensing Ltd.
+# Copyright (2021) Comet Licensing Ltd.
 # All rights reserved.
 # Please contact us via https://cometbackup.com for assistance.
 # We have some language specific terms and phrases. To avoid any misunderstanding, please use them always:
@@ -26,10 +26,10 @@ msgstr ""
 "X-Qt-Contexts: true"
 
 msgid " MB/s"
-msgstr "MB/s"
+msgstr " MB/s"
 
 msgid " minute(s)"
-msgstr "Minute(n)"
+msgstr " Minute(n)"
 
 #. To be consistent, translate 'Device' as: Gerät
 #, qt-format
@@ -197,9 +197,6 @@ msgstr "Einstellung \"%s\" bei den Geräten"
 #, c-format
 msgid "'%s' setting on user accounts"
 msgstr "Einstellung \"%s\" bei den Benutzerkonten"
-
-msgid "(case insensitive)"
-msgstr "(schreibungsunabhängig)"
 
 msgid "(Custom)"
 msgstr "(Benutzerdefiniert)"
@@ -438,6 +435,9 @@ msgstr "Neue Gruppe"
 msgid "Add item"
 msgstr "Neuer Eintrag"
 
+msgid "Add items"
+msgstr ""
+
 msgid "Add new"
 msgstr "Neu hinzufügen"
 
@@ -522,6 +522,9 @@ msgstr "Administrator"
 msgid "Admin accounts"
 msgstr "Admin-Benutzerkonten"
 
+msgid "Admin Users"
+msgstr ""
+
 msgid "Administrators"
 msgstr "Administratoren"
 
@@ -543,6 +546,9 @@ msgstr "Nach der Aufgabe"
 
 msgid "ago"
 msgstr "vor"
+
+msgid "All"
+msgstr ""
 
 msgid "All backups in the last [...]"
 msgstr "Alle Datensicherungen in der letzten [...]"
@@ -590,9 +596,19 @@ msgstr "Alle IPv4-Schnittstellen"
 msgid "All items"
 msgstr "Alle Einträge"
 
+msgid "All Items"
+msgstr ""
+
 #. To be consistent, translate 'Job' as: Aufgabe, Auftrag (Depends on context!)
 msgid "All jobs (unfiltered)"
 msgstr "Alle Aufgaben (Ungefiltert)"
+
+msgid "All mailboxes"
+msgstr ""
+
+#. To be consistent, translate 'Job' as: Aufgabe, Auftrag (Depends on context!)
+msgid "All of its users, admins, jobs and policy will be immediately removed forever."
+msgstr ""
 
 msgid "All of..."
 msgstr "Alle von"
@@ -607,6 +623,9 @@ msgstr "Alle Plattformen"
 #. To be consistent, translate 'Protected Item' as: Geschütztes Element
 msgid "All protected items"
 msgstr "Alle geschützten Elemente"
+
+msgid "All sites"
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 #. To be consistent, translate 'Storage Vault' as: Speicherort
@@ -699,14 +718,18 @@ msgstr "Ein bevorstehender Fehler weist entweder auf schlechte Berechtigungen od
 msgid "An internal error has occurred"
 msgstr "Ein interner Fehler ist aufgetreten"
 
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#. To be consistent, translate 'Device' as: Gerät
+#. To be consistent, translate 'Job' as: Aufgabe, Auftrag (Depends on context!)
+#. To be consistent, translate 'Storage Vault' as: Speicherort
+msgid "An Organization has isolated Users, User Policy, Jobs, Devices and Requestable Storage Vault"
+msgstr ""
+
 msgid "An unknown exception occurred."
 msgstr "Eine unbekannte Ausnahme ist aufgetreten."
 
 msgid "Analyzing vault content..."
 msgstr "Analysiere den Inhalt des Speicherortes"
-
-msgid "and"
-msgstr "und"
 
 msgid "Android"
 msgstr "Android"
@@ -789,11 +812,20 @@ msgstr "Apple ID"
 msgid "Application Backup Types (%1)"
 msgstr "Anwendungs-Sicherungstypen (%1)"
 
+msgid "Application Certificate:"
+msgstr ""
+
+msgid "Application ID"
+msgstr ""
+
 msgid "Application Key"
 msgstr "Anwendungs-Schlüssel"
 
 msgid "Application key:"
 msgstr "Anwendungs-Schlüssel:"
+
+msgid "Application Secret"
+msgstr ""
 
 msgid "Application-Aware Writer"
 msgstr "Anwendungsspezifischer Autor"
@@ -851,6 +883,9 @@ msgstr "Sind Sie sicher, dass Sie weitermachen möchten?"
 #. To be consistent, translate 'Bucket' as: Bucket (German translations are funny, but useless for this context)
 msgid "Are you sure you want to delete this bucket?"
 msgstr "Sind Sie sicher, dass Sie diesen Bucket löschen möchten?"
+
+msgid "Are you sure you want to delete this organization?"
+msgstr ""
 
 msgid "Are you sure you want to delete this policy?"
 msgstr "Sind Sie sicher, dass Sie diese Richtlinie löschen möchten?"
@@ -966,6 +1001,12 @@ msgstr "Authentifizierungs-Datenbank"
 msgid "Authentication Role"
 msgstr "Authentifizierungs-Rolle"
 
+msgid "Authentication validation failed"
+msgstr ""
+
+msgid "Authentication validation passed"
+msgstr ""
+
 msgid "Authenticode"
 msgstr "Authenticode"
 
@@ -986,6 +1027,7 @@ msgstr "Automatisch (auf den aktuellen Server verweisen)"
 msgid "Automatically request first Storage Vault"
 msgstr "Automatisch den ersten Speicherort anfragen"
 
+#. Definition of "Azure": This is a cloud computing service from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Azure
 msgid "Azure Blob Storage"
 msgstr "Azure Blob Storage"
 
@@ -1078,9 +1120,8 @@ msgid "Backups"
 msgstr "Sicherungen"
 
 #. Definition of "Elevator": This terminology is specific to Comet Backup. This is an internal part of our application that can raise the permission level, when needed. The software 'elevates' its permission level using the 'elevator'.
-#, c-format
-msgid "Bad elevator protocol message (%s)"
-msgstr "Schlechte Elevator-Protokollmeldung (%s)"
+msgid "Bad elevator protocol message"
+msgstr "Schlechte Elevator-Protokollmeldung"
 
 msgid "Before task"
 msgstr "Vorheriger Auftrag"
@@ -1088,9 +1129,6 @@ msgstr "Vorheriger Auftrag"
 #. Used by the search system to create custom searches. "[USERNAME] begins with [PREFIX]
 msgid "begins with"
 msgstr "beginnt mit"
-
-msgid "between"
-msgstr "zwischen"
 
 msgid "Boosters"
 msgstr "Booster"
@@ -1224,6 +1262,11 @@ msgstr "Verzeichnis/Datei kann nicht gefunden werden: %s"
 msgid "Can't identify this machine: %s"
 msgstr "Dieser Rechner kann nicht identifiziert werden: %s"
 
+#. To be consistent, translate 'Backup job' as: Sicherungsauftrag
+#. To be consistent, translate 'Job' as: Aufgabe, Auftrag (Depends on context!)
+msgid "Can't restore to original paths, because the necessary information was not captured at the time of the original backup job."
+msgstr ""
+
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 #. To be consistent, translate 'Storage Vault' as: Speicherort
 msgid "Can't restore: An invalid Storage Vault was selected."
@@ -1268,11 +1311,14 @@ msgstr "Kann nicht fortfahren - eine andere Aufgabe muss mit dem Speicherort zue
 msgid "Cannot take VSS snapshot of '%s' filesystem (expected NTFS)"
 msgstr "VSS-Snapshot des Dateisystems '%s' kann nicht erstellt werden (erwartetes NTFS)"
 
-msgid "Case Sensitive"
-msgstr "Groß-/kleinschreibungsabhängig "
+msgid "case insensitive"
+msgstr "schreibungsunabhängig"
 
 msgid "Category"
 msgstr "Kategorie"
+
+msgid "CC:"
+msgstr ""
 
 msgid "Certificate"
 msgstr "Zertifikat"
@@ -1297,6 +1343,9 @@ msgstr "Änderungen werden unmittelbar in der Client-Sicherungs-Applikation sich
 #. To be consistent, translate 'Storage Vault' as: Speicherort
 msgid "Checking Storage Vault free space..."
 msgstr "Prüfe den freien Speicher des Speicherortes"
+
+msgid "China"
+msgstr ""
 
 msgid "Choose databases"
 msgstr "Datenbanken auswählen"
@@ -1435,6 +1484,11 @@ msgstr "Komprimierte Archivdatei (zip / tar)"
 msgid "Compression"
 msgstr "Kompression"
 
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+#. To be consistent, translate 'Protected Item' as: Geschütztes Element
+msgid "Configure credentials for the new Protected Item"
+msgstr ""
+
 #. To be consistent, translate 'Account' as: Benutzerkonto
 msgid "Configure external authentication sources for administrator accounts:"
 msgstr "Externe Authentifizierungsquellen für Administratorkonten konfigurieren"
@@ -1442,6 +1496,9 @@ msgstr "Externe Authentifizierungsquellen für Administratorkonten konfigurieren
 #. To be consistent, translate 'Snapshot' as: Snapshot (German translation makes no sense)
 msgid "Configure how many older backup snapshots to keep"
 msgstr "Konfigurieren, wie viele ältere Sicherungs-Snapshots aufbewahrt werden sollen"
+
+msgid "Configure Mailboxes"
+msgstr ""
 
 #. Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
 msgid "Configure network interface(s) for Comet to be available on:"
@@ -1454,6 +1511,9 @@ msgstr "Eigenschaften für die neue Bulk-Update-Kampagne konfigurieren"
 #. To be consistent, translate 'Protected Item' as: Geschütztes Element
 msgid "Configure settings for the new Protected Item"
 msgstr "Einstellungen für das neue geschützte Element konfigurieren"
+
+msgid "Configure Sites"
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 #. To be consistent, translate 'Storage Vault' as: Speicherort
@@ -1562,6 +1622,10 @@ msgstr "Zusätzliche Dateien werden kopiert..."
 msgid "Copying USB recovery image..."
 msgstr "USB-Wiederherstellungsabbild wird kopiert..."
 
+#. To be consistent, translate 'Snapshot' as: Snapshot (German translation makes no sense)
+msgid "Could not load backup data from previous snapshot (%v)."
+msgstr ""
+
 #. Definition of "Elevator": This terminology is specific to Comet Backup. This is an internal part of our application that can raise the permission level, when needed. The software 'elevates' its permission level using the 'elevator'.
 #, c-format
 msgid "Could not submit command to elevator: %s"
@@ -1629,9 +1693,8 @@ msgid "Couldn't find custom path: %s"
 msgstr "Benutzerdefinierter Pfad konnte nicht gefunden werden: %s"
 
 #. Definition of "Mongo": MongoDB is a commercial database program. If an official translation is available, it should be used. https://www.mongodb.com/
-#, c-format
-msgid "Couldn't find mongo shell binary (%s)"
-msgstr "Konnte \"mongo shell binary\" nicht finden (%s)"
+msgid "Couldn't find mongo shell binary"
+msgstr "Konnte \"mongo shell binary\" nicht finden"
 
 #. Definition of "Mongo": MongoDB is a commercial database program. If an official translation is available, it should be used. https://www.mongodb.com/
 #. Definition of "mongodump": This is the name of MongoDB's built-in backup program. It should not be translated. If an official translation is available, it should be used. https://www.mongodb.com/
@@ -1705,8 +1768,7 @@ msgstr "GUID konnte nicht analysiert werden."
 msgid "Couldn't prevent automatic sleep: %s"
 msgstr "Automatischer Ruhemodus konnte nicht verhindert werden: %s"
 
-#, c-format
-msgid "Couldn't read tree data: %s"
+msgid "Couldn't read tree data"
 msgstr "Baumstruktur konnten nicht gelesen werden"
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
@@ -1733,6 +1795,9 @@ msgstr "Liste der Snapshots konnte nicht von diesem Ziel abgerufen werden!"
 msgid "Couldn't retrieve a list of snapshots from this Storage Vault."
 msgstr "Liste der Snapshots konnte nicht von diesem Speicherort abgerufen werden."
 
+msgid "Couldn't retrieve data for this email!"
+msgstr ""
+
 #. To be consistent, translate 'Snapshot' as: Snapshot (German translation makes no sense)
 msgid "Couldn't retrieve file list for this snapshot!"
 msgstr "Für diesen Snapshot konnte keine Dateiliste abgerufen werden!"
@@ -1755,9 +1820,8 @@ msgstr "Änderungen konnten nicht gespeichert werden."
 msgid "Couldn't save data chunk"
 msgstr ""
 
-#, c-format
-msgid "Couldn't save profile to server (%s)"
-msgstr "Profil konnte nicht auf Server gespeichert werden (%s)"
+msgid "Couldn't save profile to server"
+msgstr "Profil konnte nicht auf Server gespeichert werden"
 
 msgid "Couldn't start engine"
 msgstr "Modul konnte nicht gestartet werden"
@@ -1798,6 +1862,9 @@ msgstr "Erstellen Sie eine minimale USB-Umgebung, die direkt in %1 bootet. Ein a
 
 msgid "Create a News Entry"
 msgstr "Einen Nachrichteneintrag erstellen"
+
+msgid "Create First Organization"
+msgstr ""
 
 msgid "Create new"
 msgstr "Neuen __ erstellen"
@@ -1882,6 +1949,10 @@ msgstr "Benutzerdefinierte Suchanfrage"
 msgid "Daily"
 msgstr "Täglich"
 
+#, qt-format
+msgid "Daily at %1:%2"
+msgstr ""
+
 msgid "Dashboard"
 msgstr "Dashboard"
 
@@ -1929,7 +2000,7 @@ msgstr "Abnehmend"
 #. To be consistent, translate 'Job' as: Aufgabe, Auftrag (Depends on context!)
 #, c-format
 msgid "Deduplicating based on previous backup job (%s)"
-msgstr "Deduplizierung basierend auf vorherigem Sicherungsauftrag"
+msgstr "Deduplizierung basierend auf vorherigem Sicherungsauftrag (%s)"
 
 msgid "Deduplication"
 msgstr "Deduplizierung"
@@ -1982,6 +2053,10 @@ msgstr "Aufschiebung der Auftragsentfernung, bis es mehr Arbeit zu tun gibt."
 msgid "Delete"
 msgstr "Löschen"
 
+#, c-format
+msgid "Delete %s?"
+msgstr ""
+
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 #. To be consistent, translate 'Protected Item' as: Geschütztes Element
 #. To be consistent, translate 'Snapshot' as: Snapshot (German translation makes no sense)
@@ -2004,6 +2079,12 @@ msgstr "Dateien löschen"
 
 msgid "Delete item"
 msgstr "Eintrag löschen"
+
+msgid "Delete items"
+msgstr ""
+
+msgid "Delete Now"
+msgstr ""
 
 msgid "Delete Policy"
 msgstr "Richtlinie löschen"
@@ -2036,6 +2117,11 @@ msgstr "Löschen aktiviert"
 
 msgid "Deliver via"
 msgstr "Liefern über"
+
+#. To be consistent, translate 'Snapshot' as: Snapshot (German translation makes no sense)
+#, c-format
+msgid "Deoptimizing snapshot '%s'"
+msgstr ""
 
 msgid "Description"
 msgstr "Beschreibung"
@@ -2255,6 +2341,9 @@ msgstr ""
 msgid "e.g. KEY:SLOT"
 msgstr "z.B. KEY:SLOT"
 
+msgid "Each Organization has their own Admin Users."
+msgstr ""
+
 #. Definition of "EDB": This is the file format used by the Exchange Server email server from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Exchange_Server
 msgid "EDB and logs, no truncate (\"COPY\")"
 msgstr "EDB und Protokolle, nicht verkürzen (\"KOPIE\")"
@@ -2390,6 +2479,9 @@ msgstr "Verschlüsselungscode"
 msgid "End time"
 msgstr "Endzeit"
 
+msgid "End Time"
+msgstr ""
+
 msgid "Ended"
 msgstr "Beendet"
 
@@ -2405,12 +2497,15 @@ msgstr "Diese Aufbewahrungsrichtlinie für alle Speicherorte durchsetzen"
 msgid "Engine"
 msgstr "Maschine"
 
-#, c-format
-msgid "Engine failure (%s)"
-msgstr "Modul-Fehler (%s)"
+msgid "Engine failure"
+msgstr "Modul-Fehler"
 
 msgid "Enter a custom command"
 msgstr "Geben Sie einen benutzerdefinierten Befehl ein"
+
+#. To be consistent, translate 'Device' as: Gerät
+msgid "Enter a new name for the selected device:"
+msgstr ""
 
 msgid "Enter a single database table name:"
 msgstr "Geben Sie einen einzelnen Datenbanktabellennamen ein:"
@@ -2449,6 +2544,9 @@ msgstr "Fehler"
 msgid "ERROR"
 msgstr "FEHLER"
 
+msgid "Error attempting to register new application"
+msgstr ""
+
 #, c-format
 msgid "Error deleting file '%s'"
 msgstr "Fehler beim Löschen der Datei '%s'"
@@ -2471,22 +2569,53 @@ msgstr "Fehler beim Laden der Datei."
 msgid "Error loading search results."
 msgstr "Fehler beim Laden der Suchergebnisse."
 
-#, c-format
-msgid "Error requesting provider: %s"
-msgstr "Fehler beim Anfordern des Anbieters: %s"
+msgid "Error requesting provider"
+msgstr "Fehler beim Anfordern des Anbieters"
 
 #. To be consistent, translate 'Job' as: Aufgabe, Auftrag (Depends on context!)
-#, c-format
-msgid "Error retrieving job information (%s)"
-msgstr "Fehler beim Abrufen der Auftragsinformationen (%s)"
+msgid "Error retrieving job information"
+msgstr "Fehler beim Abrufen der Auftragsinformationen"
 
-#, c-format
-msgid "Error retrieving log information (%s)"
-msgstr "Fehler beim Abrufen der Protokollinformationen (%s)"
+msgid "Error retrieving log information"
+msgstr "Fehler beim Abrufen der Protokollinformationen"
 
+msgid "Error retrieving provider list"
+msgstr "Fehler beim Abrufen der Anbieterliste"
+
+#. To be consistent, translate 'Account' as: Benutzerkonto
 #, c-format
-msgid "Error retrieving provider list: %s"
-msgstr "Fehler beim Abrufen der Anbieterliste: %s"
+msgid "Error saving account: %s"
+msgstr ""
+
+#. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
+#, c-format
+msgid "Error saving Office 365 Calendar data: %s"
+msgstr ""
+
+#. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
+#, c-format
+msgid "Error saving Office 365 Contact data: %s"
+msgstr ""
+
+#. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
+#, c-format
+msgid "Error saving Office 365 data: %s"
+msgstr ""
+
+#. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
+#, c-format
+msgid "Error saving Office 365 email data: %s"
+msgstr ""
+
+#. Definition of "OneDrive": This is a cloud storage platform from Microsoft. The _O_ and _D_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_OneDrive
+#, c-format
+msgid "Error saving OneDrive backup data: %s"
+msgstr ""
+
+#. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
+#, c-format
+msgid "Error saving SharePoint site '%s': %s"
+msgstr ""
 
 msgid "ETA:"
 msgstr "Voraussichtlich verfügbar in:"
@@ -2519,6 +2648,10 @@ msgid "Exchange backup mode not specified, assuming FULL"
 msgstr "Exchange-Sicherungsart nicht angegeben, VOLL wird angenommen"
 
 #. Definition of "Exchange": This is an email server platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Exchange_Server
+msgid "Exchange Online"
+msgstr ""
+
+#. Definition of "Exchange": This is an email server platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Exchange_Server
 msgid "Exchange Organization"
 msgstr "Exchange-Organisation"
 
@@ -2537,6 +2670,10 @@ msgstr "Bestimmte ausschließen"
 
 msgid "Exclude specified Virtual Machine"
 msgstr "Bestimmte virtuelle Maschine ausschließen"
+
+#, qt-format
+msgid "Excluded Item(s): %1"
+msgstr ""
 
 #. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
 msgid "Exit to Windows Recovery Environment"
@@ -2582,9 +2719,8 @@ msgid "Failed"
 msgstr "Fehlgeschlagen"
 
 #. Definition of "Elevator": This terminology is specific to Comet Backup. This is an internal part of our application that can raise the permission level, when needed. The software 'elevates' its permission level using the 'elevator'.
-#, c-format
-msgid "Failed to accept connection to elevator (%s)"
-msgstr "Konnte die Verbindung zum Elevator (%s) nicht aufnehmen"
+msgid "Failed to accept connection to elevator"
+msgstr "Konnte die Verbindung zum Elevator nicht aufnehmen"
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 #. To be consistent, translate 'Storage Vault' as: Speicherort
@@ -2659,9 +2795,8 @@ msgstr "Fehler beim Abrufen von Auftragsinformationen."
 msgid "Failed to retrieve profile (%s)."
 msgstr "Fehler beim Abrufen von Profil (%s)."
 
-#, c-format
-msgid "Failed to retrieve profile information (%s)"
-msgstr "Fehler beim Abrufen von Profilinformationen (%s)"
+msgid "Failed to retrieve profile information"
+msgstr "Fehler beim Abrufen von Profilinformationen"
 
 msgid "Failed to save changes to the server!"
 msgstr "Fehler beim Speichern der Änderungen auf dem Server!"
@@ -2669,6 +2804,10 @@ msgstr "Fehler beim Speichern der Änderungen auf dem Server!"
 #. To be consistent, translate 'Job' as: Aufgabe, Auftrag (Depends on context!)
 msgid "Failed to save job report."
 msgstr "Aufgabenbericht konnte nicht gespeichert werden."
+
+#. Definition of "TOTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm
+msgid "Failed to save TOTP key"
+msgstr ""
 
 msgid "Failure"
 msgstr "Fehler"
@@ -2694,6 +2833,9 @@ msgstr "Februar"
 msgid "FIDO U2F"
 msgstr "FIDO U2F"
 
+msgid "Field should not be empty"
+msgstr ""
+
 msgid "File"
 msgstr "Datei"
 
@@ -2701,17 +2843,11 @@ msgstr "Datei"
 msgid "File %s was deleted unexpectedly"
 msgstr "Datei %s wurde unerwartet gelöscht"
 
-msgid "File modification time..."
-msgstr "Änderungszeit der Datei..."
-
 msgid "File Path"
 msgstr "Dateipfad"
 
-msgid "File size..."
-msgstr "Dateigröße..."
-
-msgid "Filename"
-msgstr "Dateiname"
+msgid "File placement strategy"
+msgstr ""
 
 msgid "Filename access"
 msgstr "Dateinamenzugriff"
@@ -2822,6 +2958,9 @@ msgstr "Freitag"
 msgid "Friendly name (optional)"
 msgstr "Freundlicher Name (optional)"
 
+msgid "From"
+msgstr ""
+
 #. Definition of "FTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/File_Transfer_Protocol
 msgid "FTP"
 msgstr "FTP"
@@ -2856,6 +2995,9 @@ msgstr "Fehlende Sicherungseinträge generieren"
 msgid "Generate scheduled email reports"
 msgstr "Geplante E-Mail-Berichte generieren"
 
+msgid "Germany"
+msgstr ""
+
 #. To be consistent, translate 'Account' as: Benutzerkonto
 msgid "Gmail account"
 msgstr "Gmail-Konto"
@@ -2881,6 +3023,10 @@ msgstr "grösser"
 #. Used by the search system to create custom searches. "[USERNAME] greater or equal than [SOMETHING]
 msgid "greater or equal"
 msgstr "grösser oder gleich"
+
+#. To be consistent, translate 'Account' as: Benutzerkonto
+msgid "Group Account"
+msgstr ""
 
 msgid "group name"
 msgstr "Gruppenname"
@@ -2933,11 +3079,11 @@ msgstr "Hostname"
 msgid "Hostname (separate multiple with commas)"
 msgstr "Hostname (trennen Sie mehrere durch Kommas)"
 
-msgid "hostname:21"
-msgstr "Hostname:21"
-
 msgid "hostname:22"
 msgstr "Hostname:22"
+
+msgid "Hostnames"
+msgstr ""
 
 msgid "Hour"
 msgstr "Stunde"
@@ -3047,6 +3193,9 @@ msgstr "Importiere Einstellungen von '%s'..."
 msgid "Include"
 msgstr "Einbeziehen"
 
+msgid "Include All"
+msgstr ""
+
 msgid "Include all Virtual Machines"
 msgstr "Alle virtuelle Maschinen einbeziehen"
 
@@ -3055,6 +3204,10 @@ msgstr "Bestimmte virtuelle Maschinen einbeziehen"
 
 msgid "Include unused disk sectors for forensic data recovery"
 msgstr "Nicht verwendete Festplattensektoren für die forensische Datenwiederherstellung einbeziehen"
+
+#, qt-format
+msgid "Included Item(s): %1"
+msgstr ""
 
 msgid "Incomplete"
 msgstr "Unvollständig"
@@ -3162,6 +3315,9 @@ msgstr "Ungültiges Gerät ausgewählt"
 msgid "Invalid email address"
 msgstr "Ungültige E-Mail-Adresse"
 
+msgid "Invalid email address supplied"
+msgstr ""
+
 msgid "Invalid encryption key specified"
 msgstr "Ungültiger Verschlüsselungscode angegeben"
 
@@ -3181,9 +3337,8 @@ msgstr "Ungültiger Modus '%s' für Exchange-Sicherung (%s)"
 msgid "Invalid port '%s'"
 msgstr "Ungültiger Port '%s'"
 
-#, c-format
-msgid "Invalid profile supplied (%s)"
-msgstr "Ungültiges Profil geliefert (%s)"
+msgid "Invalid profile supplied"
+msgstr "Ungültiges Profil geliefert"
 
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
@@ -3535,13 +3690,20 @@ msgstr "Verbindung zum lokalen Service unterbrochen."
 msgid "macOS"
 msgstr "macOS"
 
+#. To be consistent, translate 'Account' as: Benutzerkonto
+msgid "Mail Account"
+msgstr ""
+
+msgid "Mailbox, Contacts & Calendar"
+msgstr ""
+
 #, qt-format
 msgid "Malformed property '%1', skipping"
 msgstr "Fehlerhafte Eigenschaft '%1', wird übersprungen"
 
 #, c-format
-msgid "Malformed property '%s': %s"
-msgstr "Fehlerhafte Eigenschaft'%s': %s"
+msgid "Malformed property '%s'"
+msgstr "Fehlerhafte Eigenschaft '%s'"
 
 msgid "Malformed response from the server"
 msgstr "Fehlerhafte Antwort vom Server"
@@ -3587,6 +3749,9 @@ msgstr "Mitglied"
 msgid "Members"
 msgstr "Mitglieder"
 
+msgid "Menu bar icon"
+msgstr ""
+
 msgid "Message"
 msgstr "Meldung"
 
@@ -3607,6 +3772,10 @@ msgstr "Microsoft Exchange Server"
 #. Definition of "Hyper-V": This is a Virtual Machine hosting platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Hyper-V
 msgid "Microsoft Hyper-V"
 msgstr "Microsoft Hyper-V"
+
+#. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
+msgid "Microsoft Office 365"
+msgstr ""
 
 #. Definition of "SQL Server": This is a database server from Microsoft, that uses the SQL language. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_SQL_Server
 msgid "Microsoft SQL Server"
@@ -3888,6 +4057,10 @@ msgstr "Nächstes Mal %1"
 msgid "Next scheduled email"
 msgstr "Nächste geplante E-Mail"
 
+#. To be consistent, translate 'Job' as: Aufgabe, Auftrag (Depends on context!)
+msgid "Next scheduled job"
+msgstr ""
+
 msgid "No"
 msgstr "Nein"
 
@@ -4029,6 +4202,9 @@ msgstr "Keine (Registrierung deaktiviert)"
 msgid "None of..."
 msgstr "Keine von"
 
+msgid "None since last reboot"
+msgstr ""
+
 msgid "Not a number"
 msgstr "Keine Zahl"
 
@@ -4054,11 +4230,17 @@ msgstr "Nicht bereit, die festgelegte Aktion auszuführen."
 msgid "Not required"
 msgstr "Nicht benötigt"
 
+msgid "not running"
+msgstr ""
+
 msgid "Not seen"
 msgstr "Nicht gesehen"
 
 msgid "Not started"
 msgstr "Nicht gestarted"
+
+msgid "Not Suspended"
+msgstr ""
 
 msgid "Not yet run"
 msgstr "Noch nicht ausgeführt"
@@ -4104,6 +4286,10 @@ msgstr "Oktober"
 
 msgid "Off"
 msgstr "Aus"
+
+#. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
+msgid "Office 365 items"
+msgstr ""
 
 msgid "Offline"
 msgstr "Offline"
@@ -4197,8 +4383,16 @@ msgstr "Vorgang erfolgreich abgeschlossen."
 msgid "Operation interrupted"
 msgstr "Vorgang unterbrochen"
 
+#. To be consistent, translate 'Snapshot' as: Snapshot (German translation makes no sense)
+#, c-format
+msgid "Optimizing snapshot '%s', please wait..."
+msgstr ""
+
 msgid "Optional"
 msgstr "Optional"
+
+msgid "Optional Desktop Client"
+msgstr ""
 
 msgid "Optional settings"
 msgstr "Optionale Einstellungen"
@@ -4214,6 +4408,21 @@ msgstr "Optionen"
 
 msgid "or newer"
 msgstr "oder neuer"
+
+msgid "Organization"
+msgstr ""
+
+msgid "Organization Settings"
+msgstr ""
+
+msgid "Organizations"
+msgstr ""
+
+msgid "original cloud location(s)"
+msgstr ""
+
+msgid "original location(s)"
+msgstr ""
 
 #, c-format
 msgid "Orphaned disk (%s)"
@@ -4346,6 +4555,9 @@ msgstr "Erlaubt"
 msgid "Persisting Storage Vault status..."
 msgstr "Fortdauernder Status des Speicherortes..."
 
+msgid "Personal Site"
+msgstr ""
+
 msgid "Pictures"
 msgstr "Bilder"
 
@@ -4362,11 +4574,26 @@ msgstr "Klartext"
 msgid "Platform"
 msgstr "Plattform"
 
+#. To be consistent, translate 'Device' as: Gerät
+msgid "Please bring this device online"
+msgstr ""
+
+#. Definition of "Azure": This is a cloud computing service from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Azure
+#. Definition of "Azure AD": Azure AD (Active Directory) is a user account management system within Microsoft Azure. If an official translation is available, it should be used. https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis
+msgid "Please click the link below to use your web browser to log in to Azure AD, and enter the following code:"
+msgstr ""
+
 msgid "Please contact your support agent for more information."
 msgstr "Bitte wenden Sie sich an Ihren Support-Mitarbeiter für weitere Informationen."
 
+msgid "Please enter a hostname or IP address for this Organization:"
+msgstr ""
+
 msgid "Please enter your 6-digit authenticator code"
 msgstr "Bitte geben Sie Ihren 6-stelligen Authentifizierungscode ein"
+
+msgid "Please enter your email address to continue:"
+msgstr ""
 
 msgid "Please enter your serial number:"
 msgstr "Bitte geben Sie Ihre Seriennummer ein:"
@@ -4403,6 +4630,9 @@ msgstr "Bitte bestimmen Sie den Kontotyp"
 
 msgid "Please supply two-factor authentication"
 msgstr "Bitte geben Sie die Zwei-Faktor-Authentifizierung an"
+
+msgid "Please use the 'Test Connection' button to authenticate your credentials before continuing."
+msgstr ""
 
 msgid "Policies"
 msgstr "Richtlinien"
@@ -4583,11 +4813,21 @@ msgstr "Aufforderung"
 msgid "Properties"
 msgstr "Eigenschaften"
 
+#. Definition of "OneDrive": This is a cloud storage platform from Microsoft. The _O_ and _D_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_OneDrive
+#. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
+#. To be consistent, translate 'Account' as: Benutzerkonto
+msgid "Protect email accounts, OneDrive, and SharePoint content"
+msgstr ""
+
 msgid "Protect entire disks and partitions for full system recovery"
 msgstr "Ganze Festplatten und Partitionen für eine vollständige Systemwiederherstellung schützen"
 
 msgid "Protect files and folders for fast recovery of individual items"
 msgstr "Dateien und Ordner für die schnelle Wiederherstellung einzelner Einträge schützen"
+
+#. To be consistent, translate 'Account' as: Benutzerkonto
+msgid "Protected Accounts"
+msgstr ""
 
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 #. To be consistent, translate 'Protected Item' as: Geschütztes Element
@@ -4627,6 +4867,12 @@ msgstr "Geschützte Elemente Kontingent"
 msgid "Protected Items Size"
 msgstr "Geschützte Elemente Größe"
 
+msgid "Protected Mailboxes"
+msgstr ""
+
+msgid "Protected Sites"
+msgstr ""
+
 #, qt-format
 msgid "Protecting %1"
 msgstr "%1 wird geschützt"
@@ -4650,6 +4896,9 @@ msgstr "Nicht verwendete Buckets beschneiden"
 #. To be consistent, translate 'Bucket' as: Bucket (German translations are funny, but useless for this context)
 msgid "Prune unused buckets now"
 msgstr "icht verwendete Buckets jetzt beschneiden"
+
+msgid "Public"
+msgstr ""
 
 msgid "Published"
 msgstr "Veröffentlicht"
@@ -4709,6 +4958,9 @@ msgstr "Indizes neu erstellen"
 msgid "Receive backup reports"
 msgstr "Sicherungsberichte erhalten"
 
+msgid "Received Time"
+msgstr ""
+
 msgid "Receiver"
 msgstr "Empfänger"
 
@@ -4763,6 +5015,15 @@ msgstr "Region"
 
 msgid "Register"
 msgstr "Registrieren"
+
+msgid "Register Application"
+msgstr ""
+
+#. Definition of "Azure": This is a cloud computing service from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Azure
+#. Definition of "Azure AD": Azure AD (Active Directory) is a user account management system within Microsoft Azure. If an official translation is available, it should be used. https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis
+#. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
+msgid "Register Azure AD application for Office 365"
+msgstr ""
 
 #. Definition of "FIDO": This is the name of a consortium that work to develop user-login systems. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/FIDO_Alliance
 #. Definition of "U2F": This is a standard for two-factor authentication. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Universal_2nd_Factor
@@ -4865,8 +5126,8 @@ msgid "Rename"
 msgstr "Umbenennen"
 
 #. To be consistent, translate 'Device' as: Gerät
-msgid "Rename device:"
-msgstr "Gerät umbennenen:"
+msgid "Rename device"
+msgstr "Gerät umbennenen"
 
 #. Definition of "replica set": This is a feature of the MongoDB database. If an official translation is available, it should be used. https://docs.mongodb.com/manual/replication/
 msgid "Replica Set"
@@ -4891,6 +5152,9 @@ msgstr "Erstellung des Berichts dauerte %s."
 msgid "Report type"
 msgstr "Berichtstyp"
 
+msgid "Report Type"
+msgstr ""
+
 msgid "Reporting"
 msgstr "Berichterstattung"
 
@@ -4904,6 +5168,10 @@ msgstr "Einen neuen Datentresor von Ihrem Speicheranbieter anfordern:"
 
 msgid "Request made"
 msgstr "Anfrage gestellt"
+
+#. To be consistent, translate 'Bucket' as: Bucket (German translations are funny, but useless for this context)
+msgid "Request Remote Bucket URL"
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 #. To be consistent, translate 'Storage Vault' as: Speicherort
@@ -4958,6 +5226,15 @@ msgstr "Ausgewählte Dateien wiederherstellen"
 
 msgid "Restore to"
 msgstr "Wiederherstellen auf"
+
+msgid "Restore to custom cloud location:"
+msgstr ""
+
+msgid "Restore to original cloud location"
+msgstr ""
+
+msgid "Restore to original paths"
+msgstr ""
 
 #. To be consistent, translate 'Device' as: Gerät
 msgid "Restore to physical device(s)"
@@ -5121,6 +5398,13 @@ msgstr "Suchen"
 msgid "Search complete (found %d/%d unreferenced packs)"
 msgstr "Suche abgeschlossen (%d/%d unreferenzierte Pakete gefunden)"
 
+msgid "Search for a mailbox"
+msgstr ""
+
+#. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
+msgid "Search for a SharePoint site"
+msgstr ""
+
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 #. To be consistent, translate 'Job' as: Aufgabe, Auftrag (Depends on context!)
 #. To be consistent, translate 'Storage Vault' as: Speicherort
@@ -5224,6 +5508,12 @@ msgstr "Speicherort wählen"
 msgid "Select a Storage Vault to back up to"
 msgstr "Wählen Sie einen Speicherort für die Datensicherung"
 
+msgid "Select all mailboxes except the ones from the list below"
+msgstr ""
+
+msgid "Select all sites except the ones from the list below"
+msgstr ""
+
 msgid "Select an additional directory to include in the USB Recovery Media"
 msgstr "Wählen Sie ein zusätzliches Verzeichnis zum Einbinden in das USB-Wiederherstellungsmedium"
 
@@ -5274,14 +5564,29 @@ msgstr "Wähle Eintrag für die Sicherung aus"
 msgid "Select items to protect"
 msgstr "Wähle Einträge für die Sicherung aus"
 
+msgid "Select Items..."
+msgstr ""
+
+msgid "Select mailboxes..."
+msgstr ""
+
 msgid "Select platform"
 msgstr "Plattform wählen"
+
+msgid "Select Protected Mailboxes"
+msgstr ""
+
+msgid "Select Protected Sites"
+msgstr ""
 
 msgid "Select servers to mirror stored backup data:"
 msgstr "Wählen Sie Server aus, um gespeicherte Sicherungsdaten zu spiegeln:"
 
 msgid "Select servers to mirror user profile data:"
 msgstr "Wählen Sie Server aus, um Benutzerprofildaten zu spiegeln:"
+
+msgid "Select sites..."
+msgstr ""
 
 msgid "Select target drive"
 msgstr "Wählen Sie Ziellaufwerk aus"
@@ -5404,6 +5709,9 @@ msgstr "Server gestartet"
 msgid "Server version"
 msgstr "Server-Version"
 
+msgid "Service"
+msgstr ""
+
 msgid "Service bulletins are always enabled."
 msgstr "Service-Bulletins sind immer aktiviert."
 
@@ -5429,6 +5737,11 @@ msgstr "Setup-Assistent"
 
 msgid "SFTP"
 msgstr "SFTP"
+
+#. Definition of "OneDrive": This is a cloud storage platform from Microsoft. The _O_ and _D_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_OneDrive
+#. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
+msgid "SharePoint & OneDrive"
+msgstr ""
 
 #, c-format
 msgid "Show %d entries"
@@ -5475,6 +5788,12 @@ msgstr "Nur Wiederherstellung simulieren"
 
 msgid "Single"
 msgstr "Einzeln"
+
+msgid "Site URL"
+msgstr ""
+
+msgid "Sites"
+msgstr ""
 
 msgid "Six-digit code required"
 msgstr "Sechsstelliger Code erforderlich"
@@ -5627,6 +5946,9 @@ msgstr "Kampagne starten"
 msgid "Start time"
 msgstr "Start-Zeit"
 
+msgid "Start Time"
+msgstr ""
+
 msgid "Started"
 msgstr "Gestartet"
 
@@ -5653,6 +5975,9 @@ msgstr "Wird gestartet..."
 #. Definition of "STARTTLS": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Opportunistic_TLS
 msgid "STARTTLS"
 msgstr "STARTTLS"
+
+msgid "Static locations"
+msgstr ""
 
 msgid "Status"
 msgstr "Status"
@@ -5758,6 +6083,9 @@ msgstr "Erfolg"
 msgid "Successfully created bootable USB Recovery Media on drive %s."
 msgstr "Erfolgreich bootfähiges USB-Wiederherstellungsmedium auf Laufwerk %s erstellt."
 
+msgid "Successfully registered the application credentials."
+msgstr ""
+
 msgid "Summary table"
 msgstr "Übersichtstabelle"
 
@@ -5773,12 +6101,17 @@ msgstr "Unterstützte Makros"
 msgid "Suspend"
 msgstr "Aussetzen"
 
+msgid "Suspend Organization"
+msgstr ""
+
 msgid "Suspended"
 msgstr "Ausgesetzt"
 
-#, c-format
-msgid "Syntax error: %s"
-msgstr "Syntaxfehler: %s"
+msgid "Symlink"
+msgstr ""
+
+msgid "Syntax error"
+msgstr "Syntaxfehler"
 
 msgid "System Backup"
 msgstr "System-Sicherung"
@@ -5828,6 +6161,9 @@ msgstr "Task &Manager"
 msgid "TB"
 msgstr "TB"
 
+msgid "Team Site"
+msgstr ""
+
 msgid "Tenant Domain"
 msgstr "Mieter-Domäne"
 
@@ -5842,6 +6178,9 @@ msgstr "Beenden"
 
 msgid "Terminate process"
 msgstr "Prozess beenden"
+
+msgid "Test Connection"
+msgstr ""
 
 msgid "Test..."
 msgstr "Test..."
@@ -5861,8 +6200,8 @@ msgid "The %s elevator service performs a limited set of tasks requiring higher 
 msgstr "Der %s Elevator-Dienst führt eine begrenzte Anzahl von Aufgaben aus, für die höhere Berechtigungen erforderlich sind, z. B. Softwareupdates."
 
 #, c-format
-msgid "The %s encountered a problem (%s)"
-msgstr "Der %s hat ein Problem festgestellt (%s)"
+msgid "The %s encountered a problem"
+msgstr "Der %s hat ein Problem festgestellt"
 
 #, c-format
 msgid "The '%s' database does not support %s backups, taking a full backup instead"
@@ -6040,6 +6379,9 @@ msgstr "Die Grösse des Speicherortes wurde von einer fehlgeschlagener Aufgabe e
 #. To be consistent, translate 'Job' as: Aufgabe, Auftrag (Depends on context!)
 msgid "The remote update was skipped to avoid interrupting a running backup job on this device. The remote update will be retried after a few hours."
 msgstr "Der Remote Update wurde abgebrochen, damit ein Sicherungauftrag auf diesem Gerät nicht unterbrochen wird. Die Durchführung des Remote Updates wird in einigen Stunden nochmal versucht."
+
+msgid "The search query contains an unknown field"
+msgstr ""
 
 msgid "The search results might be stale."
 msgstr "Die Suchergebnisse können verfallen sein."
@@ -6263,6 +6605,12 @@ msgstr "Dieser Assistent wird Sie durch die Konfiguration des Comet-Servers füh
 msgid "This wizard will walk you through the process of creating a bootable recovery USB drive that can be used to restore data. Please select an available method:"
 msgstr "Dieser Assistent führt Sie durch den Erstellungsprozess eines bootfähigen Wiederherstellungs-USB-Laufwerks, mit dem Daten wiederhergestellt werden können. Bitte wählen Sie eine verfügbare Methode:"
 
+#. Definition of "Azure": This is a cloud computing service from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Azure
+#. Definition of "Azure AD": Azure AD (Active Directory) is a user account management system within Microsoft Azure. If an official translation is available, it should be used. https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis
+#. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
+msgid "This wizard will walk you through the process of registering a new Azure AD application with permission to back up your Office 365 data."
+msgstr ""
+
 msgid "Thu"
 msgstr "Do"
 
@@ -6274,6 +6622,9 @@ msgstr "Hintergrund kacheln"
 
 msgid "Tile image"
 msgstr "Bild kacheln"
+
+msgid "time"
+msgstr ""
 
 msgid "Time"
 msgstr "Zeit"
@@ -6287,6 +6638,9 @@ msgstr "Zeitüberschreitung"
 
 msgid "Timezone"
 msgstr "Zeitzone"
+
+msgid "To"
+msgstr ""
 
 #. Definition of "EFS": Encrypting File System (EFS) is an encryption system built into Windows. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Encrypting_File_System
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
@@ -6318,6 +6672,12 @@ msgstr "Anzahl Dateien"
 #. To be consistent, translate 'Job' as: Aufgabe, Auftrag (Depends on context!)
 msgid "Total jobs"
 msgstr "Anzahl Aufgaben"
+
+msgid "Total Mailboxes/Sites"
+msgstr ""
+
+msgid "Total Protected"
+msgstr ""
 
 msgid "Total scans"
 msgstr "Anzahl Scans"
@@ -6422,6 +6782,23 @@ msgstr "Software von dem Online %s deinstallieren"
 #. To be consistent, translate 'Device' as: Gerät
 msgid "Uninstall software from this device"
 msgstr "Software von diesem Gerät deinstallieren "
+
+msgid "United States"
+msgstr ""
+
+#. To be consistent, translate 'Device' as: Gerät
+msgid "Unix block device"
+msgstr ""
+
+#. To be consistent, translate 'Device' as: Gerät
+msgid "Unix character device"
+msgstr ""
+
+msgid "Unix FIFO"
+msgstr ""
+
+msgid "Unix socket file"
+msgstr ""
 
 msgid "unknown"
 msgstr "unbekannt"
@@ -6529,6 +6906,9 @@ msgstr "Hochgeladen"
 msgid "Uploaded file"
 msgstr "Hochgeladende Datei"
 
+msgid "URL"
+msgstr ""
+
 msgid "Usage"
 msgstr "Verwendung"
 
@@ -6557,6 +6937,10 @@ msgstr "Benutzer"
 #, c-format
 msgid "User \"%s\" on server \"%s\""
 msgstr "Benutzer \"%s\" auf dem Server \"%s\""
+
+#. To be consistent, translate 'Account' as: Benutzerkonto
+msgid "User Account"
+msgstr ""
 
 msgid "User Details"
 msgstr "Benutzerdetails"
@@ -6744,6 +7128,9 @@ msgstr "Warten bis der vollständige Scan beendet ist"
 msgid "Waiting for installer to complete..."
 msgstr "Warten bis der Installer beendet ist..."
 
+msgid "Waiting for the registration process to complete..."
+msgstr ""
+
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 #. To be consistent, translate 'Storage Vault' as: Speicherort
 msgid "Waiting to finish cleaning up the Storage Vault..."
@@ -6817,6 +7204,11 @@ msgstr "Wenn der PC startet und der letzte Auftrag wurde verpasst"
 #. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
 msgid "Windows"
 msgstr "Windows"
+
+#. Definition of "EFS": Encrypting File System (EFS) is an encryption system built into Windows. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Encrypting_File_System
+#. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
+msgid "Windows EFS-encrypted file"
+msgstr ""
 
 #. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
 msgid "Windows Mail"
@@ -6898,6 +7290,14 @@ msgstr "Sie können das Aussehen und Verhalten der generierten Client-Software a
 msgid "You can enable this feature via the client software."
 msgstr "Dieses Feature können Sie via der Client-Software aktivieren."
 
+msgid "You can have a custom software build for each organization"
+msgstr ""
+
+#. Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
+#. Definition of "Comet Server": This terminology is specific to Comet Backup. It is the name of our application, and should not be translated.
+msgid "You can have multiple domains pointing to this Comet Server by configuring Organizations."
+msgstr ""
+
 #. Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
 #. Definition of "Comet Server": This terminology is specific to Comet Backup. It is the name of our application, and should not be translated.
 msgid "You can rebrand the Comet Server interface in your company style."
@@ -6915,6 +7315,14 @@ msgstr "Sie können dieses Problem lösen, indem Sie den Administrator bitten, m
 
 msgid "You can run this wizard again at any time, to make further changes."
 msgstr "Für weitere Änderungen können Sie den Assistenten jederzeit wieder ausführen."
+
+msgid "You can set a custom web brand for each organization"
+msgstr ""
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#. To be consistent, translate 'Storage Vault' as: Speicherort
+msgid "You can update this organization's branding, software build and storage vault configuration from the Setup Wizard."
+msgstr ""
 
 #. To be consistent, translate 'Bucket' as: Bucket (German translations are funny, but useless for this context)
 msgid "You can use this bucket from the client software via the following details:"

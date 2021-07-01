@@ -477,6 +477,9 @@ msgstr "Administrateurs"
 msgid "Advanced"
 msgstr "Avancé"
 
+msgid "Advanced Filter"
+msgstr ""
+
 msgid "Advanced options"
 msgstr "Options avancées"
 
@@ -618,9 +621,6 @@ msgstr "Autoriser la création d'installateurs de logiciels d'étiquetage à par
 msgid "Allow invalid hostnames"
 msgstr "Autoriser des noms d'hôtes invalides"
 
-msgid "Allow login via"
-msgstr "Autoriser la connexion via"
-
 msgid "Allow self-signed certificate"
 msgstr "Autoriser le certificat auto-signé"
 
@@ -737,9 +737,6 @@ msgstr "Identifiant Apple"
 #, qt-format
 msgid "Application Backup Types (%1)"
 msgstr "Types de Sauvegarde d'Application (%1)"
-
-msgid "Application Certificate:"
-msgstr ""
 
 msgid "Application ID"
 msgstr ""
@@ -1575,6 +1572,15 @@ msgid "Couldn't find the generated %s snapshot."
 msgstr "Impossible de trouver le cliché instantané généré %s."
 
 #, c-format
+msgid "Couldn't find top directory from include pattern: '%s'"
+msgstr ""
+
+#. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
+#, c-format
+msgid "Couldn't find top directory from include regex: '%s'"
+msgstr ""
+
+#, c-format
 msgid "Couldn't get job token from backup server (%s)"
 msgstr "Impossible de récupérer le token de la tâche à partir du serveur de sauvegarde (%s)"
 
@@ -2149,23 +2155,8 @@ msgstr "Pendant la migration, utilisez ce formulaire pour pointer les adresses d
 msgid "Dynamic Volume"
 msgstr "Volume Dynamique"
 
-#. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
-msgid ""
-"e.g.\n"
-"- single-file.doc\n"
-"- path/to/a/single-file.doc\n"
-"- AppData\n"
-"- C:\\Windows\n"
-"- *.avi\n"
-"- download.r[0-9][0-9]"
+msgid "e.g."
 msgstr ""
-"par exemple.\n"
-"- single-file.doc\n"
-"- chemin / à / a / single-file.doc\n"
-"- Données d'application\n"
-"- C: \\ Windows\n"
-"- * .avi\n"
-"- download.r [0-9] [0-9]"
 
 msgid "e.g. KEY:SLOT"
 msgstr "exemple. KEY:SLOT"
@@ -2302,6 +2293,9 @@ msgstr "Cryptage"
 
 msgid "Encryption key"
 msgstr "Clé de cryptage"
+
+msgid "End"
+msgstr ""
 
 msgid "End time"
 msgstr "Heure de fin"
@@ -2993,6 +2987,13 @@ msgstr ""
 msgid "Include all Virtual Machines"
 msgstr "Inclure toutes les Machines Virtuelles"
 
+msgid "Include pattern"
+msgstr ""
+
+#. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
+msgid "Include regex"
+msgstr ""
+
 msgid "Include specified Virtual Machine"
 msgstr "Inclure la Machine Virtuelle spécifiée"
 
@@ -3275,6 +3276,9 @@ msgstr "Dernière tâche de sauvegarde"
 
 msgid "Last scan"
 msgstr "Dernier Scan"
+
+msgid "Last successful backup job"
+msgstr ""
 
 msgid "Last wake event"
 msgstr "Dernier événement de réveil"
@@ -3992,6 +3996,10 @@ msgid "November"
 msgstr "Novembre"
 
 #, c-format
+msgid "Now running replacement software version (running %s, but expected %s)!"
+msgstr ""
+
+#, c-format
 msgid "Now running updated software (%s)."
 msgstr "En cours d'exécution du logiciel mis à jour (%s)."
 
@@ -4024,10 +4032,6 @@ msgstr "Octobre"
 
 msgid "Off"
 msgstr "Éteint"
-
-#. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
-msgid "Office 365 items"
-msgstr ""
 
 msgid "Offline"
 msgstr "Hors ligne"
@@ -4221,18 +4225,6 @@ msgstr "Passer stdin à l'ascenseur (optionnel)"
 msgid "Password"
 msgstr "Mot de passe"
 
-msgid "Password alone"
-msgstr "Mot de passe seul"
-
-#. Definition of "FIDO": This is the name of a consortium that work to develop user-login systems. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/FIDO_Alliance
-#. Definition of "U2F": This is a standard for two-factor authentication. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Universal_2nd_Factor
-msgid "Password and FIDO U2F together"
-msgstr "Mot de passe et FIDO U2F ensemble"
-
-#. Definition of "TOTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm
-msgid "Password and TOTP together"
-msgstr "Mot de passe et TOTP ensemble"
-
 msgid "Password for this account"
 msgstr "Mot de passe de ce compte"
 
@@ -4263,6 +4255,12 @@ msgstr "Chemin"
 
 msgid "Path (File or Folder)"
 msgstr "Chemin (fichier ou dossier)"
+
+msgid "pattern"
+msgstr ""
+
+msgid "Pattern:"
+msgstr ""
 
 msgid "Pending"
 msgstr "En attente"
@@ -4326,6 +4324,9 @@ msgstr ""
 
 msgid "Please enter your serial number:"
 msgstr "Veuillez entrer votre numéro de série:"
+
+msgid "Please input a single file or folder path."
+msgstr ""
 
 msgid "Please reset your password"
 msgstr "Veuillez réinitialiser votre mot de passe"
@@ -4524,7 +4525,7 @@ msgstr "Propriétés"
 
 #. Definition of "OneDrive": This is a cloud storage platform from Microsoft. The _O_ and _D_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_OneDrive
 #. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
-msgid "Protect email accounts, OneDrive, and SharePoint content"
+msgid "Protect email accounts, OneDrive for Business, Teams Files, and SharePoint content"
 msgstr ""
 
 msgid "Protect entire disks and partitions for full system recovery"
@@ -4616,6 +4617,9 @@ msgstr "Quota dépassé"
 msgid "Quota Exceeded"
 msgstr "Quota Dépassé"
 
+msgid "Quota Usage"
+msgstr ""
+
 msgid "Random"
 msgstr "Aléatoire"
 
@@ -4691,6 +4695,10 @@ msgstr "Actualisation..."
 
 msgid "Regenerate report"
 msgstr "Régénérer le rapport"
+
+#. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
+msgid "regex"
+msgstr ""
 
 #. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
 msgid "Regex"
@@ -4906,10 +4914,12 @@ msgstr "Restaurer les fichiers sélectionnés"
 msgid "Restore to"
 msgstr "Restaurer sur"
 
-msgid "Restore to custom cloud location:"
+#. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
+msgid "Restore to custom Microsoft Office 365 cloud location:"
 msgstr ""
 
-msgid "Restore to original cloud location"
+#. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
+msgid "Restore to original Microsoft Office 365 cloud location"
 msgstr ""
 
 msgid "Restore to original paths"
@@ -5037,6 +5047,9 @@ msgstr "Analyse de %d chemin(s), exclusion de %d chemin(s)..."
 #, c-format
 msgid "Scanning %d path(s)..."
 msgstr "Analyse de %d chemin(s)..."
+
+msgid "Scanning the include path..."
+msgstr ""
 
 msgid "Schedule"
 msgstr "Programme"
@@ -5169,6 +5182,9 @@ msgstr "Sélectionner un Coffre de Stockage"
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Select a Storage Vault to back up to"
 msgstr "Sélectionner un Coffre de Stockage pour la sauvegarde"
+
+msgid "Select a top directory for your include filter rules"
+msgstr ""
 
 msgid "Select all mailboxes except the ones from the list below"
 msgstr ""
@@ -5547,6 +5563,9 @@ msgstr "Parcouru"
 msgid "Specified Volume:"
 msgstr "Volume spécifié:"
 
+msgid "Specify Operating System"
+msgstr ""
+
 msgid "Speed:"
 msgstr "Vitesse:"
 
@@ -5585,6 +5604,9 @@ msgstr "Certificat SSL"
 #. Definition of "TLS": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Transport_Layer_Security
 msgid "SSL/TLS"
 msgstr "SSL/TLS"
+
+msgid "Start"
+msgstr ""
 
 msgid "Start campaign"
 msgstr "Démarrer la campagne"
@@ -5854,6 +5876,10 @@ msgstr "Le rôle 'Windows Server Backup' n'est pas présent sur ce serveur."
 msgid "The action parameter was invalid (try --help)"
 msgstr "Le paramètre d'action n'était pas valide (essayer --aide)"
 
+#, c-format
+msgid "The admin '%s' hasn't configured Two-Factor Authentication yet."
+msgstr ""
+
 msgid "The analysis results might be stale."
 msgstr "Les résultats de l'analyse peuvent être obsolètes."
 
@@ -5985,9 +6011,16 @@ msgstr "L'autre tâche de nettoyage est toujours active depuis %s (sous le seuil
 msgid "The other job started at %s"
 msgstr "L'autre tâche a commencé à %s"
 
+msgid "The path could not be compiled"
+msgstr ""
+
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "The Protected Item size was measured by an unsuccessful job, and may be inaccurate."
 msgstr "La taille de l'Élément Protégé a été mesurée par une tâche infructueuse, et peut être inexacte."
+
+#. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
+msgid "The regex include path could not be compiled"
+msgstr ""
 
 msgid "The remote update was skipped to avoid interrupting a running backup job on this device. The remote update will be retried after a few hours."
 msgstr "La mise à jour à distance a été ignorée pour éviter d'interrompre une tâche de sauvegarde en cours sur ce périphérique. La mise à jour à distance sera réessayée d'ici quelques heures."
@@ -6055,6 +6088,9 @@ msgstr "Le fuseau horaire a été automatiquement déterminé à partir de votre
 
 msgid "The timezone will be set automatically when a device logs in."
 msgstr "Le fuseau horaire sera défini automatiquement lorsqu'un appareil se connecte."
+
+msgid "The top directory path could not be compiled"
+msgstr ""
 
 msgid "The user has no devices"
 msgstr "L'utilisateur n'a aucun appareil"
@@ -6231,6 +6267,9 @@ msgstr "Aujourd'hui à %1"
 msgid "Too many warnings, stopping backup."
 msgstr "Trop d'avertissements, sauvegarde arrêtée."
 
+msgid "Top Directory"
+msgstr ""
+
 msgid "Total"
 msgstr "Total"
 
@@ -6302,6 +6341,9 @@ msgstr "Deux facteurs (TOTP)"
 
 msgid "Two-factor authentication"
 msgstr "Authentification à deux facteurs"
+
+msgid "Two-Factor Authentication can only be configured by this admin after logging in."
+msgstr ""
 
 msgid "Two-factor authentication required"
 msgstr "Authentification à deux facteurs est requise"
@@ -6474,9 +6516,6 @@ msgstr "Fichier téléchargé"
 
 msgid "URL"
 msgstr ""
-
-msgid "Usage"
-msgstr "Usage"
 
 msgid "USB Recovery Media"
 msgstr "Support de récupération USB"
@@ -6890,6 +6929,14 @@ msgstr ""
 
 msgid "You have selected a Disk Image backup for restore."
 msgstr "Vous avez sélectionné une sauvegarde d'image disque pour la restauration."
+
+#. Definition of "TOTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm
+msgid "You only can disable TOTP here, not enable it."
+msgstr ""
+
+#. Definition of "U2F": This is a standard for two-factor authentication. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Universal_2nd_Factor
+msgid "You only can disable U2F here, not enable it."
+msgstr ""
 
 #. Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
 #. Definition of "Comet Server": This terminology is specific to Comet Backup. It is the name of our application, and should not be translated.

@@ -26,18 +26,18 @@ We will include your translation in the next available version of Comet.
 
 ## Current translation coverage
 
-*Table last regenerated 2021-05-17*
+*Table last regenerated 2021-07-02*
 
 |Code    |Language              |Untranslated (English) words |Translated Words |Translated Phrases |Translation percent
 |--------|----------------------|-----------------------------|-----------------|-------------------|--------------------
-|`-`     |English               |0                            |8331             |2037               |  100.00
-|`de_DE` |Deutsch               |544                          |7517             |1911               |   93.81
-|`es_ES` |Español               |544                          |9660             |1911               |   93.81
-|`fr_FR` |Français              |547                          |9671             |1910               |   93.77
-|`he_IL` |עברית‬                 |544                          |7658             |1911               |   93.81
-|`hr_HR` |Hrvatski              |544                          |7451             |1911               |   93.81
-|`it_IT` |Italiano              |552                          |8820             |1909               |   93.72
-|`nl_NL` |Nederlands            |544                          |7483             |1911               |   93.81
-|`pt_BR` |Português (Brasil)    |544                          |8965             |1911               |   93.81
-|`pt_PT` |Português (Europa)    |544                          |8761             |1911               |   93.81
-|`ru_RU` |Русский               |544                          |7784             |1911               |   93.81
+|`-`     |English               |0                            |8438             |2055               |  100.00
+|`de_DE` |Deutsch               |679                          |7489             |1905               |   92.70
+|`es_ES` |Español               |679                          |9628             |1905               |   92.70
+|`fr_FR` |Français              |682                          |9623             |1904               |   92.65
+|`he_IL` |עברית‬                 |679                          |7634             |1905               |   92.70
+|`hr_HR` |Hrvatski              |679                          |7423             |1905               |   92.70
+|`it_IT` |Italiano              |687                          |8792             |1903               |   92.60
+|`nl_NL` |Nederlands            |679                          |7454             |1905               |   92.70
+|`pt_BR` |Português (Brasil)    |679                          |8936             |1905               |   92.70
+|`pt_PT` |Português (Europa)    |679                          |8732             |1905               |   92.70
+|`ru_RU` |Русский               |679                          |7756             |1905               |   92.70

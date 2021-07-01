@@ -477,6 +477,9 @@ msgstr "Administratori"
 msgid "Advanced"
 msgstr "Napredno"
 
+msgid "Advanced Filter"
+msgstr ""
+
 msgid "Advanced options"
 msgstr "Napredne opcije"
 
@@ -618,9 +621,6 @@ msgstr "Dozvoli generiranje brendirane instalacije softvera sa ovog servera"
 msgid "Allow invalid hostnames"
 msgstr "Dozvoli neispravane nazive hosta"
 
-msgid "Allow login via"
-msgstr "Dozvoli logiranje putem"
-
 msgid "Allow self-signed certificate"
 msgstr "Dozvoli self-signed certifikat"
 
@@ -737,9 +737,6 @@ msgstr "Apple ID"
 #, qt-format
 msgid "Application Backup Types (%1)"
 msgstr "Vrste sigurnosnih kopij aplikacije (%1)"
-
-msgid "Application Certificate:"
-msgstr ""
 
 msgid "Application ID"
 msgstr ""
@@ -1575,6 +1572,15 @@ msgid "Couldn't find the generated %s snapshot."
 msgstr "Nije moguće pronalaženje generiranog %s snapshot-a."
 
 #, c-format
+msgid "Couldn't find top directory from include pattern: '%s'"
+msgstr ""
+
+#. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
+#, c-format
+msgid "Couldn't find top directory from include regex: '%s'"
+msgstr ""
+
+#, c-format
 msgid "Couldn't get job token from backup server (%s)"
 msgstr "Nije moguće pronalaženje tokena zadatka na backup serveru (%s)"
 
@@ -2149,23 +2155,8 @@ msgstr "Tjekom migracije, koristi ovu formu za navođenje adresa Spremnika Pohra
 msgid "Dynamic Volume"
 msgstr "Dinamički volumen"
 
-#. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
-msgid ""
-"e.g.\n"
-"- single-file.doc\n"
-"- path/to/a/single-file.doc\n"
-"- AppData\n"
-"- C:\\Windows\n"
-"- *.avi\n"
-"- download.r[0-9][0-9]"
+msgid "e.g."
 msgstr ""
-"e.g.\n"
-"- single-file.doc\n"
-"- path/to/a/single-file.doc\n"
-"- AppData\n"
-"- C:\\Windows\n"
-"- *.avi\n"
-"- download.r[0-9][0-9]"
 
 msgid "e.g. KEY:SLOT"
 msgstr "e.g. KEY:SLOT"
@@ -2302,6 +2293,9 @@ msgstr "Enkripcija"
 
 msgid "Encryption key"
 msgstr "Enkripcijski ključ"
+
+msgid "End"
+msgstr ""
 
 msgid "End time"
 msgstr "Vrijeme završetka"
@@ -2993,6 +2987,13 @@ msgstr ""
 msgid "Include all Virtual Machines"
 msgstr "Uključi sve virtualne strojeve"
 
+msgid "Include pattern"
+msgstr ""
+
+#. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
+msgid "Include regex"
+msgstr ""
+
 msgid "Include specified Virtual Machine"
 msgstr "Uključi naznačeni virtualni stroj"
 
@@ -3275,6 +3276,9 @@ msgstr "Posljednji backup zadatak"
 
 msgid "Last scan"
 msgstr "Posljednji scan"
+
+msgid "Last successful backup job"
+msgstr ""
 
 msgid "Last wake event"
 msgstr "Događaji prošlog tjedna"
@@ -3992,6 +3996,10 @@ msgid "November"
 msgstr "Studeni"
 
 #, c-format
+msgid "Now running replacement software version (running %s, but expected %s)!"
+msgstr ""
+
+#, c-format
 msgid "Now running updated software (%s)."
 msgstr "Izvršavam ažuriranje aplikacije (%s)."
 
@@ -4024,10 +4032,6 @@ msgstr "Listopad"
 
 msgid "Off"
 msgstr "Isključeno"
-
-#. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
-msgid "Office 365 items"
-msgstr ""
 
 msgid "Offline"
 msgstr "Izvanmrežno"
@@ -4221,18 +4225,6 @@ msgstr "Stdin lozinka za elevator (opcionalno)"
 msgid "Password"
 msgstr "Lozinka"
 
-msgid "Password alone"
-msgstr "Samo lozinka"
-
-#. Definition of "FIDO": This is the name of a consortium that work to develop user-login systems. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/FIDO_Alliance
-#. Definition of "U2F": This is a standard for two-factor authentication. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Universal_2nd_Factor
-msgid "Password and FIDO U2F together"
-msgstr "Lozinka i FIDO U2F zajedno"
-
-#. Definition of "TOTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm
-msgid "Password and TOTP together"
-msgstr "Lozinka i TOTP zajedno"
-
 msgid "Password for this account"
 msgstr "Lozinka ovog računa"
 
@@ -4263,6 +4255,12 @@ msgstr "Putanja"
 
 msgid "Path (File or Folder)"
 msgstr "Putanja (Datoteka i Mapa)"
+
+msgid "pattern"
+msgstr ""
+
+msgid "Pattern:"
+msgstr ""
 
 msgid "Pending"
 msgstr "U tijeku"
@@ -4326,6 +4324,9 @@ msgstr ""
 
 msgid "Please enter your serial number:"
 msgstr "Molimo unesite vaš serijski broj:"
+
+msgid "Please input a single file or folder path."
+msgstr ""
 
 msgid "Please reset your password"
 msgstr "Molimo resetirajte svoju lozinku"
@@ -4524,7 +4525,7 @@ msgstr "Svojstva"
 
 #. Definition of "OneDrive": This is a cloud storage platform from Microsoft. The _O_ and _D_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_OneDrive
 #. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
-msgid "Protect email accounts, OneDrive, and SharePoint content"
+msgid "Protect email accounts, OneDrive for Business, Teams Files, and SharePoint content"
 msgstr ""
 
 msgid "Protect entire disks and partitions for full system recovery"
@@ -4616,6 +4617,9 @@ msgstr "Kvota ispunjena"
 msgid "Quota Exceeded"
 msgstr "Kvota Ispunjena"
 
+msgid "Quota Usage"
+msgstr ""
+
 msgid "Random"
 msgstr "Slučajni odabir"
 
@@ -4691,6 +4695,10 @@ msgstr "Osvježavanje..."
 
 msgid "Regenerate report"
 msgstr "Stvori ponovno izvještaj"
+
+#. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
+msgid "regex"
+msgstr ""
 
 #. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
 msgid "Regex"
@@ -4906,10 +4914,12 @@ msgstr "Izvrši restore odabranih datoteka"
 msgid "Restore to"
 msgstr "Vrati u"
 
-msgid "Restore to custom cloud location:"
+#. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
+msgid "Restore to custom Microsoft Office 365 cloud location:"
 msgstr ""
 
-msgid "Restore to original cloud location"
+#. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
+msgid "Restore to original Microsoft Office 365 cloud location"
 msgstr ""
 
 msgid "Restore to original paths"
@@ -5037,6 +5047,9 @@ msgstr "Skeniranje %d putanje(a), izuzimanje %d putanje(a)..."
 #, c-format
 msgid "Scanning %d path(s)..."
 msgstr "Skeniram %d putanju(e)..."
+
+msgid "Scanning the include path..."
+msgstr ""
 
 msgid "Schedule"
 msgstr "Raspored termina"
@@ -5169,6 +5182,9 @@ msgstr "Odaberi Spremnik Pohrane"
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Select a Storage Vault to back up to"
 msgstr "Odaberi Spremnik Pohrane u koji će biti izvršen backup"
+
+msgid "Select a top directory for your include filter rules"
+msgstr ""
 
 msgid "Select all mailboxes except the ones from the list below"
 msgstr ""
@@ -5547,6 +5563,9 @@ msgstr "Obuhvaćen"
 msgid "Specified Volume:"
 msgstr "Odabrani Volume:"
 
+msgid "Specify Operating System"
+msgstr ""
+
 msgid "Speed:"
 msgstr "Brzina:"
 
@@ -5585,6 +5604,9 @@ msgstr "SSL Certifikat"
 #. Definition of "TLS": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Transport_Layer_Security
 msgid "SSL/TLS"
 msgstr "SSL/TLS"
+
+msgid "Start"
+msgstr ""
 
 msgid "Start campaign"
 msgstr "Pokrećem kampanju"
@@ -5854,6 +5876,10 @@ msgstr "Uloga 'Windows Server Backup' nije prisutna na ovom serveru."
 msgid "The action parameter was invalid (try --help)"
 msgstr "Akcijski parametar je pogrešan (probaj --help)"
 
+#, c-format
+msgid "The admin '%s' hasn't configured Two-Factor Authentication yet."
+msgstr ""
+
 msgid "The analysis results might be stale."
 msgstr "Rezultati analize mogu biti zastarjeli."
 
@@ -5985,9 +6011,16 @@ msgstr "Drugi posao čišćenja i dalje je aktivan, od prije %s (ispod praga upo
 msgid "The other job started at %s"
 msgstr "Drugi zadata je započeo u %s"
 
+msgid "The path could not be compiled"
+msgstr ""
+
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "The Protected Item size was measured by an unsuccessful job, and may be inaccurate."
 msgstr "Veličina Spremnika Pohrane je izmjerena prema neuspješnom zadatku te može biti netočna."
+
+#. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
+msgid "The regex include path could not be compiled"
+msgstr ""
 
 msgid "The remote update was skipped to avoid interrupting a running backup job on this device. The remote update will be retried after a few hours."
 msgstr "Daljinsko ažuriranje preskočeno je da se ne bi prekidalo izvršavanje sigurnosnih kopija na ovom uređaju. Daljinsko ažuriranje ponovo će se pokušati provesti nakon nekoliko sati."
@@ -6055,6 +6088,9 @@ msgstr "Vremenska zona je automatski određena prema vašem pregledniku."
 
 msgid "The timezone will be set automatically when a device logs in."
 msgstr "Vremenska zona će biti automatski postavljena kada se uređaj logira."
+
+msgid "The top directory path could not be compiled"
+msgstr ""
 
 msgid "The user has no devices"
 msgstr "Korisnik nema uređaja"
@@ -6231,6 +6267,9 @@ msgstr "Danas u %1"
 msgid "Too many warnings, stopping backup."
 msgstr "Previše upozorenja. Zaustavljam backup."
 
+msgid "Top Directory"
+msgstr ""
+
 msgid "Total"
 msgstr "Ukupno"
 
@@ -6302,6 +6341,9 @@ msgstr "Dvofaktorski (TOTP)"
 
 msgid "Two-factor authentication"
 msgstr "Dvofaktorska autentifikacija"
+
+msgid "Two-Factor Authentication can only be configured by this admin after logging in."
+msgstr ""
 
 msgid "Two-factor authentication required"
 msgstr "Neophodna dvofaktorska autentifikacija"
@@ -6474,9 +6516,6 @@ msgstr "Prenesi datoteku"
 
 msgid "URL"
 msgstr ""
-
-msgid "Usage"
-msgstr "Korištenje"
 
 msgid "USB Recovery Media"
 msgstr "USB medij za oporavak"
@@ -6890,6 +6929,14 @@ msgstr ""
 
 msgid "You have selected a Disk Image backup for restore."
 msgstr "Odabrali ste sigurnosnu kopiju slike diska za oporavak."
+
+#. Definition of "TOTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm
+msgid "You only can disable TOTP here, not enable it."
+msgstr ""
+
+#. Definition of "U2F": This is a standard for two-factor authentication. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Universal_2nd_Factor
+msgid "You only can disable U2F here, not enable it."
+msgstr ""
 
 #. Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
 #. Definition of "Comet Server": This terminology is specific to Comet Backup. It is the name of our application, and should not be translated.

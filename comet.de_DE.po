@@ -31,6 +31,10 @@ msgstr " MB/s"
 msgid " minute(s)"
 msgstr " Minute(n)"
 
+#, qt-format
+msgid "%1 (%2)"
+msgstr ""
+
 #. To be consistent, translate 'Device' as: Gerät
 #, qt-format
 msgid "%1 (Device \"%2\")"
@@ -245,6 +249,9 @@ msgstr "Ein Bucket ist ein mögliches Ziel für den Speicherort eines Kunden."
 #. Definition of "VSS Writer": This is a type of driver installed in Windows to assist in backing up complex applications. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
 msgid "A component in the VSS writer failed"
 msgstr "Eine Komponente im VSS-Writer schlug fehl"
+
+msgid "A request is behaving in an unexpected way - please send this message to your support contact"
+msgstr ""
 
 #. Definition of "VSS": This is a feature of Windows to assist in backing up files. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
 #. Definition of "VSS Writer": This is a type of driver installed in Windows to assist in backing up complex applications. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
@@ -505,6 +512,9 @@ msgstr "Volume hinzufügen"
 msgid "Additional backup jobs have run since this analysis was performed."
 msgstr "Zusätzliche Sicherungsaufträge wurden seit der Durchführung dieser Analyse ausgeführt"
 
+msgid "Additional logs truncated"
+msgstr ""
+
 #. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
 msgid "Additionally, logging in to Windows network shares failed."
 msgstr "Darüber hinaus ist die Anmeldung bei Windows-Netzwerkfreigaben fehlgeschlagen"
@@ -706,8 +716,14 @@ msgstr "Zum Öffnen der Anwendungsoberfläche immer Passwort abfragen"
 msgid "Amazon S3"
 msgstr "Amazon S3"
 
+msgid "Amazon S3 (China)"
+msgstr "Amazon S3 (China)"
+
 msgid "Amazon S3 China (Beijing) Isolated Region"
 msgstr "Amazon S3 China (Beijing) Isolierte Region"
+
+msgid "Amazon S3 China (Ningxia) Isolated Region"
+msgstr "Amazon S3 China (Ningxia) Isolierte Region"
 
 msgid "An error occurred while copying to the clipboard."
 msgstr "Beim Kopieren in die Zwischenablage ist ein Fehler aufgetreten."
@@ -808,9 +824,8 @@ msgstr "App-spezifisches Passwort"
 msgid "Apple ID"
 msgstr "Apple ID"
 
-#, qt-format
-msgid "Application Backup Types (%1)"
-msgstr "Anwendungs-Sicherungstypen (%1)"
+msgid "Application Backup Types"
+msgstr "Anwendungs-Sicherungstypen"
 
 msgid "Application ID"
 msgstr ""
@@ -1019,10 +1034,17 @@ msgstr "Automatisch"
 msgid "Automatic (point to the current server)"
 msgstr "Automatisch (auf den aktuellen Server verweisen)"
 
+msgid "Automatic authentication:"
+msgstr ""
+
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 #. To be consistent, translate 'Storage Vault' as: Speicherort
 msgid "Automatically request first Storage Vault"
 msgstr "Automatisch den ersten Speicherort anfragen"
+
+#. Definition of "Azure": This is a cloud computing service from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Azure
+msgid "Azure Active Directory"
+msgstr ""
 
 #. Definition of "Azure": This is a cloud computing service from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Azure
 msgid "Azure Blob Storage"
@@ -1049,6 +1071,10 @@ msgstr "Hintergrund-Logo"
 #, c-format
 msgid "Backing up %d database(s) in '%s' mode..."
 msgstr "Sicherung von %d-Datenbank(en) im '%s'-Modus..."
+
+#. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
+msgid "Backing up Office 365 for the first time."
+msgstr ""
 
 #. Definition of "VSS": This is a feature of Windows to assist in backing up files. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
 #. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
@@ -1106,9 +1132,8 @@ msgstr "Sicherungstyp"
 msgid "Backup type:"
 msgstr "Sicherungstyp:"
 
-#, qt-format
-msgid "Backup Types (%1)"
-msgstr "Sicherungstypen(%1)"
+msgid "Backup Types"
+msgstr "Sicherungstypen"
 
 msgid "Backupjob identifier (optional)"
 msgstr "Sicherungsauftragkennung (Optional)"
@@ -1342,6 +1367,9 @@ msgid "Checking Storage Vault free space..."
 msgstr "Prüfe den freien Speicher des Speicherortes"
 
 msgid "China"
+msgstr ""
+
+msgid "Choose a storage location"
 msgstr ""
 
 msgid "Choose databases"
@@ -1824,6 +1852,12 @@ msgid "Couldn't save changes."
 msgstr "Änderungen konnten nicht gespeichert werden."
 
 msgid "Couldn't save data chunk"
+msgstr ""
+
+#. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
+#. To be consistent, translate 'Account' as: Benutzerkonto
+#, c-format
+msgid "Couldn't save Office 365 data for account %s: %s"
 msgstr ""
 
 msgid "Couldn't save profile to server"
@@ -2593,11 +2627,6 @@ msgstr ""
 
 #. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 #, c-format
-msgid "Error saving Office 365 data: %s"
-msgstr ""
-
-#. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
-#, c-format
 msgid "Error saving Office 365 email data: %s"
 msgstr ""
 
@@ -2609,6 +2638,11 @@ msgstr ""
 #. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
 #, c-format
 msgid "Error saving SharePoint site '%s': %s"
+msgstr ""
+
+#. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
+#, c-format
+msgid "Error saving SharePoint site id '%s': %s"
 msgstr ""
 
 msgid "ETA:"
@@ -2841,6 +2875,10 @@ msgid "File Path"
 msgstr "Dateipfad"
 
 msgid "File placement strategy"
+msgstr ""
+
+#. Definition of "Filebase": This is a commercial service for storing files. If an official translation is available, it should be used. https://filebase.com/
+msgid "Filebase"
 msgstr ""
 
 msgid "Filename access"
@@ -3700,7 +3738,7 @@ msgstr "macOS"
 msgid "Mail Account"
 msgstr ""
 
-msgid "Mailbox, Contacts & Calendar"
+msgid "Mailbox, Contacts and Calendar"
 msgstr ""
 
 #, qt-format
@@ -3722,6 +3760,9 @@ msgstr "Neue Einträge verwalten."
 
 msgid "Mandatory file and folder exclusions"
 msgstr "Obligatorische Ausschlüsse von Dateien und Ordnern"
+
+msgid "Manual authentication:"
+msgstr ""
 
 msgid "March"
 msgstr "März"
@@ -4168,6 +4209,9 @@ msgstr "Kein Zeitplan"
 msgid "No schedules defined"
 msgstr "Keine Zeitpläne festgelegt"
 
+msgid "No storage location was chosen"
+msgstr ""
+
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 #. To be consistent, translate 'Storage Vault' as: Speicherort
 msgid "No Storage Vault types are available"
@@ -4350,6 +4394,10 @@ msgstr "Eine Sicherung monatlich am %2, für die letzten %1 Monat(e)"
 msgid "One backup weekly every %2, for the last %1 week(s)"
 msgstr "Eine Datensicherung wöchentlich jeden %2, für die letzte(n) %1 Woche(n)"
 
+#. Definition of "OneDrive": This is a cloud storage platform from Microsoft. The _O_ and _D_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_OneDrive
+msgid "OneDrive"
+msgstr ""
+
 msgid "Ongoing"
 msgstr "Laufend"
 
@@ -4385,6 +4433,9 @@ msgstr "Vorgang abgeschlossen (%s)."
 
 msgid "Operation completed successfully."
 msgstr "Vorgang erfolgreich abgeschlossen."
+
+msgid "Operation completed."
+msgstr ""
 
 msgid "Operation interrupted"
 msgstr "Vorgang unterbrochen"
@@ -4442,6 +4493,9 @@ msgstr "Andere"
 
 msgid "Other Organization"
 msgstr "Andere Organisation"
+
+msgid "Other Storage Providers"
+msgstr ""
 
 msgid "Outdated"
 msgstr "Veraltet"
@@ -4555,9 +4609,6 @@ msgstr "Erlaubt"
 msgid "Persisting Storage Vault status..."
 msgstr "Fortdauernder Status des Speicherortes..."
 
-msgid "Personal Site"
-msgstr ""
-
 msgid "Pictures"
 msgstr "Bilder"
 
@@ -4651,6 +4702,9 @@ msgstr "Richtlinienstandard"
 
 msgid "Policy ID"
 msgstr "Richtlinien ID"
+
+msgid "Popular Storage Providers"
+msgstr ""
 
 msgid "Popup browser"
 msgstr "Popup-Browser"
@@ -4818,6 +4872,7 @@ msgstr "Eigenschaften"
 
 #. Definition of "OneDrive": This is a cloud storage platform from Microsoft. The _O_ and _D_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_OneDrive
 #. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
+#. Definition of "Teams": Microsoft Teams is a chat service from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Teams
 #. To be consistent, translate 'Account' as: Benutzerkonto
 msgid "Protect email accounts, OneDrive for Business, Teams Files, and SharePoint content"
 msgstr ""
@@ -5164,6 +5219,10 @@ msgid "Report type"
 msgstr "Berichtstyp"
 
 msgid "Report Type"
+msgstr ""
+
+#, c-format
+msgid "Reported %d errors of this type, not reporting any more"
 msgstr ""
 
 msgid "Reporting"
@@ -5607,6 +5666,9 @@ msgstr "Wählen Sie Server aus, um Benutzerprofildaten zu spiegeln:"
 msgid "Select sites..."
 msgstr ""
 
+msgid "Select Storage Location"
+msgstr ""
+
 msgid "Select target drive"
 msgstr "Wählen Sie Ziellaufwerk aus"
 
@@ -5757,9 +5819,14 @@ msgstr "Setup-Assistent"
 msgid "SFTP"
 msgstr "SFTP"
 
+#. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
+msgid "SharePoint"
+msgstr ""
+
 #. Definition of "OneDrive": This is a cloud storage platform from Microsoft. The _O_ and _D_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_OneDrive
 #. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
-msgid "SharePoint & OneDrive"
+#. Definition of "Teams": Microsoft Teams is a chat service from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Teams
+msgid "SharePoint, OneDrive and Teams files"
 msgstr ""
 
 #, c-format
@@ -6016,6 +6083,10 @@ msgstr "Kampagne stoppen"
 msgid "Stopped"
 msgstr "Gestoppt"
 
+#. Definition of "Storadera": This is a commercial service for storing files. If an official translation is available, it should be used. https://storadera.com/
+msgid "Storadera"
+msgstr ""
+
 msgid "Storage"
 msgstr "Speicher"
 
@@ -6186,7 +6257,8 @@ msgstr "Task &Manager"
 msgid "TB"
 msgstr "TB"
 
-msgid "Team Site"
+#. Definition of "Teams": Microsoft Teams is a chat service from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Teams
+msgid "Teams"
 msgstr ""
 
 msgid "Tenant Domain"
@@ -6405,6 +6477,10 @@ msgstr ""
 #. To be consistent, translate 'Protected Item' as: Geschütztes Element
 msgid "The Protected Item size was measured by an unsuccessful job, and may be inaccurate."
 msgstr "Die Grösse des Speicherortes wurde von einer fehlgeschlagener Aufgabe ermittelt und kann daher ungenau sein."
+
+#. Definition of "Azure": This is a cloud computing service from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Azure
+msgid "The provided client secret key has expired. Visit the Azure portal to delete the expired secret key, or consider using the automatic authentication button to create a new key"
+msgstr ""
 
 #. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
 msgid "The regex include path could not be compiled"
@@ -6828,7 +6904,10 @@ msgstr "Software von dem Online %s deinstallieren"
 msgid "Uninstall software from this device"
 msgstr "Software von diesem Gerät deinstallieren "
 
-msgid "United States"
+msgid "United States Department of Defense"
+msgstr ""
+
+msgid "United States Government"
 msgstr ""
 
 #. To be consistent, translate 'Device' as: Gerät
@@ -7191,10 +7270,6 @@ msgid "WARNING"
 msgstr "WARNUNG"
 
 #, c-format
-msgid "Warning for %s: %s"
-msgstr "Warnung für %s: %s"
-
-#, c-format
 msgid "Warning while finding items to restore: %s"
 msgstr "Warnung beim Suchen nach wiederherzustellenden Elementen: %s"
 
@@ -7386,6 +7461,9 @@ msgstr ""
 
 msgid "You have selected a Disk Image backup for restore."
 msgstr "Sie haben eine Laufwerk-Image-Sicherung für die Wiederherstellung ausgewählt"
+
+msgid "You need to choose a storage location first."
+msgstr ""
 
 #. Definition of "TOTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm
 msgid "You only can disable TOTP here, not enable it."

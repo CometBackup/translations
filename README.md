@@ -26,18 +26,18 @@ We will include your translation in the next available version of Comet.
 
 ## Current translation coverage
 
-*Table last regenerated 2021-08-13*
+*Table last regenerated 2021-08-27*
 
 |Code    |Language              |Untranslated (English) words |Translated Words |Translated Phrases |Translation percent
 |--------|----------------------|-----------------------------|-----------------|-------------------|--------------------
-|`-`     |English               |0                            |8564             |2077               |  100.00
-|`de_DE` |Deutsch               |802                          |7493             |1906               |   91.77
-|`es_ES` |Español               |802                          |9631             |1906               |   91.77
-|`fr_FR` |Français              |810                          |9619             |1903               |   91.62
-|`he_IL` |עברית‬                 |811                          |7627             |1904               |   91.67
-|`hr_HR` |Hrvatski              |158                          |8032             |2044               |   98.41
-|`it_IT` |Italiano              |810                          |8795             |1904               |   91.67
-|`nl_NL` |Nederlands            |802                          |7457             |1906               |   91.77
-|`pt_BR` |Português (Brasil)    |805                          |8937             |1905               |   91.72
-|`pt_PT` |Português (Europa)    |805                          |8733             |1905               |   91.72
-|`ru_RU` |Русский               |811                          |7750             |1904               |   91.67
+|`-`     |English               |0                            |8548             |2076               |  100.00
+|`de_DE` |Deutsch               |0                            |8270             |2076               |  100.00
+|`es_ES` |Español               |0                            |10618            |2076               |  100.00
+|`fr_FR` |Français              |0                            |10610            |2076               |  100.00
+|`he_IL` |עברית‬                 |0                            |8423             |2076               |  100.00
+|`hr_HR` |Hrvatski              |0                            |8184             |2076               |  100.00
+|`it_IT` |Italiano              |0                            |9704             |2076               |  100.00
+|`nl_NL` |Nederlands            |0                            |8217             |2076               |  100.00
+|`pt_BR` |Português (Brasil)    |0                            |9836             |2076               |  100.00
+|`pt_PT` |Português (Europa)    |0                            |9655             |2076               |  100.00
+|`ru_RU` |Русский               |0                            |8532             |2076               |  100.00

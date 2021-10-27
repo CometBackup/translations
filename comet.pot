@@ -227,6 +227,10 @@ msgstr ""
 msgid "A component in the VSS writer failed"
 msgstr ""
 
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "A file that was successfully stored in the Storage Vault did not appear when listing directory content."
+msgstr ""
+
 #. Definition of "VSS": This is a feature of Windows to assist in backing up files. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
 #. Definition of "VSS Writer": This is a type of driver installed in Windows to assist in backing up complex applications. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
 msgid "A VSS writer could not be loaded."
@@ -456,6 +460,10 @@ msgid "Additional backup jobs have run since this analysis was performed."
 msgstr ""
 
 msgid "Additional logs truncated"
+msgstr ""
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Additional snapshots need to be optimized before analyzing this Storage Vault"
 msgstr ""
 
 #. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
@@ -690,8 +698,15 @@ msgstr ""
 msgid "Another job <%s> is no longer running, but we failed to inform the server: %s"
 msgstr ""
 
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Another process has already initialized this Storage Vault."
+msgstr ""
+
 #, c-format
 msgid "Another version of %s is already installed"
+msgstr ""
+
+msgid "Anti-ransomware"
 msgstr ""
 
 msgid "Any"
@@ -959,6 +974,7 @@ msgstr ""
 msgid "Back"
 msgstr ""
 
+#. Definition of "B2": 'B2' is an abbreviation for 'Backblaze B2 Cloud Storage', a commercial service for storing files. If an official translation is available, it should be used. https://www.backblaze.com/b2/cloud-storage.html
 #. Definition of "Backblaze": This is a commercial service for storing files. If an official translation is available, it should be used. https://www.backblaze.com/b2/cloud-storage.html
 msgid "Backblaze B2 Cloud Storage"
 msgstr ""
@@ -1240,9 +1256,6 @@ msgstr ""
 msgid "Checking Storage Vault free space..."
 msgstr ""
 
-msgid "China"
-msgstr ""
-
 msgid "Choose a storage location"
 msgstr ""
 
@@ -1297,6 +1310,9 @@ msgid "Client"
 msgstr ""
 
 msgid "Client Bulletin"
+msgstr ""
+
+msgid "Client certificate key path"
 msgstr ""
 
 msgid "Client certificate path"
@@ -1701,9 +1717,6 @@ msgid "Couldn't save Office 365 data for account %s: %s"
 msgstr ""
 
 msgid "Couldn't save profile to server"
-msgstr ""
-
-msgid "Couldn't start engine"
 msgstr ""
 
 msgid "Couldn't start process"
@@ -2384,6 +2397,11 @@ msgstr ""
 msgid "ERROR"
 msgstr ""
 
+#. Definition of "OneDrive": This is a cloud storage platform from Microsoft. The _O_ and _D_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_OneDrive
+#, c-format
+msgid "Error %s performing incremental backup of OneDrive site '%s', taking full backup..."
+msgstr ""
+
 msgid "Error attempting to register new application"
 msgstr ""
 
@@ -2556,10 +2574,6 @@ msgstr ""
 msgid "Failed"
 msgstr ""
 
-#. Definition of "Elevator": This terminology is specific to Comet Backup. This is an internal part of our application that can raise the permission level, when needed. The software 'elevates' its permission level using the 'elevator'.
-msgid "Failed to accept connection to elevator"
-msgstr ""
-
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Failed to add Storage Vault."
 msgstr ""
@@ -2573,6 +2587,9 @@ msgstr ""
 
 #. Definition of "VSS": This is a feature of Windows to assist in backing up files. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
 msgid "Failed to browse VSS components."
+msgstr ""
+
+msgid "Failed to cancel this job"
 msgstr ""
 
 msgid "Failed to change password."
@@ -2609,6 +2626,10 @@ msgstr ""
 
 #, c-format
 msgid "Failed to perform %s, retrying soon [%d / %d]..."
+msgstr ""
+
+#, c-format
+msgid "Failed to refresh our lock file: %s"
 msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
@@ -2666,10 +2687,6 @@ msgid "Field should not be empty"
 msgstr ""
 
 msgid "File"
-msgstr ""
-
-#, c-format
-msgid "File %s was deleted unexpectedly"
 msgstr ""
 
 msgid "File Path"
@@ -2817,9 +2834,6 @@ msgstr ""
 msgid "Generate scheduled email reports"
 msgstr ""
 
-msgid "Germany"
-msgstr ""
-
 msgid "Gmail account"
 msgstr ""
 
@@ -2874,6 +2888,9 @@ msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Hide cloud storage branding in Storage Vaults"
+msgstr ""
+
+msgid "Hide files rather than delete them"
 msgstr ""
 
 msgid "Hide the Import feature"
@@ -3115,6 +3132,10 @@ msgid "Invalid connection selected."
 msgstr ""
 
 #, c-format
+msgid "Invalid custom server CA path '%s'"
+msgstr ""
+
+#, c-format
 msgid "Invalid date format (%s)"
 msgstr ""
 
@@ -3295,6 +3316,18 @@ msgstr ""
 msgid "Last"
 msgstr ""
 
+#, qt-format
+msgid "Last %1 backups, at most one per day"
+msgstr ""
+
+#, qt-format
+msgid "Last %1 backups, at most one per month"
+msgstr ""
+
+#, qt-format
+msgid "Last %1 backups, at most one per week"
+msgstr ""
+
 msgid "Last 24 hours"
 msgstr ""
 
@@ -3311,6 +3344,15 @@ msgid "Last wake event"
 msgstr ""
 
 msgid "Last [...] backups"
+msgstr ""
+
+msgid "Last [...] backups, at most one per day"
+msgstr ""
+
+msgid "Last [...] backups, at most one per month"
+msgstr ""
+
+msgid "Last [...] backups, at most one per week"
 msgstr ""
 
 msgid "Latest"
@@ -3937,6 +3979,9 @@ msgstr ""
 msgid "No schedules defined"
 msgstr ""
 
+msgid "No source device and restore target selected for restore"
+msgstr ""
+
 msgid "No storage location was chosen"
 msgstr ""
 
@@ -4063,7 +4108,25 @@ msgstr ""
 msgid "October"
 msgstr ""
 
+#. An On/Off toggle switch
 msgid "Off"
+msgstr ""
+
+#. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
+msgid "Office 365 Germany"
+msgstr ""
+
+#. Definition of "21Vianet": This is the name of the company that hosts the Office 365 datacenter in China. If an official translation is available, it should be used. https://docs.microsoft.com/en-us/microsoft-365/admin/services-in-china/services-in-china?view=o365-21vianet
+#. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
+msgid "Office 365 operated by 21Vianet"
+msgstr ""
+
+#. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
+msgid "Office 365 U.S. Government DoD"
+msgstr ""
+
+#. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
+msgid "Office 365 U.S. Government GCC High"
 msgstr ""
 
 msgid "Offline"
@@ -4089,6 +4152,7 @@ msgstr ""
 msgid "OLE DB (x86_32)"
 msgstr ""
 
+#. An On/Off toggle switch
 msgid "On"
 msgstr ""
 
@@ -4299,6 +4363,12 @@ msgid "pattern"
 msgstr ""
 
 msgid "Pattern:"
+msgstr ""
+
+msgid "PC shutdown caused cancellation"
+msgstr ""
+
+msgid "PC sleep caused cancellation"
 msgstr ""
 
 msgid "Pending"
@@ -4524,6 +4594,10 @@ msgstr ""
 msgid "Private key"
 msgstr ""
 
+#, c-format
+msgid "Process %d (%s) is still running"
+msgstr ""
+
 msgid "Process completed"
 msgstr ""
 
@@ -4631,9 +4705,6 @@ msgid "Prune unused buckets"
 msgstr ""
 
 msgid "Prune unused buckets now"
-msgstr ""
-
-msgid "Public"
 msgstr ""
 
 msgid "Published"
@@ -4949,7 +5020,7 @@ msgstr ""
 msgid "restore engine"
 msgstr ""
 
-msgid "Restore Queue:"
+msgid "Restore Queue"
 msgstr ""
 
 msgid "Restore Selected Files"
@@ -5177,6 +5248,10 @@ msgstr ""
 msgid "Select a Certificate Authority file..."
 msgstr ""
 
+#. Definition of "MySQL": This is a database server from Oracle, that uses the SQL language. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/MySQL
+msgid "Select a certificate file for the MySQL client certificate..."
+msgstr ""
+
 #. Definition of "Mongo": MongoDB is a commercial database program. If an official translation is available, it should be used. https://www.mongodb.com/
 msgid "Select a custom mongo shell binary..."
 msgstr ""
@@ -5199,6 +5274,10 @@ msgid "Select a driver file to include in the USB Recovery Media"
 msgstr ""
 
 msgid "Select a live-connected device to use to retrieve the information:"
+msgstr ""
+
+#. Definition of "MySQL": This is a database server from Oracle, that uses the SQL language. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/MySQL
+msgid "Select a private key file for the MySQL client certificate..."
 msgstr ""
 
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
@@ -5396,6 +5475,9 @@ msgstr ""
 msgid "Server branding"
 msgstr ""
 
+msgid "Server CA file path"
+msgstr ""
+
 msgid "Server has been upgraded, please log in again."
 msgstr ""
 
@@ -5432,6 +5514,9 @@ msgid "Service"
 msgstr ""
 
 msgid "Service bulletins are always enabled."
+msgstr ""
+
+msgid "Service stop caused cancellation"
 msgstr ""
 
 msgid "Session expired, please log in again."
@@ -6111,10 +6196,6 @@ msgid "The specified component was not exported by the VSS writer"
 msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
-msgid "The Storage Vault appeared to decrease in size during the backup job."
-msgstr ""
-
-#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "The Storage Vault has been encrypted for the first time. Data is irrecoverable without the encryption key."
 msgstr ""
 
@@ -6452,12 +6533,6 @@ msgstr ""
 msgid "Uninstall software from this device"
 msgstr ""
 
-msgid "United States Department of Defense"
-msgstr ""
-
-msgid "United States Government"
-msgstr ""
-
 msgid "Unix block device"
 msgstr ""
 
@@ -6524,11 +6599,14 @@ msgstr ""
 msgid "Unsupported browser"
 msgstr ""
 
-msgid "Unsupported command"
-msgstr ""
-
 #, c-format
 msgid "Unsupported configuration option '%s' (did the software version change?)"
+msgstr ""
+
+#. Definition of "MySQL": This is a database server from Oracle, that uses the SQL language. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/MySQL
+#. Definition of "mysqldump": This is the name of MySQL's built-in backup program. It should not be translated. https://en.wikipedia.org/wiki/MySQL
+#, c-format
+msgid "Unsupported mysqldump version (%s)"
 msgstr ""
 
 msgid "Unsupported platform"
@@ -6587,6 +6665,15 @@ msgid "Use to identify macOS and Android packages in the app store."
 msgstr ""
 
 msgid "Use V2 signing"
+msgstr ""
+
+#. Definition of "B2": 'B2' is an abbreviation for 'Backblaze B2 Cloud Storage', a commercial service for storing files. If an official translation is available, it should be used. https://www.backblaze.com/b2/cloud-storage.html
+#. Definition of "deleteFiles": This word is a specific permission attribute that can be applied to a Backblaze B2 access key. It should not be translated. https://www.backblaze.com/b2/docs/application_keys.html
+msgid "Use with B2 Lifecycle Rules and a B2 key without the deleteFiles capability to provide file clean-up and higher security."
+msgstr ""
+
+#. Definition of "B2": 'B2' is an abbreviation for 'Backblaze B2 Cloud Storage', a commercial service for storing files. If an official translation is available, it should be used. https://www.backblaze.com/b2/cloud-storage.html
+msgid "Use with B2 Lifecycle Rules for file clean-up and to generate B2 keys with reduced permissions, providing higher security."
 msgstr ""
 
 msgid "Used"
@@ -6907,6 +6994,10 @@ msgid "Working, please wait..."
 msgstr ""
 
 msgid "Working..."
+msgstr ""
+
+#. Definition of "Worldwide (including GCC)": This is the official name of the global Office 365 region, if you are not eligible for a more specific regional service. GCC is an abbreviation for United States Government Community Cloud. If an official translation is available, it should be used. https://docs.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-endpoints?view=o365-worldwide
+msgid "Worldwide (including GCC)"
 msgstr ""
 
 #. Definition of "CSV": Abbreviation of 'Comma Separated Values' (*.csv), a simple file format for spreadsheet data. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Comma-separated_values

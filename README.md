@@ -41,3 +41,4 @@ We will include your translation in the next available version of Comet.
 |`pt_BR` |Português (Brasil)    |240                          |9790             |2066               |   98.47
 |`pt_PT` |Português (Europa)    |240                          |9609             |2066               |   98.47
 |`ru_RU` |Русский               |240                          |8493             |2066               |   98.47
+|`th_TH` |ภาษาไทย‬               |240                          |3474             |2066               |   98.47

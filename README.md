@@ -26,7 +26,7 @@ We will include your translation in the next available version of Comet.
 
 ## Current translation coverage
 
-*Table last regenerated 2021-10-27*
+*Table last regenerated 2021-11-03*
 
 |Code    |Language              |Untranslated (English) words |Translated Words |Translated Phrases |Translation percent
 |--------|----------------------|-----------------------------|-----------------|-------------------|--------------------
@@ -41,4 +41,4 @@ We will include your translation in the next available version of Comet.
 |`pt_BR` |Português (Brasil)    |240                          |9790             |2066               |   98.47
 |`pt_PT` |Português (Europa)    |240                          |9609             |2066               |   98.47
 |`ru_RU` |Русский               |240                          |8493             |2066               |   98.47
-|`th_TH` |ภาษาไทย‬               |240                          |3474             |2066               |   98.47
+|`th_TH` |ภาษาไทย‬              |240                          |3893             |2066               |   98.47

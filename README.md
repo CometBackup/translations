@@ -26,19 +26,20 @@ We will include your translation in the next available version of Comet.
 
 ## Current translation coverage
 
-*Table last regenerated 2021-11-03*
+*Table last regenerated 2021-11-08*
 
 |Code    |Language              |Untranslated (English) words |Translated Words |Translated Phrases |Translation percent
 |--------|----------------------|-----------------------------|-----------------|-------------------|--------------------
-|`-`     |English               |0                            |8749             |2098               |  100.00
-|`de_DE` |Deutsch               |240                          |8230             |2066               |   98.47
-|`es_ES` |Español               |240                          |10564            |2066               |   98.47
-|`fr_FR` |Français              |240                          |10564            |2066               |   98.47
-|`he_IL` |עברית‬                 |240                          |8385             |2066               |   98.47
-|`hr_HR` |Hrvatski              |240                          |8145             |2066               |   98.47
-|`it_IT` |Italiano              |240                          |9657             |2066               |   98.47
-|`nl_NL` |Nederlands            |240                          |8176             |2066               |   98.47
-|`pt_BR` |Português (Brasil)    |240                          |9790             |2066               |   98.47
-|`pt_PT` |Português (Europa)    |240                          |9609             |2066               |   98.47
-|`ru_RU` |Русский               |240                          |8493             |2066               |   98.47
-|`th_TH` |ภาษาไทย‬              |240                          |3893             |2066               |   98.47
+|`-`     |English               |0                            |8760             |2099               |  100.00
+|`da_DK` |Dansk‬                |251                          |8463             |2066               |   98.43
+|`de_DE` |Deutsch               |251                          |8230             |2066               |   98.43
+|`es_ES` |Español               |251                          |10564            |2066               |   98.43
+|`fr_FR` |Français              |251                          |10564            |2066               |   98.43
+|`he_IL` |עברית‬                 |251                          |8385             |2066               |   98.43
+|`hr_HR` |Hrvatski              |251                          |8145             |2066               |   98.43
+|`it_IT` |Italiano              |251                          |9657             |2066               |   98.43
+|`nl_NL` |Nederlands            |251                          |8176             |2066               |   98.43
+|`pt_BR` |Português (Brasil)    |251                          |9790             |2066               |   98.43
+|`pt_PT` |Português (Europa)    |251                          |9609             |2066               |   98.43
+|`ru_RU` |Русский               |251                          |8493             |2066               |   98.43
+|`th_TH` |ภาษาไทย‬              |251                          |3893             |2066               |   98.43

@@ -43,3 +43,4 @@ We will include your translation in the next available version of Comet.
 |`pt_PT` |Português (Europa)    |2194                         |8973             |1986               |   85.13
 |`ru_RU` |Русский               |552                          |9506             |2255               |   96.66
 |`th_TH` |ภาษาไทย‬              |797                          |4568             |2217               |   95.03
+|`zh_TW` |中文 (繁體)               |8966                         |465              |411                |   17.62

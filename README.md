@@ -26,20 +26,20 @@ We will include your translation in the next available version of Comet.
 
 ## Current translation coverage
 
-*Table last regenerated 2022-05-06*
+*Table last regenerated 2022-05-19*
 
 |Code    |Language              |Untranslated (English) words |Translated Words |Translated Phrases |Translation percent
 |--------|----------------------|-----------------------------|-----------------|-------------------|--------------------
-|`-`     |English               |0                            |10098            |2330               |  100.00
-|`da_DK` |Dansk‬                |2176                         |7840             |1985               |   85.19
-|`de_DE` |Deutsch               |551                          |9177             |2253               |   96.70
-|`es_ES` |Español               |539                          |11812            |2255               |   96.78
-|`fr_FR` |Français              |2225                         |9830             |1982               |   85.06
-|`he_IL` |עברית‬                 |2222                         |7811             |1983               |   85.11
-|`hr_HR` |Hrvatski              |2200                         |7604             |1985               |   85.19
-|`it_IT` |Italiano              |539                          |10873            |2255               |   96.78
-|`nl_NL` |Nederlands            |2206                         |7599             |1983               |   85.11
-|`pt_BR` |Português (Brasil)    |2181                         |9118             |1986               |   85.24
-|`pt_PT` |Português (Europa)    |2181                         |8973             |1986               |   85.24
-|`ru_RU` |Русский               |539                          |9506             |2255               |   96.78
-|`th_TH` |ภาษาไทย‬              |784                          |4568             |2217               |   95.15
+|`-`     |English               |0                            |10111            |2333               |  100.00
+|`da_DK` |Dansk‬                |2189                         |7840             |1985               |   85.08
+|`de_DE` |Deutsch               |564                          |9177             |2253               |   96.57
+|`es_ES` |Español               |552                          |11812            |2255               |   96.66
+|`fr_FR` |Français              |2238                         |9830             |1982               |   84.95
+|`he_IL` |עברית‬                 |2235                         |7811             |1983               |   85.00
+|`hr_HR` |Hrvatski              |2213                         |7604             |1985               |   85.08
+|`it_IT` |Italiano              |552                          |10873            |2255               |   96.66
+|`nl_NL` |Nederlands            |2219                         |7599             |1983               |   85.00
+|`pt_BR` |Português (Brasil)    |2194                         |9118             |1986               |   85.13
+|`pt_PT` |Português (Europa)    |2194                         |8973             |1986               |   85.13
+|`ru_RU` |Русский               |552                          |9506             |2255               |   96.66
+|`th_TH` |ภาษาไทย‬              |797                          |4568             |2217               |   95.03

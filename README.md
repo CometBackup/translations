@@ -26,21 +26,21 @@ We will include your translation in the next available version of Comet.
 
 ## Current translation coverage
 
-*Table last regenerated 2022-05-30*
+*Table last regenerated 2022-06-15*
 
 |Code    |Language              |Untranslated (English) words |Translated Words |Translated Phrases |Translation percent
 |--------|----------------------|-----------------------------|-----------------|-------------------|--------------------
-|`-`     |English               |0                            |10133            |2337               |  100.00
-|`da_DK` |Dansk‬                |36                           |9859             |2329               |   99.66
-|`de_DE` |Deutsch               |36                           |9715             |2329               |   99.66
-|`es_ES` |Español               |36                           |12446            |2329               |   99.66
-|`fr_FR` |Français              |36                           |12563            |2329               |   99.66
-|`he_IL` |עברית‬                 |36                           |9832             |2329               |   99.66
-|`hr_HR` |Hrvatski              |36                           |9739             |2329               |   99.66
-|`it_IT` |Italiano              |36                           |11477            |2329               |   99.66
-|`nl_NL` |Nederlands            |2241                         |7599             |1983               |   84.85
-|`pt_BR` |Português (Brasil)    |36                           |11664            |2329               |   99.66
-|`pt_PT` |Português (Europa)    |36                           |11519            |2329               |   99.66
-|`ru_RU` |Русский               |36                           |9993             |2329               |   99.66
-|`th_TH` |ภาษาไทย‬              |819                          |4568             |2217               |   94.87
-|`zh_TW` |中文 (繁體)               |8988                         |465              |411                |   17.59
+|`-`     |English               |0                            |10140            |2338               |  100.00
+|`da_DK` |Dansk‬                |43                           |9859             |2329               |   99.62
+|`de_DE` |Deutsch               |43                           |9715             |2329               |   99.62
+|`es_ES` |Español               |43                           |12446            |2329               |   99.62
+|`fr_FR` |Français              |43                           |12563            |2329               |   99.62
+|`he_IL` |עברית‬                 |43                           |9832             |2329               |   99.62
+|`hr_HR` |Hrvatski              |43                           |9739             |2329               |   99.62
+|`it_IT` |Italiano              |43                           |11477            |2329               |   99.62
+|`nl_NL` |Nederlands            |43                           |9873             |2329               |   99.62
+|`pt_BR` |Português (Brasil)    |43                           |11664            |2329               |   99.62
+|`pt_PT` |Português (Europa)    |43                           |11519            |2329               |   99.62
+|`ru_RU` |Русский               |43                           |9993             |2329               |   99.62
+|`th_TH` |ภาษาไทย‬              |43                           |4819             |2329               |   99.62
+|`zh_TW` |中文 (繁體)               |8995                         |465              |411                |   17.58

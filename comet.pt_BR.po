@@ -277,6 +277,10 @@ msgstr "Foi gerado um aviso ao carregar esse backup do MySQL."
 msgid "Abandoned"
 msgstr "Abandonado"
 
+#. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
+msgid "Abandoning backup job (Office 365 account quota exceeded)"
+msgstr ""
+
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "Abandoning backup job (Protected Item quota exceeded)"
 msgstr "Abandonando trabalho de backup (quota de itens protegidos excedida)"
@@ -401,7 +405,7 @@ msgid "Add and manage admin users for this tenant"
 msgstr "Adicionar e gerir utilizadores administrativos para esse inquilino"
 
 msgid "Add and manage email reporting options"
-msgstr ""
+msgstr "Adicionar e gerenciar opções de relatórios de e-mail"
 
 #. Definition of "PSA": An acroynm for Professional Services Automation, a kind of business software for managing customers. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Professional_services_automation
 msgid "Add and manage external PSA services"
@@ -690,7 +694,7 @@ msgid "Allow editing Constellation settings"
 msgstr "Permitir edição de definições de Constelação"
 
 msgid "Allow editing email options"
-msgstr ""
+msgstr "Permitir a edição de opções de e-mail"
 
 msgid "Allow editing remote storage settings"
 msgstr "Permitir editar as definições de armazenamento remoto"
@@ -1989,16 +1993,16 @@ msgid "Create"
 msgstr "Criar"
 
 msgid "Create a bootable media"
-msgstr "Criar um suporte de arranque"
+msgstr "Criar uma mídia inicializável"
 
 #. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
 msgid "Create a full Windows OS environment. An external USB harddrive is required."
-msgstr "Criar um ambiente de SO Windows completo. É necessário um disco rígido USB externo."
+msgstr "Crie um ambiente completo do sistema operacional Windows. É necessário um disco rígido USB externo."
 
 #. Definition of "ISO": A disk image file format, normally a file with *.iso file extension. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Optical_disc_image
 #, qt-format
 msgid "Create a minimal ISO image file that boots directly into %1."
-msgstr "Crie um arquivo de imagem ISO mínimo que se inicia diretamente em %1."
+msgstr "Crie um arquivo de imagem ISO mínimo que inicialize diretamente em %1."
 
 #, qt-format
 msgid "Create a minimal USB environment that boots directly into %1. A 2 GB removable USB flash drive is required."
@@ -2396,6 +2400,9 @@ msgstr "Desativar autenticação de dois fatores (TOTP)"
 msgid "Disabled"
 msgstr "Desativado"
 
+msgid "Disabled (Do not send email)"
+msgstr ""
+
 msgid "Disabled advanced settings."
 msgstr "Desativar configurações avançadas."
 
@@ -2440,7 +2447,7 @@ msgid "Do you want to continue?"
 msgstr "Você quer continuar?"
 
 msgid "Do you want to save your changes?"
-msgstr ""
+msgstr "Deseja salvar suas alterações?"
 
 msgid "Documents"
 msgstr "Documentos"
@@ -2501,10 +2508,10 @@ msgid "Download the backup client and install it on a device, to use it with a n
 msgstr "Descarregar o cliente de backup e instalá-lo numa máquina, para o utilizar com uma nova conta de utilizador."
 
 msgid "Downloaded"
-msgstr "Salvo"
+msgstr "Baixado"
 
 msgid "Downloading update..."
-msgstr "Download da atualização..."
+msgstr "Baixando atualização..."
 
 msgid "Downloads"
 msgstr "Downloads"
@@ -2516,7 +2523,7 @@ msgid "Driver"
 msgstr "Driver"
 
 msgid "Drop connection"
-msgstr "Fechar conexão"
+msgstr "Cancelar conexão"
 
 msgid "Drop file here..."
 msgstr "Descarregue arquivo aqui..."
@@ -2574,7 +2581,7 @@ msgid "Edit description..."
 msgstr "Editar descrição..."
 
 msgid "Edit Email Report"
-msgstr ""
+msgstr "Editar relatório de e-mail"
 
 msgid "Edit item"
 msgstr "Editar Item"
@@ -2658,10 +2665,10 @@ msgid "Email Report"
 msgstr "Relatórios por email"
 
 msgid "Email Reporting"
-msgstr ""
+msgstr "Relatórios por e-mail"
 
 msgid "Email Reporting Option"
-msgstr ""
+msgstr "Opção de relatório por e-mail"
 
 msgid "Email reports"
 msgstr "Relatórios por email"
@@ -2691,7 +2698,7 @@ msgid "Empty"
 msgstr "Vazio"
 
 msgid "Enable and configure email reports on the status of your users' backups"
-msgstr ""
+msgstr "Habilitar e configurar relatórios de e-mail sobre o status dos backups dos usuários"
 
 msgid "Enable Authentication Role"
 msgstr "Ativar a função de autenticação"
@@ -2729,7 +2736,7 @@ msgid "End"
 msgstr "Fim"
 
 msgid "End time"
-msgstr "Tempo final"
+msgstr "Hora de fim"
 
 msgid "End Time"
 msgstr "Hora de Fim"
@@ -2746,7 +2753,7 @@ msgid "Enforce this retention policy for all Storage Vaults"
 msgstr "Aplicar esta política de retenção para todas as Áreas de Armazenamentos"
 
 msgid "Engine"
-msgstr "Motor"
+msgstr "Engine"
 
 msgid "Engine failure"
 msgstr "Falha no mecanismo"
@@ -3443,7 +3450,7 @@ msgid "Image"
 msgstr "Imagem"
 
 msgid "Immediate"
-msgstr ""
+msgstr "Imediato"
 
 msgid "Immediate job notification"
 msgstr "Notificação imediata de trabalho"
@@ -3533,6 +3540,9 @@ msgstr "Info"
 
 msgid "Information"
 msgstr "Informação"
+
+msgid "Inherit from parent tenant"
+msgstr ""
 
 msgid "Initialized"
 msgstr "Iniciado"
@@ -3813,27 +3823,27 @@ msgstr "Último"
 
 #, qt-format
 msgid "Last %1 backups, at most one per day"
-msgstr "Últimas %1 cópias de segurança, no máximo uma por dia"
+msgstr "Últimos %1 backups, no máximo um por dia"
 
 #, qt-format
 msgid "Last %1 backups, at most one per month"
-msgstr "Últimas %1 cópias de segurança, no máximo uma por mês"
+msgstr "Últimos %1 backups, no máximo um por mês"
 
 #, qt-format
 msgid "Last %1 backups, at most one per week"
-msgstr "Últimas %1 cópias de segurança, no máximo uma por semana"
+msgstr "Últimos %1 backups, no máximo um por semana"
 
 msgid "Last 24 hours"
 msgstr "Últimas 24 horas"
 
 msgid "Last backup job"
-msgstr "Último trabalho de backup"
+msgstr "Última tarefa de backup"
 
 msgid "Last scan"
 msgstr "Última verificação"
 
 msgid "Last successful backup job"
-msgstr "Último backup bem sucedido"
+msgstr "Última tarefa de backup bem-sucedida"
 
 msgid "Last wake event"
 msgstr "Último evento wake"
@@ -3842,13 +3852,13 @@ msgid "Last [...] backups"
 msgstr "Últimos [...] backups"
 
 msgid "Last [...] backups, at most one per day"
-msgstr "Últimas [...] cópias de segurança, no máximo uma por dia"
+msgstr "Últimos [...] backups, no máximo um por dia"
 
 msgid "Last [...] backups, at most one per month"
-msgstr "Últimas [...] cópias de segurança, no máximo uma por mês"
+msgstr "Últimos [...] backups, no máximo um por mês"
 
 msgid "Last [...] backups, at most one per week"
-msgstr "Últimas [...] cópias de segurança, no máximo uma por semana"
+msgstr "Últimos [...] backups, no máximo um por semana"
 
 msgid "Latest"
 msgstr "Mais recente"
@@ -3856,7 +3866,7 @@ msgstr "Mais recente"
 #. / TRANSLATORS: In the software installer, this option lets you to launch the app (e.g. "Launch Comet Backup"). Although, the app might have a custom name.
 #, c-format
 msgid "Launch %s"
-msgstr ""
+msgstr "Iniciar o %s"
 
 #. Definition of "LDAP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol
 msgid "LDAP"
@@ -4374,7 +4384,7 @@ msgid "New Device"
 msgstr "Novo dispositivo"
 
 msgid "New Email Report"
-msgstr ""
+msgstr "Novo relatório de e-mail"
 
 msgid "New Item"
 msgstr "Novo item"
@@ -4595,9 +4605,6 @@ msgstr "Nenhum (apenas adição/atualização)"
 msgid "None (anonymous LDAP bind)"
 msgstr "Nenhum (ligação anónima LDAP)"
 
-msgid "None (Do not send email)"
-msgstr "Nenhum (não enviar e-mail)"
-
 msgid "None (registration disabled)"
 msgstr "Nenhum (registro desativado)"
 
@@ -4712,6 +4719,10 @@ msgid "Office 365 operated by 21Vianet"
 msgstr "Office 365 operado por 21Vianet"
 
 #. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
+msgid "Office 365 protected accounts"
+msgstr ""
+
+#. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 msgid "Office 365 U.S. Government DoD"
 msgstr "Office 365 Departamento de Defesa do Governo dos E.U.A."
 
@@ -4809,7 +4820,7 @@ msgid "Only the selected resources will be backed up"
 msgstr "Apenas será feita cópia de segurança dos recursos selecionados"
 
 msgid "Open Folder"
-msgstr ""
+msgstr "Abrir pasta"
 
 msgid "Open:"
 msgstr "Abrir:"
@@ -5331,9 +5342,16 @@ msgstr "Tamanho dos Backups"
 msgid "Protected Mailboxes"
 msgstr "Caixas de Correio Protegidas"
 
+#. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
+msgid "Protected Office 365 Accounts"
+msgstr ""
+
 #, qt-format
 msgid "Protecting %1"
 msgstr "Fazendo Backup %1"
+
+msgid "Protecting %1 accounts of %2 allowed"
+msgstr ""
 
 msgid "Protecting %1 devices of %2 allowed"
 msgstr "Fazendo Backup de %1 dispositivo(s) de %2 permitido(s)"
@@ -5449,7 +5467,7 @@ msgid "Recent- and incomplete- jobs"
 msgstr "Trabalhos recentes e incompletos"
 
 msgid "Recipients"
-msgstr ""
+msgstr "Destinatários"
 
 msgid "Recommendation: Leave this DISABLED until you are satisfied that the configuration is correct."
 msgstr "Recomendação: deixe DESATIVADO até que esteja satisfeito com a configuração correta."
@@ -5630,7 +5648,7 @@ msgid "Report"
 msgstr "Relatório"
 
 msgid "Report Configuration"
-msgstr ""
+msgstr "Configuração do relatório"
 
 msgid "Report copied to clipboard."
 msgstr "Relatório copiado para a área de transferência."
@@ -5656,7 +5674,7 @@ msgid "Reporting"
 msgstr "Reportando"
 
 msgid "Reporting Options"
-msgstr ""
+msgstr "Opções de relatório"
 
 msgid "Reports"
 msgstr "Relatórios"
@@ -6169,7 +6187,7 @@ msgstr "Selecionar o fuso horário atual do dispositivo"
 
 #. Definition of "ISO": A disk image file format, normally a file with *.iso file extension. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Optical_disc_image
 msgid "Select the target ISO image file:"
-msgstr "Selecionar o arquivo de imagem ISO de destino:"
+msgstr "Selecione o arquivo de imagem ISO de destino:"
 
 msgid "Select version"
 msgstr "Selecione a versão"
@@ -6239,7 +6257,7 @@ msgid "Send immediately once job has completed"
 msgstr "Envie imediatamente assim que o trabalho for concluído"
 
 msgid "Sender Settings"
-msgstr ""
+msgstr "Configurações do Remetente"
 
 msgid "Sending"
 msgstr "Enviando"
@@ -6793,9 +6811,6 @@ msgstr "Macros com suporte:"
 msgid "Suspend"
 msgstr "Suspender"
 
-msgid "Suspend Tenant"
-msgstr "Suspender Locatário"
-
 msgid "Suspended"
 msgstr "Suspenso"
 
@@ -6994,6 +7009,10 @@ msgstr "A função de Constelação é responsável por coordenar tarefas de lim
 msgid "The container will be automatically created if it does not exist."
 msgstr "O contêiner será criado automaticamente se não existir."
 
+#. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
+msgid "The count of protected Office 365 accounts exceeds quota. Reduce the number of Office 365 accounts before retrying."
+msgstr ""
+
 #, c-format
 msgid "The date must be after %s"
 msgstr "A data deve ser posterior a %s"
@@ -7032,10 +7051,10 @@ msgid "The drive '%1' will be formatted. Any data on this drive will be lost. Ar
 msgstr "A unidade '%1' será formatada. Todos os dados nesta unidade serão perdidos. Tem certeza que deseja continuar?"
 
 msgid "The email recipients list cannot be empty"
-msgstr ""
+msgstr "A lista de destinatários de email não pode estar vazia"
 
 msgid "The email report configuration cannot be undefined"
-msgstr ""
+msgstr "A configuração do relatório de email não pode ser indefinida"
 
 msgid "The entire organization"
 msgstr "Toda a organização"
@@ -7076,7 +7095,7 @@ msgstr "Não foi possível compilar a localização"
 
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "The Protected Item has been modified."
-msgstr ""
+msgstr "O Item Protegido foi modificado."
 
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "The Protected Item size was measured by an unsuccessful job, and may be inaccurate."
@@ -7452,7 +7471,7 @@ msgid "Transaction (InnoDB)"
 msgstr "Transação (InnoDB)"
 
 msgid "Transfer"
-msgstr "Transferir"
+msgstr "Transferência"
 
 msgid "Transfer user"
 msgstr "Transferir usuário"
@@ -7604,7 +7623,7 @@ msgid "Unrecognized Protected Item type '%1'"
 msgstr "Tipo de backup não reconhecido '%1'"
 
 msgid "Unsaved changes"
-msgstr ""
+msgstr "Alterações não salvas"
 
 msgid "Unsupported"
 msgstr "Não suportado"
@@ -7678,10 +7697,7 @@ msgid "USB Recovery Media"
 msgstr "Mídia de recuperação USB"
 
 msgid "Use commas to separate multiple values"
-msgstr ""
-
-msgid "Use existing server"
-msgstr "Usar servidor existente"
+msgstr "Usar vírgulas para separar vários valores"
 
 #. Definition of "SSL": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Transport_Layer_Security
 msgid "Use SSL protocol"
@@ -8012,7 +8028,7 @@ msgid "Wednesday"
 msgstr "Quarta-feira"
 
 msgid "Weekly"
-msgstr "Semanal"
+msgstr "Semanalmente"
 
 msgid "Weeks"
 msgstr "Semanas"

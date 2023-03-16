@@ -311,7 +311,7 @@ msgstr "Abgebrochen"
 #. To be consistent, translate 'Job' as: Aufgabe, Auftrag (Depends on context!)
 #. To be consistent, translate 'Quota' as: Kontigent
 msgid "Abandoning backup job (Office 365 account quota exceeded)"
-msgstr ""
+msgstr "Sicherungsauftrag wird abgebrochen (Office 365 Benutzerkotenkontingent wurde überschritten)"
 
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 #. To be consistent, translate 'Abandoning' as: Abbrechen, Aufgeben, Verlassen (Depends on context!)
@@ -433,7 +433,7 @@ msgid "Activity"
 msgstr "Aktivität"
 
 msgid "Activity By Day"
-msgstr ""
+msgstr "Aktivität nach Tag"
 
 msgid "Add"
 msgstr "Hinzufügen"
@@ -465,7 +465,7 @@ msgid "Add and manage admin users for this tenant"
 msgstr "Administratorbenutzer für diesen Mandanten hinzufügen und verwalten"
 
 msgid "Add and manage email reporting options"
-msgstr ""
+msgstr "E-Mail-Berichtsoptionen hinzufügen und verwalten"
 
 #. Definition of "PSA": An acroynm for Professional Services Automation, a kind of business software for managing customers. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Professional_services_automation
 msgid "Add and manage external PSA services"
@@ -651,6 +651,9 @@ msgstr "Nach der Aufgabe"
 msgid "ago"
 msgstr "vor"
 
+msgid "Alerts"
+msgstr ""
+
 msgid "All"
 msgstr "Alle"
 
@@ -731,7 +734,7 @@ msgid "All Storage Vaults"
 msgstr "Alle Speicherorte"
 
 msgid "All time"
-msgstr ""
+msgstr "Gesamte Zeit"
 
 #. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
 #. Definition of "VMs": Abbreviation of 'Virtual Machines'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
@@ -775,10 +778,10 @@ msgid "Allow editing Constellation settings"
 msgstr "Bearbeitung der Konstellationseinstellungen zulassen"
 
 msgid "Allow editing email options"
-msgstr ""
+msgstr "Bearbeitung von E-Mail-Optionen zulassen"
 
 msgid "Allow editing remote storage settings"
-msgstr "Bearbeitung von Remote-Speichereinstellungen erlauben"
+msgstr "Bearbeitung von Remote-Speichereinstellungen zulassen"
 
 msgid "Allow editing webhook settings"
 msgstr "Bearbeitung der Webhook-Einstellungen zulassen"
@@ -1162,12 +1165,6 @@ msgstr "Authentifizierungsüberprüfung bestanden"
 msgid "Authenticator type"
 msgstr "Authentifizierungstyp"
 
-msgid "Authenticode"
-msgstr "Authenticode"
-
-msgid "Authenticode EV"
-msgstr "Authenticode EV"
-
 msgid "Auto refresh"
 msgstr "Automatisch aktualisieren"
 
@@ -1187,6 +1184,14 @@ msgstr "Aktives Azure-Verzeichnis"
 #. Definition of "Azure": This is a cloud computing service from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Azure
 msgid "Azure Blob Storage"
 msgstr "Azure Blob Storage"
+
+#. Definition of "Azure": This is a cloud computing service from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Azure
+msgid "Azure Key Vault"
+msgstr ""
+
+#. Definition of "Azure": This is a cloud computing service from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Azure
+msgid "Azure Key Vault name"
+msgstr ""
 
 msgid "B"
 msgstr "B"
@@ -1512,6 +1517,9 @@ msgstr "CC:"
 
 msgid "Certificate"
 msgstr "Zertifikat"
+
+msgid "Certificate name"
+msgstr ""
 
 msgid "Certificate Password"
 msgstr "Zertifikats-Kennwort"
@@ -1846,8 +1854,8 @@ msgid "Constellation Role"
 msgstr "Constellation-Rolle"
 
 #. Definition of "Constellation": This terminology is specific to Comet Backup. It is a clustering feature, that looks at multiple servers.
-msgid "Constellation Role performs maintenance and cleanup of all unused backup data managed by Storage Role across all servers configured as targets."
-msgstr "Constellation Role führt die Wartung und Bereinigung aller ungenutzten Sicherungsdaten durch, die von Storage Role auf allen als Ziele konfigurierten Servern verwaltet werden."
+msgid "Constellation Role performs maintenance and cleanup of all unused backup data no longer associated with any user, across all servers and remote Storage Templates configured as targets."
+msgstr ""
 
 #. Definition of "Constellation": This terminology is specific to Comet Backup. It is a clustering feature, that looks at multiple servers.
 msgid "Constellation Role should manage data across the following servers:"
@@ -2037,10 +2045,6 @@ msgstr "Datenbanken konnten nicht aufgelistet werden"
 #, c-format
 msgid "Couldn't load <%s/%s> for subdirectory '%s': %s"
 msgstr "<%s/%s> für Unterverzeichnis '%s' konnte nicht geladen werden: %s"
-
-#, c-format
-msgid "Couldn't load component '%s': (%s)"
-msgstr "Konnte Komponente nicht laden '%s': (%s)"
 
 msgid "Couldn't load news"
 msgstr "Nachrichten konnten nicht geladen werden"
@@ -2471,6 +2475,10 @@ msgstr "Eintrag löschen"
 msgid "Delete items"
 msgstr "Elemente löschen"
 
+#. To be consistent, translate 'Snapshot' as: Snapshot (German translation makes no sense)
+msgid "Delete multiple snapshots"
+msgstr ""
+
 msgid "Delete Now"
 msgstr "Jetzt löschen"
 
@@ -2482,7 +2490,7 @@ msgstr "Zeitplan löschen"
 
 #. To be consistent, translate 'Snapshot' as: Snapshot (German translation makes no sense)
 msgid "Delete selected snapshots"
-msgstr ""
+msgstr "Ausgewählte Snapshots löschen"
 
 #. To be consistent, translate 'Snapshot' as: Snapshot (German translation makes no sense)
 msgid "Delete snapshot"
@@ -2596,7 +2604,7 @@ msgid "Disabled"
 msgstr "Deaktiviert"
 
 msgid "Disabled (Do not send email)"
-msgstr ""
+msgstr "Deaktiviert (keine E-Mail senden)"
 
 msgid "Disabled advanced settings."
 msgstr "Deaktivierte erweiterte Einstellungen."
@@ -2643,7 +2651,7 @@ msgid "Do you want to continue?"
 msgstr "Möchen Sie fortfahren?"
 
 msgid "Do you want to save your changes?"
-msgstr ""
+msgstr "Möchten Sie Ihre Änderungen speichern?"
 
 msgid "Documents"
 msgstr "Dokumente"
@@ -2756,9 +2764,6 @@ msgstr "Dynamisches Volumen"
 msgid "e.g."
 msgstr "z.B."
 
-msgid "e.g. KEY:SLOT"
-msgstr "z.B. KEY:SLOT"
-
 msgid "Each Tenant has their own Admin Users."
 msgstr "Jeder Mandant hat seine eigenen Admin-Benutzer."
 
@@ -2780,7 +2785,7 @@ msgid "Edit description..."
 msgstr "Beschreibung bearbeiten"
 
 msgid "Edit Email Report"
-msgstr ""
+msgstr "E-Mail-Bericht bearbeiten"
 
 msgid "Edit item"
 msgstr "Eintrag bearbeiten"
@@ -2865,10 +2870,10 @@ msgid "Email Report"
 msgstr "E-Mail-Bericht"
 
 msgid "Email Reporting"
-msgstr ""
+msgstr "E-Mail-Berichterstattung"
 
 msgid "Email Reporting Option"
-msgstr ""
+msgstr "Optionen zur E-Mail-Berichterstattung"
 
 msgid "Email reports"
 msgstr "E-Mail-Berichte"
@@ -2901,10 +2906,10 @@ msgstr "Leer"
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 #. To be consistent, translate 'Protected Item' as: Geschütztes Element
 msgid "Empty Protected Item"
-msgstr ""
+msgstr "Leeres geschütztes Element"
 
 msgid "Enable and configure email reports on the status of your users' backups"
-msgstr ""
+msgstr "Aktivieren und konfigurieren Sie E-Mail-Berichte zum Status der Sicherungen Ihrer Benutzer"
 
 msgid "Enable Authentication Role"
 msgstr "Authentifizierungsrolle aktivieren"
@@ -3322,6 +3327,9 @@ msgstr "Feld sollte nicht leer sein"
 msgid "File"
 msgstr "Datei"
 
+msgid "File (PKCS#12)"
+msgstr ""
+
 msgid "File Path"
 msgstr "Dateipfad"
 
@@ -3551,10 +3559,10 @@ msgid "group name"
 msgstr "Gruppenname"
 
 msgid "Grouped status report"
-msgstr ""
+msgstr "Gruppierter Statusbericht"
 
 msgid "Grouped Status Report"
-msgstr ""
+msgstr "Gruppierter Statusbericht"
 
 msgid "Groups"
 msgstr "Gruppen"
@@ -3789,7 +3797,7 @@ msgid "Information"
 msgstr "Information(en)"
 
 msgid "Inherit from parent tenant"
-msgstr ""
+msgstr "Übernehmen vom übergeordneten Mandanten"
 
 msgid "Initialized"
 msgstr "Initialisiert"
@@ -3862,10 +3870,6 @@ msgstr "Sicherungsauftrag wird unterbrochen (Speicherortkapazität von %s übers
 #, c-format
 msgid "Interrupting backup job (exceeded time limit of %s)"
 msgstr "Sicherungsauftrag wird unterbrochen (Zeitlimit von %s überschritten)"
-
-#, c-format
-msgid "Invalid archive file format (should be: %s)."
-msgstr "Ungültiges Archivdateiformat (sollte sein: %s)."
 
 msgid "Invalid authentication"
 msgstr "Ungültige Anmeldung"
@@ -4144,7 +4148,7 @@ msgstr "Letzte"
 #. / TRANSLATORS: In the software installer, this option lets you to launch the app (e.g. "Launch Comet Backup"). Although, the app might have a custom name.
 #, c-format
 msgid "Launch %s"
-msgstr ""
+msgstr "Starte %s"
 
 #. Definition of "LDAP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol
 msgid "LDAP"
@@ -4678,7 +4682,7 @@ msgid "New Device"
 msgstr "Neues Gerät"
 
 msgid "New Email Report"
-msgstr ""
+msgstr "Neuer E-Mail-Bericht"
 
 msgid "New Item"
 msgstr "Neuer Eintrag"
@@ -4766,7 +4770,7 @@ msgid "No accounts selected"
 msgstr "Keine Benutzerkonten ausgewählt"
 
 msgid "No Activity"
-msgstr ""
+msgstr "Keine Aktivität"
 
 msgid "No additional detail"
 msgstr "Kein zusätzliches Detail"
@@ -4806,7 +4810,7 @@ msgstr "Für die Sicherung wurden keine Datenbankeinträge ausgewählt."
 
 #. To be consistent, translate 'Device' as: Gerät
 msgid "No Devices"
-msgstr ""
+msgstr "Keine Geräte"
 
 msgid "No encryption key is available"
 msgstr "Kein Verschlüsselungscode verfügbar"
@@ -4867,7 +4871,7 @@ msgstr "Es sind keine geschützten Objekttypen verfügbar."
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 #. To be consistent, translate 'Protected Item' as: Geschütztes Element
 msgid "No Protected Items"
-msgstr ""
+msgstr "Keine geschützten Elemente"
 
 msgid "No recovery image features are available on your PC."
 msgstr "Auf Ihrem PC sind keine Wiederherstellungsabbild-Funktionen verfügbar."
@@ -4899,7 +4903,7 @@ msgid "No Storage Vaults are available for restore."
 msgstr "Für die Wiederherstellung stehen keine Datentresore zur Verfügung."
 
 msgid "No time span selected for report! This may cause overly large reports."
-msgstr ""
+msgstr "Kein Zeitraum für Bericht ausgewählt! Dies kann zu übermäßig großen Berichten führen"
 
 msgid "No users found"
 msgstr "Keine Benutzer gefunden"
@@ -4990,7 +4994,7 @@ msgstr "Hinweis"
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 #. To be consistent, translate 'Protected Item' as: Geschütztes Element
 msgid "Nothing has been added to the Protected Item."
-msgstr ""
+msgstr "Dem geschützten Element wurde nichts hinzugefügt."
 
 #, c-format
 msgid "Notice for '%s': size changed during backup (expected %d bytes, got %d)"
@@ -5051,7 +5055,7 @@ msgstr "Office 365 betrieben von 21Vianet"
 #. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 #. To be consistent, translate 'Account' as: Benutzerkonto
 msgid "Office 365 protected accounts"
-msgstr ""
+msgstr "Office 365 geschützte Benutzerkonten"
 
 #. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 msgid "Office 365 U.S. Government DoD"
@@ -5155,7 +5159,7 @@ msgid "Only the selected resources will be backed up"
 msgstr "Nur die ausgewählten Ressourcen werden gesichert"
 
 msgid "Open Folder"
-msgstr ""
+msgstr "Ordner öffnen"
 
 msgid "Open:"
 msgstr "Offen:"
@@ -5390,7 +5394,7 @@ msgstr "Plattform"
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 #. To be consistent, translate 'Protected Item' as: Geschütztes Element
 msgid "Please add items to the Protected Item."
-msgstr ""
+msgstr "Bitte fügen Sie Elemente zum geschützten Element hinzu."
 
 #. To be consistent, translate 'Device' as: Gerät
 msgid "Please bring this device online"
@@ -5409,6 +5413,10 @@ msgstr "Bitte wenden Sie sich an Ihren Support-Mitarbeiter für weitere Informat
 
 msgid "Please edit the date and time below, to fit your current local time zone."
 msgstr "Bitte bearbeiten Sie das Datum und die Uhrzeit unten, um sie an Ihre aktuelle lokale Zeitzone anzupassen."
+
+#, c-format
+msgid "Please enter a full path to the output archive file, using a supported file extension (%s)."
+msgstr ""
 
 msgid "Please enter a hostname or IP address for this Tenant:"
 msgstr "Bitte geben Sie einen Hostnamen oder eine IP-Adresse für diesen Mandanten ein:"
@@ -5609,19 +5617,19 @@ msgid "Previous"
 msgstr "Zurück"
 
 msgid "Previous day"
-msgstr ""
+msgstr "Voriger Tag"
 
 msgid "Previous hour"
-msgstr ""
+msgstr "Vorige Stunde"
 
 msgid "Previous month"
-msgstr ""
+msgstr "Voriger Monat"
 
 msgid "Previous week"
-msgstr ""
+msgstr "Vorige Woche"
 
 msgid "Previous year"
-msgstr ""
+msgstr "Voriges Jahr"
 
 msgid "Primary"
 msgstr "Primär"
@@ -5743,7 +5751,7 @@ msgstr "Geschützte Mailboxen"
 #. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 #. To be consistent, translate 'Account' as: Benutzerkonto
 msgid "Protected Office 365 Accounts"
-msgstr ""
+msgstr "Geschützte Office 365 Benutzerkonten"
 
 #, qt-format
 msgid "Protecting %1"
@@ -5751,7 +5759,7 @@ msgstr "%1 wird geschützt"
 
 #. To be consistent, translate 'Account' as: Benutzerkonto
 msgid "Protecting %1 accounts of %2 allowed"
-msgstr ""
+msgstr "Schützen von %1 Konten von %2 erlaubten"
 
 #. To be consistent, translate 'Device' as: Gerät
 msgid "Protecting %1 devices of %2 allowed"
@@ -5873,17 +5881,17 @@ msgid "Recent Activity"
 msgstr "Letzte Aktivität"
 
 msgid "Recent activity report"
-msgstr ""
+msgstr "Bericht über die letzten Aktivitäten"
 
 msgid "Recent Activity Report"
-msgstr ""
+msgstr "Bericht über die letzten Aktivitäten"
 
 #. To be consistent, translate 'Job' as: Aufgabe, Auftrag (Depends on context!)
 msgid "Recent- and incomplete- jobs"
 msgstr "Aktuelle - und unvollständige - Aufgaben"
 
 msgid "Recipients"
-msgstr ""
+msgstr "Empfänger"
 
 msgid "Recommendation: Leave this DISABLED until you are satisfied that the configuration is correct."
 msgstr "Empfehlung: Lassen Sie dies DEAKTIVIERT, bis Sie sicher sind, dass die Konfiguration korrekt ist."
@@ -6074,7 +6082,7 @@ msgid "Report"
 msgstr "Bericht"
 
 msgid "Report Configuration"
-msgstr ""
+msgstr "Berichtskonfiguration"
 
 msgid "Report copied to clipboard."
 msgstr "Bericht in die Zwischenablage kopiert."
@@ -6100,7 +6108,7 @@ msgid "Reporting"
 msgstr "Berichterstattung"
 
 msgid "Reporting Options"
-msgstr ""
+msgstr "Berichterstattungsoptionen"
 
 msgid "Reports"
 msgstr "Berichte"
@@ -6151,11 +6159,11 @@ msgstr "Stellen Sie ausgewählte Dateien und Ordner wieder her. Wählen Sie dies
 
 #. Definition of "Hyper-V": This is a Virtual Machine hosting platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Hyper-V
 msgid "Restore any selected virtual machines in their original Hyper-V file formats. Select this option if you intend to re-import into Hyper-V, or to restore the virtual hard disk files alone."
-msgstr ""
+msgstr "Stellen Sie ausgewählte virtuelle Maschinen in ihren ursprünglichen Hyper-V-Dateiformaten wieder her. Wählen Sie diese Option, wenn Sie beabsichtigen, erneut in Hyper-V zu importieren oder um nur die virtuellen Festplattendateien wiederherzustellen."
 
 #. Definition of "Hyper-V": This is a Virtual Machine hosting platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Hyper-V
 msgid "Restore as Hyper-V virtual hard disk files"
-msgstr ""
+msgstr "Als virtuelle Hyper-V-Festplattendateien wiederherstellen"
 
 msgid "Restore as virtual disk files"
 msgstr "Als virtuelle Festplattendateien wiederherstellen"
@@ -6617,16 +6625,13 @@ msgstr "Geschützte Mailboxen auswählen"
 msgid "Select Protected Sites"
 msgstr "Geschützte Seiten auswählen"
 
-msgid "Select Services"
-msgstr "Dienste auswählen"
-
 #. To be consistent, translate 'Snapshot' as: Snapshot (German translation makes no sense)
 msgid "Select snapshots"
 msgstr "Schnappschüsse auswählen"
 
 #. To be consistent, translate 'Snapshot' as: Snapshot (German translation makes no sense)
 msgid "Select snapshots to delete"
-msgstr ""
+msgstr "Zu löschende Schnappschüsse auswählen"
 
 msgid "Select Storage Location"
 msgstr "Speicherort auswählen"
@@ -6649,7 +6654,7 @@ msgid "Select the target ISO image file:"
 msgstr "Ziel-ISO-Image-Datei auswählen:"
 
 msgid "Select this option to extract individual files and/or folders from virtual hard disk files. If a virtual disk in the selected backup has any additional checkpoints configured, only the oldest checkpoint will support access for single-file restore."
-msgstr ""
+msgstr "Wählen Sie diese Option, um einzelne Dateien und/oder Ordner aus virtuellen Festplattendateien zu extrahieren. Wenn für eine virtuelle Festplatte in der ausgewählten Sicherung zusätzliche Checkpoints konfiguriert sind, unterstützt nur der älteste Checkpoint den Zugriff für die Wiederherstellung einzelner Dateien"
 
 msgid "Select version"
 msgstr "Version auswählen"
@@ -6722,7 +6727,7 @@ msgid "Send immediately once job has completed"
 msgstr "Sofort nach Abschluss des Auftrages senden"
 
 msgid "Sender Settings"
-msgstr ""
+msgstr "Absendereinstellungen"
 
 msgid "Sending"
 msgstr "Sende"
@@ -6958,8 +6963,14 @@ msgstr "Überspringe Sicherungsset '%s' für andere Maschine '%s'"
 msgid "Skipping cleanup (this Storage Vault is being cleaned up simultaneously)"
 msgstr "Überspringe Bereinigung (dieser Speicherort wird gleichzeitig bereinigt)"
 
+msgid "Slot ID"
+msgstr ""
+
 msgid "Smaller filesize"
 msgstr "Kleinere Dateigröße"
+
+msgid "Smartcard (PKCS#11)"
+msgstr ""
 
 #. Definition of "SMTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol
 msgid "SMTP Server"
@@ -6975,7 +6986,7 @@ msgstr "Snapshot- Kontinuität"
 
 #. To be consistent, translate 'Snapshot' as: Snapshot (German translation makes no sense)
 msgid "Snapshot ID"
-msgstr ""
+msgstr "Snapshot-ID"
 
 #. To be consistent, translate 'Snapshot' as: Snapshot (German translation makes no sense)
 msgid "Snapshot identifier (optional)"
@@ -7143,7 +7154,7 @@ msgid "Status"
 msgstr "Status"
 
 msgid "Status Colors"
-msgstr ""
+msgstr "Statusfarben"
 
 msgid "Stay logged in for"
 msgstr "Angemeldet bleiben für"
@@ -7276,7 +7287,7 @@ msgid "Success"
 msgstr "Erfolg"
 
 msgid "Successful"
-msgstr ""
+msgstr "Erfolgreich"
 
 #. Definition of "ISO": A disk image file format, normally a file with *.iso file extension. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Optical_disc_image
 #, c-format
@@ -7290,14 +7301,14 @@ msgstr "Erfolgreich bootfähiges USB-Wiederherstellungsmedium auf Laufwerk %s er
 msgid "Successfully registered the application credentials."
 msgstr "Die Anmeldedaten der Anwendung wurden erfolgreich registriert."
 
+msgid "Summary"
+msgstr "Zusammenfassung"
+
 msgid "Summary report"
-msgstr ""
+msgstr "Zusammenfassender Bericht"
 
 msgid "Summary table"
 msgstr "Übersichtstabelle"
-
-msgid "Summary:"
-msgstr ""
 
 msgid "Sun"
 msgstr "So"
@@ -7312,7 +7323,7 @@ msgid "Suspend"
 msgstr "Aussetzen"
 
 msgid "Suspend Tenant"
-msgstr ""
+msgstr "Mandant aussetzen"
 
 msgid "Suspended"
 msgstr "Ausgesetzt"
@@ -7325,6 +7336,10 @@ msgstr "Jetzt synchronisieren"
 
 msgid "Synchronize the timezone"
 msgstr "Zeitzone synchronisieren"
+
+#. Definition of "Synology": A company that makes NAS storage devices. If an official translation is available, it should be used. https://www.synology.com/
+msgid "Synology"
+msgstr ""
 
 msgid "Syntax error"
 msgstr "Syntaxfehler"
@@ -7414,11 +7429,11 @@ msgstr "Beenden"
 msgid "Terminate process"
 msgstr "Prozess beenden"
 
+msgid "Test"
+msgstr "Test"
+
 msgid "Test Connection"
 msgstr "Verbindung testen"
-
-msgid "Test..."
-msgstr "Test..."
 
 msgid "Text files (*.txt)"
 msgstr "Textdateien (*.txt)"
@@ -7525,7 +7540,7 @@ msgstr "Der Container wird falls er nicht existiert, automatisch erstellt."
 #. To be consistent, translate 'Account' as: Benutzerkonto
 #. To be consistent, translate 'Quota' as: Kontigent
 msgid "The count of protected Office 365 accounts exceeds quota. Reduce the number of Office 365 accounts before retrying."
-msgstr ""
+msgstr "Die Anzahl der geschützten Office 365-Benutzerkonten überschreitet das Kontingent. Reduzieren Sie die Anzahl der Office 365-Benutzerkonten, bevor Sie es erneut versuchen"
 
 #, c-format
 msgid "The date must be after %s"
@@ -7570,10 +7585,10 @@ msgid "The drive '%1' will be formatted. Any data on this drive will be lost. Ar
 msgstr "Das Laufwerk '%1' wird formatiert. Alle Daten auf diesem Laufwerk gehen verloren. Sind Sie sicher, dass Sie fortfahren wollen?"
 
 msgid "The email recipients list cannot be empty"
-msgstr ""
+msgstr "Die E-Mail-Empfängerliste darf nicht leer sein"
 
 msgid "The email report configuration cannot be undefined"
-msgstr ""
+msgstr "Die E-Mail-Berichtskonfiguration darf nicht undefiniert sein"
 
 msgid "The entire organization"
 msgstr "Die gesamte Organisation"
@@ -7618,7 +7633,7 @@ msgstr "Der Pfad konnte nicht kompiliert werden"
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 #. To be consistent, translate 'Protected Item' as: Geschütztes Element
 msgid "The Protected Item has been modified."
-msgstr ""
+msgstr "Das geschützte Element wurde modifiziert."
 
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 #. To be consistent, translate 'Job' as: Aufgabe, Auftrag (Depends on context!)
@@ -7887,10 +7902,10 @@ msgid "This page has been refreshed since performing this search."
 msgstr "Diese Seite wurde während der Durchfühurng der Suche aktualisiert."
 
 msgid "This partition is not a NTFS data partition"
-msgstr ""
+msgstr "Diese Partition ist keine NTFS-Datenpartition"
 
 msgid "This partition is not a NTFS data partition or it has unsupported sector or cluster size."
-msgstr ""
+msgstr "Diese Partition ist keine NTFS-Datenpartition oder hat eine nicht unterstützte Sektor- oder Clustergröße."
 
 msgid "This partition uses a filesystem that is not supported for individual file restore."
 msgstr "Diese Partition verwendet ein Dateisystem, das zur Wiederherstellung einzelner Dateien nicht unterstützt wird."
@@ -7962,13 +7977,13 @@ msgid "Time since job start"
 msgstr "Vergangene Zeit seit dem Start der Aufgabe"
 
 msgid "Time span to report on"
-msgstr ""
+msgstr "Zeitspanne, über die berichtet werden soll"
 
 msgid "Timed out"
 msgstr "Zeitüberschreitung"
 
 msgid "Timeout"
-msgstr ""
+msgstr "Zeitüberschreitung"
 
 msgid "Timezone"
 msgstr "Zeitzone"
@@ -8019,7 +8034,7 @@ msgstr "Anzahl Aufgaben"
 
 #. To be consistent, translate 'Job' as: Aufgabe, Auftrag (Depends on context!)
 msgid "Total Jobs"
-msgstr ""
+msgstr "Aufgaben insgesamt"
 
 msgid "Total members:"
 msgstr "Mitglieder insgesamt:"
@@ -8215,7 +8230,7 @@ msgid "Unrecognized Protected Item type '%1'"
 msgstr "Nicht erkannter Quelltyp '%1'"
 
 msgid "Unsaved changes"
-msgstr ""
+msgstr "Nicht gespeicherte Änderungen"
 
 msgid "Unsupported"
 msgstr "Nicht unterstützt"
@@ -8290,7 +8305,7 @@ msgid "USB Recovery Media"
 msgstr "USB-Wiederherstellungsmedium"
 
 msgid "Use commas to separate multiple values"
-msgstr ""
+msgstr "Verwenden Sie Kommas, um mehrere Werte zu trennen"
 
 #. Definition of "SSL": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Transport_Layer_Security
 msgid "Use SSL protocol"
@@ -8813,11 +8828,11 @@ msgstr "Sie haben eine Laufwerk-Image-Sicherung für die Wiederherstellung ausge
 
 #. Definition of "Hyper-V": This is a Virtual Machine hosting platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Hyper-V
 msgid "You have selected a Hyper-V backup for restore."
-msgstr ""
+msgstr "Sie haben eine Hyper-V-Sicherung zur Wiederherstellung ausgewählt."
 
 #. Definition of "Hyper-V": This is a Virtual Machine hosting platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Hyper-V
 msgid "You have selected a Hyper-V image backup for restore."
-msgstr ""
+msgstr "Sie haben eine Hyper-V-Image-Sicherung zur Wiederherstellung ausgewählt"
 
 #. To be consistent, translate 'Account' as: Benutzerkonto
 msgid "You must choose a group account to view its members"

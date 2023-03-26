@@ -26,22 +26,22 @@ We will include your translation in the next available version of Comet.
 
 ## Current translation coverage
 
-*Table last regenerated 2023-03-22*
+*Table last regenerated 2023-03-27*
 
 |Code    |Language              |Untranslated (English) words |Translated Words |Translated Phrases |Translation percent
 |--------|----------------------|-----------------------------|-----------------|-------------------|--------------------
-|`-`     |English               |0                            |10763            |2470               |  100.00
-|`da_DK` |Dansk‬                |395                          |10089            |2397               |   97.04
-|`de_DE` |Deutsch               |63                           |10283            |2459               |   99.55
-|`es_ES` |Español               |63                           |13199            |2459               |   99.55
-|`fr_FR` |Français              |63                           |13228            |2459               |   99.55
-|`he_IL` |עברית‬                 |74                           |10383            |2457               |   99.47
-|`hr_HR` |Hrvatski              |63                           |10320            |2459               |   99.55
-|`it_IT` |Italiano              |63                           |12122            |2459               |   99.55
-|`nl_NL` |Nederlands            |63                           |10445            |2459               |   99.55
-|`pl_PL` |Polski                |63                           |10596            |2459               |   99.55
-|`pt_BR` |Português (Brasil)    |63                           |12305            |2459               |   99.55
-|`pt_PT` |Português (Europa)    |63                           |12177            |2459               |   99.55
-|`ru_RU` |Русский               |64                           |10578            |2458               |   99.51
-|`th_TH` |ภาษาไทย‬              |63                           |5002             |2459               |   99.55
-|`zh_TW` |中文 (繁體)               |9618                         |465              |411                |   16.64
+|`-`     |English               |0                            |10773            |2474               |  100.00
+|`da_DK` |Dansk‬                |74                           |10388            |2458               |   99.35
+|`de_DE` |Deutsch               |74                           |10282            |2458               |   99.35
+|`es_ES` |Español               |74                           |13198            |2458               |   99.35
+|`fr_FR` |Français              |74                           |13227            |2458               |   99.35
+|`he_IL` |עברית‬                 |85                           |10382            |2456               |   99.27
+|`hr_HR` |Hrvatski              |74                           |10319            |2458               |   99.35
+|`it_IT` |Italiano              |74                           |12121            |2458               |   99.35
+|`nl_NL` |Nederlands            |74                           |10444            |2458               |   99.35
+|`pl_PL` |Polski                |74                           |10595            |2458               |   99.35
+|`pt_BR` |Português (Brasil)    |74                           |12304            |2458               |   99.35
+|`pt_PT` |Português (Europa)    |74                           |12176            |2458               |   99.35
+|`ru_RU` |Русский               |75                           |10577            |2457               |   99.31
+|`th_TH` |ภาษาไทย‬              |74                           |5001             |2458               |   99.35
+|`zh_TW` |中文 (繁體)               |9628                         |465              |411                |   16.61

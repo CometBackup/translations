@@ -247,9 +247,16 @@ msgstr "Bucket คือตำแหน่งที่ตั้งในกา�
 msgid "A component in the VSS writer failed"
 msgstr "องค์ประกอบในตัว VSS writer ล้มเหลว"
 
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "A default Protected Item with a schedule will end up with two schedules if this option is used, one from the default Protected Item, one from this."
+msgstr ""
+
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "A file that was successfully stored in the Storage Vault did not appear when listing directory content."
 msgstr "ไฟล์ที่ถูกเก็บใน Storage Vault สำเร็จแล้วไม่ปรากฎเมื่อมีการลิสต์ดูในเนื้อหาไดเรกทอรี"
+
+msgid "A summary of the restrictions enforced by this policy."
+msgstr ""
 
 msgid "A tenant can be available on multiple hostnames. Hostnames should be unique to this tenant."
 msgstr "Tenant สามารถอยู่ได้ในหลาย hostname โดย hostname ควรจะไม่ซ้ำกันใน tenant นี้"
@@ -312,6 +319,9 @@ msgstr "เกี่ยวกับเซิร์ฟเวอร์นี้"
 msgid "About this Server"
 msgstr "เกี่ยวกับเซิร์ฟเวอร์นี้"
 
+msgid "Accent color"
+msgstr ""
+
 #. Definition of "FTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/File_Transfer_Protocol
 #. Definition of "SSL": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Transport_Layer_Security
 msgid "Accept invalid SSL certificate from the FTP server"
@@ -342,6 +352,9 @@ msgstr "บัญชี"
 
 msgid "Account"
 msgstr "บัญชี"
+
+msgid "Account ID"
+msgstr ""
 
 msgid "Account key"
 msgstr "รหัสบัญชี"
@@ -903,11 +916,18 @@ msgstr "สมัครนโยบาย"
 msgid "Apply retention policy after backup"
 msgstr "ใช้นโยบายการเก็บรักษาหลังจากสำรองข้อมูล"
 
+msgid "Apply retention rules"
+msgstr ""
+
 msgid "Apply retention rules now"
 msgstr "ใช้กฎการเก็บรักษาทันที"
 
 msgid "Apply to"
 msgstr "ใช้กับ"
+
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "Apply to all new Protected Items"
+msgstr ""
 
 #, c-format
 msgid "Applying %d change(s)..."
@@ -915,9 +935,6 @@ msgstr "กำลังใช้การเปลี่ยนแปลง %d �
 
 msgid "Applying all customizations to the Recovery Media..."
 msgstr "กำลังใช้การปรับแต่งทั้งหมดกับ Recovery Media..."
-
-msgid "Applying changes..."
-msgstr "กำลังใช้การเปลี่ยนแปลง..."
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Applying your retention policy more often helps keep your Storage Vault size at a minimum, but it requires more time, CPU and bandwidth to complete. \"Automatic\" is a balanced choice that runs a retention pass only once there is a noticeable benefit to doing so."
@@ -945,6 +962,10 @@ msgstr "คุณแน่ใจหรือไม่ว่าต้องกา
 
 msgid "Are you sure you want to continue?"
 msgstr "คุณแน่ใจว่า คุณต้องการทำต่อหรือไม่?"
+
+#, c-format
+msgid "Are you sure you want to delete %d snapshot(s)?"
+msgstr ""
 
 msgid "Are you sure you want to delete this bucket?"
 msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบ Bucket นี้"
@@ -1038,6 +1059,9 @@ msgstr "มีความยาวอย่างน้อย 8 ตัวอั
 msgid "At least one of..."
 msgstr "อย่างน้อยหนึ่งใน..."
 
+msgid "At least one Span Target is required"
+msgstr ""
+
 msgid "August"
 msgstr "สิงหาคม"
 
@@ -1080,9 +1104,23 @@ msgstr "อัตโนมัติ (ชี้ไปที่เซิร์ฟ�
 msgid "Automatic authentication:"
 msgstr "Authentication โดยอัตโนมัติ:"
 
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+#, c-format
+msgid "Available Protected Item types restricted to %s"
+msgstr ""
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, c-format
+msgid "Available Storage Vault types restricted to %s"
+msgstr ""
+
 #. Definition of "Azure": This is a cloud computing service from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Azure
 msgid "Azure Active Directory"
 msgstr "Azure Active Directory"
+
+#. Definition of "Azure": This is a cloud computing service from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Azure
+msgid "Azure base URL"
+msgstr ""
 
 #. Definition of "Azure": This is a cloud computing service from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Azure
 msgid "Azure Blob Storage"
@@ -1201,9 +1239,6 @@ msgstr "ก่อนเริ่มงาน ขนาดของ Storage Vault
 #. Used by the search system to create custom searches. "[USERNAME] begins with [PREFIX]
 msgid "begins with"
 msgstr "เริ่มต้นด้วย"
-
-msgid "Boosters"
-msgstr "Boosters"
 
 msgid "Branding"
 msgstr "การสร้างแบรนด์"
@@ -1441,9 +1476,6 @@ msgstr "เลือกเวลาที่งานสำรองข้อม
 msgid "Circular logging is enabled, incremental/differential backups may not perform truncation."
 msgstr "เปิดใช้งานการบันทึกแบบวงกลม การสำรองข้อมูลส่วนเพิ่ม/ส่วนต่างอาจไม่ทำการตัดทอน"
 
-msgid "Classification"
-msgstr "การจัดหมวดหมู่"
-
 #, c-format
 msgid "Cleaning up %s snapshot..."
 msgstr "กำลัง Cleanup สแนปชอต %s..."
@@ -1621,6 +1653,9 @@ msgstr "กำหนดค่าคุณสมบัติต่างๆเก
 msgid "Configure network interface(s) for this server to be available on:"
 msgstr "กำหนดค่าเน็ตเวิร์คอินเตอร์เฟสสำหรับเซิร์ฟเวอร์นี้ให้ใช้งานได้ที่:"
 
+msgid "Configure Now"
+msgstr ""
+
 msgid "Configure properties for the new Bulk Update campaign:"
 msgstr "กำหนดค่าคุณสมบัติสำหรับแคมเปญแบบ Bulk Update ใหม่:"
 
@@ -1662,6 +1697,10 @@ msgstr "ยืนยันรหัสผ่าน"
 
 msgid "Confirm selection"
 msgstr "ยืนยันการเลือก"
+
+#, c-format
+msgid "Confirm transfer of User '%s' to Tenant '%s'"
+msgstr ""
 
 msgid "Connect to a remote macOS machine"
 msgstr "เชื่อมต่อกับเครื่อง macOS ระยะไกล"
@@ -2118,8 +2157,8 @@ msgid "Custom mysqldump path"
 msgstr "พาธ mysqldump ที่กำหนดเอง"
 
 #. Definition of "known_hosts": This is the name of a file in the OpenSSH program. It should not be translated. https://man.openbsd.org/ssh
-msgid "Custom path to known_hosts file..."
-msgstr "พาธที่กำหนดเองไปยังไฟล์ known_hosts..."
+msgid "Custom path to known_hosts file"
+msgstr "พาธที่กำหนดเองไปยังไฟล์ known_hosts"
 
 #. Definition of "pfx": The file name extension used for SSL certificates in PKCS #12 file format. https://en.wikipedia.org/wiki/PKCS_12
 msgid "Custom pfx file"
@@ -2127,6 +2166,9 @@ msgstr "ไฟล์ pfx แบบกำหนดเอง"
 
 msgid "Custom Policy"
 msgstr "นโยบายที่กำหนดเอง"
+
+msgid "Custom Report(s)"
+msgstr ""
 
 msgid "Custom Reports"
 msgstr "รายงานที่กำหนดเอง"
@@ -2253,6 +2295,9 @@ msgstr "ค่าเริ่มต้นสำหรับผู้ใช้ใ
 msgid "Default Protected Item"
 msgstr "Protected Item ค่าเริ่มต้น"
 
+msgid "Default reports"
+msgstr ""
+
 msgid "Default retention policy"
 msgstr "นโยบายการเก็บรักษาค่าเริ่มต้น"
 
@@ -2324,6 +2369,9 @@ msgstr "ลบเวลา"
 msgid "Delete User"
 msgstr "ลบผู้ใช้"
 
+msgid "Deleting Snapshots"
+msgstr ""
+
 msgid "Deleting..."
 msgstr "การลบ ..."
 
@@ -2375,6 +2423,12 @@ msgstr "โควต้าอุปกรณ์"
 
 msgid "Devices"
 msgstr "อุปกรณ์"
+
+msgid "Devices History"
+msgstr ""
+
+msgid "Devices Quota"
+msgstr ""
 
 msgid "Diagnostic information:"
 msgstr "ข้อมูลการวินิจฉัย:"
@@ -2501,9 +2555,6 @@ msgstr "ดาวน์โหลด"
 msgid "Download and install the client"
 msgstr "ดาวน์โหลดและติดตั้งไคลเอ็นต์"
 
-msgid "Download Client"
-msgstr "ดาวน์โหลดไคลเอ็นต์"
-
 msgid "Download client software"
 msgstr "ดาวน์โหลดซอฟต์แวร์ไคลเอ็นต์"
 
@@ -2587,6 +2638,9 @@ msgstr "แก้ไขคำสั่ง"
 msgid "Edit description..."
 msgstr "แก้ไขคำอธิบาย"
 
+msgid "Edit Email Address..."
+msgstr ""
+
 msgid "Edit Email Report"
 msgstr "แก้ไขรายงานอีเมล"
 
@@ -2658,6 +2712,9 @@ msgstr "ที่อยู่อีเมล"
 
 msgid "Email Address"
 msgstr "ที่อยู่อีเมล"
+
+msgid "Email address already in use"
+msgstr ""
 
 msgid "Email Addresses"
 msgstr "ที่อยู่อีเมล"
@@ -2936,11 +2993,17 @@ msgstr "ไม่รวมฐานข้อมูลประวัติงา
 msgid "Exclude regex"
 msgstr "Exclude regex"
 
+msgid "Exclude server logs"
+msgstr ""
+
 msgid "Exclude specified"
 msgstr "Exclude specified"
 
 msgid "Exclude specified Virtual Machine"
 msgstr "Exclude Virtual Machine ที่ระบุ"
+
+msgid "Exclusions"
+msgstr ""
 
 #. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
 msgid "Exit to Windows Recovery Environment"
@@ -3058,6 +3121,10 @@ msgstr "ไม่สามารถรีเฟรช lock file ของเร�
 msgid "Failed to register device: %s"
 msgstr "ไม่สามารถลงทะเบียนอุปกรณ์: %s"
 
+#, c-format
+msgid "Failed to remotely update the login URL for %d device(s)."
+msgstr ""
+
 msgid "Failed to retrieve job information."
 msgstr "ไม่สามารถเรียกข้อมูลงาน"
 
@@ -3077,6 +3144,10 @@ msgstr "บันทึกรายงานงานไม่สำเร็จ
 #. Definition of "TOTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm
 msgid "Failed to save TOTP key"
 msgstr "บันทึกคีย์ TOTP ไม่สำเร็จ"
+
+#, c-format
+msgid "Failed to update tenant for user '%s': %s"
+msgstr ""
 
 msgid "Failure"
 msgstr "ล้มเหลว"
@@ -3114,6 +3185,9 @@ msgid "File"
 msgstr "ไฟล์"
 
 msgid "File (PKCS#12)"
+msgstr ""
+
+msgid "File and folder exclusions"
 msgstr ""
 
 msgid "File Path"
@@ -3223,8 +3297,9 @@ msgstr "พบรายการ %s เพื่อสำรองข้อม�
 msgid "Found a custom schedule with unexpected date format '%s', skipping"
 msgstr "พบกำหนดการที่กำหนดเองซึ่งมีรูปแบบวันที่ที่ไม่คาดคิด '%s' กำลังข้ามไป"
 
-msgid "Frame"
-msgstr "กรอบ"
+#. Free (unused) disk space
+msgid "Free"
+msgstr ""
 
 msgid "Free disk space"
 msgstr "พื้นที่ว่างในดิสก์"
@@ -3292,6 +3367,9 @@ msgstr "การแทนที่ทั่วโลก"
 
 msgid "Gmail account"
 msgstr "บัญชี Gmail"
+
+msgid "Go back to your own account."
+msgstr ""
 
 msgid "Go to job ID..."
 msgstr "ไปที่รหัสงาน..."
@@ -3714,6 +3792,9 @@ msgstr "เลือกสแนปชอตไม่ถูกต้อง"
 msgid "Invalid spool path '%s' (expected drive letter or UNC path)"
 msgstr "พาธ spool ไม่ถูกต้อง '%s' (คาดว่าจะเป็น อักษรระบุไดรฟ์หรือพาธ UNC)"
 
+msgid "Invalid Storage Location"
+msgstr ""
+
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 #, c-format
 msgid "Invalid storage vault '%s'"
@@ -3851,6 +3932,9 @@ msgstr "สำรองข้อมูล %1 ครั้งล่าสุด, 
 
 msgid "Last 24 hours"
 msgstr "24 ชั่วโมงที่ผ่านมา"
+
+msgid "Last Backup"
+msgstr ""
 
 msgid "Last backup job"
 msgstr "งานสำรองข้อมูลล่าสุด"
@@ -4072,6 +4156,9 @@ msgstr "Mail"
 msgid "Mail Account"
 msgstr "บัญชีเมล"
 
+msgid "Make Default"
+msgstr ""
+
 #, qt-format
 msgid "Malformed property '%1', skipping"
 msgstr "พร็อพเพอร์ตี้มีรูปแบบไม่ถูกต้อง '%1' กำลังข้าม"
@@ -4085,6 +4172,9 @@ msgstr "Response จากเซิร์ฟเวอร์มีรูปแบ
 
 msgid "Malformed server address"
 msgstr "ที่อยู่เซิร์ฟเวอร์มีรูปแบบไม่ถูกต้อง"
+
+msgid "Manage Client"
+msgstr ""
 
 msgid "Manage news entries."
 msgstr "จัดการรายการข่าว"
@@ -4218,6 +4308,17 @@ msgstr "ไม่มีดิสก์ที่ยกเว้น"
 msgid "Missing excluded partition"
 msgstr "ไม่มีพาร์ติชั่นที่ยกเว้น"
 
+#, qt-format
+msgid "Missing required field: %1"
+msgstr ""
+
+#, c-format
+msgid "Missing required field: %s"
+msgstr ""
+
+msgid "Missing required fields"
+msgstr ""
+
 msgid "Missing selected disk"
 msgstr "ไม่มีดิสก์ที่เลือก"
 
@@ -4300,7 +4401,7 @@ msgstr "MX Direct"
 msgid "MX Direct allows you to send email from this server without needing to configure a custom SMTP server. However, there is a greater chance of the email being discarded as spam."
 msgstr "MX Direct อนุญาตให้คุณส่งอีเมลจากเซิร์ฟเวอร์นี้โด้ยไม่ต้องทำการกำหนดค่า SMTP server แต่อย่างไรก็ตาม การทำเช่นนี้มีโอกาสสูงที่อีเมลที่ส่งไปจะถูกมองว่าเป็น spam"
 
-msgid "My Account"
+msgid "My account"
 msgstr "บัญชีของฉัน"
 
 msgid "My device"
@@ -4506,11 +4607,11 @@ msgstr "ขณะนี้ยังไม่มีการกำหนดค่
 msgid "No data"
 msgstr "ไม่มีข้อมูล"
 
+msgid "No Data"
+msgstr ""
+
 msgid "No data available in table"
 msgstr "ไม่มีข้อมูลในตาราง"
-
-msgid "No data found"
-msgstr "ไม่พบข้อมูล"
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "No data is available inside the selected Storage Vault"
@@ -4589,6 +4690,9 @@ msgstr "ไม่มีกำหนดการ"
 msgid "No schedules defined"
 msgstr "ไม่ได้ตั้งกำหนดการไว้"
 
+msgid "No selected options"
+msgstr ""
+
 msgid "No source device and restore target selected for restore"
 msgstr "ไม่มีอุปกรณ์ต้นทางและเป้าหมายการกู้คืนข้อมูลถูกเลือกไว้สำหรับการกู้คืนข้อมูล"
 
@@ -4657,6 +4761,9 @@ msgstr "ไม่ใช่ทั้งหมด..."
 
 msgid "Not configured"
 msgstr "ไม่ได้กำหนดค่า"
+
+msgid "Not currently running"
+msgstr ""
 
 #. Used by the search system to create custom searches. "[USERNAME] not equal [SOMETHING]
 msgid "not equal"
@@ -4843,9 +4950,6 @@ msgstr "อย่างต่อเนื่อง"
 msgid "Online"
 msgstr "ออนไลน์"
 
-msgid "Online devices"
-msgstr "อุปกรณ์ออนไลน์"
-
 msgid "Online Devices"
 msgstr "อุปกรณ์ออนไลน์"
 
@@ -4977,6 +5081,10 @@ msgstr "Page title text"
 
 msgid "Pagefile"
 msgstr "Pagefile"
+
+#. Abbreviation for Webpages
+msgid "Pages"
+msgstr ""
 
 msgid "Partial (Delete from remote only when deleted locally; do not delete unknown users)"
 msgstr "บางส่วน (ลบจาก remote เมื่อลบจาก local เท่านั้น ไม่ลบผู้ใช้ที่ไม่รู้จัก)"
@@ -5140,6 +5248,9 @@ msgstr "โปรดเลือกอุปกรณ์ออนไลน์เ
 msgid "Please select one disk or partition for restore."
 msgstr "โปรดเลือกดิสก์หรือพาร์ติชั่นหนึ่งรายการเพื่อกู้คืน"
 
+msgid "Please select one or more files to restore."
+msgstr ""
+
 msgid "Please select one snapshot for restore."
 msgstr "โปรดเลือกสแนปชอตหนึ่งรายการเพื่อกู้คืน"
 
@@ -5148,6 +5259,12 @@ msgstr "โปรดเลือกสแนปชอตหนึ่งราย
 
 msgid "Please select only individual files and folders for restore, not the entire disk or partition"
 msgstr "โปรดเลือกเฉพาะไฟล์และโฟลเดอร์ที่ต้องการกู้คืน ไม่ใช่ทั้งดิสก์หรือพาร์ติชั่น"
+
+msgid "Please select snapshots to delete."
+msgstr ""
+
+msgid "Please select snapshots to search."
+msgstr ""
 
 msgid "Please specify account type"
 msgstr "โปรดระบุประเภทบัญชี"
@@ -5501,9 +5618,6 @@ msgstr "อ่านการตั้งค่า"
 msgid "Ready to delete"
 msgstr "พร้อมลบ"
 
-msgid "Realm address"
-msgstr "Realm address"
-
 msgid "Rebrand Storage"
 msgstr "การรีแบรนด์ Storage"
 
@@ -5709,6 +5823,9 @@ msgstr "ทำการ Replicate ข้อมูล โปรไฟล์ผู
 msgid "Replication"
 msgstr "Replication"
 
+msgid "Replication History"
+msgstr ""
+
 msgid "Replication Settings..."
 msgstr "การตั้งค่าการจำลอง..."
 
@@ -5898,6 +6015,12 @@ msgstr "เพิกถอนอุปกรณ์"
 msgid "Roles"
 msgstr "Roles"
 
+msgid "Root Access Key"
+msgstr ""
+
+msgid "Root Secret Key"
+msgstr ""
+
 msgid "Rule"
 msgstr "กฎ"
 
@@ -6017,6 +6140,9 @@ msgstr "กำหนดการ"
 msgid "Schedule type"
 msgstr "ประเภทกำหนดการ"
 
+msgid "Schedule(s)"
+msgstr ""
+
 msgid "Scheduled"
 msgstr "ตั้งกำหนดการแล้ว"
 
@@ -6057,6 +6183,9 @@ msgstr "ค้นหารายการภายในสแนปชอตท
 
 msgid "Search results"
 msgstr "ผลการค้นหา"
+
+msgid "Search the contents of selected snapshots"
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Searching Storage Vault for excess data no longer referenced by any job..."
@@ -6236,6 +6365,9 @@ msgstr "เลือกกล่องจดหมายที่ได้รั
 msgid "Select Protected Sites"
 msgstr "เลือกไซต์ที่ได้รับการคุ้มครอง"
 
+msgid "Select results from within a single snapshot to restore"
+msgstr ""
+
 msgid "Select snapshots"
 msgstr "เลือกสแนปชอต"
 
@@ -6364,9 +6496,6 @@ msgstr "พาธ Server CA file"
 msgid "Server has been upgraded, please log in again."
 msgstr "เซิร์ฟเวอร์ได้รับการอัพเกรด กรุณาเข้าสู่ระบบอีกครั้ง"
 
-msgid "Server history"
-msgstr "ประวัติเซิร์ฟเวอร์"
-
 msgid "Server logs"
 msgstr "บันทึกเซิร์ฟเวอร์"
 
@@ -6384,6 +6513,9 @@ msgstr "เซิร์ฟเวอร์สำรองด้วยตนเอ
 
 msgid "Server Self-Backup makes periodic copies of this server's database and configuration files."
 msgstr "Server Self-Backup ทำการคัดลอกฐานข้อมูลและไฟล์ configuration ต่างๆ เป็นระยะๆ"
+
+msgid "Server self-backup not configured"
+msgstr ""
 
 msgid "Server started"
 msgstr "เซิฟเวอร์เริ่ม"
@@ -6633,6 +6765,10 @@ msgstr "พื้นที่ที่ใช้"
 msgid "Span Target"
 msgstr "Span Target"
 
+#, c-format
+msgid "Span target %s (%s)"
+msgstr ""
+
 msgid "Spanned"
 msgstr "Spanned"
 
@@ -6765,6 +6901,10 @@ msgstr "Storadera"
 
 msgid "Storage"
 msgstr "Storage"
+
+#, c-format
+msgid "Storage (%s)"
+msgstr ""
 
 msgid "Storage buckets"
 msgstr "Storage Bucket"
@@ -7018,6 +7158,63 @@ msgstr "ทดสอบการเชื่อมต่อ"
 msgid "Text files (*.txt)"
 msgstr "ไฟล์ข้อความ (*.txt)"
 
+#. Definition of "HTTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
+#. Definition of "HTTPS": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/HTTPS
+msgid "The \"Address\" field should begin with http:// or https://, and end with a trailing slash (/)."
+msgstr ""
+
+#, qt-format
+msgid "The \"Bucket Name\" must be between %1 and %2 characters long"
+msgstr ""
+
+#, c-format
+msgid "The \"Bucket Name\" must be between %d and %d characters long"
+msgstr ""
+
+msgid "The \"Bucket Name\" must be separated into segments with periods (.) because it is longer than 63 characters"
+msgstr ""
+
+msgid "The \"Bucket Name\" must consist only of letters, numbers, and hyphens (-)"
+msgstr ""
+
+msgid "The \"Bucket Name\" must consist only of lowercase letters, numbers, periods (.), and hyphens (-)"
+msgstr ""
+
+msgid "The \"Bucket Name\" must not be formatted as an IP address"
+msgstr ""
+
+msgid "The \"Bucket Name\" must not contain two adjacent periods"
+msgstr ""
+
+msgid "The \"Bucket Name\" must not contain two adjacent periods or use dashes adjacent to periods"
+msgstr ""
+
+msgid "The \"Bucket Name\" must not start or end with a hyphen or period"
+msgstr ""
+
+msgid "The \"Bucket Name\" must not start or end with a hyphen, period, or underscore"
+msgstr ""
+
+#. Definition of "B2": 'B2' is an abbreviation for 'Backblaze B2 Cloud Storage', a commercial service for storing files. If an official translation is available, it should be used. https://www.backblaze.com/b2/cloud-storage.html
+msgid "The \"Bucket Name\" must not start with \"b2-\""
+msgstr ""
+
+msgid "The \"Bucket Name\" must not start with \"goog\""
+msgstr ""
+
+msgid "The \"Bucket Name\" must not start with \"xn--\" or end with \"-s3alias\""
+msgstr ""
+
+#. Definition of "B2": 'B2' is an abbreviation for 'Backblaze B2 Cloud Storage', a commercial service for storing files. If an official translation is available, it should be used. https://www.backblaze.com/b2/cloud-storage.html
+msgid "The \"Bucket Name\" must not start with 'b2-'"
+msgstr ""
+
+msgid "The \"Bucket Name\" must not start with 'goog'"
+msgstr ""
+
+msgid "The \"Bucket Name\" must not start with 'xn--' or end with '-s3alias'"
+msgstr ""
+
 #, c-format
 msgid "The %s delegate service performs a broad set of tasks, such as running scheduled backup jobs, access control, and remote communication."
 msgstr "บริการผู้รับมอบสิทธิ์ %s ดำเนินการชุดของงานต่างๆ เช่น การรันงานสำรองข้อมูลตามกำหนดการ การควบคุมการเข้าถึง และการสื่อสารระยะไกล"
@@ -7212,6 +7409,9 @@ msgstr "พาธ regex include ไม่สามารถคอมไพล์
 msgid "The remote update was skipped to avoid interrupting a running backup job on this device. The remote update will be retried after a few hours."
 msgstr "ข้ามการอัปเดตระยะไกลเพื่อหลีกเลี่ยงการขัดจังหวะงานสำรองข้อมูลที่ทำงานอยู่บนอุปกรณ์นี้ การอัปเดตระยะไกลจะลองอีกครั้งหลังจากผ่านไปสองสามชั่วโมง"
 
+msgid "The retention settings are being enforced by the user's policy."
+msgstr ""
+
 msgid "The search query contains an unknown field"
 msgstr "คำค้นหามีฟิลด์ที่ไม่รู้จัก"
 
@@ -7266,6 +7466,10 @@ msgstr "Storage Vault ได้รับการเตรียมใช้ง�
 
 msgid "The subject line is empty."
 msgstr "บรรทัดหัวเรื่องว่างเปล่า"
+
+#, c-format
+msgid "The System default here is: %s"
+msgstr ""
 
 msgid "The target device does not support remotely browsing the filesystem."
 msgstr "อุปกรณ์เป้าหมายไม่รองรับการเรียกดู filesystem จากระยะไกล"
@@ -7331,6 +7535,32 @@ msgstr "ไม่มีพื้นที่โควต้าว่างเพ
 msgid "There's no free quota to run this job. Reduce the size of other Protected Items before retrying."
 msgstr "ไม่มีพื้นที่โควต้าว่างเพียงพอสำหรับรันงานนี้ ให้ลดขนาดรายการ Protected Item อื่นๆ ก่อนลองอีกครั้ง"
 
+msgid "These apply to all File and Folder backups run under this policy."
+msgstr ""
+
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "These backup schedules are applied to all new Protected Items. These are not applied retroactively to existing Protected Items."
+msgstr ""
+
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "These settings apply a Retention range to all storage vaults assigned to a User and can be used to override the Protected Item Retention."
+msgstr ""
+
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "These settings only restrict end users' actions and access to certain Protected Items."
+msgstr ""
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "These settings restrict BOTH end users and admin access to Storage Vaults and limit their actions."
+msgstr ""
+
+msgid "These settings restrict several account-related actions, such as resetting passwords, accessing the application interface, etc."
+msgstr ""
+
+msgid "They only apply to new devices and will not retroactively apply to already connected devices."
+msgstr ""
+
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "This action will also remove all Protected Items for this device."
 msgstr "การดำเนินการนี้จะลบรายการ Protected Item ทั้งหมดสำหรับอุปกรณ์นี้ด้วย"
@@ -7343,6 +7573,9 @@ msgstr "การดำเนินการนี้จะยกเลิกก
 
 msgid "This action will lock the app, so that your password is required to open it."
 msgstr "การดำเนินการนี้จะล็อกแอปเพื่อให้ต้องใช้รหัสผ่านในการเปิด"
+
+msgid "This allows you to automatically exclude certain files and folders, handy for excluding files that cause errors and disruptions to backups."
+msgstr ""
 
 #. Definition of "EFS": Encrypting File System (EFS) is an encryption system built into Windows. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Encrypting_File_System
 #, c-format
@@ -7358,12 +7591,6 @@ msgstr "ซึ่งอาจทำให้ข้อมูลสูญหาย
 #. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
 msgid "This color will be used in the Windows 10 start menu."
 msgstr "สีนี้จะใช้ในเมนูเริ่มของ Windows 10"
-
-msgid "This configuration will override the policy default reports."
-msgstr "การกำหนดค่านี้จะแทนที่รายงานเริ่มต้นของนโยบาย"
-
-msgid "This configuration will use the policy default reports."
-msgstr "การกำหนดค่านี้จะใช้รายงานเริ่มต้นของนโยบาย"
 
 msgid "This could prevent clients from backing up or restoring from this destination."
 msgstr "การทำเช่นนี้อาจทำให้ไคลเอ็นต์ไม่สามารถสำรองข้อมูลหรือกู้คืนข้อมูลจากปลายทางนี้ได้"
@@ -7419,6 +7646,10 @@ msgstr ""
 "ต้องลงทะเบียนอุปกรณ์ใหม่นี้ในบัญชีสำรองของคุณ\n"
 "\n"
 "ป้อนชื่อสำหรับอุปกรณ์ใหม่:"
+
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "This option is useful for ransomware protection, as a bad actor with user credentials could otherwise set the Retention policy on a Protected Item to \"keep nothing\" and let historical backups be deleted by retention."
+msgstr ""
 
 msgid "This page has been refreshed since performing this search."
 msgstr "หน้านี้ได้รับการรีเฟรชตั้งแต่ทำการค้นหานี้"
@@ -7556,6 +7787,9 @@ msgstr "สมาชิกทั้งหมด:"
 #, qt-format
 msgid "Total members: %1"
 msgstr "สมาชิกทั้งหมด: %1"
+
+msgid "Total Protected"
+msgstr ""
 
 msgid "Total scans"
 msgstr "สแกนทั้งหมด"
@@ -7747,9 +7981,6 @@ msgstr "ไม่รองรับ"
 msgid "Unsupported backupset type '%s'"
 msgstr "ประเภทชุดสำรองข้อมูลที่ไม่รองรับ '%s'"
 
-msgid "Unsupported browser"
-msgstr "เบราว์เซอร์ที่ไม่รองรับ"
-
 #, c-format
 msgid "Unsupported configuration option '%s' (did the software version change?)"
 msgstr "ตัวเลือกการกำหนดค่าที่ไม่รองรับ '%s' (เวอร์ชันซอฟต์แวร์มีการเปลี่ยนแปลงหรือไม่)"
@@ -7833,6 +8064,7 @@ msgstr "ใช้กับ B2 Lifecycle Rules และ B2 key โดยปร�
 msgid "Use with B2 Lifecycle Rules for file clean-up and to generate B2 keys with reduced permissions, providing higher security."
 msgstr "ใช้กับ B2 Lifecycle Rules เพื่อจัดการการ clean-up ไฟล์และเพิ่มสร้าง B2 keys with reduced permissions ซึ่งเพิ่มความปลอดภัย"
 
+#. Used-up disk space
 msgid "Used"
 msgstr "ใช้แล้ว"
 
@@ -8259,6 +8491,10 @@ msgstr "เมื่อวานที่ %1"
 #, c-format
 msgid "You are receiving this email because '%s' is registered as the email contact for the backup account '%s'."
 msgstr "คุณได้รับอีเมลนี้เนื่องจาก '%s' ถูกลงทะเบียนเป็นผู้ติดต่อทางอีเมลสำหรับบัญชีสำรอง '%s'"
+
+#, c-format
+msgid "You are viewing the website as %s."
+msgstr ""
 
 msgid "You can create buckets automatically via the \"Request\" system; or manually (for instance: during a Seed Load)."
 msgstr "คุณสามารถสร้าง Bucket โดยอัตโนมัติผ่านระบบ \"Request\" หรือสร้างด้วยตนเอง (เช่น: ระหว่างการทำ Seed Load)"

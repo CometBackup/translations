@@ -248,9 +248,16 @@ msgstr "Un bucket è una possibile posizione del vault di archiviazione di un cl
 msgid "A component in the VSS writer failed"
 msgstr "Un componente del writer VSS non è riuscito"
 
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "A default Protected Item with a schedule will end up with two schedules if this option is used, one from the default Protected Item, one from this."
+msgstr ""
+
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "A file that was successfully stored in the Storage Vault did not appear when listing directory content."
 msgstr "Un file archiviato correttamente nel Vault di archiviazione non è comparso nell'elenco del della directory."
+
+msgid "A summary of the restrictions enforced by this policy."
+msgstr ""
 
 msgid "A tenant can be available on multiple hostnames. Hostnames should be unique to this tenant."
 msgstr "Un tenant può essere disponibile su più nomi host. I nomi host devono essere univoci per tale tenant."
@@ -313,6 +320,9 @@ msgstr "Informazioni su questo server"
 msgid "About this Server"
 msgstr "Informazioni su questo Server"
 
+msgid "Accent color"
+msgstr ""
+
 #. Definition of "FTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/File_Transfer_Protocol
 #. Definition of "SSL": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Transport_Layer_Security
 msgid "Accept invalid SSL certificate from the FTP server"
@@ -343,6 +353,9 @@ msgstr "account"
 
 msgid "Account"
 msgstr "Account"
+
+msgid "Account ID"
+msgstr ""
 
 msgid "Account key"
 msgstr "Chiave account"
@@ -904,11 +917,18 @@ msgstr "Applica criterio"
 msgid "Apply retention policy after backup"
 msgstr "Applica politica di conservazione dopo il backup"
 
+msgid "Apply retention rules"
+msgstr ""
+
 msgid "Apply retention rules now"
 msgstr "Applica ora regole di conservazione"
 
 msgid "Apply to"
 msgstr "Applica a"
+
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "Apply to all new Protected Items"
+msgstr ""
 
 #, c-format
 msgid "Applying %d change(s)..."
@@ -916,9 +936,6 @@ msgstr "Applicazione di %d modifiche..."
 
 msgid "Applying all customizations to the Recovery Media..."
 msgstr "Applicazione di tutte le personalizzazioni al supporto di ripristino..."
-
-msgid "Applying changes..."
-msgstr "Applicazione delle modifiche..."
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Applying your retention policy more often helps keep your Storage Vault size at a minimum, but it requires more time, CPU and bandwidth to complete. \"Automatic\" is a balanced choice that runs a retention pass only once there is a noticeable benefit to doing so."
@@ -946,6 +963,10 @@ msgstr "Sei sicuro di volere che tutti i nuovi utenti abbiano questo criterio?"
 
 msgid "Are you sure you want to continue?"
 msgstr "Sei sicuro di voler continuare?"
+
+#, c-format
+msgid "Are you sure you want to delete %d snapshot(s)?"
+msgstr ""
 
 msgid "Are you sure you want to delete this bucket?"
 msgstr "Sei sicuro di voler eliminare questo bucket?"
@@ -1039,6 +1060,9 @@ msgstr "Lunghezza di almeno 8 caratteri."
 msgid "At least one of..."
 msgstr "Almeno uno di..."
 
+msgid "At least one Span Target is required"
+msgstr ""
+
 msgid "August"
 msgstr "Agosto"
 
@@ -1081,9 +1105,23 @@ msgstr "Automatico (punta al server corrente)"
 msgid "Automatic authentication:"
 msgstr "Autenticazione automatica:"
 
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+#, c-format
+msgid "Available Protected Item types restricted to %s"
+msgstr ""
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, c-format
+msgid "Available Storage Vault types restricted to %s"
+msgstr ""
+
 #. Definition of "Azure": This is a cloud computing service from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Azure
 msgid "Azure Active Directory"
 msgstr "Azure Active Directory"
+
+#. Definition of "Azure": This is a cloud computing service from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Azure
+msgid "Azure base URL"
+msgstr ""
 
 #. Definition of "Azure": This is a cloud computing service from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Azure
 msgid "Azure Blob Storage"
@@ -1202,9 +1240,6 @@ msgstr "Prima dell'inizio del processo, le dimensioni del Vault di archiviazione
 #. Used by the search system to create custom searches. "[USERNAME] begins with [PREFIX]
 msgid "begins with"
 msgstr "inizia con"
-
-msgid "Boosters"
-msgstr "Boosters"
 
 msgid "Branding"
 msgstr "Brandizza"
@@ -1442,9 +1477,6 @@ msgstr "Scegli quando eseguire il processo di backup"
 msgid "Circular logging is enabled, incremental/differential backups may not perform truncation."
 msgstr "La registrazione circolare è abilitata, i backup incrementali/differenziali potrebbero non eseguire il troncamento."
 
-msgid "Classification"
-msgstr "Classificazione"
-
 #, c-format
 msgid "Cleaning up %s snapshot..."
 msgstr "Pulendo %s snapshot..."
@@ -1622,6 +1654,9 @@ msgstr "Configura le licenze e le proprietà della rete di questo server."
 msgid "Configure network interface(s) for this server to be available on:"
 msgstr "Configura una o più interfacce di rete di questo server affinché siano disponibili su:"
 
+msgid "Configure Now"
+msgstr ""
+
 msgid "Configure properties for the new Bulk Update campaign:"
 msgstr "Configurare le proprietà per la nuova campagna di aggiornamento in blocco:"
 
@@ -1663,6 +1698,10 @@ msgstr "Conferma password"
 
 msgid "Confirm selection"
 msgstr "Conferma la selezione"
+
+#, c-format
+msgid "Confirm transfer of User '%s' to Tenant '%s'"
+msgstr ""
 
 msgid "Connect to a remote macOS machine"
 msgstr "Connetti a una macchina macOS remota"
@@ -2119,8 +2158,8 @@ msgid "Custom mysqldump path"
 msgstr "Percorso mysqldump personalizzato"
 
 #. Definition of "known_hosts": This is the name of a file in the OpenSSH program. It should not be translated. https://man.openbsd.org/ssh
-msgid "Custom path to known_hosts file..."
-msgstr "Percorso personalizzato del file known_hosts..."
+msgid "Custom path to known_hosts file"
+msgstr "Percorso personalizzato del file known_hosts"
 
 #. Definition of "pfx": The file name extension used for SSL certificates in PKCS #12 file format. https://en.wikipedia.org/wiki/PKCS_12
 msgid "Custom pfx file"
@@ -2128,6 +2167,9 @@ msgstr "File pfx personalizzato"
 
 msgid "Custom Policy"
 msgstr "Criteri personalizzati"
+
+msgid "Custom Report(s)"
+msgstr ""
 
 msgid "Custom Reports"
 msgstr "Report personalizzati"
@@ -2254,6 +2296,9 @@ msgstr "Predefinito per i Nuovi Utenti"
 msgid "Default Protected Item"
 msgstr "Oggetto protetto predefinito"
 
+msgid "Default reports"
+msgstr ""
+
 msgid "Default retention policy"
 msgstr "Criterio di conservazione predefinito"
 
@@ -2325,6 +2370,9 @@ msgstr "Elimina orario"
 msgid "Delete User"
 msgstr "Elimina Utente"
 
+msgid "Deleting Snapshots"
+msgstr ""
+
 msgid "Deleting..."
 msgstr "Cancellazione..."
 
@@ -2376,6 +2424,12 @@ msgstr "Quota dispositivo"
 
 msgid "Devices"
 msgstr "Dispositivi"
+
+msgid "Devices History"
+msgstr ""
+
+msgid "Devices Quota"
+msgstr ""
 
 msgid "Diagnostic information:"
 msgstr "Informazioni diagnostiche:"
@@ -2502,9 +2556,6 @@ msgstr "Scarica"
 msgid "Download and install the client"
 msgstr "Scarica e installa il client"
 
-msgid "Download Client"
-msgstr "Scarica client"
-
 msgid "Download client software"
 msgstr "Scarica il software client"
 
@@ -2588,6 +2639,9 @@ msgstr "Modifica comando"
 msgid "Edit description..."
 msgstr "Modifica descrizione..."
 
+msgid "Edit Email Address..."
+msgstr ""
+
 msgid "Edit Email Report"
 msgstr "Modifica report email"
 
@@ -2659,6 +2713,9 @@ msgstr "Indirizzo email"
 
 msgid "Email Address"
 msgstr "Indirizzo Email"
+
+msgid "Email address already in use"
+msgstr ""
 
 msgid "Email Addresses"
 msgstr "Indirizzi Email"
@@ -2937,11 +2994,17 @@ msgstr "Escludi database della cronologia dei processi"
 msgid "Exclude regex"
 msgstr "Escludi espressione regolare"
 
+msgid "Exclude server logs"
+msgstr ""
+
 msgid "Exclude specified"
 msgstr "Escludi specificato"
 
 msgid "Exclude specified Virtual Machine"
 msgstr "Escludi macchina virtuale specificata"
+
+msgid "Exclusions"
+msgstr ""
 
 #. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
 msgid "Exit to Windows Recovery Environment"
@@ -3059,6 +3122,10 @@ msgstr "Impossibile ricaricare il nostro lockfile: %s"
 msgid "Failed to register device: %s"
 msgstr "Impossibile registrare il dispositivo: %s"
 
+#, c-format
+msgid "Failed to remotely update the login URL for %d device(s)."
+msgstr ""
+
 msgid "Failed to retrieve job information."
 msgstr "Impossibile recuperare le informazioni sul processo."
 
@@ -3078,6 +3145,10 @@ msgstr "Impossibile salvare il report del processo."
 #. Definition of "TOTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm
 msgid "Failed to save TOTP key"
 msgstr "Impossibile salvare chiave TOTP"
+
+#, c-format
+msgid "Failed to update tenant for user '%s': %s"
+msgstr ""
 
 msgid "Failure"
 msgstr "Errore"
@@ -3115,6 +3186,9 @@ msgid "File"
 msgstr "File"
 
 msgid "File (PKCS#12)"
+msgstr ""
+
+msgid "File and folder exclusions"
 msgstr ""
 
 msgid "File Path"
@@ -3224,8 +3298,9 @@ msgstr "Trovati %s di cui eseguire il backup - il backup supererebbe il limite d
 msgid "Found a custom schedule with unexpected date format '%s', skipping"
 msgstr "Trovata una pianificazione personalizzata con formato data non corretto '%s', saltando"
 
-msgid "Frame"
-msgstr "Frame"
+#. Free (unused) disk space
+msgid "Free"
+msgstr ""
 
 msgid "Free disk space"
 msgstr "Spazio libero su disco"
@@ -3293,6 +3368,9 @@ msgstr "Sostituzioni globali"
 
 msgid "Gmail account"
 msgstr "Account Gmail"
+
+msgid "Go back to your own account."
+msgstr ""
 
 msgid "Go to job ID..."
 msgstr "Vai all'ID processo..."
@@ -3715,6 +3793,9 @@ msgstr "Selezionato snapshot non valido"
 msgid "Invalid spool path '%s' (expected drive letter or UNC path)"
 msgstr "Percorso di spool '%s' non valido (previsti lettera di unità o percorso UNC)"
 
+msgid "Invalid Storage Location"
+msgstr ""
+
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 #, c-format
 msgid "Invalid storage vault '%s'"
@@ -3852,6 +3933,9 @@ msgstr "Ultimi %1 backup, al massimo uno alla settimana"
 
 msgid "Last 24 hours"
 msgstr "Ultime 24 ore"
+
+msgid "Last Backup"
+msgstr ""
 
 msgid "Last backup job"
 msgstr "Ultimo processo di backup"
@@ -4073,6 +4157,9 @@ msgstr "Posta"
 msgid "Mail Account"
 msgstr "Account Posta"
 
+msgid "Make Default"
+msgstr ""
+
 #, qt-format
 msgid "Malformed property '%1', skipping"
 msgstr "Proprietà non valida '%1', saltando"
@@ -4086,6 +4173,9 @@ msgstr "Risposta non valida dal server"
 
 msgid "Malformed server address"
 msgstr "Indirizzo server non valido"
+
+msgid "Manage Client"
+msgstr ""
 
 msgid "Manage news entries."
 msgstr "Gestire le voci di notizie."
@@ -4219,6 +4309,17 @@ msgstr "Disco escluso mancante"
 msgid "Missing excluded partition"
 msgstr "Partizione esclusa mancante"
 
+#, qt-format
+msgid "Missing required field: %1"
+msgstr ""
+
+#, c-format
+msgid "Missing required field: %s"
+msgstr ""
+
+msgid "Missing required fields"
+msgstr ""
+
 msgid "Missing selected disk"
 msgstr "Disco selezionato mancante"
 
@@ -4301,8 +4402,8 @@ msgstr "MX Diretto"
 msgid "MX Direct allows you to send email from this server without needing to configure a custom SMTP server. However, there is a greater chance of the email being discarded as spam."
 msgstr "MX Direct ti consente di inviare email da questo server senza dover configurare un server SMTP personalizzato. Tuttavia, c'è una maggiore probabilità che l'email venga scartata come spam."
 
-msgid "My Account"
-msgstr "Il Mio Account"
+msgid "My account"
+msgstr "Il mio account"
 
 msgid "My device"
 msgstr "Il mio dispositivo"
@@ -4507,11 +4608,11 @@ msgstr "Per questo tipo non è attualmente disponibile alcuna configurazione."
 msgid "No data"
 msgstr "Nessun dato"
 
+msgid "No Data"
+msgstr ""
+
 msgid "No data available in table"
 msgstr "Nessun dato disponibile nella tabella"
-
-msgid "No data found"
-msgstr "Dati non trovati"
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "No data is available inside the selected Storage Vault"
@@ -4590,6 +4691,9 @@ msgstr "Nessuna pianificazione"
 msgid "No schedules defined"
 msgstr "Nessuna pianificazione definita"
 
+msgid "No selected options"
+msgstr ""
+
 msgid "No source device and restore target selected for restore"
 msgstr "Nessun dispositivo di origine e destinazione di ripristino selezionati"
 
@@ -4658,6 +4762,9 @@ msgstr "Non tutti..."
 
 msgid "Not configured"
 msgstr "Non configurato"
+
+msgid "Not currently running"
+msgstr ""
 
 #. Used by the search system to create custom searches. "[USERNAME] not equal [SOMETHING]
 msgid "not equal"
@@ -4844,9 +4951,6 @@ msgstr "In corso"
 msgid "Online"
 msgstr "Online"
 
-msgid "Online devices"
-msgstr "Dispositivi online"
-
 msgid "Online Devices"
 msgstr "Dispositivi Online"
 
@@ -4978,6 +5082,10 @@ msgstr "Testo del titolo della pagina"
 
 msgid "Pagefile"
 msgstr "File di paging"
+
+#. Abbreviation for Webpages
+msgid "Pages"
+msgstr ""
 
 msgid "Partial (Delete from remote only when deleted locally; do not delete unknown users)"
 msgstr "Parziale (elimina da remoto solo quando viene eliminato localmente; non eliminare utenti sconosciuti)"
@@ -5141,6 +5249,9 @@ msgstr "Per favore, seleziona un dispositivo online da controllare:"
 msgid "Please select one disk or partition for restore."
 msgstr "Per favore, seleziona un disco o una partizione per il ripristino."
 
+msgid "Please select one or more files to restore."
+msgstr ""
+
 msgid "Please select one snapshot for restore."
 msgstr "Per favore, seleziona uno snapshot per il ripristino."
 
@@ -5149,6 +5260,12 @@ msgstr "Per favore, seleziona uno snapshot da eliminare."
 
 msgid "Please select only individual files and folders for restore, not the entire disk or partition"
 msgstr "Seleziona solo singoli file e cartelle da ripristinare, non l'intero disco o partizione"
+
+msgid "Please select snapshots to delete."
+msgstr ""
+
+msgid "Please select snapshots to search."
+msgstr ""
 
 msgid "Please specify account type"
 msgstr "Per favore, specifica il tipo di account"
@@ -5502,9 +5619,6 @@ msgstr "Leggi Preferenza"
 msgid "Ready to delete"
 msgstr "Pronto per eliminare"
 
-msgid "Realm address"
-msgstr "Indirizzo realm"
-
 msgid "Rebrand Storage"
 msgstr "Rebranding archiviazione"
 
@@ -5710,6 +5824,9 @@ msgstr "Replica i profili utente e le politiche su un altro server:"
 msgid "Replication"
 msgstr "Replicazione"
 
+msgid "Replication History"
+msgstr ""
+
 msgid "Replication Settings..."
 msgstr "Impostazioni replicazione..."
 
@@ -5899,6 +6016,12 @@ msgstr "Revoca dispositivo"
 msgid "Roles"
 msgstr "Ruoli"
 
+msgid "Root Access Key"
+msgstr ""
+
+msgid "Root Secret Key"
+msgstr ""
+
 msgid "Rule"
 msgstr "Regola"
 
@@ -6018,6 +6141,9 @@ msgstr "Pianificazione"
 msgid "Schedule type"
 msgstr "Tipo di pianificazione"
 
+msgid "Schedule(s)"
+msgstr ""
+
 msgid "Scheduled"
 msgstr "Pianificato"
 
@@ -6058,6 +6184,9 @@ msgstr "Cerca oggetti negli snapshot seguenti:"
 
 msgid "Search results"
 msgstr "Risultati della ricerca"
+
+msgid "Search the contents of selected snapshots"
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Searching Storage Vault for excess data no longer referenced by any job..."
@@ -6237,6 +6366,9 @@ msgstr "Seleziona caselle di posta protette"
 msgid "Select Protected Sites"
 msgstr "Seleziona siti protetti"
 
+msgid "Select results from within a single snapshot to restore"
+msgstr ""
+
 msgid "Select snapshots"
 msgstr "Seleziona snapshot"
 
@@ -6365,9 +6497,6 @@ msgstr "Percorso file CA del server"
 msgid "Server has been upgraded, please log in again."
 msgstr "Il server è stato aggiornato, si prega di accedere di nuovo."
 
-msgid "Server history"
-msgstr "Cronologia server"
-
 msgid "Server logs"
 msgstr "Registri del server"
 
@@ -6385,6 +6514,9 @@ msgstr "Backup Autonomo del server"
 
 msgid "Server Self-Backup makes periodic copies of this server's database and configuration files."
 msgstr "L'autobackup del server esegue copie periodiche del database e dei file di configurazione di questo server."
+
+msgid "Server self-backup not configured"
+msgstr ""
 
 msgid "Server started"
 msgstr "Server avviato"
@@ -6634,6 +6766,10 @@ msgstr "Spazio utilizzato"
 msgid "Span Target"
 msgstr "Destinazione Span"
 
+#, c-format
+msgid "Span target %s (%s)"
+msgstr ""
+
 msgid "Spanned"
 msgstr "Spanned"
 
@@ -6766,6 +6902,10 @@ msgstr "Storadera"
 
 msgid "Storage"
 msgstr "Archiviazione"
+
+#, c-format
+msgid "Storage (%s)"
+msgstr ""
 
 msgid "Storage buckets"
 msgstr "Bucket di archiviazione"
@@ -7019,6 +7159,63 @@ msgstr "Testa la connessione"
 msgid "Text files (*.txt)"
 msgstr "File di testo (*.txt)"
 
+#. Definition of "HTTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
+#. Definition of "HTTPS": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/HTTPS
+msgid "The \"Address\" field should begin with http:// or https://, and end with a trailing slash (/)."
+msgstr ""
+
+#, qt-format
+msgid "The \"Bucket Name\" must be between %1 and %2 characters long"
+msgstr ""
+
+#, c-format
+msgid "The \"Bucket Name\" must be between %d and %d characters long"
+msgstr ""
+
+msgid "The \"Bucket Name\" must be separated into segments with periods (.) because it is longer than 63 characters"
+msgstr ""
+
+msgid "The \"Bucket Name\" must consist only of letters, numbers, and hyphens (-)"
+msgstr ""
+
+msgid "The \"Bucket Name\" must consist only of lowercase letters, numbers, periods (.), and hyphens (-)"
+msgstr ""
+
+msgid "The \"Bucket Name\" must not be formatted as an IP address"
+msgstr ""
+
+msgid "The \"Bucket Name\" must not contain two adjacent periods"
+msgstr ""
+
+msgid "The \"Bucket Name\" must not contain two adjacent periods or use dashes adjacent to periods"
+msgstr ""
+
+msgid "The \"Bucket Name\" must not start or end with a hyphen or period"
+msgstr ""
+
+msgid "The \"Bucket Name\" must not start or end with a hyphen, period, or underscore"
+msgstr ""
+
+#. Definition of "B2": 'B2' is an abbreviation for 'Backblaze B2 Cloud Storage', a commercial service for storing files. If an official translation is available, it should be used. https://www.backblaze.com/b2/cloud-storage.html
+msgid "The \"Bucket Name\" must not start with \"b2-\""
+msgstr ""
+
+msgid "The \"Bucket Name\" must not start with \"goog\""
+msgstr ""
+
+msgid "The \"Bucket Name\" must not start with \"xn--\" or end with \"-s3alias\""
+msgstr ""
+
+#. Definition of "B2": 'B2' is an abbreviation for 'Backblaze B2 Cloud Storage', a commercial service for storing files. If an official translation is available, it should be used. https://www.backblaze.com/b2/cloud-storage.html
+msgid "The \"Bucket Name\" must not start with 'b2-'"
+msgstr ""
+
+msgid "The \"Bucket Name\" must not start with 'goog'"
+msgstr ""
+
+msgid "The \"Bucket Name\" must not start with 'xn--' or end with '-s3alias'"
+msgstr ""
+
 #, c-format
 msgid "The %s delegate service performs a broad set of tasks, such as running scheduled backup jobs, access control, and remote communication."
 msgstr "Il servizio delegato %s esegue un'ampia gamma di attività, come l'esecuzione di processi di backup pianificati, il controllo degli accessi e la comunicazione remota."
@@ -7213,6 +7410,9 @@ msgstr "Impossibile compilare il percorso includi regex"
 msgid "The remote update was skipped to avoid interrupting a running backup job on this device. The remote update will be retried after a few hours."
 msgstr "L'aggiornamento remoto è stato ignorato per evitare di interrompere un processo di backup in esecuzione su questo dispositivo. L'aggiornamento remoto verrà ritentato dopo alcune ore."
 
+msgid "The retention settings are being enforced by the user's policy."
+msgstr ""
+
 msgid "The search query contains an unknown field"
 msgstr "La query di ricerca contiene un campo sconosciuto"
 
@@ -7267,6 +7467,10 @@ msgstr "Il Vault di Archiviazione è stato inizializzato, procedo con il backup.
 
 msgid "The subject line is empty."
 msgstr "La riga dell'oggetto è vuota."
+
+#, c-format
+msgid "The System default here is: %s"
+msgstr ""
 
 msgid "The target device does not support remotely browsing the filesystem."
 msgstr "Il dispositivo di destinazione non supporta l'esplorazione remota del filesystem."
@@ -7332,6 +7536,32 @@ msgstr "Non esiste una quota libera per l'esecuzione di questo processo. Pulire 
 msgid "There's no free quota to run this job. Reduce the size of other Protected Items before retrying."
 msgstr "Non esiste una quota libera per l'esecuzione di questo processo. Ridurre le dimensioni di altri Oggetti Protetti prima di riprovare."
 
+msgid "These apply to all File and Folder backups run under this policy."
+msgstr ""
+
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "These backup schedules are applied to all new Protected Items. These are not applied retroactively to existing Protected Items."
+msgstr ""
+
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "These settings apply a Retention range to all storage vaults assigned to a User and can be used to override the Protected Item Retention."
+msgstr ""
+
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "These settings only restrict end users' actions and access to certain Protected Items."
+msgstr ""
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "These settings restrict BOTH end users and admin access to Storage Vaults and limit their actions."
+msgstr ""
+
+msgid "These settings restrict several account-related actions, such as resetting passwords, accessing the application interface, etc."
+msgstr ""
+
+msgid "They only apply to new devices and will not retroactively apply to already connected devices."
+msgstr ""
+
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "This action will also remove all Protected Items for this device."
 msgstr "Questa azione rimuoverà anche tutti gli Oggetti Protetti per questo dispositivo."
@@ -7344,6 +7574,9 @@ msgstr "Questa azione ti disconnetterà dal server."
 
 msgid "This action will lock the app, so that your password is required to open it."
 msgstr "Questa azione bloccherà l'app, in modo che sia necessaria la tua password per aprirla."
+
+msgid "This allows you to automatically exclude certain files and folders, handy for excluding files that cause errors and disruptions to backups."
+msgstr ""
 
 #. Definition of "EFS": Encrypting File System (EFS) is an encryption system built into Windows. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Encrypting_File_System
 #, c-format
@@ -7359,12 +7592,6 @@ msgstr "Ciò può causare la perdita di dati se non configurato correttamente!"
 #. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
 msgid "This color will be used in the Windows 10 start menu."
 msgstr "Questo colore verrà utilizzato nel menu Start di Windows 10."
-
-msgid "This configuration will override the policy default reports."
-msgstr "Questa configurazione sostituirà i report delle politiche predefiniti."
-
-msgid "This configuration will use the policy default reports."
-msgstr "Questa configurazione userà i report delle politiche predefiniti."
 
 msgid "This could prevent clients from backing up or restoring from this destination."
 msgstr "Ciò potrebbe impedire ai client di eseguire il backup o il ripristino da questa destinazione."
@@ -7420,6 +7647,10 @@ msgstr ""
 "Questo nuovo dispositivo deve essere registrato nel tuo account di backup.\n"
 "\n"
 "Inserisci un nome per il nuovo dispositivo:"
+
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "This option is useful for ransomware protection, as a bad actor with user credentials could otherwise set the Retention policy on a Protected Item to \"keep nothing\" and let historical backups be deleted by retention."
+msgstr ""
 
 msgid "This page has been refreshed since performing this search."
 msgstr "Questa pagina è stata aggiornata dall'esecuzione della ricerca."
@@ -7557,6 +7788,9 @@ msgstr "Membri totali:"
 #, qt-format
 msgid "Total members: %1"
 msgstr "Membri totali: %1"
+
+msgid "Total Protected"
+msgstr ""
 
 msgid "Total scans"
 msgstr "Totale scansioni"
@@ -7748,9 +7982,6 @@ msgstr "Non supportato"
 msgid "Unsupported backupset type '%s'"
 msgstr "Tipo di set di backup non supportato '%s'"
 
-msgid "Unsupported browser"
-msgstr "Browser non supportato"
-
 #, c-format
 msgid "Unsupported configuration option '%s' (did the software version change?)"
 msgstr "Opzione di configurazione '%s' non supportata (la versione del software è cambiata?)"
@@ -7834,6 +8065,7 @@ msgstr "Usa con le regole del ciclo di vita di B2 e una chiave B2 senza la funzi
 msgid "Use with B2 Lifecycle Rules for file clean-up and to generate B2 keys with reduced permissions, providing higher security."
 msgstr "Usa con le regole del ciclo di vita di B2 per la pulizia dei file e per generare chiavi B2 con autorizzazioni ridotte, fornendo una maggiore sicurezza."
 
+#. Used-up disk space
 msgid "Used"
 msgstr "Usato"
 
@@ -8260,6 +8492,10 @@ msgstr "Ieri alle %1"
 #, c-format
 msgid "You are receiving this email because '%s' is registered as the email contact for the backup account '%s'."
 msgstr "Hai ricevuto questa email perché '%s' è registrato come contatto email per l'account di backup '%s'."
+
+#, c-format
+msgid "You are viewing the website as %s."
+msgstr ""
 
 msgid "You can create buckets automatically via the \"Request\" system; or manually (for instance: during a Seed Load)."
 msgstr "È possibile creare dei bucket automaticamente tramite il sistema \"Richiesta\"; o manualmente (ad esempio: durante un Seed Load)."

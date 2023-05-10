@@ -667,6 +667,9 @@ msgstr "Tutte le partizioni"
 msgid "All protected items"
 msgstr "Tutti gli oggetti protetti"
 
+msgid "All Sites"
+msgstr ""
+
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "All Storage Vaults"
 msgstr "Tutti gli spazi di archiviazione"
@@ -916,9 +919,6 @@ msgstr "Applica criterio"
 
 msgid "Apply retention policy after backup"
 msgstr "Applica politica di conservazione dopo il backup"
-
-msgid "Apply retention rules"
-msgstr ""
 
 msgid "Apply retention rules now"
 msgstr "Applica ora regole di conservazione"
@@ -2012,8 +2012,8 @@ msgstr "Impossibile salvare il blocco di dati"
 
 #. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 #, c-format
-msgid "Couldn't save Office 365 data for account %s: %s"
-msgstr "Impossibile salvare i dati di Office 365 per l'account %s: %s"
+msgid "Couldn't save Office 365 data for account %s"
+msgstr ""
 
 msgid "Couldn't save profile to server"
 msgstr "Impossibile salvare il profilo nel server"
@@ -2295,6 +2295,10 @@ msgstr "Predefinito per i Nuovi Utenti"
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "Default Protected Item"
 msgstr "Oggetto protetto predefinito"
+
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "Default Protected Item(s)"
+msgstr ""
 
 msgid "Default reports"
 msgstr ""
@@ -2919,28 +2923,28 @@ msgid "Error retrieving provider list"
 msgstr "Errore durante il recupero dell'elenco di provider"
 
 #, c-format
-msgid "Error saving account: %s"
-msgstr "Errore durante il salvataggio dell'account: %s"
+msgid "Error saving account %s"
+msgstr ""
 
 #. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 #, c-format
-msgid "Error saving Office 365 Calendar data: %s"
-msgstr "Errore durante il salvataggio dei dati del calendario di Office 365: %s"
+msgid "Error saving Office 365 Calendar data for account %s"
+msgstr ""
 
 #. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 #, c-format
-msgid "Error saving Office 365 Contact data: %s"
-msgstr "Errore durante il salvataggio dei dati dei contatti di Office 365: %s"
+msgid "Error saving Office 365 Contact data for account %s"
+msgstr ""
 
 #. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 #, c-format
-msgid "Error saving Office 365 email data: %s"
-msgstr "Errore durante il salvataggio dei dati delle email di Office 365: %s"
+msgid "Error saving Office 365 Email data for account %s"
+msgstr ""
 
 #. Definition of "OneDrive": This is a cloud storage platform from Microsoft. The _O_ and _D_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_OneDrive
 #, c-format
-msgid "Error saving OneDrive backup data: %s"
-msgstr "Errore durante il salvataggio dei dati di backup di OneDrive: %s"
+msgid "Error saving OneDrive backup data for account %s"
+msgstr ""
 
 #. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
 #, c-format
@@ -3186,6 +3190,9 @@ msgid "File"
 msgstr "File"
 
 msgid "File (PKCS#12)"
+msgstr ""
+
+msgid "File and folder exclusion(s)"
 msgstr ""
 
 msgid "File and folder exclusions"
@@ -3627,6 +3634,9 @@ msgstr "Processi incompleti/in esecuzione"
 
 msgid "Increasing"
 msgstr "Crescente"
+
+msgid "Incremental backup for sites failed, trying full site backup..."
+msgstr ""
 
 msgid "Individual Resources"
 msgstr "Risorse individuali"
@@ -5165,6 +5175,12 @@ msgstr "Esegui un %s per aggiornare i dati dei risultati."
 msgid "Performing a deep verification of Vault content may cause the client to download a lot of data from the Storage Vault."
 msgstr "L'esecuzione di una verifica approfondita del contenuto del Vault può causare il download di molti dati dal Vault di Archiviazione da parte del client."
 
+msgid "Performing incremental backup for site"
+msgstr ""
+
+msgid "Performing incremental backup of mailbox"
+msgstr ""
+
 msgid "Periodic"
 msgstr "Periodica"
 
@@ -5996,10 +6012,6 @@ msgstr "I criteri di conservazione vengono applicati singolarmente per ogni Ogge
 
 msgid "Retention Range"
 msgstr "Intervallo di conservazione"
-
-#, c-format
-msgid "Retrying a full backup for '%s'"
-msgstr "Nuovo tentativo di backup completo di '%s'"
 
 msgid "Revert to default"
 msgstr "Ripristinare l'impostazione predefinita"
@@ -8497,8 +8509,9 @@ msgstr "Hai ricevuto questa email perché '%s' è registrato come contatto email
 msgid "You are viewing the website as %s."
 msgstr ""
 
-msgid "You can create buckets automatically via the \"Request\" system; or manually (for instance: during a Seed Load)."
-msgstr "È possibile creare dei bucket automaticamente tramite il sistema \"Richiesta\"; o manualmente (ad esempio: durante un Seed Load)."
+#, c-format
+msgid "You can create buckets automatically via the \"%s\" system; or manually (for instance: during a Seed Load)."
+msgstr "È possibile creare dei bucket automaticamente tramite il sistema \"%s\"; o manualmente (ad esempio: durante un Seed Load)."
 
 msgid "You can enable this feature via the client software."
 msgstr "È possibile abilitare questa funzione tramite il software client."

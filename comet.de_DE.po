@@ -743,6 +743,9 @@ msgstr "Alle Partitionen"
 msgid "All protected items"
 msgstr "Alle geschützten Elemente"
 
+msgid "All Sites"
+msgstr ""
+
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 #. To be consistent, translate 'Storage Vault' as: Speicherort
 msgid "All Storage Vaults"
@@ -1003,10 +1006,6 @@ msgstr "Richtlinie anwenden"
 
 msgid "Apply retention policy after backup"
 msgstr "Aufbewahrungsrichtlinie nach dem Backup anwenden"
-
-#. To be consistent, translate 'Retention rule' as: Aufbewahrungsregel
-msgid "Apply retention rules"
-msgstr ""
 
 #. To be consistent, translate 'Retention rule' as: Aufbewahrungsregel
 msgid "Apply retention rules now"
@@ -2191,8 +2190,8 @@ msgstr "Datensatz konnte nicht gespeichert werden"
 #. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 #. To be consistent, translate 'Account' as: Benutzerkonto
 #, c-format
-msgid "Couldn't save Office 365 data for account %s: %s"
-msgstr "Office 365-Daten für Konto %s: %s konnten nicht gespeichert werden"
+msgid "Couldn't save Office 365 data for account %s"
+msgstr ""
 
 msgid "Couldn't save profile to server"
 msgstr "Profil konnte nicht auf Server gespeichert werden"
@@ -2480,6 +2479,11 @@ msgstr "Standard für neue Benutzer"
 #. To be consistent, translate 'Protected Item' as: Geschütztes Element
 msgid "Default Protected Item"
 msgstr "Standard Geschütztes Element"
+
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+#. To be consistent, translate 'Protected Item' as: Geschütztes Element
+msgid "Default Protected Item(s)"
+msgstr ""
 
 msgid "Default reports"
 msgstr ""
@@ -3138,28 +3142,32 @@ msgstr "Fehler beim Abrufen der Anbieterliste"
 
 #. To be consistent, translate 'Account' as: Benutzerkonto
 #, c-format
-msgid "Error saving account: %s"
-msgstr "Fehler beim Speichern des Kontos: %s"
+msgid "Error saving account %s"
+msgstr ""
 
 #. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
+#. To be consistent, translate 'Account' as: Benutzerkonto
 #, c-format
-msgid "Error saving Office 365 Calendar data: %s"
-msgstr "Fehler beim Speichern von Office 365 Kalenderdaten: %s"
+msgid "Error saving Office 365 Calendar data for account %s"
+msgstr ""
 
 #. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
+#. To be consistent, translate 'Account' as: Benutzerkonto
 #, c-format
-msgid "Error saving Office 365 Contact data: %s"
-msgstr "Fehler beim Speichern von Office 365-Kontaktdaten: %s"
+msgid "Error saving Office 365 Contact data for account %s"
+msgstr ""
 
 #. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
+#. To be consistent, translate 'Account' as: Benutzerkonto
 #, c-format
-msgid "Error saving Office 365 email data: %s"
-msgstr "Fehler beim Speichern von Office 365-E-Mail-Daten: %s"
+msgid "Error saving Office 365 Email data for account %s"
+msgstr ""
 
 #. Definition of "OneDrive": This is a cloud storage platform from Microsoft. The _O_ and _D_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_OneDrive
+#. To be consistent, translate 'Account' as: Benutzerkonto
 #, c-format
-msgid "Error saving OneDrive backup data: %s"
-msgstr "Fehler beim Speichern von OneDrive-Sicherungsdaten: %s"
+msgid "Error saving OneDrive backup data for account %s"
+msgstr ""
 
 #. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
 #, c-format
@@ -3417,6 +3425,9 @@ msgid "File"
 msgstr "Datei"
 
 msgid "File (PKCS#12)"
+msgstr ""
+
+msgid "File and folder exclusion(s)"
 msgstr ""
 
 msgid "File and folder exclusions"
@@ -3880,6 +3891,9 @@ msgstr "Unvollständige/laufende Aufgaben"
 
 msgid "Increasing"
 msgstr "Zunehmend"
+
+msgid "Incremental backup for sites failed, trying full site backup..."
+msgstr ""
 
 msgid "Individual Resources"
 msgstr "Einzelne Ressourcen"
@@ -5496,6 +5510,12 @@ msgstr "Führen Sie ein %s aus, um die Ergebnisdaten zu aktualisieren."
 msgid "Performing a deep verification of Vault content may cause the client to download a lot of data from the Storage Vault."
 msgstr "Durch eine gründliche Überprüfung des Speicherort -Inhalts kann der Client viele Daten aus dem Speicherort herunterladen."
 
+msgid "Performing incremental backup for site"
+msgstr ""
+
+msgid "Performing incremental backup of mailbox"
+msgstr ""
+
 msgid "Periodic"
 msgstr "Periodisch"
 
@@ -6393,10 +6413,6 @@ msgstr "Die Aufbewahrungsrichtlinie gilt individuell für jedes Geschützte Elem
 
 msgid "Retention Range"
 msgstr "Spanne der Aufbewahrung"
-
-#, c-format
-msgid "Retrying a full backup for '%s'"
-msgstr "Vollständige Sicherung für '%s' erneut versuchen"
 
 msgid "Revert to default"
 msgstr "Auf Standard zurücksetzen"
@@ -9062,8 +9078,9 @@ msgid "You are viewing the website as %s."
 msgstr ""
 
 #. To be consistent, translate 'Bucket' as: Bucket (German translations are funny, but useless for this context)
-msgid "You can create buckets automatically via the \"Request\" system; or manually (for instance: during a Seed Load)."
-msgstr "Sie können Buckets automatisch über das \"Anfrage\" System erstellen; oder manuell (zum Beispiel: während einer Seed-Ladung)."
+#, c-format
+msgid "You can create buckets automatically via the \"%s\" system; or manually (for instance: during a Seed Load)."
+msgstr "Sie können Buckets automatisch über das \"%s\" System erstellen; oder manuell (zum Beispiel: während einer Seed-Ladung)."
 
 msgid "You can enable this feature via the client software."
 msgstr "Dieses Feature können Sie via der Client-Software aktivieren."

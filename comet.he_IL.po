@@ -667,6 +667,9 @@ msgstr "כל המחיצות"
 msgid "All protected items"
 msgstr "כל הפריטים המוגנים"
 
+msgid "All Sites"
+msgstr ""
+
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "All Storage Vaults"
 msgstr "כל כספות האחסון"
@@ -916,9 +919,6 @@ msgstr "החל מדיניות"
 
 msgid "Apply retention policy after backup"
 msgstr "החל מדיניות שמירה לאחר הגיבוי"
-
-msgid "Apply retention rules"
-msgstr ""
 
 msgid "Apply retention rules now"
 msgstr "החל את כללי השמירה כעת"
@@ -2012,8 +2012,8 @@ msgstr "לא ניתן היה לשמור נתח נתונים"
 
 #. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 #, c-format
-msgid "Couldn't save Office 365 data for account %s: %s"
-msgstr "לא ניתן היה לשמור את נתוני Office 365 בחשבון %s: %s"
+msgid "Couldn't save Office 365 data for account %s"
+msgstr ""
 
 msgid "Couldn't save profile to server"
 msgstr "לא ניתן לשמור פרופיל לשרת"
@@ -2295,6 +2295,10 @@ msgstr "ברירת מחדל למשתמשים חדשים"
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "Default Protected Item"
 msgstr "פריט מוגן כברירת מחדל"
+
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "Default Protected Item(s)"
+msgstr ""
 
 msgid "Default reports"
 msgstr ""
@@ -2919,28 +2923,28 @@ msgid "Error retrieving provider list"
 msgstr "שגיאה בהחזרת רשימת ספקים"
 
 #, c-format
-msgid "Error saving account: %s"
-msgstr "שגיאה בשמירת החשבון: %s"
+msgid "Error saving account %s"
+msgstr ""
 
 #. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 #, c-format
-msgid "Error saving Office 365 Calendar data: %s"
-msgstr "שגיאה בשמירת נתוני יומן Office 365:  %s"
+msgid "Error saving Office 365 Calendar data for account %s"
+msgstr ""
 
 #. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 #, c-format
-msgid "Error saving Office 365 Contact data: %s"
-msgstr "שגיאה בשמירת נתוני איש הקשר של Office 365: %s"
+msgid "Error saving Office 365 Contact data for account %s"
+msgstr ""
 
 #. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 #, c-format
-msgid "Error saving Office 365 email data: %s"
-msgstr "שגיאה בשמירת נתוני הדואר אלקטרוני של Office 365: %s"
+msgid "Error saving Office 365 Email data for account %s"
+msgstr ""
 
 #. Definition of "OneDrive": This is a cloud storage platform from Microsoft. The _O_ and _D_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_OneDrive
 #, c-format
-msgid "Error saving OneDrive backup data: %s"
-msgstr "שגיאה בשמירת נתוני גיבוי של OneDrive: %s"
+msgid "Error saving OneDrive backup data for account %s"
+msgstr ""
 
 #. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
 #, c-format
@@ -3186,6 +3190,9 @@ msgid "File"
 msgstr "קובץ"
 
 msgid "File (PKCS#12)"
+msgstr ""
+
+msgid "File and folder exclusion(s)"
 msgstr ""
 
 msgid "File and folder exclusions"
@@ -3627,6 +3634,9 @@ msgstr "עבודות לא מלאות / רצות"
 
 msgid "Increasing"
 msgstr "גדל"
+
+msgid "Incremental backup for sites failed, trying full site backup..."
+msgstr ""
 
 msgid "Individual Resources"
 msgstr "משאבים אישיים"
@@ -5165,6 +5175,12 @@ msgstr "בצע %s כדי לרענן את נתוני התוצאות."
 msgid "Performing a deep verification of Vault content may cause the client to download a lot of data from the Storage Vault."
 msgstr "ביצוע אימות מעמיק של תוכן הכספת עשוי לגרום ללקוח להוריד נתונים רבים מStorage Vault."
 
+msgid "Performing incremental backup for site"
+msgstr ""
+
+msgid "Performing incremental backup of mailbox"
+msgstr ""
+
 msgid "Periodic"
 msgstr "תקופתי"
 
@@ -5996,10 +6012,6 @@ msgstr "מדינות ההחזקה חלה על כל פריט מוגן המגוב�
 
 msgid "Retention Range"
 msgstr "טווח החזקה"
-
-#, c-format
-msgid "Retrying a full backup for '%s'"
-msgstr "מנסה שוב גיבוי מלא עבור '%s'"
 
 msgid "Revert to default"
 msgstr "חזרה לברירת מחדל"
@@ -8497,8 +8509,9 @@ msgstr "אתה מקבל הודעת דואר אלקטרוני זו מכיוון �
 msgid "You are viewing the website as %s."
 msgstr ""
 
-msgid "You can create buckets automatically via the \"Request\" system; or manually (for instance: during a Seed Load)."
-msgstr "אתה יכול ליצור Buckets באופן אוטומטי באמצעות מערכת \"בקשה\"; או ידנית (למשל: במהלך טעינת זרעים)."
+#, c-format
+msgid "You can create buckets automatically via the \"%s\" system; or manually (for instance: during a Seed Load)."
+msgstr "אתה יכול ליצור Buckets באופן אוטומטי באמצעות מערכת \"%s\"; או ידנית (למשל: במהלך טעינת זרעים)."
 
 msgid "You can enable this feature via the client software."
 msgstr "ניתן להפעיל תכונה זו באמצעות תוכנת הלקוח."

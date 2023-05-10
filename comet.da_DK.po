@@ -667,6 +667,9 @@ msgstr "Alle partitioner"
 msgid "All protected items"
 msgstr "Alle beskyttede elementer"
 
+msgid "All Sites"
+msgstr ""
+
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "All Storage Vaults"
 msgstr "Alle Storage Vaults"
@@ -916,9 +919,6 @@ msgstr "Anvend Politik"
 
 msgid "Apply retention policy after backup"
 msgstr "Anvend opbevaringspolitik efter sikkerhedskopiering"
-
-msgid "Apply retention rules"
-msgstr ""
 
 msgid "Apply retention rules now"
 msgstr "Anvend opbevaringsregler nu"
@@ -2012,8 +2012,8 @@ msgstr "Data chunk kunne ikke gemmes"
 
 #. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 #, c-format
-msgid "Couldn't save Office 365 data for account %s: %s"
-msgstr "Kontoens Office 365 data kunne ikke gemmes: %s: %s"
+msgid "Couldn't save Office 365 data for account %s"
+msgstr ""
 
 msgid "Couldn't save profile to server"
 msgstr "Profilen kunne ikke gemmes på serveren"
@@ -2295,6 +2295,10 @@ msgstr "Standard for nye brugere"
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "Default Protected Item"
 msgstr "Standard Beskyttet Element"
+
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "Default Protected Item(s)"
+msgstr ""
 
 msgid "Default reports"
 msgstr ""
@@ -2919,28 +2923,28 @@ msgid "Error retrieving provider list"
 msgstr "Der opstod en fejl under hentning af udbyderliste"
 
 #, c-format
-msgid "Error saving account: %s"
-msgstr "Der opstod en fejl under lagring af kontoen: %s"
+msgid "Error saving account %s"
+msgstr ""
 
 #. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 #, c-format
-msgid "Error saving Office 365 Calendar data: %s"
-msgstr "Der opstod en fejl under lagring af Office 365 kalenderdata: %s"
+msgid "Error saving Office 365 Calendar data for account %s"
+msgstr ""
 
 #. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 #, c-format
-msgid "Error saving Office 365 Contact data: %s"
-msgstr "Der opstod en fejl under lagring af Office 365 kontaktpersondata: %s"
+msgid "Error saving Office 365 Contact data for account %s"
+msgstr ""
 
 #. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 #, c-format
-msgid "Error saving Office 365 email data: %s"
-msgstr "Der opstod en fejl under lagring af Office 365 e-maildata: %s"
+msgid "Error saving Office 365 Email data for account %s"
+msgstr ""
 
 #. Definition of "OneDrive": This is a cloud storage platform from Microsoft. The _O_ and _D_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_OneDrive
 #, c-format
-msgid "Error saving OneDrive backup data: %s"
-msgstr "Der opstod en fejl under lagring af OneDrive backup data: %s"
+msgid "Error saving OneDrive backup data for account %s"
+msgstr ""
 
 #. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
 #, c-format
@@ -3186,6 +3190,9 @@ msgid "File"
 msgstr "Fil"
 
 msgid "File (PKCS#12)"
+msgstr ""
+
+msgid "File and folder exclusion(s)"
 msgstr ""
 
 msgid "File and folder exclusions"
@@ -3627,6 +3634,9 @@ msgstr "Ufuldstændige/kørende job"
 
 msgid "Increasing"
 msgstr "Stigende"
+
+msgid "Incremental backup for sites failed, trying full site backup..."
+msgstr ""
 
 msgid "Individual Resources"
 msgstr "Individuelle ressourcer"
@@ -5165,6 +5175,12 @@ msgstr "Udfør en %s for at opdatere resultatdataene."
 msgid "Performing a deep verification of Vault content may cause the client to download a lot of data from the Storage Vault."
 msgstr "Udførelse af en dyb verifikation af Vault-indhold kan få klienten til at downloade meget data fra Storage Vault."
 
+msgid "Performing incremental backup for site"
+msgstr ""
+
+msgid "Performing incremental backup of mailbox"
+msgstr ""
+
 msgid "Periodic"
 msgstr "Periodisk"
 
@@ -5996,10 +6012,6 @@ msgstr "Opbevaringspolitikken gælder individuelt for hvert Beskyttet Element de
 
 msgid "Retention Range"
 msgstr "Opbevaringsområde"
-
-#, c-format
-msgid "Retrying a full backup for '%s'"
-msgstr "Prøver igen for en fuld sikkerhedskopi for '%s'"
 
 msgid "Revert to default"
 msgstr "Vend tilbage til standard"
@@ -8497,8 +8509,9 @@ msgstr "Du modtager denne e-mail, fordi '%s' er registreret som e-mail kontakt f
 msgid "You are viewing the website as %s."
 msgstr ""
 
-msgid "You can create buckets automatically via the \"Request\" system; or manually (for instance: during a Seed Load)."
-msgstr "Du kan oprette containere automatisk via \"Anmod\"-systemet; eller manuelt (f.eks. under en Seed Load)."
+#, c-format
+msgid "You can create buckets automatically via the \"%s\" system; or manually (for instance: during a Seed Load)."
+msgstr "Du kan oprette containere automatisk via \"%s\"-systemet; eller manuelt (f.eks. under en Seed Load)."
 
 msgid "You can enable this feature via the client software."
 msgstr "Du kan aktivere denne funktion via klientsoftwaren."

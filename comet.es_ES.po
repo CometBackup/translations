@@ -1,4 +1,4 @@
-# Copyright (2023) Comet Licensing Ltd.
+# Copyright (2024) Comet Licensing Ltd.
 # All rights reserved.
 # Please contact us via https://cometbackup.com for assistance.
 msgid ""
@@ -29,7 +29,7 @@ msgstr "%1 (%2)"
 msgid "%1 (Device \"%2\")"
 msgstr "%1 (Dispositivo \"%2\")"
 
-#. When displaying the time of a past event. [Event happened] at [03:00 PM]
+#. When displaying the time of a past event. [Event happened] at [03:00 pm]
 #, qt-format
 msgid "%1 at %2"
 msgstr "%1 en %2"
@@ -309,7 +309,7 @@ msgid "Abandoning task."
 msgstr "Abandonando tarea."
 
 msgid "About"
-msgstr ""
+msgstr "Información"
 
 msgid "About this cluster"
 msgstr "Acerca de este Grupo"
@@ -352,7 +352,7 @@ msgid "Access Key"
 msgstr "Clave de acceso"
 
 msgid "Access:"
-msgstr ""
+msgstr "Acceso:"
 
 msgid "account"
 msgstr "cuenta"
@@ -412,7 +412,7 @@ msgstr "Agregar una nueva Bóveda de Almacenamiento"
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Add a new Storage Vault, or select a Storage Vault to configure."
-msgstr ""
+msgstr "Agregue un nuevo Storage Vault o seleccione un Storage Vault para configurar."
 
 msgid "Add a user"
 msgstr "Agregar un usuario"
@@ -430,12 +430,15 @@ msgstr "Añadir un elemento"
 msgid "Add and manage admin users for this tenant"
 msgstr "Agregar y administrar usuarios de administrador para este inquilino"
 
+msgid "Add and manage audit file logging"
+msgstr ""
+
 msgid "Add and manage email reporting options"
 msgstr "Añadir y gestionar opciones de informes por correo electrónico"
 
 #. Definition of "PSA": An acroynm for Professional Services Automation, a kind of business software for managing customers. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Professional_services_automation
-msgid "Add and manage external PSA services"
-msgstr "Agregar y administrar servicios PSA externos"
+msgid "Add and manage external PSA and alerting services"
+msgstr ""
 
 msgid "Add and manage webhooks"
 msgstr "Agregar y administrar webhooks"
@@ -570,6 +573,33 @@ msgstr "Cuentas de Administradores"
 msgid "Admin accounts can log in to the server admin area and access all administrative functions. Tenant admins can view and manage all data within the scope of their tenant only."
 msgstr "Las cuentas de administradores pueden ingresar al área de administración del servidor y tener acceso a todas las funciones administrativas. Los administradores de inquilinos pueden observar y administrar todos los datos solamente dentro del alcance de su inquilino."
 
+msgid "Admin authentication failed. Only emitted if the admin exists. Resource is the request path"
+msgstr ""
+
+msgid "Admin authentication succeeded. Only emitted for non-session requests. Resource is the requested path"
+msgstr ""
+
+msgid "Admin created. Data is the profile object"
+msgstr ""
+
+msgid "Admin deleted"
+msgstr ""
+
+msgid "Admin Policy"
+msgstr ""
+
+msgid "Admin session token created. Data is the session object"
+msgstr ""
+
+msgid "Admin session token deleted"
+msgstr ""
+
+msgid "Admin session token expired"
+msgstr ""
+
+msgid "Admin updated"
+msgstr ""
+
 msgid "Admin Users"
 msgstr "Usuarios de Admin"
 
@@ -642,6 +672,12 @@ msgstr "Todos los discos"
 msgid "All drives"
 msgstr "Todas las unidades"
 
+msgid "All event types"
+msgstr ""
+
+msgid "All Events"
+msgstr ""
+
 msgid "All import tasks completed."
 msgstr "Todas las tareas importadas completadas."
 
@@ -673,8 +709,15 @@ msgstr "Todas las particiones"
 msgid "All protected items"
 msgstr "Añadir elementos protegidos"
 
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "All Protected Items"
+msgstr ""
+
 msgid "All Sites"
 msgstr "Todos los sitios"
+
+msgid "All statuses"
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "All Storage Vaults"
@@ -684,6 +727,25 @@ msgid "All time"
 msgstr "Todos los tiempos"
 
 msgid "All types"
+msgstr "Todos los tipos"
+
+msgid "All virtual machines"
+msgstr ""
+
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "All VM snapshots"
+msgstr ""
+
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "All VM snapshots (Application-consistent)"
+msgstr ""
+
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "All VM snapshots (Crash-consistent)"
+msgstr ""
+
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "All VM snapshots (Including running state)"
 msgstr ""
 
 #. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
@@ -699,13 +761,13 @@ msgid "Allow %1 to reset my password"
 msgstr "Permitir a %1 restaurar mi contraseña"
 
 #, qt-format
-msgid "Allow %1 to view file names"
+msgid "Allow %1 to view file names remotely"
 msgstr "Permitir que %1 vea los nombres de los archivos"
 
 msgid "Allow administrator to reset password"
 msgstr "Permitir al administrador restaurar contraseña"
 
-msgid "Allow administrator to view file names"
+msgid "Allow administrator to view file names remotely"
 msgstr "Permitir al administrador ver los nombres de archivo"
 
 msgid "Allow all event types"
@@ -731,7 +793,7 @@ msgid "Allow editing email options"
 msgstr "Permitir la edición de las opciones de correo electrónico"
 
 msgid "Allow editing external admin authentication sources"
-msgstr ""
+msgstr "Permitir editar fuentes de autenticación de administrador externo"
 
 msgid "Allow editing remote storage settings"
 msgstr "Permitir editar la configuración de almacenamiento remoto"
@@ -747,7 +809,7 @@ msgid "Allow invalid SSL certificate"
 msgstr "Permitir certificado SSL inválido"
 
 msgid "Allow partial file restores (zero-out unrecoverable data)"
-msgstr ""
+msgstr "Permitir restauraciones parciales de archivos (eliminación de datos irrecuperables)"
 
 msgid "Allow removal of deleted files"
 msgstr "Permitir la eliminación de archivos eliminados"
@@ -756,7 +818,7 @@ msgid "Allow self-signed certificate"
 msgstr "Permitir certificado autofirmado"
 
 msgid "Allow users to set the Object Lock duration."
-msgstr ""
+msgstr "Permitir a los usuarios establecer la duración del bloqueo de objetos."
 
 msgid "Allowed Event Types"
 msgstr "Tipos de Eventos Permitidos"
@@ -788,6 +850,9 @@ msgstr "Amazon S3"
 
 msgid "Amazon S3 (China)"
 msgstr "Amazon S3 (China)"
+
+msgid "Amazon S3 (Object Lock)"
+msgstr ""
 
 msgid "An error occurred while copying to the clipboard."
 msgstr "Ocurrió un error mientras copiaba al portapapeles."
@@ -840,25 +905,11 @@ msgstr "Cualquier CPU"
 msgid "Any custom Retention policies will override the default policy for the Storage Vault."
 msgstr "Cualquiera de las políticas personalizadas de retención anularán la directiva predeterminada para la bóveda de almacenamiento."
 
-msgid "Any device"
-msgstr "Cualquier dispositivo"
-
 msgid "Any error status"
 msgstr "Cualquier estado de error"
 
 msgid "Any operating system"
 msgstr "Cualquier sistema operativo"
-
-#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
-msgid "Any Protected Item"
-msgstr "Cualquier Elemento Protegido"
-
-msgid "Any status"
-msgstr "Cualquier estado"
-
-#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
-msgid "Any Storage Vault"
-msgstr "Cualquier Bóveda de Almacenamiento"
 
 msgid "Any unsaved changes will be lost. Do you wish to continue?"
 msgstr "Se perderá cualquier cambio no guardado. ¿Desea continuar?"
@@ -1023,6 +1074,10 @@ msgstr "¿Está seguro de que desea eliminar la bóveda de almacenamiento \"%1\"
 msgid "Are you sure you want to remove the user '%s'?"
 msgstr "¿Está seguro de que desea eliminar el usuario \"%s\"?"
 
+#, c-format
+msgid "Are you sure you want to remove these %d devices?"
+msgstr ""
+
 msgid ""
 "Are you sure you want to remove this backup job?\n"
 "It will no longer be possible to recover data from this job."
@@ -1077,6 +1132,21 @@ msgstr "Al menos uno de...."
 
 msgid "At least one Span Target is required"
 msgstr "Se requiere al menos un objetivo de tramo"
+
+msgid "Attach Policy"
+msgstr ""
+
+msgid "Attempting to cancel job..."
+msgstr ""
+
+msgid "Attempting to remotely terminate job..."
+msgstr ""
+
+msgid "Audit Log"
+msgstr ""
+
+msgid "Audit Logging"
+msgstr ""
 
 msgid "August"
 msgstr "Agosto"
@@ -1137,7 +1207,7 @@ msgstr "Directorio Azure Activee"
 #. Definition of "Azure": This is a cloud computing service from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Azure
 #. Definition of "Azure AD": Azure AD (Active Directory) is a user account management system within Microsoft Azure. If an official translation is available, it should be used. https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis
 msgid "Azure AD v2"
-msgstr ""
+msgstr "Azure AD v2"
 
 #. Definition of "Azure": This is a cloud computing service from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Azure
 msgid "Azure base URL"
@@ -1157,13 +1227,18 @@ msgstr "Nombre del almacén de claves de Azure"
 
 #. Definition of "Azure": This is a cloud computing service from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Azure
 msgid "Azure tenant ID"
-msgstr ""
+msgstr "Azure tenant ID"
 
 msgid "B"
 msgstr "B"
 
 msgid "Back"
 msgstr "Anterior"
+
+#. Definition of "Quiesce": An uncommon English verb. When you quiesce a program, it must finish any current operations and then temporarily pause, so that this single moment can be returned to later. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Quiesce
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Back up entire VM. Unused disk areas are skipped. Uses quiesce snapshot. Disks are flattened (all snapshots/checkpoints are consolidated) and only the current disk state is stored."
+msgstr ""
 
 #. Definition of "B2": 'B2' is an abbreviation for 'Backblaze B2 Cloud Storage', a commercial service for storing files. If an official translation is available, it should be used. https://www.backblaze.com/b2/cloud-storage.html
 #. Definition of "Backblaze": This is a commercial service for storing files. If an official translation is available, it should be used. https://www.backblaze.com/b2/cloud-storage.html
@@ -1205,6 +1280,9 @@ msgstr "Fecha de copia de seguridad"
 
 msgid "backup engine"
 msgstr "motor de copia de seguridad"
+
+msgid "Backup job completed. Data is the job object"
+msgstr ""
 
 msgid "Backup job did not run at scheduled time"
 msgstr "El trabajo de copia de seguridad no se ejecutó en el momento programado"
@@ -1255,7 +1333,7 @@ msgid "Based on your configuration:"
 msgstr "Según su configuración:"
 
 msgid "Before task"
-msgstr "Tarea antes"
+msgstr "Antes de la tarea"
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Before the job started, the Storage Vault's size was:"
@@ -1280,6 +1358,9 @@ msgstr "Explorar camino UNC"
 
 msgid "Bucket"
 msgstr "Cubo"
+
+msgid "Bucket deleted"
+msgstr ""
 
 msgid "Bucket ID"
 msgstr "ID de Cubo"
@@ -1313,6 +1394,12 @@ msgstr "Los cubos sin usuarios son candidatos para la poda."
 
 msgid "Building cache..."
 msgstr "Construyendo cache..."
+
+msgid "Building installer..."
+msgstr ""
+
+msgid "Bulk Actions"
+msgstr ""
 
 msgid "Bulk replace addresses"
 msgstr "Sustitución de direcciones por volumen"
@@ -1418,6 +1505,12 @@ msgstr "Cancelar"
 msgid "Cancel if still running after:"
 msgstr "Cancelar si sigue funcionando después de:"
 
+msgid "Cancellation has failed. Would you like to try and remotely terminate the job?"
+msgstr ""
+
+msgid "Cancellation process"
+msgstr ""
+
 msgid "Cancelled"
 msgstr "Cancelado"
 
@@ -1461,8 +1554,15 @@ msgstr "Cambiar clave"
 msgid "Change..."
 msgstr "Cambiar..."
 
+msgid "Changed Block Tracking"
+msgstr ""
+
 msgid "Changes will appear immediately in the client backup application."
 msgstr "Los cambios aparecerán inmediatamente en la aplicación de copia de seguridad del cliente."
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Checking connection to Storage Vault..."
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Checking Storage Vault free space..."
@@ -1486,6 +1586,10 @@ msgstr "Elegir elementos..."
 msgid "Choose tables..."
 msgstr "Elegir tablas..."
 
+#. Definition of "Hyper-V": This is a Virtual Machine hosting platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Hyper-V
+msgid "Choose the mode for Hyper-V backup."
+msgstr ""
+
 #. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
 #. Definition of "VMs": Abbreviation of 'Virtual Machines'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
 msgid "Choose VMs..."
@@ -1499,7 +1603,7 @@ msgid "Circular logging is enabled, incremental/differential backups may not per
 msgstr "El registro circular está habilitado, es posible que las copias de seguridad incrementales/diferenciales no realicen el truncamiento."
 
 msgid "Claim"
-msgstr ""
+msgstr "Reclamar"
 
 #, c-format
 msgid "Cleaning up %s snapshot..."
@@ -1556,10 +1660,6 @@ msgstr "Haga clic en '%s' para revisar las opciones de búsqueda."
 msgid "Click the word '%s' on the device's row to open its actions dialog."
 msgstr "Haga clic en la palabra '%s' en la fila del dispositivo para abrir un diálogo de acciones."
 
-#, c-format
-msgid "Clicking on %s will allow you to configure branding, emails, and other options for this server."
-msgstr "Hacer clic en %s le permitirá configurar el marcado, correos electrónicos y otras opciones para este servidor."
-
 msgid "Client"
 msgstr "Cliente"
 
@@ -1576,7 +1676,7 @@ msgid "Client certificate path"
 msgstr "Ruta del certificado de cliente"
 
 msgid "Client ID"
-msgstr ""
+msgstr "Identificación del cliente"
 
 msgid "Client key password"
 msgstr "Contraseña de clave de cliente"
@@ -1588,7 +1688,7 @@ msgid "Client News"
 msgstr "Noticias del Cliente"
 
 msgid "Client secret"
-msgstr ""
+msgstr "Secreto del cliente"
 
 msgid "Client users"
 msgstr "Usuarios del cliente"
@@ -1612,7 +1712,7 @@ msgid "Cloud Storage"
 msgstr "Almacenaje en la nube"
 
 msgid "Cluster"
-msgstr "Racimo"
+msgstr "Grupo"
 
 msgid "Codesigning"
 msgstr "Codificación"
@@ -1621,8 +1721,25 @@ msgid "Collapse Guide"
 msgstr "Colapsar Guía"
 
 #. Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
+msgid "Comet Dashboard"
+msgstr ""
+
+#. Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
 msgid "Comet image logo"
 msgstr "Logo de imagen de cometa"
+
+#. Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
+#. Definition of "Comet Server": This terminology is specific to Comet Backup. It is the name of our application, and should not be translated.
+msgid "Comet Server"
+msgstr ""
+
+#. Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
+msgid "Comet Storage"
+msgstr ""
+
+#. Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
+msgid "Comet Storage (Object Lock)"
+msgstr ""
 
 msgid "Coming soon"
 msgstr "Próximamente"
@@ -1706,7 +1823,7 @@ msgstr "Configurar opciones de almacenamiento par estar disponibles para sus usu
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Configure Storage Vault"
-msgstr ""
+msgstr "Configurar la bóveda de almacenamiento"
 
 msgid "Configure tenants for this server."
 msgstr "Configurar inquilinos para este servidor."
@@ -1746,14 +1863,11 @@ msgstr "Dispositivo Conectado"
 msgid "Connected Device Actions"
 msgstr "Acciones de dispositivo conectado"
 
-msgid "Connected devices"
-msgstr "Dispositivos conectados"
-
-msgid "Connected Devices"
-msgstr "Dispositivos Conectados"
-
 msgid "Connected since"
 msgstr "Conectado desde"
+
+msgid "Connected Since"
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Connecting to Storage Vault..."
@@ -1836,11 +1950,22 @@ msgstr "Copiar (como wget)"
 msgid "Copy additional drivers"
 msgstr "Copiar controladores adicionales"
 
+#. Definition of "Quiesce": An uncommon English verb. When you quiesce a program, it must finish any current operations and then temporarily pause, so that this single moment can be returned to later. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Quiesce
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Copy all related VM files. Disables quiesce and excludes VM memory for a quick snapshot operation."
+msgstr ""
+
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Copy all related VM files. Uses \"Include VM memory\" to dump memory during snapshot."
+msgstr ""
+
+#. Definition of "Quiesce": An uncommon English verb. When you quiesce a program, it must finish any current operations and then temporarily pause, so that this single moment can be returned to later. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Quiesce
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Copy all related VM files. Uses quiesce snapshot, so the guest OS can prepare for snapshot operation."
+msgstr ""
+
 msgid "Copy drivers from this PC"
 msgstr "Copiar los controladores de esta PC"
-
-msgid "Copy files"
-msgstr ""
 
 msgid "Copy to clipboard"
 msgstr "Copiar al portapapeles"
@@ -2113,7 +2238,7 @@ msgstr "Añadir Elemento Protegido"
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Create new Storage Vault"
-msgstr ""
+msgstr "Crear una nueva bóveda de almacenamiento"
 
 msgid "Create Policy"
 msgstr "Crear Política"
@@ -2187,7 +2312,7 @@ msgid "Custom directory"
 msgstr "Directorio personalizado"
 
 msgid "Custom Header"
-msgstr ""
+msgstr "Encabezado personalizado"
 
 msgid "Custom Headers"
 msgstr "Encabezados a la Medida"
@@ -2206,12 +2331,19 @@ msgstr "Camino mysqldump personalizado"
 msgid "Custom path to known_hosts file"
 msgstr "Ruta personalizada para el archivo known_hosts"
 
+msgid "Custom pattern"
+msgstr ""
+
 #. Definition of "pfx": The file name extension used for SSL certificates in PKCS #12 file format. https://en.wikipedia.org/wiki/PKCS_12
 msgid "Custom pfx file"
 msgstr "Archivo pfx personalizado"
 
 msgid "Custom Policy"
 msgstr "Política personalizada"
+
+#. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
+msgid "Custom regex"
+msgstr ""
 
 msgid "Custom Report(s)"
 msgstr "Reporte(s) personalizado(s)"
@@ -2251,9 +2383,15 @@ msgstr "Los datos respaldados a través de este servidor serán retenidos en el 
 msgid "Data deletion"
 msgstr "Borrado de datos"
 
+msgid "Data Details"
+msgstr ""
+
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "Data in use by various other combinations of Protected Items, including:"
 msgstr "Datos en uso por otras varias combinaciones de Objetos Protegidos, incluyendo:"
+
+msgid "Data Level"
+msgstr ""
 
 msgid "Data Size"
 msgstr "Tamaño de datos"
@@ -2297,7 +2435,7 @@ msgid "Days"
 msgstr "Días"
 
 msgid "Debug"
-msgstr ""
+msgstr "Depurar"
 
 msgid "December"
 msgstr "Diciembre"
@@ -2412,7 +2550,7 @@ msgstr "Eliminar instantánea"
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Delete Storage Vault"
-msgstr ""
+msgstr "Eliminar bóveda de almacenamiento"
 
 msgid "Delete target"
 msgstr "Eliminar objetivo"
@@ -2458,7 +2596,7 @@ msgid "Detailed log"
 msgstr "Entrada detallada"
 
 msgid "Detailed Log"
-msgstr ""
+msgstr "Entrada Detallada"
 
 msgid "Developer ID Application"
 msgstr "Solicitud de ID de Desarrollador"
@@ -2469,17 +2607,44 @@ msgstr "Instalador de ID de Desarrollador"
 msgid "Device"
 msgstr "Dispositivo"
 
+msgid "Device Actions"
+msgstr ""
+
+msgid "Device connected to registration lobby"
+msgstr ""
+
+msgid "Device created. Data is device object"
+msgstr ""
+
+msgid "Device deleted"
+msgstr ""
+
+msgid "Device disconnected from registration lobby"
+msgstr ""
+
 msgid "Device ID"
 msgstr "ID de dispositivo"
 
+msgid "Device live connection ended"
+msgstr ""
+
+msgid "Device live connection started"
+msgstr ""
+
 msgid "Device name"
 msgstr "Nombre del dispositivo"
+
+msgid "Device Name"
+msgstr ""
 
 msgid "Device names will still be visible if the user logs in to the web interface."
 msgstr "Los nombres de los dispositivos seguirán siendo visibles si el usuario inicia sesión en la interfaz web."
 
 msgid "Device Quota"
 msgstr "Cuota de Dispositivo"
+
+msgid "Device Quota Reached"
+msgstr ""
 
 msgid "Devices"
 msgstr "Dispositivos"
@@ -2538,7 +2703,7 @@ msgid "Disconnect"
 msgstr "Desconectar"
 
 msgid "Discovery document URL"
-msgstr ""
+msgstr "URL del documento de descubrimiento"
 
 msgid "Disk"
 msgstr "Disco"
@@ -2568,10 +2733,13 @@ msgid "Dismiss Guide"
 msgstr "Quitar Guía"
 
 msgid "Display name"
-msgstr ""
+msgstr "Nombre para mostrar"
 
 msgid "Do you also want to uninstall the software from the remote device(s)?"
 msgstr "¿También desea desinstalar el software de los dispositivos remotos?"
+
+msgid "Do you want to continue with this retention period?"
+msgstr ""
 
 msgid "Do you want to continue?"
 msgstr "¿Quiere continuar?"
@@ -2677,6 +2845,9 @@ msgstr "Duración: %s, %s"
 msgid "During migration, use this form to point user Storage Vault addresses at a replica Storage Role server."
 msgstr "Durante la migración, use este formulario para indicar direcciones de la bóveda de almacenamiento en un servidor de almacenamiento con función de réplica."
 
+msgid "During the retention period, you can not delete your bucket."
+msgstr ""
+
 #. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
 msgid "Dynamic Volume"
 msgstr "Volumen Dinámico"
@@ -2755,7 +2926,7 @@ msgstr "Editar Tiempo Programado"
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Edit Storage Vault"
-msgstr ""
+msgstr "Editar bóveda de almacenamiento"
 
 msgid "Edit target"
 msgstr "Editar objetivo"
@@ -3017,6 +3188,12 @@ msgstr "ETA:"
 msgid "EULA"
 msgstr "CLUF"
 
+msgid "Event (optional)"
+msgstr ""
+
+msgid "Event Types"
+msgstr ""
+
 msgid "every"
 msgstr "cada"
 
@@ -3038,7 +3215,7 @@ msgstr "Excel"
 
 #. Definition of "Exchange": This is an email server platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Exchange_Server
 msgid "Exchange"
-msgstr ""
+msgstr "Intercambio"
 
 #. Definition of "Exchange": This is an email server platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Exchange_Server
 msgid "Exchange backup mode not specified, assuming FULL"
@@ -3050,7 +3227,7 @@ msgstr "Intercambiando Organización"
 
 #. Definition of "Exchange": This is an email server platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Exchange_Server
 msgid "Exchange Server"
-msgstr ""
+msgstr "Servidor de intercambio"
 
 msgid "Exclude"
 msgstr "Excluyendo"
@@ -3058,7 +3235,7 @@ msgstr "Excluyendo"
 msgid "Exclude file"
 msgstr "Excluir archivo"
 
-msgid "Exclude job history database"
+msgid "Exclude job logs database"
 msgstr "Excluir base de datos de historial de trabajo"
 
 #. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
@@ -3097,7 +3274,7 @@ msgid "External"
 msgstr "Externo"
 
 msgid "External authentication"
-msgstr ""
+msgstr "Autenticación externa"
 
 msgid "External authentication sources"
 msgstr "Fuentes de autenticación externas"
@@ -3217,9 +3394,14 @@ msgstr "No se pudo guardar el informe del trabajo."
 msgid "Failed to save TOTP key"
 msgstr "Falla al guardar clave TOTP"
 
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#, c-format
+msgid "Failed to take application-consistent checkpoint of target VM %s: %s (falling back to crash-consistent)"
+msgstr ""
+
 #, c-format
 msgid "Failed to update tenant for user '%s': %s"
-msgstr "No se pudo actualizar el arrendatario para el usuario '%s': %s"
+msgstr "No se pudo actualizar el inquilino para el usuario '%s': %s"
 
 msgid "Failure"
 msgstr "Falla"
@@ -3229,9 +3411,6 @@ msgstr "Falso"
 
 msgid "Faster"
 msgstr "Más Rápido"
-
-msgid "Fastest (crash-consistent)"
-msgstr "Más rápido (consistente hasta antes del colapso)"
 
 msgid "Favorites"
 msgstr "Favoritos"
@@ -3265,6 +3444,9 @@ msgstr "Exclusión(es) de archivos y carpetas"
 msgid "File and folder exclusions"
 msgstr "Exclusiones de archivos y carpetas"
 
+msgid "File Name"
+msgstr ""
+
 msgid "File Path"
 msgstr "Ruta de archivo"
 
@@ -3274,9 +3456,6 @@ msgstr "Estrategia de colocación de archivo"
 #. Definition of "Filebase": This is a commercial service for storing files. If an official translation is available, it should be used. https://filebase.com/
 msgid "Filebase"
 msgstr "Base de Datos"
-
-msgid "Filename access"
-msgstr "Acceso al nombre de archivo"
 
 msgid "Files"
 msgstr "Archivos"
@@ -3335,6 +3514,9 @@ msgstr "Terminado"
 
 msgid "First"
 msgstr "Primero"
+
+msgid "Force Offline"
+msgstr ""
 
 msgid "Form"
 msgstr "Formulario"
@@ -3401,14 +3583,14 @@ msgstr "De la página de la cuenta del usuario en el servidor:"
 msgid "FTP"
 msgstr "FTP"
 
+msgid "Full"
+msgstr ""
+
 msgid "Full (base image)"
 msgstr "Completo (imagen base)"
 
 msgid "Full (copy only)"
 msgstr "Completo (copia)"
-
-msgid "Full backup"
-msgstr ""
 
 msgid "Full Disk Access permission has been granted"
 msgstr "Se ha concedido el permiso de acceso completo al disco"
@@ -3435,7 +3617,7 @@ msgid "Generate scheduled email reports"
 msgstr "Generar informes de correo electrónico programados"
 
 msgid "Generic OpenID Connect"
-msgstr ""
+msgstr "Conexión OpenID genérica"
 
 msgid "Generic/Unknown"
 msgstr "Genérico/Desconocido"
@@ -3459,7 +3641,7 @@ msgid "Good"
 msgstr "Bien"
 
 msgid "Google"
-msgstr ""
+msgstr "Google"
 
 #. Definition of "Google Cloud Storage": This is a commercial service for storing files. If an official translation is available, it should be used. https://cloud.google.com/storage/
 msgid "Google Cloud Storage"
@@ -3467,6 +3649,9 @@ msgstr "Almacenamiento en Google Cloud"
 
 msgid "Grant Full Disk Access Permission"
 msgstr "Otorgar permiso de acceso completo al disco"
+
+msgid "Granular restore"
+msgstr ""
 
 #. Used by the search system to create custom searches. "[FILE SIZE] greater than [SOMETHING]
 msgid "greater"
@@ -3490,6 +3675,9 @@ msgstr "Miembros de Grupo"
 
 msgid "group name"
 msgstr "nombre del grupo"
+
+msgid "Grouped By"
+msgstr ""
 
 msgid "Grouped status report"
 msgstr "Informe de estado agrupado"
@@ -3548,7 +3736,7 @@ msgid "Host"
 msgstr "Host"
 
 msgid "Hosted domain"
-msgstr ""
+msgstr "Dominio alojado"
 
 msgid "hostname"
 msgstr "nombre del host"
@@ -3627,16 +3815,22 @@ msgstr "Si es diferente del dominio del usuario"
 
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "If no Protected Item types are available, contact the administrator to provide at least one Protected Item type"
-msgstr ""
+msgstr "Si no hay ningún tipo de elemento protegido disponible, comuníquese con el administrador para proporcionar al menos un tipo de elemento protegido."
 
 msgid "If the bucket does not exist, it will be automatically created in the \"US East (N. Virginia)\" region."
 msgstr "Si el cubo no existe, se creará automáticamente en la región \"US este (N. Virginia)\"."
+
+msgid "If the job is actually still running, it will be revived when a progress update is received."
+msgstr ""
 
 msgid "If the last job was Missed"
 msgstr "Si el último trabajo fue Incumplido"
 
 msgid "If the setting is ever disabled, the end-user will need to manually re-enable it inside the app."
 msgstr "Si la configuración se deshabilita alguna vez, el usuario final deberá volver a habilitarla manualmente dentro de la aplicación."
+
+msgid "If you believe the job is no longer running, would you like to mark it as Abandoned?"
+msgstr ""
 
 msgid "Image"
 msgstr "Imagen"
@@ -3656,7 +3850,7 @@ msgid "Import"
 msgstr "Importar"
 
 msgid "Import Settings"
-msgstr ""
+msgstr "Importar ajustes"
 
 msgid "Import settings from another backup product"
 msgstr "Importar la configuración de otro producto de copia de seguridad"
@@ -3686,10 +3880,6 @@ msgstr "Incluir patrón"
 #. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
 msgid "Include regex"
 msgstr "Incluir regex"
-
-#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
-msgid "Include running VM memory"
-msgstr "Incluye correr memoria VM"
 
 msgid "Include specified Virtual Machine"
 msgstr "Incluir Máquina Virtual especificada"
@@ -3737,7 +3927,7 @@ msgid "Information"
 msgstr "Información"
 
 msgid "Inherit from parent tenant"
-msgstr "Heredar del Tenant 'inquilino' principal"
+msgstr "Heredar del inquilino principal"
 
 msgid "Initialized"
 msgstr "Inicializado"
@@ -3960,16 +4150,16 @@ msgid "Job completed (%s)."
 msgstr "Trabajo completado (%s)."
 
 msgid "Job duration"
-msgstr ""
-
-msgid "Job history"
-msgstr "Historico de Trabajos"
-
-msgid "Job History"
-msgstr "Historico de Trabajos"
+msgstr "Duración del trabajo"
 
 msgid "Job ID"
 msgstr "ID de Trabajo"
+
+msgid "Job logs"
+msgstr "Historico de Trabajos"
+
+msgid "Job Logs"
+msgstr "Historico de Trabajos"
 
 msgid "Job Report"
 msgstr "Informe de trabajo"
@@ -3978,10 +4168,10 @@ msgid "Job Search"
 msgstr "Búsqueda de Trabajos"
 
 msgid "Job start time"
-msgstr ""
+msgstr "Hora de inicio del trabajo"
 
 msgid "Job status"
-msgstr ""
+msgstr "Estado del trabajo"
 
 msgid "July"
 msgstr "Julio"
@@ -4045,6 +4235,14 @@ msgstr "Última copia de seguridad"
 msgid "Last backup job"
 msgstr "Ultimo trabajo de copia de seguridad"
 
+#, c-format
+msgid "Last reported backup job started %s and ended %s with status of '%s'"
+msgstr ""
+
+#, c-format
+msgid "Last reported backup job started %s with status of '%s'"
+msgstr ""
+
 msgid "Last scan"
 msgstr "Último escaneo"
 
@@ -4068,6 +4266,14 @@ msgstr "Últimos [...] respaldos, a lo mucho uno por semana"
 
 msgid "Latest"
 msgstr "Última"
+
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Latest VM state (Changed Block Tracking)"
+msgstr ""
+
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Latest VM state (Standard)"
+msgstr ""
 
 #. / TRANSLATORS: In the software installer, this option lets you to launch the app (e.g. "Launch Comet Backup"). Although, the app might have a custom name.
 #, c-format
@@ -4186,9 +4392,6 @@ msgstr "Bloquear"
 msgid "Lock tables (InnoDB, MyISAM)"
 msgstr "Bloquear tablas (InnoDB, MyISAM)"
 
-msgid "Log"
-msgstr ""
-
 msgid "Log (no truncation)"
 msgstr "Registro (no truncación)"
 
@@ -4213,8 +4416,14 @@ msgstr "Iniciar sesión con TOTP"
 msgid "Log in with WebAuthn device"
 msgstr "Iniciar sesión con el dispositivo WebAuthn"
 
+msgid "Log Level"
+msgstr ""
+
 msgid "Log out"
 msgstr "Cerrar sesión"
+
+msgid "Log Rotation"
+msgstr ""
 
 msgid "Logged in"
 msgstr "Ya ingresado"
@@ -4222,6 +4431,12 @@ msgstr "Ya ingresado"
 #, qt-format
 msgid "Logged in as %1"
 msgstr "Ingresado como %1"
+
+msgid "Logged Out"
+msgstr ""
+
+msgid "Logged Out Devices"
+msgstr ""
 
 msgid "Login"
 msgstr "Acceder"
@@ -4235,7 +4450,7 @@ msgstr "Inicio de sesión '%s' fallido: %s"
 
 #, c-format
 msgid "Login with %s"
-msgstr ""
+msgstr "Iniciar sesión con %s"
 
 msgid "Logo image"
 msgstr "Imagen del Logo"
@@ -4305,6 +4520,9 @@ msgstr "Autenticación manual:"
 msgid "March"
 msgstr "Marzo"
 
+msgid "Mark as Abandoned"
+msgstr ""
+
 msgid "Master Application Key"
 msgstr "Clave de aplicación maestra"
 
@@ -4315,9 +4533,6 @@ msgstr "ID de Clave Maestra"
 #. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
 msgid "matches regex"
 msgstr "coincide con regex"
-
-msgid "Max Concurrent Backup"
-msgstr ""
 
 msgid "May"
 msgstr "Mayo"
@@ -4446,7 +4661,7 @@ msgid "Missing selected partition"
 msgstr "Falta la partición seleccionada"
 
 msgid "Missing session key."
-msgstr ""
+msgstr "Falta clave de sesión."
 
 msgid "Mobile Client"
 msgstr "Cliente Móvil"
@@ -4496,7 +4711,7 @@ msgid "ms"
 msgstr "ms"
 
 msgid "Multi-factor authentication"
-msgstr ""
+msgstr "Autenticación multifactor"
 
 msgid "Multiple"
 msgstr "Múltiple"
@@ -4592,11 +4807,17 @@ msgstr "Red compartida"
 msgid "Never (skip existing files)"
 msgstr "Nunca (saltar archivos existentes)"
 
-msgid "New account permissions"
-msgstr "Permisos de cuenta nueva"
+msgid "New Audit Log"
+msgstr ""
+
+msgid "New backup job started. Data is the job object"
+msgstr ""
 
 msgid "New Bucket"
 msgstr "Nuevo Cubo"
+
+msgid "New bucket created"
+msgstr ""
 
 msgid "New bucket created successfully."
 msgstr "Nuevo cubo creado con éxito."
@@ -4624,10 +4845,13 @@ msgid "New Device"
 msgstr "Nuevo Dispositivo"
 
 msgid "New devices"
-msgstr ""
+msgstr "Nuevos dispositivos"
 
 msgid "New Email Report"
 msgstr "Nuevo informe de correo electrónico"
+
+msgid "New event stream connection. Data is typically ServerMetaVersionInfo"
+msgstr ""
 
 msgid "New Item"
 msgstr "Nuevo Elemento"
@@ -4677,7 +4901,7 @@ msgid "New URL"
 msgstr "Nuevo URL"
 
 msgid "New Vault"
-msgstr ""
+msgstr "Nueva bóveda"
 
 msgid "New Webhook"
 msgstr "Nuevo Webhook"
@@ -4697,7 +4921,7 @@ msgid "Next %1"
 msgstr "Siguiente %1"
 
 msgid "Next Backup"
-msgstr ""
+msgstr "Siguiente copia de seguridad"
 
 msgid "Next scheduled email"
 msgstr "Siguiente correo electrónico programado"
@@ -4743,7 +4967,7 @@ msgid "No Data"
 msgstr "Sin Datos"
 
 msgid "No data available for the current selection"
-msgstr ""
+msgstr "No hay datos disponibles para la selección actual"
 
 msgid "No data available in table"
 msgstr "No hay datos disponibles en la tabla"
@@ -4755,8 +4979,14 @@ msgstr "No hay datos disponibles dentro de la Bóveda de Almacenamiento seleccio
 msgid "No database items were selected for backup."
 msgstr "Ningún elemento de la base de datos fue seleccionado para copia de seguridad."
 
+msgid "No description found for this event type"
+msgstr ""
+
 msgid "No Devices"
 msgstr "Sin dispositivos"
+
+msgid "No devices selected"
+msgstr ""
 
 msgid "No encryption key is available"
 msgstr "No hay una clave de encriptación disponible"
@@ -4807,7 +5037,7 @@ msgstr "No se han seleccionado rutas para restaurar"
 
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "No Protected Item type is selected"
-msgstr ""
+msgstr "No se ha seleccionado ningún tipo de elemento protegido"
 
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "No Protected Item types are available"
@@ -4821,7 +5051,7 @@ msgid "No recovery image features are available on your PC."
 msgstr "No hay funciones de imagen de recuperación disponibles en su PC."
 
 msgid "No results..."
-msgstr ""
+msgstr "Sin resultados..."
 
 msgid "No schedule"
 msgstr "Sin horario"
@@ -4900,6 +5130,9 @@ msgstr "No es un número"
 
 msgid "Not all of..."
 msgstr "No todo de..."
+
+msgid "Not Available"
+msgstr ""
 
 msgid "Not configured"
 msgstr "No configurado"
@@ -4984,9 +5217,6 @@ msgstr "Número de líneas"
 msgid "Number of Users"
 msgstr "Número de Usuarios"
 
-msgid "Object lock"
-msgstr "Bloqueo de objetos"
-
 msgid "Object Lock"
 msgstr "Bloqueo de objetos"
 
@@ -5020,6 +5250,9 @@ msgstr "Office 365 Gobierno EE.UU. GCC Alto"
 
 msgid "Offline"
 msgstr "Desconectado"
+
+msgid "Offline Devices"
+msgstr ""
 
 msgid "Offset"
 msgstr "Compensar"
@@ -5092,10 +5325,14 @@ msgstr "En curso"
 msgid "Online"
 msgstr "En línea"
 
+msgid "Online (Outdated)"
+msgstr ""
+
 msgid "Online Devices"
 msgstr "Dispositivos en línea"
 
-msgid "Only changed blocks"
+#. Definition of "Quiesce": An uncommon English verb. When you quiesce a program, it must finish any current operations and then temporarily pause, so that this single moment can be returned to later. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Quiesce
+msgid "Only back up changed areas. Uses quiesce snapshot. Disks are flattened (all snapshots/checkpoints are consolidated) and only the current disk state is stored."
 msgstr ""
 
 msgid "Only keep..."
@@ -5114,7 +5351,7 @@ msgid "Open:"
 msgstr "Abrir:"
 
 msgid "OpenID Connect"
-msgstr ""
+msgstr "Conexión OpenID"
 
 msgid "OpenStack Swift"
 msgstr "OpenStack Swift"
@@ -5158,7 +5395,7 @@ msgid "Options"
 msgstr "Opciones"
 
 msgid "OR"
-msgstr ""
+msgstr "O"
 
 msgid "or newer"
 msgstr "o más nuevo"
@@ -5198,6 +5435,9 @@ msgstr "Otro Inquilino"
 
 msgid "Outdated"
 msgstr "Anticuado"
+
+msgid "Outdated Devices"
+msgstr ""
 
 msgid "Outlook"
 msgstr "Outlook"
@@ -5360,20 +5600,20 @@ msgid "Please click the link below to use your web browser to log in to Azure AD
 msgstr "Por favor haga clic en el enlace a continuación para usar su navegador web para iniciar sesión en Azure AD e ingrese el siguiente código:"
 
 msgid "Please configure a client ID."
-msgstr ""
+msgstr "Por favor configure un ID de cliente."
 
 msgid "Please configure a client secret."
-msgstr ""
+msgstr "Por favor configure un secreto de cliente."
 
 msgid "Please configure a discovery document URL."
-msgstr ""
+msgstr "Por favor configure una URL de documento de descubrimiento."
 
 msgid "Please configure a display name."
-msgstr ""
+msgstr "Por favor configure un nombre para mostrar."
 
 #. Definition of "Azure": This is a cloud computing service from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Azure
 msgid "Please configure an Azure tenant ID."
-msgstr ""
+msgstr "Configure un ID de inquilino de Azure."
 
 msgid "Please configure at least one server address"
 msgstr "Por favor configure por lo menos una dirección de servidor"
@@ -5451,7 +5691,7 @@ msgstr "Por favor toque su dispositivo WebAuthn parpadeando."
 
 #, c-format
 msgid "Please use the '%s' button to load snapshots first."
-msgstr ""
+msgstr "Por favor utilice el botón '%s' para cargar instantáneas primero."
 
 msgid "Policies"
 msgstr "Políticas"
@@ -5462,11 +5702,20 @@ msgstr "Política"
 msgid "Policy Configuration Warning"
 msgstr "Advertencia de Configuración de Políticas"
 
+msgid "Policy created. Data is the policy object"
+msgstr ""
+
 msgid "Policy default"
 msgstr "Política predeterminada"
 
+msgid "Policy deleted"
+msgstr ""
+
 msgid "Policy ID"
 msgstr "ID de la politica"
+
+msgid "Policy updated. Data is the policy object"
+msgstr ""
 
 msgid "Popular Storage Providers"
 msgstr "Proveedores de Almacenamiento Populares"
@@ -5481,6 +5730,9 @@ msgstr "Puerto"
 #. Definition of "Comet Backup": This terminology is specific to Comet Backup. It is the name of our application, and should not be translated.
 msgid "Pre-built software client, with \"Comet Backup\" branding"
 msgstr "Cliente de software preconstruido, con marcado \"Comet Backup\""
+
+msgid "Preconfigured"
+msgstr ""
 
 msgid "Prefer temporary files instead of RAM (slower)"
 msgstr "Preferir los archivos temporales en lugar de RAM (más lento)"
@@ -5570,10 +5822,10 @@ msgid "Prevent viewing and editing server settings"
 msgstr "Evitar la visualización y edición de la configuración del servidor"
 
 msgid "Prevent viewing server history on dashboard"
-msgstr ""
+msgstr "Evitar ver el historial del servidor en el panel"
 
 msgid "Prevent viewing server info on dashboard"
-msgstr ""
+msgstr "Evitar ver información del servidor en el panel"
 
 msgid "Preventing snapshot re-use"
 msgstr "Prevención de la reutilización de instantáneas"
@@ -5683,7 +5935,7 @@ msgstr "ID de Elemento Protegido"
 
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "Protected Item name"
-msgstr ""
+msgstr "Nombre del elemento protegido"
 
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "Protected Item Size"
@@ -5732,7 +5984,7 @@ msgid "Provided webhook key already exists in current webhooks. Please use a dif
 msgstr "La clave webhook proporcionada ya existe en los webhooks actuales. Por favor use una clave diferente."
 
 msgid "Provider"
-msgstr ""
+msgstr "Proveedor"
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Provision new Storage Vaults from service provider(s) of your choice:"
@@ -5749,8 +6001,8 @@ msgid "PSA"
 msgstr "PSA"
 
 #. Definition of "PSA": An acroynm for Professional Services Automation, a kind of business software for managing customers. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Professional_services_automation
-msgid "PSA Services"
-msgstr "Servicios PSA"
+msgid "PSA & Alerting Services"
+msgstr ""
 
 msgid "Published"
 msgstr "Publicado"
@@ -5760,10 +6012,6 @@ msgstr "Retraso en la cola"
 
 msgid "Queue length"
 msgstr "Longitud de la cola"
-
-#. Definition of "Quiesce": An uncommon English verb. When you quiesce a program, it must finish any current operations and then temporarily pause, so that this single moment can be returned to later. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Quiesce
-msgid "Quiesce guest filesystem"
-msgstr "Sistema de archivo invitado Quiesce"
 
 msgid "Quit"
 msgstr "Salir"
@@ -5857,7 +6105,7 @@ msgid "Recovery image file unmounted"
 msgstr "Archivo de imagen de recuperación desmontada"
 
 msgid "Redirect URI"
-msgstr ""
+msgstr "Redireccionamiento de URI"
 
 msgid "Refresh"
 msgstr "Refrescar"
@@ -5877,10 +6125,6 @@ msgstr "Regenerar informe"
 #. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
 msgid "regex"
 msgstr "regex"
-
-#. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
-msgid "Regex"
-msgstr "Regex"
 
 #. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
 msgid "Regex Exclude"
@@ -5919,6 +6163,9 @@ msgstr "Expresión regular"
 msgid "Reindex"
 msgstr "Reindexar"
 
+msgid "Reinstall"
+msgstr ""
+
 msgid "Reinstall current versions"
 msgstr "Reinstalar las versiones actuales"
 
@@ -5928,14 +6175,26 @@ msgstr "Restante"
 msgid "Remote"
 msgstr "Remoto"
 
+msgid "Remote Actions"
+msgstr ""
+
 msgid "Remote address"
 msgstr "Dirección remota"
+
+msgid "Remote File Access"
+msgstr ""
+
+msgid "Remote file access is disabled"
+msgstr ""
 
 msgid "Remote path"
 msgstr "Ruta remota"
 
 msgid "Remote Server"
 msgstr "Servidor Remoto"
+
+msgid "Remote termination has failed."
+msgstr ""
 
 msgid "Remove"
 msgstr "Eliminar"
@@ -5945,6 +6204,10 @@ msgstr "Eliminar todo"
 
 msgid "Remove all user settings"
 msgstr "Actualizar las particiones físicas disponibles"
+
+#, c-format
+msgid "Remove all user settings from %d online devices"
+msgstr ""
 
 msgid "Remove item"
 msgstr "Eliminar elemento"
@@ -6064,10 +6327,10 @@ msgid "Required"
 msgstr "Requerido"
 
 msgid "Required Claim"
-msgstr ""
+msgstr "Reclamación requerida"
 
 msgid "Required claims"
-msgstr ""
+msgstr "Reclamaciones requeridas"
 
 msgid "Reset"
 msgstr "Restablecer"
@@ -6105,11 +6368,11 @@ msgstr "Restaure las máquinas virtuales seleccionadas en sus formatos de archiv
 #. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
 #. Definition of "vmdk": A file name extension used for disk image files, usually used with virtual machines. https://en.wikipedia.org/wiki/VMDK
 msgid "Restore any selected virtual machines in their original VMDK file formats. Select this option if you intend to re-import into ESXi, or to restore the virtual hard disk files alone."
-msgstr ""
+msgstr "Restaure cualquier máquina virtual seleccionada en sus formatos de archivo VMDK originales. Seleccione esta opción si desea volver a importar a ESXi o restaurar solo los archivos del disco duro virtual."
 
 #. Definition of "VMware": This is a company that developers Virtual Machine software. The _V_ and _M_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware
 msgid "Restore any selected virtual machines in their original VMware file formats. Select this option if you intend to re-import into VMware, or to restore the virtual hard disk files alone."
-msgstr ""
+msgstr "Restaure cualquier máquina virtual seleccionada en sus formatos de archivo VMware originales. Seleccione esta opción si desea volver a importar a VMware o restaurar solo los archivos del disco duro virtual."
 
 #. Definition of "Hyper-V": This is a Virtual Machine hosting platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Hyper-V
 msgid "Restore as Hyper-V virtual hard disk files"
@@ -6120,7 +6383,7 @@ msgstr "Restaurar como archivos de disco virtual"
 
 #. Definition of "VMware": This is a company that developers Virtual Machine software. The _V_ and _M_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware
 msgid "Restore as VMware virtual hard disk files"
-msgstr ""
+msgstr "Restaurar como archivos de disco duro virtual de VMware"
 
 msgid "Restore as:"
 msgstr "Restaurar como:"
@@ -6129,11 +6392,12 @@ msgstr "Restaurar como:"
 msgid "Restore completed in %s"
 msgstr "Restauración completada en %s"
 
+#. Definition of "VMware": This is a company that developers Virtual Machine software. The _V_ and _M_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware
+msgid "Restore disk image backup as a VMware virtual disk."
+msgstr ""
+
 msgid "restore engine"
 msgstr "motor de restauración"
-
-msgid "Restore files and folders"
-msgstr "Restaurar archivos y carpetas"
 
 msgid "Restore Option"
 msgstr "Restaurar Opción"
@@ -6209,7 +6473,7 @@ msgstr "Revisión de configuración de encripción"
 msgid "Revoke"
 msgstr "Revocar"
 
-msgid "Revoke Device"
+msgid "Revoke Devices"
 msgstr "Revocar Dispositivo"
 
 msgid "Roles"
@@ -6261,8 +6525,15 @@ msgstr "Ejecutando (reactivado)"
 msgid "Running a Backup"
 msgstr "Corriendo un respaldo"
 
+msgid "Running backup rule"
+msgstr ""
+
 msgid "Running custom command..."
 msgstr "Ejecutar comando personalizado..."
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Running custom Storage Vault command..."
+msgstr ""
 
 msgid "Running Job"
 msgstr "Ejecutando trabajo"
@@ -6330,7 +6601,7 @@ msgstr "Escanear %d ruta(s)..."
 
 #, c-format
 msgid "Scanning for %d path(s) skipped, using estimate"
-msgstr ""
+msgstr "Escaneando %d rutas omitidas, usando estimación"
 
 msgid "Scanning the include path..."
 msgstr "Escaneando la ruta de inclusión..."
@@ -6360,7 +6631,7 @@ msgid "Schedules"
 msgstr "Programaciones"
 
 msgid "Scopes"
-msgstr ""
+msgstr "Alcances"
 
 msgid "Screen resolution"
 msgstr "Resolución de pantalla"
@@ -6495,10 +6766,13 @@ msgstr "Seleccionar una bóveda de almacenamiento de la cual hacer una copia de 
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Select a Storage Vault to continue:"
-msgstr ""
+msgstr "Seleccione una bóveda de almacenamiento para continuar:"
 
 msgid "Select a top directory for your include filter rules"
 msgstr "Seleccionar un directorio superior para incluir reglas de filtrado"
+
+msgid "Select a User Profile to register the device(s) with:"
+msgstr ""
 
 msgid "Select all except..."
 msgstr "Seleccionar todo excepto..."
@@ -6567,6 +6841,9 @@ msgstr "Seleccionar buzones de correo..."
 msgid "Select Office 365 Services"
 msgstr "Seleccionar Servicios Office 365"
 
+msgid "Select Policy"
+msgstr ""
+
 msgid "Select Protected Mailboxes"
 msgstr "Seleccionar Buzones de Correo Protegidos"
 
@@ -6602,13 +6879,16 @@ msgid "Select the target ISO image file:"
 msgstr "Seleccionar el archivo de imagen ISO objetivo:"
 
 msgid "Select this option to extract individual files and/or folders from virtual hard disk files."
-msgstr ""
+msgstr "Seleccione esta opción para extraer archivos y/o carpetas individuales de archivos del disco duro virtual."
 
 msgid "Select this option to extract individual files and/or folders from virtual hard disk files. If a virtual disk in the selected backup has any additional checkpoints configured, only the oldest checkpoint will support access for single-file restore."
 msgstr "Seleccione esta opción para extraer archivos y/o carpetas individuales de los archivos del disco duro virtual. Si un disco virtual en la copia de seguridad seleccionada tiene puntos de control adicionales configurados, solo el punto de control más antiguo admitirá el acceso para la restauración de un solo archivo."
 
 msgid "Select version"
 msgstr "Seleccionar versión"
+
+msgid "Select virtual machines to protect"
+msgstr ""
 
 #. Definition of "VSS": This is a feature of Windows to assist in backing up files. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
 #. Definition of "VSS Writer": This is a type of driver installed in Windows to assist in backing up complex applications. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
@@ -6703,6 +6983,9 @@ msgstr "Marcado de Servidor"
 msgid "Server CA file path"
 msgstr "Camino de archivo de servidor CA"
 
+msgid "Server configuration has been updated. Data is the server config object"
+msgstr ""
+
 msgid "Server has been upgraded, please log in again."
 msgstr "El servidor ha sido actualizado, por favor conéctese de nuevo."
 
@@ -6711,6 +6994,9 @@ msgstr "Registros del servidor"
 
 msgid "Server Logs"
 msgstr "Registros del Servidor"
+
+msgid "Server restarting (pending)"
+msgstr ""
 
 msgid "Server Roles"
 msgstr "Funciones del servidor"
@@ -6723,6 +7009,9 @@ msgstr "El autorespaldo del servidor realiza copias periódicas de la base de da
 
 msgid "Server self-backup not configured"
 msgstr "Auto-copia de seguridad del servidor no configurado"
+
+msgid "Server shutting down (pending)"
+msgstr ""
 
 msgid "Server started"
 msgstr "Servidor iniciado"
@@ -6881,7 +7170,7 @@ msgstr "Tamaño no medido"
 
 #. Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
 msgid "Skip Comet multi-factor authentication"
-msgstr ""
+msgstr "Omitir la autenticación multifactor de Comet"
 
 msgid "Skip if already running"
 msgstr "Saltar si ya se está ejecutando"
@@ -6917,9 +7206,6 @@ msgstr "SMTP Server"
 
 msgid "Snapshot"
 msgstr "Instantánea"
-
-msgid "Snapshot consistency"
-msgstr "Consistencia de instantánea"
 
 msgid "Snapshot ID"
 msgstr "Instantánea ID"
@@ -7024,6 +7310,10 @@ msgid "SSL"
 msgstr "SSL"
 
 #. Definition of "SSL": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Transport_Layer_Security
+msgid "SSL (SHA1) fingerprint of the remote server certificate. Auto generated if left blank."
+msgstr ""
+
+#. Definition of "SSL": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Transport_Layer_Security
 msgid "SSL Certificate"
 msgstr "Certificado SSL"
 
@@ -7031,6 +7321,9 @@ msgstr "Certificado SSL"
 #. Definition of "TLS": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Transport_Layer_Security
 msgid "SSL/TLS"
 msgstr "SSL/TLS"
+
+msgid "Standard"
+msgstr ""
 
 msgid "Start"
 msgstr "Iniciar"
@@ -7056,6 +7349,10 @@ msgstr "Iniciar la %s instantánea (usando '%s' como la ruta del carrete)"
 
 msgid "Starting background services..."
 msgstr "Iniciando servicios en segundo plano..."
+
+#, c-format
+msgid "Starting backup for '%s' (%s)..."
+msgstr ""
 
 msgid "Starting backup..."
 msgstr "Comenzando copia de seguridad..."
@@ -7106,10 +7403,6 @@ msgstr "Storadera"
 
 msgid "Storage"
 msgstr "Almacenamiento"
-
-#, c-format
-msgid "Storage (%s)"
-msgstr "Almacenamiento (%s)"
 
 msgid "Storage buckets"
 msgstr "Cubos de Almacenamiento"
@@ -7203,6 +7496,9 @@ msgstr "Fuerte"
 
 msgid "Subdirectory"
 msgstr "Directorio"
+
+msgid "Subdomain"
+msgstr ""
 
 msgid "Subject"
 msgstr "Tema"
@@ -7327,6 +7623,9 @@ msgstr "Grupo de equipo"
 msgid "Teams"
 msgstr "Teams"
 
+msgid "Temporary files are being used to reduce RAM consumption. The performance of this job may be reduced."
+msgstr ""
+
 msgid "Temporary folder created"
 msgstr "Carpeta temporal creada"
 
@@ -7336,19 +7635,28 @@ msgstr "Carpeta temporal removida"
 msgid "Tenant"
 msgstr "Inquilino"
 
+msgid "Tenant created. Data is the tenant object"
+msgstr ""
+
+msgid "Tenant deleted"
+msgstr ""
+
 msgid "Tenant Domain"
 msgstr "Dominio del inquilino"
 
 msgid "Tenant ID"
-msgstr "ID del arrendatario"
+msgstr "ID del inquilino"
 
 msgid "Tenant name"
 msgstr "Nombre del Inquilino"
 
+msgid "Tenant updated. Data is the tenant object"
+msgstr ""
+
 msgid "Tenants"
 msgstr "Inquilinos"
 
-msgid "Terminate"
+msgid "Terminate job"
 msgstr "Terminar"
 
 msgid "Terminate process"
@@ -7421,6 +7729,9 @@ msgid "The \"Bucket Name\" must not start with 'xn--' or end with '-s3alias'"
 msgstr "El \"Nombre del depósito\" no debe comenzar con 'xn--' ni terminar con '-s3alias'"
 
 msgid "The \"Bucket Name\" must not start with a hyphen or period, or end with a hyphen"
+msgstr "El \"Nombre del depósito\" no debe comenzar con un guion o punto, ni terminar con un guion."
+
+msgid "The \"Key\" field cannot be empty."
 msgstr ""
 
 #, c-format
@@ -7507,6 +7818,9 @@ msgstr "La URL del servidor de respaldo, con una barra inclinada al final"
 msgid "The bulletin content is empty."
 msgstr "El contenido del boletín está vacío."
 
+msgid "The cancellation request can't be made as the device is offline."
+msgstr ""
+
 #. Definition of "Constellation": This terminology is specific to Comet Backup. It is a clustering feature, that looks at multiple servers.
 msgid "The Constellation Role is responsible for coordinating some inter-server cleanup tasks."
 msgstr "El Rol de Constelación es responsable de coordinar algunas tareas de limpieza entre servidores."
@@ -7539,17 +7853,17 @@ msgstr "El destino ya estaba seleccionado como destino de restauración."
 msgid "The device has no Protected Items"
 msgstr "El dispositivo no tiene elementos protegidos"
 
-msgid "The device is offline"
+msgid "The device is currently offline"
 msgstr "El dispositivo está desconectado"
 
-msgid "The device is online"
+msgid "The device is currently online"
 msgstr "El dispositivo está conectado"
 
 msgid "The device was found to be already running a target software version."
 msgstr "Se descubrió que el dispositivo ya estaba ejecutando una versión de software de destino."
 
 msgid "The discovery document URL must be a valid URL."
-msgstr ""
+msgstr "La URL del documento de descubrimiento debe ser una URL válida."
 
 msgid "The download was blocked - please check the web browser's popup blocker."
 msgstr "La descarga fue bloqueada - por favor revise el bloqueador de popup del navegador web."
@@ -7616,7 +7930,7 @@ msgstr "La clave secreta del cliente proporcionada ha expirado. Visite el portal
 #. Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
 #. Definition of "Comet Server": This terminology is specific to Comet Backup. It is the name of our application, and should not be translated.
 msgid "The redirect URI must be configured at the OpenID Connect provider before it can be used to authenticate to Comet Server."
-msgstr ""
+msgstr "El URI de redireccionamiento debe configurarse en el proveedor de OpenID Connect antes de poder usarse para autenticarse en Comet Server."
 
 #. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
 msgid "The regex include path could not be compiled"
@@ -7633,6 +7947,9 @@ msgstr "La solicitud de búsqueda contiene un campo desconocido"
 
 msgid "The search results might be stale."
 msgstr "Los resultados de la búsqueda pueden ser obsoletos."
+
+msgid "The selected \"Key\" field is already in use. Please enter a different key."
+msgstr ""
 
 msgid "The selected account is not a group"
 msgstr "La cuenta seleccionada no es un grupo"
@@ -7654,7 +7971,7 @@ msgid "The server address is not set in the Storage Vault configuration"
 msgstr "La dirección del servidor no está establecida en la configuración de la Bóveda de Almacenamiento"
 
 msgid "The server is applying changes, please wait..."
-msgstr ""
+msgstr "El servidor está aplicando cambios, por favor espere..."
 
 msgid "The server landing page."
 msgstr "La página de destino del servidor."
@@ -7835,7 +8152,7 @@ msgid "This image will be displayed in package managers in operating systems suc
 msgstr "Esta imagen será mostrada en los administradores de paquete en sistemas operativos tales como Synology DSM."
 
 msgid "This image will be displayed in the upper-left corner of the software."
-msgstr ""
+msgstr "Esta imagen se mostrará en la esquina superior izquierda del software."
 
 #. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
 msgid "This image will be displayed in the Windows 10 start menu."
@@ -7850,6 +8167,9 @@ msgstr "Este trabajo se ha vuelto inactivo, o está experimentando problemas de 
 
 msgid "This job seems to be no longer running."
 msgstr "Este trabajo parece que ya no funciona."
+
+msgid "This job seems to be unresponsive. Would you like to mark it as Abandoned?"
+msgstr ""
 
 msgid "This job was thought to have stopped, but it seems to still be running."
 msgstr "Se pensó que este trabajo se había detenido, pero parece que aún se está ejecutando."
@@ -7907,7 +8227,7 @@ msgid "This Storage Vault contains %s."
 msgstr "Esta Bóveda de almacenamiento contiene %s."
 
 msgid "This tenant"
-msgstr ""
+msgstr "Este inquilino"
 
 msgid "This wizard will guide you through the process of restoring your data."
 msgstr "Este asistente lo guiará a través del proceso de restauración de sus datos."
@@ -7925,7 +8245,7 @@ msgid "Thu"
 msgstr "Jue"
 
 msgid "Thumbprint"
-msgstr ""
+msgstr "Impresión del pulgar"
 
 msgid "Thursday"
 msgstr "Jueves"
@@ -7965,7 +8285,7 @@ msgstr "Para"
 
 #, c-format
 msgid "To boot from this Disk Image, it requires %s BIOS mode"
-msgstr ""
+msgstr "Para arrancar desde esta imagen de disco, se requiere %s modo BIOS"
 
 #. Definition of "EFS": Encrypting File System (EFS) is an encryption system built into Windows. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Encrypting_File_System
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
@@ -7984,7 +8304,7 @@ msgid "Today at %1"
 msgstr "Hoy a %1"
 
 msgid "Token label"
-msgstr ""
+msgstr "Etiqueta de token"
 
 msgid "Too many warnings, stopping backup."
 msgstr "También muchas advertencias, deteniendo copias de seguridad."
@@ -8003,9 +8323,6 @@ msgstr "Total de directorios"
 
 msgid "Total Files"
 msgstr "Total de archivos"
-
-msgid "Total jobs"
-msgstr "Total de trabajos"
 
 msgid "Total Jobs"
 msgstr "Total de Trabajos"
@@ -8037,6 +8354,10 @@ msgstr "Total usado"
 msgid "TOTP"
 msgstr "TOTP"
 
+#. Definition of "TOTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm
+msgid "TOTP Code"
+msgstr ""
+
 msgid "TPM (Generic)"
 msgstr "TPM (Genérico)"
 
@@ -8059,6 +8380,16 @@ msgstr "Velocidad de transmisión"
 
 msgid "Transmitted"
 msgstr "Transmitido"
+
+msgid "Triggered by missed backup"
+msgstr ""
+
+#, c-format
+msgid "Triggered by scheduled job at %s"
+msgstr ""
+
+msgid "Triggered by startup"
+msgstr ""
 
 msgid "True"
 msgstr "Verdad"
@@ -8101,7 +8432,7 @@ msgid "Type the name of a program, folder, document, or Internet resource, and W
 msgstr "Escriba el nombre de un programa, carpeta, documento o recurso de Internet y Windows lo abrirá por usted."
 
 msgid "Unable to reach the server - please check the server log files for more information."
-msgstr ""
+msgstr "No se puede acceder al servidor; consulte los archivos de registro del servidor para obtener más información."
 
 msgid "Unauthorised"
 msgstr "No autorizado"
@@ -8111,6 +8442,10 @@ msgstr "No autorizado para hacer cambios."
 
 msgid "Unauthorized."
 msgstr "No autorizado."
+
+#. Definition of "UNC": A 'UNC' path is a path for a file or folder on a network drive. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Path_(computing)#Universal_Naming_Convention
+msgid "Unchanged from previous backup"
+msgstr ""
 
 #, qt-format
 msgid "Under %1"
@@ -8133,6 +8468,10 @@ msgstr "Desinstalar"
 
 msgid "Uninstall Software"
 msgstr "Desinstalar Software"
+
+#, c-format
+msgid "Uninstall software from %d online devices"
+msgstr ""
 
 #, c-format
 msgid "Uninstall software from the online %s"
@@ -8159,10 +8498,10 @@ msgstr "desconocido"
 msgid "Unknown"
 msgstr "Desconocido"
 
-#. Definition of "ESXi": This is a Virtual Machine hosting platform from VMware. The _E_, _S_, and _X_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware_ESXi
 #. Definition of "VMware": This is a company that developers Virtual Machine software. The _V_ and _M_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware
-msgid "Unknown connection type for VMware ESXi."
-msgstr "Tipo de conexión desconocido para VMware ESXi."
+#. Definition of "vSphere": This is a range of Virtual Machine products and services from VMware. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware_vSphere
+msgid "Unknown connection type for VMware vSphere."
+msgstr "Tipo de conexión desconocido para VMware vSphere."
 
 msgid "Unknown Device"
 msgstr "Dispositivo desconocido"
@@ -8171,7 +8510,7 @@ msgid "unknown error"
 msgstr "error desconocido"
 
 msgid "Unknown external authentication source type."
-msgstr ""
+msgstr "Tipo de fuente de autenticación externa desconocida."
 
 #. Definition of "ISO": A disk image file format, normally a file with *.iso file extension. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Optical_disc_image
 #. Definition of "MySQL": This is a database server from Oracle, that uses the SQL language. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/MySQL
@@ -8205,6 +8544,12 @@ msgstr "No reconocido tipo de origen"
 #, qt-format
 msgid "Unrecognized Protected Item type '%1'"
 msgstr "No reconocido tipo de origen '%1'"
+
+msgid "Unregistered"
+msgstr ""
+
+msgid "Unregistered Devices"
+msgstr ""
 
 msgid "Unsaved changes"
 msgstr "Modificaciones no guardadas"
@@ -8242,13 +8587,16 @@ msgid "Update"
 msgstr "Actualizar"
 
 msgid "Update existing devices"
-msgstr ""
+msgstr "Actualizar dispositivos existentes"
 
 msgid "Update Login URL"
 msgstr "Actualizar URL de inicio de sesión"
 
 msgid "Update software"
 msgstr "Actualización de software"
+
+msgid "Upgrade"
+msgstr ""
 
 msgid "Upgrade older versions"
 msgstr "Actualizar versiones anticuadas"
@@ -8288,7 +8636,7 @@ msgid "Use SSL protocol"
 msgstr "Utilice el protocolo SSL"
 
 msgid "Use this when the authentication provider has its own multi-factor authentication configured already to avoid users having to complete multi-factor authentication twice."
-msgstr ""
+msgstr "Utilícelo cuando el proveedor de autenticación ya tenga su propia autenticación multifactor configurada para evitar que los usuarios tengan que completar la autenticación multifactor dos veces."
 
 msgid "Use to identify macOS and Android packages in the app store."
 msgstr "Utilícelo para identificar los paquetes macOS y Android en la tienda de aplicaciones."
@@ -8325,17 +8673,44 @@ msgstr "Cuenta de Usuario"
 msgid "User Accounts"
 msgstr "Cuentas de Usuario"
 
+msgid "User authentication failed. Only emitted if the user exists. Resource is the requested path"
+msgstr ""
+
+msgid "User authentication succeeded. Only emitted for non-session requests. Resource is the requested path"
+msgstr ""
+
+msgid "User created. Data is the profile object"
+msgstr ""
+
+msgid "User deleted"
+msgstr ""
+
 msgid "User Details"
 msgstr "Detalles del Usuario"
 
 msgid "User locations"
 msgstr "Ubicaciones de usuario"
 
+msgid "User Policies"
+msgstr ""
+
 msgid "User policies will be marked as \"Custom Policy.\""
 msgstr "Las políticas de usuario serán marcadas como \"Política a la Medida\"."
 
 msgid "User profiles"
 msgstr "Perfiles del usuario"
+
+msgid "User session token created. Data is the session object"
+msgstr ""
+
+msgid "User session token deleted"
+msgstr ""
+
+msgid "User session token expired"
+msgstr ""
+
+msgid "User updated. Data is the profile object"
+msgstr ""
 
 msgid "Username"
 msgstr "Nombre de usuario"
@@ -8383,7 +8758,7 @@ msgid "Value"
 msgstr "Valor"
 
 msgid "Vault name"
-msgstr ""
+msgstr "Nombre de la bóveda"
 
 msgid "Verification"
 msgstr "Verificación"
@@ -8424,8 +8799,8 @@ msgstr "Videos"
 msgid "View"
 msgstr "Ver"
 
-msgid "View job history"
-msgstr "Ver historial de trabajos"
+msgid "View job logs"
+msgstr ""
 
 msgid "View last scan result"
 msgstr "Ver el resultado del último escaneado"
@@ -8467,14 +8842,18 @@ msgstr "VM '%s'"
 msgid "VMware"
 msgstr "VMware"
 
-#. Definition of "ESXi": This is a Virtual Machine hosting platform from VMware. The _E_, _S_, and _X_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware_ESXi
 #. Definition of "VMware": This is a company that developers Virtual Machine software. The _V_ and _M_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware
-msgid "VMware ESXi"
-msgstr "VMware ESXi"
+msgid "VMware virtual disk"
+msgstr ""
 
 #. Definition of "VMware": This is a company that developers Virtual Machine software. The _V_ and _M_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware
 msgid "VMware virtual machines"
 msgstr "Máquinas virtuales VMware"
+
+#. Definition of "VMware": This is a company that developers Virtual Machine software. The _V_ and _M_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware
+#. Definition of "vSphere": This is a range of Virtual Machine products and services from VMware. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware_vSphere
+msgid "VMware vSphere"
+msgstr "VMware vSphere"
 
 #. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
 msgid "Volume"
@@ -8587,6 +8966,10 @@ msgstr "ADVERTENCIA: Sus cambios no han sido guardados. ¿Está seguro de que de
 msgid "Wasabi"
 msgstr "Wasabi"
 
+#. Definition of "Wasabi": This is a commercial service for storing files. If an official translation is available, it should be used. https://wasabi.com/
+msgid "Wasabi (Object Lock)"
+msgstr ""
+
 msgid "Weak"
 msgstr "Débil"
 
@@ -8605,7 +8988,7 @@ msgstr "WebAuthn no está disponible. Por favor asegúrese de que estés usando 
 
 #. Definition of "WebDAV": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/WebDAV
 msgid "WebDAV"
-msgstr ""
+msgstr "WebDAV"
 
 msgid "Webhook"
 msgstr "Webhook"
@@ -8790,10 +9173,14 @@ msgstr "Ha seleccionado una copia de seguridad de imagen de Hyper-V para restaur
 
 #. Definition of "VMware": This is a company that developers Virtual Machine software. The _V_ and _M_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware
 msgid "You have selected a VMware backup for restore."
-msgstr ""
+msgstr "Ha seleccionado una copia de seguridad de VMware para restaurar."
 
 #. Definition of "VMware": This is a company that developers Virtual Machine software. The _V_ and _M_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware
 msgid "You have selected a VMware image backup for restore."
+msgstr "Ha seleccionado una copia de seguridad de imagen de VMware para restaurar."
+
+#, c-format
+msgid "You have set the Object Lock retention period to %d days."
 msgstr ""
 
 msgid "You must choose a group account to view its members"

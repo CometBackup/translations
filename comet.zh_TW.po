@@ -1,4 +1,4 @@
-# Copyright (2023) Comet Licensing Ltd.
+# Copyright (2024) Comet Licensing Ltd.
 # All rights reserved.
 # Please contact us via https://cometbackup.com for assistance.
 msgid ""
@@ -29,7 +29,7 @@ msgstr ""
 msgid "%1 (Device \"%2\")"
 msgstr ""
 
-#. When displaying the time of a past event. [Event happened] at [03:00 PM]
+#. When displaying the time of a past event. [Event happened] at [03:00 pm]
 #, qt-format
 msgid "%1 at %2"
 msgstr ""
@@ -430,11 +430,14 @@ msgstr "添加一個項目"
 msgid "Add and manage admin users for this tenant"
 msgstr ""
 
+msgid "Add and manage audit file logging"
+msgstr ""
+
 msgid "Add and manage email reporting options"
 msgstr ""
 
 #. Definition of "PSA": An acroynm for Professional Services Automation, a kind of business software for managing customers. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Professional_services_automation
-msgid "Add and manage external PSA services"
+msgid "Add and manage external PSA and alerting services"
 msgstr ""
 
 msgid "Add and manage webhooks"
@@ -570,6 +573,33 @@ msgstr ""
 msgid "Admin accounts can log in to the server admin area and access all administrative functions. Tenant admins can view and manage all data within the scope of their tenant only."
 msgstr ""
 
+msgid "Admin authentication failed. Only emitted if the admin exists. Resource is the request path"
+msgstr ""
+
+msgid "Admin authentication succeeded. Only emitted for non-session requests. Resource is the requested path"
+msgstr ""
+
+msgid "Admin created. Data is the profile object"
+msgstr ""
+
+msgid "Admin deleted"
+msgstr ""
+
+msgid "Admin Policy"
+msgstr ""
+
+msgid "Admin session token created. Data is the session object"
+msgstr ""
+
+msgid "Admin session token deleted"
+msgstr ""
+
+msgid "Admin session token expired"
+msgstr ""
+
+msgid "Admin updated"
+msgstr ""
+
 msgid "Admin Users"
 msgstr ""
 
@@ -640,6 +670,12 @@ msgstr ""
 msgid "All drives"
 msgstr ""
 
+msgid "All event types"
+msgstr ""
+
+msgid "All Events"
+msgstr ""
+
 msgid "All import tasks completed."
 msgstr ""
 
@@ -671,7 +707,14 @@ msgstr ""
 msgid "All protected items"
 msgstr "所有備份項目"
 
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "All Protected Items"
+msgstr ""
+
 msgid "All Sites"
+msgstr ""
+
+msgid "All statuses"
 msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
@@ -682,6 +725,25 @@ msgid "All time"
 msgstr ""
 
 msgid "All types"
+msgstr ""
+
+msgid "All virtual machines"
+msgstr ""
+
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "All VM snapshots"
+msgstr ""
+
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "All VM snapshots (Application-consistent)"
+msgstr ""
+
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "All VM snapshots (Crash-consistent)"
+msgstr ""
+
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "All VM snapshots (Including running state)"
 msgstr ""
 
 #. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
@@ -697,13 +759,13 @@ msgid "Allow %1 to reset my password"
 msgstr ""
 
 #, qt-format
-msgid "Allow %1 to view file names"
+msgid "Allow %1 to view file names remotely"
 msgstr ""
 
 msgid "Allow administrator to reset password"
 msgstr "允許管理員幫忙改變密碼"
 
-msgid "Allow administrator to view file names"
+msgid "Allow administrator to view file names remotely"
 msgstr "允許管理員看見檔案名稱"
 
 msgid "Allow all event types"
@@ -787,6 +849,9 @@ msgstr ""
 msgid "Amazon S3 (China)"
 msgstr ""
 
+msgid "Amazon S3 (Object Lock)"
+msgstr ""
+
 msgid "An error occurred while copying to the clipboard."
 msgstr ""
 
@@ -838,24 +903,10 @@ msgstr ""
 msgid "Any custom Retention policies will override the default policy for the Storage Vault."
 msgstr ""
 
-msgid "Any device"
-msgstr "任何裝置"
-
 msgid "Any error status"
 msgstr ""
 
 msgid "Any operating system"
-msgstr ""
-
-#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
-msgid "Any Protected Item"
-msgstr "任何備份項目"
-
-msgid "Any status"
-msgstr "任何狀態"
-
-#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
-msgid "Any Storage Vault"
 msgstr ""
 
 msgid "Any unsaved changes will be lost. Do you wish to continue?"
@@ -1019,6 +1070,10 @@ msgstr ""
 msgid "Are you sure you want to remove the user '%s'?"
 msgstr ""
 
+#, c-format
+msgid "Are you sure you want to remove these %d devices?"
+msgstr ""
+
 msgid ""
 "Are you sure you want to remove this backup job?\n"
 "It will no longer be possible to recover data from this job."
@@ -1070,6 +1125,21 @@ msgid "At least one of..."
 msgstr "至少其一..."
 
 msgid "At least one Span Target is required"
+msgstr ""
+
+msgid "Attach Policy"
+msgstr ""
+
+msgid "Attempting to cancel job..."
+msgstr ""
+
+msgid "Attempting to remotely terminate job..."
+msgstr ""
+
+msgid "Audit Log"
+msgstr ""
+
+msgid "Audit Logging"
 msgstr ""
 
 msgid "August"
@@ -1159,6 +1229,11 @@ msgstr ""
 msgid "Back"
 msgstr "返回"
 
+#. Definition of "Quiesce": An uncommon English verb. When you quiesce a program, it must finish any current operations and then temporarily pause, so that this single moment can be returned to later. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Quiesce
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Back up entire VM. Unused disk areas are skipped. Uses quiesce snapshot. Disks are flattened (all snapshots/checkpoints are consolidated) and only the current disk state is stored."
+msgstr ""
+
 #. Definition of "B2": 'B2' is an abbreviation for 'Backblaze B2 Cloud Storage', a commercial service for storing files. If an official translation is available, it should be used. https://www.backblaze.com/b2/cloud-storage.html
 #. Definition of "Backblaze": This is a commercial service for storing files. If an official translation is available, it should be used. https://www.backblaze.com/b2/cloud-storage.html
 msgid "Backblaze B2 Cloud Storage"
@@ -1198,6 +1273,9 @@ msgid "Backup Date"
 msgstr "備份日期"
 
 msgid "backup engine"
+msgstr ""
+
+msgid "Backup job completed. Data is the job object"
 msgstr ""
 
 msgid "Backup job did not run at scheduled time"
@@ -1275,6 +1353,9 @@ msgstr ""
 msgid "Bucket"
 msgstr ""
 
+msgid "Bucket deleted"
+msgstr ""
+
 msgid "Bucket ID"
 msgstr ""
 
@@ -1306,6 +1387,12 @@ msgid "Buckets with no users are a candidate for pruning."
 msgstr ""
 
 msgid "Building cache..."
+msgstr ""
+
+msgid "Building installer..."
+msgstr ""
+
+msgid "Bulk Actions"
 msgstr ""
 
 msgid "Bulk replace addresses"
@@ -1412,6 +1499,12 @@ msgstr "取消"
 msgid "Cancel if still running after:"
 msgstr "運行超過多久就取消:"
 
+msgid "Cancellation has failed. Would you like to try and remotely terminate the job?"
+msgstr ""
+
+msgid "Cancellation process"
+msgstr ""
+
 msgid "Cancelled"
 msgstr "已取消"
 
@@ -1455,7 +1548,14 @@ msgstr "變更密碼"
 msgid "Change..."
 msgstr "變更..."
 
+msgid "Changed Block Tracking"
+msgstr ""
+
 msgid "Changes will appear immediately in the client backup application."
+msgstr ""
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Checking connection to Storage Vault..."
 msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
@@ -1478,6 +1578,10 @@ msgid "Choose items..."
 msgstr "選擇項目..."
 
 msgid "Choose tables..."
+msgstr ""
+
+#. Definition of "Hyper-V": This is a Virtual Machine hosting platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Hyper-V
+msgid "Choose the mode for Hyper-V backup."
 msgstr ""
 
 #. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
@@ -1550,10 +1654,6 @@ msgstr ""
 msgid "Click the word '%s' on the device's row to open its actions dialog."
 msgstr ""
 
-#, c-format
-msgid "Clicking on %s will allow you to configure branding, emails, and other options for this server."
-msgstr ""
-
 msgid "Client"
 msgstr ""
 
@@ -1615,7 +1715,24 @@ msgid "Collapse Guide"
 msgstr ""
 
 #. Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
+msgid "Comet Dashboard"
+msgstr ""
+
+#. Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
 msgid "Comet image logo"
+msgstr ""
+
+#. Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
+#. Definition of "Comet Server": This terminology is specific to Comet Backup. It is the name of our application, and should not be translated.
+msgid "Comet Server"
+msgstr ""
+
+#. Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
+msgid "Comet Storage"
+msgstr ""
+
+#. Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
+msgid "Comet Storage (Object Lock)"
 msgstr ""
 
 msgid "Coming soon"
@@ -1740,14 +1857,11 @@ msgstr "連線的裝置"
 msgid "Connected Device Actions"
 msgstr "已連接裝置動作"
 
-msgid "Connected devices"
-msgstr "已連接之裝置"
-
-msgid "Connected Devices"
-msgstr "已連接之裝置"
-
 msgid "Connected since"
 msgstr "連接從"
+
+msgid "Connected Since"
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Connecting to Storage Vault..."
@@ -1830,10 +1944,21 @@ msgstr "複製(使用 wget)"
 msgid "Copy additional drivers"
 msgstr ""
 
-msgid "Copy drivers from this PC"
+#. Definition of "Quiesce": An uncommon English verb. When you quiesce a program, it must finish any current operations and then temporarily pause, so that this single moment can be returned to later. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Quiesce
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Copy all related VM files. Disables quiesce and excludes VM memory for a quick snapshot operation."
 msgstr ""
 
-msgid "Copy files"
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Copy all related VM files. Uses \"Include VM memory\" to dump memory during snapshot."
+msgstr ""
+
+#. Definition of "Quiesce": An uncommon English verb. When you quiesce a program, it must finish any current operations and then temporarily pause, so that this single moment can be returned to later. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Quiesce
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Copy all related VM files. Uses quiesce snapshot, so the guest OS can prepare for snapshot operation."
+msgstr ""
+
+msgid "Copy drivers from this PC"
 msgstr ""
 
 msgid "Copy to clipboard"
@@ -2200,12 +2325,19 @@ msgstr ""
 msgid "Custom path to known_hosts file"
 msgstr ""
 
+msgid "Custom pattern"
+msgstr ""
+
 #. Definition of "pfx": The file name extension used for SSL certificates in PKCS #12 file format. https://en.wikipedia.org/wiki/PKCS_12
 msgid "Custom pfx file"
 msgstr ""
 
 msgid "Custom Policy"
 msgstr "自定義規則"
+
+#. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
+msgid "Custom regex"
+msgstr ""
 
 msgid "Custom Report(s)"
 msgstr ""
@@ -2245,8 +2377,14 @@ msgstr ""
 msgid "Data deletion"
 msgstr ""
 
+msgid "Data Details"
+msgstr ""
+
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "Data in use by various other combinations of Protected Items, including:"
+msgstr ""
+
+msgid "Data Level"
 msgstr ""
 
 msgid "Data Size"
@@ -2463,17 +2601,44 @@ msgstr ""
 msgid "Device"
 msgstr "裝置"
 
+msgid "Device Actions"
+msgstr ""
+
+msgid "Device connected to registration lobby"
+msgstr ""
+
+msgid "Device created. Data is device object"
+msgstr ""
+
+msgid "Device deleted"
+msgstr ""
+
+msgid "Device disconnected from registration lobby"
+msgstr ""
+
 msgid "Device ID"
 msgstr "裝置 ID"
 
+msgid "Device live connection ended"
+msgstr ""
+
+msgid "Device live connection started"
+msgstr ""
+
 msgid "Device name"
 msgstr "裝置名稱"
+
+msgid "Device Name"
+msgstr ""
 
 msgid "Device names will still be visible if the user logs in to the web interface."
 msgstr ""
 
 msgid "Device Quota"
 msgstr "裝置限額"
+
+msgid "Device Quota Reached"
+msgstr ""
 
 msgid "Devices"
 msgstr "裝置"
@@ -2565,6 +2730,9 @@ msgid "Display name"
 msgstr ""
 
 msgid "Do you also want to uninstall the software from the remote device(s)?"
+msgstr ""
+
+msgid "Do you want to continue with this retention period?"
 msgstr ""
 
 msgid "Do you want to continue?"
@@ -2669,6 +2837,9 @@ msgstr "期間: %s, %s"
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "During migration, use this form to point user Storage Vault addresses at a replica Storage Role server."
+msgstr ""
+
+msgid "During the retention period, you can not delete your bucket."
 msgstr ""
 
 #. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
@@ -3011,6 +3182,12 @@ msgstr ""
 msgid "EULA"
 msgstr ""
 
+msgid "Event (optional)"
+msgstr ""
+
+msgid "Event Types"
+msgstr ""
+
 msgid "every"
 msgstr ""
 
@@ -3052,7 +3229,7 @@ msgstr "排除"
 msgid "Exclude file"
 msgstr "排除檔案"
 
-msgid "Exclude job history database"
+msgid "Exclude job logs database"
 msgstr ""
 
 #. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
@@ -3211,6 +3388,11 @@ msgstr ""
 msgid "Failed to save TOTP key"
 msgstr ""
 
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#, c-format
+msgid "Failed to take application-consistent checkpoint of target VM %s: %s (falling back to crash-consistent)"
+msgstr ""
+
 #, c-format
 msgid "Failed to update tenant for user '%s': %s"
 msgstr ""
@@ -3222,9 +3404,6 @@ msgid "False"
 msgstr ""
 
 msgid "Faster"
-msgstr ""
-
-msgid "Fastest (crash-consistent)"
 msgstr ""
 
 msgid "Favorites"
@@ -3259,6 +3438,9 @@ msgstr ""
 msgid "File and folder exclusions"
 msgstr ""
 
+msgid "File Name"
+msgstr ""
+
 msgid "File Path"
 msgstr ""
 
@@ -3267,9 +3449,6 @@ msgstr ""
 
 #. Definition of "Filebase": This is a commercial service for storing files. If an official translation is available, it should be used. https://filebase.com/
 msgid "Filebase"
-msgstr ""
-
-msgid "Filename access"
 msgstr ""
 
 msgid "Files"
@@ -3328,6 +3507,9 @@ msgid "Finished"
 msgstr "結束"
 
 msgid "First"
+msgstr ""
+
+msgid "Force Offline"
 msgstr ""
 
 msgid "Form"
@@ -3395,13 +3577,13 @@ msgstr ""
 msgid "FTP"
 msgstr ""
 
+msgid "Full"
+msgstr ""
+
 msgid "Full (base image)"
 msgstr ""
 
 msgid "Full (copy only)"
-msgstr ""
-
-msgid "Full backup"
 msgstr ""
 
 msgid "Full Disk Access permission has been granted"
@@ -3462,6 +3644,9 @@ msgstr ""
 msgid "Grant Full Disk Access Permission"
 msgstr "允許完整磁碟讀取權限"
 
+msgid "Granular restore"
+msgstr ""
+
 #. Used by the search system to create custom searches. "[FILE SIZE] greater than [SOMETHING]
 msgid "greater"
 msgstr ""
@@ -3483,6 +3668,9 @@ msgid "Group Members"
 msgstr ""
 
 msgid "group name"
+msgstr ""
+
+msgid "Grouped By"
 msgstr ""
 
 msgid "Grouped status report"
@@ -3626,10 +3814,16 @@ msgstr ""
 msgid "If the bucket does not exist, it will be automatically created in the \"US East (N. Virginia)\" region."
 msgstr ""
 
+msgid "If the job is actually still running, it will be revived when a progress update is received."
+msgstr ""
+
 msgid "If the last job was Missed"
 msgstr ""
 
 msgid "If the setting is ever disabled, the end-user will need to manually re-enable it inside the app."
+msgstr ""
+
+msgid "If you believe the job is no longer running, would you like to mark it as Abandoned?"
 msgstr ""
 
 msgid "Image"
@@ -3680,10 +3874,6 @@ msgstr "以樣式設置包含範圍"
 #. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
 msgid "Include regex"
 msgstr "正規化表示法設置包含範圍"
-
-#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
-msgid "Include running VM memory"
-msgstr ""
 
 msgid "Include specified Virtual Machine"
 msgstr ""
@@ -3956,14 +4146,14 @@ msgstr "任務完成 (%s)."
 msgid "Job duration"
 msgstr ""
 
-msgid "Job history"
-msgstr "任務記錄"
-
-msgid "Job History"
-msgstr "執行記錄"
-
 msgid "Job ID"
 msgstr ""
+
+msgid "Job logs"
+msgstr "任務記錄"
+
+msgid "Job Logs"
+msgstr "執行記錄"
 
 msgid "Job Report"
 msgstr ""
@@ -4039,6 +4229,14 @@ msgstr ""
 msgid "Last backup job"
 msgstr "最近備份工作"
 
+#, c-format
+msgid "Last reported backup job started %s and ended %s with status of '%s'"
+msgstr ""
+
+#, c-format
+msgid "Last reported backup job started %s with status of '%s'"
+msgstr ""
+
 msgid "Last scan"
 msgstr ""
 
@@ -4062,6 +4260,14 @@ msgstr "最近[...] 備份,每周一次"
 
 msgid "Latest"
 msgstr "最近的"
+
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Latest VM state (Changed Block Tracking)"
+msgstr ""
+
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Latest VM state (Standard)"
+msgstr ""
 
 #. / TRANSLATORS: In the software installer, this option lets you to launch the app (e.g. "Launch Comet Backup"). Although, the app might have a custom name.
 #, c-format
@@ -4180,9 +4386,6 @@ msgstr ""
 msgid "Lock tables (InnoDB, MyISAM)"
 msgstr ""
 
-msgid "Log"
-msgstr ""
-
 msgid "Log (no truncation)"
 msgstr ""
 
@@ -4207,14 +4410,26 @@ msgstr ""
 msgid "Log in with WebAuthn device"
 msgstr ""
 
+msgid "Log Level"
+msgstr ""
+
 msgid "Log out"
 msgstr "登出"
+
+msgid "Log Rotation"
+msgstr ""
 
 msgid "Logged in"
 msgstr ""
 
 #, qt-format
 msgid "Logged in as %1"
+msgstr ""
+
+msgid "Logged Out"
+msgstr ""
+
+msgid "Logged Out Devices"
 msgstr ""
 
 msgid "Login"
@@ -4299,6 +4514,9 @@ msgstr ""
 msgid "March"
 msgstr ""
 
+msgid "Mark as Abandoned"
+msgstr ""
+
 msgid "Master Application Key"
 msgstr ""
 
@@ -4308,9 +4526,6 @@ msgstr ""
 #. Used by the search system to create custom searches. "[USERNAME] matches regex [PARAMETER]
 #. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
 msgid "matches regex"
-msgstr ""
-
-msgid "Max Concurrent Backup"
 msgstr ""
 
 msgid "May"
@@ -4586,10 +4801,16 @@ msgstr ""
 msgid "Never (skip existing files)"
 msgstr ""
 
-msgid "New account permissions"
+msgid "New Audit Log"
+msgstr ""
+
+msgid "New backup job started. Data is the job object"
 msgstr ""
 
 msgid "New Bucket"
+msgstr ""
+
+msgid "New bucket created"
 msgstr ""
 
 msgid "New bucket created successfully."
@@ -4621,6 +4842,9 @@ msgid "New devices"
 msgstr ""
 
 msgid "New Email Report"
+msgstr ""
+
+msgid "New event stream connection. Data is typically ServerMetaVersionInfo"
 msgstr ""
 
 msgid "New Item"
@@ -4749,7 +4973,13 @@ msgstr ""
 msgid "No database items were selected for backup."
 msgstr ""
 
+msgid "No description found for this event type"
+msgstr ""
+
 msgid "No Devices"
+msgstr ""
+
+msgid "No devices selected"
 msgstr ""
 
 msgid "No encryption key is available"
@@ -4895,6 +5125,9 @@ msgstr ""
 msgid "Not all of..."
 msgstr ""
 
+msgid "Not Available"
+msgstr ""
+
 msgid "Not configured"
 msgstr ""
 
@@ -4978,9 +5211,6 @@ msgstr ""
 msgid "Number of Users"
 msgstr ""
 
-msgid "Object lock"
-msgstr ""
-
 msgid "Object Lock"
 msgstr ""
 
@@ -5013,6 +5243,9 @@ msgid "Office 365 U.S. Government GCC High"
 msgstr ""
 
 msgid "Offline"
+msgstr ""
+
+msgid "Offline Devices"
 msgstr ""
 
 msgid "Offset"
@@ -5086,10 +5319,14 @@ msgstr ""
 msgid "Online"
 msgstr ""
 
+msgid "Online (Outdated)"
+msgstr ""
+
 msgid "Online Devices"
 msgstr "線上裝置"
 
-msgid "Only changed blocks"
+#. Definition of "Quiesce": An uncommon English verb. When you quiesce a program, it must finish any current operations and then temporarily pause, so that this single moment can be returned to later. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Quiesce
+msgid "Only back up changed areas. Uses quiesce snapshot. Disks are flattened (all snapshots/checkpoints are consolidated) and only the current disk state is stored."
 msgstr ""
 
 msgid "Only keep..."
@@ -5191,6 +5428,9 @@ msgid "Other Tenant"
 msgstr ""
 
 msgid "Outdated"
+msgstr ""
+
+msgid "Outdated Devices"
 msgstr ""
 
 msgid "Outlook"
@@ -5452,11 +5692,20 @@ msgstr "規則政策"
 msgid "Policy Configuration Warning"
 msgstr ""
 
+msgid "Policy created. Data is the policy object"
+msgstr ""
+
 msgid "Policy default"
+msgstr ""
+
+msgid "Policy deleted"
 msgstr ""
 
 msgid "Policy ID"
 msgstr "規則ID"
+
+msgid "Policy updated. Data is the policy object"
+msgstr ""
 
 msgid "Popular Storage Providers"
 msgstr ""
@@ -5470,6 +5719,9 @@ msgstr ""
 #. Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
 #. Definition of "Comet Backup": This terminology is specific to Comet Backup. It is the name of our application, and should not be translated.
 msgid "Pre-built software client, with \"Comet Backup\" branding"
+msgstr ""
+
+msgid "Preconfigured"
 msgstr ""
 
 msgid "Prefer temporary files instead of RAM (slower)"
@@ -5739,7 +5991,7 @@ msgid "PSA"
 msgstr ""
 
 #. Definition of "PSA": An acroynm for Professional Services Automation, a kind of business software for managing customers. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Professional_services_automation
-msgid "PSA Services"
+msgid "PSA & Alerting Services"
 msgstr ""
 
 msgid "Published"
@@ -5749,10 +6001,6 @@ msgid "Queue delay"
 msgstr ""
 
 msgid "Queue length"
-msgstr ""
-
-#. Definition of "Quiesce": An uncommon English verb. When you quiesce a program, it must finish any current operations and then temporarily pause, so that this single moment can be returned to later. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Quiesce
-msgid "Quiesce guest filesystem"
 msgstr ""
 
 msgid "Quit"
@@ -5869,10 +6117,6 @@ msgid "regex"
 msgstr ""
 
 #. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
-msgid "Regex"
-msgstr ""
-
-#. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
 msgid "Regex Exclude"
 msgstr ""
 
@@ -5909,6 +6153,9 @@ msgstr ""
 msgid "Reindex"
 msgstr ""
 
+msgid "Reinstall"
+msgstr ""
+
 msgid "Reinstall current versions"
 msgstr ""
 
@@ -5918,14 +6165,26 @@ msgstr ""
 msgid "Remote"
 msgstr "遠端"
 
+msgid "Remote Actions"
+msgstr ""
+
 msgid "Remote address"
 msgstr "遠端地址"
+
+msgid "Remote File Access"
+msgstr ""
+
+msgid "Remote file access is disabled"
+msgstr ""
 
 msgid "Remote path"
 msgstr "遠端路徑"
 
 msgid "Remote Server"
 msgstr "遠端伺服器"
+
+msgid "Remote termination has failed."
+msgstr ""
 
 msgid "Remove"
 msgstr "移除"
@@ -5934,6 +6193,10 @@ msgid "Remove all"
 msgstr "移除所有"
 
 msgid "Remove all user settings"
+msgstr ""
+
+#, c-format
+msgid "Remove all user settings from %d online devices"
 msgstr ""
 
 msgid "Remove item"
@@ -6119,11 +6382,12 @@ msgstr "恢復成:"
 msgid "Restore completed in %s"
 msgstr ""
 
-msgid "restore engine"
+#. Definition of "VMware": This is a company that developers Virtual Machine software. The _V_ and _M_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware
+msgid "Restore disk image backup as a VMware virtual disk."
 msgstr ""
 
-msgid "Restore files and folders"
-msgstr "恢復檔案與目錄"
+msgid "restore engine"
+msgstr ""
 
 msgid "Restore Option"
 msgstr ""
@@ -6199,7 +6463,7 @@ msgstr ""
 msgid "Revoke"
 msgstr ""
 
-msgid "Revoke Device"
+msgid "Revoke Devices"
 msgstr ""
 
 msgid "Roles"
@@ -6251,7 +6515,14 @@ msgstr ""
 msgid "Running a Backup"
 msgstr ""
 
+msgid "Running backup rule"
+msgstr ""
+
 msgid "Running custom command..."
+msgstr ""
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Running custom Storage Vault command..."
 msgstr ""
 
 msgid "Running Job"
@@ -6490,6 +6761,9 @@ msgstr ""
 msgid "Select a top directory for your include filter rules"
 msgstr ""
 
+msgid "Select a User Profile to register the device(s) with:"
+msgstr ""
+
 msgid "Select all except..."
 msgstr "選擇全部除了..."
 
@@ -6557,6 +6831,9 @@ msgstr ""
 msgid "Select Office 365 Services"
 msgstr ""
 
+msgid "Select Policy"
+msgstr ""
+
 msgid "Select Protected Mailboxes"
 msgstr ""
 
@@ -6599,6 +6876,9 @@ msgstr ""
 
 msgid "Select version"
 msgstr "選擇版本"
+
+msgid "Select virtual machines to protect"
+msgstr ""
 
 #. Definition of "VSS": This is a feature of Windows to assist in backing up files. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
 #. Definition of "VSS Writer": This is a type of driver installed in Windows to assist in backing up complex applications. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
@@ -6691,6 +6971,9 @@ msgstr ""
 msgid "Server CA file path"
 msgstr ""
 
+msgid "Server configuration has been updated. Data is the server config object"
+msgstr ""
+
 msgid "Server has been upgraded, please log in again."
 msgstr ""
 
@@ -6699,6 +6982,9 @@ msgstr "伺服器logs"
 
 msgid "Server Logs"
 msgstr "伺服器logs"
+
+msgid "Server restarting (pending)"
+msgstr ""
 
 msgid "Server Roles"
 msgstr "主機角色"
@@ -6710,6 +6996,9 @@ msgid "Server Self-Backup makes periodic copies of this server's database and co
 msgstr ""
 
 msgid "Server self-backup not configured"
+msgstr ""
+
+msgid "Server shutting down (pending)"
 msgstr ""
 
 msgid "Server started"
@@ -6906,9 +7195,6 @@ msgstr ""
 msgid "Snapshot"
 msgstr ""
 
-msgid "Snapshot consistency"
-msgstr ""
-
 msgid "Snapshot ID"
 msgstr ""
 
@@ -7012,12 +7298,19 @@ msgid "SSL"
 msgstr ""
 
 #. Definition of "SSL": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Transport_Layer_Security
+msgid "SSL (SHA1) fingerprint of the remote server certificate. Auto generated if left blank."
+msgstr ""
+
+#. Definition of "SSL": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Transport_Layer_Security
 msgid "SSL Certificate"
 msgstr ""
 
 #. Definition of "SSL": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Transport_Layer_Security
 #. Definition of "TLS": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Transport_Layer_Security
 msgid "SSL/TLS"
+msgstr ""
+
+msgid "Standard"
 msgstr ""
 
 msgid "Start"
@@ -7043,6 +7336,10 @@ msgid "Starting %s snapshot (using '%s' as the spool path)"
 msgstr ""
 
 msgid "Starting background services..."
+msgstr ""
+
+#, c-format
+msgid "Starting backup for '%s' (%s)..."
 msgstr ""
 
 msgid "Starting backup..."
@@ -7094,10 +7391,6 @@ msgstr ""
 
 msgid "Storage"
 msgstr "存儲"
-
-#, c-format
-msgid "Storage (%s)"
-msgstr ""
 
 msgid "Storage buckets"
 msgstr ""
@@ -7190,6 +7483,9 @@ msgid "Strong"
 msgstr ""
 
 msgid "Subdirectory"
+msgstr ""
+
+msgid "Subdomain"
 msgstr ""
 
 msgid "Subject"
@@ -7315,6 +7611,9 @@ msgstr ""
 msgid "Teams"
 msgstr ""
 
+msgid "Temporary files are being used to reduce RAM consumption. The performance of this job may be reduced."
+msgstr ""
+
 msgid "Temporary folder created"
 msgstr ""
 
@@ -7322,6 +7621,12 @@ msgid "Temporary folder removed"
 msgstr ""
 
 msgid "Tenant"
+msgstr ""
+
+msgid "Tenant created. Data is the tenant object"
+msgstr ""
+
+msgid "Tenant deleted"
 msgstr ""
 
 msgid "Tenant Domain"
@@ -7333,10 +7638,13 @@ msgstr ""
 msgid "Tenant name"
 msgstr ""
 
+msgid "Tenant updated. Data is the tenant object"
+msgstr ""
+
 msgid "Tenants"
 msgstr ""
 
-msgid "Terminate"
+msgid "Terminate job"
 msgstr ""
 
 msgid "Terminate process"
@@ -7409,6 +7717,9 @@ msgid "The \"Bucket Name\" must not start with 'xn--' or end with '-s3alias'"
 msgstr ""
 
 msgid "The \"Bucket Name\" must not start with a hyphen or period, or end with a hyphen"
+msgstr ""
+
+msgid "The \"Key\" field cannot be empty."
 msgstr ""
 
 #, c-format
@@ -7495,6 +7806,9 @@ msgstr ""
 msgid "The bulletin content is empty."
 msgstr ""
 
+msgid "The cancellation request can't be made as the device is offline."
+msgstr ""
+
 #. Definition of "Constellation": This terminology is specific to Comet Backup. It is a clustering feature, that looks at multiple servers.
 msgid "The Constellation Role is responsible for coordinating some inter-server cleanup tasks."
 msgstr ""
@@ -7527,10 +7841,10 @@ msgstr ""
 msgid "The device has no Protected Items"
 msgstr ""
 
-msgid "The device is offline"
+msgid "The device is currently offline"
 msgstr ""
 
-msgid "The device is online"
+msgid "The device is currently online"
 msgstr ""
 
 msgid "The device was found to be already running a target software version."
@@ -7620,6 +7934,9 @@ msgid "The search query contains an unknown field"
 msgstr ""
 
 msgid "The search results might be stale."
+msgstr ""
+
+msgid "The selected \"Key\" field is already in use. Please enter a different key."
 msgstr ""
 
 msgid "The selected account is not a group"
@@ -7839,6 +8156,9 @@ msgstr ""
 msgid "This job seems to be no longer running."
 msgstr ""
 
+msgid "This job seems to be unresponsive. Would you like to mark it as Abandoned?"
+msgstr ""
+
 msgid "This job was thought to have stopped, but it seems to still be running."
 msgstr ""
 
@@ -7989,9 +8309,6 @@ msgstr ""
 msgid "Total Files"
 msgstr ""
 
-msgid "Total jobs"
-msgstr ""
-
 msgid "Total Jobs"
 msgstr ""
 
@@ -8022,6 +8339,10 @@ msgstr ""
 msgid "TOTP"
 msgstr ""
 
+#. Definition of "TOTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm
+msgid "TOTP Code"
+msgstr ""
+
 msgid "TPM (Generic)"
 msgstr ""
 
@@ -8043,6 +8364,16 @@ msgid "Transmit speed"
 msgstr ""
 
 msgid "Transmitted"
+msgstr ""
+
+msgid "Triggered by missed backup"
+msgstr ""
+
+#, c-format
+msgid "Triggered by scheduled job at %s"
+msgstr ""
+
+msgid "Triggered by startup"
 msgstr ""
 
 msgid "True"
@@ -8097,6 +8428,10 @@ msgstr ""
 msgid "Unauthorized."
 msgstr ""
 
+#. Definition of "UNC": A 'UNC' path is a path for a file or folder on a network drive. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Path_(computing)#Universal_Naming_Convention
+msgid "Unchanged from previous backup"
+msgstr ""
+
 #, qt-format
 msgid "Under %1"
 msgstr ""
@@ -8117,6 +8452,10 @@ msgid "Uninstall"
 msgstr ""
 
 msgid "Uninstall Software"
+msgstr ""
+
+#, c-format
+msgid "Uninstall software from %d online devices"
 msgstr ""
 
 #, c-format
@@ -8144,9 +8483,9 @@ msgstr ""
 msgid "Unknown"
 msgstr ""
 
-#. Definition of "ESXi": This is a Virtual Machine hosting platform from VMware. The _E_, _S_, and _X_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware_ESXi
 #. Definition of "VMware": This is a company that developers Virtual Machine software. The _V_ and _M_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware
-msgid "Unknown connection type for VMware ESXi."
+#. Definition of "vSphere": This is a range of Virtual Machine products and services from VMware. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware_vSphere
+msgid "Unknown connection type for VMware vSphere."
 msgstr ""
 
 msgid "Unknown Device"
@@ -8189,6 +8528,12 @@ msgstr ""
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 #, qt-format
 msgid "Unrecognized Protected Item type '%1'"
+msgstr ""
+
+msgid "Unregistered"
+msgstr ""
+
+msgid "Unregistered Devices"
 msgstr ""
 
 msgid "Unsaved changes"
@@ -8234,6 +8579,9 @@ msgstr ""
 
 msgid "Update software"
 msgstr "更新軟體"
+
+msgid "Upgrade"
+msgstr ""
 
 msgid "Upgrade older versions"
 msgstr ""
@@ -8310,16 +8658,43 @@ msgstr ""
 msgid "User Accounts"
 msgstr ""
 
+msgid "User authentication failed. Only emitted if the user exists. Resource is the requested path"
+msgstr ""
+
+msgid "User authentication succeeded. Only emitted for non-session requests. Resource is the requested path"
+msgstr ""
+
+msgid "User created. Data is the profile object"
+msgstr ""
+
+msgid "User deleted"
+msgstr ""
+
 msgid "User Details"
 msgstr ""
 
 msgid "User locations"
 msgstr ""
 
+msgid "User Policies"
+msgstr ""
+
 msgid "User policies will be marked as \"Custom Policy.\""
 msgstr ""
 
 msgid "User profiles"
+msgstr ""
+
+msgid "User session token created. Data is the session object"
+msgstr ""
+
+msgid "User session token deleted"
+msgstr ""
+
+msgid "User session token expired"
+msgstr ""
+
+msgid "User updated. Data is the profile object"
 msgstr ""
 
 msgid "Username"
@@ -8409,8 +8784,8 @@ msgstr ""
 msgid "View"
 msgstr "觀看選項"
 
-msgid "View job history"
-msgstr "觀看任務記錄"
+msgid "View job logs"
+msgstr ""
 
 msgid "View last scan result"
 msgstr "觀看最後掃描結果"
@@ -8452,13 +8827,17 @@ msgstr ""
 msgid "VMware"
 msgstr ""
 
-#. Definition of "ESXi": This is a Virtual Machine hosting platform from VMware. The _E_, _S_, and _X_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware_ESXi
 #. Definition of "VMware": This is a company that developers Virtual Machine software. The _V_ and _M_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware
-msgid "VMware ESXi"
+msgid "VMware virtual disk"
 msgstr ""
 
 #. Definition of "VMware": This is a company that developers Virtual Machine software. The _V_ and _M_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware
 msgid "VMware virtual machines"
+msgstr ""
+
+#. Definition of "VMware": This is a company that developers Virtual Machine software. The _V_ and _M_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware
+#. Definition of "vSphere": This is a range of Virtual Machine products and services from VMware. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware_vSphere
+msgid "VMware vSphere"
 msgstr ""
 
 #. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
@@ -8570,6 +8949,10 @@ msgstr ""
 
 #. Definition of "Wasabi": This is a commercial service for storing files. If an official translation is available, it should be used. https://wasabi.com/
 msgid "Wasabi"
+msgstr ""
+
+#. Definition of "Wasabi": This is a commercial service for storing files. If an official translation is available, it should be used. https://wasabi.com/
+msgid "Wasabi (Object Lock)"
 msgstr ""
 
 msgid "Weak"
@@ -8779,6 +9162,10 @@ msgstr ""
 
 #. Definition of "VMware": This is a company that developers Virtual Machine software. The _V_ and _M_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware
 msgid "You have selected a VMware image backup for restore."
+msgstr ""
+
+#, c-format
+msgid "You have set the Object Lock retention period to %d days."
 msgstr ""
 
 msgid "You must choose a group account to view its members"

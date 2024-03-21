@@ -223,6 +223,9 @@ msgstr ""
 msgid "*.zip"
 msgstr ""
 
+msgid "...more"
+msgstr ""
+
 msgid "1. Click here to open "
 msgstr "1. 點選這裡打開 "
 
@@ -846,10 +849,13 @@ msgstr ""
 msgid "Amazon S3"
 msgstr ""
 
-msgid "Amazon S3 (China)"
+msgid "Amazon S3 (Object Lock)"
 msgstr ""
 
-msgid "Amazon S3 (Object Lock)"
+msgid "Amazon S3 China"
+msgstr ""
+
+msgid "Amazon S3 China (Object Lock)"
 msgstr ""
 
 msgid "An error occurred while copying to the clipboard."
@@ -948,9 +954,6 @@ msgstr ""
 #. Definition of "Apple": The company that makes iPhones and Mac computers. https://www.apple.com/
 #. Definition of "Apple silicon": The 2020 release of Mac computers that use the M1 and M2 chips. If an official translation is available, it should be used. https://support.apple.com/en-nz/HT211814
 msgid "Apple silicon"
-msgstr ""
-
-msgid "Application Backup Types"
 msgstr ""
 
 msgid "Application Certificate"
@@ -1170,6 +1173,9 @@ msgid "Authentication validation passed"
 msgstr ""
 
 msgid "Authenticator type"
+msgstr ""
+
+msgid "Auto Fill:"
 msgstr ""
 
 msgid "Auto refresh"
@@ -2057,12 +2063,6 @@ msgstr ""
 msgid "Couldn't find top directory from include regex: '%s'"
 msgstr ""
 
-#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
-#. Definition of "vmdk": A file name extension used for disk image files, usually used with virtual machines. https://en.wikipedia.org/wiki/VMDK
-#, c-format
-msgid "Couldn't get file type '%s' in vmdk file"
-msgstr ""
-
 #, c-format
 msgid "Couldn't get job token from backup server (%s)"
 msgstr ""
@@ -2092,10 +2092,8 @@ msgstr ""
 msgid "Couldn't load user profile page."
 msgstr ""
 
-#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
-#. Definition of "vmdk": A file name extension used for disk image files, usually used with virtual machines. https://en.wikipedia.org/wiki/VMDK
 #, c-format
-msgid "Couldn't locate '%s' in vmdk file"
+msgid "Couldn't locate '%s' in virtual disk file"
 msgstr ""
 
 msgid "Couldn't log in."
@@ -2164,6 +2162,10 @@ msgid "Couldn't save changes."
 msgstr "無法保存變更."
 
 msgid "Couldn't save data chunk"
+msgstr ""
+
+#, c-format
+msgid "Couldn't save metadata about the retention pass: %s"
 msgstr ""
 
 #. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
@@ -2466,6 +2468,10 @@ msgstr ""
 msgid "Default (none)"
 msgstr ""
 
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Default (using Storage Vault policy)"
+msgstr ""
+
 msgid "Default email reports"
 msgstr ""
 
@@ -2675,6 +2681,9 @@ msgstr ""
 #. Definition of "TOTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm
 msgid "Disable 2FA (TOTP)"
 msgstr "取消二次認證(TOTP)"
+
+msgid "Disable dark mode"
+msgstr ""
 
 #. Definition of "TOTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm
 msgid "Disable Two-factor Authentication (TOTP)"
@@ -2954,6 +2963,9 @@ msgstr "郵件地址"
 msgid "Email already in use"
 msgstr ""
 
+msgid "Email backup reports"
+msgstr ""
+
 msgid "Email backup reports to this account"
 msgstr ""
 
@@ -3008,6 +3020,9 @@ msgstr ""
 
 #. Definition of "Constellation": This terminology is specific to Comet Backup. It is a clustering feature, that looks at multiple servers.
 msgid "Enable Constellation Role (this is my main server)"
+msgstr ""
+
+msgid "Enable dark mode"
 msgstr ""
 
 msgid "Enable Software Build Role"
@@ -3082,6 +3097,10 @@ msgstr ""
 msgid "Enter path:"
 msgstr ""
 
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "Enter the name for the Protected Item"
+msgstr ""
+
 #. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
 msgid "Enter volume:"
 msgstr ""
@@ -3097,11 +3116,6 @@ msgid "Error"
 msgstr ""
 
 msgid "ERROR"
-msgstr ""
-
-#. Definition of "OneDrive": This is a cloud storage platform from Microsoft. The _O_ and _D_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_OneDrive
-#, c-format
-msgid "Error %s performing incremental backup of OneDrive site '%s', taking full backup..."
 msgstr ""
 
 msgid "Error attempting to register new application"
@@ -3126,6 +3140,10 @@ msgstr ""
 
 #, c-format
 msgid "Error importing backupset '%s': %s"
+msgstr ""
+
+#. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
+msgid "Error in SharePoint site processing"
 msgstr ""
 
 msgid "Error loading file."
@@ -3259,6 +3277,16 @@ msgstr ""
 
 msgid "Export"
 msgstr "導出"
+
+msgid "Export All"
+msgstr ""
+
+msgid "Export Selected"
+msgstr ""
+
+#, c-format
+msgid "Extending Object Lock for %d referenced object(s)..."
+msgstr ""
 
 #, qt-format
 msgid "Extent #%1"
@@ -3505,6 +3533,14 @@ msgstr "結束"
 
 msgid "Finished"
 msgstr "結束"
+
+#, c-format
+msgid "Finished backup for mailbox %s (Duration: %s, Dirs: %d, Items: %d, Bytes: %s)"
+msgstr ""
+
+#, c-format
+msgid "Finished backup for site %s (Duration: %s, Dirs: %d, Files: %d, Bytes: %s)"
+msgstr ""
 
 msgid "First"
 msgstr ""
@@ -3820,6 +3856,12 @@ msgstr ""
 msgid "If the last job was Missed"
 msgstr ""
 
+msgid "If the restored file is different"
+msgstr ""
+
+msgid "If the restored file is newer"
+msgstr ""
+
 msgid "If the setting is ever disabled, the end-user will need to manually re-enable it inside the app."
 msgstr ""
 
@@ -4124,6 +4166,9 @@ msgstr ""
 msgid "Item %1 (%2)"
 msgstr ""
 
+msgid "Item Type:"
+msgstr ""
+
 msgid "item(s)"
 msgstr ""
 
@@ -4228,6 +4273,9 @@ msgstr ""
 
 msgid "Last backup job"
 msgstr "最近備份工作"
+
+msgid "Last Message"
+msgstr ""
 
 #, c-format
 msgid "Last reported backup job started %s and ended %s with status of '%s'"
@@ -4390,6 +4438,9 @@ msgid "Log (no truncation)"
 msgstr ""
 
 msgid "Log (truncating)"
+msgstr ""
+
+msgid "Log Count"
 msgstr ""
 
 #, qt-format
@@ -5011,6 +5062,9 @@ msgstr ""
 msgid "No isolation"
 msgstr ""
 
+msgid "No items have been selected to be backed up"
+msgstr ""
+
 msgid "No jobs"
 msgstr ""
 
@@ -5166,10 +5220,6 @@ msgid "Not yet run"
 msgstr ""
 
 msgid "Note"
-msgstr ""
-
-#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
-msgid "Nothing has been added to the Protected Item."
 msgstr ""
 
 #, c-format
@@ -5329,8 +5379,8 @@ msgstr "線上裝置"
 msgid "Only back up changed areas. Uses quiesce snapshot. Disks are flattened (all snapshots/checkpoints are consolidated) and only the current disk state is stored."
 msgstr ""
 
-msgid "Only keep..."
-msgstr "只保存..."
+msgid "Only keep"
+msgstr "只保存"
 
 msgid "Only ONE server should have this role enabled. Enabling this on multiple servers in the cluster may cause data loss."
 msgstr ""
@@ -5452,9 +5502,6 @@ msgstr ""
 msgid "Overwrite existing files"
 msgstr "覆蓋現在的檔案"
 
-msgid "Overwrite if the restored file is newer"
-msgstr ""
-
 msgid "Package ID"
 msgstr ""
 
@@ -5543,12 +5590,6 @@ msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Performing a deep verification of Vault content may cause the client to download a lot of data from the Storage Vault."
-msgstr ""
-
-msgid "Performing incremental backup for site"
-msgstr ""
-
-msgid "Performing incremental backup of mailbox"
 msgstr ""
 
 msgid "Periodic"
@@ -5658,9 +5699,6 @@ msgid "Please select one snapshot for restore."
 msgstr ""
 
 msgid "Please select one snapshot to delete."
-msgstr ""
-
-msgid "Please select only individual files and folders for restore, not the entire disk or partition"
 msgstr ""
 
 msgid "Please select snapshots to delete."
@@ -6036,6 +6074,9 @@ msgstr "再次輸入密碼:"
 msgid "Re-entered password does not match"
 msgstr "密碼不符合"
 
+msgid "Re-running retention pass now..."
+msgstr ""
+
 #. Definition of "stdin": Abbreviation of 'Standard Input', data that is fed into a program. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Standard_streams#Standard_input_(stdin)
 msgid "Read password from stdin (optional)"
 msgstr ""
@@ -6050,9 +6091,6 @@ msgid "Rebrand Storage"
 msgstr "重新包裝存儲"
 
 msgid "Rebuild indexes"
-msgstr ""
-
-msgid "Receive backup reports"
 msgstr ""
 
 msgid "Received Time"
@@ -6266,6 +6304,7 @@ msgstr ""
 msgid "Replication Settings..."
 msgstr ""
 
+#. This is a button to view a report. Report is a noun.
 msgid "Report"
 msgstr "報告"
 
@@ -6469,12 +6508,6 @@ msgstr ""
 msgid "Roles"
 msgstr ""
 
-msgid "Root Access Key"
-msgstr ""
-
-msgid "Root Secret Key"
-msgstr ""
-
 msgid "Rule"
 msgstr ""
 
@@ -6483,9 +6516,6 @@ msgstr ""
 
 msgid "Run a backup"
 msgstr ""
-
-msgid "Run a backup now"
-msgstr "現在就執行一次備份"
 
 msgid "Run at:"
 msgstr ""
@@ -6501,6 +6531,9 @@ msgstr ""
 
 msgid "Run more often"
 msgstr ""
+
+msgid "Run this backup now"
+msgstr "現在就執行一次備份"
 
 msgid "Running"
 msgstr ""
@@ -6532,6 +6565,9 @@ msgid "S3 endpoint"
 msgstr ""
 
 msgid "S3-compatible"
+msgstr ""
+
+msgid "S3-compatible (Object Lock)"
 msgstr ""
 
 msgid "Sat"
@@ -7062,6 +7098,9 @@ msgstr ""
 msgid "SFTP"
 msgstr ""
 
+msgid "Share"
+msgstr ""
+
 #. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
 msgid "SharePoint"
 msgstr ""
@@ -7186,6 +7225,15 @@ msgid "Smaller filesize"
 msgstr ""
 
 msgid "Smartcard (PKCS#11)"
+msgstr ""
+
+#. Definition of "SMB": Server Message Block is the protocol used for file sharing between Windows PCs. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Server_Message_Block
+msgid "SMB"
+msgstr ""
+
+#. Definition of "SMB": Server Message Block is the protocol used for file sharing between Windows PCs. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Server_Message_Block
+#, qt-format
+msgid "SMB: [%1:%2\\%3]"
 msgstr ""
 
 #. Definition of "SMTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol
@@ -7346,6 +7394,14 @@ msgid "Starting backup..."
 msgstr "開始備份中..."
 
 msgid "Starting deep verification..."
+msgstr ""
+
+#, c-format
+msgid "Starting incremental backup for site %s"
+msgstr ""
+
+#, c-format
+msgid "Starting incremental backup of mailbox %s"
 msgstr ""
 
 msgid "Starting restore..."
@@ -7656,6 +7712,10 @@ msgstr ""
 msgid "Test Connection"
 msgstr ""
 
+#. The 'Text' option is a possible choice for exporting a report. If 'Text' is selected, the report would be exported in a plain-text file format.
+msgid "Text"
+msgstr ""
+
 msgid "Text files (*.txt)"
 msgstr ""
 
@@ -7903,6 +7963,9 @@ msgstr ""
 msgid "The path could not be compiled"
 msgstr ""
 
+msgid "The previous retention pass encountered an error"
+msgstr ""
+
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "The Protected Item has been modified."
 msgstr ""
@@ -7925,6 +7988,12 @@ msgid "The regex include path could not be compiled"
 msgstr ""
 
 msgid "The remote update was skipped to avoid interrupting a running backup job on this device. The remote update will be retried after a few hours."
+msgstr ""
+
+msgid "The retention pass completed successfully."
+msgstr ""
+
+msgid "The retention pass encountered an error"
 msgstr ""
 
 msgid "The retention settings are being enforced by the user's policy."
@@ -8166,6 +8235,10 @@ msgid ""
 "This new device must be registered into your backup account.\n"
 "\n"
 "Enter a name for the new device:"
+msgstr ""
+
+#. Definition of "EFS": Encrypting File System (EFS) is an encryption system built into Windows. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Encrypting_File_System
+msgid "This option disables the \"EFS-encrypted files may be unusable once restored...\" warning in the job report. Please ensure you have backed up the EFS encryption keys before enabling this option."
 msgstr ""
 
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
@@ -8784,9 +8857,6 @@ msgstr ""
 msgid "View"
 msgstr "觀看選項"
 
-msgid "View job logs"
-msgstr ""
-
 msgid "View last scan result"
 msgstr "觀看最後掃描結果"
 
@@ -9140,10 +9210,6 @@ msgstr ""
 
 msgid "You can use this bucket from the client software via the following details:"
 msgstr ""
-
-#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
-msgid "You have completed setting up the new Protected Item."
-msgstr "你已經完成新的備份項目設置."
 
 msgid "You have selected a Disk Image backup for restore."
 msgstr ""

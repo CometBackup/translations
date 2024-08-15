@@ -1279,7 +1279,7 @@ msgstr "Anterior"
 #. Definition of "Quiesce": An uncommon English verb. When you quiesce a program, it must finish any current operations and then temporarily pause, so that this single moment can be returned to later. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Quiesce
 #. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
 msgid "Back up entire VM. Unused disk areas are skipped. Uses quiesce snapshot. Disks are flattened (all snapshots/checkpoints are consolidated) and only the current disk state is stored."
-msgstr "Hacer una copia de seguridad de toda la MV. Las áreas de los discos sin usar son omitidas. Los discos se aplanan (todas las instantáneas / puntos de controles están consolidados) y solo se almacena el estado actual del disco."
+msgstr "Hacer una copia de seguridad de toda la MV. Usa instantáneas del modo inactivo. Las áreas de los discos sin usar son omitidas. Los discos se aplanan (todas las instantáneas / puntos de controles están consolidados) y solo se almacena el estado actual del disco."
 
 msgid "Back up extra system permissions and attributes"
 msgstr "Hacer una copia de seguridad de los permisos y de los atributos del sistema adicionales"
@@ -4033,22 +4033,22 @@ msgid "If the bucket does not exist, it will be automatically created in the \"U
 msgstr "Si el cubo no existe, se creará automáticamente en la región \"US este (N. Virginia)\"."
 
 msgid "If the job is actually still running, it will be revived when a progress update is received."
-msgstr ""
+msgstr "Si el trabajo en realidad se está ejecutando, será revisado cuando se reciba una actualización de progreso."
 
 msgid "If the last job was Missed"
 msgstr "Si el último trabajo fue Incumplido"
 
 msgid "If the restored file is different"
-msgstr ""
+msgstr "Si el archivo restituido es diferente"
 
 msgid "If the restored file is newer"
-msgstr ""
+msgstr "Si el archivo restituido es el más nuevo"
 
 msgid "If the setting is ever disabled, the end-user will need to manually re-enable it inside the app."
 msgstr "Si la configuración se deshabilita alguna vez, el usuario final deberá volver a habilitarla manualmente dentro de la aplicación."
 
 msgid "If you believe the job is no longer running, would you like to mark it as Abandoned?"
-msgstr ""
+msgstr "Si cree que el trabajo no se está ejecutando más, ¿le gustaría marcarlo como Abandonado?"
 
 msgid "Image"
 msgstr "Imagen"
@@ -4087,7 +4087,7 @@ msgid "Importing settings from '%s'..."
 msgstr "Importando configuraciones de '%s'..."
 
 msgid "In Progress (retry)"
-msgstr ""
+msgstr "En Progreso (reintentar)"
 
 msgid "Include"
 msgstr "Incluye"
@@ -4096,10 +4096,10 @@ msgid "Include all Virtual Machines"
 msgstr "Incluir todas las Máquinas Virtuales"
 
 msgid "Include drive letter"
-msgstr ""
+msgstr "Incluir letra de unidad"
 
 msgid "Include extra drivers"
-msgstr ""
+msgstr "Incluir unidades adicionales"
 
 msgid "Include pattern"
 msgstr "Incluir patrón"
@@ -4115,7 +4115,7 @@ msgid "Include unused disk sectors for forensic data recovery"
 msgstr "Incluya sectores de disco no utilizados para la recuperación de datos forenses"
 
 msgid "Include web browser"
-msgstr ""
+msgstr "Incluir navegador web"
 
 msgid "Included Services"
 msgstr "Servicios Incluídos"
@@ -4343,13 +4343,13 @@ msgstr "Dirección IP no incluida en la lista blanca"
 
 #. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
 msgid "IP Addresses (Regex)"
-msgstr ""
+msgstr "Direcciones IP (Regex)"
 
 msgid "IP Rate Limit"
-msgstr ""
+msgstr "Límite de Tasa de la IP"
 
 msgid "IP Rate Limit Rule"
-msgstr ""
+msgstr "Regla del Límite de Tasa de la IP"
 
 #. Definition of "ISO": A disk image file format, normally a file with *.iso file extension. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Optical_disc_image
 msgid "ISO image file created"
@@ -4364,7 +4364,7 @@ msgid "Isolation"
 msgstr "Aislamiento"
 
 msgid "It will allocate new IAM permissions for the existing vault. It will not move any data."
-msgstr ""
+msgstr "Se asignarán nuevos permisos IAM para la bóveda existente. No se moverá ningún dato."
 
 msgid "Item"
 msgstr "Elemento"
@@ -4374,7 +4374,7 @@ msgid "Item %1 (%2)"
 msgstr "Elemento %1 (%2)"
 
 msgid "Item Type:"
-msgstr ""
+msgstr "Tipo de Elemento:"
 
 msgid "item(s)"
 msgstr "elemento(s)"
@@ -4420,7 +4420,7 @@ msgid "Job status"
 msgstr "Estado del trabajo"
 
 msgid "JSON"
-msgstr ""
+msgstr "JSON"
 
 msgid "July"
 msgstr "Julio"
@@ -4432,10 +4432,10 @@ msgid "KB"
 msgstr "KB"
 
 msgid "KB/s"
-msgstr ""
+msgstr "KB/s"
 
 msgid "Kbit"
-msgstr ""
+msgstr "Kbit"
 
 #, qt-format
 msgid "Keep %1"
@@ -4456,7 +4456,7 @@ msgstr "Mantener nada (ADVERTENCIA)"
 
 #, c-format
 msgid "Keeping deleted folder '%s' for account '%s'"
-msgstr ""
+msgstr "Manteniendo la carpeta '%s' borrada para la cuenta '%s'"
 
 msgid "Key"
 msgstr "Clave"
@@ -4495,15 +4495,15 @@ msgid "Last backup job"
 msgstr "Ultimo trabajo de copia de seguridad"
 
 msgid "Last Message"
-msgstr ""
+msgstr "Último Mensaje"
 
 #, c-format
 msgid "Last reported backup job started %s and ended %s with status of '%s'"
-msgstr ""
+msgstr "El último trabajo de copia de seguridad reportado comenzó en %s y termino en %s con un estado de '%s'"
 
 #, c-format
 msgid "Last reported backup job started %s with status of '%s'"
-msgstr ""
+msgstr "El último trabajo de copia de seguridad reportado comenzó en %s con un estado de '%s'"
 
 msgid "Last scan"
 msgstr "Último escaneo"
@@ -4531,11 +4531,11 @@ msgstr "Última"
 
 #. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
 msgid "Latest VM state (Changed Block Tracking)"
-msgstr ""
+msgstr "El último estado de la MV (Seguimiento de Bloque Cambiado)"
 
 #. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
 msgid "Latest VM state (Standard)"
-msgstr ""
+msgstr "El último estado de la MV (Estándar)"
 
 #. / TRANSLATORS: In the software installer, this option lets you to launch the app (e.g. "Launch Comet Backup"). Although, the app might have a custom name.
 #, c-format
@@ -4587,7 +4587,7 @@ msgid "License & Access"
 msgstr "Licencia y Acceso"
 
 msgid "License Restrictions"
-msgstr ""
+msgstr "Restricciones de la Licencia"
 
 msgid "Licensing"
 msgstr "Licenciamiento"
@@ -4609,7 +4609,7 @@ msgstr "Linux"
 #. Definition of "ISO": A disk image file format, normally a file with *.iso file extension. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Optical_disc_image
 #. Definition of "Linux": The free operating system, an alternative to Windows or macOS. https://en.wikipedia.org/wiki/Linux
 msgid "Linux ISO"
-msgstr ""
+msgstr "ISO de Linux"
 
 msgid "Live progress information was last updated at:"
 msgstr "La información de progreso en vivo fue actualizada por última vez en:"
@@ -4669,7 +4669,7 @@ msgid "Log (truncating)"
 msgstr "Registro (truncando)"
 
 msgid "Log Count"
-msgstr ""
+msgstr "Cuenta de registros"
 
 #, qt-format
 msgid "Log in to %1 as user '%2'"
@@ -4690,13 +4690,13 @@ msgid "Log in with WebAuthn device"
 msgstr "Iniciar sesión con el dispositivo WebAuthn"
 
 msgid "Log Level"
-msgstr ""
+msgstr "Nivel de Registro"
 
 msgid "Log out"
 msgstr "Cerrar sesión"
 
 msgid "Log Rotation"
-msgstr ""
+msgstr "Rotación de Registro"
 
 msgid "Logged in"
 msgstr "Ya ingresado"
@@ -4706,10 +4706,10 @@ msgid "Logged in as %1"
 msgstr "Ingresado como %1"
 
 msgid "Logged Out"
-msgstr ""
+msgstr "Sesión Cerrada"
 
 msgid "Logged Out Devices"
-msgstr ""
+msgstr "Los Dispositivos Cerraron la Sesión"
 
 msgid "Login"
 msgstr "Acceder"
@@ -4794,7 +4794,7 @@ msgid "March"
 msgstr "Marzo"
 
 msgid "Mark as Abandoned"
-msgstr ""
+msgstr "Marcar como Abandonado"
 
 msgid "Master Application Key"
 msgstr "Clave de aplicación maestra"
@@ -4817,10 +4817,10 @@ msgid "MB/s"
 msgstr "MB/s"
 
 msgid "Mbit"
-msgstr ""
+msgstr "Mbit"
 
 msgid "MBR Partition (granular restore)"
-msgstr ""
+msgstr "Partición MBR (restauración granular)"
 
 msgid "Measure"
 msgstr "Medida"
@@ -4849,56 +4849,56 @@ msgstr "Método"
 
 #. Definition of "Microsoft 365": This is commercial platform from Microsoft. There is always a space between _Microsoft_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 msgid "Microsoft 365 Calendar"
-msgstr ""
+msgstr "Calendario de Microsoft 365"
 
 #. Definition of "Microsoft 365": This is commercial platform from Microsoft. There is always a space between _Microsoft_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 msgid "Microsoft 365 Calendar event"
-msgstr ""
+msgstr "Evento del Calendario de Microsoft 365"
 
 #. Definition of "Microsoft 365": This is commercial platform from Microsoft. There is always a space between _Microsoft_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 msgid "Microsoft 365 Contact"
-msgstr ""
+msgstr "Contacto de Microsoft 365"
 
 #. Definition of "Microsoft 365": This is commercial platform from Microsoft. There is always a space between _Microsoft_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 msgid "Microsoft 365 Contact directory"
-msgstr ""
+msgstr "Directorio de Contacto de Microsoft 365"
 
 #. Definition of "Microsoft 365": This is commercial platform from Microsoft. There is always a space between _Microsoft_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 msgid "Microsoft 365 Email mailbox"
-msgstr ""
+msgstr "Buzón de Correo Electrónico de Microsoft 365"
 
 #. Definition of "Microsoft 365": This is commercial platform from Microsoft. There is always a space between _Microsoft_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 msgid "Microsoft 365 Email message"
-msgstr ""
+msgstr "Mensaje de Correo Electrónico de Microsoft 365"
 
 #. Definition of "Microsoft 365": This is commercial platform from Microsoft. There is always a space between _Microsoft_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 #. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
 msgid "Microsoft 365 SharePoint drive item"
-msgstr ""
+msgstr "Elemento de unidad SharePoint de Microsoft 365"
 
 #. Definition of "Microsoft 365": This is commercial platform from Microsoft. There is always a space between _Microsoft_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 #. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
 msgid "Microsoft 365 SharePoint site"
-msgstr ""
+msgstr "Sitio SharePoint de Microsoft 365"
 
 #. Definition of "Microsoft 365": This is commercial platform from Microsoft. There is always a space between _Microsoft_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 #. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
 msgid "Microsoft 365 SharePoint site item"
-msgstr ""
+msgstr "Elemento del sitio SharePoint de Microsoft 365"
 
 #. Definition of "Microsoft 365": This is commercial platform from Microsoft. There is always a space between _Microsoft_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 #. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
 msgid "Microsoft 365 SharePoint site list"
-msgstr ""
+msgstr "Lista del sitio SharePoint de Microsoft 365"
 
 #. Definition of "Microsoft 365": This is commercial platform from Microsoft. There is always a space between _Microsoft_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 #. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
 msgid "Microsoft 365 SharePoint team site"
-msgstr ""
+msgstr "Sitio del equipo SharePoint de Microsoft 365"
 
 #, c-format
 msgid "Microsoft detected malware within file %s (path=%s), skipping..."
-msgstr ""
+msgstr "Microsoft detectó malware dentro del archivo %s (ruta=%s), saltando..."
 
 #. Definition of "Exchange": This is an email server platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Exchange_Server
 msgid "Microsoft Exchange databases"
@@ -5140,16 +5140,16 @@ msgid "Never (skip existing files)"
 msgstr "Nunca (saltar archivos existentes)"
 
 msgid "New Audit Log"
-msgstr ""
+msgstr "Nuevo Registro de Auditoría"
 
 msgid "New backup job started. Data is the job object"
-msgstr ""
+msgstr "Comenzó un nuevo trabajo de copia de seguridad. Los datos son el objeto del trabajo"
 
 msgid "New Bucket"
 msgstr "Nuevo Cubo"
 
 msgid "New bucket created"
-msgstr ""
+msgstr "Nuevo cubo creado"
 
 msgid "New bucket created successfully."
 msgstr "Nuevo cubo creado con éxito."
@@ -5180,7 +5180,7 @@ msgid "New Email Report"
 msgstr "Nuevo informe de correo electrónico"
 
 msgid "New event stream connection. Data is typically ServerMetaVersionInfo"
-msgstr ""
+msgstr "Nueva conexión del flujo de eventos. Típicamente, los datos son ServerMetaVersionInfo"
 
 msgid "New Item"
 msgstr "Nuevo Elemento"
@@ -5309,13 +5309,13 @@ msgid "No database items were selected for backup."
 msgstr "Ningún elemento de la base de datos fue seleccionado para copia de seguridad."
 
 msgid "No description found for this event type"
-msgstr ""
+msgstr "No se encontró ninguna descripción para este tipo de evento"
 
 msgid "No Devices"
 msgstr "Sin dispositivos"
 
 msgid "No devices selected"
-msgstr ""
+msgstr "No se seleccionó ningún dispositivo"
 
 msgid "No encryption key is available"
 msgstr "No hay una clave de encriptación disponible"
@@ -5418,7 +5418,7 @@ msgid "No users found"
 msgstr "No se encontraron usuarios"
 
 msgid "No users selected"
-msgstr ""
+msgstr "No se seleccionó ningún usuario"
 
 msgid "No value selected"
 msgstr "Ningún valor seleccionado"
@@ -5467,7 +5467,7 @@ msgid "Not all of..."
 msgstr "No todo de..."
 
 msgid "Not Available"
-msgstr ""
+msgstr "No Está Disponible"
 
 msgid "Not configured"
 msgstr "No configurado"
@@ -5583,7 +5583,7 @@ msgid "Offline"
 msgstr "Desconectado"
 
 msgid "Offline Devices"
-msgstr ""
+msgstr "Dispositivos Sin Conexión"
 
 msgid "Offset"
 msgstr "Compensar"
@@ -5613,7 +5613,7 @@ msgid "on day"
 msgstr "el día"
 
 msgid "On error, retry every"
-msgstr ""
+msgstr "Ante un error, repetir cada"
 
 msgid "On the client device, sign into the backup client using the details specified for your newly created user."
 msgstr "En la máquina del cliente, ingrese al respaldo del cliente usando los detalles especificados para su nuevo usuario creado."
@@ -5660,14 +5660,14 @@ msgid "Online"
 msgstr "En línea"
 
 msgid "Online (Outdated)"
-msgstr ""
+msgstr "En Línea (Desactualizado)"
 
 msgid "Online Devices"
 msgstr "Dispositivos en línea"
 
 #. Definition of "Quiesce": An uncommon English verb. When you quiesce a program, it must finish any current operations and then temporarily pause, so that this single moment can be returned to later. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Quiesce
 msgid "Only back up changed areas. Uses quiesce snapshot. Disks are flattened (all snapshots/checkpoints are consolidated) and only the current disk state is stored."
-msgstr ""
+msgstr "Solo hacer copia seguridad de las áreas cambiadas. Usa instantáneas del modo inactivo. Los discos se aplanan (todas las instantáneas / puntos de controles están consolidados) y solo se almacena el estado actual del disco."
 
 msgid "Only keep"
 msgstr "Solamente mantener"
@@ -5771,7 +5771,7 @@ msgid "Outdated"
 msgstr "Anticuado"
 
 msgid "Outdated Devices"
-msgstr ""
+msgstr "Dispositivos Desactualizados"
 
 msgid "Outlook"
 msgstr "Outlook"
@@ -5944,7 +5944,7 @@ msgid "Please configure at least one server address"
 msgstr "Por favor configure por lo menos una dirección de servidor"
 
 msgid "Please contact your administrator if changes are required"
-msgstr ""
+msgstr "Por favor, si se requieren cambios póngase en contacto con su administrador"
 
 msgid "Please contact your support agent for more information."
 msgstr "Por favor, póngase en contacto con su agente de soporte para obtener más información."
@@ -5953,7 +5953,7 @@ msgid "Please edit the date and time below, to fit your current local time zone.
 msgstr "Por favor edite las fechas y hora abajo, para coincidir con su zona horaria local actual."
 
 msgid "Please ensure that you have taken a Server Self-Backup before performing this operation."
-msgstr ""
+msgstr "Por favor, antes de ejecutar esta operación, asegúrese de haber hecho una Autocopia de Seguridad del Servidor."
 
 #, c-format
 msgid "Please enter a full path to the output archive file, using a supported file extension (%s)."
@@ -5963,7 +5963,7 @@ msgid "Please enter a hostname or IP address for this Tenant:"
 msgstr "Por favor ingrese un nombre de anfitrión o dirección de IP para este inquilino:"
 
 msgid "Please enter an absolute path to the target output file."
-msgstr ""
+msgstr "Por favor, ingrese una ruta absoluta al archivo de salida objetivo."
 
 msgid "Please enter your 6-digit authenticator code"
 msgstr "Por favor, ingrese su código de autenticación de 6 dígitos"
@@ -6013,7 +6013,7 @@ msgstr "Por favor seleccione instantáneas para buscar."
 #. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
 #. Definition of "vmdk": A file name extension used for disk image files, usually used with virtual machines. https://en.wikipedia.org/wiki/VMDK
 msgid "Please select the 'disk.vmdk' file and at least one data file for each disk to restore."
-msgstr ""
+msgstr "Por favor, selecione el archivo 'disk.vmdk' y al menos un archivo de datos por cada disco que haya que restituir."
 
 msgid "Please specify account type"
 msgstr "Por favor, especifique el tipo de cuenta"

@@ -26,7 +26,7 @@ We will include your translation in the next available version of Comet.
 
 ## Current translation coverage
 
-*Table last regenerated 2024-08-30*
+*Table last regenerated 2024-11-12*
 
 |Code    |Language              |Untranslated (English) words |Translated Words |Translated Phrases |Translation percent
 |--------|----------------------|-----------------------------|-----------------|-------------------|--------------------
@@ -36,7 +36,7 @@ We will include your translation in the next available version of Comet.
 |`es_ES` |Español               |0                            |16595            |2867               |  100.00
 |`fr_FR` |Français              |1674                         |14316            |2577               |   89.88
 |`he_IL` |עברית‬                 |3                            |12835            |2866               |   99.97
-|`hr_HR` |Hrvatski              |1674                         |11184            |2577               |   89.88
+|`hr_HR` |Hrvatski              |0                            |12846            |2867               |  100.00
 |`it_IT` |Italiano              |0                            |15078            |2867               |  100.00
 |`nl_NL` |Nederlands            |0                            |13001            |2867               |  100.00
 |`pl_PL` |Polski                |0                            |13192            |2867               |  100.00

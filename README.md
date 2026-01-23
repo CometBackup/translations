@@ -26,13 +26,13 @@ We will include your translation in the next available version of Comet.
 
 ## Current translation coverage
 
-*Table last regenerated 2026-01-20*
+*Table last regenerated 2026-01-23*
 
 |Code    |Language              |Untranslated (English) words |Translated Words |Translated Phrases |Translation percent
 |--------|----------------------|-----------------------------|-----------------|-------------------|--------------------
 |`-`     |English               |0                            |14854            |3114               |  100.00
-|`cs_CZ` |Čeština               |30                           |14824            |3108               |   99.81
-|`da_DK` |Dansk‬                 |197                          |13908            |3088               |   99.17
+|`cs_CZ` |Čeština‬              |0                            |11417            |3108               |  100.00
+|`da_DK` |Dansk‬                |197                          |13908            |3088               |   99.17
 |`de_DE` |Deutsch               |190                          |14232            |3089               |   99.20
 |`es_ES` |Español               |190                          |18413            |3089               |   99.20
 |`fr_FR` |Français              |192                          |18179            |3088               |   99.17
@@ -44,6 +44,6 @@ We will include your translation in the next available version of Comet.
 |`pt_BR` |Português (Brasil)    |190                          |17067            |3089               |   99.20
 |`pt_PT` |Português (Europa)    |190                          |17083            |3089               |   99.20
 |`ru_RU` |Русский               |223                          |14298            |3086               |   99.10
-|`th_TH` |ภาษาไทย‬                |190                          |6286             |3089               |   99.20
+|`th_TH` |ภาษาไทย‬              |190                          |6286             |3089               |   99.20
 |`uk_UA` |Українська мова       |0                            |14286            |3097               |  100.00
-|`zh_TW` |中文 (繁體)             |13782                        |439              |385                |   12.36
+|`zh_TW` |中文 (繁體)               |13782                        |439              |385                |   12.36

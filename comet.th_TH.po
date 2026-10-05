@@ -13,6 +13,9 @@ msgstr ""
 msgid " (conflicts)"
 msgstr " (ข้อขัดแย้ง)"
 
+msgid " MB"
+msgstr ""
+
 msgid " MB/s"
 msgstr " MB/s"
 
@@ -22,6 +25,10 @@ msgstr " นาที"
 #, c-format
 msgid "\"%s\" is not a valid hostname"
 msgstr "\"%s\" เป็นชื่อโฮสต์ที่ไม่ถูกต้อง"
+
+#, qt-format
+msgid "%1 (%2%)"
+msgstr ""
 
 #, qt-format
 msgid "%1 (%2)"
@@ -39,10 +46,6 @@ msgstr "%1 เมื่อ %2"
 #, qt-format
 msgid "%1 backup job(s)"
 msgstr "%1 งานสำรองข้อมูล"
-
-#, qt-format
-msgid "%1 byte(s)"
-msgstr "%1 ไบต์"
 
 #, qt-format
 msgid "%1 day(s)"
@@ -71,10 +74,23 @@ msgstr "%1 นาทีหลังจากชั่วโมง"
 msgid "%1 month(s)"
 msgstr "%1 เดือน"
 
+#, qt-format
+msgid "%1 must be a whole number from 0 to %2"
+msgstr ""
+
 #. When displaying the day of a past event. [Event happened] on [January 1st]
 #, qt-format
 msgid "%1 on %2"
 msgstr "%1 เมื่อ %2"
+
+#, qt-format
+msgid "%1 requires the ability to reset your password. If you agree, %1 will be able to reset your password at their discretion."
+msgstr ""
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, qt-format
+msgid "%1 requires the ability to view your file names remotely. If you agree, %1 will be able to browse the names of files in your Storage Vaults."
+msgstr ""
 
 #, qt-format
 msgid "%1 snapshot(s)"
@@ -144,6 +160,10 @@ msgid "%s at %s"
 msgstr "%s ที่ %s"
 
 #, c-format
+msgid "%s Backup agent"
+msgstr ""
+
+#, c-format
 msgid "%s free space available in spool location."
 msgstr "มีพื้นที่ว่าง %s ในตำแหน่งที่ตั้ง spool"
 
@@ -153,12 +173,15 @@ msgstr "มีพื้นที่ว่าง %s ในตำแหน่ง�
 msgid "%s in %s"
 msgstr "%s ใน %s"
 
+#, c-format
+msgid "%s must be a whole number from 0 to %s"
+msgstr ""
+
 #. When displaying the day of a past event. [Event happened] on [January 1st]
 #, c-format
 msgid "%s on %s"
 msgstr "%s เมื่อ %s"
 
-#. A button to download the backup app for a single CPU type. "Only x86_64" or "Only x86_32
 #, c-format
 msgid "%s only"
 msgstr "%s เท่านั้น"
@@ -182,6 +205,9 @@ msgstr "%[1]s - %[2]s ของ \"%[3]s\""
 
 msgid "&Command Prompt"
 msgstr "&พร้อมท์คำสั่ง"
+
+msgid "&Disk Management"
+msgstr ""
 
 msgid "&Sign in"
 msgstr "&ลงชื่อเข้าใช้"
@@ -207,15 +233,17 @@ msgstr "การตั้งค่า '%s' ในบัญชีผู้ใช
 msgid "'If the last job encountered an error retry' setting on backup schedules"
 msgstr "หากงานล่าสุดพบข้อผิดพลาด ให้ลองใหม่ตามการตั้งค่ากำหนดเวลาการสำรองข้อมูล"
 
+msgid "(contains the running operating system)"
+msgstr ""
+
 msgid "(Custom)"
 msgstr "(กำหนดเอง)"
 
 msgid "(default)"
 msgstr "(ค่าเริ่มต้น)"
 
-#, c-format
-msgid "(filtered from %d total entries)"
-msgstr "(กรองจากทั้งหมด %d รายการ)"
+msgid "(Deprecated)"
+msgstr ""
 
 #, qt-format
 msgid "(From %1 to %2)"
@@ -223,6 +251,9 @@ msgstr "(จาก %1 ถึง %2)"
 
 msgid "(none)"
 msgstr "(ไม่มี)"
+
+msgid "(not found in the organization)"
+msgstr ""
 
 msgid "(Object Lock)"
 msgstr "(การล็อกอ็อบเจ็กต์)"
@@ -232,6 +263,9 @@ msgstr "(ไม่จำเป็น)"
 
 msgid "(recommended)"
 msgstr "(ที่แนะนำ)"
+
+msgid "(Untitled)"
+msgstr ""
 
 msgid "*.tar"
 msgstr "*.tar"
@@ -245,21 +279,40 @@ msgstr "*.tar.zst"
 msgid "*.zip"
 msgstr "*.zip"
 
+msgid "-- Click Load to fetch --"
+msgstr ""
+
+msgid "0 users"
+msgstr ""
+
 msgid "1. Click here to open "
 msgstr "1. คลิกที่นี่เพื่อเปิด "
 
 msgid "123456"
 msgstr "123456"
 
+msgid "16 or 40 hex characters"
+msgstr ""
+
 msgid "2. Click {{ICON}} on the bottom left corner to unlock the interface"
 msgstr "2. คลิก {{ICON}} ที่มุมล่างซ้ายเพื่อปลดล็อกอินเตอร์เฟส"
+
+#. Definition of "TOTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm
+msgid "2FA (TOTP)"
+msgstr ""
 
 msgid "3. Drag and drop this icon into the right-hand list area"
 msgstr "3. ลากและวางไอคอนนี้ลงในพื้นที่รายการทางขวามือ"
 
+msgid "<server name>:<port>"
+msgstr ""
+
 #, c-format
 msgid "A '%s' storage template option will have been automatically generated if your system is configured to handle data storage."
 msgstr "ถ้าเครื่องของคุณตั้งค่าให้จัดการการจัดเก็บข้อมูลไว้แล้ว ตัวเลือกแม่แบบการจัดเก็บ '%s' จะถูกสร้างขึ้นให้โดยอัตโนมัติ"
+
+msgid "A backup job completed while cleanup was running; any packs it references will be re-checked before deletion on the next pass"
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "A Bucket is a possible location for a customer's Storage Vault."
@@ -270,16 +323,32 @@ msgstr "Bucket คือตำแหน่งที่ตั้งในกา�
 msgid "A component in the VSS writer failed"
 msgstr "องค์ประกอบในตัว VSS writer ล้มเหลว"
 
-#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
-msgid "A default Protected Item with a schedule will end up with two schedules if this option is used, one from the default Protected Item, one from this."
-msgstr "Protected Item เริ่มต้นที่มีกำหนดการจะจบลงด้วยกำหนดการสองรายการหากใช้ตัวเลือกนี้ โดยหนึ่งรายการจาก Protected Item เริ่มต้น และหนึ่งรายการจากสิ่งนี้"
+msgid "A disk operation is currently running. Wait for it to finish before closing this window — closing now would abort diskpart mid-write and could leave the disk in an inconsistent state."
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "A file that was successfully stored in the Storage Vault did not appear when listing directory content."
 msgstr "ไฟล์ที่ถูกเก็บใน Storage Vault สำเร็จแล้วไม่ปรากฎเมื่อมีการลิสต์ดูในเนื้อหาไดเรกทอรี"
 
+msgid ""
+"A full (non-quick) format writes zeroes across the entire partition and can take hours on large drives.\n"
+"\n"
+"Continue?"
+msgstr ""
+
 msgid "A reindex job is needed to identify which snapshots are affected."
 msgstr "จำเป็นต้องมีงานจัดทำดัชนีใหม่เพื่อระบุว่าสแนปช็อตใดได้รับผลกระทบ"
+
+#. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
+msgid "A SharePoint site node was supplied without a name"
+msgstr ""
+
+#. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
+msgid "A SharePoint site node was supplied without a subtree"
+msgstr ""
+
+msgid "A specific user, group, team, or site"
+msgstr ""
 
 msgid "A summary of the restrictions enforced by this policy."
 msgstr "บทสรุปของข้อจำกัดที่บังคับใช้โดยนโยบายนี้"
@@ -326,6 +395,11 @@ msgstr "ละทิ้งงานสำรองข้อมูล (เกิ�
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "Abandoning backup job (Protected Item quota exceeded)"
 msgstr "ละทิ้งงานสำรองข้อมูล (เกินโควตา Protected Item)"
+
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+#, c-format
+msgid "Abandoning backup job (Proxmox guest %s quota exceeded)"
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Abandoning backup job (Storage Vault quota exceeded)"
@@ -384,6 +458,9 @@ msgstr "ยอมรับใบรับรอง SSL ที่ไม่ถู�
 msgid "Accept login details from the website at '%s' ?"
 msgstr "ยอมรับรายละเอียดการเข้าสู่ระบบจากเว็บไซต์ที่ '%s' หรือไม่?"
 
+msgid "Accept risks and continue"
+msgstr ""
+
 msgid "Access key"
 msgstr "รหัสการเข้าถึง"
 
@@ -415,9 +492,6 @@ msgstr "ชื่อบัญชี"
 msgid "Account Name"
 msgstr "ชื่อบัญชี"
 
-msgid "Account requires administrator review"
-msgstr "บัญชีต้องได้รับการตรวจสอบจากผู้ดูแลระบบ"
-
 msgid "Account requires two-factor authentication, but no methods are available"
 msgstr "บัญชีต้องการการยืนยันแบบสองขั้นตอน แต่ไม่มีวิธีการใดที่สามารถใช้ได้"
 
@@ -448,6 +522,9 @@ msgstr "กิจกรรมตามวัน"
 msgid "Add"
 msgstr "เพิ่ม"
 
+msgid "Add a custom certificate"
+msgstr ""
+
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "Add a new Protected Item"
 msgstr "เพิ่มรายการที่ได้รับการคุ้มครองใหม่"
@@ -466,6 +543,9 @@ msgstr "เพิ่มผู้ใช้"
 msgid "Add all database items"
 msgstr "เพิ่มรายการฐานข้อมูลทั้งหมด"
 
+msgid "Add allowed PKCS#11 module path"
+msgstr ""
+
 msgid "Add an item"
 msgstr "เพิ่มรายการ"
 
@@ -474,6 +554,9 @@ msgstr "เพิ่มและจัดการผู้ดูแลระบ
 
 msgid "Add and manage audit file logging"
 msgstr "เพิ่มและจัดการการบันทึกไฟล์การตรวจสอบ"
+
+msgid "Add and manage custom JavaScript / CSS"
+msgstr ""
 
 msgid "Add and manage email reporting options"
 msgstr "เพิ่มและจัดการตัวเลือกการรายงานอีเมล"
@@ -484,6 +567,12 @@ msgstr "เพิ่มและจัดการ PSA ภายนอกแล�
 
 msgid "Add and manage webhooks"
 msgstr "เพิ่มและจัดการ Webhook"
+
+msgid "Add client shortcuts"
+msgstr ""
+
+msgid "Add client tray icon"
+msgstr ""
 
 msgid "Add commands to run before or after the backup job"
 msgstr "เพิ่มคำสั่งให้รันก่อนหรือหลังงานสำรองข้อมูล"
@@ -511,6 +600,9 @@ msgstr "เพิ่มไดรเวอร์"
 
 msgid "Add Email Address..."
 msgstr "เพิ่มที่อยู่อีเมล..."
+
+msgid "Add Field"
+msgstr ""
 
 #. Used by the search system, to add a new group of rules that are used to filter down search results
 msgid "Add group"
@@ -548,6 +640,9 @@ msgstr "เพิ่รายการที่ได้รับการคุ
 msgid "Add rule"
 msgstr "เพิ่มกฎ"
 
+msgid "Add Rule"
+msgstr ""
+
 msgid "Add schedule"
 msgstr "เพิ่มกำหนดการ"
 
@@ -566,6 +661,10 @@ msgstr "เพิ่มคำสั่งเริ่มต้น"
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Add Storage Vault"
 msgstr "เพิ่มคลังเก็บข้อมูล"
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Add Storage Vaults of any type"
+msgstr ""
 
 msgid "Add time"
 msgstr "เพิ่มเวลา"
@@ -591,6 +690,9 @@ msgstr "ไฟล์เพิ่มเติมที่คัดลอก"
 
 msgid "Additional logs truncated"
 msgstr "บันทึกเพิ่มเติมถูกตัดทอน"
+
+msgid "Additional network origins"
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Additional snapshots need to be optimized before analyzing this Storage Vault"
@@ -633,6 +735,24 @@ msgstr "ผู้ดูแลระบบสร้างขึ้น ข้อ�
 msgid "Admin deleted"
 msgstr "ลบผู้ดูแลระบบแล้ว"
 
+msgid "Admin only"
+msgstr ""
+
+msgid "Admin only (private)"
+msgstr ""
+
+#. Definition of "API": An interface for programs to communicate with each other. https://en.wikipedia.org/wiki/API
+msgid "Admin personal API token authentication succeeded. Emitted for every authenticated request. Resource is the token ID"
+msgstr ""
+
+#. Definition of "API": An interface for programs to communicate with each other. https://en.wikipedia.org/wiki/API
+msgid "Admin personal API token created. Data is the redacted token metadata"
+msgstr ""
+
+#. Definition of "API": An interface for programs to communicate with each other. https://en.wikipedia.org/wiki/API
+msgid "Admin personal API token revoked. Data is the redacted token metadata"
+msgstr ""
+
 msgid "Admin Policy"
 msgstr "นโยบายผู้ดูแลระบบ"
 
@@ -650,6 +770,9 @@ msgstr "อัปเดตผู้ดูแลระบบแล้ว"
 
 msgid "Admin Users"
 msgstr "ผู้ดูแลระบบผู้ใช้"
+
+msgid "Administrator required"
+msgstr ""
 
 msgid "Administrators"
 msgstr "ผู้ดูแลระบบ"
@@ -681,11 +804,14 @@ msgstr "ที่ผ่านมา"
 msgid "Alert"
 msgstr "แจ้งเตือน"
 
-msgid "Alerts"
-msgstr "การแจ้งเตือน"
-
 msgid "All"
 msgstr "ทั้งหมด"
+
+msgid "All accounts"
+msgstr ""
+
+msgid "All accounts (including future accounts)"
+msgstr ""
 
 msgid "All backups in the last [...]"
 msgstr "การสำรองข้อมูลทั้งหมดในครั้งล่าสุด [...]"
@@ -721,6 +847,9 @@ msgstr "เสร็จแล้ว!"
 
 msgid "All drives"
 msgstr "ไดรฟ์ทั้งหมด"
+
+msgid "All enabled services failed"
+msgstr ""
 
 msgid "All event types"
 msgstr "ประเภทอีเวนท์ทั้งหมด"
@@ -766,6 +895,12 @@ msgstr "รายการที่ได้รับการคุ้มคร
 msgid "All Protected Items"
 msgstr "รายการที่ได้รับการคุ้มครองทั้งหมด"
 
+msgid "All services"
+msgstr ""
+
+msgid "All services (including future services)"
+msgstr ""
+
 msgid "All Sites"
 msgstr "ไซต์ทั้งหมด"
 
@@ -809,6 +944,9 @@ msgstr "VM ทั้งหมด"
 msgid "All writer components"
 msgstr "ส่วนประกอบตัวเขียนทั้งหมด"
 
+msgid "Allocation unit size:"
+msgstr ""
+
 #, qt-format
 msgid "Allow %1 to reset my password"
 msgstr "อนุญาตให้ %1 รีเซ็ตรหัสผ่านของฉัน"
@@ -816,6 +954,10 @@ msgstr "อนุญาตให้ %1 รีเซ็ตรหัสผ่า�
 #, qt-format
 msgid "Allow %1 to view file names remotely"
 msgstr "อนุญาตให้ %1 ดูชื่อไฟล์"
+
+#. Definition of "API": An interface for programs to communicate with each other. https://en.wikipedia.org/wiki/API
+msgid "Allow admin accounts to create personal API tokens from their My Account page, for programmatic API access."
+msgstr ""
 
 msgid "Allow administrator to reset password"
 msgstr "อนุญาตให้ผู้ดูแลระบบรีเซ็ตรหัสผ่าน"
@@ -826,6 +968,12 @@ msgstr "อนุญาตให้ผู้ดูแลระบบดูชื
 msgid "Allow all event types"
 msgstr "อนุญาตกิจกรรมทุกประเภท"
 
+msgid "Allow an administrator to reset my password"
+msgstr ""
+
+msgid "Allow an administrator to view file names remotely"
+msgstr ""
+
 msgid "Allow any host key"
 msgstr "อนุญาตรหัสโฮสต์ใดๆ"
 
@@ -834,27 +982,6 @@ msgstr "อนุญาตให้สำรองไฟล์ศูนย์ใ
 
 msgid "Allow downloading the software for"
 msgstr "อนุญาตให้ดาวน์โหลดซอฟต์แวร์สำหรับ"
-
-msgid "Allow editing Backup Agent Downloads"
-msgstr "อนุญาตให้แก้ไขการดาวน์โหลด Backup Agent"
-
-msgid "Allow editing branding settings"
-msgstr "อนุญาตให้แก้ไขการตั้งค่าการสร้างแบรนด์"
-
-msgid "Allow editing Cluster Manager settings"
-msgstr "อนุญาตให้แก้ไขการตั้งค่า Cluster Manager"
-
-msgid "Allow editing email options"
-msgstr "อนุญาตให้แก้ไขตัวเลือกอีเมล"
-
-msgid "Allow editing external admin authentication sources"
-msgstr "อนุญาตให้แก้ไขแหล่งที่มาการตรวจสอบสิทธิ์ผู้ดูแลระบบภายนอก"
-
-msgid "Allow editing remote storage settings"
-msgstr "อนุญาตให้แก้ไขการตั้งค่าที่เก็บข้อมูลระยะไกล"
-
-msgid "Allow editing webhook settings"
-msgstr "อนุญาตให้แก้ไขการตั้งค่า Webhook"
 
 msgid "Allow invalid hostnames"
 msgstr "อนุญาตชื่อโฮสต์ที่ไม่ถูกต้อง"
@@ -875,6 +1002,10 @@ msgstr "อนุญาตให้ลบไฟล์ที่ถูกลบ"
 msgid "Allow self-signed certificate"
 msgstr "อนุญาตใบรับรองที่ลงนามเอง"
 
+#. Definition of "SMTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol
+msgid "Allow SMTP delivery to private addresses"
+msgstr ""
+
 msgid "Allow users to set the Object Lock duration."
 msgstr "อนุญาตให้ผู้ใช้กำหนดระยะเวลาการล็อควัตถุ"
 
@@ -886,6 +1017,17 @@ msgstr "ประเภทกิจกรรมที่อนุญาต"
 
 msgid "Allowed Events"
 msgstr "กิจกรรมที่อนุญาต"
+
+msgid "Allowed module path"
+msgstr ""
+
+msgid "Allowed types"
+msgstr ""
+
+#. Definition of "Google Cloud Storage": This is a commercial service for storing files. If an official translation is available, it should be used. https://cloud.google.com/storage/
+#. Definition of "Wasabi": This is a commercial service for storing files. If an official translation is available, it should be used. https://wasabi.com/
+msgid "Also covers Amazon S3, Google Cloud Storage, Wasabi, and other S3-compatible providers"
+msgstr ""
 
 msgid "Also run:"
 msgstr "ยังเรียกใช้:"
@@ -918,6 +1060,13 @@ msgstr "Amazon S3 (จีน)"
 msgid "Amazon S3 China (Object Lock)"
 msgstr "Amazon S3 จีน (การล็อควัตถุ)"
 
+msgid "Amount of space to shrink by (MB):"
+msgstr ""
+
+#, qt-format
+msgid "Amount to extend by (MB), up to %1 MB."
+msgstr ""
+
 msgid "An error occurred while copying to the clipboard."
 msgstr "เกิดข้อผิดพลาดขณะคัดลอกไปยังคลิปบอร์ด"
 
@@ -933,6 +1082,12 @@ msgstr "เกิดข้อผิดพลาดภายในขึ้น"
 msgid "An invalid hypervisor was selected for restore"
 msgstr "เลือก Hypervisor ที่ไม่ถูกต้องสำหรับการกู้คืน"
 
+msgid "An object node was supplied without a name"
+msgstr ""
+
+msgid "An unknown error occurred while saving."
+msgstr ""
+
 msgid "An unknown exception occurred."
 msgstr "เกิดข้อยกเว้นที่ไม่รู้จัก"
 
@@ -941,6 +1096,9 @@ msgstr "กำลังวิเคราะห์เนื้อหาของ
 
 msgid "Android"
 msgstr "แอนดรอยด์"
+
+msgid "Another administrator or device modified this user profile while you were editing it. Applying your changes will overwrite theirs. Apply anyway?"
+msgstr ""
 
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
@@ -964,9 +1122,6 @@ msgstr "แอนตี้แรนซัมแวร์"
 
 msgid "Any"
 msgstr "ใดๆ"
-
-msgid "Any CPU"
-msgstr "ซีพียูใดๆ"
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Any custom Retention policies will override the default policy for the Storage Vault."
@@ -1041,6 +1196,9 @@ msgstr "Application-Aware Writer"
 msgid "Applied %d change(s)."
 msgstr "ใช้การเปลี่ยนแปลงแล้ว %d รายการ"
 
+msgid "Applies to"
+msgstr ""
+
 msgid "Apply"
 msgstr "ใช้"
 
@@ -1089,6 +1247,9 @@ msgstr "เมษายน"
 
 msgid "Archive"
 msgstr "เก็บถาวร"
+
+msgid "Archive File Format:"
+msgstr ""
 
 msgid "Are you sure to disable the current user's 2FA setting?"
 msgstr "คุณแน่ใจหรือไม่ว่าต้องการปิดใช้งานการตั้งค่า 2FA ของผู้ใช้ปัจจุบัน?"
@@ -1187,6 +1348,10 @@ msgstr "คุณแน่ใจหรือไม่ว่าต้องกา
 msgid "Are you sure you want to restart the server?"
 msgstr "คุณแน่ใจหรือไม่ว่าต้องการรีสตาร์ทเซิร์ฟเวอร์?"
 
+#. Definition of "API": An interface for programs to communicate with each other. https://en.wikipedia.org/wiki/API
+msgid "Are you sure you want to revoke this API token? Any application using it will immediately stop working."
+msgstr ""
+
 msgid "Are you sure you want to save changes?"
 msgstr "คุณแน่ใจหรือไม่ว่าต้องการบันทึกการเปลี่ยนแปลง?"
 
@@ -1207,14 +1372,35 @@ msgstr "คุณแน่ใจหรือไม่ว่าต้องกา
 msgid "Are you sure you want to suspend the user '%s'?"
 msgstr "คุณแน่ใจหรือไม่ว่าต้องการระงับผู้ใช้ '%s'?"
 
+#, c-format
+msgid "Are you sure you want to unsuspend the user '%s'?"
+msgstr ""
+
 msgid "Are you sure you would like to continue?"
 msgstr "คุณแน่ใจหรือไม่ว่าคุณต้องการดำเนินการต่อ?"
+
+#, qt-format
+msgid "Assign drive letter %1 to partition %2 on disk %3."
+msgstr ""
+
+msgid "Assign Drive Letter or Path"
+msgstr ""
+
+msgid "Assign Letter"
+msgstr ""
 
 msgid "Assign Policy..."
 msgstr "กำหนดนโยบาย ..."
 
+msgid "Assign the following drive letter:"
+msgstr ""
+
 msgid "Assign user to a group"
 msgstr "กำหนดผู้ใช้ให้กับกลุ่ม"
+
+#, qt-format
+msgid "Assigning drive letter %1..."
+msgstr ""
 
 msgid "Associated devices"
 msgstr "อุปกรณ์ที่เกี่ยวข้อง"
@@ -1265,14 +1451,24 @@ msgstr "การรับรองความถูกต้อง"
 msgid "Authentication Database"
 msgstr "ฐานข้อมูลการรับรองความถูกต้อง"
 
+msgid "Authentication fields are empty"
+msgstr ""
+
 msgid "Authentication validation failed"
 msgstr "การรับรองความถูกต้องล้มเหลว"
 
-msgid "Authentication validation passed"
-msgstr "ผ่านการรับรองความถูกต้องแล้ว"
-
 msgid "Authenticator type"
 msgstr "ชนิดตัวรับรองความถูกต้อง"
+
+msgid "Authorization failed"
+msgstr ""
+
+#. Definition of "NinjaOne": This is a commercial RMM (Remote Monitoring and Management) platform. The _N_ and _O_ are both capitalized in this brand name. If an official translation is available, it should be used. https://www.ninjaone.com/
+msgid "Authorize with NinjaOne"
+msgstr ""
+
+msgid "Authorized"
+msgstr ""
 
 msgid "Auto Fill:"
 msgstr "กรอกอัตโนมัติ:"
@@ -1292,6 +1488,9 @@ msgstr "การรับรองความถูกต้องโดยอ
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Automatic Storage Vault Provisioning"
 msgstr "การจัดเตรียมห้องเก็บข้อมูลสำรองอัตโนมัติ"
+
+msgid "Automatic Upgrade Campaign"
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Automatically create Storage Vault for new devices"
@@ -1376,9 +1575,31 @@ msgstr "โลโก้พื้นหลัง"
 msgid "Backing up %d database(s) in '%s' mode..."
 msgstr "กำลังสำรองฐานข้อมูล %d ในโหมด '%s'..."
 
+#. / TRANSLATORS: %s is the display name of a Microsoft 365 Backup Object (a mailbox or a SharePoint/OneDrive site)
+#, c-format
+msgid "Backing up %s for the first time."
+msgstr ""
+
+#. / TRANSLATORS: %s is the email address of a Microsoft 365 mailbox
+#, c-format
+msgid "Backing up mailbox %s..."
+msgstr ""
+
 #. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 msgid "Backing up Office 365 for the first time."
 msgstr "สำรองข้อมูล Office 365 เป็นครั้งแรก"
+
+#. / TRANSLATORS: %s is the display name of a OneDrive
+#. Definition of "OneDrive": This is a cloud storage platform from Microsoft. The _O_ and _D_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_OneDrive
+#, c-format
+msgid "Backing up OneDrive %s..."
+msgstr ""
+
+#. / TRANSLATORS: %s is the display name of a SharePoint site
+#. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
+#, c-format
+msgid "Backing up SharePoint site %s..."
+msgstr ""
 
 #. Definition of "VSS": This is a feature of Windows to assist in backing up files. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
 #. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
@@ -1413,9 +1634,6 @@ msgstr "วันที่สำรอง"
 msgid "backup engine"
 msgstr "โปรแกรมสำรอง"
 
-msgid "Backup everything"
-msgstr ""
-
 msgid "Backup job completed. Data is the job object"
 msgstr "งานสำรองข้อมูลเสร็จสมบูรณ์ ข้อมูลคือวัตถุงาน"
 
@@ -1439,8 +1657,19 @@ msgstr "งานสำรองข้อมูลจะไม่ถูกขั
 msgid "Backup now"
 msgstr "สำรองข้อมูลตอนนี้"
 
+msgid "Backup Object saved."
+msgstr ""
+
+#. / TRANSLATORS: %s is the display name of a Microsoft 365 Backup Object (a mailbox or a SharePoint/OneDrive site)
+#, c-format
+msgid "Backup of %s failed"
+msgstr ""
+
 msgid "Backup Rule identifier (optional)"
 msgstr "ตัวระบุกฎการสำรองข้อมูล (ไม่บังคับ)"
+
+msgid "Backup schedule updated to use temporary files"
+msgstr ""
 
 msgid "Backup software needs Full Disk Access permissions. Please do the following to enable it:"
 msgstr "ซอฟต์แวร์สำรองข้อมูลต้องการสิทธิ์การเข้าถึงดิสก์แบบเต็ม โปรดดำเนินการต่อไปนี้เพื่อเปิดใช้งาน:"
@@ -1472,6 +1701,14 @@ msgstr "แบนด์วิธ"
 
 msgid "Base distribution:"
 msgstr "การกระจายฐาน:"
+
+msgid "Base URL"
+msgstr ""
+
+#. Definition of "HTTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
+#. Definition of "HTTPS": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/HTTPS
+msgid "Base URL must use HTTPS"
+msgstr ""
 
 msgid "Based on your configuration:"
 msgstr "ตามการกำหนดค่าของคุณ:"
@@ -1551,9 +1788,6 @@ msgstr "กำลังสร้างแคช..."
 msgid "Building installer..."
 msgstr "กำลังติดตั้งอาคาร..."
 
-msgid "Bulk Actions"
-msgstr "การดำเนินการเป็นกลุ่ม"
-
 msgid "Bulk device upgrade"
 msgstr "การอัปเกรดอุปกรณ์จำนวนมาก"
 
@@ -1575,15 +1809,27 @@ msgstr "ปฏิทิน"
 msgid "Campaign"
 msgstr "แคมเปญ"
 
+msgid "Campaign options"
+msgstr ""
+
 msgid "Campaign progress:"
 msgstr "ความคืบหน้าของแคมเปญ:"
 
 msgid "Campaign started at:"
 msgstr "แคมเปญเริ่มต้นเมื่อ:"
 
-#, c-format
-msgid "Can be controlled and configured from the %s web admin interface."
-msgstr "สามารถควบคุมและกำหนดค่าได้จากอินเตอร์เฟซผู้ดูแลเว็บ %s"
+#. Definition of "x86_64": The type of CPU used in most desktop and laptop computers. It should not be translated. https://en.wikipedia.org/wiki/X86-64
+msgid "Can be installed and managed (x86_64 only) from the desktop."
+msgstr ""
+
+msgid "Can be installed and managed from the desktop."
+msgstr ""
+
+msgid "Can be installed from the command line."
+msgstr ""
+
+msgid "Can be managed from the management console web interface."
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 #, c-format
@@ -1614,13 +1860,15 @@ msgstr "ไม่สามารถระบุขนาดของคลัง
 msgid "Can't download update: %s"
 msgstr "ไม่สามารถดาวน์โหลดอัปเดต: %s"
 
+msgid "Can't find backup-tool in registry"
+msgstr ""
+
 #, c-format
 msgid "Can't find root path: %s"
 msgstr "ไม่พบพาธ root: %s"
 
-#, c-format
-msgid "Can't find the directory/file: %s"
-msgstr "ไม่พบไดเรกทอรี/ไฟล์: %s"
+msgid "Can't find the directory/file"
+msgstr ""
 
 #, c-format
 msgid "Can't identify this machine: %s"
@@ -1646,10 +1894,6 @@ msgid "Can't run backup: failed to retrieve profile (%s)."
 msgstr "ไม่สามารถรันการสำรองข้อมูล: ไม่สามารถเรียกข้อมูลโปรไฟล์ (%s)"
 
 #, c-format
-msgid "Can't run uninstall file: %s"
-msgstr "ไม่สามารถเรียกใช้ไฟล์ถอนการติดตั้ง: %s"
-
-#, c-format
 msgid "Can't run update file: %s"
 msgstr "ไม่สามารถเรียกใช้ไฟล์อัปเดต: %s"
 
@@ -1658,12 +1902,6 @@ msgstr "ยกเลิก"
 
 msgid "Cancel if still running after:"
 msgstr "ยกเลิกหากยังคงทำงานหลังจาก:"
-
-msgid "Cancel job"
-msgstr ""
-
-msgid "Cancel job (force)"
-msgstr ""
 
 msgid "Cancel jobs"
 msgstr ""
@@ -1724,6 +1962,15 @@ msgstr "ชื่อใบรับรอง"
 msgid "Certificate Password"
 msgstr "รหัสผ่านใบรับรอง"
 
+#. Definition of "crt": The file name extension used for SSL certificates in PEM file format. https://en.wikipedia.org/wiki/Privacy-Enhanced_Mail
+#. Definition of "pem": The file name extension used for SSL certificates in PEM file format. https://en.wikipedia.org/wiki/Privacy-Enhanced_Mail
+msgid "Certificates (*.cer *.crt *.pem);;All Files (*.*)"
+msgstr ""
+
+#, qt-format
+msgid "Change partition %1 on disk %2 from drive letter %3 to %4."
+msgstr ""
+
 msgid "Change password"
 msgstr "เปลี่ยนรหัสผ่าน"
 
@@ -1739,7 +1986,7 @@ msgstr "การติดตามบล็อกที่เปลี่ยน
 msgid "Changes will appear immediately in the client backup application."
 msgstr "การเปลี่ยนแปลงจะปรากฏขึ้นทันทีในแอปพลิเคชันสำรองข้อมูลไคลเอ็นต์"
 
-msgid "Check all"
+msgid "Check storage connection/configuration"
 msgstr ""
 
 #, c-format
@@ -1759,6 +2006,10 @@ msgstr "เลือกอุปกรณ์ที่เชื่อมต่อ
 
 msgid "Choose a storage location"
 msgstr "เลือกตำแหน่งที่ตั้งการเก็บจ้อมูล"
+
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "Choose a volume size that is between the maximum and minimum sizes."
+msgstr ""
 
 msgid "Choose an option to add new storage:"
 msgstr "เลือกตัวเลือกเพื่อเพิ่มพื้นที่เก็บข้อมูลใหม่:"
@@ -1795,6 +2046,16 @@ msgstr "เปิดใช้งานการบันทึกแบบวง
 msgid "Claim"
 msgstr "เรียกร้อง"
 
+msgid "Clean"
+msgstr ""
+
+msgid "Clean disk"
+msgstr ""
+
+#, qt-format
+msgid "Cleaning disk %1..."
+msgstr ""
+
 #, c-format
 msgid "Cleaning up %s snapshot..."
 msgstr "กำลัง Cleanup สแนปชอต %s..."
@@ -1809,11 +2070,18 @@ msgstr "Cleanup"
 msgid "Cleanup complete!"
 msgstr "Cleanup เสร็จ!"
 
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "cleanup skipped: another maintenance run is active on this Storage Vault"
+msgstr ""
+
 msgid "Clear"
 msgstr "ยกเลิกการเลือก"
 
 msgid "Clear clipboard"
 msgstr "ยกเลิกคลิปบอร์ด"
+
+msgid "Clear filter"
+msgstr ""
 
 #, c-format
 msgid "Clearing existing partition table on device '%s'..."
@@ -1843,9 +2111,6 @@ msgstr "คลิก '%s' ยืนยันตัวเลือกการส
 msgid "Click '%s'."
 msgstr "คลิก '%s'"
 
-msgid "Click 'Start Guide' below if you'd like to follow a guided process to review your configuration and get started with a client backup."
-msgstr "คลิก 'คู่มือเริ่มต้น' ด้านล่าง หากคุณต้องการปฏิบัติตามขั้นตอนที่แนะนำเพื่อตรวจสอบการกำหนดค่าของคุณและเริ่มต้นการสำรองข้อมูลไคลเอ็นต์"
-
 msgid "Click here to view group."
 msgstr "คลิกที่นี่เพื่อดูกลุ่ม"
 
@@ -1863,6 +2128,9 @@ msgstr "ไคลเอ็นต์"
 msgid "Client Bulletin"
 msgstr "กระดานข่าวสารไคลเอ็นต์"
 
+msgid "Client certificate"
+msgstr ""
+
 msgid "Client certificate key path"
 msgstr "พาธคีย์ใบรับรองไคลเอ็นต์"
 
@@ -1877,6 +2145,9 @@ msgstr "รหัสผ่านคีย์ไคลเอ็นต์"
 
 msgid "Client secret"
 msgstr "ความลับไคลเอ็นต์"
+
+msgid "Client Secret"
+msgstr ""
 
 msgid "Client users"
 msgstr "ผู้ใช้ไคลเอ็นต์"
@@ -1896,8 +2167,17 @@ msgstr "นาฬิกา"
 msgid "Close"
 msgstr "ปิด"
 
+msgid "Close connection to backup agent"
+msgstr ""
+
 msgid "Cloud Storage"
 msgstr "การจัดเก็บข้อมูลบนคลาวด์"
+
+msgid "cloud storage location"
+msgstr ""
+
+msgid "Cloud storage location"
+msgstr ""
 
 msgid "Cluster Manager"
 msgstr "ผู้จัดการคลัสเตอร์"
@@ -1915,11 +2195,18 @@ msgstr "ผู้จัดการคลัสเตอร์ควรจัด
 msgid "Cluster Manager will clean up any unused buckets."
 msgstr "ผู้จัดการคลัสเตอร์จะล้างถังข้อมูล (buckets) ที่ไม่ได้ใช้งานทั้งหมด"
 
+msgid "Code"
+msgstr ""
+
 msgid "Codesigning"
 msgstr "Codesigning"
 
 msgid "Collapse Guide"
 msgstr "คู่มือการยุบ"
+
+#. Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
+msgid "Comet Account Portal"
+msgstr ""
 
 #. Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
 msgid "Comet Dashboard"
@@ -1966,6 +2253,9 @@ msgstr "กำลังสื่อสารกับ Exchange Server..."
 msgid "Communicating with Hyper-V..."
 msgstr "กำลังสื่อสารกับ Hyper-V..."
 
+msgid "Company ID"
+msgstr ""
+
 msgid "Company name"
 msgstr "ชื่อบริษัท"
 
@@ -1984,6 +2274,11 @@ msgstr "เสร็จสิ้นการวิเคราะห์เนื
 msgid "Component"
 msgstr "ส่วนประกอบ"
 
+#. / TRANSLATORS: %d is the number of Microsoft 365 objects (mailboxes / SharePoint site groups) being combined into one backup snapshot
+#, c-format
+msgid "Composing snapshot from %d object(s)..."
+msgstr ""
+
 msgid "Compressed archive file (zip / tar)"
 msgstr "ไฟล์บีบอัด (zip / tar)"
 
@@ -1993,9 +2288,15 @@ msgstr "การบีบอัด"
 msgid "Configure"
 msgstr "กำหนดค่า"
 
+msgid "Configure Automatic Upgrade Campaign"
+msgstr ""
+
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "Configure credentials for the new Protected Item"
 msgstr "กำหนดค่าข้อมูล Credentials สำหรับรายการ Protected Itemใหม่"
+
+msgid "Configure default settings for the Automatic Upgrade Campaign. These settings apply the next time the campaign starts."
+msgstr ""
 
 msgid "Configure external authentication sources for administrator accounts:"
 msgstr "กำหนดค่าแหล่งที่มาของการรับรองความถูกต้องภายนอกสำหรับบัญชีผู้ดูแลระบบ:"
@@ -2042,6 +2343,9 @@ msgstr "กำหนดค่าผู้เช่าสำหรับเซิ
 msgid "Configure this server's data storage location:"
 msgstr "ตั้งค่าตำแหน่งที่ตั้งการเก็บข้อมูลของเซิร์ฟเวอร์นี้"
 
+msgid "Configure upgrade campaign"
+msgstr ""
+
 msgid "Configure which users can log in to the administration interface:"
 msgstr "กำหนดค่าว่าผู้ใช้รายใดสามารถล็อกอินเข้าสู่อินเตอร์เฟสการดูแลระบบ:"
 
@@ -2058,12 +2362,19 @@ msgstr "กำลังกำหนดค่า USB Recovery Media ให้บ�
 msgid "Confirm password"
 msgstr "ยืนยันรหัสผ่าน"
 
+msgid "Confirm restore target"
+msgstr ""
+
 msgid "Confirm selection"
 msgstr "ยืนยันการเลือก"
 
 #, c-format
 msgid "Confirm transfer of User '%s' to Tenant '%s'"
 msgstr "ยืนยันการโอนผู้ใช้ '%s' ไปยังผู้เช่า '%s'"
+
+#. Definition of "API": An interface for programs to communicate with each other. https://en.wikipedia.org/wiki/API
+msgid "Confirm your password to authorize creating a new API token."
+msgstr ""
 
 msgid "Connect to a remote macOS machine"
 msgstr "เชื่อมต่อกับเครื่อง macOS ระยะไกล"
@@ -2087,11 +2398,17 @@ msgstr "กำลังเชื่อมต่อกับ Storage Vault..."
 msgid "Connection"
 msgstr "เชื่อมต่อ"
 
+msgid "Connection failed"
+msgstr ""
+
 msgid "Connection ID"
 msgstr "ID การเชื่อมต่อ"
 
 msgid "Connection settings"
 msgstr "การตั้งค่าการเชื่อมต่อ"
+
+msgid "Connection succeeded"
+msgstr ""
 
 msgid "Connections"
 msgstr "การเชื่อมต่อ"
@@ -2107,6 +2424,9 @@ msgstr "คอนเทนเนอร์"
 
 msgid "Container Policy"
 msgstr "นโยบายคอนเทนเนอร์"
+
+msgid "Containers:"
+msgstr ""
 
 #. Used by the search system to create custom searches. "[USERNAME] contains [SOMETHING]
 msgid "contains"
@@ -2125,8 +2445,16 @@ msgstr "ดำเนินการกู้คืนข้อมูลต่อ
 msgid "Convert"
 msgstr "แปลง"
 
+#, qt-format
+msgid "Convert disk %1 to %2. Any existing partitions on the disk will be erased."
+msgstr ""
+
 msgid "Convert Storage Gateway to Direct-to-Cloud Storage Templates"
 msgstr "แปลง Storage Gateway เป็นแม่แบบการจัดเก็บข้อมูลโดยตรงบนคลาวด์"
+
+#, qt-format
+msgid "Converting disk %1 to %2..."
+msgstr ""
 
 msgid "Copied to clipboard."
 msgstr "คัดลอกไปยังคลิปบอร์ดแล้ว"
@@ -2178,14 +2506,15 @@ msgstr "กำลังคัดลอกไฟล์เพิ่มเติม
 msgid "Copying recovery image file..."
 msgstr "กำลังคัดลอกไฟล์ recovery image"
 
+#, c-format
+msgid "Could not confirm whether %d snapshot(s) still exist; any unreferenced data they hold will be removed by a later retention pass"
+msgstr ""
+
 msgid "Could not create temporary IAM template"
 msgstr "ไม่สามารถสร้างเทมเพลต IAM ชั่วคราวได้"
 
 msgid "Could not load backup data from previous snapshot (%v)."
 msgstr "ไม่สามารถโหลดข้อมูลสำรองจากสแนปชอตก่อนหน้า (%v)"
-
-msgid "Could not perform bulk action: unknown action handler"
-msgstr "ไม่สามารถดำเนินการแบบกลุ่มได้: ไม่พบตัวจัดการคำสั่งที่ไม่รู้จัก"
 
 #. Definition of "Elevator": This terminology is specific to Comet Backup. This is an internal part of our application that can raise the permission level, when needed. The software 'elevates' its permission level using the 'elevator'.
 #, c-format
@@ -2194,6 +2523,16 @@ msgstr "ไม่สามารถส่งคำสั่งไปยัง El
 
 msgid "Couldn't analyze vault content"
 msgstr "ไม่สามารถวิเคราะห์เนื้อหาของ Vault"
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, c-format
+msgid "Couldn't apply the Storage Vault endpoint (%s)"
+msgstr ""
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, c-format
+msgid "Couldn't attribute Storage Vault usage: %s"
+msgstr ""
 
 #, c-format
 msgid "Couldn't build cache: %s"
@@ -2246,12 +2585,6 @@ msgstr "ไม่พบองค์ประกอบของแอปพลิ
 msgid "Couldn't find custom path: %s"
 msgstr "ไม่พบพาธที่กำหนดเอง: %s"
 
-#. Definition of "Mongo": MongoDB is a commercial database program. If an official translation is available, it should be used. https://www.mongodb.com/
-#. Definition of "mongodump": This is the name of MongoDB's built-in backup program. It should not be translated. If an official translation is available, it should be used. https://www.mongodb.com/
-#, c-format
-msgid "Couldn't find mongodump binary (%s)"
-msgstr "ไม่พบ mongodump binary (%s)"
-
 #. Definition of "MySQL": This is a database server from Oracle, that uses the SQL language. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/MySQL
 #. Definition of "mysqldump": This is the name of MySQL's built-in backup program. It should not be translated. https://en.wikipedia.org/wiki/MySQL
 #, c-format
@@ -2298,6 +2631,10 @@ msgstr "ไม่สามารถเปิด %s"
 msgid "Couldn't list databases"
 msgstr "ไม่สามารถแสดงรายการฐานข้อมูล"
 
+#. Definition of "MySQL": This is a database server from Oracle, that uses the SQL language. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/MySQL
+msgid "Couldn't list MySQL user accounts"
+msgstr ""
+
 #, c-format
 msgid "Couldn't load <%s/%s> for subdirectory '%s': %s"
 msgstr "ไม่สามารถโหลด <%s/%s> สำหรับไดเรกทอรีย่อย '%s': %s"
@@ -2323,8 +2660,17 @@ msgstr "ไม่สามารถเข้าสู่ระบบ"
 msgid "Couldn't look up account properties (%s)"
 msgstr "ค้นหาคุณสมบัติของบัญชีไม่ได้ (%s)"
 
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, c-format
+msgid "Couldn't look up the Storage Vault endpoint (%s)"
+msgstr ""
+
 msgid "Couldn't parse GUID."
 msgstr "ไม่สามารถแยกวิเคราะห์ GUID"
+
+#, c-format
+msgid "Couldn't parse timed speed limit window, ignoring: %s"
+msgstr ""
 
 #, c-format
 msgid "Couldn't prevent automatic sleep: %s"
@@ -2349,16 +2695,18 @@ msgstr "ไม่สามารถอ่านข้อมูล tree data"
 msgid "Couldn't record that the Storage Vault has been initialized (%s)"
 msgstr "ไม่สามารถบันทึกว่า Storage Vault ได้รับการเตรียมใช้งานแล้ว (%s)"
 
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, c-format
+msgid "Couldn't record the Storage Vault endpoint (%s)"
+msgstr ""
+
 #, c-format
 msgid "Couldn't reduce CPU priority: %s"
 msgstr "ไม่สามารถลดลำดับความสำคัญของ CPU: %s"
 
 #, c-format
-msgid "Couldn't remove update files: %s"
-msgstr "ไม่สามารถลบไฟล์อัปเดต: %s"
-
-msgid "Couldn't retrieve a list of snapshots from this destination!"
-msgstr "ไม่สามารถเรียกรายการสแนปชอตจากปลายทางนี้ได้!"
+msgid "Couldn't resume job (%s)"
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Couldn't retrieve a list of snapshots from this Storage Vault."
@@ -2397,6 +2745,9 @@ msgstr "ไม่สามารถบันทึกโปรไฟล์ไป
 msgid "Couldn't start process"
 msgstr "ไม่สามารถเริ่มดำเนินการได้"
 
+msgid "Couldn't start this job."
+msgstr ""
+
 #, c-format
 msgid "Couldn't submit log to server (%s) while logging message \"%s\""
 msgstr "ไม่สามารถส่งบันทึกไปยังเซิร์ฟเวอร์ (%s) ขณะบันทึกข้อความ \"%s\""
@@ -2408,8 +2759,12 @@ msgid "Couldn't uninstall previous software version."
 msgstr "ไม่สามารถถอนการติดตั้งซอฟต์แวร์เวอร์ชันก่อนหน้าได้"
 
 #, c-format
-msgid "Couldn't update retry job (%s)"
-msgstr "ไม่สามารถอัปเดตงานที่จะลองใหม่ (%s)"
+msgid "Couldn't uninstall software: %s"
+msgstr ""
+
+#, c-format
+msgid "Couldn't verify whether the disk snapshot for device '%s' remained valid during the backup: %s"
+msgstr ""
 
 msgid "CPU"
 msgstr "ซีพียู"
@@ -2436,11 +2791,20 @@ msgstr "สร้างไฟล์ ISO image จั้นต่ำที่บ�
 msgid "Create a minimal USB environment that boots directly into %1. A 2 GB removable USB flash drive is required."
 msgstr "สร้างสภาพแวดล้อม USB ขั้นต่ำที่บูตเข้าสู่ %1 โดยตรง ต้องใช้แฟลชไดรฟ์ USB แบบถอดได้ขนาด 2 GB"
 
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+#, qt-format
+msgid "Create a new simple volume on disk %1 with the settings below."
+msgstr ""
+
 msgid "Create a News Entry"
 msgstr "สร้างรายการข่าว"
 
 msgid "Create Admin"
 msgstr "สร้างผู้ดูแลระบบ"
+
+#. Definition of "API": An interface for programs to communicate with each other. https://en.wikipedia.org/wiki/API
+msgid "Create and use personal API tokens"
+msgstr ""
 
 msgid "Create first tenant"
 msgstr "สร้างผู้เช่ารายแรก"
@@ -2463,6 +2827,14 @@ msgstr "เพิ่มรายการ Protected Item"
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Create new Storage Vault"
 msgstr "สร้าง Storage Vault ใหม่"
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Create new Storage Vaults via Custom"
+msgstr ""
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Create new Storage Vaults via Storage template"
+msgstr ""
 
 msgid "Create New User Group"
 msgstr "สร้างกลุ่มผู้ใช้ใหม่"
@@ -2492,6 +2864,14 @@ msgstr "กำลังสร้างโฟลเดอร์ชั่วคร
 
 msgid "Creating USB Recovery media, please wait..."
 msgstr "กำลังสร้าง USB Recovery media อยู่ โปรดรอสักครู่..."
+
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+#, qt-format
+msgid "Creating volume on disk %1..."
+msgstr ""
+
+msgid "CSS"
+msgstr ""
 
 #. Definition of "CSV": Abbreviation of 'Comma Separated Values' (*.csv), a simple file format for spreadsheet data. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Comma-separated_values
 msgid "CSV"
@@ -2534,6 +2914,12 @@ msgstr "เนื้อหาที่กำหนดเองไม่ใช่
 msgid "Custom Branding"
 msgstr "การสร้างแบรนด์แบบกำหนดเอง"
 
+msgid "Custom code (for all tenants)"
+msgstr ""
+
+msgid "Custom code item"
+msgstr ""
+
 msgid "custom command"
 msgstr "command ที่กำหนดเอง"
 
@@ -2553,10 +2939,12 @@ msgstr "ส่วนหัวแบบกำหนดเอง"
 msgid "Custom HELO/EHLO"
 msgstr "HELO/EHLO ที่กำหนดเอง"
 
-#. Definition of "Mongo": MongoDB is a commercial database program. If an official translation is available, it should be used. https://www.mongodb.com/
-#. Definition of "mongodump": This is the name of MongoDB's built-in backup program. It should not be translated. If an official translation is available, it should be used. https://www.mongodb.com/
-msgid "Custom mongodump path"
-msgstr "พาธ mongodump ที่กำหนดเอง"
+#. Definition of "known_hosts": This is the name of a file in the OpenSSH program. It should not be translated. https://man.openbsd.org/ssh
+msgid "Custom host key verification is selected, but no known_hosts file path was entered. Enter a path to the known_hosts file, or select \"Allow any host key\"."
+msgstr ""
+
+msgid "Custom JavaScript / CSS"
+msgstr ""
 
 #. Definition of "MySQL": This is a database server from Oracle, that uses the SQL language. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/MySQL
 #. Definition of "mysqldump": This is the name of MySQL's built-in backup program. It should not be translated. https://en.wikipedia.org/wiki/MySQL
@@ -2649,6 +3037,9 @@ msgstr "ฐานข้อมูล '%1'"
 msgid "Database '%s'"
 msgstr "ฐานข้อมูล '%s'"
 
+msgid "Databases"
+msgstr ""
+
 msgid "Datacenter"
 msgstr "ศูนย์ข้อมูล"
 
@@ -2710,11 +3101,17 @@ msgstr "ค่าเริ่มต้น (อินเตอร์เฟสท�
 msgid "Default (C:\\)"
 msgstr "ค่าเริ่มต้น (C:\\)"
 
+msgid "Default (Changed Block Tracking)"
+msgstr ""
+
 msgid "Default (no extra commands)"
 msgstr "ค่าเริ่มต้น (ไม่มีคำสั่งพิเศษ)"
 
 msgid "Default (none)"
 msgstr "ค่าเริ่มต้น (ไม่มี)"
+
+msgid "Default (Snapshot)"
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Default (using Storage Vault policy)"
@@ -2733,6 +3130,10 @@ msgstr "Protected Item ค่าเริ่มต้น"
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "Default Protected Item(s)"
 msgstr "Protected Item เริ่มต้น"
+
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "Default Protected Items without \"Enforce changes to existing devices\" set will receive the schedules configured here, if they do not have their own directly configured schedules."
+msgstr ""
 
 msgid "Default reports"
 msgstr "รายงานเริ่มต้น"
@@ -2792,6 +3193,10 @@ msgstr "ลบสแนปชอตหลายรายการ"
 msgid "Delete Now"
 msgstr "ลบตอนนี้"
 
+#, qt-format
+msgid "Delete partition %1 on disk %2. The `override` flag lets diskpart remove protected system partitions too. All data on that partition will be lost."
+msgstr ""
+
 msgid "Delete Policy"
 msgstr "ลบนโยบาย"
 
@@ -2812,17 +3217,38 @@ msgstr "ลบสแนปชอต"
 msgid "Delete Storage Vault"
 msgstr "ลบ Storage Vault"
 
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Delete Storage Vaults"
+msgstr ""
+
 msgid "Delete target"
 msgstr "ลบเป้าหมาย"
 
 msgid "Delete this snapshot..."
 msgstr "ลบสแนปชอตนี้..."
 
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "Delete this volume first, then select the Unallocated area."
+msgstr ""
+
 msgid "Delete time"
 msgstr "ลบเวลา"
 
 msgid "Delete User"
 msgstr "ลบผู้ใช้"
+
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "Delete Volume"
+msgstr ""
+
+#. Definition of "Hyper-V": This is a Virtual Machine hosting platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Hyper-V
+#, c-format
+msgid "Deleting Hyper-V checkpoint created by backup: %s"
+msgstr ""
+
+#, qt-format
+msgid "Deleting partition %1 on disk %2..."
+msgstr ""
 
 msgid "Deleting Snapshots"
 msgstr "กำลังลบสแนปชอต"
@@ -2843,8 +3269,17 @@ msgstr "กำลัง deoptimize สแนปชอต '%s'"
 msgid "Description"
 msgstr "รายละเอียด"
 
+msgid "Description is required"
+msgstr ""
+
 msgid "Desktop"
 msgstr "เดสก์ทอป"
+
+msgid "Desktop app"
+msgstr ""
+
+msgid "Destination"
+msgstr ""
 
 msgid "Destination identifier (optional)"
 msgstr "ตัวระบุปลายทาง (ไม่บังคับ)"
@@ -2852,11 +3287,18 @@ msgstr "ตัวระบุปลายทาง (ไม่บังคับ)
 msgid "destination initializer"
 msgstr "ตัวเริ่มต้นปลายทาง"
 
+msgid "Detach from Shared Quota..."
+msgstr ""
+
 msgid "Detailed log"
 msgstr "บันทึกรายละเอียด"
 
 msgid "Detailed Log"
 msgstr "บันทึกรายละเอียด"
+
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Determines how the vm or container is handled during backup: running, stopped, or paused"
+msgstr ""
 
 msgid "Developer ID Application"
 msgstr "Developer ID Application"
@@ -2884,6 +3326,9 @@ msgstr "อุปกรณ์ถูกตัดการเชื่อมต่
 
 msgid "Device ID"
 msgstr "รหัสอุปกรณ์"
+
+msgid "Device is not currently online."
+msgstr ""
 
 msgid "Device live connection ended"
 msgstr "การเชื่อมต่อสดของอุปกรณ์สิ้นสุดลง"
@@ -2927,6 +3372,9 @@ msgstr "ประวัติอุปกรณ์"
 
 msgid "Devices Quota"
 msgstr "โควต้าอุปกรณ์"
+
+msgid "Devices that are offline will not be updated"
+msgstr ""
 
 msgid "Diagnostic information:"
 msgstr "ข้อมูลการวินิจฉัย:"
@@ -2997,6 +3445,10 @@ msgstr "URL เอกสารการค้นพบ"
 msgid "Disk"
 msgstr "ดิสก์"
 
+#, qt-format
+msgid "Disk %1 is MBR-formatted and already has 4 top-level partitions (the MBR limit). Delete one, or convert the disk to GPT, before creating another partition."
+msgstr ""
+
 #, c-format
 msgid "Disk '%s'"
 msgstr "ดิสก์ '%s'"
@@ -3008,11 +3460,24 @@ msgstr "ดิสก์ '%s' (พาร์ติชัน #%d)"
 msgid "Disk drive (granular restore)"
 msgstr "ดิสก์ไดรฟ์ (การคืนค่าแบบละเอียด)"
 
+msgid "Disk drives"
+msgstr ""
+
 msgid "Disk ID"
 msgstr "รหัสดิสก์"
 
 msgid "Disk Image"
 msgstr "Disk Image"
+
+msgid "Disk Management needs Administrator privileges to read the partition layout. Close this window and relaunch the application as Administrator."
+msgstr ""
+
+msgid "Disk Manager"
+msgstr ""
+
+#, qt-format
+msgid "Diskpart reported success but drive letter %1 was not applied to partition %2. This partition likely has the GPT NO_DRIVE_LETTER attribute (common on Recovery partitions) which blocks letter assignment. Clear the flag with diskpart's `gpt attributes=` command first, or leave the partition without a letter."
+msgstr ""
 
 msgid "Disks"
 msgstr "ดิสก์"
@@ -3030,6 +3495,10 @@ msgstr "ปิดคู่มือ"
 msgid "Display name"
 msgstr "ชื่อที่แสดง"
 
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "Do not format this volume"
+msgstr ""
+
 msgid "Do you also want to uninstall the software from the remote device(s)?"
 msgstr "คุณต้องการถอนการติดตั้งซอฟต์แวร์จากอุปกรณ์ระยะไกลด้วยหรือไม่?"
 
@@ -3045,6 +3514,9 @@ msgstr "คุณต้องการลบรายการที่มีก
 
 msgid "Do you want to save your changes?"
 msgstr "คุณต้องการบันทึกการเปลี่ยนแปลงของคุณหรือไม่?"
+
+msgid "Document head"
+msgstr ""
 
 msgid "Documents"
 msgstr "เอกสาร"
@@ -3152,6 +3624,14 @@ msgstr "DSM 6"
 msgid "DSM 7"
 msgstr "DSM 7"
 
+#. / TRANSLATORS: %s is the name of a Microsoft 365 object (e.g. a mailbox email address) in a backup snapshot
+#, c-format
+msgid "Duplicate object name '%s' was supplied"
+msgstr ""
+
+msgid "Duplicate object name in composed snapshot"
+msgstr ""
+
 msgid "Duplicate..."
 msgstr "ทำซ้ำ..."
 
@@ -3176,6 +3656,15 @@ msgstr "ไดนามิก Volume"
 msgid "e.g."
 msgstr "เช่น"
 
+msgid "e.g. C:\\Program Files\\Vendor\\driver.dll"
+msgstr ""
+
+msgid "e.g. PhoneNumber, ExternalID"
+msgstr ""
+
+msgid "e.g. Portal integration"
+msgstr ""
+
 msgid "Each Tenant has their own Admin Users."
 msgstr "แต่ละ Tenant มีผู้ใช้ผู้ดูแลระบบของตัวเอง"
 
@@ -3190,6 +3679,18 @@ msgstr "EDB และบันทึก ตัดทอน (\"เต็ม\")"
 msgid "Edit"
 msgstr "แก้ไข"
 
+msgid "Edit allowed PKCS#11 module path"
+msgstr ""
+
+msgid "Edit Backup Agent Downloads"
+msgstr ""
+
+msgid "Edit branding settings"
+msgstr ""
+
+msgid "Edit Cluster Manager settings"
+msgstr ""
+
 msgid "Edit command"
 msgstr "แก้ไขคำสั่ง"
 
@@ -3199,8 +3700,17 @@ msgstr "แก้ไขคำอธิบาย"
 msgid "Edit Email Address..."
 msgstr "แก้ไขที่อยู่อีเมล..."
 
+msgid "Edit email options"
+msgstr ""
+
 msgid "Edit Email Report"
 msgstr "แก้ไขรายงานอีเมล"
+
+msgid "Edit external admin authentication sources"
+msgstr ""
+
+msgid "Edit Field"
+msgstr ""
 
 msgid "Edit item"
 msgstr "แก้ไขรายการ"
@@ -3230,11 +3740,26 @@ msgstr "แก้ไขโปรไฟล์ดิบ"
 msgid "Edit raw settings"
 msgstr "แก้ไขการตั้งค่าดิบ"
 
+msgid "Edit remote storage settings"
+msgstr ""
+
 msgid "Edit Retention Policy"
 msgstr "แก้ไขนโยบายการเก็บรักษา"
 
 msgid "Edit Retention Range"
 msgstr "แก้ไขช่วงเวลาการเก็บรักษา"
+
+msgid "Edit rule"
+msgstr ""
+
+msgid "Edit Rule"
+msgstr ""
+
+msgid "Edit Saved Searches"
+msgstr ""
+
+msgid "Edit saved searches..."
+msgstr ""
 
 msgid "Edit schedule"
 msgstr "แก้ไขกำหนดการ"
@@ -3258,6 +3783,9 @@ msgstr "แก้ไขเวลา"
 #. Definition of "WebAuthn": This is a standard for two-factor authentication. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/WebAuthn
 msgid "Edit WebAuthn Registration"
 msgstr "แก้ไข WebAuthn Registration"
+
+msgid "Edit webhook settings"
+msgstr ""
 
 #. Definition of "EFS": Encrypting File System (EFS) is an encryption system built into Windows. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Encrypting_File_System
 msgid "EFS-encrypted files may be unusable once restored, unless you also backup the EFS encryption keys from this PC."
@@ -3342,8 +3870,15 @@ msgstr "เปิดใช้งาน Cluster Manager (นี่คือเซ
 msgid "Enable dark mode"
 msgstr "เปิดใช้งานโหมดมืด"
 
+#. Definition of "SMTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol
+msgid "Enable if you deliberately run an SMTP relay on the local network (loopback, RFC1918, or link-local address). By default outbound email delivery is restricted to public addresses, so that a tenant admin cannot use the email settings to probe internal network services."
+msgstr ""
+
 msgid "Enable Management Console"
 msgstr "เปิดใช้งาน Management Console"
+
+msgid "Enable only when this system is deployed behind a reverse proxy that sets the X-Forwarded-For header. Otherwise malicious users can spoof this header to bypass IP allowlists."
+msgstr ""
 
 msgid "Enable Storage Gateway"
 msgstr "เปิดใช้งาน Gateway Storage"
@@ -3370,6 +3905,9 @@ msgstr "คีย์การเข้ารหัส"
 msgid "End"
 msgstr "สิ้นสุด"
 
+msgid "End of document body"
+msgstr ""
+
 msgid "End time"
 msgstr "เวลาสิ้นสุด"
 
@@ -3382,6 +3920,9 @@ msgstr "สิ้นสุด"
 #. Used by the search system to create custom searches. "[USERNAME] ends with [SUFFIX]
 msgid "ends with"
 msgstr "ลงท้ายด้วย"
+
+msgid "Enforce allowlist"
+msgstr ""
 
 msgid "Enforce changes to existing devices"
 msgstr "บังคับใช้การเปลี่ยนแปลงอุปกรณ์ที่มีอยู่"
@@ -3396,9 +3937,6 @@ msgstr "บังคับใช้"
 msgid "Enforced by Policy"
 msgstr "บังคับใช้โดยนโยบาย"
 
-msgid "Engine failure"
-msgstr "Engine ขัดข้อง"
-
 msgid "Enter a custom command"
 msgstr "ป้อน command ที่กำหนดเอง"
 
@@ -3408,11 +3946,17 @@ msgstr "ป้อนชื่อใหม่สำหรับอุปกรณ
 msgid "Enter a single database table name:"
 msgstr "ป้อนชื่อตารางฐานข้อมูลเดียว:"
 
+msgid "Enter a valid Base URL"
+msgstr ""
+
 msgid "Enter a web address"
 msgstr "ใส่ที่อยู่เว็บ"
 
 msgid "Enter an email address to send a test message:"
 msgstr "ป้อนที่อยู่อีเมลเพื่อส่งข้อความทดสอบ:"
+
+msgid "Enter Base URL, Client ID, and Client Secret first"
+msgstr ""
 
 msgid "Enter job ID:"
 msgstr "ใส่รหัสงาน:"
@@ -3422,6 +3966,14 @@ msgstr "ป้อนชื่อ Bucket ใหม่:"
 
 msgid "Enter path:"
 msgstr "ป้อนพาธ:"
+
+msgid "Enter the code for the Shared Quota you wish to join:"
+msgstr ""
+
+#. Definition of "Linux": The free operating system, an alternative to Windows or macOS. https://en.wikipedia.org/wiki/Linux
+#. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
+msgid "Enter the exact file path of a permitted PKCS#11 driver module. Paths must end in a lowercase .dll (Windows) or .so (Linux) extension. Path matching is case-insensitive on Windows and case-sensitive on Linux."
+msgstr ""
 
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "Enter the name for the Protected Item"
@@ -3433,6 +3985,10 @@ msgstr "ใส่รหัสหกหลักของคุณด้านล
 #. Used by the search system to create custom searches. "[USERNAME] equal [SOMETHING]
 msgid "equal"
 msgstr "เท่ากับ"
+
+#, qt-format
+msgid "Erases ALL data on disk %1 and removes its partition table. This is irreversible."
+msgstr ""
 
 msgid "Error"
 msgstr "ผิดพลาด"
@@ -3448,6 +4004,10 @@ msgid "Error deleting file '%s'"
 msgstr "เกิดข้อผิดพลาดในการลบไฟล์ '%s'"
 
 #, c-format
+msgid "Error downgrading disk caching for device %s: %s, %s, %s"
+msgstr ""
+
+#, c-format
 msgid "Error for '%s': file truncated (expected %d bytes, got %d)"
 msgstr "เกิดข้อผิดพลาดสำหรับ '%s': ไฟล์ถูกตัด (คาดว่า %d ไบต์ได้รับ %d)"
 
@@ -3455,10 +4015,9 @@ msgstr "เกิดข้อผิดพลาดสำหรับ '%s': ไ�
 msgid "Error for user '%s' (line %d): %s"
 msgstr "เกิดข้อผิดพลาดสำหรับผู้ใช้ '%s' (บรรทัด %d): %s"
 
-#. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
 #, c-format
-msgid "Error getting information about SharePoint site '%s': %v"
-msgstr "ข้อผิดพลาดการรับข้อมูลเกี่ยวกับ SharePoint Site ' %s': %v"
+msgid "Error getting path for device %s: %s"
+msgstr ""
 
 #, c-format
 msgid "Error importing backupset '%s': %s"
@@ -3466,12 +4025,8 @@ msgstr "เกิดข้อผิดพลาดในการนำเข้
 
 #. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
 #, c-format
-msgid "Error in SharePoint site processing for site %s (%s). The site appears to be ineligible for backup: %s"
-msgstr "เกิดข้อผิดพลาดในการประมวลผลไซต์ SharePoint สำหรับไซต์ %s (%s) ดูเหมือนว่าไซต์จะไม่มีสิทธิ์ในการสำรองข้อมูล: %s"
-
-#. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
-msgid "Error in SharePoint site processing: Site result data is empty"
-msgstr "ข้อผิดพลาดในการประมวลผลไซต์ SharePoint: ข้อมูลผลลัพธ์ของไซต์ว่างเปล่า"
+msgid "Error in SharePoint site processing for site %s (%s). The site appears to be ineligible for backup."
+msgstr ""
 
 msgid "Error loading file."
 msgstr "เกิดข้อผิดพลาดในการโหลดไฟล์"
@@ -3486,6 +4041,11 @@ msgstr "เกิดข้อผิดพลาดขณะที่แสดง
 msgid "Error requesting provider"
 msgstr "เกิดข้อผิดพลาดในการร้องขอผู้ให้บริการ"
 
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#, c-format
+msgid "Error retrieving disk info for vm %d: %s"
+msgstr ""
+
 msgid "Error retrieving job information"
 msgstr "เกิดข้อผิดพลาดในการเรียกข้อมูลงาน"
 
@@ -3496,39 +4056,43 @@ msgid "Error retrieving provider list"
 msgstr "เกิดข้อผิดพลาดในการเรียกรายชื่อผู้ให้บริการ"
 
 #, c-format
-msgid "Error saving account %s: %v"
-msgstr "ข้อผิดพลาดในการบันทึกบัญชี %s: %v"
+msgid "Error setting boot order: %s %s"
+msgstr ""
 
-#. Definition of "Microsoft 365": This is commercial platform from Microsoft. There is always a space between _Microsoft_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
 #, c-format
-msgid "Error saving Microsoft 365 Calendar data for account %s: %v"
-msgstr "ข้อผิดพลาดในการบันทึกข้อมูลปฏิทิน Microsoft 365 สำหรับบัญชี %s: %v"
+msgid "Error starting vm %d in suspended mode: %s"
+msgstr ""
 
-#. Definition of "Microsoft 365": This is commercial platform from Microsoft. There is always a space between _Microsoft_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
 #, c-format
-msgid "Error saving Microsoft 365 Contact data for account %s: %v"
-msgstr "ข้อผิดพลาดในการบันทึกข้อมูลผู้ติดต่อ Microsoft 365 สำหรับบัญชี %s: %v"
+msgid "Error stopping vm %d: %s"
+msgstr ""
 
-#. Definition of "Microsoft 365": This is commercial platform from Microsoft. There is always a space between _Microsoft_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
 #, c-format
-msgid "Error saving Microsoft 365 Email data for account %s: %v"
-msgstr "เกิดข้อผิดพลาดในการบันทึกข้อมูลอีเมล Microsoft 365 สำหรับบัญชี %s: %v"
-
-#. Definition of "OneDrive": This is a cloud storage platform from Microsoft. The _O_ and _D_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_OneDrive
-#, c-format
-msgid "Error saving OneDrive backup data for account %s: %v"
-msgstr "ข้อผิดพลาดในการบันทึกข้อมูลสำรอง OneDrive สำหรับบัญชี %s: %v"
-
-#. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
-#, c-format
-msgid "Error saving SharePoint site '%s': %s"
-msgstr "เกิดข้อผิดพลาดในการบันทึกไซต์ SharePoint '%s': %s"
+msgid "Error unlinking volume %s from VM %d: %s %s"
+msgstr ""
 
 msgid "Error when converting Storage Gateway to Direct-to-Cloud Storage Templates."
 msgstr "เกิดข้อผิดพลาดเมื่อแปลงเกตเวย์หน่วยเก็บข้อมูลเป็นเทมเพลตที่เก็บข้อมูลโดยตรงกับคลาวด์"
 
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#. Definition of "VMs": Abbreviation of 'Virtual Machines'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Error while listing VMs"
+msgstr ""
+
 msgid "Error while parsing the following results:"
 msgstr "เกิดข้อผิดพลาดขณะประมวลผลผลลัพธ์ต่อไปนี้:"
+
+msgid "Error with Storage Gateway"
+msgstr ""
+
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#, c-format
+msgid "Error with VM %d on node %s test start: %s"
+msgstr ""
 
 msgid "ETA:"
 msgstr "ETA:"
@@ -3537,11 +4101,18 @@ msgstr "ETA:"
 msgid "EULA"
 msgstr "EULA"
 
+msgid "Evaluating retention policy"
+msgstr ""
+
 msgid "Event (optional)"
 msgstr "อีเวนท์ (ไม่บังคับ)"
 
 msgid "Event Types"
 msgstr "ประเภทอีเวนท์"
+
+#. Definition of "Slack": This is a commercial messaging and chat app. If an official translation is available, it should be used. https://slack.com/
+msgid "Events are reformatted as Slack messages so they render natively in a channel."
+msgstr ""
 
 msgid "every"
 msgstr "ทุกๆ"
@@ -3565,6 +4136,9 @@ msgstr "ทุกปีในเดือน %1, ใน %2 ที่ %3: %4"
 msgid "Every year, on month: %1, on the %2 at %3:%4"
 msgstr "ทุกปีในเดือน: %1, %2 ที่ %3: %4"
 
+msgid "Everything"
+msgstr ""
+
 #. Definition of "Excel": This is a spreadsheet program from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Excel
 msgid "Excel"
 msgstr "Excel"
@@ -3584,6 +4158,9 @@ msgstr "องค์กรแลกเปลี่ยน"
 #. Definition of "Exchange": This is an email server platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Exchange_Server
 msgid "Exchange Server"
 msgstr "แลกเปลี่ยนเซิร์ฟเวอร์"
+
+msgid "Exchanging token..."
+msgstr ""
 
 msgid "Exclude"
 msgstr "ไม่รวม"
@@ -3607,6 +4184,18 @@ msgstr "Exclude Virtual Machine ที่ระบุ"
 msgid "Exclude system logs"
 msgstr "ไม่รวมบันทึกระบบ"
 
+#, qt-format
+msgid "Excluded by rule %1"
+msgstr ""
+
+#, c-format
+msgid "Excluded by rule %s"
+msgstr ""
+
+#, c-format
+msgid "Excluding %d recently referenced pack(s) from the cleanup candidate list"
+msgstr ""
+
 msgid "Exclusions"
 msgstr "การยกเว้น"
 
@@ -3617,6 +4206,21 @@ msgstr "รายการที่มีการป้องกันนโย
 #. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
 msgid "Exit to Windows Recovery Environment"
 msgstr "ออกจาก Windows Recovery Environment"
+
+msgid "Expires"
+msgstr ""
+
+msgid "Expiry"
+msgstr ""
+
+msgid "Expiry date is not a valid date"
+msgstr ""
+
+msgid "Expiry date is required"
+msgstr ""
+
+msgid "Expiry date must be in the future"
+msgstr ""
 
 #. Definition of "FTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/File_Transfer_Protocol
 #. Definition of "FTPS": The secure version of FTP. https://en.wikipedia.org/wiki/FTPS
@@ -3632,9 +4236,33 @@ msgstr "ส่งออกทั้งหมด"
 msgid "Export Selected"
 msgstr "ส่งออกที่เลือก"
 
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+#, qt-format
+msgid "Extend is not supported on %1 volumes."
+msgstr ""
+
+#, qt-format
+msgid "Extend partition %1 on disk %2 by %3 MB. Requires unallocated space directly after the partition."
+msgstr ""
+
+#, qt-format
+msgid "Extend partition %1 on disk %2 into all adjacent unallocated space."
+msgstr ""
+
+msgid "Extend requires unallocated space directly after this partition."
+msgstr ""
+
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "Extend Volume"
+msgstr ""
+
 #, c-format
 msgid "Extending Object Lock for %d referenced object(s)..."
 msgstr "กำลังขยายการล็อกวัตถุสำหรับวัตถุที่อ้างอิง %d รายการ..."
+
+#, qt-format
+msgid "Extending partition %1 on disk %2..."
+msgstr ""
 
 #, qt-format
 msgid "Extent #%1"
@@ -3652,14 +4280,23 @@ msgstr "External authentication sources"
 msgid "External Source"
 msgstr "แหล่งภายนอก"
 
+msgid "External URL"
+msgstr ""
+
 msgid "Externally managed"
 msgstr "จัดการภายนอก"
 
 msgid "Extra data (optional)"
 msgstr "ข้อมูลเพิ่มเติม (ไม่บังคับ)"
 
+msgid "Extra Fields"
+msgstr ""
+
 msgid "Extra parameters"
 msgstr "พารามิเตอร์พิเศษ"
+
+msgid "Extract individual files and/or folders from virtual hard disk files, and restore them to a cloud or remote storage location."
+msgstr ""
 
 msgid "Extract individual files and/or folders from virtual hard disk files, and restore them to a compressed archive file."
 msgstr "แยกไฟล์แต่ละไฟล์และ/หรือโฟลเดอร์ออกจากไฟล์ฮาร์ดดิสก์เสมือนและกู้คืนไฟล์เหล่านั้นไปยังไฟล์เก็บถาวรที่บีบอัด"
@@ -3676,13 +4313,44 @@ msgstr "ล้มเหลว"
 msgid "failed attempts"
 msgstr "ความพยายามล้มเหลว"
 
+#, c-format
+msgid "Failed backup for mailbox %s:"
+msgstr ""
+
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Failed to add Storage Vault."
 msgstr "ไม่สามารถเพิ่ม Storage Vault"
 
+#, c-format
+msgid "Failed to back up calendar '%s' (id=%s) in account %s, skipping: %v"
+msgstr ""
+
+#, c-format
+msgid "Failed to back up contact folder '%s' (id=%s) in account %s, skipping: %v"
+msgstr ""
+
+#, c-format
+msgid "Failed to back up contacts for contact folder '%s' in account %s, retrying with non-delta listing: %v"
+msgstr ""
+
+#, c-format
+msgid "Failed to back up mail folder '%s' (id=%s) in account %s, skipping: %v"
+msgstr ""
+
+#, c-format
+msgid "Failed to back up messages for mail folder '%s' in account %s, retrying with non-delta listing: %v"
+msgstr ""
+
+#, c-format
+msgid "Failed to back up messages using non-delta fallback for mail folder '%s' in account %s"
+msgstr ""
+
 #, qt-format
 msgid "Failed to browse %1."
 msgstr "ไม่สามารถเรียกดู %1"
+
+msgid "Failed to browse disks in this backup snapshot"
+msgstr ""
 
 msgid "Failed to browse local disks"
 msgstr "ไม่สามารถเรียกดูดิสก์ในเครื่อง"
@@ -3715,6 +4383,16 @@ msgstr "ไม่สามารถตรวจสอบว่าได้เต
 msgid "Failed to communicate with selected VSS writer."
 msgstr "ไม่สามารถสื่อสารกับ VSS writer ที่เลือก"
 
+#, c-format
+msgid "Failed to compute stats for previous snapshot of node %s (%s)"
+msgstr ""
+
+msgid "Failed to connect to Storage Gateway location. Changes not applied."
+msgstr ""
+
+msgid "Failed to convert the existing selection"
+msgstr ""
+
 msgid "Failed to find ID for snapshot node. Falling back to full backup..."
 msgstr "ไม่พบ ID สำหรับ Snapshot Node โปรดดำเนินการ Full Backup แทน..."
 
@@ -3722,9 +4400,8 @@ msgstr "ไม่พบ ID สำหรับ Snapshot Node โปรดดำ�
 msgid "Failed to get a valid credential response from the WebAuthn device."
 msgstr "ไม่สามารถรับ credential response จากอุปกรณ์ WebAuthn ได้"
 
-#. Definition of "WebAuthn": This is a standard for two-factor authentication. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/WebAuthn
-msgid "Failed to get WebAuthn key."
-msgstr "ไม่สามารถรับ WebAuthn key"
+msgid "Failed to get auth URL"
+msgstr ""
 
 #. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
 #, c-format
@@ -3747,6 +4424,15 @@ msgstr "ไม่สามารถเปิดไบนารีตัวช่
 #. Definition of "Microsoft 365": This is commercial platform from Microsoft. There is always a space between _Microsoft_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 msgid "Failed to list Microsoft 365 accounts"
 msgstr "ไม่สามารถแสดงรายการบัญชี Microsoft 365"
+
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#. Definition of "VMs": Abbreviation of 'Virtual Machines'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Failed to list Proxmox VMs"
+msgstr ""
+
+msgid "Failed to load"
+msgstr ""
 
 msgid "Failed to load detail for this job."
 msgstr "ไม่สามารถโหลดรายละเอียดของงานนี้"
@@ -3819,6 +4505,14 @@ msgid "Failed to skip free disk space from %s: %s. Volume backup may be unexpect
 msgstr "ล้มเหลวในการข้ามพื้นที่ดิสก์ฟรีจาก %s: %s การสำรองข้อมูลปริมาณอาจมีขนาดใหญ่โดยไม่คาดคิด"
 
 #, c-format
+msgid "Failed to submit license info: %s"
+msgstr ""
+
+#, c-format
+msgid "Failed to update schedule to use temporary files (%s)"
+msgstr ""
+
+#, c-format
 msgid "Failed to update tenant for user '%s': %s"
 msgstr "ไม่สามารถอัปเดตผู้เช่าสำหรับผู้ใช้ '%s': %s"
 
@@ -3854,11 +4548,22 @@ msgstr "กุมภาพันธ์"
 msgid "FIDO2 WebAuthn"
 msgstr "FIDO2 WebAuthn"
 
+msgid "Field"
+msgstr ""
+
 msgid "Field should not be empty"
 msgstr "ช่องไม่ควรว่างเปล่า"
 
 msgid "File"
 msgstr "ไฟล์"
+
+#, c-format
+msgid "File %s (WebURL=%s) changed size mid-download, restarting (attempt %d/%d)..."
+msgstr ""
+
+#, c-format
+msgid "File %s (WebURL=%s) repeatedly changed size during download, skipping..."
+msgstr ""
 
 msgid "File (granular restore)"
 msgstr "ไฟล์ (การคืนค่าแบบละเอียด)"
@@ -3892,6 +4597,9 @@ msgstr "ไฟล์ที่มีข้อมูลเมตา Windows แบ
 msgid "Filebase"
 msgstr "Filebase"
 
+msgid "Filename:"
+msgstr ""
+
 #, qt-format
 msgid "Filename: %1"
 msgstr "ชื่อไฟล์: %1"
@@ -3908,11 +4616,17 @@ msgstr "ระบบไฟล์"
 msgid "Filter"
 msgstr "ตัวกรอง"
 
+msgid "Filter (active)"
+msgstr ""
+
 msgid "Filter job list"
 msgstr "กรองรายการงาน"
 
 msgid "Filter Names"
 msgstr "กรองชื่อ"
+
+msgid "Filter Recent Activity"
+msgstr ""
 
 msgid "Filtering by retention policy..."
 msgstr "กำลังกรองตามนโยบายการเก็บรักษา..."
@@ -3958,19 +4672,15 @@ msgid "Finished"
 msgstr "เสร็จสิ้น"
 
 #, c-format
-msgid "Finished backup for mailbox %s (Duration: %s, Dirs: %d, Items: %d, Bytes: %s)"
-msgstr "เสร็จสิ้นการสำรองข้อมูลสำหรับกล่องจดหมาย %s (ระยะเวลา: %s, Dirs: %d, รายการ: %d, ไบต์: %s)"
+msgid "Finished backup for mailbox %s (Duration: %s, Dirs: %d, Items: %d, Bytes: %s; Calendars: %s, Contacts: %s, Mail: %s)"
+msgstr ""
 
 #, c-format
 msgid "Finished backup for site %s (Duration: %s, Dirs: %d, Files: %d, Bytes: %s)"
 msgstr "เสร็จสิ้นการสำรองข้อมูลสำหรับไซต์ %s (ระยะเวลา: %s, Dirs: %d, ไฟล์: %d, ไบต์: %s)"
 
-#, c-format
-msgid "Finished backup of mailbox %s (Duration: %s, Dirs: %d, Items: %d, Bytes: %s)"
-msgstr "สำรองข้อมูลกล่องจดหมาย %s เสร็จสิ้น (ระยะเวลา: %s, DIRS: %d, รายการ: %d, BYTES: %s)"
-
-msgid "First"
-msgstr "แรก"
+msgid "For easier access, you can assign a drive letter or drive path to your partition."
+msgstr ""
 
 msgid "Force cancel selected jobs"
 msgstr ""
@@ -3978,15 +4688,43 @@ msgstr ""
 msgid "Force Offline"
 msgstr "บังคับออฟไลน์"
 
+msgid "Foreign device"
+msgstr ""
+
 msgid "Form"
 msgstr "แบบฟอร์ม"
 
 msgid "Form Encoded"
 msgstr "เข้ารหัสแบบฟอร์มแล้ว"
 
+msgid "Format Partition"
+msgstr ""
+
+#, qt-format
+msgid "Format partition %1 on disk %2 as %3 (full format). All data on that partition will be erased."
+msgstr ""
+
+#, qt-format
+msgid "Format partition %1 on disk %2 as %3 (quick format). All data on that partition will be erased."
+msgstr ""
+
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "Format this volume with the following settings:"
+msgstr ""
+
+msgid "Format type:"
+msgstr ""
+
+msgid "Format..."
+msgstr ""
+
 #, c-format
 msgid "Formatting drive '%s'"
 msgstr "กำลังจัดรูปแบบไดรฟ์ '%s'"
+
+#, qt-format
+msgid "Formatting partition %1 on disk %2..."
+msgstr ""
 
 #, c-format
 msgid "Found %d backup job(s) eligible for removal."
@@ -4055,8 +4793,17 @@ msgstr "เต็ม (base image)"
 msgid "Full (copy only)"
 msgstr "เต็ม (สำเนาเท่านั้น)"
 
+msgid "Full backup or CBT, which backs up blocks which have changed since last backup"
+msgstr ""
+
 msgid "Full Disk Access permission has been granted"
 msgstr "ได้รับ Full Disk Access permission แล้ว"
+
+msgid "Full Format"
+msgstr ""
+
+msgid "Full format (zeros the partition, can take hours)"
+msgstr ""
 
 msgid "Fullscan not awake!"
 msgstr "Fullscan not awake!"
@@ -4116,6 +4863,9 @@ msgstr "Google"
 msgid "Google Cloud Storage"
 msgstr "Google Cloud Storage"
 
+msgid "GPG key"
+msgstr ""
+
 msgid "GPT Partition (granular restore)"
 msgstr "พาร์ติชัน GPT (การคืนค่าแบบละเอียด)"
 
@@ -4127,6 +4877,9 @@ msgstr "คืนค่าแบบละเอียด"
 
 msgid "Granular restore (Simulate restore only)"
 msgstr "การกู้คืนแบบละเอียด (จำลองการกู้คืนเท่านั้น)"
+
+msgid "Granular restore to cloud storage location"
+msgstr ""
 
 msgid "Granular restore to compressed archive file (zip / tar)"
 msgstr "การกู้คืนแบบละเอียดไปยังไฟล์บีบอัด (zip / tar)"
@@ -4145,29 +4898,26 @@ msgstr "กลุ่ม"
 msgid "Group Account"
 msgstr "บัญชีกลุ่ม"
 
+msgid "Group ID"
+msgstr ""
+
 msgid "Group members"
 msgstr "สมาชิกกลุ่ม"
 
 msgid "Group Members"
 msgstr "สมาชิกกลุ่ม"
 
+msgid "Group members' services"
+msgstr ""
+
 msgid "group name"
 msgstr "ชื่อกลุ่ม"
-
-msgid "Grouped"
-msgstr "จัดกลุ่ม"
-
-msgid "Grouped By"
-msgstr "จัดกลุ่มตาม"
 
 msgid "Grouped status report"
 msgstr "รายงานสถานะการจัดกลุ่ม"
 
 msgid "Grouped Status Report"
 msgstr "รายงานสถานะการจัดกลุ่ม"
-
-msgid "Groups"
-msgstr "กลุ่ม"
 
 msgid "Hardware security key"
 msgstr "Hardware security key"
@@ -4294,6 +5044,9 @@ msgstr "ดิสก์เสมือนจริง Hyper-V"
 msgid "Hyper-V virtual machines"
 msgstr "Hyper-V virtual machine"
 
+msgid "I agree"
+msgstr ""
+
 #. The uppercase text part (WITH NORECOVERY) is a T-SQL statement that should remain un-translated.
 msgid "I want to keep restoring additional files (WITH NORECOVERY)"
 msgstr "ฉันต้องการกู้คืนไฟล์เพิ่มเติมต่อไป (ด้วย NORECOVERY)"
@@ -4381,6 +5134,10 @@ msgstr "การนำเข้านโยบายการเก็บรั
 msgid "Importing monthly schedules without a specific date is not yet supported, skipping schedule"
 msgstr "ยังไม่รองรับการนำเข้ากำหนดการรายเดือนโดยไม่มีวันที่เจาะจง กำลังข้ามกำหนดการ"
 
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+msgid "Importing pre-existing Proxmox configuration"
+msgstr ""
+
 #, c-format
 msgid "Importing settings from '%s'..."
 msgstr "กำลังนำเข้าการตั้งค่าจาก '%s'..."
@@ -4428,20 +5185,13 @@ msgstr "รวมเซกเตอร์ดิสก์ที่ไม่ได
 msgid "Include web browser"
 msgstr "รวมเว็บเบราว์เซอร์"
 
-msgid "Included Services"
-msgstr "รวม Services"
+#, qt-format
+msgid "Included by rule %1"
+msgstr ""
 
 #, c-format
-msgid "Includes the %s command-line client."
-msgstr "รวมไคลเอ็นต์บรรทัดคําสั่ง %s"
-
-#, c-format
-msgid "Includes the %s desktop app (%s only)."
-msgstr "รวมแอปเดสก์ท็อป %s (%s เท่านั้น)"
-
-#, c-format
-msgid "Includes the %s desktop app."
-msgstr "รวมแอปเดสก์ท็อป %s"
+msgid "Included by rule %s"
+msgstr ""
 
 msgid "Incomplete"
 msgstr "ไม่สำเร็จ"
@@ -4452,8 +5202,13 @@ msgstr "งานที่ไม่สมบูรณ์/กำลังทำ�
 msgid "Increasing"
 msgstr "เพิ่มขึ้น"
 
-msgid "Incremental backup for sites failed, trying full site backup..."
-msgstr "การสำรองข้อมูลส่วนที่เพิ่มสำหรับไซต์ล้มเหลว กำลังพยายามสำรองไซต์แบบเต็ม..."
+#, c-format
+msgid "Incremental %s backup failed for %s, falling back to full: %v"
+msgstr ""
+
+#, c-format
+msgid "Incremental backup of %s failed, trying a full backup..."
+msgstr ""
 
 msgid "Individual Resources"
 msgstr "Individual Resources"
@@ -4470,6 +5225,10 @@ msgstr "ข้อมูล"
 msgid "Inherit from parent tenant"
 msgstr "สืบทอดจากผู้เช่าหลัก"
 
+#, qt-format
+msgid "Initialize (%1)"
+msgstr ""
+
 msgid "Initialized"
 msgstr "เริ่มต้น"
 
@@ -4480,6 +5239,21 @@ msgstr "เริ่มต้น Storage Vault (%s)"
 
 msgid "Initializing network connection..."
 msgstr "กำลังเริ่มต้นการเชื่อมต่อเครือข่าย..."
+
+msgid "Inject custom JavaScript or CSS into the web interface. This applies to the login page and the entire web interface of every tenant. It can only be configured by a top-level administrator."
+msgstr ""
+
+msgid "Inline code"
+msgstr ""
+
+msgid "Inline CSS may not contain '</style'."
+msgstr ""
+
+msgid "Inline JavaScript may not contain '</script'. If it appears inside a string, split it as '<\\/script'."
+msgstr ""
+
+msgid "Insecure URL"
+msgstr ""
 
 msgid "Installation log:"
 msgstr "บันทึกการติดตั้ง:"
@@ -4590,6 +5364,9 @@ msgstr "โหมดไม่ถูกต้อง '%s' สำหรับกา
 msgid "Invalid option selected"
 msgstr "เลือกตัวเลือกที่ไม่ถูกต้อง"
 
+msgid "Invalid parent snapshot ID"
+msgstr ""
+
 #, c-format
 msgid "Invalid port '%s'"
 msgstr "พอร์ตไม่ถูกต้อง '%s'"
@@ -4612,6 +5389,11 @@ msgstr "คำร้องขอไม่ถูกต้อง"
 msgid "Invalid response from the server."
 msgstr "การตอบสนองที่ไม่ถูกต้องจากเซิร์ฟเวอร์"
 
+#. / TRANSLATORS: %d is the numeric mode value of a retention policy (e.g. 801)
+#, c-format
+msgid "Invalid retention policy mode (%d)"
+msgstr ""
+
 msgid "Invalid search term. Please double-check the highlighted area"
 msgstr "ข้อความค้นหาไม่ถูกต้อง โปรดตรวจสอบพื้นที่ที่ไฮไลต์อีกครั้ง"
 
@@ -4620,9 +5402,6 @@ msgstr "การเลือกไม่ถูกต้อง"
 
 msgid "Invalid six-digit code"
 msgstr "รหัสหกหลักไม่ถูกต้อง"
-
-msgid "Invalid snapshot selected"
-msgstr "เลือกสแนปชอตไม่ถูกต้อง"
 
 #. Definition of "UNC": A 'UNC' path is a path for a file or folder on a network drive. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Path_(computing)#Universal_Naming_Convention
 #, c-format
@@ -4644,6 +5423,10 @@ msgstr "เลือก Storage Vault ไม่ถูกต้อง"
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Invalid Storage Vault specified"
 msgstr "ระบุ Storage Vault ไม่ถูกต้อง"
+
+#, c-format
+msgid "Invalid task selected: %s (profile: %s)"
+msgstr ""
 
 msgid "Invalid URL"
 msgstr "URL ไม่ถูกต้อง"
@@ -4682,9 +5465,6 @@ msgstr "ไฟล์ ISO Image (*.iso)"
 msgid "Isolation"
 msgstr "การแยกตัว"
 
-msgid "It has been detected that you previously used the 'Select all except' option. This option has been removed in this version, and your selections have been changed to the standard method. Please double-check your settings and ensure they are still what you intended."
-msgstr ""
-
 msgid "It will allocate new IAM permissions for the existing vault. It will not move any data."
 msgstr "โดยจะจัดสรรสิทธิ์ IAM ใหม่สำหรับ vault ที่มีอยู่ มันจะไม่ย้ายข้อมูลใดๆ"
 
@@ -4716,6 +5496,9 @@ msgstr "ม.ค"
 
 msgid "January"
 msgstr "มกราคม"
+
+msgid "JavaScript"
+msgstr ""
 
 msgid "Job"
 msgstr "งาน"
@@ -4753,6 +5536,9 @@ msgstr "สถานะงาน"
 
 #, c-format
 msgid "Job type: %s"
+msgstr ""
+
+msgid "Join existing Shared Quota"
 msgstr ""
 
 msgid "JSON"
@@ -4806,14 +5592,14 @@ msgstr "Key"
 msgid "Key ID"
 msgstr "Key ID"
 
+msgid "Key name"
+msgstr ""
+
 msgid "Known servers"
 msgstr "เซิร์ฟเวอร์ที่รู้จัก"
 
 msgid "Language"
 msgstr "ภาษา"
-
-msgid "Last"
-msgstr "ล่าสุด"
 
 #, qt-format
 msgid "Last %1 backups, at most one per day"
@@ -4837,8 +5623,23 @@ msgstr "24 ชั่วโมงที่ผ่านมา"
 msgid "Last Backup"
 msgstr "สำรองข้อมูลล่าสุด"
 
+msgid "Last Backup Destination"
+msgstr ""
+
 msgid "Last backup job"
 msgstr "งานสำรองข้อมูลล่าสุด"
+
+msgid "Last Backup Job ID"
+msgstr ""
+
+msgid "Last Backup Status"
+msgstr ""
+
+msgid "Last Backup Time"
+msgstr ""
+
+msgid "Last Backup Total Size"
+msgstr ""
 
 msgid "Last Message"
 msgstr "ข้อความสุดท้าย"
@@ -4856,6 +5657,9 @@ msgstr "สแกนครั้งล่าสุด"
 
 msgid "Last successful backup job"
 msgstr "งานสำรองข้อมูลที่สำเร็จล่าสุด"
+
+msgid "Last used"
+msgstr ""
 
 msgid "Last wake event"
 msgstr "Wake event ล่าสุด"
@@ -4947,6 +5751,9 @@ msgstr "Licensing"
 msgid "Limit backup to use only 1 disk thread"
 msgstr "จำกัดการสำรองข้อมูลให้ใช้ดิสก์เธรดเดียวเท่านั้น"
 
+msgid "Limit speed at certain times"
+msgstr ""
+
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Limit Storage Vault speed:"
 msgstr "จำกัดความเร็วของ Storage Vault:"
@@ -4958,16 +5765,31 @@ msgstr "Line"
 msgid "Linux"
 msgstr "Linux"
 
+#. Definition of "Linux": The free operating system, an alternative to Windows or macOS. https://en.wikipedia.org/wiki/Linux
+msgid "Linux (RPM)"
+msgstr ""
+
 #. Definition of "ISO": A disk image file format, normally a file with *.iso file extension. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Optical_disc_image
 #. Definition of "Linux": The free operating system, an alternative to Windows or macOS. https://en.wikipedia.org/wiki/Linux
 msgid "Linux ISO"
 msgstr "Linux ISO"
 
+msgid "Listing disks..."
+msgstr ""
+
 msgid "Live progress information was last updated at:"
 msgstr "ข้อมูลความคืบหน้าสดได้รับการปรับปรุงล่าสุดเมื่อ:"
 
+msgid "Load"
+msgstr ""
+
 msgid "Loading"
 msgstr "กำลังโหลด"
+
+#. / TRANSLATORS: %d is a number of packs (data files) in the Storage Vault
+#, c-format
+msgid "Loading a partial index covering %d pack(s) for this snapshot."
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Loading network credentials for Storage Vault"
@@ -4983,6 +5805,9 @@ msgstr "Local"
 
 msgid "Local address"
 msgstr "Local address"
+
+msgid "Local hostname"
+msgstr ""
 
 msgid "Local Path"
 msgstr "Local Path"
@@ -5047,6 +5872,12 @@ msgstr "ระดับบันทึก"
 msgid "Log out"
 msgstr "ออกจากระบบ"
 
+msgid "Log out all connected devices"
+msgstr ""
+
+msgid "Log out all connected devices and return backup agent to login screen"
+msgstr ""
+
 msgid "Log Rotation"
 msgstr "การหมุนบันทึก"
 
@@ -5104,8 +5935,15 @@ msgstr "กำลังค้นหา Windows recovery environment..."
 msgid "Looking up account settings..."
 msgstr "กำลังค้นหาการตั้งค่าบัญชี..."
 
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Looking up Storage Vault endpoint..."
+msgstr ""
+
 msgid "Lost connection to local service."
 msgstr "ขาดการเชื่อมต่อกับ local service"
+
+msgid "Machine name"
+msgstr ""
 
 msgid "macOS"
 msgstr "macOS"
@@ -5115,6 +5953,10 @@ msgstr "Mail"
 
 msgid "Mail Account"
 msgstr "บัญชีเมล"
+
+#. / TRANSLATORS: a display label for a Microsoft 365 user's mailbox in a usage report
+msgid "Mailbox"
+msgstr ""
 
 msgid "Make Default"
 msgstr "ทำให้เป็นค่าเริ่มต้น"
@@ -5126,6 +5968,9 @@ msgstr "พร็อพเพอร์ตี้มีรูปแบบไม่
 #, c-format
 msgid "Malformed property '%s'"
 msgstr "พร็อพเพอร์ตี้มีรูปแบบไม่ถูกต้อง '%s'"
+
+msgid "Malformed response from the dispatcher."
+msgstr ""
 
 msgid "Malformed response from the server"
 msgstr "Response จากเซิร์ฟเวอร์มีรูปแบบไม่ถูกต้อง"
@@ -5177,6 +6022,9 @@ msgstr "Master Key ID"
 msgid "matches regex"
 msgstr "ตรงกับ regex"
 
+msgid "Maximum disk space in MB:"
+msgstr ""
+
 msgid "May"
 msgstr "พฤษภาคม"
 
@@ -5205,6 +6053,9 @@ msgstr "สมาชิก"
 msgid "Members of %1"
 msgstr "สมาชิกของ %1"
 
+msgid "Members: all services"
+msgstr ""
+
 msgid "Memory"
 msgstr "หน่วยความจำ"
 
@@ -5216,6 +6067,9 @@ msgstr "ข้อความ"
 
 msgid "Message body"
 msgstr "เนื้อหาข้อความ"
+
+msgid "Message format"
+msgstr ""
 
 msgid "Method"
 msgstr "Method"
@@ -5297,6 +6151,14 @@ msgstr "Microsoft SQL Server"
 msgid "Microsoft SQL Server databases"
 msgstr "ฐานข้อมูล Microsoft SQL Server"
 
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#. Definition of "VMs": Abbreviation of 'Virtual Machines'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Migrating from other hypervisor as new VMs"
+msgstr ""
+
+msgid "Minimum disk space in MB:"
+msgstr ""
+
 msgid "minute(s)"
 msgstr "นาที"
 
@@ -5348,6 +6210,9 @@ msgstr "ไม่มีดิสก์ที่ยกเว้น"
 msgid "Missing excluded partition"
 msgstr "ไม่มีพาร์ติชั่นที่ยกเว้น"
 
+msgid "Missing or expired authentication token."
+msgstr ""
+
 #, qt-format
 msgid "Missing required field: %1"
 msgstr "ไม่มีเขตข้อมูลที่ต้องระบุ: %1"
@@ -5364,9 +6229,6 @@ msgstr "ไม่มีดิสก์ที่เลือก"
 
 msgid "Missing selected partition"
 msgstr "ไม่มีพาร์ติชั่นที่เลือก"
-
-msgid "Missing session key."
-msgstr "คีย์เซสชันหายไป"
 
 msgid "Mobile Client"
 msgstr "ไคลเอ็นต์บนมือถือ"
@@ -5415,20 +6277,26 @@ msgstr "กำลัง mount ไฟล์ recovery image file..."
 msgid "Move forward or backwards in the Protected Item editor"
 msgstr "เลื่อนไปข้างหน้าหรือย้อนกลับในตัวแก้ไขรายการ Protected Item"
 
+msgid "Move rule down (later rules override earlier ones)"
+msgstr ""
+
+msgid "Move rule up (later rules override earlier ones)"
+msgstr ""
+
 msgid "Move users to group"
 msgstr "ย้ายผู้ใช้ไปยังกลุ่ม"
 
 msgid "ms"
 msgstr "ms"
 
+msgid "MSI Upgrade Code"
+msgstr ""
+
 msgid "Multi-factor authentication"
 msgstr "การรับรองความถูกต้องแบบหลายปัจจัย"
 
 msgid "Multiple"
 msgstr "หลายรายการ"
-
-msgid "Multiple accounts selected"
-msgstr "หลายบัญชีถูกเลือก"
 
 msgid "Multiple commands"
 msgstr "หลาย command"
@@ -5489,6 +6357,9 @@ msgstr "ไม่พบเครื่องมือ MySQL ในอุปก�
 msgid "n/a"
 msgstr "n/a"
 
+msgid "N/A"
+msgstr ""
+
 msgid "Name"
 msgstr "ชื่อ"
 
@@ -5527,8 +6398,18 @@ msgstr "เน็ตเวิร์คอินเตอร์เฟส"
 msgid "Network share"
 msgstr "แชร์เครือข่าย"
 
+msgid "Never"
+msgstr ""
+
 msgid "Never (skip existing files)"
 msgstr "ไม่เลย (ข้ามไฟล์ที่มีอยู่)"
+
+msgid "Never expires"
+msgstr ""
+
+#. Definition of "API": An interface for programs to communicate with each other. https://en.wikipedia.org/wiki/API
+msgid "New API token"
+msgstr ""
 
 msgid "New Audit Log"
 msgstr "บันทึกการตรวจสอบใหม่"
@@ -5609,6 +6490,14 @@ msgstr "กำหนดการใหม่"
 msgid "New Scheduled Time"
 msgstr "เวลากำหนดการใหม่"
 
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "New Simple Volume"
+msgstr ""
+
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "New Simple Volume Wizard"
+msgstr ""
+
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "New Storage Vault"
 msgstr "คลังข้อมูลใหม่"
@@ -5631,6 +6520,10 @@ msgstr "ค่าใหม่"
 
 msgid "New Vault"
 msgstr "คลังใหม่"
+
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "New Volume"
+msgstr ""
 
 msgid "New Webhook"
 msgstr "Webhook ใหม่"
@@ -5658,15 +6551,24 @@ msgstr "อีเมลตามกำหนดการถัดไป"
 msgid "Next scheduled job"
 msgstr "งานตามกำหนดการต่อไป"
 
+#. Definition of "NFS": Network File System, a protocol for accessing files on a network drive. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Network_File_System
+msgid "NFS"
+msgstr ""
+
+#. Definition of "NFS": Network File System, a protocol for accessing files on a network drive. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Network_File_System
+msgid "NFS version"
+msgstr ""
+
+#. Definition of "NinjaOne": This is a commercial RMM (Remote Monitoring and Management) platform. The _N_ and _O_ are both capitalized in this brand name. If an official translation is available, it should be used. https://www.ninjaone.com/
+msgid "NinjaOne Organization"
+msgstr ""
+
 msgid "No"
 msgstr "ไม่"
 
 #, c-format
 msgid "No %s custom path"
 msgstr "ไม่มี %s พาธที่กำหนดเอง"
-
-msgid "No accounts selected"
-msgstr "ไม่มีบัญชีถูกเลือก"
 
 msgid "No Activity"
 msgstr "ไม่มีกิจกรรม"
@@ -5677,17 +6579,20 @@ msgstr "ไม่มีรายละเอียดเพิ่มเติม
 msgid "No affected files to back up."
 msgstr "ไม่มีไฟล์ที่ได้รับผลกระทบในการสำรองข้อมูล"
 
+msgid "No available storage templates"
+msgstr ""
+
 msgid "No backup groups are selected"
 msgstr "ไม่มีกลุ่มการสำรองข้อมูลถูกเลือก"
 
 msgid "No backup snapshots found matching the selected filter"
 msgstr "ไม่พบสแน็ปช็อตสำรองที่ตรงกับตัวกรองที่เลือก"
 
-msgid "No bulk actions available"
-msgstr ""
-
 msgid "No changes"
 msgstr "ไม่มีการเปลี่ยนแปลง"
+
+msgid "No command specified"
+msgstr ""
 
 msgid "No configuration is currently available for this type."
 msgstr "ขณะนี้ยังไม่มีการกำหนดค่าสำหรับประเภทนี้"
@@ -5722,6 +6627,9 @@ msgstr "ไม่มีอุปกรณ์"
 
 msgid "No devices selected"
 msgstr "ไม่ได้เลือกอุปกรณ์"
+
+msgid "No drive letters are available; all A-Z are in use."
+msgstr ""
 
 msgid "No encryption key is available"
 msgstr "ไม่มีคีย์เข้ารหัส"
@@ -5767,11 +6675,24 @@ msgstr "ไม่มีงาน"
 msgid "No jobs ran on this day"
 msgstr "ไม่มีงานรันในวันนี้"
 
+msgid "No jobs selected"
+msgstr ""
+
 msgid "No live-connected devices are available to browse this job"
 msgstr "ไม่มีอุปกรณ์ที่เชื่อมต่อแบบสดเพื่อเรียกดูงานนี้"
 
-msgid "No matching records found"
-msgstr "ไม่พบบันทึกที่ตรงกัน"
+msgid "No Node Selected"
+msgstr ""
+
+msgid "No objects were supplied to compose a snapshot from"
+msgstr ""
+
+msgid "No partition tool found"
+msgstr ""
+
+#. Definition of "Exchange": This is an email server platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Exchange_Server
+msgid "No password is exchanged. The server grants access based on the user and group ID this client presents, so the server's export rules and the network path must both be trusted."
+msgstr ""
 
 msgid "No paths selected for backup"
 msgstr "ไม่ได้เลือกพาธสำหรับการสำรองข้อมูล"
@@ -5781,6 +6702,9 @@ msgstr "ไม่ได้เลือกพาธสำหรับการก
 
 msgid "No policies available"
 msgstr "ไม่มีนโยบายที่พร้อมใช้งาน"
+
+msgid "No previous backup job can be safely used for deduplication until the next retention pass completes; running this backup without deduplicating"
+msgstr ""
 
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "No Protected Item type is selected"
@@ -5794,11 +6718,18 @@ msgstr "ไม่มีประเภทรายการที่ได้ร
 msgid "No Protected Items"
 msgstr "ไม่มีรายการที่ได้รับการป้องกัน"
 
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+msgid "No Proxmox storage target was selected for the restored virtual machines. Please select a destination node and storage target, then try again."
+msgstr ""
+
 msgid "No recovery image features are available on your PC."
 msgstr "ไม่มีคุณสมบัติอิมเมจการกู้คืนในพีซีของคุณ"
 
-msgid "No results..."
-msgstr "ไม่มีผลลัพธ์..."
+msgid "No rule selected"
+msgstr ""
+
+msgid "No rules defined. Click + to add your first rule — for example, include the entire organization. New accounts in the organization are protected automatically by an \"All accounts\" rule."
+msgstr ""
 
 msgid "No schedule"
 msgstr "ไม่มีกำหนดการ"
@@ -5812,8 +6743,25 @@ msgstr "ไม่ได้ตั้งกำหนดการไว้"
 msgid "No selected options"
 msgstr "ไม่มีตัวเลือกที่เลือก"
 
+#, c-format
+msgid "No selected services are available on Backup Object %s."
+msgstr ""
+
+msgid "No services"
+msgstr ""
+
+#, qt-format
+msgid "No single unallocated region on disk %1 is large enough for a new partition."
+msgstr ""
+
+msgid "No snapshot time was supplied for the composed snapshot"
+msgstr ""
+
 msgid "No source device and restore target selected for restore"
 msgstr "ไม่มีอุปกรณ์ต้นทางและเป้าหมายการกู้คืนข้อมูลถูกเลือกไว้สำหรับการกู้คืนข้อมูล"
+
+msgid "No SourceRef was supplied for the composed snapshot"
+msgstr ""
 
 msgid "No storage location was chosen"
 msgstr "ไม่ได้เลือกตำแหน่งที่ตั้งในการจัดเก็บข้อมูล"
@@ -5833,6 +6781,16 @@ msgstr "ไม่มี Storage Vault สำหรับการกู้คื
 msgid "No time span selected for report! This may cause overly large reports."
 msgstr "ไม่ได้เลือกช่วงเวลาของรายงาน! อาจทำให้รายงานมีขนาดใหญ่เกินไป"
 
+msgid "No unallocated space on this disk."
+msgstr ""
+
+#, qt-format
+msgid "No usable adjacent unallocated space on partition %1."
+msgstr ""
+
+msgid "No usable index of packs was found for this snapshot. Loading the full index."
+msgstr ""
+
 msgid "No users found"
 msgstr "ไม่พบผู้ใช้"
 
@@ -5850,9 +6808,20 @@ msgstr "ไม่มีการเลือกเครื่องเสมื
 msgid "No VMs found, or no permission to enumerate VMs"
 msgstr "ไม่พบ VM หรือไม่ได้รับอนุญาตให้ระบุ VMs"
 
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#. Definition of "VMs": Abbreviation of 'Virtual Machines'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "No VMs found: the configured node is empty"
+msgstr ""
+
 #. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
 msgid "No volumes selected"
 msgstr "ไม่ได้เลือก volume"
+
+msgid "Node"
+msgstr ""
+
+msgid "Nodes:"
+msgstr ""
 
 msgid "none"
 msgstr "ไม่มี"
@@ -5888,11 +6857,14 @@ msgstr "ไม่ใช่ตัวเลข"
 msgid "Not all of..."
 msgstr "ไม่ใช่ทั้งหมด..."
 
-msgid "Not Available"
-msgstr "ไม่สามารถใช้ได้"
+msgid "Not backed up: no rule matches this service"
+msgstr ""
 
 msgid "Not configured"
 msgstr "ไม่ได้กำหนดค่า"
+
+msgid "Not covered by any rule"
+msgstr ""
 
 msgid "Not currently running"
 msgstr "ไม่ได้ทำงานอยู่ในขณะนี้"
@@ -5927,6 +6899,9 @@ msgstr "ไม่ถูกระงับ"
 
 msgid "Not yet run"
 msgstr "ยังไม่ทำงาน"
+
+msgid "Not Yet Started"
+msgstr ""
 
 msgid "Note"
 msgstr "Note"
@@ -5985,6 +6960,16 @@ msgstr "จำนวนผู้ใช้งาน"
 msgid "Object Lock"
 msgstr "ล็อกวัตถุ"
 
+#. / TRANSLATORS: %s is the name of a Microsoft 365 object (e.g. a mailbox email address) in a backup snapshot
+#, c-format
+msgid "Object node '%s' has neither a subtree nor content"
+msgstr ""
+
+#. / TRANSLATORS: %s is the name of a Microsoft 365 object (e.g. a mailbox email address) in a backup snapshot
+#, c-format
+msgid "Object node '%s' is directory-typed but has no subtree"
+msgstr ""
+
 msgid "Oct"
 msgstr "ต.ค."
 
@@ -5994,10 +6979,6 @@ msgstr "ตุลาคม"
 #. An On/Off toggle switch
 msgid "Off"
 msgstr "ปิด"
-
-#. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
-msgid "Office 365 Germany"
-msgstr "Office 365 Germany"
 
 #. Definition of "21Vianet": This is the name of the company that hosts the Office 365 datacenter in China. If an official translation is available, it should be used. https://docs.microsoft.com/en-us/microsoft-365/admin/services-in-china/services-in-china?view=o365-21vianet
 #. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
@@ -6022,15 +7003,15 @@ msgstr "ออฟไลน์"
 msgid "Offline Devices"
 msgstr "อุปกรณ์ออฟไลน์"
 
+msgid "Offline license limits exceeded. Check your license for details."
+msgstr ""
+
 msgid "Offset"
 msgstr "ออฟเซ็ต"
 
 #, qt-format
 msgid "offset by %1"
 msgstr "ออฟเซ็ตด้วย %1"
-
-msgid "Ok"
-msgstr ""
 
 msgid "OK"
 msgstr "ตกลง"
@@ -6106,6 +7087,12 @@ msgstr "การสำรองข้อมูลหนึ่งครั้ง
 msgid "One backup yearly on the %2 month, for the last %1 year(s)"
 msgstr "การสำรองข้อมูลหนึ่งครั้งต่อปี ใน %2 เดือนสำหรับ %1 ปีสุดท้าย"
 
+#. Definition of "API": An interface for programs to communicate with each other. https://en.wikipedia.org/wiki/API
+#. Definition of "HTTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
+#. Definition of "HTTPS": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/HTTPS
+msgid "One origin per line. Origins that the code needs to contact are added to the web interface Content-Security-Policy. For example, Mixpanel requires https://api-js.mixpanel.com and Google Analytics requires https://www.google-analytics.com"
+msgstr ""
+
 #. Definition of "OneDrive": This is a cloud storage platform from Microsoft. The _O_ and _D_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_OneDrive
 msgid "OneDrive"
 msgstr "OneDrive"
@@ -6136,8 +7123,17 @@ msgstr "สำรองข้อมูลเฉพาะพื้นที่ท
 msgid "Only keep"
 msgstr "เก็บไว้เพียง"
 
+msgid "Only on:"
+msgstr ""
+
 msgid "Only ONE system should have this role enabled. Enabling this on multiple systems in the cluster may cause data loss."
 msgstr "ระบบควรเปิดใช้งานบทบาทนี้บนระบบเดียวเท่านั้น การเปิดใช้งานบนหลายระบบในคลัสเตอร์อาจทำให้ข้อมูลสูญหาย"
+
+msgid "Only the exact file paths listed here may be loaded as PKCS#11 modules."
+msgstr ""
+
+msgid "Only the exact PKCS#11 driver module file paths listed here may be loaded during Authenticode codesigning. This is a defense-in-depth measure on top of the existing Storage Gateway blocklist."
+msgstr ""
 
 msgid "Only the selected resources will be backed up"
 msgstr "เฉพาะ resources ที่เลือกไว้จะถูกสำรองข้อมูล"
@@ -6148,11 +7144,19 @@ msgstr "เปิดโฟลเดอร์"
 msgid "Open Source licenses"
 msgstr "ใบอนุญาต Open Source"
 
+#. Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
+msgid "Open the Comet Account Portal in a new tab"
+msgstr ""
+
 msgid "Open:"
 msgstr "เปิด:"
 
 msgid "OpenID Connect"
 msgstr "เชื่อมต่อ OpenID"
+
+#. Definition of "NinjaOne": This is a commercial RMM (Remote Monitoring and Management) platform. The _N_ and _O_ are both capitalized in this brand name. If an official translation is available, it should be used. https://www.ninjaone.com/
+msgid "Opening NinjaOne..."
+msgstr ""
 
 msgid "OpenStack Swift"
 msgstr "OpenStack Swift"
@@ -6173,6 +7177,9 @@ msgstr "ดำเนินการเสร็จเรียบร้อยแ
 msgid "Operation completed."
 msgstr "ดำเนินการเสร็จสิ้น"
 
+msgid "Operation in progress"
+msgstr ""
+
 msgid "Operation interrupted"
 msgstr "การทำงานหยุดชะงัก"
 
@@ -6183,6 +7190,9 @@ msgstr "กำลัง optimize สแนปชอต '%s' โปรดรอ�
 msgid "Optional"
 msgstr "ไม่จำเป็น"
 
+msgid "Optional - distinguishes this report in the list"
+msgstr ""
+
 msgid "Optional settings"
 msgstr "การตั้งค่าเสริม"
 
@@ -6191,6 +7201,12 @@ msgstr "ไม่บังคับ ค่าเริ่มต้น ปิด"
 
 msgid "Optional, default on"
 msgstr "ไม่บังคับ ค่าเริ่มต้น เปิด"
+
+msgid "Optional. When set, this name is shown in the report list to help you tell reports apart. When left blank, the report is labeled by its type (e.g. \"Summary report\")."
+msgstr ""
+
+msgid "Optional. When set, this name is shown in the report list to help you tell reports apart. When left blank, the report is labeled by its type (e.g. \"Summary table\")."
+msgstr ""
 
 msgid "Options"
 msgstr "ตัวเลือก"
@@ -6201,15 +7217,17 @@ msgstr "OR"
 msgid "or newer"
 msgstr "หรือใหม่กว่า"
 
+msgid "Order"
+msgstr ""
+
+msgid "Organization"
+msgstr ""
+
 msgid "original cloud location(s)"
 msgstr "ตำแหน่งบนคลาวด์ต้นฉบับ"
 
 msgid "original location(s)"
 msgstr "ตำแหน่งที่ตั้งต้นฉบับ"
-
-#, c-format
-msgid "Orphaned disk (%s)"
-msgstr "ดิสก์ที่ไม่มีเจ้าของ (%s)"
 
 msgid "other"
 msgstr "อื่นๆ"
@@ -6233,6 +7251,9 @@ msgstr "ผู้ให้บริการพื้นที่เก็บข
 
 msgid "Other Tenant"
 msgstr "Tenant อื่น"
+
+msgid "Out of memory error encountered"
+msgstr ""
 
 msgid "Outdated"
 msgstr "ล้าสมัย"
@@ -6265,9 +7286,6 @@ msgstr "เจ้าของ"
 msgid "Package ID"
 msgstr "รหัสแพ็คเกจ"
 
-msgid "Page"
-msgstr "หน้า"
-
 msgid "Page title"
 msgstr "Page title"
 
@@ -6280,11 +7298,20 @@ msgstr "Pagefile"
 msgid "Partial (Delete from remote only when deleted locally; do not delete unknown users)"
 msgstr "บางส่วน (ลบจาก remote เมื่อลบจาก local เท่านั้น ไม่ลบผู้ใช้ที่ไม่รู้จัก)"
 
+msgid "Partition"
+msgstr ""
+
 msgid "Partition conflict identified"
 msgstr "พบความขัดแย้งของพาร์ทิชัน"
 
 msgid "Partition ID"
 msgstr "รหัสพาร์ทิชัน"
+
+msgid "Partition Table"
+msgstr ""
+
+msgid "Partitions"
+msgstr ""
 
 msgid "Partner Key"
 msgstr "รหัสพาร์ทเนอร์"
@@ -6303,6 +7330,10 @@ msgstr "รหัสผ่าน"
 
 msgid "Password"
 msgstr "รหัสผ่าน"
+
+#, c-format
+msgid "Password failed to update at endpoint with error: %s"
+msgstr ""
 
 msgid "Password for this account"
 msgstr "รหัสผ่านสำหรับบัญชีนี้"
@@ -6341,6 +7372,12 @@ msgstr "วางการตั้งค่า"
 msgid "Paste system settings here to view changes"
 msgstr "วางการตั้งค่าระบบที่นี่เพื่อดูการเปลี่ยนแปลง"
 
+#. Definition of "HTTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
+#. Definition of "HTTPS": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/HTTPS
+#. Definition of "Slack": This is a commercial messaging and chat app. If an official translation is available, it should be used. https://slack.com/
+msgid "Paste the Incoming Webhook URL from your Slack app (https://hooks.slack.com/services/...)."
+msgstr ""
+
 msgid "Path"
 msgstr "Path"
 
@@ -6366,12 +7403,18 @@ msgstr "รอดำเนินการ"
 msgid "Perform a %s to refresh the result data."
 msgstr "ดำเนินการ %s เพื่อรีเฟรชข้อมูลผลลัพธ์"
 
+msgid "Perform a quick format"
+msgstr ""
+
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Performing a deep verification of Vault content may cause the client to download a lot of data from the Storage Vault."
 msgstr "การตรวจสอบเนื้อหาใน Vault อย่างละเอียดอาจทำให้ไคลเอ็นต์ดาวน์โหลดข้อมูลจำนวนมากจาก Storage Vault"
 
 msgid "Periodic"
 msgstr "เป็นระยะ"
+
+msgid "Permissions"
+msgstr ""
 
 msgid "Permitted"
 msgstr "ได้รับอนุญาต"
@@ -6380,12 +7423,22 @@ msgstr "ได้รับอนุญาต"
 msgid "Persisting Storage Vault status..."
 msgstr "สถานะ Storage Vault ที่คงอยู่..."
 
+#. Definition of "API": An interface for programs to communicate with each other. https://en.wikipedia.org/wiki/API
+msgid "Personal API tokens"
+msgstr ""
+
 msgid "Pictures"
 msgstr "รูปภาพ"
+
+msgid "PKCS#11 Module Allowlist"
+msgstr ""
 
 #. Definition of "PKCS12": This is the file format used for PKCS #12 SSL certificates. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/PKCS_12
 msgid "PKCS12"
 msgstr "PKCS12"
+
+msgid "Placement"
+msgstr ""
 
 msgid "Plain"
 msgstr "Plain"
@@ -6400,8 +7453,14 @@ msgstr "แพลตฟอร์ม"
 msgid "Please add items to the Protected Item."
 msgstr "โปรดเพิ่มรายการไปยัง Protected Item"
 
+msgid "Please be aware offline devices will not be updated and will need to be updated manually. Are you sure you want to proceed?"
+msgstr ""
+
 msgid "Please bring this device online"
 msgstr "โปรดนำอุปกรณ์นี้ออนไลน์"
+
+msgid "Please choose a cloud storage location."
+msgstr ""
 
 #. Definition of "Azure": This is a cloud computing service from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Azure
 #. Definition of "Azure AD": Azure AD (Active Directory) is a user account management system within Microsoft Azure. If an official translation is available, it should be used. https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis
@@ -6439,9 +7498,11 @@ msgstr "โปรดแก้ไขวันทีและเวลาข้า
 msgid "Please ensure that you have taken a System Self-Backup before performing this operation."
 msgstr "โปรดตรวจสอบให้แน่ใจว่าคุณได้ทำการสำรองข้อมูลระบบด้วยตัวเอง (System Self-Backup) ก่อนดำเนินการนี้"
 
-#, c-format
-msgid "Please enter a full path to the output archive file, using a supported file extension (%s)."
-msgstr "โปรดป้อนเส้นทางแบบเต็มไปยังไฟล์ผลลัพธ์ที่เก็บถาวร โดยใช้นามสกุลไฟล์ที่รองรับ (%s)"
+msgid "Please enter a directory"
+msgstr ""
+
+msgid "Please enter a filename"
+msgstr ""
 
 msgid "Please enter a group name"
 msgstr "กรุณากรอกชื่อกลุ่ม"
@@ -6449,11 +7510,21 @@ msgstr "กรุณากรอกชื่อกลุ่ม"
 msgid "Please enter a hostname or IP address for this Tenant:"
 msgstr "โปรดป้อนชื่อโฮสต์หรือที่อยู่ IP สำหรับผู้เช่านี้:"
 
+msgid "Please enter a name."
+msgstr ""
+
 msgid "Please enter a valid IP address."
 msgstr "โปรดป้อนที่อยู่ IP ที่ถูกต้อง"
 
+msgid "Please enter an absolute path"
+msgstr ""
+
 msgid "Please enter an absolute path to the target output file."
 msgstr "โปรดป้อนเส้นทางที่แน่นอนไปยังไฟล์เอาต์พุตเป้าหมาย"
+
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+msgid "Please enter the Proxmox server address."
+msgstr ""
 
 msgid "Please enter your 6-digit authenticator code"
 msgstr "โปรดใส่รหัสเครื่องยืนยันตัวตน 6 หลักของคุณ"
@@ -6463,6 +7534,9 @@ msgstr "โปรดป้อนที่อยู่อีเมลของค
 
 msgid "Please input a single file or folder path."
 msgstr "โปรดป้อนพาธของไฟล์หรือโฟลเดอร์เดียว"
+
+msgid "Please log in again."
+msgstr ""
 
 msgid "Please make sure that object lock is enabled on your S3 bucket."
 msgstr "โปรดตรวจสอบให้แน่ใจว่าเปิดใช้งานการล็อควัตถุบน Bucket S3 ของคุณ"
@@ -6484,15 +7558,27 @@ msgstr "โปรดกู้คืนพาร์ติชั่นนี้โ
 msgid "Please restore this snapshot using one of the other options, or else select a newer snapshot."
 msgstr "โปรดกู้คืนสแน็ปช็อตนี้โดยใช้วิธีอื่น หรือไม่ก็เลือกสแน็ปช็อตที่ใหม่กว่า"
 
+msgid "Please select a destination node and storage target for the restored virtual machines."
+msgstr ""
+
+msgid "Please select a node before viewing the available storage options."
+msgstr ""
+
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Please select a Storage Vault to restore from:"
 msgstr "โปรดเลือก Storage Vault เพื่อกู้คืนจาก:"
+
+msgid "Please select an account for this rule."
+msgstr ""
 
 msgid "Please select an available USB drive:"
 msgstr "โปรดเลือกไดรฟ์ USB ที่ใช้ได้:"
 
 msgid "Please select an online device to control:"
 msgstr "โปรดเลือกอุปกรณ์ออนไลน์เพื่อควบคุม:"
+
+msgid "Please select at least one service for this rule."
+msgstr ""
 
 msgid "Please select one disk or partition for restore."
 msgstr "โปรดเลือกดิสก์หรือพาร์ติชั่นหนึ่งรายการเพื่อกู้คืน"
@@ -6564,6 +7650,9 @@ msgstr "อัปเดตนโยบายแล้ว ข้อมูลเ�
 msgid "Popular Storage Providers"
 msgstr "ผู้ให้บริการพื้นที่เก็บข้อมูลยอดนิยม"
 
+msgid "Popup blocked — allow pop-ups for this site and try again"
+msgstr ""
+
 msgid "Popup browser"
 msgstr "เบราว์เซอร์ป๊อปอัป"
 
@@ -6604,9 +7693,6 @@ msgstr "กำลังเตรียม Storage Vault สำหรับกา
 
 msgid "Prevent changing email settings"
 msgstr "ป้องกันการเปลี่ยนการตั้งค่าอีเมล"
-
-msgid "Prevent changing password"
-msgstr "ป้องกันการเปลี่ยนรหัสผ่าน"
 
 msgid "Prevent changing user account name"
 msgstr "ป้องกันการเปลี่ยนชื่อบัญชีผู้ใช้"
@@ -6656,20 +7742,16 @@ msgstr "ป้องกันการเปิดแอปพลิเคชั
 msgid "Prevent Protected Items from overriding the Storage Vault retention policy"
 msgstr "ป้องกันรายการ Protected Item จากการแทนที่นโยบายการเก็บรักษาของ Storage Vault"
 
-msgid "Prevent shutting down and restarting server"
-msgstr "ป้องกันการปิดและรีสตาร์ทเซิร์ฟเวอร์"
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Prevent users from editing the Storage Vaults created from this template"
+msgstr ""
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Prevent users from editing this Storage Vault"
+msgstr ""
 
 msgid "Prevent users from viewing the actual storage type"
 msgstr "ป้องกันผู้ใช้จากการดูประเภทการจัดเก็บจริง"
-
-msgid "Prevent viewing and editing system settings"
-msgstr "ป้องกันการตั้งค่าการดูและแก้ไขระบบ"
-
-msgid "Prevent viewing system history on dashboard"
-msgstr "ป้องกันประวัติระบบการดูบนแดชบอร์ด"
-
-msgid "Prevent viewing system info on dashboard"
-msgstr "ป้องกันข้อมูลระบบการดูบนแดชบอร์ด"
 
 msgid "Preventing snapshot re-use"
 msgstr "ป้องกันการนำสแนปชอตกลับมาใช้ใหม่"
@@ -6698,6 +7780,9 @@ msgstr "ปีก่อน"
 msgid "Primary"
 msgstr "เบื้องต้น"
 
+msgid "Primary node address"
+msgstr ""
+
 msgid "Primary Preferred"
 msgstr "หลักที่ต้องการ"
 
@@ -6706,6 +7791,9 @@ msgstr "ลำดับความสำคัญ"
 
 msgid "Private key"
 msgstr "คีย์ส่วนตัว"
+
+msgid "Private Key"
+msgstr ""
 
 msgid "Proceed"
 msgstr "ดำเนินการ"
@@ -6736,9 +7824,6 @@ msgstr "กำลังประมวลผลชุดข้อมูลสำ
 #, c-format
 msgid "Processing Storage Vault %d of %d..."
 msgstr "กำลังประมวลผล Storage Vault %d จาก %d..."
-
-msgid "Processing..."
-msgstr "กำลังดำเนินการ..."
 
 msgid "Product name"
 msgstr "ชื่อผลิตภัณฑ์"
@@ -6804,6 +7889,10 @@ msgid "Protected Item name"
 msgstr "ชื่อ Protected Item"
 
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "Protected Item not found."
+msgstr ""
+
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "Protected Item Size"
 msgstr "ขนาด Protected Item"
 
@@ -6864,6 +7953,47 @@ msgstr "จัดเตรียม Storage Vaults ให้โดยอัต�
 msgid "Provision Storage Vaults once, when this user is created"
 msgstr "จัดเตรียม Storage Vaults เพียงครั้งเดียว เมื่อผู้ใช้นี้ถูกสร้างขึ้น"
 
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+msgid "Proxmox"
+msgstr ""
+
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+#, c-format
+msgid "Proxmox container root filesystem has no declared size, estimating as %s"
+msgstr ""
+
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+#, c-format
+msgid "Proxmox container root filesystem is too small, enlarging to %s"
+msgstr ""
+
+#. Definition of "LXC": An abbreviation for Linux Containers, a lightweight alternative to virtual machines on Linux. It should not be translated. https://linuxcontainers.org/
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+msgid "Proxmox Guest LXCs"
+msgstr ""
+
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#. Definition of "VMs": Abbreviation of 'Virtual Machines'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Proxmox Guest VMs"
+msgstr ""
+
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+msgid "Proxmox nodes"
+msgstr ""
+
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+msgid "Proxmox quota notice"
+msgstr ""
+
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+msgid "Proxmox storage locations"
+msgstr ""
+
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+msgid "Proxmox Virtual Environment"
+msgstr ""
+
 msgid "Prune unused buckets"
 msgstr "ทำกระบวนการ Pruning กับ Bucket ที่ไม่ได้ใช้"
 
@@ -6878,6 +8008,9 @@ msgstr "PSA"
 msgid "PSA & Alerting Services"
 msgstr "PSA และบริการแจ้งเตือน"
 
+msgid "Public Key"
+msgstr ""
+
 msgid "Published"
 msgstr "เผยแพร่"
 
@@ -6886,6 +8019,9 @@ msgstr "คิวล่าช้า"
 
 msgid "Queue length"
 msgstr "ความยาวคิว"
+
+msgid "Quick format"
+msgstr ""
 
 msgid "Quit"
 msgstr "ปิด"
@@ -6899,11 +8035,35 @@ msgstr "เกินโควต้า"
 msgid "Quota Exceeded"
 msgstr "เกินโควต้า"
 
+#. Definition of "LXC": An abbreviation for Linux Containers, a lightweight alternative to virtual machines on Linux. It should not be translated. https://linuxcontainers.org/
+#, qt-format
+msgid "Quota limit reached. Reduce the size of LXCs selected to %1 to continue."
+msgstr ""
+
+#. Definition of "LXC": An abbreviation for Linux Containers, a lightweight alternative to virtual machines on Linux. It should not be translated. https://linuxcontainers.org/
+#, c-format
+msgid "Quota limit reached. Reduce the size of LXCs selected to %d to continue"
+msgstr ""
+
+#. Definition of "LXC": An abbreviation for Linux Containers, a lightweight alternative to virtual machines on Linux. It should not be translated. https://linuxcontainers.org/
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#. Definition of "VMs": Abbreviation of 'Virtual Machines'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#, qt-format
+msgid "Quota limit reached. Reduce the size of VMs selected to %1 and LXCs selected to %2 to continue."
+msgstr ""
+
 #. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
 #. Definition of "VMs": Abbreviation of 'Virtual Machines'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
 #, qt-format
 msgid "Quota limit reached. Reduce the size of VMs selected to %1 to continue."
 msgstr "ถึงขีดจำกัดโควต้าแล้ว โปรดลดขนาดของ Vm %1 ที่เลือกเพื่อดำเนินการต่อ"
+
+#. Definition of "LXC": An abbreviation for Linux Containers, a lightweight alternative to virtual machines on Linux. It should not be translated. https://linuxcontainers.org/
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#. Definition of "VMs": Abbreviation of 'Virtual Machines'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#, c-format
+msgid "Quota limit reached. Reduce the size of VMs selected to %d and LXCs selected to %d to continue"
+msgstr ""
 
 #. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
 #. Definition of "VMs": Abbreviation of 'Virtual Machines'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
@@ -6926,11 +8086,20 @@ msgstr "ช่วง"
 msgid "Raw byte range"
 msgstr "ช่วงไบต์ดิบ"
 
+msgid "Raw JSON"
+msgstr ""
+
 msgid "Re-enter password:"
 msgstr "ป้อนรหัสผ่านอีกครั้ง:"
 
 msgid "Re-entered password does not match"
 msgstr "รหัสผ่านที่ป้อนใหม่ไม่ตรงกัน"
+
+msgid "Re-running backup job using temporary files"
+msgstr ""
+
+msgid "Re-running retention job using temporary files"
+msgstr ""
 
 msgid "Re-running retention pass now..."
 msgstr "เรียกใช้บัตรผ่านการเก็บรักษาอีกครั้งทันที..."
@@ -7008,6 +8177,10 @@ msgstr "รีเฟรชโปรไฟล์"
 #, c-format
 msgid "Refusing to assign selected policy to user '%s' belonging to a different Tenant"
 msgstr "ปฏิเสธการกำหนดนโยบายที่เลือกให้กับผู้ใช้ '%s' ซึ่งเป็นของผู้เช่ารายอื่น"
+
+#, c-format
+msgid "Refusing to restore to '%s': this device contains the currently running operating system. To restore over the operating system disk, boot this computer from the recovery media and run the restore from there."
+msgstr ""
 
 msgid "Refusing to save IP access restriction that would block out your current IP"
 msgstr "ปฏิเสธการบันทึกข้อจำกัดการเข้าถึง IP ที่จะปิดกั้น IP ปัจจุบันของคุณ"
@@ -7101,6 +8274,9 @@ msgstr "ลบการตั้งค่าผู้ใช้ทั้งหม
 #, c-format
 msgid "Remove all user settings from %d online devices"
 msgstr "ลบการตั้งค่าผู้ใช้ทั้งหมดออกจากอุปกรณ์ออนไลน์ %d เครื่อง"
+
+msgid "Remove rule"
+msgstr ""
 
 msgid "Remove user(s) from group"
 msgstr "ลบผู้ใช้ออกจากกลุ่ม"
@@ -7206,10 +8382,6 @@ msgstr "ประเภทรายงาน"
 msgid "Report Type"
 msgstr "ประเภทรายงาน"
 
-#, c-format
-msgid "Reported %d errors of this type, not reporting any more"
-msgstr "รายงานข้อผิดพลาดประเภทนี้ %d รายการ ไม่รายงานอีกต่อไป"
-
 msgid "Reporting"
 msgstr "การรายงาน"
 
@@ -7243,6 +8415,9 @@ msgstr "การเรียกร้องที่จำเป็น"
 msgid "Reset"
 msgstr "รีเซ็ต"
 
+msgid "Reset Options"
+msgstr ""
+
 msgid "Reset password"
 msgstr "รีเซ็ตรหัสผ่าน"
 
@@ -7261,6 +8436,9 @@ msgstr "กู้คืนข้อมูล"
 
 msgid "Restore any selected disks or partitions directly back to this computer. This will overwrite your local drives with the restored data."
 msgstr "กู้คืนดิสก์หรือพาร์ติชั่นที่เลือกกลับมายังคอมพิวเตอร์เครื่องนี้โดยตรง การดำเนินการนี้จะเขียนทับไดรฟ์ในเครื่องของคุณด้วยข้อมูลที่กู้คืน"
+
+msgid "Restore any selected virtual machines as config files and disk images."
+msgstr ""
 
 #. Definition of "Hyper-V": This is a Virtual Machine hosting platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Hyper-V
 msgid "Restore any selected virtual machines in their original Hyper-V file formats. Select this option if you intend to re-import into Hyper-V, or to restore the virtual hard disk files alone."
@@ -7282,6 +8460,9 @@ msgstr "ตัวเลือกการกู้คืน"
 
 msgid "Restore Queue"
 msgstr "คิวกู้คืนข้อมูล"
+
+msgid "Restore selected files and folders to a cloud or remote storage location."
+msgstr ""
 
 msgid "Restore Selected Files..."
 msgstr "กู้คืนข้อมูลไฟล์ที่เลือก..."
@@ -7306,6 +8487,10 @@ msgstr "กู้คืนไฟล์ฮาร์ดดิสก์เสมื
 #. Definition of "Hyper-V": This is a Virtual Machine hosting platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Hyper-V
 msgid "Restore this disk image backup job as a new virtual machine in Hyper-V."
 msgstr "กู้คืนงานสำรองภาพดิสก์นี้เป็นเครื่องเสมือนใหม่ใน Hyper-V"
+
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+msgid "Restore this disk image backup job as a new virtual machine in Proxmox"
+msgstr ""
 
 #. Definition of "VMware": This is a company that developers Virtual Machine software. The _V_ and _M_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware
 #. Definition of "vSphere": This is a range of Virtual Machine products and services from VMware. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware_vSphere
@@ -7344,14 +8529,26 @@ msgstr "กู้คืนข้อมูลไปยัง พาธต้น�
 msgid "Restore to physical device(s)"
 msgstr "กู้คืนข้อมูลไปยัง physical device"
 
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+msgid "Restore to Proxmox"
+msgstr ""
+
 #. Definition of "VMware": This is a company that developers Virtual Machine software. The _V_ and _M_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware
 #. Definition of "vSphere": This is a range of Virtual Machine products and services from VMware. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware_vSphere
 msgid "Restore to VMware vSphere"
 msgstr "คืนค่าเป็น vmware vsphere"
 
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Restore unsuccessful. Removing created vm and disks"
+msgstr ""
+
 #. Definition of "Hyper-V": This is a Virtual Machine hosting platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Hyper-V
 msgid "Restore virtual machines from the backup job into Hyper-V."
 msgstr "กู้คืนเครื่องเสมือนจากงานสำรองเป็น Hyper-V"
+
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+msgid "Restore virtual machines from the backup job into Proxmox."
+msgstr ""
 
 #. Definition of "VMware": This is a company that developers Virtual Machine software. The _V_ and _M_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware
 #. Definition of "vSphere": This is a range of Virtual Machine products and services from VMware. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware_vSphere
@@ -7365,6 +8562,11 @@ msgstr "กู้คืนข้อมูล %d ไดเรกทอรีแ�
 #, c-format
 msgid "Restoring %s to %s"
 msgstr "กำลังกู้คืน %s เป็น %s"
+
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#, c-format
+msgid "Restoring VM '%s' (ID: '%s') on node '%s' using storage '%s'"
+msgstr ""
 
 #. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
 #, c-format
@@ -7388,6 +8590,9 @@ msgstr "จำกัดชั่วโมง"
 msgid "Restriction"
 msgstr "Restriction (การจำกัด)"
 
+msgid "Restrictions"
+msgstr ""
+
 msgid "Retention"
 msgstr "Retention (การเก็บรักษา)"
 
@@ -7401,6 +8606,13 @@ msgstr "นโยบายการเก็บรักษาจะใช้ก
 
 msgid "Retention Range"
 msgstr "ช่วงเวลาการเก็บรักษา"
+
+#. Definition of "WebAuthn": This is a standard for two-factor authentication. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/WebAuthn
+msgid "Retry WebAuthn"
+msgstr ""
+
+msgid "Return backup agent to login screen"
+msgstr ""
 
 msgid "Revert to default"
 msgstr "เปลี่ยนกลับเป็นค่าเริ่มต้น"
@@ -7420,6 +8632,18 @@ msgstr "หมุนคีย์การเข้าถึง Storage Vault ห
 
 msgid "Rule"
 msgstr "กฎ"
+
+msgid "Rule type"
+msgstr ""
+
+msgid "Rules"
+msgstr ""
+
+msgid "Rules (applied from top to bottom; later rules override earlier ones):"
+msgstr ""
+
+msgid "Rules are applied from top to bottom, and later rules override earlier ones. For each account and service, the last matching rule decides whether it is backed up. Anything not matched by any rule is not backed up."
+msgstr ""
 
 msgid "Run"
 msgstr "รัน"
@@ -7480,6 +8704,10 @@ msgstr "รองรับการใช้งาน S3"
 msgid "S3-compatible (Object Lock)"
 msgstr "รองรับการใช้งาน S3 (ล็อควัตถุ)"
 
+#. Definition of "SAS Relic": The open-source codesigning server. It should not be translated. https://github.com/sassoftware/relic
+msgid "SAS Relic server"
+msgstr ""
+
 msgid "Sat"
 msgstr "วันเสาร์"
 
@@ -7500,6 +8728,9 @@ msgstr "บันทึก"
 msgid "Save as"
 msgstr "บันทึกเป็น"
 
+msgid "Save as saved search..."
+msgstr ""
+
 msgid "Save changes"
 msgstr "บันทึกการเปลี่ยนแปลง"
 
@@ -7511,6 +8742,10 @@ msgstr "บันทึกนโยบาย"
 
 msgid "Save report as..."
 msgstr "บันทึกรายงานเป็น..."
+
+#. noun, a saved job search. Used in "Add Saved Search", "Delete Saved Search", "Edit Saved Search".
+msgid "Saved Search"
+msgstr ""
 
 msgid "Saving updated index..."
 msgstr "กำลังบันทึกดัชนีที่อัปเดต..."
@@ -7568,9 +8803,6 @@ msgstr "กำหนดการ"
 
 msgid "Scopes"
 msgstr "ขอบเขต"
-
-msgid "Screen resolution"
-msgstr "ความละเอียดหน้าจอ"
 
 msgid "Search"
 msgstr "ค้นหา"
@@ -7646,11 +8878,6 @@ msgstr "เลือกไฟล์ผู้ออกใบรับรอง...
 msgid "Select a certificate file for the MySQL client certificate..."
 msgstr "เลือกไฟล์ certificate สำหรับ MySQL clent certificate..."
 
-#. Definition of "Mongo": MongoDB is a commercial database program. If an official translation is available, it should be used. https://www.mongodb.com/
-#. Definition of "mongodump": This is the name of MongoDB's built-in backup program. It should not be translated. If an official translation is available, it should be used. https://www.mongodb.com/
-msgid "Select a custom mongodump binary..."
-msgstr "เลือกไบนารี mongodump ที่กำหนดเอง..."
-
 #. Definition of "MySQL": This is a database server from Oracle, that uses the SQL language. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/MySQL
 #. Definition of "mysqldump": This is the name of MySQL's built-in backup program. It should not be translated. https://en.wikipedia.org/wiki/MySQL
 msgid "Select a custom mysqldump binary..."
@@ -7659,6 +8886,12 @@ msgstr "เลือกไบนารี mysqldump ที่กำหนดเ�
 #. Definition of "known_hosts": This is the name of a file in the OpenSSH program. It should not be translated. https://man.openbsd.org/ssh
 msgid "Select a custom path to known_hosts file..."
 msgstr "เลือกพาธที่กำหนดเองไปยังไฟล์ known_hosts..."
+
+msgid "Select a disk and a partition first."
+msgstr ""
+
+msgid "Select a disk first."
+msgstr ""
 
 msgid "Select a driver file to include in the USB Recovery Media"
 msgstr "เลือกไฟล์ไดรเวอร์ที่จะรวมไว้ใน USB Recovery Media"
@@ -7710,6 +8943,9 @@ msgstr "เลือกตลังข้อมูลเพื่อดำเน
 msgid "Select a top directory for your include filter rules"
 msgstr "เลือกไดเร็กทอรีระดับบนสุดสำหรับกฎตัวกรองการรวมของคุณ"
 
+msgid "Select a trusted-root certificate to include in the USB Recovery Media"
+msgstr ""
+
 msgid "Select a User Profile to register the device(s) with:"
 msgstr "เลือกโปรไฟล์ผู้ใช้เพื่อลงทะเบียนอุปกรณ์ด้วย:"
 
@@ -7721,6 +8957,10 @@ msgstr "เลือกไดเร็กทอรีเพิ่มเติม
 
 msgid "Select an additional file to include in the USB Recovery Media"
 msgstr "เลือกไฟล์เพิ่มเติมที่จะรวมไว้ใน USB Recovery Media"
+
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "Select an existing partition. Use New Simple Volume to create one on unallocated space."
+msgstr ""
 
 #, qt-format
 msgid "Select an item from the list of %1."
@@ -7740,9 +8980,6 @@ msgstr "เลือกภาพระบบปฏิบัติการพื
 
 msgid "Select by Drive Letter (advanced)"
 msgstr "เลือกตามอักษรระบุไดรฟ์ (ขั้นสูง)"
-
-msgid "Select columns..."
-msgstr "เลือกคอลัมน์..."
 
 msgid "Select device:"
 msgstr "เลือกอุปกรณ์:"
@@ -7778,10 +9015,6 @@ msgstr "เลือกรายการ..."
 
 msgid "Select mailboxes..."
 msgstr "เลือกกล่องจดหมาย..."
-
-#. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
-msgid "Select Office 365 Services"
-msgstr "เลือก Office 365 Services"
 
 msgid "Select Policy"
 msgstr "เลือกนโยบาย"
@@ -7837,6 +9070,11 @@ msgstr "เลือกเครื่องเสมือนที่จะป
 msgid "Select virtual machines to restore into the hypervisor"
 msgstr "เลือกเครื่องเสมือนเพื่อกู้คืนสู่ Hypervisor"
 
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#. Definition of "VMs": Abbreviation of 'Virtual Machines'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Select VMs to back up"
+msgstr ""
+
 #. Definition of "VSS": This is a feature of Windows to assist in backing up files. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
 #. Definition of "VSS Writer": This is a type of driver installed in Windows to assist in backing up complex applications. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
 msgid "Select VSS Writer components for backup..."
@@ -7858,9 +9096,6 @@ msgstr "เลือกฐานข้อมูล EDB แล้ว %d จาก
 #, c-format
 msgid "Selected %d of %d virtual machine(s)."
 msgstr "เลือกเครื่อง virtual machine %d จาก %d เครื่อง"
-
-msgid "Selected accounts are not same type"
-msgstr "บัญชีที่เลือกไม่ใช่ประเภทเดียวกัน"
 
 #. Definition of "EDB": This is the file format used by the Exchange Server email server from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Exchange_Server
 #, c-format
@@ -7884,9 +9119,6 @@ msgstr "ไม่พบ virtual machine ที่เลือก"
 #, c-format
 msgid "Selected virtual machine not found: '%s'"
 msgstr "ไม่พบ virtual machine ที่เลือกไว้: '%s'"
-
-msgid "Selections have been migrated"
-msgstr ""
 
 msgid "Send"
 msgstr "ส่ง"
@@ -7937,6 +9169,9 @@ msgstr "ที่อยู่เซิฟเวอร์"
 msgid "Server CA file path"
 msgstr "พาธ Server CA file"
 
+msgid "Server field is empty"
+msgstr ""
+
 msgid "Server has been upgraded, please log in again."
 msgstr "เซิร์ฟเวอร์ได้รับการอัพเกรด กรุณาเข้าสู่ระบบอีกครั้ง"
 
@@ -7952,17 +9187,20 @@ msgstr "เซิฟเวอร์เริ่ม"
 msgid "Server Storage Settings"
 msgstr "การตั้งค่าที่เก็บข้อมูลเซิร์ฟเวอร์"
 
+msgid "Server URL"
+msgstr ""
+
 msgid "Server version"
 msgstr "เวอร์ชั่นเซิร์ฟเวอร์"
 
 msgid "Service"
 msgstr "บริการ"
 
+msgid "Service Board"
+msgstr ""
+
 msgid "Service bulletins are always enabled."
 msgstr "กระดานข่าวสารการให้บริการเปิดใช้งานอยู่เสมอ"
-
-msgid "Service Name"
-msgstr "Service Name"
 
 msgid "Service started"
 msgstr "Service เริ่มต้น"
@@ -7973,9 +9211,8 @@ msgstr "Service หยุดเป้นเหตุให้เกิดกา�
 msgid "Service stopped"
 msgstr "Service หยุด"
 
-#, qt-format
-msgid "Services of %1"
-msgstr "Services ของ %1"
+msgid "Services"
+msgstr ""
 
 msgid "Session expired, please log in again."
 msgstr "เซสชั่นหมดอายุ กรุณาเข้าสู่ระบบอีกครั้ง"
@@ -8017,6 +9254,12 @@ msgstr "SFTP"
 msgid "Share"
 msgstr "แชร์"
 
+msgid "Shared"
+msgstr ""
+
+msgid "Shared Quota"
+msgstr ""
+
 #. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
 msgid "SharePoint"
 msgstr "SharePoint"
@@ -8033,16 +9276,11 @@ msgstr ""
 msgid "SharePoint sites"
 msgstr "SharePoint sites"
 
-#. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
-msgid "SharePoint Team"
-msgstr ""
-
 msgid "Show"
 msgstr "แสดง"
 
-#, c-format
-msgid "Show %d entries"
-msgstr "แสดง %d รายการ"
+msgid "Show advanced actions"
+msgstr ""
 
 msgid "Show advanced options"
 msgstr "แสดงตัวเลือกขั้นสูง"
@@ -8052,6 +9290,14 @@ msgstr "แสดงทั้งหมด"
 
 msgid "Show all drives"
 msgstr "แสดงไดรฟ์ทั้งหมด"
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Show cloud storage branding in Storage Vaults"
+msgstr ""
+
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "Show deleted Protected Items"
+msgstr ""
 
 msgid "Show details"
 msgstr "แสดงรายละเอียด"
@@ -8083,9 +9329,31 @@ msgstr "แสดง Storage Vault ที่เก็บข้อมูลที
 msgid "Show unknown items"
 msgstr "แสดงรายการที่ไม่รู้จัก"
 
-#. Showing the first 1 to 5 entries in a table, out of 100 total results. 1=start 2=end 3=total
-msgid "Showing %[1]d to %[2]d of %[3]d entries"
-msgstr "กำลังแสดง %[1]d ถึง %[2]d จาก %[3]d รายการ"
+msgid "Showing default schedules from policy. These will be overridden if schedules are manually added to this item."
+msgstr ""
+
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+#, qt-format
+msgid "Shrink is not supported on %1 volumes."
+msgstr ""
+
+#, qt-format
+msgid "Shrink partition %1 on disk %2 by up to %3 MB. The filesystem may release less if unmovable files prevent the full shrink."
+msgstr ""
+
+msgid "Shrink requires a mounted filesystem — this partition has none."
+msgstr ""
+
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "Shrink Volume"
+msgstr ""
+
+#, qt-format
+msgid "Shrinking partition %1 on disk %2..."
+msgstr ""
+
+msgid "Shut down and restart server"
+msgstr ""
 
 msgid "Shut down server"
 msgstr "ปิดเซิร์ฟเวอร์"
@@ -8105,6 +9373,10 @@ msgstr "ลงชื่อเท่านั้น"
 msgid "Sign, notarise, and staple"
 msgstr "ลงชื่อ รับรองและเย็บเล่ม"
 
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "Simple volume size in MB:"
+msgstr ""
+
 msgid "Simulate restore only"
 msgstr "จำลองการกู้คืนข้อมูลเท่านั้น"
 
@@ -8113,6 +9385,9 @@ msgstr "Single"
 
 msgid "Single IP address"
 msgstr "ที่อยู่ IP เดี่ยว"
+
+msgid "Single-node mode requires a service-homogeneous selection; split mailbox and drive services into separate tasks."
+msgstr ""
 
 msgid "Site URL"
 msgstr "URL เว็บ"
@@ -8140,9 +9415,6 @@ msgstr "ข้ามการรับรองความถูกต้อง
 msgid "Skip if already running"
 msgstr "ข้ามหากกำลังรันอยู่"
 
-msgid "Skip Setup"
-msgstr "ข้ามการตั้งค่า"
-
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Skip this scheduled backup job if another backup job is already running for the same Protected Item and Storage Vault."
@@ -8151,6 +9423,17 @@ msgstr "ข้ามงานสำรองข้อมูลที่กำห
 msgid "Skipped"
 msgstr "ข้าม"
 
+msgid "Skipped (unsupported OS version)"
+msgstr ""
+
+msgid "Skipped (unsupported OS)"
+msgstr ""
+
+#. Definition of "OneDrive": This is a cloud storage platform from Microsoft. The _O_ and _D_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_OneDrive
+#, c-format
+msgid "Skipping %s: the OneDrive service is not selected for backup"
+msgstr ""
+
 #, c-format
 msgid "Skipping backupset '%s' for other machine '%s'"
 msgstr "ข้ามชุดสำรอง '%s' สำหรับเครื่องอื่น '%s'"
@@ -8158,6 +9441,18 @@ msgstr "ข้ามชุดสำรอง '%s' สำหรับเครื
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Skipping cleanup (this Storage Vault is being cleaned up simultaneously)"
 msgstr "ข้ามการ cleanup ข้อมูล (Storage Vault นี้กำลังถูก cleanup ไปขณะเดียวกัน)"
+
+#, c-format
+msgid "Skipping database with unsupported name %q: %s"
+msgstr ""
+
+#. Definition of "Slack": This is a commercial messaging and chat app. If an official translation is available, it should be used. https://slack.com/
+msgid "Slack"
+msgstr ""
+
+#. Definition of "Slack": This is a commercial messaging and chat app. If an official translation is available, it should be used. https://slack.com/
+msgid "Slack Webhook URL"
+msgstr ""
 
 msgid "Smaller filesize"
 msgstr "ขนาดไฟล์ที่เล็กลง"
@@ -8197,15 +9492,19 @@ msgstr "การดาวน์โหลดซอฟต์แวร์ต้อ
 msgid "Some backup snapshots are non-restorable! Please contact your support agent for more information."
 msgstr "บางสแนปชอตการสำรองไม่สามารถกู้คืนได้! โปรดติดต่อตัวแทนสนับสนุนของคุณสำหรับข้อมูลเพิ่มเติม"
 
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#. Definition of "VMs": Abbreviation of 'Virtual Machines'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Some VMs have moved to a different node or been deleted. Your selection has been updated accordingly."
+msgstr ""
+
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#. Definition of "VMs": Abbreviation of 'Virtual Machines'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Some VMs have moved to a different node. Your selection has been updated accordingly."
+msgstr ""
+
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Sorry, the current policy can not be copied, because the default schedule(s) bind with the specific Storage Vault(s) of the current user account."
 msgstr "ขออภัย นโยบายปัจจุบันไม่สามารถคัดลอกได้เนื่องจากกำหนดการค่าเริ่มต้นได้ผูกกับ Storage Vault ที่เฉพาะของบัญชีผู้ใช้ปัจจุบัน"
-
-msgid "sort column ascending"
-msgstr "เรียงคอลัมน์จากน้อยไปมาก"
-
-msgid "sort column descending"
-msgstr "เรียงคอลัมน์จากมากไปน้อย"
 
 msgid "Source"
 msgstr "ต้นทาง"
@@ -8232,12 +9531,19 @@ msgstr "เป้าหมายช่วง %s (%s)"
 msgid "Spanned"
 msgstr "Spanned"
 
+msgid "Specific services"
+msgstr ""
+
 #. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
 msgid "Specified Volume:"
 msgstr "Volume ที่ระบุ:"
 
 msgid "Specify Operating System"
 msgstr "ระบุระบบปฏิบัติการ"
+
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "Specify Volume Size"
+msgstr ""
 
 msgid "Speed:"
 msgstr "ความเร็ว:"
@@ -8292,11 +9598,11 @@ msgstr "มาตรรฐาน"
 msgid "Start"
 msgstr "เริ่ม"
 
+msgid "Start a new bulk update campaign automatically at server startup"
+msgstr ""
+
 msgid "Start campaign"
 msgstr "เริ่มแคมเปญ"
-
-msgid "Start Guide"
-msgstr "คู่มือเริ่มต้น"
 
 msgid "Start time"
 msgstr "เวลาเริ่มต้น"
@@ -8318,6 +9624,10 @@ msgstr "กำลังเริ่มบริการเบื้องหล
 msgid "Starting backup for '%s' (%s)..."
 msgstr "กำลังเริ่มการสำรองข้อมูลสำหรับ '%s' (%s)..."
 
+#, c-format
+msgid "Starting backup of mailbox %s (%s)"
+msgstr ""
+
 msgid "Starting backup..."
 msgstr "กำลังเริ่มสำรองข้อมูล..."
 
@@ -8329,30 +9639,14 @@ msgid "Starting full backup for site %s (%s)"
 msgstr "เริ่มการสำรองข้อมูลเต็มรูปแบบสำหรับไซต์ %s ( %s)"
 
 #, c-format
-msgid "Starting full backup of mailbox %s (%s)"
-msgstr "เริ่มการสำรองข้อมูลทั้งหมดของกล่องจดหมาย %s ( %s)"
-
-msgid "Starting full mailbox backups..."
-msgstr "กำลังเริ่มต้นการสำรองข้อมูลทั้งหมดของกล่องจดหมาย..."
-
-#, c-format
 msgid "Starting incremental backup for site %s (%s)"
 msgstr "เริ่มต้นการสำรองข้อมูลที่เพิ่มขึ้นสำหรับไซต์ %s ( %s)"
 
-#, c-format
-msgid "Starting incremental backup of mailbox %s (%s)"
-msgstr "การเริ่มต้นการสำรองข้อมูลเพิ่มเติมของกล่องจดหมาย %s ( %s)"
-
-msgid "Starting incremental mailbox backups..."
-msgstr "กำลังเริ่มการสำรองข้อมูลเพิ่มเติมของกล่องจดหมายทั้งหมด..."
+msgid "Starting mailbox backups..."
+msgstr ""
 
 msgid "Starting restore..."
 msgstr "กำลังเริ่มกู้คืนข้อมูล..."
-
-#. Definition of "OneDrive": This is a cloud storage platform from Microsoft. The _O_ and _D_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_OneDrive
-#. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
-msgid "Starting SharePoint and OneDrive backups..."
-msgstr "เริ่มต้น SharePoint และ OneDrive Backups ..."
 
 msgid "Starting the operation..."
 msgstr "กำลังเริ่มการปฏิบัติงาน..."
@@ -8378,6 +9672,9 @@ msgstr "สีสถานะ"
 
 msgid "Stay logged in for"
 msgstr "ให้อยู่ในสถานะ login เป็นเวลา"
+
+msgid "Stop"
+msgstr ""
 
 msgid "Stop campaign"
 msgstr "หยุดแคมเปญ"
@@ -8447,6 +9744,10 @@ msgid "Storage Vault ID"
 msgstr "รหัส Storage Vault"
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Storage Vault not found."
+msgstr ""
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Storage Vault Provisioning"
 msgstr "การจัดเตรียม Storage Vault"
 
@@ -8455,12 +9756,24 @@ msgid "Storage Vault Quota"
 msgstr "โควต้า Storage Vault"
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Storage Vault Selection Rule"
+msgstr ""
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Storage Vault Selection Rules consider:"
+msgstr ""
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Storage Vault Size"
 msgstr "ขนาด Storage Vault"
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Storage Vault unlocked."
 msgstr "ปลดล็อก Storage Vault แล้ว"
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Storage Vault usage measurement is unavailable this cycle."
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Storage Vaults"
@@ -8581,9 +9894,6 @@ msgstr "Symlink"
 msgid "Symlink (granular restore)"
 msgstr "Symlink (granular restore)"
 
-msgid "Sync now"
-msgstr "ซิงค์ตอนนี้"
-
 msgid "Synchronize the timezone"
 msgstr "Synchronize timezone"
 
@@ -8596,6 +9906,12 @@ msgstr "Syntax error"
 
 msgid "System"
 msgstr "ระบบ"
+
+msgid "System (custom)"
+msgstr ""
+
+msgid "System (root)"
+msgstr ""
 
 msgid "System Branding"
 msgstr "การสร้างแบรนด์ระบบ"
@@ -8644,6 +9960,9 @@ msgstr "เวอร์ชันระบบ"
 msgid "Tab icon"
 msgstr "แท็บไอคอน"
 
+msgid "Tag"
+msgstr ""
+
 msgid "Take filesystem snapshot"
 msgstr "เก็บสแนปชอตระบบไฟล์"
 
@@ -8677,6 +9996,9 @@ msgstr "Task &Manager"
 msgid "TB"
 msgstr "TB"
 
+msgid "Team"
+msgstr ""
+
 msgid "Team Site"
 msgstr ""
 
@@ -8686,6 +10008,9 @@ msgstr "ทีม"
 
 msgid "Template"
 msgstr "เทมเพลต"
+
+msgid "Templates:"
+msgstr ""
 
 msgid "Temporary files are being used to reduce RAM consumption. The performance of this job may be reduced."
 msgstr "ไฟล์ Temporary กำลังถูกใช้เพื่อลดการใช้ RAM ประสิทธิภาพของงานนี้อาจจะลดลง"
@@ -8737,6 +10062,12 @@ msgstr "ทดสอบกระบวนการกู้คืนแบบเ
 
 msgid "Test the restore process, without saving the restored files to the local disk."
 msgstr "ทดสอบกระบวนการกู้คืน โดยไม่บันทึกไฟล์ที่กู้คืนไปยังดิสก์ในเครื่อง"
+
+msgid "Testing Storage Gateway"
+msgstr ""
+
+msgid "Testing Storage Gateway changes, please wait..."
+msgstr ""
 
 #. The 'Text' option is a possible choice for exporting a report. If 'Text' is selected, the report would be exported in a plain-text file format.
 msgid "Text"
@@ -8808,6 +10139,10 @@ msgstr "\"ชื่อบักเก็ต\" ต้องไม่ขึ้น�
 msgid "The \"Key\" field cannot be empty."
 msgstr "ช่อง \"Key\" ไม่สามารถเว้นว่างได้"
 
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "The \"Latest Storage Vault\" option will select first from vaults associated with a device (i.e. already in use by that device), if available."
+msgstr ""
+
 #, c-format
 msgid "The %s delegate service performs a broad set of tasks, such as running scheduled backup jobs, access control, and remote communication."
 msgstr "บริการผู้รับมอบสิทธิ์ %s ดำเนินการชุดของงานต่างๆ เช่น การรันงานสำรองข้อมูลตามกำหนดการ การควบคุมการเข้าถึง และการสื่อสารระยะไกล"
@@ -8872,6 +10207,9 @@ msgstr "ผลการวิเคราะห์อาจเก่า"
 msgid "The application failed to commit a component into the VSS writer"
 msgstr "แอปพลิเคชันล้มเหลวในการคอมมิตส่วนประกอบใน VSS writer"
 
+msgid "The application is already running."
+msgstr ""
+
 #. Definition of "VSS": This is a feature of Windows to assist in backing up files. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
 #. Definition of "VSS Writer": This is a type of driver installed in Windows to assist in backing up complex applications. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
 msgid "The application reported an error while committing a component into the VSS writer"
@@ -8893,6 +10231,9 @@ msgstr "งานสำรองข้อมูลได้รับการก
 msgid "The backup server's URL, with trailing slash"
 msgstr "URL ของเซิร์ฟเวอร์สำรอง โดยมีเครื่องหมายทับ"
 
+msgid "The backup task stream contained no backup tasks"
+msgstr ""
+
 msgid "The behaviour of other devices can affect your access to this vault. For the best experience, limit the number of devices accessing each vault."
 msgstr "พฤติกรรมของอุปกรณ์อื่นๆ อาจส่งผลกระทบต่อการเข้าถึงห้องนิรภัยนี้ เพื่อประสบการณ์ที่ดีที่สุดให้จำกัดจำนวนอุปกรณ์ที่เข้าถึงแต่ละห้องนิรภัย"
 
@@ -8904,6 +10245,9 @@ msgstr "ไม่สามารถทำการร้องขอการย
 
 msgid "The Cluster Manager is responsible for coordinating some inter-server cleanup tasks."
 msgstr "Manager Cluster มีหน้าที่ประสานงานการล้างข้อมูลระหว่างเซิร์ฟเวอร์"
+
+msgid "The code cannot be empty."
+msgstr ""
 
 msgid "The container will be automatically created if it does not exist."
 msgstr "คอนเทนเนอร์จะถูกสร้างขึ้นโดยอัตโนมัติหากไม่มีอยู่"
@@ -8935,6 +10279,14 @@ msgstr "วันที่ต้องอยู่หลัง %s"
 msgid "The date must be before %s"
 msgstr "วันที่ต้องอยู่ก่อน %s"
 
+#, qt-format
+msgid "The destination '%1' is currently mounted and may be in use. Restoring over it will destroy its current contents. Are you sure you wish to continue?"
+msgstr ""
+
+#, c-format
+msgid "The destination '%s' is currently mounted and may be in use. Restoring over it will destroy its current contents. Are you sure you wish to continue?"
+msgstr ""
+
 msgid "The destination is a disk, but its child partition was already selected as a restore target."
 msgstr "ปลายทางคือดิสก์ แต่พาร์ติชันย่อยถูกเลือกเป็นเป้าหมายการกู้คืนแล้ว"
 
@@ -8951,14 +10303,29 @@ msgstr "อุปกรณ์ไม่มีรายการ Protected Item"
 msgid "The device is currently offline"
 msgstr "อุปกรณ์ออฟไลน์อยู่"
 
-msgid "The device is currently online"
-msgstr "อุปกรณ์กำลังออนไลน์อยู่"
+msgid "The device is currently online, and was online at the expected job start time"
+msgstr ""
+
+msgid "The device is currently online, but had recent network connectivity issues"
+msgstr ""
+
+msgid "The device OS is below the minimum supported by the target software version."
+msgstr ""
 
 msgid "The device was found to be already running a target software version."
 msgstr "พบว่าอุปกรณ์กำลังใช้งานซอฟต์แวร์รุ่นเป้าหมายอยู่แล้ว"
 
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+#, c-format
+msgid "The device's client version could not be verified. Rule-based selection requires client version %s or later; on older versions this Protected Item will not back up any accounts."
+msgstr ""
+
 msgid "The discovery document URL must be a valid URL."
 msgstr "URL เอกสารการค้นพบต้องเป็น URL ที่ถูกต้อง"
+
+#, c-format
+msgid "The disk snapshot for device '%s' became invalid while the backup was running: %s. Data read from this device during the backup may be incomplete."
+msgstr ""
 
 msgid "The download was blocked - please check the web browser's popup blocker."
 msgstr "การดาวน์โหลดถูกปิดกั้น โปรดตรวจสอบตัวป้องกันป๊อปอัปของเว็บเบราว์เซอร์"
@@ -8976,12 +10343,31 @@ msgstr "ต้องระบุรายชื่อผู้รับอีเ
 msgid "The email report configuration cannot be undefined"
 msgstr "ไม่สามารถยกเลิกการกำหนดค่ารายงานอีเมลได้"
 
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "The existing selection for this Protected Item could not be converted to rule-based selection. Please try again."
+msgstr ""
+
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "The existing selection for this Protected Item could not be converted to rule-based selection:"
+msgstr ""
+
 #, c-format
 msgid "The file '%s' was renamed to '%s' because it contained characters that cannot be used on this operating system."
 msgstr "ไฟล์ '%s' ถูกเปลี่ยนชื่อเป็น '%s' เนื่องจากมีอักขระที่ไม่สามารถใช้ได้บนระบบปฏิบัติการนี้"
 
+#, c-format
+msgid "The following fields are required: %s"
+msgstr ""
+
+msgid "The Gradient integration has been deprecated and is no longer functional. Please remove any Gradient entries from the list below."
+msgstr ""
+
 msgid "The group is empty"
 msgstr "กลุ่มว่างเปล่า"
+
+#. Definition of "API": An interface for programs to communicate with each other. https://en.wikipedia.org/wiki/API
+msgid "The identifier of the ConnectWise Manage company that tickets are raised against when a user's Account Name does not match any ConnectWise Manage company. Unlike Company ID above (which signs in to the API), this chooses who the ticket belongs to. If nothing is entered, tickets can only be created for users whose Account Name matches a ConnectWise Manage company."
+msgstr ""
 
 msgid "The input is too short."
 msgstr "ข้อมูลเข้าสั้นเกินไป"
@@ -8999,9 +10385,19 @@ msgstr "ไม่ได้ติดตั้งไดรเวอร์สแน
 msgid "The Linux Disk Image snapshot driver is not installed."
 msgstr "ไม่ได้ติดตั้งไดรเวอร์สแน็ปช็อตภาพดิสก์ Linux"
 
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "The live preview could not be updated. The rules will still be applied when the Protected Item is saved."
+msgstr ""
+
 #, c-format
 msgid "The maximum time to stay logged in is %d hours (%d minutes). The default session timeout is %d minutes."
 msgstr "เวลาสูงสุดในการอยู่ในระบบคือ %d ชั่วโมง (%d นาที) ระยะหมดเวลาของเซสชันค่าเริ่มต้นคือ %d นาที"
+
+msgid "The name cannot be empty."
+msgstr ""
+
+msgid "The name of the Service Board that tickets are created on. If nothing is entered, tickets are created on your ConnectWise Manage default Service Board."
+msgstr ""
 
 msgid "The new entry will appear immediately in the backup agent application."
 msgstr "รายการใหม่จะปรากฏขึ้นทันทีในแอปพลิเคชันตัวแทนสำรองข้อมูล"
@@ -9015,6 +10411,14 @@ msgstr "เพิ่มรายการข่าวแล้ว"
 msgid "The news item was removed."
 msgstr "รายการข่าวถูกลบออก"
 
+#, qt-format
+msgid ""
+"The operation failed.\n"
+"\n"
+"diskpart output:\n"
+"%1"
+msgstr ""
+
 #, c-format
 msgid "The other cleanup job is still active, as of %s ago (below warning threshold)."
 msgstr "งาน cleanup อื่นยังคงทำงานอยู่ ณ %s ที่แล้ว (ต่ำกว่าเกณฑ์การเตือน)"
@@ -9023,8 +10427,19 @@ msgstr "งาน cleanup อื่นยังคงทำงานอยู่
 msgid "The other job started at %s"
 msgstr "งานอื่นเริ่มต้นที่ %s"
 
+msgid "The password reset will log out all connected devices. Are you sure you want to proceed?"
+msgstr ""
+
 msgid "The path could not be compiled"
 msgstr "พาธไม่สามารถคอมไพล์ได้"
+
+#, c-format
+msgid "The previous backup job (%s) is pending deletion by a retention pass; skipping it for deduplication"
+msgstr ""
+
+#, c-format
+msgid "The previous backup job (%s) references %d pack(s) pending a cleanup re-check; skipping it for deduplication"
+msgstr ""
 
 msgid "The previous retention pass encountered an error"
 msgstr "บัตรผ่านการเก็บรักษาก่อนหน้านี้พบข้อผิดพลาด"
@@ -9046,6 +10461,9 @@ msgstr "รหัสลับไคลเอ็นต์ที่ระบุไ
 msgid "The provided UNC credentials experienced an error: %s"
 msgstr "ข้อมูลประจำตัว UNC ที่ให้มานั้นเกิดข้อผิดพลาด: %s"
 
+msgid "The raw event is delivered as a JSON object."
+msgstr ""
+
 #. Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
 #. Definition of "Comet Server": This terminology is specific to Comet Backup. It is the name of our application, and should not be translated.
 msgid "The redirect URI must be configured at the OpenID Connect provider before it can be used to authenticate to Comet Server."
@@ -9057,6 +10475,9 @@ msgstr "พาธ regex include ไม่สามารถคอมไพล์
 
 msgid "The remote update was skipped to avoid interrupting a running backup job on this device. The remote update will be retried after a few hours."
 msgstr "ข้ามการอัปเดตระยะไกลเพื่อหลีกเลี่ยงการขัดจังหวะงานสำรองข้อมูลที่ทำงานอยู่บนอุปกรณ์นี้ การอัปเดตระยะไกลจะลองอีกครั้งหลังจากผ่านไปสองสามชั่วโมง"
+
+msgid "The requested object does not exist"
+msgstr ""
 
 msgid "The retention pass completed successfully."
 msgstr "บัตรผ่านการเก็บรักษาเสร็จสมบูรณ์แล้ว"
@@ -9083,6 +10504,12 @@ msgstr ""
 msgid "The selected backup snapshot does not support directly restoring to the VM hypervisor."
 msgstr "สแน็ปช็อตสำรองที่เลือกไม่รองรับการกู้คืนโดยตรงไปยัง VM Hypervisor"
 
+msgid "The selected destination contains the currently running operating system, so it cannot be overwritten while the system is running. To restore over the operating system disk, boot the device from the recovery media."
+msgstr ""
+
+msgid "The selected destination contains the currently running operating system, so it cannot be overwritten while the system is running. To restore over the operating system disk, boot this computer from the recovery media."
+msgstr ""
+
 msgid "The selected device is running an older software version that does not support this feature. To use this option, please restore this snapshot using a different device."
 msgstr "อุปกรณ์ที่เลือกใช้งานซอฟต์แวร์รุ่นเก่าที่ไม่รองรับคุณสมบัตินี้ หากต้องการใช้ตัวเลือกนี้โปรดกู้คืนสแน็ปช็อตนี้โดยใช้อุปกรณ์อื่น"
 
@@ -9093,10 +10520,18 @@ msgstr "ไดรฟ์ที่เลือกเป็นแบบอ่าน
 msgid "The selected file '%s' was not found"
 msgstr "ไม่พบไฟล์ที่เลือก '%s'"
 
+#. Definition of "Linux": The free operating system, an alternative to Windows or macOS. https://en.wikipedia.org/wiki/Linux
+msgid "The selected hypervisor does not support Linux Containers"
+msgstr ""
+
 #. Definition of "VSS": This is a feature of Windows to assist in backing up files. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
 #. Definition of "VSS Writer": This is a type of driver installed in Windows to assist in backing up complex applications. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
 msgid "The selected VSS writer was not found on the system"
 msgstr "ไม่พบ VSS writer ที่เลือกไว้ในระบบ"
+
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "The selection configuration for this Protected Item could not be understood by this application."
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "The server address is not set in the Storage Vault configuration"
@@ -9106,6 +10541,10 @@ msgstr "ที่อยู่เซิร์ฟเวอร์ไม่ได้
 msgid "The settings for this Protected Item are currently being upgraded - please visit again later."
 msgstr "การตั้งค่าของ Protected Item นี้กำลังถูกอัปเกรด โปรดมาดูอีกครั้งหลังจากนี้"
 
+#. Definition of "API": An interface for programs to communicate with each other. https://en.wikipedia.org/wiki/API
+msgid "The short identifier of your own ConnectWise Manage company, used together with the API keys to sign in to the ConnectWise Manage API. This is who connects to ConnectWise Manage - to choose which company tickets are raised against, see the Ticket Company field below."
+msgstr ""
+
 msgid "The specified bucket could not be found."
 msgstr "ไม่พบที่เก็บข้อมูล (Bucket) ที่ระบุ"
 
@@ -9113,6 +10552,11 @@ msgstr "ไม่พบที่เก็บข้อมูล (Bucket) ที�
 #. Definition of "VSS Writer": This is a type of driver installed in Windows to assist in backing up complex applications. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
 msgid "The specified component was not exported by the VSS writer"
 msgstr "องค์ประกอบที่ระบุไม่ได้ถูกส่งออกโดย VSS writer"
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, c-format
+msgid "The Storage Vault contains a damaged lock file (%s). Unlocking the Storage Vault will remove it."
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "The Storage Vault has been encrypted for the first time. Data is irrecoverable without the encryption key."
@@ -9125,6 +10569,11 @@ msgstr "Storage Vault เป็นแบบอ่านอย่างเดี�
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "The Storage Vault was already initialized, continuing with backup..."
 msgstr "Storage Vault ได้รับการเตรียมใช้งานแล้ว ดำเนินการต่อด้วยการสำรองข้อมูล..."
+
+#. / TRANSLATORS: Shown when a Storage Vault's data has gone missing (e.g. an unmounted network drive) and we refuse to re-initialize it.
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "The Storage Vault was previously initialized, but its configuration is now missing. The storage location may be temporarily unavailable (for example, a network drive that is not currently mounted). Refusing to re-initialize, as this would create a new encryption key and make existing backups unrecoverable. Please check that the Storage Vault's data is present and accessible, then try again."
+msgstr ""
 
 msgid "The subject line is empty."
 msgstr "บรรทัดหัวเรื่องว่างเปล่า"
@@ -9174,13 +10623,9 @@ msgstr "เขตเวลาถูกกำหนดโดยอัตโนม
 msgid "The timezone will be set automatically when a device logs in."
 msgstr "Timezone จะถูกตั้งค่าโดยอัตโนมัติเมื่ออุปกรณ์เข้าสู่ระบบ"
 
-#. Definition of "UNC": A 'UNC' path is a path for a file or folder on a network drive. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Path_(computing)#Universal_Naming_Convention
-msgid "The UNC share path was not configured"
-msgstr "ไม่ได้ตั้งค่าเส้นทาง UNC สำหรับการแชร์"
-
-#. Definition of "UNC": A 'UNC' path is a path for a file or folder on a network drive. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Path_(computing)#Universal_Naming_Convention
-msgid "The UNC username was not configured"
-msgstr "ไม่ได้ตั้งค่าชื่อผู้ใช้สำหรับ UNC"
+#. Definition of "HTTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
+msgid "The URL provided uses the insecure HTTP protocol. It is possible that attackers on the network may be able to intercept any messages. Are you sure you want to continue?"
+msgstr ""
 
 msgid "The user has no devices"
 msgstr "ผู้ใช้ไม่มีอุปกรณ์"
@@ -9196,6 +10641,10 @@ msgstr "ค่าว่างเปล่า"
 #, c-format
 msgid "The virtual disk '%s' is a Generation 1 VHD. It will be converted to VHDX format during the backup."
 msgstr "ดิสก์เสมือน '%s' เป็น VHD รุ่นที่ 1 ระบบจะแปลงเป็นรูปแบบ VHDX ในระหว่างการสำรองข้อมูล"
+
+#. Definition of "VSS": This is a feature of Windows to assist in backing up files. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
+msgid "The VSS provider did not return a snapshot device object"
+msgstr ""
 
 msgid "The webhook key cannot be empty."
 msgstr "ต้องระบุรหัส Webhook"
@@ -9240,12 +10689,20 @@ msgstr "ไม่มีพื้นที่โควต้าว่างเพ
 msgid "There's no free quota to run this job. Reduce the size of other VMware selection before retrying."
 msgstr "ไม่มีโควต้าคงเหลือสำหรับรันงานนี้ ลดขนาดของการเลือก VMware อื่นๆ ก่อนลองใหม่อีกครั้ง"
 
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+#, c-format
+msgid "There's no free quota to run this job. Reduce the size of Proxmox %s selection before retrying"
+msgstr ""
+
 msgid "These apply to all File and Folder backups run under this policy."
 msgstr "สิ่งเหล่านี้ใช้กับการสำรองข้อมูลไฟล์และโฟลเดอร์ทั้งหมดที่ทำงานภายใต้นโยบายนี้"
 
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "These backup schedules are applied to all new Protected Items. These are not applied retroactively to existing Protected Items."
 msgstr "ตารางการสำรองข้อมูลเหล่านี้ใช้กับ Protected Item ใหม่ทั้งหมด สิ่งเหล่านี้จะไม่มีผลย้อนหลังกับ Protected Item ที่มีอยู่"
+
+msgid "These rules do not currently protect any accounts. Check the rule order: rules are applied from top to bottom, and later rules override earlier ones."
+msgstr ""
 
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
@@ -9263,6 +10720,9 @@ msgstr "การตั้งค่าเหล่านี้จะจำกั
 msgid "These settings restrict several account-related actions, such as resetting passwords, accessing the application interface, etc."
 msgstr "การตั้งค่าเหล่านี้จำกัดการดำเนินการที่เกี่ยวข้องกับบัญชีหลายอย่าง เช่น การรีเซ็ตรหัสผ่าน การเข้าถึงอินเทอร์เฟซแอปพลิเคชัน เป็นต้น"
 
+msgid "This account was not found in the organization"
+msgstr ""
+
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "This action will also remove all Protected Items for this device."
 msgstr "การดำเนินการนี้จะลบรายการ Protected Item ทั้งหมดสำหรับอุปกรณ์นี้ด้วย"
@@ -9275,6 +10735,14 @@ msgstr "การดำเนินการนี้จะยกเลิกก
 
 msgid "This action will lock the app, so that your password is required to open it."
 msgstr "การดำเนินการนี้จะล็อกแอปเพื่อให้ต้องใช้รหัสผ่านในการเปิด"
+
+msgid "This action will restart the app and your password will be required to open it."
+msgstr ""
+
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "This affects Storage Vault Selection Rules used in policy default schedules and policy default Protected Items"
+msgstr ""
 
 msgid "This allows you to automatically exclude certain files and folders, handy for excluding files that cause errors and disruptions to backups."
 msgstr "วิธีนี้ทำให้คุณสามารถยกเว้นไฟล์และโฟลเดอร์บางไฟล์ได้โดยอัตโนมัติ ซึ่งสะดวกสำหรับการยกเว้นไฟล์ที่ทำให้เกิดข้อผิดพลาดและขัดขวางการสำรองข้อมูล"
@@ -9300,6 +10768,16 @@ msgstr "การทำเช่นนี้อาจทำให้ไคลเ
 msgid "This device"
 msgstr "เครื่องมือนี้"
 
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+#, c-format
+msgid "This device is running client version %s, which does not support rule-based selection. Upgrade the device to %s or later before saving, or this Protected Item will not back up any accounts."
+msgstr ""
+
+#. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "This disk is managed by a higher-level volume manager (dynamic / LDM, Storage Spaces, or similar) and isn't safe for this tool to modify. Manage it from the source Windows install (diskmgmt.msc or PowerShell Storage-* cmdlets) before running a restore."
+msgstr ""
+
 msgid "This feature is not available on your PC."
 msgstr "ฟีเจอร์นี้ไม่มีในพีซีของคุณ"
 
@@ -9308,6 +10786,12 @@ msgstr "คุณสมบัตินี้ไม่สามารถใช้
 
 msgid "This feature is strongly recommended to ensure that you can recover your system easily in disaster scenarios."
 msgstr "ขอแนะนำอย่างยิ่งให้เปิดใช้งานคุณสมบัตินี้ เพื่อให้มั่นใจว่าคุณจะสามารถกู้คืนระบบของคุณได้อย่างง่ายดายในสถานการณ์ฉุกเฉินต่างๆ"
+
+msgid "This field is only visible to administrators."
+msgstr ""
+
+msgid "This field is visible to the end user via the backup client."
+msgstr ""
 
 msgid "This guide is only available on initial access to an empty/new server. Are you sure you wish to close it?"
 msgstr "คู่มือนี้มีให้เฉพาะในการเข้าถึงเซิร์ฟเวอร์ใหม่/ว่างในครั้งแรกเท่านั้น คุณแน่ใจหรือไม่ว่าต้องการปิด?"
@@ -9331,8 +10815,14 @@ msgstr "ภาพนี้จะแสดงในเมนูเริ่มข
 msgid "This is all I want to restore (WITH RECOVERY)"
 msgstr "นี่คือทั้งหมดที่ฉันต้องการกู้คืน (พร้อมการกู้คืน)"
 
+msgid "This is the only time the token value is shown. Store it securely - it cannot be retrieved again."
+msgstr ""
+
 msgid "This job has become inactive, or is experiencing communication issues."
 msgstr "งานนี้ไม่มีการใช้งานหรือกำลังประสบปัญหาในการสื่อสาร"
+
+msgid "This job has failed using both in-memory indexes and temporary file indexes. Please contact your system administrator as either more RAM or disk space is required for this job to complete."
+msgstr ""
 
 msgid "This job missed its retry attempt."
 msgstr "งานนี้พลาดการลองใหม่"
@@ -9351,6 +10841,9 @@ msgstr "งานนี้คิดว่าจะหยุดแล้ว แ�
 msgid "This Microsoft 365 Protected Item does not have anything selected for backup"
 msgstr ""
 
+msgid "This name is already in use. Please use a different name."
+msgstr ""
+
 msgid ""
 "This new device must be registered into your backup account.\n"
 "\n"
@@ -9359,6 +10852,9 @@ msgstr ""
 "ต้องลงทะเบียนอุปกรณ์ใหม่นี้ในบัญชีสำรองของคุณ\n"
 "\n"
 "ป้อนชื่อสำหรับอุปกรณ์ใหม่:"
+
+msgid "This option cannot be changed via your own account."
+msgstr ""
 
 #. Definition of "EFS": Encrypting File System (EFS) is an encryption system built into Windows. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Encrypting_File_System
 msgid "This option disables the \"EFS-encrypted files may be unusable once restored...\" warning in the job report. Please ensure you have backed up the EFS encryption keys before enabling this option."
@@ -9381,6 +10877,10 @@ msgid "This partition uses a filesystem that is not supported for individual fil
 msgstr "พาร์ติชั่นนี้ใช้ระบบไฟล์ที่ไม่ได้รับการสนับสนุนสำหรับการกู้คืนไฟล์แต่ละรายการ"
 
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "This Protected Item does not have anything selected for backup"
+msgstr ""
+
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "This Protected Item is enforced via policy"
 msgstr "รายการที่ได้รับการคุ้มครองนี้บังคับใช้ผ่านนโยบาย"
 
@@ -9390,6 +10890,9 @@ msgstr "รายงานนี้ถูกสร้างขึ้นโดย
 
 msgid "This restore process can write to protected locations."
 msgstr "กระบวนการคืนค่านี้สามารถเขียนไปยังตำแหน่งที่ได้รับการป้องกันได้"
+
+msgid "This rule currently has no effect: everything it covers is overridden by a later rule, or it matches nothing."
+msgstr ""
 
 msgid "This server"
 msgstr "เซิฟเวอร์นี้"
@@ -9455,6 +10958,16 @@ msgstr "Thumbprint"
 msgid "Thursday"
 msgstr "วันพฤหัสบดี"
 
+msgid "Ticket Company"
+msgstr ""
+
+msgid "Tickets"
+msgstr ""
+
+#. Definition of "NinjaOne": This is a commercial RMM (Remote Monitoring and Management) platform. The _N_ and _O_ are both capitalized in this brand name. If an official translation is available, it should be used. https://www.ninjaone.com/
+msgid "Tickets are enabled, please load and select a NinjaOne organization"
+msgstr ""
+
 msgid "Tile background"
 msgstr "พื้นหลังกระเบื้อง"
 
@@ -9482,6 +10995,9 @@ msgstr "ครั้ง"
 msgid "Timed out"
 msgstr "หมดเวลา"
 
+msgid "Timed speed limit window has an invalid time of day, ignoring"
+msgstr ""
+
 msgid "Timeout"
 msgstr "หมดเวลา"
 
@@ -9504,6 +11020,13 @@ msgstr "หากต้องการบูตจากดิสก์อิม
 msgid "To dismiss this warning, please ensure you have backed up the EFS encryption keys, and then enable the '%s' option in the Protected Item settings."
 msgstr "หากต้องการปิดคำเตือนนี้ โปรดตรวจสอบให้แน่ใจว่าคุณได้สำรองคีย์การเข้ารหัส EFS แล้ว จากนั้นเปิดใช้งานตัวเลือก '%s' ในการตั้งค่ารายการ Protected Item"
 
+#. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
+msgid "To enable, set up Windows codesigning in the Backup Agent Branding settings"
+msgstr ""
+
+msgid "To store data on this partition, you must format it first."
+msgstr ""
+
 msgid "To view current and historical job status:"
 msgstr "วิธีดูสถานะงานปัจจุบันและในอดีต:"
 
@@ -9516,6 +11039,16 @@ msgstr "วันนี้ เวลา %1"
 
 msgid "Toggle default"
 msgstr "สลับค่าเริ่มต้น"
+
+msgid "Toggle dropdown"
+msgstr ""
+
+msgid "Token"
+msgstr ""
+
+#. Definition of "Exchange": This is an email server platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Exchange_Server
+msgid "Token exchange failed"
+msgstr ""
 
 msgid "Token label"
 msgstr "ป้ายโทเค็น"
@@ -9572,8 +11105,8 @@ msgid "TOTP"
 msgstr "TOTP"
 
 #. Definition of "TOTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm
-msgid "TOTP Code"
-msgstr "รหัส TOTP"
+msgid "TOTP Code has already been used"
+msgstr ""
 
 msgid "TPM (Generic)"
 msgstr "TPM (ทั่วไป)"
@@ -9614,6 +11147,9 @@ msgstr "จริง"
 msgid "Trust ID"
 msgstr "Trust ID"
 
+msgid "Trust X-Forwarded-For header"
+msgstr ""
+
 msgid "Tue"
 msgstr "วันอังคาร"
 
@@ -9648,6 +11184,13 @@ msgstr "ชนิด"
 msgid "Type the name of a program, folder, document, or Internet resource, and Windows will open it for you."
 msgstr "พิมพ์ชื่อโปรแกรม โฟลเดอร์ เอกสาร หรือทรัพยากรอินเทอร์เน็ต แล้ว Windows จะเปิดให้คุณ"
 
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+msgid "Unable to access the node from Proxmox. The node may be offline or unreachable."
+msgstr ""
+
+msgid "Unable to add device - contact your administrator for assistance"
+msgstr ""
+
 #, c-format
 msgid "Unable to back up extra permissions or metadata: %s"
 msgstr "ไม่สามารถสำรองข้อมูลสิทธิ์พิเศษหรือข้อมูลเมตา: %s"
@@ -9661,6 +11204,12 @@ msgstr "ไม่สามารถดึงข้อมูลจำนวนเ
 
 msgid "Unable to reach the system - please check the system log files for more information."
 msgstr "ไม่สามารถเข้าถึงระบบได้ - โปรดตรวจสอบไฟล์บันทึกการทำงานของระบบสำหรับข้อมูลเพิ่มเติม"
+
+msgid "Unable to retrieve boot order"
+msgstr ""
+
+msgid "Unallocated"
+msgstr ""
 
 msgid "Unauthorised"
 msgstr "ไม่ได้รับอนุญาต"
@@ -9732,6 +11281,9 @@ msgstr "ไม่รู้จัก"
 msgid "Unknown"
 msgstr "ไม่รู้จัก"
 
+msgid "Unknown archive file format for restore"
+msgstr ""
+
 #. Definition of "VMware": This is a company that developers Virtual Machine software. The _V_ and _M_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware
 #. Definition of "vSphere": This is a range of Virtual Machine products and services from VMware. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware_vSphere
 msgid "Unknown connection type for VMware vSphere."
@@ -9753,6 +11305,14 @@ msgstr "กลุ่มที่ไม่รู้จัก"
 #. Definition of "MySQL": This is a database server from Oracle, that uses the SQL language. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/MySQL
 msgid "Unknown MySQL isolation mode"
 msgstr "โหมดการแยก MySQL ที่ไม่รู้จัก"
+
+#. / TRANSLATORS: %s is an unrecognized service-kind label supplied for a backup object
+#, c-format
+msgid "Unknown service kind '%s'"
+msgstr ""
+
+msgid "Unknown Source"
+msgstr ""
 
 msgid "Unlabelled disk"
 msgstr "ดิสก์ที่ไม่มีป้ายกำกับ"
@@ -9829,6 +11389,9 @@ msgstr "ปรับปรุง"
 msgid "Update Login URL"
 msgstr "อัปเดต URL เข้าสู่ระบบ"
 
+msgid "Update password for all connected devices"
+msgstr ""
+
 msgid "Update software"
 msgstr "อัปเดตซอฟต์แวร์"
 
@@ -9869,11 +11432,17 @@ msgstr "URL"
 msgid "URL Encoded"
 msgstr "เข้ารหัส URL แล้ว"
 
+msgid "Usage"
+msgstr ""
+
 msgid "USB Recovery Media"
 msgstr "USB Recovery Media"
 
 msgid "Use commas to separate multiple values"
 msgstr "ใช้เครื่องหมายจุลภาคเพื่อแยกค่าต่างๆ"
+
+msgid "Use Local System for delegate service (optional)"
+msgstr ""
 
 #. Definition of "SSL": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Transport_Layer_Security
 msgid "Use SSL protocol"
@@ -9901,9 +11470,6 @@ msgstr "ใช้กับ B2 Lifecycle Rules เพื่อจัดการ�
 msgid "Used"
 msgstr "ใช้แล้ว"
 
-msgid "Used by"
-msgstr "ใช้โดย"
-
 msgid "User"
 msgstr "ผู้ใช้งาน"
 
@@ -9911,17 +11477,26 @@ msgstr "ผู้ใช้งาน"
 msgid "User \"%s\" on system \"%s\""
 msgstr "ผู้ใช้ \\ \"%s \" บนระบบ \\ \"%s \\"
 
+msgid "User / Account"
+msgstr ""
+
 msgid "User Account"
 msgstr "บัญชีผู้ใช้"
 
 msgid "User Accounts"
 msgstr "บัญชีผู้ใช้"
 
+msgid "User and group ID"
+msgstr ""
+
 msgid "User authentication failed. Only emitted if the user exists. Resource is the requested path"
 msgstr "การตรวจสอบผู้ใช้ล้มเหลว ปล่อยออกมาเมื่อมีผู้ใช้อยู่เท่านั้น ทรัพยากรคือเส้นทางที่ร้องขอ"
 
 msgid "User authentication succeeded. Only emitted for non-session requests. Resource is the requested path"
 msgstr "การตรวจสอบสิทธิ์ผู้ใช้สำเร็จ ปล่อยออกมาสำหรับคำขอที่ไม่ใช่เซสชันเท่านั้น ทรัพยากรคือเส้นทางที่ร้องขอ"
+
+msgid "User Authorization"
+msgstr ""
 
 msgid "User controlled"
 msgstr "ผู้ใช้ควบคุม"
@@ -9952,6 +11527,9 @@ msgstr "ลบกลุ่มผู้ใช้"
 
 msgid "User Group updated"
 msgstr "อัปเดตกลุ่มผู้ใช้"
+
+msgid "User ID"
+msgstr ""
 
 msgid "User locations"
 msgstr "ตำแหน่งที่ตั้งผู้ใช้"
@@ -10086,6 +11664,9 @@ msgstr "วิดีโอ"
 msgid "View"
 msgstr "ดู"
 
+msgid "View and edit system settings"
+msgstr ""
+
 msgid "View last scan result"
 msgstr "ดูผลการสแกนล่าสุด"
 
@@ -10094,6 +11675,12 @@ msgstr "ดูบันทึก"
 
 msgid "View Members"
 msgstr "ดูสมาชิก"
+
+msgid "View system history on dashboard"
+msgstr ""
+
+msgid "View system info on dashboard"
+msgstr ""
 
 msgid "View the conflicting job"
 msgstr "ดูงานที่ขัดแย้งกัน"
@@ -10110,9 +11697,11 @@ msgstr "Virtual Machine ID"
 msgid "Virtual Machines"
 msgstr "เครื่องเสมือนจริง"
 
-#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
-msgid "Virtual Storage Vaults"
-msgstr "Virtual Storage Vaults"
+msgid "Visibility"
+msgstr ""
+
+msgid "Visible to user"
+msgstr ""
 
 #, c-format
 msgid "Visit the '%s' page of the '%s' menu."
@@ -10128,6 +11717,19 @@ msgstr "VM '%1'"
 msgid "VM '%s'"
 msgstr "VM '%s'"
 
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "VM Migration Detected"
+msgstr ""
+
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "VM Migration or Deletion Detected"
+msgstr ""
+
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#. Definition of "VMs": Abbreviation of 'Virtual Machines'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "VMs:"
+msgstr ""
+
 #. Definition of "VMware": This is a company that developers Virtual Machine software. The _V_ and _M_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware
 msgid "VMware"
 msgstr "VMware"
@@ -10141,8 +11743,8 @@ msgid "VMware datastores"
 msgstr "ที่เก็บข้อมูล VMware"
 
 #. Definition of "VMware": This is a company that developers Virtual Machine software. The _V_ and _M_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware
-msgid "VMware Guest"
-msgstr "VMware Guest"
+msgid "VMware Guests"
+msgstr ""
 
 #. Definition of "VMware": This is a company that developers Virtual Machine software. The _V_ and _M_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware
 msgid "VMware host systems"
@@ -10172,6 +11774,14 @@ msgstr "VMware vSphere"
 #. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
 msgid "Volume"
 msgstr "Volume"
+
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "Volume label (optional):"
+msgstr ""
+
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "Volume label:"
+msgstr ""
 
 #. Definition of "VSS": This is a feature of Windows to assist in backing up files. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
 msgid "VSS Copy"
@@ -10242,6 +11852,9 @@ msgstr "กำลังรอให้เสร็จสิ้นการทำ
 msgid "Waiting to finish logging messages..."
 msgstr "กำลังรอเพื่อสิ้นสุดการบันทึกข้อความ..."
 
+msgid "Want help getting started?"
+msgstr ""
+
 msgid "Warning"
 msgstr "คำเตือน"
 
@@ -10252,12 +11865,37 @@ msgstr "คำเตือน"
 msgid "Warning while finding items to restore: %s"
 msgstr "คำเตือนขณะค้นหารายการที่จะกู้คืนข้อมูล: %s"
 
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+#, c-format
+msgid "Warning: destination '%s' is currently mounted. Restoring over a mounted volume will destroy its current contents."
+msgstr ""
+
+#. / TRANSLATORS: %s is the stable ID of a SharePoint site
+#. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
+#, c-format
+msgid "Warning: duplicate SharePoint site ID '%s' across supplied Version nodes; keeping the first occurrence"
+msgstr ""
+
+#, c-format
+msgid "Warning: invalid size specified for tpmstate drive (%dM). Assuming 4MB"
+msgstr ""
+
+msgid "Warning: No version specified for tpmstate drive. Assuming v2.0"
+msgstr ""
+
 #, c-format
 msgid "Warning: Only %s disk space is available"
 msgstr "คำเตือน: มีเนื้อที่ดิสก์เพียง %s เท่านั้น"
 
+#, c-format
+msgid "Warning: partition %s has negative size %d, skipping from size estimate"
+msgstr ""
+
 msgid "WARNING: Removing a target location from the Spanned group may prevent the application from finding data. When removing a target location, please ensure that all data is moved into one of the remaining target locations."
 msgstr "คำเตือน: การลบตำแหน่งที่ตั้งเป้าหมายออกจากกลุ่ม Spanned อาจทำให้แอปพลิเคชันไม่สามารถค้นหาข้อมูลได้ เมื่อจะลบตำแหน่งที่ตั้งเป้าหมายออกไป โปรดตรวจสอบให้แน่ใจว่าข้อมูลทั้งหมดถูกย้ายไปยังตำแหน่งที่ตั้งเป้าหมายที่ใดที่หนึ่งที่ยังเหลืออยู่"
+
+msgid "Warning: the retention policy marked the just-composed snapshot for deletion; excluding it from removal"
+msgstr ""
 
 msgid "WARNING: This process cannot be undone."
 msgstr "คำเตือน: กระบวนการนี้ไม่สามารถยกเลิกได้"
@@ -10314,11 +11952,12 @@ msgstr "สัปดาห์"
 msgid "Welcome"
 msgstr "ยินดีต้อนรับ"
 
-msgid "Welcome to Your Server"
-msgstr "ยินดีต้อนรับสู่เซิร์ฟเวอร์ของคุณ"
-
 msgid "What's New?"
 msgstr "มีอะไรใหม่?"
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "When enabled, the Storage Vault speed limit above only applies during the times selected here. Outside them the backup job runs at full speed. Requires a speed limit to be set."
+msgstr ""
 
 msgid "When PC starts"
 msgstr "เมื่อพีซีเริ่มทำงาน"
@@ -10405,8 +12044,17 @@ msgstr "กำลังทำงาน..."
 msgid "Worldwide (including GCC)"
 msgstr "Worldwide (including GCC)"
 
+msgid "Would you like to also add this Storage Replication target to the Cluster Manager target list?"
+msgstr ""
+
+msgid "Would you like to also add this Storage Template destination to the Cluster Manager target list?"
+msgstr ""
+
 msgid "Would you like to continue?"
 msgstr "คุณต้องการดำเนินการต่อหรือไม่?"
+
+msgid "Write access"
+msgstr ""
 
 #. Definition of "CSV": Abbreviation of 'Comma Separated Values' (*.csv), a simple file format for spreadsheet data. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Comma-separated_values
 msgid "Wrong number of CSV columns"
@@ -10483,20 +12131,18 @@ msgstr "คุณได้ตั้งค่าระยะเวลาการ
 msgid "You may need to reconfigure your Storage Gateway access key and secret key to use the root keys."
 msgstr "คุณอาจต้องตั้งค่าคีย์การเข้าถึงและรหัสลับของ Storage Gateway ใหม่ เพื่อใช้งานคีย์หลัก"
 
+#, qt-format
+msgid "You must agree to continue using %1."
+msgstr ""
+
 msgid "You must choose a group or team account to view its members"
 msgstr ""
 
-msgid "You must choose one account to view its members"
-msgstr "คุณต้องเลือกบัญชีหนึ่งเพื่อดูสมาชิก"
-
-msgid "You must select at least one item for editing"
-msgstr "คุณต้องเลือกอย่างน้อยหนึ่งรายการเพื่อแก้ไข"
+msgid "You must select a rule to edit"
+msgstr ""
 
 msgid "You need to choose a storage location first."
 msgstr "คุณต้องเลือกตำแหน่งที่ตั้งในการจัดเก็บก่อน"
-
-msgid "You need to choose accounts with the same type for bulk editing"
-msgstr "คุณต้องเลือกบัญชีที่เป็นชนิดเดียวกันเพื่อทำการ bulk editing"
 
 #. Definition of "TOTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm
 msgid "You only can disable TOTP here, not enable it."
@@ -10506,7 +12152,14 @@ msgstr "คุณสามารถปิดการใช้งาน TOTP ท
 msgid "You only can disable WebAuthn here, not enable it."
 msgstr "คุณสามารถปิดการใช้งาน WebAuthn ที่นี่เท่านั้น แต่ไม่สามารถเปิดใช้งานได้"
 
-msgid "You only can view members of one group account at a time"
+msgid "Your administrator requires the ability to reset your password. If you agree, an administrator will be able to reset your password at their discretion."
+msgstr ""
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Your administrator requires the ability to view your file names remotely. If you agree, an administrator will be able to browse the names of files in your Storage Vaults."
+msgstr ""
+
+msgid "Your current password is required"
 msgstr ""
 
 #, c-format

@@ -26,24 +26,24 @@ We will include your translation in the next available version of Comet.
 
 ## Current translation coverage
 
-*Table last regenerated 2026-03-03*
+*Table last regenerated 2026-10-06*
 
 |Code    |Language              |Untranslated (English) words |Translated Words |Translated Phrases |Translation percent
 |--------|----------------------|-----------------------------|-----------------|-------------------|--------------------
-|`-`     |English               |0                            |14854            |3114               |  100.00
-|`cs_CZ` |Čeština‬              |0                            |11417            |3108               |  100.00
-|`da_DK` |Dansk‬                |197                          |13908            |3088               |   99.17
-|`de_DE` |Deutsch               |190                          |14232            |3089               |   99.20
-|`es_ES` |Español               |190                          |18413            |3089               |   99.20
-|`fr_FR` |Français              |192                          |18179            |3088               |   99.17
-|`he_IL` |עברית‬                 |190                          |14198            |3089               |   99.20
-|`hr_HR` |Hrvatski              |190                          |14182            |3089               |   99.20
-|`it_IT` |Italiano              |190                          |16652            |3089               |   99.20
-|`nl_NL` |Nederlands            |190                          |14406            |3089               |   99.20
-|`pl_PL` |Polski                |190                          |14579            |3089               |   99.20
-|`pt_BR` |Português (Brasil)    |190                          |17067            |3089               |   99.20
-|`pt_PT` |Português (Europa)    |190                          |17083            |3089               |   99.20
-|`ru_RU` |Русский               |223                          |14298            |3086               |   99.10
-|`th_TH` |ภาษาไทย‬              |190                          |6286             |3089               |   99.20
-|`uk_UA` |Українська мова       |0                            |14285            |3097               |  100.00
-|`zh_TW` |中文 (繁體)               |13782                        |439              |385                |   12.36
+|`-`     |English               |0                            |18828            |3579               |  100.00
+|`cs_CZ` |Čeština‬              |4678                         |10949            |3002               |   83.88
+|`da_DK` |Dansk‬                |4697                         |13400            |2992               |   83.60
+|`de_DE` |Deutsch               |4690                         |13705            |2993               |   83.63
+|`es_ES` |Español               |4690                         |17715            |2993               |   83.63
+|`fr_FR` |Français              |4692                         |17475            |2992               |   83.60
+|`he_IL` |עברית‬                 |4690                         |13663            |2993               |   83.63
+|`hr_HR` |Hrvatski              |4690                         |13651            |2993               |   83.63
+|`it_IT` |Italiano              |4690                         |16029            |2993               |   83.63
+|`nl_NL` |Nederlands            |4690                         |13859            |2993               |   83.63
+|`pl_PL` |Polski                |4690                         |14022            |2993               |   83.63
+|`pt_BR` |Português (Brasil)    |4690                         |16419            |2993               |   83.63
+|`pt_PT` |Português (Europa)    |4690                         |16425            |2993               |   83.63
+|`ru_RU` |Русский               |4723                         |13766            |2990               |   83.54
+|`th_TH` |ภาษาไทย‬              |4690                         |6051             |2993               |   83.63
+|`uk_UA` |Українська мова       |4720                         |13679            |2989               |   83.51
+|`zh_TW` |中文 (繁體)               |17767                        |428              |382                |   10.67

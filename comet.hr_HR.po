@@ -14,6 +14,9 @@ msgstr ""
 msgid " (conflicts)"
 msgstr " (sukobi)"
 
+msgid " MB"
+msgstr ""
+
 msgid " MB/s"
 msgstr " MB/s"
 
@@ -23,6 +26,10 @@ msgstr " minut(e)"
 #, c-format
 msgid "\"%s\" is not a valid hostname"
 msgstr "\"%s\" nije valjano ime hosta"
+
+#, qt-format
+msgid "%1 (%2%)"
+msgstr ""
 
 #, qt-format
 msgid "%1 (%2)"
@@ -40,10 +47,6 @@ msgstr "%1 u %2"
 #, qt-format
 msgid "%1 backup job(s)"
 msgstr "%1 backup zadatak(ci)"
-
-#, qt-format
-msgid "%1 byte(s)"
-msgstr "%1 bajt(a)"
 
 #, qt-format
 msgid "%1 day(s)"
@@ -72,10 +75,23 @@ msgstr "%1 minuta(e) nakon punog sata"
 msgid "%1 month(s)"
 msgstr "%1 mjesec(i)"
 
+#, qt-format
+msgid "%1 must be a whole number from 0 to %2"
+msgstr ""
+
 #. When displaying the day of a past event. [Event happened] on [January 1st]
 #, qt-format
 msgid "%1 on %2"
 msgstr "%1 u %2"
+
+#, qt-format
+msgid "%1 requires the ability to reset your password. If you agree, %1 will be able to reset your password at their discretion."
+msgstr ""
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, qt-format
+msgid "%1 requires the ability to view your file names remotely. If you agree, %1 will be able to browse the names of files in your Storage Vaults."
+msgstr ""
 
 #, qt-format
 msgid "%1 snapshot(s)"
@@ -145,6 +161,10 @@ msgid "%s at %s"
 msgstr "%s pri %s"
 
 #, c-format
+msgid "%s Backup agent"
+msgstr ""
+
+#, c-format
 msgid "%s free space available in spool location."
 msgstr "%s slobodan prostor koji je dostupan u mjestu kalema."
 
@@ -154,12 +174,15 @@ msgstr "%s slobodan prostor koji je dostupan u mjestu kalema."
 msgid "%s in %s"
 msgstr "%s u %s"
 
+#, c-format
+msgid "%s must be a whole number from 0 to %s"
+msgstr ""
+
 #. When displaying the day of a past event. [Event happened] on [January 1st]
 #, c-format
 msgid "%s on %s"
 msgstr "%s u %s"
 
-#. A button to download the backup app for a single CPU type. "Only x86_64" or "Only x86_32
 #, c-format
 msgid "%s only"
 msgstr "samo %s"
@@ -183,6 +206,9 @@ msgstr "%[1]s - %[2]s od \"%[3]s\""
 
 msgid "&Command Prompt"
 msgstr "&Command Prompt"
+
+msgid "&Disk Management"
+msgstr ""
 
 msgid "&Sign in"
 msgstr "&Logiraj se"
@@ -208,15 +234,17 @@ msgstr "'%s' postavljenu na korisnički račun"
 msgid "'If the last job encountered an error retry' setting on backup schedules"
 msgstr "'Ako je posljednji posao rezultirao pogreškom, pokušaj ponovo' postavka rasporeda sigurnosne pohrane"
 
+msgid "(contains the running operating system)"
+msgstr ""
+
 msgid "(Custom)"
 msgstr "(Prilagođeno)"
 
 msgid "(default)"
 msgstr "(zadani)"
 
-#, c-format
-msgid "(filtered from %d total entries)"
-msgstr "(filtrirano od %d ukupno stavaka)"
+msgid "(Deprecated)"
+msgstr ""
 
 #, qt-format
 msgid "(From %1 to %2)"
@@ -224,6 +252,9 @@ msgstr "(Od %1 do %2)"
 
 msgid "(none)"
 msgstr "(nijedan)"
+
+msgid "(not found in the organization)"
+msgstr ""
 
 msgid "(Object Lock)"
 msgstr "(Zaključavanje objekta)"
@@ -233,6 +264,9 @@ msgstr "(Neobavezno)"
 
 msgid "(recommended)"
 msgstr "(preporučeno)"
+
+msgid "(Untitled)"
+msgstr ""
 
 msgid "*.tar"
 msgstr "*.tar"
@@ -246,21 +280,40 @@ msgstr "*.tar.zst"
 msgid "*.zip"
 msgstr "*.zip"
 
+msgid "-- Click Load to fetch --"
+msgstr ""
+
+msgid "0 users"
+msgstr ""
+
 msgid "1. Click here to open "
 msgstr "1. Kliknite ovdje da biste otvorili "
 
 msgid "123456"
 msgstr "123456"
 
+msgid "16 or 40 hex characters"
+msgstr ""
+
 msgid "2. Click {{ICON}} on the bottom left corner to unlock the interface"
 msgstr "2. Kliknite {{ICON}} u donjem lijevom kutu da otključate sučelje"
+
+#. Definition of "TOTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm
+msgid "2FA (TOTP)"
+msgstr ""
 
 msgid "3. Drag and drop this icon into the right-hand list area"
 msgstr "3. Povucite i ispustite ovu ikonu u područje desnog popisa"
 
+msgid "<server name>:<port>"
+msgstr ""
+
 #, c-format
 msgid "A '%s' storage template option will have been automatically generated if your system is configured to handle data storage."
 msgstr "Automatski će biti generirana opcija predloška pohrane '%s' ako je vaš sustav konfiguriran za rukovanje pohranom podataka."
+
+msgid "A backup job completed while cleanup was running; any packs it references will be re-checked before deletion on the next pass"
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "A Bucket is a possible location for a customer's Storage Vault."
@@ -271,16 +324,32 @@ msgstr "Bucket je moguća lokacija korisničkog Spremnika Pohrane."
 msgid "A component in the VSS writer failed"
 msgstr "Komponenta VSS writera je blokirala"
 
-#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
-msgid "A default Protected Item with a schedule will end up with two schedules if this option is used, one from the default Protected Item, one from this."
-msgstr "Zadana Zaštićena stavka s rasporedom završit će s dva rasporeda ako se koristi ova opcija, jedan iz zadane Zaštićene stavke, jedan iz ovoga."
+msgid "A disk operation is currently running. Wait for it to finish before closing this window — closing now would abort diskpart mid-write and could leave the disk in an inconsistent state."
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "A file that was successfully stored in the Storage Vault did not appear when listing directory content."
 msgstr "Datoteka koja je uspješno pohranjena u trezor za pohranu nije se pojavila prilikom popisa sadržaja direktorija."
 
+msgid ""
+"A full (non-quick) format writes zeroes across the entire partition and can take hours on large drives.\n"
+"\n"
+"Continue?"
+msgstr ""
+
 msgid "A reindex job is needed to identify which snapshots are affected."
 msgstr "Potrebno je ponoviti postupak indeksiranja kako bi utvrdili koji snimke su zahvaćene."
+
+#. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
+msgid "A SharePoint site node was supplied without a name"
+msgstr ""
+
+#. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
+msgid "A SharePoint site node was supplied without a subtree"
+msgstr ""
+
+msgid "A specific user, group, team, or site"
+msgstr ""
 
 msgid "A summary of the restrictions enforced by this policy."
 msgstr "Sažetak ograničenja nametnutih ovom politikom."
@@ -327,6 +396,11 @@ msgstr "Napuštanje zadatka sigurnosnog kopiranja (premašena kvota računa za O
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "Abandoning backup job (Protected Item quota exceeded)"
 msgstr "Napuštam backup zadatak (Dostignuta je kvota zaštićenih stavaka)"
+
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+#, c-format
+msgid "Abandoning backup job (Proxmox guest %s quota exceeded)"
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Abandoning backup job (Storage Vault quota exceeded)"
@@ -385,6 +459,9 @@ msgstr "Prihvati nevažeći SSL certifikat."
 msgid "Accept login details from the website at '%s' ?"
 msgstr "Prihvati login podatke sa web stranice '%s' ?"
 
+msgid "Accept risks and continue"
+msgstr ""
+
 msgid "Access key"
 msgstr "Pristupni ključ"
 
@@ -416,9 +493,6 @@ msgstr "Naziv računa"
 msgid "Account Name"
 msgstr "Naziv računa"
 
-msgid "Account requires administrator review"
-msgstr "Administrator treba izvršiti provjeru računa"
-
 msgid "Account requires two-factor authentication, but no methods are available"
 msgstr "Račun zahtjeva dvofaktorsku autorizaciju, ali metoda nije dostupna"
 
@@ -449,6 +523,9 @@ msgstr "Aktivnost po danu"
 msgid "Add"
 msgstr "Dodaj"
 
+msgid "Add a custom certificate"
+msgstr ""
+
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "Add a new Protected Item"
 msgstr "Dodaj novu Zaštićenu Stavku"
@@ -467,6 +544,9 @@ msgstr "Dodaj korisnika"
 msgid "Add all database items"
 msgstr "Dodaj sve stavke baze"
 
+msgid "Add allowed PKCS#11 module path"
+msgstr ""
+
 msgid "Add an item"
 msgstr "Dodaj jednu stavku"
 
@@ -475,6 +555,9 @@ msgstr "Dodaj administratorske korisnike za ovog stanara i upravljaj njima"
 
 msgid "Add and manage audit file logging"
 msgstr "Kreiraj i upravljaj datotekama za reviziju"
+
+msgid "Add and manage custom JavaScript / CSS"
+msgstr ""
 
 msgid "Add and manage email reporting options"
 msgstr "Dodaj i upravljaj opcijama izvješća putem e-pošte"
@@ -485,6 +568,12 @@ msgstr "Kreiraj i upravljaj vanjskim PSA servisima i servisima za upozorenja"
 
 msgid "Add and manage webhooks"
 msgstr "Dodaj i upravljajte web-dojavnicima"
+
+msgid "Add client shortcuts"
+msgstr ""
+
+msgid "Add client tray icon"
+msgstr ""
 
 msgid "Add commands to run before or after the backup job"
 msgstr "Dodaj naredbe za izvršenje prije ili nakon backup zadatka"
@@ -512,6 +601,9 @@ msgstr "Dodaj upravljački program"
 
 msgid "Add Email Address..."
 msgstr "Dodaj Email Adresu..."
+
+msgid "Add Field"
+msgstr ""
 
 #. Used by the search system, to add a new group of rules that are used to filter down search results
 msgid "Add group"
@@ -549,6 +641,9 @@ msgstr "Dodaj zaštićenu stavku..."
 msgid "Add rule"
 msgstr "Dodaj pravilo"
 
+msgid "Add Rule"
+msgstr ""
+
 msgid "Add schedule"
 msgstr "Dodaj termin"
 
@@ -567,6 +662,10 @@ msgstr "Dodaj naredbu za pokretanje"
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Add Storage Vault"
 msgstr "Dodaj Spremnik Pohrane"
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Add Storage Vaults of any type"
+msgstr ""
 
 msgid "Add time"
 msgstr "Dodaj vrijeme"
@@ -592,6 +691,9 @@ msgstr "Dodatne datoteke su kopirane"
 
 msgid "Additional logs truncated"
 msgstr "Dodatni dnevnici su skraćeni"
+
+msgid "Additional network origins"
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Additional snapshots need to be optimized before analyzing this Storage Vault"
@@ -634,6 +736,24 @@ msgstr "Administrator je kreiran. Profil objekta je podatak"
 msgid "Admin deleted"
 msgstr "Administrator obrisan"
 
+msgid "Admin only"
+msgstr ""
+
+msgid "Admin only (private)"
+msgstr ""
+
+#. Definition of "API": An interface for programs to communicate with each other. https://en.wikipedia.org/wiki/API
+msgid "Admin personal API token authentication succeeded. Emitted for every authenticated request. Resource is the token ID"
+msgstr ""
+
+#. Definition of "API": An interface for programs to communicate with each other. https://en.wikipedia.org/wiki/API
+msgid "Admin personal API token created. Data is the redacted token metadata"
+msgstr ""
+
+#. Definition of "API": An interface for programs to communicate with each other. https://en.wikipedia.org/wiki/API
+msgid "Admin personal API token revoked. Data is the redacted token metadata"
+msgstr ""
+
 msgid "Admin Policy"
 msgstr "Admin Pravila"
 
@@ -651,6 +771,9 @@ msgstr "Administrator ažuriran"
 
 msgid "Admin Users"
 msgstr "Admin Korisnik"
+
+msgid "Administrator required"
+msgstr ""
 
 msgid "Administrators"
 msgstr "Administratori"
@@ -682,11 +805,14 @@ msgstr "prije"
 msgid "Alert"
 msgstr "Upozorenje"
 
-msgid "Alerts"
-msgstr "Upozorenja"
-
 msgid "All"
 msgstr "Svi"
+
+msgid "All accounts"
+msgstr ""
+
+msgid "All accounts (including future accounts)"
+msgstr ""
 
 msgid "All backups in the last [...]"
 msgstr "Svi backupi u zadnjih [...]"
@@ -722,6 +848,9 @@ msgstr "Gotovo!"
 
 msgid "All drives"
 msgstr "Svi uređaji"
+
+msgid "All enabled services failed"
+msgstr ""
 
 msgid "All event types"
 msgstr "Svi tipovi evenata"
@@ -767,6 +896,12 @@ msgstr "Sve zaštićene stavke"
 msgid "All Protected Items"
 msgstr "Svi zaštićeni predmeti"
 
+msgid "All services"
+msgstr ""
+
+msgid "All services (including future services)"
+msgstr ""
+
 msgid "All Sites"
 msgstr "Sve stranice"
 
@@ -810,6 +945,9 @@ msgstr "Sve VM-e"
 msgid "All writer components"
 msgstr "Sve writer komponente"
 
+msgid "Allocation unit size:"
+msgstr ""
+
 #, qt-format
 msgid "Allow %1 to reset my password"
 msgstr "Dozvoli %1 resetiranje moje lozinke"
@@ -817,6 +955,10 @@ msgstr "Dozvoli %1 resetiranje moje lozinke"
 #, qt-format
 msgid "Allow %1 to view file names remotely"
 msgstr "Dozvoli %1 pregled naziva filova"
+
+#. Definition of "API": An interface for programs to communicate with each other. https://en.wikipedia.org/wiki/API
+msgid "Allow admin accounts to create personal API tokens from their My Account page, for programmatic API access."
+msgstr ""
 
 msgid "Allow administrator to reset password"
 msgstr "Dozvoli administoru resetiranje lozinke"
@@ -827,6 +969,12 @@ msgstr "Dozvoli administratoru da vidi nazive datoteka"
 msgid "Allow all event types"
 msgstr "Dopusti sve vrste događaja"
 
+msgid "Allow an administrator to reset my password"
+msgstr ""
+
+msgid "Allow an administrator to view file names remotely"
+msgstr ""
+
 msgid "Allow any host key"
 msgstr "Dozvoli svaki host ključ"
 
@@ -835,27 +983,6 @@ msgstr "Dozvoli sigurnosnu kopiju nulte datoteke za uspješno izvršavanje"
 
 msgid "Allow downloading the software for"
 msgstr "Dozvoli preuzimanje softvera za"
-
-msgid "Allow editing Backup Agent Downloads"
-msgstr "Dopusti uređivanje preuzimanja Backup agenta"
-
-msgid "Allow editing branding settings"
-msgstr "Dozvoli uređivanje postavki robne marke"
-
-msgid "Allow editing Cluster Manager settings"
-msgstr "Dopusti uređivanje postavki Upravitelja klastera"
-
-msgid "Allow editing email options"
-msgstr "Dopusti uređivanje opcija e-pošte"
-
-msgid "Allow editing external admin authentication sources"
-msgstr "Dopusti uređivanje vanjskih izvora provjere autentičnosti administratora"
-
-msgid "Allow editing remote storage settings"
-msgstr "Dozvoli uređivanje postavki udaljenog skladišta"
-
-msgid "Allow editing webhook settings"
-msgstr "Dopusti uređivanje postavki web-dojavnika"
 
 msgid "Allow invalid hostnames"
 msgstr "Dozvoli neispravane nazive hosta"
@@ -876,6 +1003,10 @@ msgstr "Dopusti uklanjanje izbrisanih datoteka"
 msgid "Allow self-signed certificate"
 msgstr "Dozvoli self-signed certifikat"
 
+#. Definition of "SMTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol
+msgid "Allow SMTP delivery to private addresses"
+msgstr ""
+
 msgid "Allow users to set the Object Lock duration."
 msgstr "Dopusti korisnicima postavljanje trajanja zaključavanja objekta."
 
@@ -887,6 +1018,17 @@ msgstr "Dopuštene vrste događaja"
 
 msgid "Allowed Events"
 msgstr "Dopušteni događaji"
+
+msgid "Allowed module path"
+msgstr ""
+
+msgid "Allowed types"
+msgstr ""
+
+#. Definition of "Google Cloud Storage": This is a commercial service for storing files. If an official translation is available, it should be used. https://cloud.google.com/storage/
+#. Definition of "Wasabi": This is a commercial service for storing files. If an official translation is available, it should be used. https://wasabi.com/
+msgid "Also covers Amazon S3, Google Cloud Storage, Wasabi, and other S3-compatible providers"
+msgstr ""
 
 msgid "Also run:"
 msgstr "Također pokreni:"
@@ -919,6 +1061,13 @@ msgstr "Amazon S3 (Kina)"
 msgid "Amazon S3 China (Object Lock)"
 msgstr "Amazon S3 China (Object Lock)"
 
+msgid "Amount of space to shrink by (MB):"
+msgstr ""
+
+#, qt-format
+msgid "Amount to extend by (MB), up to %1 MB."
+msgstr ""
+
 msgid "An error occurred while copying to the clipboard."
 msgstr "Došlo je do greške prilikom kopiranja u međuspremnik."
 
@@ -934,6 +1083,12 @@ msgstr "Desio se internal error"
 msgid "An invalid hypervisor was selected for restore"
 msgstr "Za povrat je odabran nevažeći hipervizor"
 
+msgid "An object node was supplied without a name"
+msgstr ""
+
+msgid "An unknown error occurred while saving."
+msgstr ""
+
 msgid "An unknown exception occurred."
 msgstr "Nepoznato izuzeće."
 
@@ -942,6 +1097,9 @@ msgstr "Analiziram sadržaj spremnika..."
 
 msgid "Android"
 msgstr "Android"
+
+msgid "Another administrator or device modified this user profile while you were editing it. Applying your changes will overwrite theirs. Apply anyway?"
+msgstr ""
 
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
@@ -965,9 +1123,6 @@ msgstr "Anti-ransomware"
 
 msgid "Any"
 msgstr "Svaki"
-
-msgid "Any CPU"
-msgstr "Svaki CPU"
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Any custom Retention policies will override the default policy for the Storage Vault."
@@ -1042,6 +1197,9 @@ msgstr "Aplikacijski Writer"
 msgid "Applied %d change(s)."
 msgstr "Primjenjeno %d izmjena."
 
+msgid "Applies to"
+msgstr ""
+
 msgid "Apply"
 msgstr "Primjeni"
 
@@ -1090,6 +1248,9 @@ msgstr "Travanj"
 
 msgid "Archive"
 msgstr "Arhiva"
+
+msgid "Archive File Format:"
+msgstr ""
 
 msgid "Are you sure to disable the current user's 2FA setting?"
 msgstr "Jeste li sigurni da želite onemogućiti 2FA korisničke postavke?"
@@ -1188,6 +1349,10 @@ msgstr "Jeste li SIGURNI da želite izbrisati Spremnik Pohrane?"
 msgid "Are you sure you want to restart the server?"
 msgstr "Jeste li sigurni da želite restartati server?"
 
+#. Definition of "API": An interface for programs to communicate with each other. https://en.wikipedia.org/wiki/API
+msgid "Are you sure you want to revoke this API token? Any application using it will immediately stop working."
+msgstr ""
+
 msgid "Are you sure you want to save changes?"
 msgstr "Jeste li sigurni da želite spremiti izmjene?"
 
@@ -1208,14 +1373,35 @@ msgstr "Jeste li sigurni da želite zaustaviti aktivnu kamapnju?"
 msgid "Are you sure you want to suspend the user '%s'?"
 msgstr "Jeste li sigurni da želite obustaviti korisnika '%s'?"
 
+#, c-format
+msgid "Are you sure you want to unsuspend the user '%s'?"
+msgstr ""
+
 msgid "Are you sure you would like to continue?"
 msgstr "Jeste li sigurni da želite nastaviti?"
+
+#, qt-format
+msgid "Assign drive letter %1 to partition %2 on disk %3."
+msgstr ""
+
+msgid "Assign Drive Letter or Path"
+msgstr ""
+
+msgid "Assign Letter"
+msgstr ""
 
 msgid "Assign Policy..."
 msgstr "Dodijeli pravilo..."
 
+msgid "Assign the following drive letter:"
+msgstr ""
+
 msgid "Assign user to a group"
 msgstr "Dodijeli korisnika u grupu"
+
+#, qt-format
+msgid "Assigning drive letter %1..."
+msgstr ""
 
 msgid "Associated devices"
 msgstr "Povezani uređaji"
@@ -1266,14 +1452,24 @@ msgstr "Autentifikacija"
 msgid "Authentication Database"
 msgstr "Autentifikacijska baza"
 
+msgid "Authentication fields are empty"
+msgstr ""
+
 msgid "Authentication validation failed"
 msgstr "Neuspješna Autentifikacijska validacije"
 
-msgid "Authentication validation passed"
-msgstr "Uspješna Autentifikacijska validacije"
-
 msgid "Authenticator type"
 msgstr "Vrsta autentifikatora"
+
+msgid "Authorization failed"
+msgstr ""
+
+#. Definition of "NinjaOne": This is a commercial RMM (Remote Monitoring and Management) platform. The _N_ and _O_ are both capitalized in this brand name. If an official translation is available, it should be used. https://www.ninjaone.com/
+msgid "Authorize with NinjaOne"
+msgstr ""
+
+msgid "Authorized"
+msgstr ""
 
 msgid "Auto Fill:"
 msgstr "Automatsko popunjavanje:"
@@ -1293,6 +1489,9 @@ msgstr "Automatska provjera autentičnosti:"
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Automatic Storage Vault Provisioning"
 msgstr "Automatska dodjela spremnika pohrane"
+
+msgid "Automatic Upgrade Campaign"
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Automatically create Storage Vault for new devices"
@@ -1377,9 +1576,31 @@ msgstr "Pozadinski logo"
 msgid "Backing up %d database(s) in '%s' mode..."
 msgstr "Backupiram %d baza podataka u '%s' modu..."
 
+#. / TRANSLATORS: %s is the display name of a Microsoft 365 Backup Object (a mailbox or a SharePoint/OneDrive site)
+#, c-format
+msgid "Backing up %s for the first time."
+msgstr ""
+
+#. / TRANSLATORS: %s is the email address of a Microsoft 365 mailbox
+#, c-format
+msgid "Backing up mailbox %s..."
+msgstr ""
+
 #. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 msgid "Backing up Office 365 for the first time."
 msgstr "Sigurnosno kopiranje sustava Office 365 po prvi put."
+
+#. / TRANSLATORS: %s is the display name of a OneDrive
+#. Definition of "OneDrive": This is a cloud storage platform from Microsoft. The _O_ and _D_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_OneDrive
+#, c-format
+msgid "Backing up OneDrive %s..."
+msgstr ""
+
+#. / TRANSLATORS: %s is the display name of a SharePoint site
+#. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
+#, c-format
+msgid "Backing up SharePoint site %s..."
+msgstr ""
 
 #. Definition of "VSS": This is a feature of Windows to assist in backing up files. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
 #. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
@@ -1414,9 +1635,6 @@ msgstr "Datum backupa"
 msgid "backup engine"
 msgstr "mehanizam backupa"
 
-msgid "Backup everything"
-msgstr ""
-
 msgid "Backup job completed. Data is the job object"
 msgstr "Posao sigurnosne kopije je dovršen. Podaci su objekt posla"
 
@@ -1440,8 +1658,19 @@ msgstr "Zadaci sigurnosnog kopiranja neće biti prekinuti nadogradnjom."
 msgid "Backup now"
 msgstr "Backupiraj sada"
 
+msgid "Backup Object saved."
+msgstr ""
+
+#. / TRANSLATORS: %s is the display name of a Microsoft 365 Backup Object (a mailbox or a SharePoint/OneDrive site)
+#, c-format
+msgid "Backup of %s failed"
+msgstr ""
+
 msgid "Backup Rule identifier (optional)"
 msgstr "Backupiram identifikator pravila (opcionalno)"
+
+msgid "Backup schedule updated to use temporary files"
+msgstr ""
 
 msgid "Backup software needs Full Disk Access permissions. Please do the following to enable it:"
 msgstr "Softveru za sigurnosne kopije trebaju dozvole za pristup punom disku. Učinite sljedeće da biste to omogućili:"
@@ -1473,6 +1702,14 @@ msgstr "Bandwidth"
 
 msgid "Base distribution:"
 msgstr "Bazna distribucija:"
+
+msgid "Base URL"
+msgstr ""
+
+#. Definition of "HTTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
+#. Definition of "HTTPS": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/HTTPS
+msgid "Base URL must use HTTPS"
+msgstr ""
 
 msgid "Based on your configuration:"
 msgstr "Na temelju vaše konfiguracije:"
@@ -1552,9 +1789,6 @@ msgstr "Izgradnja cache-a..."
 msgid "Building installer..."
 msgstr "Izrada instalacijskog programa..."
 
-msgid "Bulk Actions"
-msgstr "Grupne radnje"
-
 msgid "Bulk device upgrade"
 msgstr "Grupna nadogradnja uređaja"
 
@@ -1576,15 +1810,27 @@ msgstr "Kalendar"
 msgid "Campaign"
 msgstr "Kampanja"
 
+msgid "Campaign options"
+msgstr ""
+
 msgid "Campaign progress:"
 msgstr "Napredak kampanje:"
 
 msgid "Campaign started at:"
 msgstr "Kampanja započela u:"
 
-#, c-format
-msgid "Can be controlled and configured from the %s web admin interface."
-msgstr "Može se kontrolirati i konfigurirati iz sučelja web administratora %s."
+#. Definition of "x86_64": The type of CPU used in most desktop and laptop computers. It should not be translated. https://en.wikipedia.org/wiki/X86-64
+msgid "Can be installed and managed (x86_64 only) from the desktop."
+msgstr ""
+
+msgid "Can be installed and managed from the desktop."
+msgstr ""
+
+msgid "Can be installed from the command line."
+msgstr ""
+
+msgid "Can be managed from the management console web interface."
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 #, c-format
@@ -1615,13 +1861,15 @@ msgstr "Nije moguće utvrditi veličinu Spremnika Pohrane za primjenu kvota"
 msgid "Can't download update: %s"
 msgstr "Nije moguće downloadati ažuriranja: %s"
 
+msgid "Can't find backup-tool in registry"
+msgstr ""
+
 #, c-format
 msgid "Can't find root path: %s"
 msgstr "Nije moguće pronaći root putanju: %s"
 
-#, c-format
-msgid "Can't find the directory/file: %s"
-msgstr "Nije moguće pronaći direktrorij/datoteku: %s"
+msgid "Can't find the directory/file"
+msgstr ""
 
 #, c-format
 msgid "Can't identify this machine: %s"
@@ -1647,10 +1895,6 @@ msgid "Can't run backup: failed to retrieve profile (%s)."
 msgstr "Nije moguće pokrenuti backup: greška pri traženju profila (%s)."
 
 #, c-format
-msgid "Can't run uninstall file: %s"
-msgstr "Nije moguće pokrenuti deinstaliranje datoteke: %s"
-
-#, c-format
 msgid "Can't run update file: %s"
 msgstr "Nije moguće pokrenuti ažuriranje datoteke: %s"
 
@@ -1659,12 +1903,6 @@ msgstr "Poništi"
 
 msgid "Cancel if still running after:"
 msgstr "Poništi ukoliko se još izvršava nakon:"
-
-msgid "Cancel job"
-msgstr ""
-
-msgid "Cancel job (force)"
-msgstr ""
 
 msgid "Cancel jobs"
 msgstr ""
@@ -1725,6 +1963,15 @@ msgstr "Naziv certifikata"
 msgid "Certificate Password"
 msgstr "Lozinka certifikata"
 
+#. Definition of "crt": The file name extension used for SSL certificates in PEM file format. https://en.wikipedia.org/wiki/Privacy-Enhanced_Mail
+#. Definition of "pem": The file name extension used for SSL certificates in PEM file format. https://en.wikipedia.org/wiki/Privacy-Enhanced_Mail
+msgid "Certificates (*.cer *.crt *.pem);;All Files (*.*)"
+msgstr ""
+
+#, qt-format
+msgid "Change partition %1 on disk %2 from drive letter %3 to %4."
+msgstr ""
+
 msgid "Change password"
 msgstr "Izmjeni lozinku"
 
@@ -1740,7 +1987,7 @@ msgstr "Praćenje promjena na razini blokova"
 msgid "Changes will appear immediately in the client backup application."
 msgstr "Promjene će biti odmah vidljive u klijent aplikaciji."
 
-msgid "Check all"
+msgid "Check storage connection/configuration"
 msgstr ""
 
 #, c-format
@@ -1760,6 +2007,10 @@ msgstr "Odaberi povezani uređaj:"
 
 msgid "Choose a storage location"
 msgstr "Odaberi lokaciju za pohranu"
+
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "Choose a volume size that is between the maximum and minimum sizes."
+msgstr ""
 
 msgid "Choose an option to add new storage:"
 msgstr "Odaberi opciju za dodavanje nove pohrane:"
@@ -1796,6 +2047,16 @@ msgstr "Cirkularno logiranje je uključen, inkrementalno/diferencijalni backupi 
 msgid "Claim"
 msgstr "Zatraži"
 
+msgid "Clean"
+msgstr ""
+
+msgid "Clean disk"
+msgstr ""
+
+#, qt-format
+msgid "Cleaning disk %1..."
+msgstr ""
+
 #, c-format
 msgid "Cleaning up %s snapshot..."
 msgstr "Čistim %s snapshot..."
@@ -1810,11 +2071,18 @@ msgstr "Čišćenje"
 msgid "Cleanup complete!"
 msgstr "Čišćenje je završeno!"
 
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "cleanup skipped: another maintenance run is active on this Storage Vault"
+msgstr ""
+
 msgid "Clear"
 msgstr "Očisti"
 
 msgid "Clear clipboard"
 msgstr "Očisti međuspremnik"
+
+msgid "Clear filter"
+msgstr ""
 
 #, c-format
 msgid "Clearing existing partition table on device '%s'..."
@@ -1844,9 +2112,6 @@ msgstr "Kliknite '%s', potvrdite svoje sigurnosne opcije, a zatim kliknite '%s'.
 msgid "Click '%s'."
 msgstr "Kliknite '%s'."
 
-msgid "Click 'Start Guide' below if you'd like to follow a guided process to review your configuration and get started with a client backup."
-msgstr "Kliknite 'Započni vodič' u nastavku ako želite slijediti vođeni postupak za pregled vaše konfiguracije i početak izrade sigurnosne kopije klijenta."
-
 msgid "Click here to view group."
 msgstr "Kliknite ovdje za prikaz grupe."
 
@@ -1864,6 +2129,9 @@ msgstr "Klijent"
 msgid "Client Bulletin"
 msgstr "Bilten klijenta"
 
+msgid "Client certificate"
+msgstr ""
+
 msgid "Client certificate key path"
 msgstr "Put ključa certifikata klijenta"
 
@@ -1878,6 +2146,9 @@ msgstr "Key lozinka klijenta"
 
 msgid "Client secret"
 msgstr "Tajna klijenta"
+
+msgid "Client Secret"
+msgstr ""
 
 msgid "Client users"
 msgstr "Klijent korisnici"
@@ -1897,8 +2168,17 @@ msgstr "Sat"
 msgid "Close"
 msgstr "Zatvori"
 
+msgid "Close connection to backup agent"
+msgstr ""
+
 msgid "Cloud Storage"
 msgstr "Pohrana podataka u oblaku"
+
+msgid "cloud storage location"
+msgstr ""
+
+msgid "Cloud storage location"
+msgstr ""
 
 msgid "Cluster Manager"
 msgstr "Upravitelj klastera"
@@ -1916,11 +2196,18 @@ msgstr "Upravitelj klastera trebao bi upravljati podacima na sljedećim serverim
 msgid "Cluster Manager will clean up any unused buckets."
 msgstr "Upravitelj klastera očistit će sve neiskorištene buckete."
 
+msgid "Code"
+msgstr ""
+
 msgid "Codesigning"
 msgstr "Codesigning"
 
 msgid "Collapse Guide"
 msgstr "Sažmi vodič"
+
+#. Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
+msgid "Comet Account Portal"
+msgstr ""
 
 #. Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
 msgid "Comet Dashboard"
@@ -1967,6 +2254,9 @@ msgstr "Komuniciram sa Exchange serverom..."
 msgid "Communicating with Hyper-V..."
 msgstr "Komuniciram sa Hyper-V..."
 
+msgid "Company ID"
+msgstr ""
+
 msgid "Company name"
 msgstr "Ime tvrtke"
 
@@ -1985,6 +2275,11 @@ msgstr "Dovršena je analiza sadržaja spremnika."
 msgid "Component"
 msgstr "Komponenta"
 
+#. / TRANSLATORS: %d is the number of Microsoft 365 objects (mailboxes / SharePoint site groups) being combined into one backup snapshot
+#, c-format
+msgid "Composing snapshot from %d object(s)..."
+msgstr ""
+
 msgid "Compressed archive file (zip / tar)"
 msgstr "Komprimirana arhivska datoteka (zip/tar)"
 
@@ -1994,9 +2289,15 @@ msgstr "Kompresija"
 msgid "Configure"
 msgstr "Konfiguriram"
 
+msgid "Configure Automatic Upgrade Campaign"
+msgstr ""
+
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "Configure credentials for the new Protected Item"
 msgstr "Konfiguriraj pristupne podatke za novu Zaštićenu Stavku"
+
+msgid "Configure default settings for the Automatic Upgrade Campaign. These settings apply the next time the campaign starts."
+msgstr ""
 
 msgid "Configure external authentication sources for administrator accounts:"
 msgstr "Konfiguriraj vanjski autentifikacijski izvor za administratorski račun:"
@@ -2043,6 +2344,9 @@ msgstr "Konfiguriraj stanare za ovaj server."
 msgid "Configure this server's data storage location:"
 msgstr "Konfiguriraj lokaciju za pohranu podataka ovog servera:"
 
+msgid "Configure upgrade campaign"
+msgstr ""
+
 msgid "Configure which users can log in to the administration interface:"
 msgstr "Konfiguriraj koji korisnici se smiju logirati u administratorsko sučelje:"
 
@@ -2059,12 +2363,19 @@ msgstr "Konfiguriranje USB medija za oporavak da budu spremne za pokretanje..."
 msgid "Confirm password"
 msgstr "Potvrdi lozinku"
 
+msgid "Confirm restore target"
+msgstr ""
+
 msgid "Confirm selection"
 msgstr "Potvrdi odabir"
 
 #, c-format
 msgid "Confirm transfer of User '%s' to Tenant '%s'"
 msgstr "Potvrdite prijenos korisnika '%s' na zakupca '%s'"
+
+#. Definition of "API": An interface for programs to communicate with each other. https://en.wikipedia.org/wiki/API
+msgid "Confirm your password to authorize creating a new API token."
+msgstr ""
 
 msgid "Connect to a remote macOS machine"
 msgstr "Povežite se s udaljenim macOS strojem"
@@ -2088,11 +2399,17 @@ msgstr "Spajanje na Spremnik Pohrane."
 msgid "Connection"
 msgstr "Konekcije"
 
+msgid "Connection failed"
+msgstr ""
+
 msgid "Connection ID"
 msgstr "ID konekcije"
 
 msgid "Connection settings"
 msgstr "Postavke konekcije"
+
+msgid "Connection succeeded"
+msgstr ""
 
 msgid "Connections"
 msgstr "Konekcije"
@@ -2108,6 +2425,9 @@ msgstr "Kontejner"
 
 msgid "Container Policy"
 msgstr "Pravila kontejnera"
+
+msgid "Containers:"
+msgstr ""
 
 #. Used by the search system to create custom searches. "[USERNAME] contains [SOMETHING]
 msgid "contains"
@@ -2126,8 +2446,16 @@ msgstr "Nastavak povrata podataka bez povrata posebnih Windows-specifičnih dopu
 msgid "Convert"
 msgstr "Konvertiraj"
 
+#, qt-format
+msgid "Convert disk %1 to %2. Any existing partitions on the disk will be erased."
+msgstr ""
+
 msgid "Convert Storage Gateway to Direct-to-Cloud Storage Templates"
 msgstr "Pretvori Storage Gateway u predloške pohrane izravno u oblak"
+
+#, qt-format
+msgid "Converting disk %1 to %2..."
+msgstr ""
 
 msgid "Copied to clipboard."
 msgstr "Kopirano u međuspremnik."
@@ -2179,14 +2507,15 @@ msgstr "Kopiranje dodatnih datoteka..."
 msgid "Copying recovery image file..."
 msgstr "Kopiranje slikovne datoteke za oporavak..."
 
+#, c-format
+msgid "Could not confirm whether %d snapshot(s) still exist; any unreferenced data they hold will be removed by a later retention pass"
+msgstr ""
+
 msgid "Could not create temporary IAM template"
 msgstr "Nije moguće kreirati privremeni IAM predložak"
 
 msgid "Could not load backup data from previous snapshot (%v)."
 msgstr "Nije moguće učitati backup podataka za prethodni snapshot (%v)."
-
-msgid "Could not perform bulk action: unknown action handler"
-msgstr "Nije moguće izvršiti grupnu radnju: nepoznat izvršitelj radnje"
 
 #. Definition of "Elevator": This terminology is specific to Comet Backup. This is an internal part of our application that can raise the permission level, when needed. The software 'elevates' its permission level using the 'elevator'.
 #, c-format
@@ -2195,6 +2524,16 @@ msgstr "Nije moguće poslati naredbu elevatoru: %s"
 
 msgid "Couldn't analyze vault content"
 msgstr "Nije moguće analizirati sadržaj sprmnika"
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, c-format
+msgid "Couldn't apply the Storage Vault endpoint (%s)"
+msgstr ""
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, c-format
+msgid "Couldn't attribute Storage Vault usage: %s"
+msgstr ""
 
 #, c-format
 msgid "Couldn't build cache: %s"
@@ -2247,12 +2586,6 @@ msgstr "Nije moguće pronalaženje komponente aplikacije!"
 msgid "Couldn't find custom path: %s"
 msgstr "Nije moguće pronalaženje prilagođenog puta: %s"
 
-#. Definition of "Mongo": MongoDB is a commercial database program. If an official translation is available, it should be used. https://www.mongodb.com/
-#. Definition of "mongodump": This is the name of MongoDB's built-in backup program. It should not be translated. If an official translation is available, it should be used. https://www.mongodb.com/
-#, c-format
-msgid "Couldn't find mongodump binary (%s)"
-msgstr "Nije moguće pronalaženje mongodump binary (%s)"
-
 #. Definition of "MySQL": This is a database server from Oracle, that uses the SQL language. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/MySQL
 #. Definition of "mysqldump": This is the name of MySQL's built-in backup program. It should not be translated. https://en.wikipedia.org/wiki/MySQL
 #, c-format
@@ -2299,6 +2632,10 @@ msgstr "Nije moguće pokretanje %s"
 msgid "Couldn't list databases"
 msgstr "Nije moguće izlistavanje baza podataka"
 
+#. Definition of "MySQL": This is a database server from Oracle, that uses the SQL language. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/MySQL
+msgid "Couldn't list MySQL user accounts"
+msgstr ""
+
 #, c-format
 msgid "Couldn't load <%s/%s> for subdirectory '%s': %s"
 msgstr "Nije moguće učitati <%s/%s> za podmape '%s': %s"
@@ -2324,8 +2661,17 @@ msgstr "Logiranje nije moguće."
 msgid "Couldn't look up account properties (%s)"
 msgstr "Nije moguć pregled svojstava računa (%s)"
 
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, c-format
+msgid "Couldn't look up the Storage Vault endpoint (%s)"
+msgstr ""
+
 msgid "Couldn't parse GUID."
 msgstr "Nije moguće parsirati GUID."
+
+#, c-format
+msgid "Couldn't parse timed speed limit window, ignoring: %s"
+msgstr ""
 
 #, c-format
 msgid "Couldn't prevent automatic sleep: %s"
@@ -2350,16 +2696,18 @@ msgstr "Nije moguće očitati stablo podataka"
 msgid "Couldn't record that the Storage Vault has been initialized (%s)"
 msgstr "Nije moguće zapamtiti da je Spremnik Pohrane već inicjaliziran (%s)"
 
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, c-format
+msgid "Couldn't record the Storage Vault endpoint (%s)"
+msgstr ""
+
 #, c-format
 msgid "Couldn't reduce CPU priority: %s"
 msgstr "Nije moguće reducirati CPU prioritet: %s"
 
 #, c-format
-msgid "Couldn't remove update files: %s"
-msgstr "Nije moguće ukloniti update datoteke: %s"
-
-msgid "Couldn't retrieve a list of snapshots from this destination!"
-msgstr "Nije moguće pronalaženje liste snapshot-a destinacije!"
+msgid "Couldn't resume job (%s)"
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Couldn't retrieve a list of snapshots from this Storage Vault."
@@ -2398,6 +2746,9 @@ msgstr "Nije moguće spremiti profil na server"
 msgid "Couldn't start process"
 msgstr "Nije moguće pokrenuti proces"
 
+msgid "Couldn't start this job."
+msgstr ""
+
 #, c-format
 msgid "Couldn't submit log to server (%s) while logging message \"%s\""
 msgstr "Nije moguće poslati log na server (%s) dok se prikazuje poruka logiranja \"%s\""
@@ -2409,8 +2760,12 @@ msgid "Couldn't uninstall previous software version."
 msgstr "Nije moguće deinstalirati prethodnu verziju."
 
 #, c-format
-msgid "Couldn't update retry job (%s)"
-msgstr "Nije moguće ažurirati zadatak ponovnog pokušaja (%s)"
+msgid "Couldn't uninstall software: %s"
+msgstr ""
+
+#, c-format
+msgid "Couldn't verify whether the disk snapshot for device '%s' remained valid during the backup: %s"
+msgstr ""
 
 msgid "CPU"
 msgstr "CPU"
@@ -2437,11 +2792,20 @@ msgstr "Stvorite minimalnu datoteku ISO slike koja se diže izravno u %1."
 msgid "Create a minimal USB environment that boots directly into %1. A 2 GB removable USB flash drive is required."
 msgstr "Stvorite minimalno USB okruženje koje se diže izravno u %1. Potreban je prijenosni USB flash pogon od 2 GB."
 
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+#, qt-format
+msgid "Create a new simple volume on disk %1 with the settings below."
+msgstr ""
+
 msgid "Create a News Entry"
 msgstr "Stvori Stavku Novosti"
 
 msgid "Create Admin"
 msgstr "Stvori administratora"
+
+#. Definition of "API": An interface for programs to communicate with each other. https://en.wikipedia.org/wiki/API
+msgid "Create and use personal API tokens"
+msgstr ""
 
 msgid "Create first tenant"
 msgstr "Stvori prvog stanara"
@@ -2464,6 +2828,14 @@ msgstr "Dodaj Zaštićenu stavku"
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Create new Storage Vault"
 msgstr "Stvori novi trezor za pohranu"
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Create new Storage Vaults via Custom"
+msgstr ""
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Create new Storage Vaults via Storage template"
+msgstr ""
 
 msgid "Create New User Group"
 msgstr "Stvori novu korisničku grupu"
@@ -2493,6 +2865,14 @@ msgstr "Stvaranje privremene mape..."
 
 msgid "Creating USB Recovery media, please wait..."
 msgstr "Stvaranje USB medija za oporavak, molimo pričekajte..."
+
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+#, qt-format
+msgid "Creating volume on disk %1..."
+msgstr ""
+
+msgid "CSS"
+msgstr ""
 
 #. Definition of "CSV": Abbreviation of 'Comma Separated Values' (*.csv), a simple file format for spreadsheet data. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Comma-separated_values
 msgid "CSV"
@@ -2535,6 +2915,12 @@ msgstr "Prilagođen sadržaj nije točan JSON"
 msgid "Custom Branding"
 msgstr "Prilagođeno brendiranje"
 
+msgid "Custom code (for all tenants)"
+msgstr ""
+
+msgid "Custom code item"
+msgstr ""
+
 msgid "custom command"
 msgstr "prilagođena naredba"
 
@@ -2554,10 +2940,12 @@ msgstr "Prilagođena zaglavlja"
 msgid "Custom HELO/EHLO"
 msgstr "Prilagođen HELO/EHLO"
 
-#. Definition of "Mongo": MongoDB is a commercial database program. If an official translation is available, it should be used. https://www.mongodb.com/
-#. Definition of "mongodump": This is the name of MongoDB's built-in backup program. It should not be translated. If an official translation is available, it should be used. https://www.mongodb.com/
-msgid "Custom mongodump path"
-msgstr "Prilagođena mongodump putanja"
+#. Definition of "known_hosts": This is the name of a file in the OpenSSH program. It should not be translated. https://man.openbsd.org/ssh
+msgid "Custom host key verification is selected, but no known_hosts file path was entered. Enter a path to the known_hosts file, or select \"Allow any host key\"."
+msgstr ""
+
+msgid "Custom JavaScript / CSS"
+msgstr ""
 
 #. Definition of "MySQL": This is a database server from Oracle, that uses the SQL language. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/MySQL
 #. Definition of "mysqldump": This is the name of MySQL's built-in backup program. It should not be translated. https://en.wikipedia.org/wiki/MySQL
@@ -2650,6 +3038,9 @@ msgstr "Baza podataka '%1'"
 msgid "Database '%s'"
 msgstr "Baza podataka '%s'"
 
+msgid "Databases"
+msgstr ""
+
 msgid "Datacenter"
 msgstr "Data centar"
 
@@ -2711,11 +3102,17 @@ msgstr "Zadano (Sva sučelja)"
 msgid "Default (C:\\)"
 msgstr "Zadani (C:\\)"
 
+msgid "Default (Changed Block Tracking)"
+msgstr ""
+
 msgid "Default (no extra commands)"
 msgstr "Zadani (bez dodatnih naredbi)"
 
 msgid "Default (none)"
 msgstr "Zadani (nijedan)"
+
+msgid "Default (Snapshot)"
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Default (using Storage Vault policy)"
@@ -2734,6 +3131,10 @@ msgstr "Zadana zašrićena stavka"
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "Default Protected Item(s)"
 msgstr "Zadani zaštićeni predmet(i)"
+
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "Default Protected Items without \"Enforce changes to existing devices\" set will receive the schedules configured here, if they do not have their own directly configured schedules."
+msgstr ""
 
 msgid "Default reports"
 msgstr "Zadana izvješća"
@@ -2793,6 +3194,10 @@ msgstr "Izbrišite više snimaka"
 msgid "Delete Now"
 msgstr "Izbriši sada"
 
+#, qt-format
+msgid "Delete partition %1 on disk %2. The `override` flag lets diskpart remove protected system partitions too. All data on that partition will be lost."
+msgstr ""
+
 msgid "Delete Policy"
 msgstr "Izbriši Pravilo"
 
@@ -2813,17 +3218,38 @@ msgstr "Izbriši snimak"
 msgid "Delete Storage Vault"
 msgstr "Izbriši trezor za pohranu"
 
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Delete Storage Vaults"
+msgstr ""
+
 msgid "Delete target"
 msgstr "Izbriši destinaciju"
 
 msgid "Delete this snapshot..."
 msgstr "Izbriši ovaj snimak..."
 
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "Delete this volume first, then select the Unallocated area."
+msgstr ""
+
 msgid "Delete time"
 msgstr "Vrijeme brisanja"
 
 msgid "Delete User"
 msgstr "Izbriši korisnika"
+
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "Delete Volume"
+msgstr ""
+
+#. Definition of "Hyper-V": This is a Virtual Machine hosting platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Hyper-V
+#, c-format
+msgid "Deleting Hyper-V checkpoint created by backup: %s"
+msgstr ""
+
+#, qt-format
+msgid "Deleting partition %1 on disk %2..."
+msgstr ""
 
 msgid "Deleting Snapshots"
 msgstr "Brisanje snimki"
@@ -2844,8 +3270,17 @@ msgstr "Deoptimizacija snimka '%s'"
 msgid "Description"
 msgstr "Opis"
 
+msgid "Description is required"
+msgstr ""
+
 msgid "Desktop"
 msgstr "Desktop"
+
+msgid "Desktop app"
+msgstr ""
+
+msgid "Destination"
+msgstr ""
 
 msgid "Destination identifier (optional)"
 msgstr "Identifikator odredišta (opcionalno)"
@@ -2853,11 +3288,18 @@ msgstr "Identifikator odredišta (opcionalno)"
 msgid "destination initializer"
 msgstr "inicjalizacija odredišta"
 
+msgid "Detach from Shared Quota..."
+msgstr ""
+
 msgid "Detailed log"
 msgstr "Detaljan zapisnik"
 
 msgid "Detailed Log"
 msgstr "Detaljan zapisnik"
+
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Determines how the vm or container is handled during backup: running, stopped, or paused"
+msgstr ""
 
 msgid "Developer ID Application"
 msgstr "Aplikacija ID programera"
@@ -2885,6 +3327,9 @@ msgstr "Uređaj je odspojen iz predvorja za registraciju"
 
 msgid "Device ID"
 msgstr "ID uređaja"
+
+msgid "Device is not currently online."
+msgstr ""
 
 msgid "Device live connection ended"
 msgstr "Prekinuta veza s uređajem"
@@ -2928,6 +3373,9 @@ msgstr "Povijest uređaja"
 
 msgid "Devices Quota"
 msgstr "Kvota uređaja"
+
+msgid "Devices that are offline will not be updated"
+msgstr ""
 
 msgid "Diagnostic information:"
 msgstr "Dijagnostičke informacije:"
@@ -2998,6 +3446,10 @@ msgstr "Otkriće URL-a dokumenta"
 msgid "Disk"
 msgstr "Disk"
 
+#, qt-format
+msgid "Disk %1 is MBR-formatted and already has 4 top-level partitions (the MBR limit). Delete one, or convert the disk to GPT, before creating another partition."
+msgstr ""
+
 #, c-format
 msgid "Disk '%s'"
 msgstr "Disk '%s'"
@@ -3009,11 +3461,24 @@ msgstr "Disk '%s' (particija #%d)"
 msgid "Disk drive (granular restore)"
 msgstr "Disk pogon (pojedinačni povrat)"
 
+msgid "Disk drives"
+msgstr ""
+
 msgid "Disk ID"
 msgstr "Disk ID"
 
 msgid "Disk Image"
 msgstr "Slika diska"
+
+msgid "Disk Management needs Administrator privileges to read the partition layout. Close this window and relaunch the application as Administrator."
+msgstr ""
+
+msgid "Disk Manager"
+msgstr ""
+
+#, qt-format
+msgid "Diskpart reported success but drive letter %1 was not applied to partition %2. This partition likely has the GPT NO_DRIVE_LETTER attribute (common on Recovery partitions) which blocks letter assignment. Clear the flag with diskpart's `gpt attributes=` command first, or leave the partition without a letter."
+msgstr ""
 
 msgid "Disks"
 msgstr "Diskovi"
@@ -3031,6 +3496,10 @@ msgstr "Odbaci vodiča"
 msgid "Display name"
 msgstr "Prikaži ime"
 
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "Do not format this volume"
+msgstr ""
+
 msgid "Do you also want to uninstall the software from the remote device(s)?"
 msgstr "Želite li također deinstalirti softver s udaljenog uređaja?"
 
@@ -3046,6 +3515,9 @@ msgstr "Želite li izbrisati postojeće zaštićene stavke kreirane ovim pravilo
 
 msgid "Do you want to save your changes?"
 msgstr "Želite li spremiti promjene?"
+
+msgid "Document head"
+msgstr ""
 
 msgid "Documents"
 msgstr "Dokumenti"
@@ -3153,6 +3625,14 @@ msgstr "DSM 6"
 msgid "DSM 7"
 msgstr "DSM 7"
 
+#. / TRANSLATORS: %s is the name of a Microsoft 365 object (e.g. a mailbox email address) in a backup snapshot
+#, c-format
+msgid "Duplicate object name '%s' was supplied"
+msgstr ""
+
+msgid "Duplicate object name in composed snapshot"
+msgstr ""
+
 msgid "Duplicate..."
 msgstr "Duplikat..."
 
@@ -3177,6 +3657,15 @@ msgstr "Dinamički volumen"
 msgid "e.g."
 msgstr "npr."
 
+msgid "e.g. C:\\Program Files\\Vendor\\driver.dll"
+msgstr ""
+
+msgid "e.g. PhoneNumber, ExternalID"
+msgstr ""
+
+msgid "e.g. Portal integration"
+msgstr ""
+
 msgid "Each Tenant has their own Admin Users."
 msgstr "Svaki stanar ima svoje administratorske korisnike."
 
@@ -3191,6 +3680,18 @@ msgstr "EDB i logovi, skraćeni (\"FULL\")"
 msgid "Edit"
 msgstr "Izmjeni"
 
+msgid "Edit allowed PKCS#11 module path"
+msgstr ""
+
+msgid "Edit Backup Agent Downloads"
+msgstr ""
+
+msgid "Edit branding settings"
+msgstr ""
+
+msgid "Edit Cluster Manager settings"
+msgstr ""
+
 msgid "Edit command"
 msgstr "Uredi naredbu"
 
@@ -3200,8 +3701,17 @@ msgstr "Uredi opis..."
 msgid "Edit Email Address..."
 msgstr "Uredi adresu e-pošte..."
 
+msgid "Edit email options"
+msgstr ""
+
 msgid "Edit Email Report"
 msgstr "Uredi izvješće e-poštom"
+
+msgid "Edit external admin authentication sources"
+msgstr ""
+
+msgid "Edit Field"
+msgstr ""
 
 msgid "Edit item"
 msgstr "Uredi stavku"
@@ -3231,11 +3741,26 @@ msgstr "Izmjena osnovnog profila"
 msgid "Edit raw settings"
 msgstr "Izmjena osnovnih postavki"
 
+msgid "Edit remote storage settings"
+msgstr ""
+
 msgid "Edit Retention Policy"
 msgstr "Izmjeni Pravila Retencije"
 
 msgid "Edit Retention Range"
 msgstr "Uredi rang retencije"
+
+msgid "Edit rule"
+msgstr ""
+
+msgid "Edit Rule"
+msgstr ""
+
+msgid "Edit Saved Searches"
+msgstr ""
+
+msgid "Edit saved searches..."
+msgstr ""
 
 msgid "Edit schedule"
 msgstr "Izmjeni termin"
@@ -3259,6 +3784,9 @@ msgstr "Ažuriraj vrijeme"
 #. Definition of "WebAuthn": This is a standard for two-factor authentication. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/WebAuthn
 msgid "Edit WebAuthn Registration"
 msgstr "Uredi WebAuthn registraciju"
+
+msgid "Edit webhook settings"
+msgstr ""
 
 #. Definition of "EFS": Encrypting File System (EFS) is an encryption system built into Windows. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Encrypting_File_System
 msgid "EFS-encrypted files may be unusable once restored, unless you also backup the EFS encryption keys from this PC."
@@ -3343,8 +3871,15 @@ msgstr "Omogući Upravitelj klastera (ovo je moj glavni server)"
 msgid "Enable dark mode"
 msgstr "Omogući tamni način rada"
 
+#. Definition of "SMTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol
+msgid "Enable if you deliberately run an SMTP relay on the local network (loopback, RFC1918, or link-local address). By default outbound email delivery is restricted to public addresses, so that a tenant admin cannot use the email settings to probe internal network services."
+msgstr ""
+
 msgid "Enable Management Console"
 msgstr "Omogući konzolu za upravljanje"
+
+msgid "Enable only when this system is deployed behind a reverse proxy that sets the X-Forwarded-For header. Otherwise malicious users can spoof this header to bypass IP allowlists."
+msgstr ""
 
 msgid "Enable Storage Gateway"
 msgstr "Omogući Storage Gateway"
@@ -3371,6 +3906,9 @@ msgstr "Enkripcijski ključ"
 msgid "End"
 msgstr "Kraj"
 
+msgid "End of document body"
+msgstr ""
+
 msgid "End time"
 msgstr "Vrijeme završetka"
 
@@ -3383,6 +3921,9 @@ msgstr "Završeno"
 #. Used by the search system to create custom searches. "[USERNAME] ends with [SUFFIX]
 msgid "ends with"
 msgstr "završava sa"
+
+msgid "Enforce allowlist"
+msgstr ""
 
 msgid "Enforce changes to existing devices"
 msgstr "Provedi promjene na postojećim uređajima"
@@ -3397,9 +3938,6 @@ msgstr "Nametnuto"
 msgid "Enforced by Policy"
 msgstr "Nametnuto kroz pravila"
 
-msgid "Engine failure"
-msgstr "Greška upravljačkog mehanizma"
-
 msgid "Enter a custom command"
 msgstr "Unesite prilagođenu naredbu"
 
@@ -3409,11 +3947,17 @@ msgstr "Unesite novi naziv za odabrani uređaj:"
 msgid "Enter a single database table name:"
 msgstr "Unesite naziv tabele baze:"
 
+msgid "Enter a valid Base URL"
+msgstr ""
+
 msgid "Enter a web address"
 msgstr "Unesite web adresu"
 
 msgid "Enter an email address to send a test message:"
 msgstr "Unesite email adresu za slanje testne poruke:"
+
+msgid "Enter Base URL, Client ID, and Client Secret first"
+msgstr ""
 
 msgid "Enter job ID:"
 msgstr "Unesite ID zadatka:"
@@ -3423,6 +3967,14 @@ msgstr "Unesite novo ime bucket-a:"
 
 msgid "Enter path:"
 msgstr "Unesite putanju:"
+
+msgid "Enter the code for the Shared Quota you wish to join:"
+msgstr ""
+
+#. Definition of "Linux": The free operating system, an alternative to Windows or macOS. https://en.wikipedia.org/wiki/Linux
+#. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
+msgid "Enter the exact file path of a permitted PKCS#11 driver module. Paths must end in a lowercase .dll (Windows) or .so (Linux) extension. Path matching is case-insensitive on Windows and case-sensitive on Linux."
+msgstr ""
 
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "Enter the name for the Protected Item"
@@ -3434,6 +3986,10 @@ msgstr "Ispod unesite svoj šestocifreni kod"
 #. Used by the search system to create custom searches. "[USERNAME] equal [SOMETHING]
 msgid "equal"
 msgstr "jednako"
+
+#, qt-format
+msgid "Erases ALL data on disk %1 and removes its partition table. This is irreversible."
+msgstr ""
 
 msgid "Error"
 msgstr "Greška"
@@ -3449,6 +4005,10 @@ msgid "Error deleting file '%s'"
 msgstr "Došlo je do greške pri brisanju datoteke '%s'"
 
 #, c-format
+msgid "Error downgrading disk caching for device %s: %s, %s, %s"
+msgstr ""
+
+#, c-format
 msgid "Error for '%s': file truncated (expected %d bytes, got %d)"
 msgstr "Greška za '%s': datoteka je polovična (očekivano %d byta, primljeno %d)"
 
@@ -3456,10 +4016,9 @@ msgstr "Greška za '%s': datoteka je polovična (očekivano %d byta, primljeno %
 msgid "Error for user '%s' (line %d): %s"
 msgstr "Greška za korisnika '%s' (linija %d): %s"
 
-#. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
 #, c-format
-msgid "Error getting information about SharePoint site '%s': %v"
-msgstr "Pogreška prilikom dobivanja informacija o SharePoint stranici '%s': %v"
+msgid "Error getting path for device %s: %s"
+msgstr ""
 
 #, c-format
 msgid "Error importing backupset '%s': %s"
@@ -3467,12 +4026,8 @@ msgstr "Greška prilikom uvoza backupset-a '%s': %s"
 
 #. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
 #, c-format
-msgid "Error in SharePoint site processing for site %s (%s). The site appears to be ineligible for backup: %s"
-msgstr "Greška u SharePointu prilikom obrade za web mjesto %s (%s). Web mjesto je nečitljivo za backup: %s"
-
-#. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
-msgid "Error in SharePoint site processing: Site result data is empty"
-msgstr "Greška u SharePointu prilikom obrade za web mjesto: rezultati vezani uz lokaciju su prazni"
+msgid "Error in SharePoint site processing for site %s (%s). The site appears to be ineligible for backup."
+msgstr ""
 
 msgid "Error loading file."
 msgstr "Greška pri učitavanju datoteke."
@@ -3487,6 +4042,11 @@ msgstr "Pogreška primljena prilikom popisa Microsoft 365 računa:"
 msgid "Error requesting provider"
 msgstr "Greška pri pronalasku providera"
 
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#, c-format
+msgid "Error retrieving disk info for vm %d: %s"
+msgstr ""
+
 msgid "Error retrieving job information"
 msgstr "Greška pri pronalasku informacija o zadatku"
 
@@ -3497,39 +4057,43 @@ msgid "Error retrieving provider list"
 msgstr "Greška pri pronalasku liste providera"
 
 #, c-format
-msgid "Error saving account %s: %v"
-msgstr "Pogreška pri spremanju računa %s: %v"
+msgid "Error setting boot order: %s %s"
+msgstr ""
 
-#. Definition of "Microsoft 365": This is commercial platform from Microsoft. There is always a space between _Microsoft_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
 #, c-format
-msgid "Error saving Microsoft 365 Calendar data for account %s: %v"
-msgstr "Pogreška pri spremanju podataka Microsoft 365 kalendara za račun %s: %v"
+msgid "Error starting vm %d in suspended mode: %s"
+msgstr ""
 
-#. Definition of "Microsoft 365": This is commercial platform from Microsoft. There is always a space between _Microsoft_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
 #, c-format
-msgid "Error saving Microsoft 365 Contact data for account %s: %v"
-msgstr "Pogreška pri spremanju podataka o kontaktima za Microsoft 365 za račun %s: %v"
+msgid "Error stopping vm %d: %s"
+msgstr ""
 
-#. Definition of "Microsoft 365": This is commercial platform from Microsoft. There is always a space between _Microsoft_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
 #, c-format
-msgid "Error saving Microsoft 365 Email data for account %s: %v"
-msgstr "Pogreška pri spremanju podataka Microsoft 365 e-pošte za račun %s: %v"
-
-#. Definition of "OneDrive": This is a cloud storage platform from Microsoft. The _O_ and _D_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_OneDrive
-#, c-format
-msgid "Error saving OneDrive backup data for account %s: %v"
-msgstr "Pogreška pri spremanju podataka sigurnosne kopije OneDrive za račun %s: %v"
-
-#. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
-#, c-format
-msgid "Error saving SharePoint site '%s': %s"
-msgstr "Greška pri snimanju SharePoint web mjesta '%s': %s"
+msgid "Error unlinking volume %s from VM %d: %s %s"
+msgstr ""
 
 msgid "Error when converting Storage Gateway to Direct-to-Cloud Storage Templates."
 msgstr "Pogreška prilikom pretvaranja Storage Gateway-a u predloške pohrane izravno u oblak."
 
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#. Definition of "VMs": Abbreviation of 'Virtual Machines'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Error while listing VMs"
+msgstr ""
+
 msgid "Error while parsing the following results:"
 msgstr "Pogreška prilikom parsiranja sljedećih rezultata:"
+
+msgid "Error with Storage Gateway"
+msgstr ""
+
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#, c-format
+msgid "Error with VM %d on node %s test start: %s"
+msgstr ""
 
 msgid "ETA:"
 msgstr "ETA:"
@@ -3538,11 +4102,18 @@ msgstr "ETA:"
 msgid "EULA"
 msgstr "EULA"
 
+msgid "Evaluating retention policy"
+msgstr ""
+
 msgid "Event (optional)"
 msgstr "Događaj (neobavezno)"
 
 msgid "Event Types"
 msgstr "Vrste događaja"
+
+#. Definition of "Slack": This is a commercial messaging and chat app. If an official translation is available, it should be used. https://slack.com/
+msgid "Events are reformatted as Slack messages so they render natively in a channel."
+msgstr ""
 
 msgid "every"
 msgstr "svaki"
@@ -3566,6 +4137,9 @@ msgstr "Svake godine, u mjesecu %1, na %2 u %3:%4"
 msgid "Every year, on month: %1, on the %2 at %3:%4"
 msgstr "Svake godine, u mjesecu: %1, na %2 u %3:%4"
 
+msgid "Everything"
+msgstr ""
+
 #. Definition of "Excel": This is a spreadsheet program from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Excel
 msgid "Excel"
 msgstr "Excel"
@@ -3585,6 +4159,9 @@ msgstr "Exchange Organizacija"
 #. Definition of "Exchange": This is an email server platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Exchange_Server
 msgid "Exchange Server"
 msgstr "Server za razmjenu"
+
+msgid "Exchanging token..."
+msgstr ""
 
 msgid "Exclude"
 msgstr "Izostavi"
@@ -3608,6 +4185,18 @@ msgstr "Izostavi naznačeni virtualni stroj"
 msgid "Exclude system logs"
 msgstr "Izostavi sistemske logove"
 
+#, qt-format
+msgid "Excluded by rule %1"
+msgstr ""
+
+#, c-format
+msgid "Excluded by rule %s"
+msgstr ""
+
+#, c-format
+msgid "Excluding %d recently referenced pack(s) from the cleanup candidate list"
+msgstr ""
+
 msgid "Exclusions"
 msgstr "Isključivanja"
 
@@ -3618,6 +4207,21 @@ msgstr "Postojeće zaštićene stavke prema pravilima"
 #. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
 msgid "Exit to Windows Recovery Environment"
 msgstr "Izlaz u Windows Recovery Environment"
+
+msgid "Expires"
+msgstr ""
+
+msgid "Expiry"
+msgstr ""
+
+msgid "Expiry date is not a valid date"
+msgstr ""
+
+msgid "Expiry date is required"
+msgstr ""
+
+msgid "Expiry date must be in the future"
+msgstr ""
 
 #. Definition of "FTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/File_Transfer_Protocol
 #. Definition of "FTPS": The secure version of FTP. https://en.wikipedia.org/wiki/FTPS
@@ -3633,9 +4237,33 @@ msgstr "Izvezi sve"
 msgid "Export Selected"
 msgstr "Izvezi odabrano"
 
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+#, qt-format
+msgid "Extend is not supported on %1 volumes."
+msgstr ""
+
+#, qt-format
+msgid "Extend partition %1 on disk %2 by %3 MB. Requires unallocated space directly after the partition."
+msgstr ""
+
+#, qt-format
+msgid "Extend partition %1 on disk %2 into all adjacent unallocated space."
+msgstr ""
+
+msgid "Extend requires unallocated space directly after this partition."
+msgstr ""
+
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "Extend Volume"
+msgstr ""
+
 #, c-format
 msgid "Extending Object Lock for %d referenced object(s)..."
 msgstr "Proširenje zaključavanja objekta za %d referentni(e) objekt(e)..."
+
+#, qt-format
+msgid "Extending partition %1 on disk %2..."
+msgstr ""
 
 #, qt-format
 msgid "Extent #%1"
@@ -3653,14 +4281,23 @@ msgstr "Vanjski izvor autentifikacije"
 msgid "External Source"
 msgstr "Vanjski Izvor"
 
+msgid "External URL"
+msgstr ""
+
 msgid "Externally managed"
 msgstr "Upravljan izvana"
 
 msgid "Extra data (optional)"
 msgstr "Dodatni podaci (opcionalno)"
 
+msgid "Extra Fields"
+msgstr ""
+
 msgid "Extra parameters"
 msgstr "Dodatni parametri"
+
+msgid "Extract individual files and/or folders from virtual hard disk files, and restore them to a cloud or remote storage location."
+msgstr ""
 
 msgid "Extract individual files and/or folders from virtual hard disk files, and restore them to a compressed archive file."
 msgstr "Izdvoji pojedinačne datoteke i/ili mape iz virtualnih hard disk datoteka i obnovi ih u komprimiranu arhivsku datoteku."
@@ -3677,13 +4314,44 @@ msgstr "Neuspješno"
 msgid "failed attempts"
 msgstr "neuspešni pokušaji"
 
+#, c-format
+msgid "Failed backup for mailbox %s:"
+msgstr ""
+
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Failed to add Storage Vault."
 msgstr "Neuspješno dodavanje Spremnika Pohrane."
 
+#, c-format
+msgid "Failed to back up calendar '%s' (id=%s) in account %s, skipping: %v"
+msgstr ""
+
+#, c-format
+msgid "Failed to back up contact folder '%s' (id=%s) in account %s, skipping: %v"
+msgstr ""
+
+#, c-format
+msgid "Failed to back up contacts for contact folder '%s' in account %s, retrying with non-delta listing: %v"
+msgstr ""
+
+#, c-format
+msgid "Failed to back up mail folder '%s' (id=%s) in account %s, skipping: %v"
+msgstr ""
+
+#, c-format
+msgid "Failed to back up messages for mail folder '%s' in account %s, retrying with non-delta listing: %v"
+msgstr ""
+
+#, c-format
+msgid "Failed to back up messages using non-delta fallback for mail folder '%s' in account %s"
+msgstr ""
+
 #, qt-format
 msgid "Failed to browse %1."
 msgstr "Neuspješno pretraživanje %1."
+
+msgid "Failed to browse disks in this backup snapshot"
+msgstr ""
 
 msgid "Failed to browse local disks"
 msgstr "Neuspješni pregled lokalnog diska"
@@ -3716,6 +4384,16 @@ msgstr "Neuspjela provjera da li je Spremnik pohrane inicijaliziran: %s"
 msgid "Failed to communicate with selected VSS writer."
 msgstr "Neuspješno komuniciranje sa odabranim VSS writerom."
 
+#, c-format
+msgid "Failed to compute stats for previous snapshot of node %s (%s)"
+msgstr ""
+
+msgid "Failed to connect to Storage Gateway location. Changes not applied."
+msgstr ""
+
+msgid "Failed to convert the existing selection"
+msgstr ""
+
 msgid "Failed to find ID for snapshot node. Falling back to full backup..."
 msgstr "Nije moguće pronaći ID za snapshot čvor. Prelazi se na punu sigurnosnu kopiju..."
 
@@ -3723,9 +4401,8 @@ msgstr "Nije moguće pronaći ID za snapshot čvor. Prelazi se na punu sigurnosn
 msgid "Failed to get a valid credential response from the WebAuthn device."
 msgstr "Nije uspjelo dobivanje valjanog odgovora vjerodajnica s uređaja WebAuthn."
 
-#. Definition of "WebAuthn": This is a standard for two-factor authentication. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/WebAuthn
-msgid "Failed to get WebAuthn key."
-msgstr "Dohvaćanje ključa WebAuthn nije uspjelo."
+msgid "Failed to get auth URL"
+msgstr ""
 
 #. Definition of "Regex": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Regular_expression
 #, c-format
@@ -3748,6 +4425,15 @@ msgstr "Neuspješno pokretanje pomoći binarno: %1 (%2)"
 #. Definition of "Microsoft 365": This is commercial platform from Microsoft. There is always a space between _Microsoft_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
 msgid "Failed to list Microsoft 365 accounts"
 msgstr "Neuspješan popis Microsoft 365 računa"
+
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#. Definition of "VMs": Abbreviation of 'Virtual Machines'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Failed to list Proxmox VMs"
+msgstr ""
+
+msgid "Failed to load"
+msgstr ""
 
 msgid "Failed to load detail for this job."
 msgstr "Neuspješno učitavanje detalja o zadatku."
@@ -3820,6 +4506,14 @@ msgid "Failed to skip free disk space from %s: %s. Volume backup may be unexpect
 msgstr "Neuspješno preskakanje slobodnog prostora na disku sa %s: %s. Sigurnosna kopija volumena može biti neočekivano velika"
 
 #, c-format
+msgid "Failed to submit license info: %s"
+msgstr ""
+
+#, c-format
+msgid "Failed to update schedule to use temporary files (%s)"
+msgstr ""
+
+#, c-format
 msgid "Failed to update tenant for user '%s': %s"
 msgstr "Neuspješno ažuriranje stanara za korisnika '%s': %s"
 
@@ -3855,11 +4549,22 @@ msgstr "Veljača"
 msgid "FIDO2 WebAuthn"
 msgstr "FIDO2 WebAuthn"
 
+msgid "Field"
+msgstr ""
+
 msgid "Field should not be empty"
 msgstr "Datoteka ne bi smjela biti prazna"
 
 msgid "File"
 msgstr "Datoteka"
+
+#, c-format
+msgid "File %s (WebURL=%s) changed size mid-download, restarting (attempt %d/%d)..."
+msgstr ""
+
+#, c-format
+msgid "File %s (WebURL=%s) repeatedly changed size during download, skipping..."
+msgstr ""
 
 msgid "File (granular restore)"
 msgstr "Datoteka (pojedinačni povrat)"
@@ -3893,6 +4598,9 @@ msgstr "Datoteka s proširenim Windows metapodacima"
 msgid "Filebase"
 msgstr "Baza podataka"
 
+msgid "Filename:"
+msgstr ""
+
 #, qt-format
 msgid "Filename: %1"
 msgstr "Naziv datoteke: %1"
@@ -3909,11 +4617,17 @@ msgstr "Datotečni sustav"
 msgid "Filter"
 msgstr "Filter"
 
+msgid "Filter (active)"
+msgstr ""
+
 msgid "Filter job list"
 msgstr "Filter liste zadataka"
 
 msgid "Filter Names"
 msgstr "Nazivi filtera"
+
+msgid "Filter Recent Activity"
+msgstr ""
 
 msgid "Filtering by retention policy..."
 msgstr "Filtriranje prema osnovnim pravilima retencije..."
@@ -3959,19 +4673,15 @@ msgid "Finished"
 msgstr "Završeno"
 
 #, c-format
-msgid "Finished backup for mailbox %s (Duration: %s, Dirs: %d, Items: %d, Bytes: %s)"
-msgstr "Završen backup za sandučić %s (Trajanje: %s, Mape: %d, Stavke: %d, Bajtovi: %s)"
+msgid "Finished backup for mailbox %s (Duration: %s, Dirs: %d, Items: %d, Bytes: %s; Calendars: %s, Contacts: %s, Mail: %s)"
+msgstr ""
 
 #, c-format
 msgid "Finished backup for site %s (Duration: %s, Dirs: %d, Files: %d, Bytes: %s)"
 msgstr "Završen backup za lokaciju %s (Trajanje: %s, Mape: %d, Datoteke: %d, Bajtovi: %s)"
 
-#, c-format
-msgid "Finished backup of mailbox %s (Duration: %s, Dirs: %d, Items: %d, Bytes: %s)"
-msgstr "Završen backup poštanskog sandučića %s (Trajanje: %s, Mape: %d, Stavke: %d, Bajtovi: %s)"
-
-msgid "First"
-msgstr "Prvi"
+msgid "For easier access, you can assign a drive letter or drive path to your partition."
+msgstr ""
 
 msgid "Force cancel selected jobs"
 msgstr ""
@@ -3979,15 +4689,43 @@ msgstr ""
 msgid "Force Offline"
 msgstr "Prisilno isključi"
 
+msgid "Foreign device"
+msgstr ""
+
 msgid "Form"
 msgstr "Forma"
 
 msgid "Form Encoded"
 msgstr "Forma kodirana"
 
+msgid "Format Partition"
+msgstr ""
+
+#, qt-format
+msgid "Format partition %1 on disk %2 as %3 (full format). All data on that partition will be erased."
+msgstr ""
+
+#, qt-format
+msgid "Format partition %1 on disk %2 as %3 (quick format). All data on that partition will be erased."
+msgstr ""
+
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "Format this volume with the following settings:"
+msgstr ""
+
+msgid "Format type:"
+msgstr ""
+
+msgid "Format..."
+msgstr ""
+
 #, c-format
 msgid "Formatting drive '%s'"
 msgstr "Formatiranje diska '%s'"
+
+#, qt-format
+msgid "Formatting partition %1 on disk %2..."
+msgstr ""
 
 #, c-format
 msgid "Found %d backup job(s) eligible for removal."
@@ -4056,8 +4794,17 @@ msgstr "Puno (osnovna slika)"
 msgid "Full (copy only)"
 msgstr "Puno (kopija)"
 
+msgid "Full backup or CBT, which backs up blocks which have changed since last backup"
+msgstr ""
+
 msgid "Full Disk Access permission has been granted"
 msgstr "Odobreno je potpuno odobrenje za pristup disku"
+
+msgid "Full Format"
+msgstr ""
+
+msgid "Full format (zeros the partition, can take hours)"
+msgstr ""
 
 msgid "Fullscan not awake!"
 msgstr "Puni scan nije spreman!"
@@ -4117,6 +4864,9 @@ msgstr "Google"
 msgid "Google Cloud Storage"
 msgstr "Google Cloud Storage"
 
+msgid "GPG key"
+msgstr ""
+
 msgid "GPT Partition (granular restore)"
 msgstr "GPT particija (pojedinačni povrat)"
 
@@ -4128,6 +4878,9 @@ msgstr "Pojedinačni povrat"
 
 msgid "Granular restore (Simulate restore only)"
 msgstr "Granularni povrat (samo simulacija povrata)"
+
+msgid "Granular restore to cloud storage location"
+msgstr ""
 
 msgid "Granular restore to compressed archive file (zip / tar)"
 msgstr "Granularni povrat u komprimiranu arhivsku datoteku (zip / tar)."
@@ -4146,29 +4899,26 @@ msgstr "Grupa"
 msgid "Group Account"
 msgstr "Račun grupe"
 
+msgid "Group ID"
+msgstr ""
+
 msgid "Group members"
 msgstr "Članovi grupe"
 
 msgid "Group Members"
 msgstr "Članovi grupe"
 
+msgid "Group members' services"
+msgstr ""
+
 msgid "group name"
 msgstr "naziv grupe"
-
-msgid "Grouped"
-msgstr "Grupirano"
-
-msgid "Grouped By"
-msgstr "Grupirano po"
 
 msgid "Grouped status report"
 msgstr "Grupirano izvješće o statusu"
 
 msgid "Grouped Status Report"
 msgstr "Grupirano izvješće o statusu"
-
-msgid "Groups"
-msgstr "Grupe"
 
 msgid "Hardware security key"
 msgstr "Hardverski sigurnosni ključ"
@@ -4295,6 +5045,9 @@ msgstr "Hyper-V virtualni disk"
 msgid "Hyper-V virtual machines"
 msgstr "Hyper-V virtualni strojevi"
 
+msgid "I agree"
+msgstr ""
+
 #. The uppercase text part (WITH NORECOVERY) is a T-SQL statement that should remain un-translated.
 msgid "I want to keep restoring additional files (WITH NORECOVERY)"
 msgstr "Želim nastaviti s vraćanjem dodatnih datoteka (BEZ OPORAVKA)"
@@ -4382,6 +5135,10 @@ msgstr "Uvoz naprednih pravila retencije još nije podržano; zadržavaju se svi
 msgid "Importing monthly schedules without a specific date is not yet supported, skipping schedule"
 msgstr "Uvoz mjesečnih termina bez specifičnog datuma još nije podržano, preskačem raspored"
 
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+msgid "Importing pre-existing Proxmox configuration"
+msgstr ""
+
 #, c-format
 msgid "Importing settings from '%s'..."
 msgstr "Uvoz postavki sa '%s'..."
@@ -4429,20 +5186,13 @@ msgstr "Uključi nekorištene disk sektroe za forenzičku obnovu podataka"
 msgid "Include web browser"
 msgstr "Uključi web preglednik"
 
-msgid "Included Services"
-msgstr "Uključene usluge"
+#, qt-format
+msgid "Included by rule %1"
+msgstr ""
 
 #, c-format
-msgid "Includes the %s command-line client."
-msgstr "Uključuje %s klijent naredbenog retka."
-
-#, c-format
-msgid "Includes the %s desktop app (%s only)."
-msgstr "Uključuje %s desktop aplikaciju (samo %s)."
-
-#, c-format
-msgid "Includes the %s desktop app."
-msgstr "Uključuje %s desktop aplikaciju."
+msgid "Included by rule %s"
+msgstr ""
 
 msgid "Incomplete"
 msgstr "Nepotpuno"
@@ -4453,8 +5203,13 @@ msgstr "Nepotpuni/tekući zadatak"
 msgid "Increasing"
 msgstr "Rastuće"
 
-msgid "Incremental backup for sites failed, trying full site backup..."
-msgstr "Inkrementalna sigurnosna kopija za web stranice nije uspjela, pokušavam napraviti punu sigurnosnu kopiju web-lokacije..."
+#, c-format
+msgid "Incremental %s backup failed for %s, falling back to full: %v"
+msgstr ""
+
+#, c-format
+msgid "Incremental backup of %s failed, trying a full backup..."
+msgstr ""
 
 msgid "Individual Resources"
 msgstr "Individualni resursi"
@@ -4471,6 +5226,10 @@ msgstr "Informacija"
 msgid "Inherit from parent tenant"
 msgstr "Naslijeđe od matičnog stanara"
 
+#, qt-format
+msgid "Initialize (%1)"
+msgstr ""
+
 msgid "Initialized"
 msgstr "Inicjaliziran"
 
@@ -4481,6 +5240,21 @@ msgstr "Inicjaliziran Spremnik Pohrane (%s)"
 
 msgid "Initializing network connection..."
 msgstr "Inicijalizacija mrežne veze..."
+
+msgid "Inject custom JavaScript or CSS into the web interface. This applies to the login page and the entire web interface of every tenant. It can only be configured by a top-level administrator."
+msgstr ""
+
+msgid "Inline code"
+msgstr ""
+
+msgid "Inline CSS may not contain '</style'."
+msgstr ""
+
+msgid "Inline JavaScript may not contain '</script'. If it appears inside a string, split it as '<\\/script'."
+msgstr ""
+
+msgid "Insecure URL"
+msgstr ""
 
 msgid "Installation log:"
 msgstr "Instalacijski log:"
@@ -4591,6 +5365,9 @@ msgstr "Neispravan mod' %s' za Exchange backup (%s)"
 msgid "Invalid option selected"
 msgstr "Neispravan odabir opcije"
 
+msgid "Invalid parent snapshot ID"
+msgstr ""
+
 #, c-format
 msgid "Invalid port '%s'"
 msgstr "Neispravan port '%s'"
@@ -4613,6 +5390,11 @@ msgstr "Neispravan zahtjev"
 msgid "Invalid response from the server."
 msgstr "Neispravan odabir servera."
 
+#. / TRANSLATORS: %d is the numeric mode value of a retention policy (e.g. 801)
+#, c-format
+msgid "Invalid retention policy mode (%d)"
+msgstr ""
+
 msgid "Invalid search term. Please double-check the highlighted area"
 msgstr "Neispravan pojam za pretragu. Molimo provjerite osvjetljeno područje"
 
@@ -4621,9 +5403,6 @@ msgstr "Neispravan odabir"
 
 msgid "Invalid six-digit code"
 msgstr "Neispravan šestocifreni kod"
-
-msgid "Invalid snapshot selected"
-msgstr "Odabran je neispravan snapshot"
 
 #. Definition of "UNC": A 'UNC' path is a path for a file or folder on a network drive. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Path_(computing)#Universal_Naming_Convention
 #, c-format
@@ -4645,6 +5424,10 @@ msgstr "Odabran je neispravan Spremnik Pohrane"
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Invalid Storage Vault specified"
 msgstr "Neispravan Spremnik pohrane"
+
+#, c-format
+msgid "Invalid task selected: %s (profile: %s)"
+msgstr ""
 
 msgid "Invalid URL"
 msgstr "Neispravna URL"
@@ -4683,9 +5466,6 @@ msgstr "ISO slikovne datoteke (*.iso)"
 msgid "Isolation"
 msgstr "Izolacija"
 
-msgid "It has been detected that you previously used the 'Select all except' option. This option has been removed in this version, and your selections have been changed to the standard method. Please double-check your settings and ensure they are still what you intended."
-msgstr ""
-
 msgid "It will allocate new IAM permissions for the existing vault. It will not move any data."
 msgstr "Dodijeliti će IAM dopuštenja za postojeći spremnik. Neće premještati nikakve podatke."
 
@@ -4717,6 +5497,9 @@ msgstr "Sij"
 
 msgid "January"
 msgstr "Siječanj"
+
+msgid "JavaScript"
+msgstr ""
 
 msgid "Job"
 msgstr "Zadatak"
@@ -4754,6 +5537,9 @@ msgstr "Status posla"
 
 #, c-format
 msgid "Job type: %s"
+msgstr ""
+
+msgid "Join existing Shared Quota"
 msgstr ""
 
 msgid "JSON"
@@ -4807,14 +5593,14 @@ msgstr "Ključ"
 msgid "Key ID"
 msgstr "ID ključa"
 
+msgid "Key name"
+msgstr ""
+
 msgid "Known servers"
 msgstr "Poznati serveri"
 
 msgid "Language"
 msgstr "Jezik"
-
-msgid "Last"
-msgstr "Zadnji"
 
 #, qt-format
 msgid "Last %1 backups, at most one per day"
@@ -4838,8 +5624,23 @@ msgstr "Zadnja 24 sata"
 msgid "Last Backup"
 msgstr "Zadnja sigurnosna kopija"
 
+msgid "Last Backup Destination"
+msgstr ""
+
 msgid "Last backup job"
 msgstr "Zadnji backup zadatak"
+
+msgid "Last Backup Job ID"
+msgstr ""
+
+msgid "Last Backup Status"
+msgstr ""
+
+msgid "Last Backup Time"
+msgstr ""
+
+msgid "Last Backup Total Size"
+msgstr ""
 
 msgid "Last Message"
 msgstr "Zadnja poruka"
@@ -4857,6 +5658,9 @@ msgstr "Zadnji scan"
 
 msgid "Last successful backup job"
 msgstr "Zadnji uspješni backup zadatak"
+
+msgid "Last used"
+msgstr ""
 
 msgid "Last wake event"
 msgstr "Događaji prošlog tjedna"
@@ -4948,6 +5752,9 @@ msgstr "Licenciranje"
 msgid "Limit backup to use only 1 disk thread"
 msgstr "Ograniči backup na korištenje samo jednog diska iz niza"
 
+msgid "Limit speed at certain times"
+msgstr ""
+
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Limit Storage Vault speed:"
 msgstr "Ograniči brzinu spremnika pohrane:"
@@ -4959,16 +5766,31 @@ msgstr "Linija"
 msgid "Linux"
 msgstr "Linux"
 
+#. Definition of "Linux": The free operating system, an alternative to Windows or macOS. https://en.wikipedia.org/wiki/Linux
+msgid "Linux (RPM)"
+msgstr ""
+
 #. Definition of "ISO": A disk image file format, normally a file with *.iso file extension. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Optical_disc_image
 #. Definition of "Linux": The free operating system, an alternative to Windows or macOS. https://en.wikipedia.org/wiki/Linux
 msgid "Linux ISO"
 msgstr "Linux ISO"
 
+msgid "Listing disks..."
+msgstr ""
+
 msgid "Live progress information was last updated at:"
 msgstr "Informacija o trenutnom napretku je posljednji put ažurirana:"
 
+msgid "Load"
+msgstr ""
+
 msgid "Loading"
 msgstr "Učitavam"
+
+#. / TRANSLATORS: %d is a number of packs (data files) in the Storage Vault
+#, c-format
+msgid "Loading a partial index covering %d pack(s) for this snapshot."
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Loading network credentials for Storage Vault"
@@ -4984,6 +5806,9 @@ msgstr "Lokalno"
 
 msgid "Local address"
 msgstr "Lokalna adresa"
+
+msgid "Local hostname"
+msgstr ""
 
 msgid "Local Path"
 msgstr "Lokalna Putanja"
@@ -5048,6 +5873,12 @@ msgstr "Nivo zapisa"
 msgid "Log out"
 msgstr "Odlogiranje"
 
+msgid "Log out all connected devices"
+msgstr ""
+
+msgid "Log out all connected devices and return backup agent to login screen"
+msgstr ""
+
 msgid "Log Rotation"
 msgstr "Rotacija zapisa"
 
@@ -5105,8 +5936,15 @@ msgstr "Tražite okruženje za oporavak sustava Windows..."
 msgid "Looking up account settings..."
 msgstr "Kontroliram postavke računa..."
 
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Looking up Storage Vault endpoint..."
+msgstr ""
+
 msgid "Lost connection to local service."
 msgstr "Izgubljena je veza prema lokalnom servisu."
+
+msgid "Machine name"
+msgstr ""
 
 msgid "macOS"
 msgstr "macOS"
@@ -5116,6 +5954,10 @@ msgstr "Pošta"
 
 msgid "Mail Account"
 msgstr "Email račun"
+
+#. / TRANSLATORS: a display label for a Microsoft 365 user's mailbox in a usage report
+msgid "Mailbox"
+msgstr ""
 
 msgid "Make Default"
 msgstr "Napraviti zadani"
@@ -5127,6 +5969,9 @@ msgstr "Deformirana postavka '%1', preskačem"
 #, c-format
 msgid "Malformed property '%s'"
 msgstr "Deformirana karakteristika '%s'"
+
+msgid "Malformed response from the dispatcher."
+msgstr ""
 
 msgid "Malformed response from the server"
 msgstr "Deformirani odgovor sa servera"
@@ -5178,6 +6023,9 @@ msgstr "Master ID Ključ"
 msgid "matches regex"
 msgstr "podudara se sa regex"
 
+msgid "Maximum disk space in MB:"
+msgstr ""
+
 msgid "May"
 msgstr "Svibanj"
 
@@ -5206,6 +6054,9 @@ msgstr "Članovi"
 msgid "Members of %1"
 msgstr "Članova od %1"
 
+msgid "Members: all services"
+msgstr ""
+
 msgid "Memory"
 msgstr "Memorija"
 
@@ -5217,6 +6068,9 @@ msgstr "Poruka"
 
 msgid "Message body"
 msgstr "Tjelo poruke"
+
+msgid "Message format"
+msgstr ""
 
 msgid "Method"
 msgstr "Metoda"
@@ -5298,6 +6152,14 @@ msgstr "Microsoft SQL Server"
 msgid "Microsoft SQL Server databases"
 msgstr "Microsoft SQL Server baza"
 
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#. Definition of "VMs": Abbreviation of 'Virtual Machines'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Migrating from other hypervisor as new VMs"
+msgstr ""
+
+msgid "Minimum disk space in MB:"
+msgstr ""
+
 msgid "minute(s)"
 msgstr "minuta(e)"
 
@@ -5349,6 +6211,9 @@ msgstr "Nedostaje izuzeti disk"
 msgid "Missing excluded partition"
 msgstr "Nedostaje izuzeta particija"
 
+msgid "Missing or expired authentication token."
+msgstr ""
+
 #, qt-format
 msgid "Missing required field: %1"
 msgstr "Nedostaje obavezno polje: %1"
@@ -5365,9 +6230,6 @@ msgstr "Nedostaje odabrani disk"
 
 msgid "Missing selected partition"
 msgstr "Nedostaje odabrana particija"
-
-msgid "Missing session key."
-msgstr "Nedostaje ključ sesije."
 
 msgid "Mobile Client"
 msgstr "Mobilni Klijent"
@@ -5416,20 +6278,26 @@ msgstr "Montiranje slikovne datoteke za oporavak..."
 msgid "Move forward or backwards in the Protected Item editor"
 msgstr "Premještanje naprijed ili natrag u uređivaču zaštićenih stavki"
 
+msgid "Move rule down (later rules override earlier ones)"
+msgstr ""
+
+msgid "Move rule up (later rules override earlier ones)"
+msgstr ""
+
 msgid "Move users to group"
 msgstr "Premjesti korisnike u grupu"
 
 msgid "ms"
 msgstr "ms"
 
+msgid "MSI Upgrade Code"
+msgstr ""
+
 msgid "Multi-factor authentication"
 msgstr "Višefaktorska autentifikacija"
 
 msgid "Multiple"
 msgstr "Višestruko"
-
-msgid "Multiple accounts selected"
-msgstr "Odabrano više računa"
 
 msgid "Multiple commands"
 msgstr "Višestruke naredbe"
@@ -5490,6 +6358,9 @@ msgstr "MySQL alati nisu pronađeni na ovom uređaju. Sigurnosna kopija će se n
 msgid "n/a"
 msgstr "nije dostupno"
 
+msgid "N/A"
+msgstr ""
+
 msgid "Name"
 msgstr "Naziv"
 
@@ -5528,8 +6399,18 @@ msgstr "Novo Sučelje"
 msgid "Network share"
 msgstr "Mrežno dijeljenje"
 
+msgid "Never"
+msgstr ""
+
 msgid "Never (skip existing files)"
 msgstr "Nikad (preskoči postojeće datoteke)"
+
+msgid "Never expires"
+msgstr ""
+
+#. Definition of "API": An interface for programs to communicate with each other. https://en.wikipedia.org/wiki/API
+msgid "New API token"
+msgstr ""
 
 msgid "New Audit Log"
 msgstr "Novi zapisnik o reviziji"
@@ -5610,6 +6491,14 @@ msgstr "Novi Termin"
 msgid "New Scheduled Time"
 msgstr "Novo zakazano vrijeme"
 
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "New Simple Volume"
+msgstr ""
+
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "New Simple Volume Wizard"
+msgstr ""
+
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "New Storage Vault"
 msgstr "Novi Spremnik Pohrane"
@@ -5632,6 +6521,10 @@ msgstr "Nova vrijednost"
 
 msgid "New Vault"
 msgstr "Novi trezor"
+
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "New Volume"
+msgstr ""
 
 msgid "New Webhook"
 msgstr "Novi Webhook"
@@ -5659,15 +6552,24 @@ msgstr "Idući zakazani email"
 msgid "Next scheduled job"
 msgstr "Idući zakazani zadatak"
 
+#. Definition of "NFS": Network File System, a protocol for accessing files on a network drive. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Network_File_System
+msgid "NFS"
+msgstr ""
+
+#. Definition of "NFS": Network File System, a protocol for accessing files on a network drive. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Network_File_System
+msgid "NFS version"
+msgstr ""
+
+#. Definition of "NinjaOne": This is a commercial RMM (Remote Monitoring and Management) platform. The _N_ and _O_ are both capitalized in this brand name. If an official translation is available, it should be used. https://www.ninjaone.com/
+msgid "NinjaOne Organization"
+msgstr ""
+
 msgid "No"
 msgstr "Ne"
 
 #, c-format
 msgid "No %s custom path"
 msgstr "Nema %s prilagođene putanje"
-
-msgid "No accounts selected"
-msgstr "Nije odabran nijedan račun"
 
 msgid "No Activity"
 msgstr "Nema aktivnosti"
@@ -5678,17 +6580,20 @@ msgstr "Bez dodatnih detalja"
 msgid "No affected files to back up."
 msgstr "Nema raspoloživih datoteka za backup."
 
+msgid "No available storage templates"
+msgstr ""
+
 msgid "No backup groups are selected"
 msgstr "Nije odabrana nijedna rezervna grupa"
 
 msgid "No backup snapshots found matching the selected filter"
 msgstr "Nisu pronađeni backup snapshoti prema zadanom filteru"
 
-msgid "No bulk actions available"
-msgstr ""
-
 msgid "No changes"
 msgstr "Nema promjena"
+
+msgid "No command specified"
+msgstr ""
 
 msgid "No configuration is currently available for this type."
 msgstr "Za ovu vrstu trenutno nije dostupna konfiguracija."
@@ -5723,6 +6628,9 @@ msgstr "Nema uređaja"
 
 msgid "No devices selected"
 msgstr "Nema odabranih uređaja"
+
+msgid "No drive letters are available; all A-Z are in use."
+msgstr ""
 
 msgid "No encryption key is available"
 msgstr "Nije raspoloživ enkripcijski ključ"
@@ -5768,11 +6676,24 @@ msgstr "Nema zadataka"
 msgid "No jobs ran on this day"
 msgstr "Nema zadataka za današnji dan"
 
+msgid "No jobs selected"
+msgstr ""
+
 msgid "No live-connected devices are available to browse this job"
 msgstr "Nema dostupnih konektiranih uređaja za pregled ovog zadatka"
 
-msgid "No matching records found"
-msgstr "Nema podudarajućih zapisa"
+msgid "No Node Selected"
+msgstr ""
+
+msgid "No objects were supplied to compose a snapshot from"
+msgstr ""
+
+msgid "No partition tool found"
+msgstr ""
+
+#. Definition of "Exchange": This is an email server platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Exchange_Server
+msgid "No password is exchanged. The server grants access based on the user and group ID this client presents, so the server's export rules and the network path must both be trusted."
+msgstr ""
 
 msgid "No paths selected for backup"
 msgstr "Nije odabrana putanja za backup"
@@ -5782,6 +6703,9 @@ msgstr "Nije odabrana putanja za restore"
 
 msgid "No policies available"
 msgstr "Nema dostupnih pravila"
+
+msgid "No previous backup job can be safely used for deduplication until the next retention pass completes; running this backup without deduplicating"
+msgstr ""
 
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "No Protected Item type is selected"
@@ -5795,11 +6719,18 @@ msgstr "Nema dostupnih vrsta zaštićenih predmeta"
 msgid "No Protected Items"
 msgstr "Nema zaštićenih stavki"
 
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+msgid "No Proxmox storage target was selected for the restored virtual machines. Please select a destination node and storage target, then try again."
+msgstr ""
+
 msgid "No recovery image features are available on your PC."
 msgstr "Nijedna funkcija oporavka slike nije dostupna na vašem računalu."
 
-msgid "No results..."
-msgstr "Nema rezultata..."
+msgid "No rule selected"
+msgstr ""
+
+msgid "No rules defined. Click + to add your first rule — for example, include the entire organization. New accounts in the organization are protected automatically by an \"All accounts\" rule."
+msgstr ""
 
 msgid "No schedule"
 msgstr "Nema termina"
@@ -5813,8 +6744,25 @@ msgstr "Nema definiranih termina"
 msgid "No selected options"
 msgstr "Nema odabranih opcija"
 
+#, c-format
+msgid "No selected services are available on Backup Object %s."
+msgstr ""
+
+msgid "No services"
+msgstr ""
+
+#, qt-format
+msgid "No single unallocated region on disk %1 is large enough for a new partition."
+msgstr ""
+
+msgid "No snapshot time was supplied for the composed snapshot"
+msgstr ""
+
 msgid "No source device and restore target selected for restore"
 msgstr "Za vraćanje nije odabran izvorni uređaj i cilj vraćanja"
+
+msgid "No SourceRef was supplied for the composed snapshot"
+msgstr ""
 
 msgid "No storage location was chosen"
 msgstr "Nije odabrana lokacija za skladištenje"
@@ -5834,6 +6782,16 @@ msgstr "Niti jedan Spremnik Pohrane nije raspoloživ za restore."
 msgid "No time span selected for report! This may cause overly large reports."
 msgstr "Nije odabran vremenski raspon za izvješće! To može uzrokovati prevelika izvješća."
 
+msgid "No unallocated space on this disk."
+msgstr ""
+
+#, qt-format
+msgid "No usable adjacent unallocated space on partition %1."
+msgstr ""
+
+msgid "No usable index of packs was found for this snapshot. Loading the full index."
+msgstr ""
+
 msgid "No users found"
 msgstr "Nema pronađenih korisnika"
 
@@ -5851,9 +6809,20 @@ msgstr "Nema odabranih virtualnih strojeva za povrat."
 msgid "No VMs found, or no permission to enumerate VMs"
 msgstr "Nije pronađen VMs ili ne postoji dozvola za enumeraciju VMs-a"
 
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#. Definition of "VMs": Abbreviation of 'Virtual Machines'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "No VMs found: the configured node is empty"
+msgstr ""
+
 #. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
 msgid "No volumes selected"
 msgstr "Nije odabran niti jedan volume"
+
+msgid "Node"
+msgstr ""
+
+msgid "Nodes:"
+msgstr ""
 
 msgid "none"
 msgstr "ništa"
@@ -5889,11 +6858,14 @@ msgstr "Nije član"
 msgid "Not all of..."
 msgstr "Nije sve od..."
 
-msgid "Not Available"
-msgstr "Nije dostupno"
+msgid "Not backed up: no rule matches this service"
+msgstr ""
 
 msgid "Not configured"
 msgstr "Nije konfigurirano"
+
+msgid "Not covered by any rule"
+msgstr ""
 
 msgid "Not currently running"
 msgstr "Trenutno nije pokrenut"
@@ -5928,6 +6900,9 @@ msgstr "Nije obustavljen"
 
 msgid "Not yet run"
 msgstr "Još nepokrenut"
+
+msgid "Not Yet Started"
+msgstr ""
 
 msgid "Note"
 msgstr "Napomena"
@@ -5986,6 +6961,16 @@ msgstr "Broj korisnika"
 msgid "Object Lock"
 msgstr "Zaključaj objekat"
 
+#. / TRANSLATORS: %s is the name of a Microsoft 365 object (e.g. a mailbox email address) in a backup snapshot
+#, c-format
+msgid "Object node '%s' has neither a subtree nor content"
+msgstr ""
+
+#. / TRANSLATORS: %s is the name of a Microsoft 365 object (e.g. a mailbox email address) in a backup snapshot
+#, c-format
+msgid "Object node '%s' is directory-typed but has no subtree"
+msgstr ""
+
 msgid "Oct"
 msgstr "Lis"
 
@@ -5995,10 +6980,6 @@ msgstr "Listopad"
 #. An On/Off toggle switch
 msgid "Off"
 msgstr "Isključeno"
-
-#. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
-msgid "Office 365 Germany"
-msgstr "Office 365 Njemačka"
 
 #. Definition of "21Vianet": This is the name of the company that hosts the Office 365 datacenter in China. If an official translation is available, it should be used. https://docs.microsoft.com/en-us/microsoft-365/admin/services-in-china/services-in-china?view=o365-21vianet
 #. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
@@ -6023,15 +7004,15 @@ msgstr "Izvanmrežno"
 msgid "Offline Devices"
 msgstr "Uređaji vam mreže"
 
+msgid "Offline license limits exceeded. Check your license for details."
+msgstr ""
+
 msgid "Offset"
 msgstr "Ofset"
 
 #, qt-format
 msgid "offset by %1"
 msgstr "ofset od %1"
-
-msgid "Ok"
-msgstr ""
 
 msgid "OK"
 msgstr "OK"
@@ -6107,6 +7088,12 @@ msgstr "Jedan backup svake godine u mjesecu %2, posljednjih %1 godinu(a)."
 msgid "One backup yearly on the %2 month, for the last %1 year(s)"
 msgstr "Jedan backup svake godine u %2 mjesecu, posljednjih %1 godinu(a)."
 
+#. Definition of "API": An interface for programs to communicate with each other. https://en.wikipedia.org/wiki/API
+#. Definition of "HTTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
+#. Definition of "HTTPS": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/HTTPS
+msgid "One origin per line. Origins that the code needs to contact are added to the web interface Content-Security-Policy. For example, Mixpanel requires https://api-js.mixpanel.com and Google Analytics requires https://www.google-analytics.com"
+msgstr ""
+
 #. Definition of "OneDrive": This is a cloud storage platform from Microsoft. The _O_ and _D_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_OneDrive
 msgid "OneDrive"
 msgstr "OneDrive"
@@ -6137,8 +7124,17 @@ msgstr "Samo napravi pohranu izmijenjenih područja. Koristi snimku mirovanja. D
 msgid "Only keep"
 msgstr "Zadrži samo"
 
+msgid "Only on:"
+msgstr ""
+
 msgid "Only ONE system should have this role enabled. Enabling this on multiple systems in the cluster may cause data loss."
 msgstr "Samo JEDAN sustav treba imati ovu ulogu omogućenu. Omogućavanje ove uloge na više sustava u klasteru može uzrokovati gubitak podataka."
+
+msgid "Only the exact file paths listed here may be loaded as PKCS#11 modules."
+msgstr ""
+
+msgid "Only the exact PKCS#11 driver module file paths listed here may be loaded during Authenticode codesigning. This is a defense-in-depth measure on top of the existing Storage Gateway blocklist."
+msgstr ""
 
 msgid "Only the selected resources will be backed up"
 msgstr "Bit će sigurnosna kopija samo odabranih resursa"
@@ -6149,11 +7145,19 @@ msgstr "Otvori mapu"
 msgid "Open Source licenses"
 msgstr "Licence otvorenog koda"
 
+#. Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
+msgid "Open the Comet Account Portal in a new tab"
+msgstr ""
+
 msgid "Open:"
 msgstr "Otvori:"
 
 msgid "OpenID Connect"
 msgstr "Povezivanje OpenID"
+
+#. Definition of "NinjaOne": This is a commercial RMM (Remote Monitoring and Management) platform. The _N_ and _O_ are both capitalized in this brand name. If an official translation is available, it should be used. https://www.ninjaone.com/
+msgid "Opening NinjaOne..."
+msgstr ""
 
 msgid "OpenStack Swift"
 msgstr "OpenStack Swift"
@@ -6174,6 +7178,9 @@ msgstr "Operacija uspješno izvršena."
 msgid "Operation completed."
 msgstr "Operacija je završena."
 
+msgid "Operation in progress"
+msgstr ""
+
 msgid "Operation interrupted"
 msgstr "Operacija je prekinuta"
 
@@ -6184,6 +7191,9 @@ msgstr "Optimiziram sliku '%s', molimo pričekajte..."
 msgid "Optional"
 msgstr "Neobavezno"
 
+msgid "Optional - distinguishes this report in the list"
+msgstr ""
+
 msgid "Optional settings"
 msgstr "Neobavezne postavke"
 
@@ -6192,6 +7202,12 @@ msgstr "Neobavezno, zadano isključeno"
 
 msgid "Optional, default on"
 msgstr "Neobavezno, zadano uključeno"
+
+msgid "Optional. When set, this name is shown in the report list to help you tell reports apart. When left blank, the report is labeled by its type (e.g. \"Summary report\")."
+msgstr ""
+
+msgid "Optional. When set, this name is shown in the report list to help you tell reports apart. When left blank, the report is labeled by its type (e.g. \"Summary table\")."
+msgstr ""
 
 msgid "Options"
 msgstr "Mogućnosti"
@@ -6202,15 +7218,17 @@ msgstr "ILI"
 msgid "or newer"
 msgstr "ili novosti"
 
+msgid "Order"
+msgstr ""
+
+msgid "Organization"
+msgstr ""
+
 msgid "original cloud location(s)"
 msgstr "originalna cloud lokacija(e)"
 
 msgid "original location(s)"
 msgstr "originalna lokacija(e)"
-
-#, c-format
-msgid "Orphaned disk (%s)"
-msgstr "Izgubljeni disk (%s)"
 
 msgid "other"
 msgstr "ostalo"
@@ -6234,6 +7252,9 @@ msgstr "Ostali pružatelji usluga skladištenja"
 
 msgid "Other Tenant"
 msgstr "Drugi stanar"
+
+msgid "Out of memory error encountered"
+msgstr ""
 
 msgid "Outdated"
 msgstr "Zastario"
@@ -6266,9 +7287,6 @@ msgstr "Vlasnik"
 msgid "Package ID"
 msgstr "ID Paketa"
 
-msgid "Page"
-msgstr "Stranica"
-
 msgid "Page title"
 msgstr "Naslov stranice"
 
@@ -6281,11 +7299,20 @@ msgstr "Datoteka stranice"
 msgid "Partial (Delete from remote only when deleted locally; do not delete unknown users)"
 msgstr "Djelomično (Izbriši s daljinskog samo kada se izbriše lokalno; nemojte brisati nepoznate korisnike)"
 
+msgid "Partition"
+msgstr ""
+
 msgid "Partition conflict identified"
 msgstr "Identificiran konflikt particija"
 
 msgid "Partition ID"
 msgstr "ID particije"
+
+msgid "Partition Table"
+msgstr ""
+
+msgid "Partitions"
+msgstr ""
 
 msgid "Partner Key"
 msgstr "Ključ partnera"
@@ -6304,6 +7331,10 @@ msgstr "Lozinka"
 
 msgid "Password"
 msgstr "Lozinka"
+
+#, c-format
+msgid "Password failed to update at endpoint with error: %s"
+msgstr ""
 
 msgid "Password for this account"
 msgstr "Lozinka ovog računa"
@@ -6342,6 +7373,12 @@ msgstr "Postavke servera"
 msgid "Paste system settings here to view changes"
 msgstr "Zalijepite ovdje postavke sustava za prikaz promjena"
 
+#. Definition of "HTTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
+#. Definition of "HTTPS": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/HTTPS
+#. Definition of "Slack": This is a commercial messaging and chat app. If an official translation is available, it should be used. https://slack.com/
+msgid "Paste the Incoming Webhook URL from your Slack app (https://hooks.slack.com/services/...)."
+msgstr ""
+
 msgid "Path"
 msgstr "Putanja"
 
@@ -6367,12 +7404,18 @@ msgstr "U tijeku"
 msgid "Perform a %s to refresh the result data."
 msgstr "Izvršite %s osvježavanje rezultata."
 
+msgid "Perform a quick format"
+msgstr ""
+
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Performing a deep verification of Vault content may cause the client to download a lot of data from the Storage Vault."
 msgstr "Izvršavanjem detaljne verifikacije sadržaja Spremnika, moguće je uzrokovati da klijent downloada mnogo podataka iz Spremnika Pohrane."
 
 msgid "Periodic"
 msgstr "Periodično"
+
+msgid "Permissions"
+msgstr ""
 
 msgid "Permitted"
 msgstr "Dozvoljeno"
@@ -6381,12 +7424,22 @@ msgstr "Dozvoljeno"
 msgid "Persisting Storage Vault status..."
 msgstr "Perzistirajući status spremnika pohrane."
 
+#. Definition of "API": An interface for programs to communicate with each other. https://en.wikipedia.org/wiki/API
+msgid "Personal API tokens"
+msgstr ""
+
 msgid "Pictures"
 msgstr "Slike"
+
+msgid "PKCS#11 Module Allowlist"
+msgstr ""
 
 #. Definition of "PKCS12": This is the file format used for PKCS #12 SSL certificates. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/PKCS_12
 msgid "PKCS12"
 msgstr "PKCS12"
+
+msgid "Placement"
+msgstr ""
 
 msgid "Plain"
 msgstr "Plan"
@@ -6401,8 +7454,14 @@ msgstr "Platforma"
 msgid "Please add items to the Protected Item."
 msgstr "Molimo dodajte stavke u Zaštićenu stavku."
 
+msgid "Please be aware offline devices will not be updated and will need to be updated manually. Are you sure you want to proceed?"
+msgstr ""
+
 msgid "Please bring this device online"
 msgstr "Molimo postavite ovaj uređaj online"
+
+msgid "Please choose a cloud storage location."
+msgstr ""
 
 #. Definition of "Azure": This is a cloud computing service from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Azure
 #. Definition of "Azure AD": Azure AD (Active Directory) is a user account management system within Microsoft Azure. If an official translation is available, it should be used. https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis
@@ -6440,9 +7499,11 @@ msgstr "Molimo uredite datum i vrijeme u nastavku kako bi odgovarali vašoj tren
 msgid "Please ensure that you have taken a System Self-Backup before performing this operation."
 msgstr "Provjerite jeste li napravili sigurnosnu kopiju sustava prije izvođenja ove operacije."
 
-#, c-format
-msgid "Please enter a full path to the output archive file, using a supported file extension (%s)."
-msgstr "Molimo unesite punu stazu do izlazne arhivske datoteke, koristeći podržanu ekstenziju datoteke (%s)."
+msgid "Please enter a directory"
+msgstr ""
+
+msgid "Please enter a filename"
+msgstr ""
 
 msgid "Please enter a group name"
 msgstr "Molimo unesite naziv grupe"
@@ -6450,11 +7511,21 @@ msgstr "Molimo unesite naziv grupe"
 msgid "Please enter a hostname or IP address for this Tenant:"
 msgstr "Molimo unesite naziv hosta ili IP adresu za ovog stanara:"
 
+msgid "Please enter a name."
+msgstr ""
+
 msgid "Please enter a valid IP address."
 msgstr "Molimo unesite ispravnu IP adresu."
 
+msgid "Please enter an absolute path"
+msgstr ""
+
 msgid "Please enter an absolute path to the target output file."
 msgstr "Molimo unesite apsolutnu putanju do ciljne izlazne datoteke."
+
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+msgid "Please enter the Proxmox server address."
+msgstr ""
 
 msgid "Please enter your 6-digit authenticator code"
 msgstr "Molimo unesite svoj šetocifreni authentifikacijski kod"
@@ -6464,6 +7535,9 @@ msgstr "Molimo unesite vaš email za nastavak:"
 
 msgid "Please input a single file or folder path."
 msgstr "Molimo unesite jednu datoteku ili putanju mape."
+
+msgid "Please log in again."
+msgstr ""
 
 msgid "Please make sure that object lock is enabled on your S3 bucket."
 msgstr "Molimo provjerite je li Object Lock omogućen na vašem S3 bucket-u."
@@ -6485,15 +7559,27 @@ msgstr "Molimo vratite ovu particiju koristeći VMDK ili fizičke načine."
 msgid "Please restore this snapshot using one of the other options, or else select a newer snapshot."
 msgstr "Molimo vratite ovaj snapshot pomoću jedne od drugih opcija ili odaberite noviji snapshot."
 
+msgid "Please select a destination node and storage target for the restored virtual machines."
+msgstr ""
+
+msgid "Please select a node before viewing the available storage options."
+msgstr ""
+
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Please select a Storage Vault to restore from:"
 msgstr "Molimo odaberite Spremnik Pohrane iz kojeg će se izvršiti restore:"
+
+msgid "Please select an account for this rule."
+msgstr ""
 
 msgid "Please select an available USB drive:"
 msgstr "Molimo odaberite dostupni USB disk:"
 
 msgid "Please select an online device to control:"
 msgstr "Molimo odaberite online uređaj za kontrolu:"
+
+msgid "Please select at least one service for this rule."
+msgstr ""
 
 msgid "Please select one disk or partition for restore."
 msgstr "Molimo odaberite jedan disk ili particiju za obnavljanje."
@@ -6565,6 +7651,9 @@ msgstr "Pravila ažurirana. Podaci su objekt pravila"
 msgid "Popular Storage Providers"
 msgstr "Popularni pružatelji usluga skladištenja"
 
+msgid "Popup blocked — allow pop-ups for this site and try again"
+msgstr ""
+
 msgid "Popup browser"
 msgstr "Popup preglednik"
 
@@ -6605,9 +7694,6 @@ msgstr "Priprema za prvu upotrebu Spremnika Pohrane..."
 
 msgid "Prevent changing email settings"
 msgstr "Spriječiti izmjenu email postavki"
-
-msgid "Prevent changing password"
-msgstr "Spriječiti promjenu lozinke"
 
 msgid "Prevent changing user account name"
 msgstr "Spriječiti izmjenu naziva računa korisnika"
@@ -6657,20 +7743,16 @@ msgstr "Spriječiti otvaranje sučelja aplikacije"
 msgid "Prevent Protected Items from overriding the Storage Vault retention policy"
 msgstr "Spriječiti da Zaštićene stavke nadjačaju pravila retencije Spremnika Pohrane"
 
-msgid "Prevent shutting down and restarting server"
-msgstr "Spriječiti gašenje i restart servera"
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Prevent users from editing the Storage Vaults created from this template"
+msgstr ""
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Prevent users from editing this Storage Vault"
+msgstr ""
 
 msgid "Prevent users from viewing the actual storage type"
 msgstr "Spriječiti korisnike da pogledaju stvarni tip memorije"
-
-msgid "Prevent viewing and editing system settings"
-msgstr "Spriječiti pregled i uređivanje postavki sustava"
-
-msgid "Prevent viewing system history on dashboard"
-msgstr "Spriječiti prikaz povijesti sustava na upravljačkoj ploči"
-
-msgid "Prevent viewing system info on dashboard"
-msgstr "Spriječiti prikaz informacija o sustavu na upravljačkoj ploči"
 
 msgid "Preventing snapshot re-use"
 msgstr "Spriječiti ponovno korištenje snapshota"
@@ -6699,6 +7781,9 @@ msgstr "Prethodna godina"
 msgid "Primary"
 msgstr "Primarni"
 
+msgid "Primary node address"
+msgstr ""
+
 msgid "Primary Preferred"
 msgstr "Preferirani primarni"
 
@@ -6707,6 +7792,9 @@ msgstr "Prioritet"
 
 msgid "Private key"
 msgstr "Privatni ključ"
+
+msgid "Private Key"
+msgstr ""
 
 msgid "Proceed"
 msgstr "Nastavi"
@@ -6737,9 +7825,6 @@ msgstr "Procesuiram backupset '%s'..."
 #, c-format
 msgid "Processing Storage Vault %d of %d..."
 msgstr "Obrađujem Spremnik pohrane %d od %d..."
-
-msgid "Processing..."
-msgstr "Procesuiram..."
 
 msgid "Product name"
 msgstr "Naziv proizvoda"
@@ -6805,6 +7890,10 @@ msgid "Protected Item name"
 msgstr "Naziv zaštićene stavke"
 
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "Protected Item not found."
+msgstr ""
+
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "Protected Item Size"
 msgstr "Veličina zaštićene stavke"
 
@@ -6865,6 +7954,47 @@ msgstr "Automatski dodijeli trezore za pohranu kada se registriraju novi uređaj
 msgid "Provision Storage Vaults once, when this user is created"
 msgstr "Dodijeli trezore za pohranu jednom, prilikom stvaranja ovog korisnika"
 
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+msgid "Proxmox"
+msgstr ""
+
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+#, c-format
+msgid "Proxmox container root filesystem has no declared size, estimating as %s"
+msgstr ""
+
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+#, c-format
+msgid "Proxmox container root filesystem is too small, enlarging to %s"
+msgstr ""
+
+#. Definition of "LXC": An abbreviation for Linux Containers, a lightweight alternative to virtual machines on Linux. It should not be translated. https://linuxcontainers.org/
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+msgid "Proxmox Guest LXCs"
+msgstr ""
+
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#. Definition of "VMs": Abbreviation of 'Virtual Machines'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Proxmox Guest VMs"
+msgstr ""
+
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+msgid "Proxmox nodes"
+msgstr ""
+
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+msgid "Proxmox quota notice"
+msgstr ""
+
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+msgid "Proxmox storage locations"
+msgstr ""
+
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+msgid "Proxmox Virtual Environment"
+msgstr ""
+
 msgid "Prune unused buckets"
 msgstr "Izdvoji nekorištene buckete"
 
@@ -6879,6 +8009,9 @@ msgstr "PSA"
 msgid "PSA & Alerting Services"
 msgstr "PSA & Usluge upozorenja"
 
+msgid "Public Key"
+msgstr ""
+
 msgid "Published"
 msgstr "Objavljeno"
 
@@ -6887,6 +8020,9 @@ msgstr "Queue odgoda"
 
 msgid "Queue length"
 msgstr "Dužina queue"
+
+msgid "Quick format"
+msgstr ""
 
 msgid "Quit"
 msgstr "Izađi"
@@ -6900,11 +8036,35 @@ msgstr "Kvota ispunjena"
 msgid "Quota Exceeded"
 msgstr "Kvota Ispunjena"
 
+#. Definition of "LXC": An abbreviation for Linux Containers, a lightweight alternative to virtual machines on Linux. It should not be translated. https://linuxcontainers.org/
+#, qt-format
+msgid "Quota limit reached. Reduce the size of LXCs selected to %1 to continue."
+msgstr ""
+
+#. Definition of "LXC": An abbreviation for Linux Containers, a lightweight alternative to virtual machines on Linux. It should not be translated. https://linuxcontainers.org/
+#, c-format
+msgid "Quota limit reached. Reduce the size of LXCs selected to %d to continue"
+msgstr ""
+
+#. Definition of "LXC": An abbreviation for Linux Containers, a lightweight alternative to virtual machines on Linux. It should not be translated. https://linuxcontainers.org/
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#. Definition of "VMs": Abbreviation of 'Virtual Machines'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#, qt-format
+msgid "Quota limit reached. Reduce the size of VMs selected to %1 and LXCs selected to %2 to continue."
+msgstr ""
+
 #. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
 #. Definition of "VMs": Abbreviation of 'Virtual Machines'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
 #, qt-format
 msgid "Quota limit reached. Reduce the size of VMs selected to %1 to continue."
 msgstr "Dosegnuto ograničenje kvote. Smanjite veličinu odabranih VMs na %1 za nastavak."
+
+#. Definition of "LXC": An abbreviation for Linux Containers, a lightweight alternative to virtual machines on Linux. It should not be translated. https://linuxcontainers.org/
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#. Definition of "VMs": Abbreviation of 'Virtual Machines'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#, c-format
+msgid "Quota limit reached. Reduce the size of VMs selected to %d and LXCs selected to %d to continue"
+msgstr ""
 
 #. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
 #. Definition of "VMs": Abbreviation of 'Virtual Machines'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
@@ -6927,11 +8087,20 @@ msgstr "Raspon"
 msgid "Raw byte range"
 msgstr "Raspon osjetljivih bajtova"
 
+msgid "Raw JSON"
+msgstr ""
+
 msgid "Re-enter password:"
 msgstr "Ponovno unesi:"
 
 msgid "Re-entered password does not match"
 msgstr "Ponovno unesena lozinka se ne podudara"
+
+msgid "Re-running backup job using temporary files"
+msgstr ""
+
+msgid "Re-running retention job using temporary files"
+msgstr ""
 
 msgid "Re-running retention pass now..."
 msgstr "Ponovno pokretanje stavke zadržavanja..."
@@ -7009,6 +8178,10 @@ msgstr "Osvježi profil"
 #, c-format
 msgid "Refusing to assign selected policy to user '%s' belonging to a different Tenant"
 msgstr "Odbijeno dodjeljivanje odabranih pravila korisniku '%s' koji pripada drugom stanaru"
+
+#, c-format
+msgid "Refusing to restore to '%s': this device contains the currently running operating system. To restore over the operating system disk, boot this computer from the recovery media and run the restore from there."
+msgstr ""
 
 msgid "Refusing to save IP access restriction that would block out your current IP"
 msgstr "Odbijeno spremanje ograničenja pristupa IP adresama koje bi blokiralo vašu trenutačnu IP adresu"
@@ -7102,6 +8275,9 @@ msgstr "Ukloni sve korisničke postavke"
 #, c-format
 msgid "Remove all user settings from %d online devices"
 msgstr "Ukloni sve korisničke postavke iz %d online uređaja"
+
+msgid "Remove rule"
+msgstr ""
 
 msgid "Remove user(s) from group"
 msgstr "Ukloni korisnika(e) iz grupe"
@@ -7207,10 +8383,6 @@ msgstr "Tip izvještaja"
 msgid "Report Type"
 msgstr "Tip Izvještaja"
 
-#, c-format
-msgid "Reported %d errors of this type, not reporting any more"
-msgstr "Prijavljeno %d grešaka ove vrste, više se ne prijavljuje"
-
 msgid "Reporting"
 msgstr "Izvještavanje"
 
@@ -7244,6 +8416,9 @@ msgstr "Potrebni zahtjevi"
 msgid "Reset"
 msgstr "Resetiraj"
 
+msgid "Reset Options"
+msgstr ""
+
 msgid "Reset password"
 msgstr "Resetiraj lozinku"
 
@@ -7262,6 +8437,9 @@ msgstr "Restore"
 
 msgid "Restore any selected disks or partitions directly back to this computer. This will overwrite your local drives with the restored data."
 msgstr "Vratite sve odabrane diskove ili particije izravno na ovo računalo. To će prepisati lokalne diskove s oporavljenim podacima."
+
+msgid "Restore any selected virtual machines as config files and disk images."
+msgstr ""
 
 #. Definition of "Hyper-V": This is a Virtual Machine hosting platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Hyper-V
 msgid "Restore any selected virtual machines in their original Hyper-V file formats. Select this option if you intend to re-import into Hyper-V, or to restore the virtual hard disk files alone."
@@ -7283,6 +8461,9 @@ msgstr "Opcija vraćanja"
 
 msgid "Restore Queue"
 msgstr "Vrati red"
+
+msgid "Restore selected files and folders to a cloud or remote storage location."
+msgstr ""
 
 msgid "Restore Selected Files..."
 msgstr "Izvrši restore odabranih datoteka..."
@@ -7307,6 +8488,10 @@ msgstr "Vratite sigurnosno kopirane datoteke virtualnog tvrdog diska."
 #. Definition of "Hyper-V": This is a Virtual Machine hosting platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Hyper-V
 msgid "Restore this disk image backup job as a new virtual machine in Hyper-V."
 msgstr "Vratite ovaj zadatak sigurnosne kopije slike diska kao novu virtualnu mašinu u Hyper-V-u."
+
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+msgid "Restore this disk image backup job as a new virtual machine in Proxmox"
+msgstr ""
 
 #. Definition of "VMware": This is a company that developers Virtual Machine software. The _V_ and _M_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware
 #. Definition of "vSphere": This is a range of Virtual Machine products and services from VMware. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware_vSphere
@@ -7345,14 +8530,26 @@ msgstr "Vrati na originalnu putanju"
 msgid "Restore to physical device(s)"
 msgstr "Vrati na fizički uređaj(e)"
 
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+msgid "Restore to Proxmox"
+msgstr ""
+
 #. Definition of "VMware": This is a company that developers Virtual Machine software. The _V_ and _M_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware
 #. Definition of "vSphere": This is a range of Virtual Machine products and services from VMware. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware_vSphere
 msgid "Restore to VMware vSphere"
 msgstr "Vrati na VMware vSphere"
 
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Restore unsuccessful. Removing created vm and disks"
+msgstr ""
+
 #. Definition of "Hyper-V": This is a Virtual Machine hosting platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Hyper-V
 msgid "Restore virtual machines from the backup job into Hyper-V."
 msgstr "Vrati virtualne strojeve iz sigurnosne kopije u Hyper-V."
+
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+msgid "Restore virtual machines from the backup job into Proxmox."
+msgstr ""
 
 #. Definition of "VMware": This is a company that developers Virtual Machine software. The _V_ and _M_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware
 #. Definition of "vSphere": This is a range of Virtual Machine products and services from VMware. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware_vSphere
@@ -7366,6 +8563,11 @@ msgstr "Povrat %d mapa, %d datoteka u %s"
 #, c-format
 msgid "Restoring %s to %s"
 msgstr "Povrat %s to %s"
+
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#, c-format
+msgid "Restoring VM '%s' (ID: '%s') on node '%s' using storage '%s'"
+msgstr ""
 
 #. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
 #, c-format
@@ -7389,6 +8591,9 @@ msgstr "Ograniči sate"
 msgid "Restriction"
 msgstr "Ograničenje"
 
+msgid "Restrictions"
+msgstr ""
+
 msgid "Retention"
 msgstr "Retencija"
 
@@ -7402,6 +8607,13 @@ msgstr "Pravila retencije primjenjuje se individualno za svaku zaštićenu stavk
 
 msgid "Retention Range"
 msgstr "Raspon Retencije"
+
+#. Definition of "WebAuthn": This is a standard for two-factor authentication. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/WebAuthn
+msgid "Retry WebAuthn"
+msgstr ""
+
+msgid "Return backup agent to login screen"
+msgstr ""
 
 msgid "Revert to default"
 msgstr "Vrati na zadane vrijednosti"
@@ -7421,6 +8633,18 @@ msgstr "Rotiraj pristupne ključeve Spremnika pohrane nakon izostanka ažuriranj
 
 msgid "Rule"
 msgstr "Pravilo"
+
+msgid "Rule type"
+msgstr ""
+
+msgid "Rules"
+msgstr ""
+
+msgid "Rules (applied from top to bottom; later rules override earlier ones):"
+msgstr ""
+
+msgid "Rules are applied from top to bottom, and later rules override earlier ones. For each account and service, the last matching rule decides whether it is backed up. Anything not matched by any rule is not backed up."
+msgstr ""
 
 msgid "Run"
 msgstr "Izvrši"
@@ -7481,6 +8705,10 @@ msgstr "S3-kompatibilan"
 msgid "S3-compatible (Object Lock)"
 msgstr "S3-kompatibilno (Zaključavanje objekta)"
 
+#. Definition of "SAS Relic": The open-source codesigning server. It should not be translated. https://github.com/sassoftware/relic
+msgid "SAS Relic server"
+msgstr ""
+
 msgid "Sat"
 msgstr "Sub"
 
@@ -7501,6 +8729,9 @@ msgstr "Spremi"
 msgid "Save as"
 msgstr "Spremi kao"
 
+msgid "Save as saved search..."
+msgstr ""
+
 msgid "Save changes"
 msgstr "Spremi izmjene"
 
@@ -7512,6 +8743,10 @@ msgstr "Spremi Pravilo"
 
 msgid "Save report as..."
 msgstr "Spremi izvještaj kao..."
+
+#. noun, a saved job search. Used in "Add Saved Search", "Delete Saved Search", "Edit Saved Search".
+msgid "Saved Search"
+msgstr ""
 
 msgid "Saving updated index..."
 msgstr "Snimanje ažuriranih indeksa..."
@@ -7569,9 +8804,6 @@ msgstr "Termini"
 
 msgid "Scopes"
 msgstr "Opsezi"
-
-msgid "Screen resolution"
-msgstr "Rezolucija ekrana"
 
 msgid "Search"
 msgstr "Traži"
@@ -7647,11 +8879,6 @@ msgstr "Odaberi Certificate Authority datoteku..."
 msgid "Select a certificate file for the MySQL client certificate..."
 msgstr "Odaberi datoteku certifikata za MySQL klijentski certifikat..."
 
-#. Definition of "Mongo": MongoDB is a commercial database program. If an official translation is available, it should be used. https://www.mongodb.com/
-#. Definition of "mongodump": This is the name of MongoDB's built-in backup program. It should not be translated. If an official translation is available, it should be used. https://www.mongodb.com/
-msgid "Select a custom mongodump binary..."
-msgstr "Odaberi prilagođen mongodump binary..."
-
 #. Definition of "MySQL": This is a database server from Oracle, that uses the SQL language. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/MySQL
 #. Definition of "mysqldump": This is the name of MySQL's built-in backup program. It should not be translated. https://en.wikipedia.org/wiki/MySQL
 msgid "Select a custom mysqldump binary..."
@@ -7660,6 +8887,12 @@ msgstr "Odaberi prilagođen binarni mysqldump..."
 #. Definition of "known_hosts": This is the name of a file in the OpenSSH program. It should not be translated. https://man.openbsd.org/ssh
 msgid "Select a custom path to known_hosts file..."
 msgstr "Odaberi prilagođenu putanju do known_hosts datoteka..."
+
+msgid "Select a disk and a partition first."
+msgstr ""
+
+msgid "Select a disk first."
+msgstr ""
 
 msgid "Select a driver file to include in the USB Recovery Media"
 msgstr "Odaberite datoteku upravljačkog programa koju ćete uključiti u USB medij za oporavak"
@@ -7711,6 +8944,9 @@ msgstr "Odaberite trezor za pohranu za nastavak:"
 msgid "Select a top directory for your include filter rules"
 msgstr "Odaberi osnovnu mapu za uključena pravila filtriranja"
 
+msgid "Select a trusted-root certificate to include in the USB Recovery Media"
+msgstr ""
+
 msgid "Select a User Profile to register the device(s) with:"
 msgstr "Odaberi profil korisnika sa kojim prijavljuješ uređaj(e):"
 
@@ -7722,6 +8958,10 @@ msgstr "Odaberi dodatnu mapu koji ćete uključiti u USB medij za oporavak"
 
 msgid "Select an additional file to include in the USB Recovery Media"
 msgstr "Odaberi dodatnu datoteku koju ćete uključiti u USB medij za oporavak"
+
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "Select an existing partition. Use New Simple Volume to create one on unallocated space."
+msgstr ""
 
 #, qt-format
 msgid "Select an item from the list of %1."
@@ -7741,9 +8981,6 @@ msgstr "Odaberi osnovnu sliku operativnog sustava"
 
 msgid "Select by Drive Letter (advanced)"
 msgstr "Odaberi slovo diska (napredno)"
-
-msgid "Select columns..."
-msgstr "Odaberi kolone..."
 
 msgid "Select device:"
 msgstr "Odaberi uređaj:"
@@ -7779,10 +9016,6 @@ msgstr "Odaberi Stavke..."
 
 msgid "Select mailboxes..."
 msgstr "Odaberi sandučiće..."
-
-#. Definition of "Office 365": This is commercial platform from Microsoft. There is always a space between _Office_ and _365_ in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Office_365
-msgid "Select Office 365 Services"
-msgstr "Odaberi Office 365 usluge"
 
 msgid "Select Policy"
 msgstr "Odaberi pravila"
@@ -7838,6 +9071,11 @@ msgstr "Odaberi virtualne strojeve koje želiš zaštititi"
 msgid "Select virtual machines to restore into the hypervisor"
 msgstr "Odaberi virtualne strojeve za povrat u hipervizor"
 
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#. Definition of "VMs": Abbreviation of 'Virtual Machines'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Select VMs to back up"
+msgstr ""
+
 #. Definition of "VSS": This is a feature of Windows to assist in backing up files. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
 #. Definition of "VSS Writer": This is a type of driver installed in Windows to assist in backing up complex applications. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
 msgid "Select VSS Writer components for backup..."
@@ -7859,9 +9097,6 @@ msgstr "Odaberi %d od %d EDB baze(a) na serveru."
 #, c-format
 msgid "Selected %d of %d virtual machine(s)."
 msgstr "Odabrano %d od %d virtualnih stroja(eva)."
-
-msgid "Selected accounts are not same type"
-msgstr "Odabrani računi nisu iste vrste"
 
 #. Definition of "EDB": This is the file format used by the Exchange Server email server from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Exchange_Server
 #, c-format
@@ -7885,9 +9120,6 @@ msgstr "Odabrani virtualni stroj nije pronađen"
 #, c-format
 msgid "Selected virtual machine not found: '%s'"
 msgstr "Odabrani vritualni stroj nije pronađen: '%s'"
-
-msgid "Selections have been migrated"
-msgstr ""
 
 msgid "Send"
 msgstr "Pošalji"
@@ -7938,6 +9170,9 @@ msgstr "Adresa servera"
 msgid "Server CA file path"
 msgstr "Put CA datoteke poslužitelja"
 
+msgid "Server field is empty"
+msgstr ""
+
 msgid "Server has been upgraded, please log in again."
 msgstr "Server je nadograđen, molimo logirajte se ponovno."
 
@@ -7953,17 +9188,20 @@ msgstr "Server je pokrenut"
 msgid "Server Storage Settings"
 msgstr "Postavke pohrane poslužitelja"
 
+msgid "Server URL"
+msgstr ""
+
 msgid "Server version"
 msgstr "Verzija servera"
 
 msgid "Service"
 msgstr "Usluga"
 
+msgid "Service Board"
+msgstr ""
+
 msgid "Service bulletins are always enabled."
 msgstr "Bilten servis je uvijek uključen."
-
-msgid "Service Name"
-msgstr "Naziv usluge"
 
 msgid "Service started"
 msgstr "Servis je počeo"
@@ -7974,9 +9212,8 @@ msgstr "Zaustavljanje usluge uzrokovalo je otkazivanje"
 msgid "Service stopped"
 msgstr "Usluga je zaustavljena"
 
-#, qt-format
-msgid "Services of %1"
-msgstr "Usluge %1"
+msgid "Services"
+msgstr ""
 
 msgid "Session expired, please log in again."
 msgstr "Session je istekao, molimo logirajte se ponovno."
@@ -8018,6 +9255,12 @@ msgstr "SFTP"
 msgid "Share"
 msgstr "Dijeljenje"
 
+msgid "Shared"
+msgstr ""
+
+msgid "Shared Quota"
+msgstr ""
+
 #. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
 msgid "SharePoint"
 msgstr "SharePoint"
@@ -8034,16 +9277,11 @@ msgstr ""
 msgid "SharePoint sites"
 msgstr "SharePoint stranice"
 
-#. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
-msgid "SharePoint Team"
-msgstr ""
-
 msgid "Show"
 msgstr "Prikaži"
 
-#, c-format
-msgid "Show %d entries"
-msgstr "Prikaži %d stavaka"
+msgid "Show advanced actions"
+msgstr ""
 
 msgid "Show advanced options"
 msgstr "Prikaži napredne opcije"
@@ -8053,6 +9291,14 @@ msgstr "Prikaži sve"
 
 msgid "Show all drives"
 msgstr "Prikaži sve pogone"
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Show cloud storage branding in Storage Vaults"
+msgstr ""
+
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "Show deleted Protected Items"
+msgstr ""
 
 msgid "Show details"
 msgstr "Prikaži detalje"
@@ -8084,9 +9330,31 @@ msgstr "Prikaži Spremnike pohrane koji trenutno nisu povezani s ovim uređajem.
 msgid "Show unknown items"
 msgstr "Prikaži nepoznate stavke"
 
-#. Showing the first 1 to 5 entries in a table, out of 100 total results. 1=start 2=end 3=total
-msgid "Showing %[1]d to %[2]d of %[3]d entries"
-msgstr "Prikaz %[1]d do %[2]d od %[3]d stavaka"
+msgid "Showing default schedules from policy. These will be overridden if schedules are manually added to this item."
+msgstr ""
+
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+#, qt-format
+msgid "Shrink is not supported on %1 volumes."
+msgstr ""
+
+#, qt-format
+msgid "Shrink partition %1 on disk %2 by up to %3 MB. The filesystem may release less if unmovable files prevent the full shrink."
+msgstr ""
+
+msgid "Shrink requires a mounted filesystem — this partition has none."
+msgstr ""
+
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "Shrink Volume"
+msgstr ""
+
+#, qt-format
+msgid "Shrinking partition %1 on disk %2..."
+msgstr ""
+
+msgid "Shut down and restart server"
+msgstr ""
 
 msgid "Shut down server"
 msgstr "Isključi server"
@@ -8106,6 +9374,10 @@ msgstr "Samo potpis"
 msgid "Sign, notarise, and staple"
 msgstr "Potpišite, ovjerite i klamite"
 
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "Simple volume size in MB:"
+msgstr ""
+
 msgid "Simulate restore only"
 msgstr "Samo simuliraj vraćanje"
 
@@ -8114,6 +9386,9 @@ msgstr "Jednostrani"
 
 msgid "Single IP address"
 msgstr "Jednostrana IP adresa"
+
+msgid "Single-node mode requires a service-homogeneous selection; split mailbox and drive services into separate tasks."
+msgstr ""
 
 msgid "Site URL"
 msgstr "URL Sita"
@@ -8141,9 +9416,6 @@ msgstr "Preskoči Comet višefaktorsku autentifikaciju"
 msgid "Skip if already running"
 msgstr "Preskoči ako se već izvršava"
 
-msgid "Skip Setup"
-msgstr "Preskoči postavljanje"
-
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Skip this scheduled backup job if another backup job is already running for the same Protected Item and Storage Vault."
@@ -8152,6 +9424,17 @@ msgstr "Preskoči ovaj zakazani backup zadatak ako se drugi backup zadatak već 
 msgid "Skipped"
 msgstr "Preskočeno"
 
+msgid "Skipped (unsupported OS version)"
+msgstr ""
+
+msgid "Skipped (unsupported OS)"
+msgstr ""
+
+#. Definition of "OneDrive": This is a cloud storage platform from Microsoft. The _O_ and _D_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_OneDrive
+#, c-format
+msgid "Skipping %s: the OneDrive service is not selected for backup"
+msgstr ""
+
 #, c-format
 msgid "Skipping backupset '%s' for other machine '%s'"
 msgstr "Preskačem backupset '%s' za drugi stroj '%s'"
@@ -8159,6 +9442,18 @@ msgstr "Preskačem backupset '%s' za drugi stroj '%s'"
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Skipping cleanup (this Storage Vault is being cleaned up simultaneously)"
 msgstr "Preskačem čišćenje (ovaj Spremnik Pohrane je očišćen simultano)"
+
+#, c-format
+msgid "Skipping database with unsupported name %q: %s"
+msgstr ""
+
+#. Definition of "Slack": This is a commercial messaging and chat app. If an official translation is available, it should be used. https://slack.com/
+msgid "Slack"
+msgstr ""
+
+#. Definition of "Slack": This is a commercial messaging and chat app. If an official translation is available, it should be used. https://slack.com/
+msgid "Slack Webhook URL"
+msgstr ""
 
 msgid "Smaller filesize"
 msgstr "Manja veličina datoteke"
@@ -8198,15 +9493,19 @@ msgstr "Preuzimanje aplikacije zahtjeva autentifikaciju. Kopirana naredba će uk
 msgid "Some backup snapshots are non-restorable! Please contact your support agent for more information."
 msgstr "Neke backup snapshote nije moguće povratiti! Molimo kontaktirajte support za više informacija."
 
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#. Definition of "VMs": Abbreviation of 'Virtual Machines'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Some VMs have moved to a different node or been deleted. Your selection has been updated accordingly."
+msgstr ""
+
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#. Definition of "VMs": Abbreviation of 'Virtual Machines'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "Some VMs have moved to a different node. Your selection has been updated accordingly."
+msgstr ""
+
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Sorry, the current policy can not be copied, because the default schedule(s) bind with the specific Storage Vault(s) of the current user account."
 msgstr "Nažalost, trenutačno pravilo nije moguće kopirati jer se zadani raspored(i) vežu s određenim trezorom(ovima) za pohranu trenutačnog korisničkog računa."
-
-msgid "sort column ascending"
-msgstr "poredaj kolone uzlazno"
-
-msgid "sort column descending"
-msgstr "poredaj kolone silazno"
 
 msgid "Source"
 msgstr "Izvor"
@@ -8233,12 +9532,19 @@ msgstr "Cilj raspona %s (%s)"
 msgid "Spanned"
 msgstr "Obuhvaćen"
 
+msgid "Specific services"
+msgstr ""
+
 #. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
 msgid "Specified Volume:"
 msgstr "Odabrani Volume:"
 
 msgid "Specify Operating System"
 msgstr "Odaberi Operativni Sustav"
+
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "Specify Volume Size"
+msgstr ""
 
 msgid "Speed:"
 msgstr "Brzina:"
@@ -8293,11 +9599,11 @@ msgstr "Standardni"
 msgid "Start"
 msgstr "Pokreni"
 
+msgid "Start a new bulk update campaign automatically at server startup"
+msgstr ""
+
 msgid "Start campaign"
 msgstr "Pokrećem kampanju"
-
-msgid "Start Guide"
-msgstr "Vodič za početak"
 
 msgid "Start time"
 msgstr "Vrijeme početka"
@@ -8319,6 +9625,10 @@ msgstr "Pokretanje pozadinskih usluga..."
 msgid "Starting backup for '%s' (%s)..."
 msgstr "Započinjem backup za '%s' (%s)..."
 
+#, c-format
+msgid "Starting backup of mailbox %s (%s)"
+msgstr ""
+
 msgid "Starting backup..."
 msgstr "Pokrećem backup..."
 
@@ -8330,30 +9640,14 @@ msgid "Starting full backup for site %s (%s)"
 msgstr "Pokrećem backup za stranicu %s (%s)"
 
 #, c-format
-msgid "Starting full backup of mailbox %s (%s)"
-msgstr "Pokrećem puni backup poštanskog sandučića %s (%s)"
-
-msgid "Starting full mailbox backups..."
-msgstr "Pokrećem pune backupove poštanskih sandučića..."
-
-#, c-format
 msgid "Starting incremental backup for site %s (%s)"
 msgstr "Pokrećem inkrementalni backup za stranicu %s (%s)"
 
-#, c-format
-msgid "Starting incremental backup of mailbox %s (%s)"
-msgstr "Pokrećem inkrementalni backup poštanskog sandučića %s (%s)"
-
-msgid "Starting incremental mailbox backups..."
-msgstr "Pokrećem inkrementalne backupove poštanskih sandučića..."
+msgid "Starting mailbox backups..."
+msgstr ""
 
 msgid "Starting restore..."
 msgstr "Pokrećem restore..."
-
-#. Definition of "OneDrive": This is a cloud storage platform from Microsoft. The _O_ and _D_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_OneDrive
-#. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
-msgid "Starting SharePoint and OneDrive backups..."
-msgstr "Pokrećem SharePoint i OneDrive backupove..."
 
 msgid "Starting the operation..."
 msgstr "Početak operacije..."
@@ -8379,6 +9673,9 @@ msgstr "Boje statusa"
 
 msgid "Stay logged in for"
 msgstr "Ostani logiran još"
+
+msgid "Stop"
+msgstr ""
 
 msgid "Stop campaign"
 msgstr "Zaustavi kampanju"
@@ -8448,6 +9745,10 @@ msgid "Storage Vault ID"
 msgstr "ID Spremnika Pohrane"
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Storage Vault not found."
+msgstr ""
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Storage Vault Provisioning"
 msgstr "Dodjela Spremnika pohrane"
 
@@ -8456,12 +9757,24 @@ msgid "Storage Vault Quota"
 msgstr "Kvota Spremnika Pohrane"
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Storage Vault Selection Rule"
+msgstr ""
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Storage Vault Selection Rules consider:"
+msgstr ""
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Storage Vault Size"
 msgstr "Veličina Spremnika Pohrane"
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Storage Vault unlocked."
 msgstr "Spremnik Pohrane otključan."
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Storage Vault usage measurement is unavailable this cycle."
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "Storage Vaults"
@@ -8582,9 +9895,6 @@ msgstr "Symlink"
 msgid "Symlink (granular restore)"
 msgstr "Symlink (pojedinačni povrat)"
 
-msgid "Sync now"
-msgstr "Sinkronizuj sada"
-
 msgid "Synchronize the timezone"
 msgstr "Sinkronizirajte vremensku zonu"
 
@@ -8597,6 +9907,12 @@ msgstr "Sintaksna greška"
 
 msgid "System"
 msgstr "Sustav"
+
+msgid "System (custom)"
+msgstr ""
+
+msgid "System (root)"
+msgstr ""
 
 msgid "System Branding"
 msgstr "Brendiranje sustava"
@@ -8645,6 +9961,9 @@ msgstr "Verzija sustava"
 msgid "Tab icon"
 msgstr "Tab ikona"
 
+msgid "Tag"
+msgstr ""
+
 msgid "Take filesystem snapshot"
 msgstr "Snapshot datoteka sustava"
 
@@ -8678,6 +9997,9 @@ msgstr "Upravitelj zadataka"
 msgid "TB"
 msgstr "TB"
 
+msgid "Team"
+msgstr ""
+
 msgid "Team Site"
 msgstr ""
 
@@ -8687,6 +10009,9 @@ msgstr "Timovi"
 
 msgid "Template"
 msgstr "Predložak"
+
+msgid "Templates:"
+msgstr ""
 
 msgid "Temporary files are being used to reduce RAM consumption. The performance of this job may be reduced."
 msgstr "Privremene datoteke se koriste da bi smanjili potrošnju RAM-a. Učinak ovog posla može biti smanjen."
@@ -8738,6 +10063,12 @@ msgstr "Testiraj proces granularnog povrata bez spremanja vraćenih datoteka na 
 
 msgid "Test the restore process, without saving the restored files to the local disk."
 msgstr "Testiraj proces povrata bez spremanja vraćenih datoteka na lokalni disk."
+
+msgid "Testing Storage Gateway"
+msgstr ""
+
+msgid "Testing Storage Gateway changes, please wait..."
+msgstr ""
 
 #. The 'Text' option is a possible choice for exporting a report. If 'Text' is selected, the report would be exported in a plain-text file format.
 msgid "Text"
@@ -8809,6 +10140,10 @@ msgstr "\"Naziv spremnika\" ne smije počinjati crticom ili točkom niti završa
 msgid "The \"Key\" field cannot be empty."
 msgstr "Polje \"ključ\" ne smije biti prazno."
 
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "The \"Latest Storage Vault\" option will select first from vaults associated with a device (i.e. already in use by that device), if available."
+msgstr ""
+
 #, c-format
 msgid "The %s delegate service performs a broad set of tasks, such as running scheduled backup jobs, access control, and remote communication."
 msgstr "Usluga delegata %s obavlja širok niz zadataka, poput izvođenja zakazanih sigurnosnih kopija, kontrole pristupa i komunikacije na daljinu."
@@ -8873,6 +10208,9 @@ msgstr "Rezultati analize mogu biti zastarjeli."
 msgid "The application failed to commit a component into the VSS writer"
 msgstr "Aplikacija nije uspjela pokrenuti komponentu WSS writer-a"
 
+msgid "The application is already running."
+msgstr ""
+
 #. Definition of "VSS": This is a feature of Windows to assist in backing up files. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
 #. Definition of "VSS Writer": This is a type of driver installed in Windows to assist in backing up complex applications. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
 msgid "The application reported an error while committing a component into the VSS writer"
@@ -8894,6 +10232,9 @@ msgstr "Zadatak sigurnosne kopije konfiguriran je za pokretanje %d naredbi nakon
 msgid "The backup server's URL, with trailing slash"
 msgstr "URL backup servera sa vodećim slash znakovima"
 
+msgid "The backup task stream contained no backup tasks"
+msgstr ""
+
 msgid "The behaviour of other devices can affect your access to this vault. For the best experience, limit the number of devices accessing each vault."
 msgstr "Ponašanje drugih uređaja može utjecati na vaš pristup ovom spremniku. Za optimalno korištenje, ograničite broj uređaja koji pristupaju svakom spremniku."
 
@@ -8905,6 +10246,9 @@ msgstr "Zahtjev za prekidom ne može se ostvariti jer je uređaj isključen."
 
 msgid "The Cluster Manager is responsible for coordinating some inter-server cleanup tasks."
 msgstr "Upravitelj klastera odgovoran je za koordinaciju određenih zadataka čišćenja između servera."
+
+msgid "The code cannot be empty."
+msgstr ""
 
 msgid "The container will be automatically created if it does not exist."
 msgstr "Kontejner će biti automatski stvoren ako ne postoji."
@@ -8936,6 +10280,14 @@ msgstr "Datum mora biti nakon %s"
 msgid "The date must be before %s"
 msgstr "Datum mora biti prije %s"
 
+#, qt-format
+msgid "The destination '%1' is currently mounted and may be in use. Restoring over it will destroy its current contents. Are you sure you wish to continue?"
+msgstr ""
+
+#, c-format
+msgid "The destination '%s' is currently mounted and may be in use. Restoring over it will destroy its current contents. Are you sure you wish to continue?"
+msgstr ""
+
 msgid "The destination is a disk, but its child partition was already selected as a restore target."
 msgstr "Odredište je disk, ali njegova podređena particija već je odabrana kao cilj vraćanja."
 
@@ -8952,14 +10304,29 @@ msgstr "Uređaj nema zaštićenih stavki"
 msgid "The device is currently offline"
 msgstr "Uređaj je offline"
 
-msgid "The device is currently online"
-msgstr "Uređaj je online"
+msgid "The device is currently online, and was online at the expected job start time"
+msgstr ""
+
+msgid "The device is currently online, but had recent network connectivity issues"
+msgstr ""
+
+msgid "The device OS is below the minimum supported by the target software version."
+msgstr ""
 
 msgid "The device was found to be already running a target software version."
 msgstr "Uređaj već koristi ciljanu verziju softvera."
 
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+#, c-format
+msgid "The device's client version could not be verified. Rule-based selection requires client version %s or later; on older versions this Protected Item will not back up any accounts."
+msgstr ""
+
 msgid "The discovery document URL must be a valid URL."
 msgstr "URL dokumenta za otkrivanje mora biti važeći URL."
+
+#, c-format
+msgid "The disk snapshot for device '%s' became invalid while the backup was running: %s. Data read from this device during the backup may be incomplete."
+msgstr ""
 
 msgid "The download was blocked - please check the web browser's popup blocker."
 msgstr "Preuzimanje je blokirano - molimo provjerite blokator skočnih prozora web preglednika."
@@ -8977,12 +10344,31 @@ msgstr "Popis primatelja e-pošte ne može biti prazan"
 msgid "The email report configuration cannot be undefined"
 msgstr "Konfiguracija izvješća e-poštom ne može biti nedefinirana"
 
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "The existing selection for this Protected Item could not be converted to rule-based selection. Please try again."
+msgstr ""
+
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "The existing selection for this Protected Item could not be converted to rule-based selection:"
+msgstr ""
+
 #, c-format
 msgid "The file '%s' was renamed to '%s' because it contained characters that cannot be used on this operating system."
 msgstr "Datoteka '%s' je preimenovana u '%s' jer je sadržavala znakove koje ne možete koristiti na ovom operativnom sustavu."
 
+#, c-format
+msgid "The following fields are required: %s"
+msgstr ""
+
+msgid "The Gradient integration has been deprecated and is no longer functional. Please remove any Gradient entries from the list below."
+msgstr ""
+
 msgid "The group is empty"
 msgstr "Grupa je prazna"
+
+#. Definition of "API": An interface for programs to communicate with each other. https://en.wikipedia.org/wiki/API
+msgid "The identifier of the ConnectWise Manage company that tickets are raised against when a user's Account Name does not match any ConnectWise Manage company. Unlike Company ID above (which signs in to the API), this chooses who the ticket belongs to. If nothing is entered, tickets can only be created for users whose Account Name matches a ConnectWise Manage company."
+msgstr ""
 
 msgid "The input is too short."
 msgstr "Unos je prekratak."
@@ -9000,9 +10386,19 @@ msgstr "Upravljački program za snimku slike diska na Linuxu nije instaliran (%s
 msgid "The Linux Disk Image snapshot driver is not installed."
 msgstr "Upravljački program za snimku slike diska na Linuxu nije instaliran."
 
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "The live preview could not be updated. The rules will still be applied when the Protected Item is saved."
+msgstr ""
+
 #, c-format
 msgid "The maximum time to stay logged in is %d hours (%d minutes). The default session timeout is %d minutes."
 msgstr "Maksimalno vrijeme za prijavu je %d sati (%d minuta). Zadano trajanje sesije je %d minuta."
+
+msgid "The name cannot be empty."
+msgstr ""
+
+msgid "The name of the Service Board that tickets are created on. If nothing is entered, tickets are created on your ConnectWise Manage default Service Board."
+msgstr ""
 
 msgid "The new entry will appear immediately in the backup agent application."
 msgstr "Novi unos će se odmah pojaviti u aplikaciji backup agenta."
@@ -9016,6 +10412,14 @@ msgstr "Stavka novosti je dodana."
 msgid "The news item was removed."
 msgstr "Stavka novosti je uklonjena."
 
+#, qt-format
+msgid ""
+"The operation failed.\n"
+"\n"
+"diskpart output:\n"
+"%1"
+msgstr ""
+
 #, c-format
 msgid "The other cleanup job is still active, as of %s ago (below warning threshold)."
 msgstr "Drugi posao čišćenja i dalje je aktivan, od prije %s (ispod praga upozorenja)."
@@ -9024,8 +10428,19 @@ msgstr "Drugi posao čišćenja i dalje je aktivan, od prije %s (ispod praga upo
 msgid "The other job started at %s"
 msgstr "Drugi zadata je započeo u %s"
 
+msgid "The password reset will log out all connected devices. Are you sure you want to proceed?"
+msgstr ""
+
 msgid "The path could not be compiled"
 msgstr "Putanja ne može biti kompajlirana"
+
+#, c-format
+msgid "The previous backup job (%s) is pending deletion by a retention pass; skipping it for deduplication"
+msgstr ""
+
+#, c-format
+msgid "The previous backup job (%s) references %d pack(s) pending a cleanup re-check; skipping it for deduplication"
+msgstr ""
 
 msgid "The previous retention pass encountered an error"
 msgstr "Prethodni prolaz zadržavanja je javio grešku"
@@ -9047,6 +10462,9 @@ msgstr "Dostavljeni tajni ključ klijenta je istekao. Posjetite portal Azure da 
 msgid "The provided UNC credentials experienced an error: %s"
 msgstr "Dogodila se pogreška s unesenim UNC pristupnim podacima: %s."
 
+msgid "The raw event is delivered as a JSON object."
+msgstr ""
+
 #. Definition of "Comet": This terminology is specific to Comet Backup. It is the name of our company, and should not be translated.
 #. Definition of "Comet Server": This terminology is specific to Comet Backup. It is the name of our application, and should not be translated.
 msgid "The redirect URI must be configured at the OpenID Connect provider before it can be used to authenticate to Comet Server."
@@ -9058,6 +10476,9 @@ msgstr "Regex include putanja ne može biti kompajlirana"
 
 msgid "The remote update was skipped to avoid interrupting a running backup job on this device. The remote update will be retried after a few hours."
 msgstr "Daljinsko ažuriranje preskočeno je da se ne bi prekidalo izvršavanje sigurnosnih kopija na ovom uređaju. Daljinsko ažuriranje ponovo će se pokušati provesti nakon nekoliko sati."
+
+msgid "The requested object does not exist"
+msgstr ""
 
 msgid "The retention pass completed successfully."
 msgstr "Prolaz zadržavanja je uspješno završen."
@@ -9084,6 +10505,12 @@ msgstr ""
 msgid "The selected backup snapshot does not support directly restoring to the VM hypervisor."
 msgstr "Odabrani backup snimak ne podržava izravan povrat u VM hipervizor."
 
+msgid "The selected destination contains the currently running operating system, so it cannot be overwritten while the system is running. To restore over the operating system disk, boot the device from the recovery media."
+msgstr ""
+
+msgid "The selected destination contains the currently running operating system, so it cannot be overwritten while the system is running. To restore over the operating system disk, boot this computer from the recovery media."
+msgstr ""
+
 msgid "The selected device is running an older software version that does not support this feature. To use this option, please restore this snapshot using a different device."
 msgstr "Odabrani uređaj koristi stariju verziju softvera koja ne podržava ovu opciju. Za korištenje ove opcije, molimo izvršite povrat ove snimke pomoću drugog uređaja."
 
@@ -9094,10 +10521,18 @@ msgstr "Odbrani disk je samo za čitanje."
 msgid "The selected file '%s' was not found"
 msgstr "Odabrana datoteka '%s' nije pronađena"
 
+#. Definition of "Linux": The free operating system, an alternative to Windows or macOS. https://en.wikipedia.org/wiki/Linux
+msgid "The selected hypervisor does not support Linux Containers"
+msgstr ""
+
 #. Definition of "VSS": This is a feature of Windows to assist in backing up files. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
 #. Definition of "VSS Writer": This is a type of driver installed in Windows to assist in backing up complex applications. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
 msgid "The selected VSS writer was not found on the system"
 msgstr "Odabrani VSS writer nije pronađen u sistemu"
+
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "The selection configuration for this Protected Item could not be understood by this application."
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "The server address is not set in the Storage Vault configuration"
@@ -9107,6 +10542,10 @@ msgstr "Adresa poslužitelja nije postavljena u konfiguraciji Trezora pohrane"
 msgid "The settings for this Protected Item are currently being upgraded - please visit again later."
 msgstr "Postavke za ovu zaštićenu stavku trenutno se nadograđuju - posjetite ponovno kasnije."
 
+#. Definition of "API": An interface for programs to communicate with each other. https://en.wikipedia.org/wiki/API
+msgid "The short identifier of your own ConnectWise Manage company, used together with the API keys to sign in to the ConnectWise Manage API. This is who connects to ConnectWise Manage - to choose which company tickets are raised against, see the Ticket Company field below."
+msgstr ""
+
 msgid "The specified bucket could not be found."
 msgstr "Navedeni bucket nije pronađen."
 
@@ -9114,6 +10553,11 @@ msgstr "Navedeni bucket nije pronađen."
 #. Definition of "VSS Writer": This is a type of driver installed in Windows to assist in backing up complex applications. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
 msgid "The specified component was not exported by the VSS writer"
 msgstr "Specifična komponenta nije izvezen od strane VSS writer-a"
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+#, c-format
+msgid "The Storage Vault contains a damaged lock file (%s). Unlocking the Storage Vault will remove it."
+msgstr ""
 
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "The Storage Vault has been encrypted for the first time. Data is irrecoverable without the encryption key."
@@ -9126,6 +10570,11 @@ msgstr "Skladišni Spremnik Pohrane je samo za čitanje"
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
 msgid "The Storage Vault was already initialized, continuing with backup..."
 msgstr "Spremnik Pohrane je već inicjaliziran, nastavljam backup..."
+
+#. / TRANSLATORS: Shown when a Storage Vault's data has gone missing (e.g. an unmounted network drive) and we refuse to re-initialize it.
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "The Storage Vault was previously initialized, but its configuration is now missing. The storage location may be temporarily unavailable (for example, a network drive that is not currently mounted). Refusing to re-initialize, as this would create a new encryption key and make existing backups unrecoverable. Please check that the Storage Vault's data is present and accessible, then try again."
+msgstr ""
 
 msgid "The subject line is empty."
 msgstr "Podatak naziv je prazan."
@@ -9175,13 +10624,9 @@ msgstr "Vremenska zona je automatski određena prema vašem pregledniku."
 msgid "The timezone will be set automatically when a device logs in."
 msgstr "Vremenska zona će biti automatski postavljena kada se uređaj logira."
 
-#. Definition of "UNC": A 'UNC' path is a path for a file or folder on a network drive. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Path_(computing)#Universal_Naming_Convention
-msgid "The UNC share path was not configured"
-msgstr "UNC putanja za dijeljenje nije konfigurirana"
-
-#. Definition of "UNC": A 'UNC' path is a path for a file or folder on a network drive. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Path_(computing)#Universal_Naming_Convention
-msgid "The UNC username was not configured"
-msgstr "UNC korisničko ime nije konfigurirano"
+#. Definition of "HTTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
+msgid "The URL provided uses the insecure HTTP protocol. It is possible that attackers on the network may be able to intercept any messages. Are you sure you want to continue?"
+msgstr ""
 
 msgid "The user has no devices"
 msgstr "Korisnik nema uređaja"
@@ -9197,6 +10642,10 @@ msgstr "Vrijednost je prazna"
 #, c-format
 msgid "The virtual disk '%s' is a Generation 1 VHD. It will be converted to VHDX format during the backup."
 msgstr "Virtualni disk '%s' je VHD prve generacije. Bit će konvertiran u VHDX format tijekom backupa."
+
+#. Definition of "VSS": This is a feature of Windows to assist in backing up files. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
+msgid "The VSS provider did not return a snapshot device object"
+msgstr ""
 
 msgid "The webhook key cannot be empty."
 msgstr "Ključ web-dojavnika ne može biti prazan."
@@ -9241,12 +10690,20 @@ msgstr "Nema slobodnih kvota za izvršenje ovog zadatka. Reduciraj veličinu ost
 msgid "There's no free quota to run this job. Reduce the size of other VMware selection before retrying."
 msgstr "Nema slobodnih kvota za izvršenje ovog zadatka. Smanjite veličinu ostalih odabranih VMware stavki prije ponovnog pokušaja."
 
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+#, c-format
+msgid "There's no free quota to run this job. Reduce the size of Proxmox %s selection before retrying"
+msgstr ""
+
 msgid "These apply to all File and Folder backups run under this policy."
 msgstr "Ovo se odnosi na sve sigurnosne kopije datoteka i mapa koje se izvode prema ovom pravilu."
 
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "These backup schedules are applied to all new Protected Items. These are not applied retroactively to existing Protected Items."
 msgstr "Ovi rasporedi sigurnosnog kopiranja primjenjuju se na sve nove zaštićene stavke. Oni se ne primjenjuju retroaktivno na postojeće zaštićene stavke."
+
+msgid "These rules do not currently protect any accounts. Check the rule order: rules are applied from top to bottom, and later rules override earlier ones."
+msgstr ""
 
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 #. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
@@ -9264,6 +10721,9 @@ msgstr "Ove postavke ograničavaju I krajnjim korisnicima i administratorima pri
 msgid "These settings restrict several account-related actions, such as resetting passwords, accessing the application interface, etc."
 msgstr "Ove postavke ograničavaju nekoliko radnji povezanih s računom, poput ponovnog postavljanja lozinki, pristupa sučelju aplikacije itd."
 
+msgid "This account was not found in the organization"
+msgstr ""
+
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "This action will also remove all Protected Items for this device."
 msgstr "Ova radnja će također izbrisati sve Zaštićene Stavke za ovaj uređaj."
@@ -9276,6 +10736,14 @@ msgstr "Ova radnja će vas odspojti sa servera."
 
 msgid "This action will lock the app, so that your password is required to open it."
 msgstr "Ova radnja će zaključati aplikaciju, stoga je neophodno unjeti lozinku za njeno pokretanje."
+
+msgid "This action will restart the app and your password will be required to open it."
+msgstr ""
+
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "This affects Storage Vault Selection Rules used in policy default schedules and policy default Protected Items"
+msgstr ""
 
 msgid "This allows you to automatically exclude certain files and folders, handy for excluding files that cause errors and disruptions to backups."
 msgstr "To vam omogućuje automatsko izuzimanje određenih datoteka i mapa, što je zgodno za izuzimanje datoteka koje uzrokuju pogreške i smetnje u izradi sigurnosnih kopija."
@@ -9301,6 +10769,16 @@ msgstr "Ovo može spriječiti klijenta da izvrši backup ili restore sa ove dest
 msgid "This device"
 msgstr "Ovaj uređaj"
 
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+#, c-format
+msgid "This device is running client version %s, which does not support rule-based selection. Upgrade the device to %s or later before saving, or this Protected Item will not back up any accounts."
+msgstr ""
+
+#. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "This disk is managed by a higher-level volume manager (dynamic / LDM, Storage Spaces, or similar) and isn't safe for this tool to modify. Manage it from the source Windows install (diskmgmt.msc or PowerShell Storage-* cmdlets) before running a restore."
+msgstr ""
+
 msgid "This feature is not available on your PC."
 msgstr "Ova značajka nije dostupna na vašem računalu."
 
@@ -9309,6 +10787,12 @@ msgstr "Ova značajka nije dostupna s vašom trenutnom softverskom licencom. Nad
 
 msgid "This feature is strongly recommended to ensure that you can recover your system easily in disaster scenarios."
 msgstr "Ova značajka se izrazito preporučuje kako biste osigurali jednostavan oporavak sustava u slučaju katastrofe."
+
+msgid "This field is only visible to administrators."
+msgstr ""
+
+msgid "This field is visible to the end user via the backup client."
+msgstr ""
 
 msgid "This guide is only available on initial access to an empty/new server. Are you sure you wish to close it?"
 msgstr "Ovaj vodič je dostupan samo pri početnom pristupu praznom/novom poslužitelju. Jeste li sigurni da ga želite zatvoriti?"
@@ -9332,8 +10816,14 @@ msgstr "Ova slika biti će prikazana u start izborniku Windowsa 10."
 msgid "This is all I want to restore (WITH RECOVERY)"
 msgstr "Ovo je sve što želim vratiti (UZ OPORAVAK)"
 
+msgid "This is the only time the token value is shown. Store it securely - it cannot be retrieved again."
+msgstr ""
+
 msgid "This job has become inactive, or is experiencing communication issues."
 msgstr "Ovaj zadatak je postao neaktivan ili ima problema sa komunikacijom."
+
+msgid "This job has failed using both in-memory indexes and temporary file indexes. Please contact your system administrator as either more RAM or disk space is required for this job to complete."
+msgstr ""
 
 msgid "This job missed its retry attempt."
 msgstr "Zadatak nije izvršen prilikom ponovnog pokušaja."
@@ -9352,6 +10842,9 @@ msgstr "Ovaj zadatak je trebao biti zaustavljen, ali izgleda da još uvijek radi
 msgid "This Microsoft 365 Protected Item does not have anything selected for backup"
 msgstr ""
 
+msgid "This name is already in use. Please use a different name."
+msgstr ""
+
 msgid ""
 "This new device must be registered into your backup account.\n"
 "\n"
@@ -9360,6 +10853,9 @@ msgstr ""
 "Ovaj novi uređaj mora biti registriran unutar vašeg backup računa.\n"
 "\n"
 "Unesi naziv za novi uređaj:"
+
+msgid "This option cannot be changed via your own account."
+msgstr ""
 
 #. Definition of "EFS": Encrypting File System (EFS) is an encryption system built into Windows. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Encrypting_File_System
 msgid "This option disables the \"EFS-encrypted files may be unusable once restored...\" warning in the job report. Please ensure you have backed up the EFS encryption keys before enabling this option."
@@ -9382,6 +10878,10 @@ msgid "This partition uses a filesystem that is not supported for individual fil
 msgstr "Ova particija koristi datotečni sustav koji nije podržan za vraćanje pojedinačnih datoteka."
 
 #. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
+msgid "This Protected Item does not have anything selected for backup"
+msgstr ""
+
+#. Definition of "Protected Item": This terminology is specific to Comet Backup. It is a set of files the user has chosen to be backed up.
 msgid "This Protected Item is enforced via policy"
 msgstr "Ova zaštićena stavka provodi se putem pravila"
 
@@ -9391,6 +10891,9 @@ msgstr "Izvještaj je generiran u %s."
 
 msgid "This restore process can write to protected locations."
 msgstr "Proces vraćanja može zapisivati po zaštićenim lokacijama."
+
+msgid "This rule currently has no effect: everything it covers is overridden by a later rule, or it matches nothing."
+msgstr ""
 
 msgid "This server"
 msgstr "Ovaj server"
@@ -9456,6 +10959,16 @@ msgstr "Otisak palca"
 msgid "Thursday"
 msgstr "Četvrtak"
 
+msgid "Ticket Company"
+msgstr ""
+
+msgid "Tickets"
+msgstr ""
+
+#. Definition of "NinjaOne": This is a commercial RMM (Remote Monitoring and Management) platform. The _N_ and _O_ are both capitalized in this brand name. If an official translation is available, it should be used. https://www.ninjaone.com/
+msgid "Tickets are enabled, please load and select a NinjaOne organization"
+msgstr ""
+
 msgid "Tile background"
 msgstr "Tile pozadina"
 
@@ -9483,6 +10996,9 @@ msgstr "vremen(a)"
 msgid "Timed out"
 msgstr "Isteklo vrijeme"
 
+msgid "Timed speed limit window has an invalid time of day, ignoring"
+msgstr ""
+
 msgid "Timeout"
 msgstr "Pauza"
 
@@ -9505,6 +11021,13 @@ msgstr "Za pokretanje s ove slike diska potreban je %s BIOS mod"
 msgid "To dismiss this warning, please ensure you have backed up the EFS encryption keys, and then enable the '%s' option in the Protected Item settings."
 msgstr "Za onemogućavanje ovog upozorenja, osigurajte se da ste izvršili backup EFS enkripcijskog ključa, te zatim omogućite '%s' opciju u postavkama Zaštićene stavke."
 
+#. Definition of "Windows": The operating system from Microsoft. If an official translation is available, it should be used. https://microsoft.com/windows
+msgid "To enable, set up Windows codesigning in the Backup Agent Branding settings"
+msgstr ""
+
+msgid "To store data on this partition, you must format it first."
+msgstr ""
+
 msgid "To view current and historical job status:"
 msgstr "Za pregled trenutnog i povijesnog statusa posla:"
 
@@ -9517,6 +11040,16 @@ msgstr "Danas u %1"
 
 msgid "Toggle default"
 msgstr "Prebaci zadane postavke"
+
+msgid "Toggle dropdown"
+msgstr ""
+
+msgid "Token"
+msgstr ""
+
+#. Definition of "Exchange": This is an email server platform from Microsoft. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Microsoft_Exchange_Server
+msgid "Token exchange failed"
+msgstr ""
 
 msgid "Token label"
 msgstr "Oznaka tokena"
@@ -9573,8 +11106,8 @@ msgid "TOTP"
 msgstr "TOTP"
 
 #. Definition of "TOTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm
-msgid "TOTP Code"
-msgstr "TOTP kod"
+msgid "TOTP Code has already been used"
+msgstr ""
 
 msgid "TPM (Generic)"
 msgstr "TPM (generički)"
@@ -9615,6 +11148,9 @@ msgstr "Istina"
 msgid "Trust ID"
 msgstr "Trust ID"
 
+msgid "Trust X-Forwarded-For header"
+msgstr ""
+
 msgid "Tue"
 msgstr "Uto"
 
@@ -9649,6 +11185,13 @@ msgstr "Tip"
 msgid "Type the name of a program, folder, document, or Internet resource, and Windows will open it for you."
 msgstr "Upišite ime programa, mape, dokumenta ili Internet resursa i Windows će vam ga otvoriti."
 
+#. Definition of "Proxmox": This is a Virtual Machine and container hosting platform. Proxmox VE is short for Proxmox Virtual Environment. If an official translation is available, it should be used. https://www.proxmox.com/
+msgid "Unable to access the node from Proxmox. The node may be offline or unreachable."
+msgstr ""
+
+msgid "Unable to add device - contact your administrator for assistance"
+msgstr ""
+
 #, c-format
 msgid "Unable to back up extra permissions or metadata: %s"
 msgstr "Nije moguće sigurnosno kopirati dodatna dopuštenja ili metapodatke: %s"
@@ -9662,6 +11205,12 @@ msgstr "Nije moguće dobiti ukupan broj virtualnih strojeva."
 
 msgid "Unable to reach the system - please check the system log files for more information."
 msgstr "Nije moguće doći do sustava - molimo provjerite log datoteke sustava za više informacija."
+
+msgid "Unable to retrieve boot order"
+msgstr ""
+
+msgid "Unallocated"
+msgstr ""
 
 msgid "Unauthorised"
 msgstr "Neautorizirano"
@@ -9733,6 +11282,9 @@ msgstr "nepoznato"
 msgid "Unknown"
 msgstr "Nepoznato"
 
+msgid "Unknown archive file format for restore"
+msgstr ""
+
 #. Definition of "VMware": This is a company that developers Virtual Machine software. The _V_ and _M_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware
 #. Definition of "vSphere": This is a range of Virtual Machine products and services from VMware. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware_vSphere
 msgid "Unknown connection type for VMware vSphere."
@@ -9754,6 +11306,14 @@ msgstr "Nepoznata grupa"
 #. Definition of "MySQL": This is a database server from Oracle, that uses the SQL language. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/MySQL
 msgid "Unknown MySQL isolation mode"
 msgstr "Nepoznati MySQL izolacijski mod"
+
+#. / TRANSLATORS: %s is an unrecognized service-kind label supplied for a backup object
+#, c-format
+msgid "Unknown service kind '%s'"
+msgstr ""
+
+msgid "Unknown Source"
+msgstr ""
 
 msgid "Unlabelled disk"
 msgstr "Neoznačeni disk"
@@ -9830,6 +11390,9 @@ msgstr "Ažuriranje"
 msgid "Update Login URL"
 msgstr "Ažuriraj URL za prijavu"
 
+msgid "Update password for all connected devices"
+msgstr ""
+
 msgid "Update software"
 msgstr "Ažuriranje aplikacije"
 
@@ -9870,11 +11433,17 @@ msgstr "URL"
 msgid "URL Encoded"
 msgstr "URL kodiran"
 
+msgid "Usage"
+msgstr ""
+
 msgid "USB Recovery Media"
 msgstr "USB medij za oporavak"
 
 msgid "Use commas to separate multiple values"
 msgstr "Koristite zareze za odvajanje više vrijednosti"
+
+msgid "Use Local System for delegate service (optional)"
+msgstr ""
 
 #. Definition of "SSL": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Transport_Layer_Security
 msgid "Use SSL protocol"
@@ -9902,9 +11471,6 @@ msgstr "Koristite s pravilima životnog ciklusa B2 za čišćenje datoteka i gen
 msgid "Used"
 msgstr "Korišten"
 
-msgid "Used by"
-msgstr "Korišten od"
-
 msgid "User"
 msgstr "Korisnik"
 
@@ -9912,17 +11478,26 @@ msgstr "Korisnik"
 msgid "User \"%s\" on system \"%s\""
 msgstr "Korisnik \"%s\" na sustavu \"%s\""
 
+msgid "User / Account"
+msgstr ""
+
 msgid "User Account"
 msgstr "Korisnički Račun"
 
 msgid "User Accounts"
 msgstr "Korisnički računi"
 
+msgid "User and group ID"
+msgstr ""
+
 msgid "User authentication failed. Only emitted if the user exists. Resource is the requested path"
 msgstr "Autentifikacija korisnika nije uspjela. Emitira se samo ako korisnik postoji. Resurs je tražena staza"
 
 msgid "User authentication succeeded. Only emitted for non-session requests. Resource is the requested path"
 msgstr "Autentifikacija korisnika uspjela. Emitira se samo za zahtjeve koji nisu povezani sa sesijom. Resurs je tražena staza"
+
+msgid "User Authorization"
+msgstr ""
 
 msgid "User controlled"
 msgstr "Korisnički kontrolirano"
@@ -9953,6 +11528,9 @@ msgstr "Korisnička grupa je uklonjena"
 
 msgid "User Group updated"
 msgstr "Korisnička grupa je ažurirana"
+
+msgid "User ID"
+msgstr ""
 
 msgid "User locations"
 msgstr "Lokacija korisnika"
@@ -10087,6 +11665,9 @@ msgstr "Videozapisi"
 msgid "View"
 msgstr "Pregled"
 
+msgid "View and edit system settings"
+msgstr ""
+
 msgid "View last scan result"
 msgstr "Pregledaj posljednji rezultat skeniranja"
 
@@ -10095,6 +11676,12 @@ msgstr "Pregledaj log"
 
 msgid "View Members"
 msgstr "Pogledaj članove"
+
+msgid "View system history on dashboard"
+msgstr ""
+
+msgid "View system info on dashboard"
+msgstr ""
 
 msgid "View the conflicting job"
 msgstr "Pogledajte konfliktni zadatak"
@@ -10111,9 +11698,11 @@ msgstr "ID virtualnog stroja"
 msgid "Virtual Machines"
 msgstr "Virtualni strojevi"
 
-#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
-msgid "Virtual Storage Vaults"
-msgstr "Virtualni spremnici za pohranu"
+msgid "Visibility"
+msgstr ""
+
+msgid "Visible to user"
+msgstr ""
 
 #, c-format
 msgid "Visit the '%s' page of the '%s' menu."
@@ -10129,6 +11718,19 @@ msgstr "VM '%1'"
 msgid "VM '%s'"
 msgstr "VM '%s'"
 
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "VM Migration Detected"
+msgstr ""
+
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "VM Migration or Deletion Detected"
+msgstr ""
+
+#. Definition of "VM": Abbreviation of 'Virtual Machine'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+#. Definition of "VMs": Abbreviation of 'Virtual Machines'. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Virtual_machine
+msgid "VMs:"
+msgstr ""
+
 #. Definition of "VMware": This is a company that developers Virtual Machine software. The _V_ and _M_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware
 msgid "VMware"
 msgstr "VMware"
@@ -10142,8 +11744,8 @@ msgid "VMware datastores"
 msgstr "VMware pohrane podataka"
 
 #. Definition of "VMware": This is a company that developers Virtual Machine software. The _V_ and _M_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware
-msgid "VMware Guest"
-msgstr "VMware gost"
+msgid "VMware Guests"
+msgstr ""
 
 #. Definition of "VMware": This is a company that developers Virtual Machine software. The _V_ and _M_ are always capitalised in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/VMware
 msgid "VMware host systems"
@@ -10173,6 +11775,14 @@ msgstr "VMware vSphere"
 #. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
 msgid "Volume"
 msgstr "Volume"
+
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "Volume label (optional):"
+msgstr ""
+
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+msgid "Volume label:"
+msgstr ""
 
 #. Definition of "VSS": This is a feature of Windows to assist in backing up files. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/Shadow_Copy
 msgid "VSS Copy"
@@ -10243,6 +11853,9 @@ msgstr "Čekanje na završetak čišćenje Spremnika Pohrane..."
 msgid "Waiting to finish logging messages..."
 msgstr "Čekanje na završetak poruke logiranja..."
 
+msgid "Want help getting started?"
+msgstr ""
+
 msgid "Warning"
 msgstr "Upozorenje"
 
@@ -10253,12 +11866,37 @@ msgstr "UPOZORENJE"
 msgid "Warning while finding items to restore: %s"
 msgstr "Upozorenje pri pronalaženju stavki za restore: %s"
 
+#. Definition of "volume": A hard drive, or a filesystem, or a partition. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Volume_(computing)
+#, c-format
+msgid "Warning: destination '%s' is currently mounted. Restoring over a mounted volume will destroy its current contents."
+msgstr ""
+
+#. / TRANSLATORS: %s is the stable ID of a SharePoint site
+#. Definition of "SharePoint": This is a collaboration platform from Microsoft. The _S_ and _P_ are both capitalized in this brand name. If an official translation is available, it should be used. https://en.wikipedia.org/wiki/SharePoint
+#, c-format
+msgid "Warning: duplicate SharePoint site ID '%s' across supplied Version nodes; keeping the first occurrence"
+msgstr ""
+
+#, c-format
+msgid "Warning: invalid size specified for tpmstate drive (%dM). Assuming 4MB"
+msgstr ""
+
+msgid "Warning: No version specified for tpmstate drive. Assuming v2.0"
+msgstr ""
+
 #, c-format
 msgid "Warning: Only %s disk space is available"
 msgstr "Upozorenje: Samo %s diskovnog prostora je raspoloživo"
 
+#, c-format
+msgid "Warning: partition %s has negative size %d, skipping from size estimate"
+msgstr ""
+
 msgid "WARNING: Removing a target location from the Spanned group may prevent the application from finding data. When removing a target location, please ensure that all data is moved into one of the remaining target locations."
 msgstr "UPOZORENJE: Uklanjanje ciljane lokacije iz pokrivene grupe može spriječiti aplikaciju da pronađe podatke. Kada uklonite ciljanu lokaciju, provjerite jesu li svi podaci premješteni na jednu od preostalih ciljnih lokacija."
+
+msgid "Warning: the retention policy marked the just-composed snapshot for deletion; excluding it from removal"
+msgstr ""
 
 msgid "WARNING: This process cannot be undone."
 msgstr "UPOZORENJE: Ovaj postupak se ne može poništiti."
@@ -10315,11 +11953,12 @@ msgstr "Tjedni"
 msgid "Welcome"
 msgstr "Dobrodošli"
 
-msgid "Welcome to Your Server"
-msgstr "Dobrodošli na Vaš poslužitelj"
-
 msgid "What's New?"
 msgstr "Što ima novo?"
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "When enabled, the Storage Vault speed limit above only applies during the times selected here. Outside them the backup job runs at full speed. Requires a speed limit to be set."
+msgstr ""
 
 msgid "When PC starts"
 msgstr "Kada se PC pokrene"
@@ -10406,8 +12045,17 @@ msgstr "Obrađujem..."
 msgid "Worldwide (including GCC)"
 msgstr "U cijelom svijetu (uključujući GCC)"
 
+msgid "Would you like to also add this Storage Replication target to the Cluster Manager target list?"
+msgstr ""
+
+msgid "Would you like to also add this Storage Template destination to the Cluster Manager target list?"
+msgstr ""
+
 msgid "Would you like to continue?"
 msgstr "Želite li nastaviti?"
+
+msgid "Write access"
+msgstr ""
 
 #. Definition of "CSV": Abbreviation of 'Comma Separated Values' (*.csv), a simple file format for spreadsheet data. This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Comma-separated_values
 msgid "Wrong number of CSV columns"
@@ -10484,20 +12132,18 @@ msgstr "Postavili ste razdoblje zadržavanja Zaključavanja objekta na %d dana."
 msgid "You may need to reconfigure your Storage Gateway access key and secret key to use the root keys."
 msgstr "Možda ćete morati ponovo konfigurirati pristupni ključ i tajni ključ za vaš Storage Gateway kako biste koristili root ključeve."
 
+#, qt-format
+msgid "You must agree to continue using %1."
+msgstr ""
+
 msgid "You must choose a group or team account to view its members"
 msgstr ""
 
-msgid "You must choose one account to view its members"
-msgstr "Morate odabrati jedan račun da biste vidjeli njegove članove"
-
-msgid "You must select at least one item for editing"
-msgstr "Morate odabrati barem jednu stavku za uređivanje"
+msgid "You must select a rule to edit"
+msgstr ""
 
 msgid "You need to choose a storage location first."
 msgstr "Najprije morate odabrati mjesto za pohranu."
-
-msgid "You need to choose accounts with the same type for bulk editing"
-msgstr "Za skupno uređivanje morate odabrati račune iste vrste"
 
 #. Definition of "TOTP": This is a well-known industry term. There might be a well-known translation, or, it might be common to use the English term. https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm
 msgid "You only can disable TOTP here, not enable it."
@@ -10507,7 +12153,14 @@ msgstr "Ovdje možete samo isključiti TOTP."
 msgid "You only can disable WebAuthn here, not enable it."
 msgstr "Ovdje možete samo isključiti WebAuthn."
 
-msgid "You only can view members of one group account at a time"
+msgid "Your administrator requires the ability to reset your password. If you agree, an administrator will be able to reset your password at their discretion."
+msgstr ""
+
+#. Definition of "Storage Vault": This terminology is specific to Comet Backup. It is a place where data can be stored.
+msgid "Your administrator requires the ability to view your file names remotely. If you agree, an administrator will be able to browse the names of files in your Storage Vaults."
+msgstr ""
+
+msgid "Your current password is required"
 msgstr ""
 
 #, c-format
